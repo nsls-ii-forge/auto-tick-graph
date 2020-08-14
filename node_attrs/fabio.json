@@ -142,6 +142,7 @@
   }
  },
  "name":"fabio",
+ "new_version":"0.10.2",
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/silx-kit/fabio",

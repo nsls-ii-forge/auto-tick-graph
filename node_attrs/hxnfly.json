@@ -126,6 +126,7 @@
   }
  },
  "name":"hxnfly",
+ "new_version":"0.0.5",
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/NSLS-II-HXN/hxnfly",

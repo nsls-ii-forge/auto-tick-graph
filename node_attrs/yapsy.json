@@ -113,6 +113,7 @@
   }
  },
  "name":"yapsy",
+ "new_version":"1.12.2",
  "osx_64_meta_yaml":{
   "about":{
    "home":"http://yapsy.sourceforge.net",

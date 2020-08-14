@@ -158,6 +158,7 @@
   }
  },
  "name":"xraydb",
+ "new_version":"4.4.1",
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/xraypy/XrayDB",

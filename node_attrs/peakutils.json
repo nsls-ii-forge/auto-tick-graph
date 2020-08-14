@@ -129,6 +129,7 @@
   }
  },
  "name":"peakutils",
+ "new_version":"1.3.3",
  "osx_64_meta_yaml":{
   "about":{
    "description":"This package provides utilities related to the detection of peaks on\n1D data. Includes functions to estimate baselines, finding the\nindexes of peaks in the data and performing Gaussian fitting or centroid\ncomputation to further increase the resolution of the peak detection.\n",

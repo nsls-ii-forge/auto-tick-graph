@@ -157,6 +157,7 @@
   }
  },
  "name":"kafka-python",
+ "new_version":"2.0.1",
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/dpkp/kafka-python",

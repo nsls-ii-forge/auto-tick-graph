@@ -111,6 +111,7 @@
   }
  },
  "name":"logging_tree",
+ "new_version":"1.8.1",
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/brandon-rhodes/logging_tree",

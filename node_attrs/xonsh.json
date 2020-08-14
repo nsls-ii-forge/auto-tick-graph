@@ -170,6 +170,7 @@
   }
  },
  "name":"xonsh",
+ "new_version":"0.9.19",
  "osx_64_meta_yaml":{
   "about":{
    "description":"Xonsh is a Python-powered, cross-platform, Unix-gazing shell shell language\nand command prompt. The language is a superset of Python 3.4+ with\nadditional shell primitives that you are used to from Bash and IPython. It\nworks on all major systems including Linux, Mac OSX, and Windows. Xonsh is\nmeant for the daily use of experts and novices alike.\n",

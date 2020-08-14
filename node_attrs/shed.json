@@ -166,6 +166,7 @@
   }
  },
  "name":"shed",
+ "new_version":"0.7.4",
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/xpdAcq/SHED",

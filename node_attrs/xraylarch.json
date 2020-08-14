@@ -240,6 +240,7 @@
   }
  },
  "name":"xraylarch",
+ "new_version":"0.9.47",
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/xraypy/xraylarch",

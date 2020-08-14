@@ -119,6 +119,7 @@
   }
  },
  "name":"dpkt",
+ "new_version":"1.9.3",
  "osx_64_meta_yaml":{
   "about":{
    "description":"dpkt is a simple packet creation / parsing, with definitions for the basic TCP/IP protocols\nand is implemented in pure python\n",

@@ -113,6 +113,7 @@
   }
  },
  "name":"argh",
+ "new_version":"0.26.2",
  "osx_64_meta_yaml":{
   "about":{
    "home":"http://github.com/neithere/argh",

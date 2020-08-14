@@ -852,6 +852,7 @@
   }
  },
  "name":"clang_packages",
+ "new_version":"10.0.1",
  "osx_64_meta_yaml":{
   "about":{
    "home":"http://llvm.org/",

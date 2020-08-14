@@ -166,6 +166,7 @@
   }
  },
  "name":"eventlet",
+ "new_version":"0.26.1",
  "osx_64_meta_yaml":{
   "about":{
    "home":"http://eventlet.net",

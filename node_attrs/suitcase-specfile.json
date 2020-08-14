@@ -136,6 +136,7 @@
   }
  },
  "name":"suitcase-specfile",
+ "new_version":"0.2.3",
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/bluesky/suitcase-specfile",

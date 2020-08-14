@@ -741,6 +741,7 @@
   }
  },
  "name":"llvm-package",
+ "new_version":"10.0.1",
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/llvm-mirror/llvm",

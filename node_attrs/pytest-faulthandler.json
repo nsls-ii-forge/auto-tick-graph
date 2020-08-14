@@ -109,6 +109,7 @@
   }
  },
  "name":"pytest-faulthandler",
+ "new_version":"2.0.1",
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/pytest-dev/pytest-faulthandler",

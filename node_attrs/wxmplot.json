@@ -135,6 +135,7 @@
   }
  },
  "name":"wxmplot",
+ "new_version":"0.9.41",
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/newville/wxmplot",

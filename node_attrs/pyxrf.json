@@ -337,6 +337,7 @@
   }
  },
  "name":"pyxrf",
+ "new_version":"0.0.31",
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/NSLS-II/pyxrf",

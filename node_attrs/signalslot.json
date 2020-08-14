@@ -141,6 +141,7 @@
   }
  },
  "name":"signalslot",
+ "new_version":"0.1.2",
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/numergy/signalslot",

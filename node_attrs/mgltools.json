@@ -1,5 +1,5 @@
 {
- "bad":false,
+ "bad":"Upstream: unknown source",
  "conda-forge.yml":{
   "provider":{
    "linux":"azure",
@@ -101,6 +101,7 @@
   }
  },
  "name":"mgltools",
+ "new_version":false,
  "osx_64_meta_yaml":{
   "about":{
    "home":"http://mgltools.scripps.edu",

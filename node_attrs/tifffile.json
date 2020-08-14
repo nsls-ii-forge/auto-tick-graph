@@ -131,6 +131,7 @@
   }
  },
  "name":"tifffile",
+ "new_version":"2020.8.13",
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/blink1073/tifffile",

@@ -1,5 +1,5 @@
 {
- "bad":false,
+ "bad":"Upstream: unknown source",
  "conda-forge.yml":{
   "provider":{
    "linux":"azure",
@@ -132,6 +132,7 @@
   }
  },
  "name":"autodock",
+ "new_version":false,
  "osx_64_meta_yaml":{
   "about":{
    "home":"http://autodock.scripps.edu",

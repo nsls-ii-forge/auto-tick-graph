@@ -119,6 +119,7 @@
   }
  },
  "name":"semantic_version",
+ "new_version":"2.8.5",
  "osx_64_meta_yaml":{
   "about":{
    "description":"This small python library provides a few tools to handle SemVer in Python.\nIt follows strictly the 2.0.0 version of the SemVer scheme.\n",

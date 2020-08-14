@@ -116,6 +116,7 @@
   }
  },
  "name":"pyresttable",
+ "new_version":"2020.0.2",
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/prjemian/pyRestTable",

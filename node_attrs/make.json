@@ -1,5 +1,5 @@
 {
- "bad":false,
+ "bad":"Upstream: unknown source",
  "conda-forge.yml":{
   "provider":{
    "linux":"azure",
@@ -97,6 +97,7 @@
   }
  },
  "name":"make",
+ "new_version":false,
  "osx_64_meta_yaml":{
   "about":{
    "doc_url":"https://www.gnu.org/software/make/manual/",

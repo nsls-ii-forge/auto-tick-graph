@@ -172,6 +172,7 @@
   }
  },
  "name":"vispy",
+ "new_version":"0.6.4",
  "osx_64_meta_yaml":{
   "about":{
    "home":"http://vispy.org",

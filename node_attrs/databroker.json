@@ -300,6 +300,7 @@
   }
  },
  "name":"databroker",
+ "new_version":"1.0.6",
  "osx_64_meta_yaml":{
   "about":{
    "description":"A unified interface to the various data sources at NSLS-II.",

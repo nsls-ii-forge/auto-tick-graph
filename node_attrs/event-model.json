@@ -139,6 +139,7 @@
   }
  },
  "name":"event-model",
+ "new_version":"1.15.2",
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/bluesky/event-model",

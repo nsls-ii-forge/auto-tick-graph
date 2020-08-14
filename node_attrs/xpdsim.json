@@ -143,6 +143,7 @@
   }
  },
  "name":"xpdsim",
+ "new_version":"0.4.2",
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/xpdAcq/xpdSim",

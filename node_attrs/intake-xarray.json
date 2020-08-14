@@ -136,6 +136,7 @@
   }
  },
  "name":"intake-xarray",
+ "new_version":"0.3.1",
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/ContinuumIO/intake-xarray",

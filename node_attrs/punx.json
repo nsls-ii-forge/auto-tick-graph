@@ -166,6 +166,7 @@
   }
  },
  "name":"punx",
+ "new_version":"0.2.5",
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/prjemian/punx",

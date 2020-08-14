@@ -148,6 +148,7 @@
   }
  },
  "name":"asks",
+ "new_version":"2.4.8",
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/theelous3/asks",

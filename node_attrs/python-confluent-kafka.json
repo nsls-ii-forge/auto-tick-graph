@@ -138,6 +138,7 @@
   }
  },
  "name":"python-confluent-kafka",
+ "new_version":"1.5.0",
  "osx_64_meta_yaml":{
   "about":{
    "description":"Confluent's Kafka client for Python wraps the librdkafka C library,\nproviding full Kafka protocol support with great performance and\nreliability.\n",

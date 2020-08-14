@@ -113,6 +113,7 @@
   }
  },
  "name":"multio",
+ "new_version":"0.2.5",
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/theelous3/multio",

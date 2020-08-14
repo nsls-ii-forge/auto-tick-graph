@@ -1,5 +1,5 @@
 {
- "bad":false,
+ "bad":"Upstream: unknown source",
  "conda-forge.yml":{
   "provider":{
    "linux":"azure",
@@ -523,6 +523,7 @@
   }
  },
  "name":"gfortran_impl_osx-64",
+ "new_version":false,
  "osx_64_meta_yaml":{
   "about":{
    "home":"http://gcc.gnu.org/",

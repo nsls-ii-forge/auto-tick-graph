@@ -125,6 +125,7 @@
   }
  },
  "name":"overly",
+ "new_version":"0.1.85",
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/theelous3/overly",

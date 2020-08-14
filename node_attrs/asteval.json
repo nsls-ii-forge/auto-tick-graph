@@ -137,6 +137,7 @@
   }
  },
  "name":"asteval",
+ "new_version":"0.9.18",
  "osx_64_meta_yaml":{
   "about":{
    "description":"asteval is a simple and robust evaluator of\nPython expressions and statements, using Python's ast module.\n",

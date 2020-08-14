@@ -1,5 +1,5 @@
 {
- "bad":false,
+ "bad":"Upstream: unknown source",
  "conda-forge.yml":{
   "provider":{
    "linux":"azure",
@@ -171,6 +171,7 @@
   }
  },
  "name":"xraylib",
+ "new_version":false,
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/tschoonj/xraylib/wiki",

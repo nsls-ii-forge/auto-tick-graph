@@ -177,6 +177,7 @@
   }
  },
  "name":"atsas-pipelines",
+ "new_version":"0.1.0",
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/NSLS-II-LIX/atsas-pipelines",

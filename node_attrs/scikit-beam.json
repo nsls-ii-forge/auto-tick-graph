@@ -247,6 +247,7 @@
   }
  },
  "name":"scikit-beam",
+ "new_version":"0.0.22",
  "osx_64_meta_yaml":{
   "about":{
    "home":"http://scikit-beam.github.io/scikit-beam",

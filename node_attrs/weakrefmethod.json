@@ -131,6 +131,7 @@
   }
  },
  "name":"weakrefmethod",
+ "new_version":"1.0.3",
  "osx_64_meta_yaml":{
   "about":{
    "home":"http://github.com/twang817/weakrefmethod",

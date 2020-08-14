@@ -186,6 +186,7 @@
   }
  },
  "name":"asdf",
+ "new_version":"2.7.0",
  "osx_64_meta_yaml":{
   "about":{
    "description":"Python library for reading and writing ASDF files. The Advanced Scientific\nData Format (ASDF) is a next generation interchange format for scientific\ndata.\n",

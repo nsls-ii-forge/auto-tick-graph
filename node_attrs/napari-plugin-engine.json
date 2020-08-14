@@ -127,6 +127,7 @@
   }
  },
  "name":"napari-plugin-engine",
+ "new_version":"0.1.7",
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/napari/napari-plugin-engine",

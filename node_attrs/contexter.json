@@ -103,6 +103,7 @@
   }
  },
  "name":"contexter",
+ "new_version":"0.1.4",
  "osx_64_meta_yaml":{
   "about":{
    "description":"Contexter is a full replacement of the contextlib standard library module.\nIt comes with more features, a nicer API and full support for Python 2.5 up\nto 3.x from a single source file.\n",

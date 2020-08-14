@@ -130,6 +130,7 @@
   }
  },
  "name":"arpack-mpi",
+ "new_version":"3.7.0",
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/opencollab/arpack-ng",

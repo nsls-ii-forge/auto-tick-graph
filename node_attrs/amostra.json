@@ -167,6 +167,7 @@
   }
  },
  "name":"amostra",
+ "new_version":"1.0.1",
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://nsls-ii.github.io/amostra",

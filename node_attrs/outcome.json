@@ -125,6 +125,7 @@
   }
  },
  "name":"outcome",
+ "new_version":"1.0.1",
  "osx_64_meta_yaml":{
   "about":{
    "description":"Capture the outcome of Python function calls.",

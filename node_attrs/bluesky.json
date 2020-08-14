@@ -212,6 +212,7 @@
   }
  },
  "name":"bluesky",
+ "new_version":"1.6.5",
  "osx_64_meta_yaml":{
   "about":{
    "description":"A Python data collection interface for experimental science",

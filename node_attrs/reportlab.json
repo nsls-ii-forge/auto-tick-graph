@@ -194,6 +194,7 @@
   }
  },
  "name":"reportlab",
+ "new_version":"3.5.47",
  "osx_64_meta_yaml":{
   "about":{
    "doc_url":"https://www.reportlab.com/dev/docs",

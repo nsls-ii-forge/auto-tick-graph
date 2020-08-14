@@ -113,6 +113,7 @@
   }
  },
  "name":"xicam.catalogviewer",
+ "new_version":"1.0.3",
  "osx_64_meta_yaml":{
   "about":{
    "description":"A light plugin for a simple view of catalog contents independent of technique.\n",

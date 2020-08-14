@@ -158,6 +158,7 @@
   }
  },
  "name":"hunter",
+ "new_version":"3.1.3",
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/ionelmc/python-hunter",

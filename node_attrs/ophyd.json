@@ -146,6 +146,7 @@
   }
  },
  "name":"ophyd",
+ "new_version":"1.5.2",
  "osx_64_meta_yaml":{
   "about":{
    "description":"Ophyd - EPICS Client Abstractions",

@@ -151,6 +151,7 @@
   }
  },
  "name":"pyepics",
+ "new_version":"3.4.2",
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/pyepics/pyepics",

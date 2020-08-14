@@ -140,6 +140,7 @@
   }
  },
  "name":"pyfiglet",
+ "new_version":"0.8.post1",
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/pwaller/pyfiglet",

@@ -155,6 +155,7 @@
   }
  },
  "name":"hklpy",
+ "new_version":"0.3.14",
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/bluesky/hklpy",

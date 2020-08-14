@@ -130,6 +130,7 @@
   }
  },
  "name":"uncertainties",
+ "new_version":"3.1.4",
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://pypi.python.org/pypi/uncertainties",

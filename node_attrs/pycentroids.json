@@ -186,6 +186,7 @@
   }
  },
  "name":"pycentroids",
+ "new_version":"0.1.12",
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/NSLS-II/centroids",

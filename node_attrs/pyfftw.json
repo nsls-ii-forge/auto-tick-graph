@@ -126,6 +126,7 @@
   }
  },
  "name":"pyfftw",
+ "new_version":"0.12.0",
  "osx_64_meta_yaml":{
   "about":{
    "home":"http://hgomersall.github.com/pyFFTW/",

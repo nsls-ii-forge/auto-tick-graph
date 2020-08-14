@@ -138,6 +138,7 @@
   }
  },
  "name":"ipympl",
+ "new_version":"0.5.7",
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/matplotlib/jupyter-matplotlib",

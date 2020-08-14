@@ -135,6 +135,7 @@
   }
  },
  "name":"tenacity",
+ "new_version":"6.2.0",
  "osx_64_meta_yaml":{
   "about":{
    "description":"Tenacity is general-purpose retrying library, written in Python, to simplify the task of\nadding retry behavior to just about anything. It originates from a fork of Retrying\n",

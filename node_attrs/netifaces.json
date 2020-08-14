@@ -121,6 +121,7 @@
   }
  },
  "name":"netifaces",
+ "new_version":"0.10.9",
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/al45tair/netifaces",

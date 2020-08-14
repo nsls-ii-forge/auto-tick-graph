@@ -233,6 +233,7 @@
   }
  },
  "name":"pykern",
+ "new_version":"20200805.224948",
  "osx_64_meta_yaml":{
   "about":{
    "home":"http://pykern.org",

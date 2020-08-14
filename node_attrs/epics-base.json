@@ -1,5 +1,5 @@
 {
- "bad":false,
+ "bad":"Upstream: unknown source",
  "conda-forge.yml":{
   "provider":{
    "linux":"azure",
@@ -423,6 +423,7 @@
   }
  },
  "name":"epics-base",
+ "new_version":false,
  "osx_64_meta_yaml":{
   "about":{
    "home":"http://www.aps.anl.gov/epics",

@@ -131,6 +131,7 @@
   }
  },
  "name":"suitcase-jsonl",
+ "new_version":"0.2.0",
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/bluesky/suitcase-jsonl",

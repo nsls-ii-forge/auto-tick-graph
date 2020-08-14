@@ -143,6 +143,7 @@
   }
  },
  "name":"py4xs",
+ "new_version":"2020.5.15.0",
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/NSLS-II-LIX/py4xs",

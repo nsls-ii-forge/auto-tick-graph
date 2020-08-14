@@ -135,6 +135,7 @@
   }
  },
  "name":"boltons",
+ "new_version":"19.2.0",
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/mahmoud/boltons",

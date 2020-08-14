@@ -182,6 +182,7 @@
   }
  },
  "name":"imagecodecs",
+ "new_version":"2020.5.30",
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://www.lfd.uci.edu/~gohlke/",

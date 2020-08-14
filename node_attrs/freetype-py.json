@@ -129,6 +129,7 @@
   }
  },
  "name":"freetype-py",
+ "new_version":"2.2.0",
  "osx_64_meta_yaml":{
   "about":{
    "description":"Freetype Python provides bindings for the FreeType library.\nOnly the high-level API is bound.\n",

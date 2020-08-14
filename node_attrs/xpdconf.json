@@ -117,6 +117,7 @@
   }
  },
  "name":"xpdconf",
+ "new_version":"0.4.1",
  "osx_64_meta_yaml":{
   "about":{
    "license_file":"LICENSE",

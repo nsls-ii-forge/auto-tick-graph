@@ -117,6 +117,7 @@
   }
  },
  "name":"sniffio",
+ "new_version":"1.1.0",
  "osx_64_meta_yaml":{
   "about":{
    "doc_url":"https://sniffio.readthedocs.io",

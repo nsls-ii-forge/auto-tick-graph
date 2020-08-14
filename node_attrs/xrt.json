@@ -200,6 +200,7 @@
   }
  },
  "name":"xrt",
+ "new_version":"1.3.4",
  "osx_64_meta_yaml":{
   "about":{
    "description":"Package xrt (XRayTracer) is a python software library for ray tracing and\nwave propagation in x-ray regime. It is primarily meant for modeling\nsynchrotron sources, beamlines and beamline elements. Includes a GUI for\ncreating a beamline and interactively viewing it in 3D.\n",

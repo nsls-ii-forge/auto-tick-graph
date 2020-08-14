@@ -178,6 +178,7 @@
   }
  },
  "name":"pygobject",
+ "new_version":"3.32.2",
  "osx_64_meta_yaml":{
   "about":{
    "home":"http://www.gtk.org",

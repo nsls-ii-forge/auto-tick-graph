@@ -123,6 +123,7 @@
   }
  },
  "name":"qt5reactor",
+ "new_version":"0.6.1",
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/sunu/qt5reactor",

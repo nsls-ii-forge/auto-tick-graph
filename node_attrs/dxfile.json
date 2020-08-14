@@ -124,6 +124,7 @@
   }
  },
  "name":"dxfile",
+ "new_version":"0.5",
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/data-exchange/dxfile",
