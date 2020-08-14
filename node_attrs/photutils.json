@@ -1,0 +1,545 @@
+{
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "linux":"azure",
+   "osx":"azure",
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"photutils",
+ "hash_type":"sha256",
+ "linux_64_meta_yaml":{
+  "about":{
+   "description":"Photutils is an Astropy package for detection and photometry of\nastronomical sources.\n",
+   "dev_url":"https://github.com/astropy/photutils",
+   "doc_url":"https://photutils.readthedocs.io/",
+   "home":"https://photutils.readthedocs.io/",
+   "license":"BSD 3-clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.rst",
+   "summary":"An Astropy package for photometry"
+  },
+  "build":{
+   "number":"1",
+   "script":"python setup.py install --offline --single-version-externally-managed --record=files.txt"
+  },
+  "package":{
+   "name":"photutils",
+   "version":"0.7.2"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub"
+   ],
+   "host":[
+    "python",
+    "pip",
+    "cython",
+    "numpy >=1.13",
+    "setuptools"
+   ],
+   "run":[
+    "python",
+    "astropy >=3.2",
+    "gwcs >=0.11",
+    "matplotlib-base >=2.2",
+    "numpy >=1.13",
+    "scikit-image >=0.14.2",
+    "scikit-learn",
+    "scipy"
+   ]
+  },
+  "source":{
+   "sha256":"1305bc4b6bc8a22bfbd14c76a286a5c6e64d1921a99dec7d7036afc93cb8effe",
+   "url":"https://pypi.io/packages/source/p/photutils/photutils-0.7.2.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "photutils",
+    "photutils.aperture",
+    "photutils.background",
+    "photutils.centroids",
+    "photutils.datasets",
+    "photutils.detection",
+    "photutils.extern",
+    "photutils.geometry",
+    "photutils.isophote",
+    "photutils.morphology",
+    "photutils.psf",
+    "photutils.psf.matching",
+    "photutils.segmentation",
+    "photutils.utils"
+   ],
+   "requires":[
+    "pytest-astropy"
+   ]
+  }
+ },
+ "linux_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "numpy",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astropy",
+    "gwcs",
+    "matplotlib-base",
+    "numpy",
+    "python",
+    "scikit-image",
+    "scikit-learn",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest-astropy"
+   ]
+  }
+ },
+ "meta_yaml":{
+  "about":{
+   "description":"Photutils is an Astropy package for detection and photometry of\nastronomical sources.\n",
+   "dev_url":"https://github.com/astropy/photutils",
+   "doc_url":"https://photutils.readthedocs.io/",
+   "home":"https://photutils.readthedocs.io/",
+   "license":"BSD 3-clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.rst",
+   "summary":"An Astropy package for photometry"
+  },
+  "build":{
+   "number":"1",
+   "script":"python setup.py install --offline --single-version-externally-managed --record=files.txt"
+  },
+  "package":{
+   "name":"photutils",
+   "version":"0.7.2"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub",
+    "c_compiler_stub",
+    "c_compiler_stub"
+   ],
+   "host":[
+    "python",
+    "pip",
+    "cython",
+    "numpy >=1.13",
+    "setuptools",
+    "python",
+    "pip",
+    "cython",
+    "numpy >=1.13",
+    "setuptools",
+    "python",
+    "pip",
+    "cython",
+    "numpy >=1.13",
+    "setuptools"
+   ],
+   "run":[
+    "python",
+    "astropy >=3.2",
+    "gwcs >=0.11",
+    "matplotlib-base >=2.2",
+    "numpy >=1.13",
+    "scikit-image >=0.14.2",
+    "scikit-learn",
+    "scipy",
+    "python",
+    "astropy >=3.2",
+    "gwcs >=0.11",
+    "matplotlib-base >=2.2",
+    "numpy >=1.13",
+    "scikit-image >=0.14.2",
+    "scikit-learn",
+    "scipy",
+    "python",
+    "astropy >=3.2",
+    "gwcs >=0.11",
+    "matplotlib-base >=2.2",
+    "numpy >=1.13",
+    "scikit-image >=0.14.2",
+    "scikit-learn",
+    "scipy"
+   ]
+  },
+  "source":{
+   "sha256":"1305bc4b6bc8a22bfbd14c76a286a5c6e64d1921a99dec7d7036afc93cb8effe",
+   "url":"https://pypi.io/packages/source/p/photutils/photutils-0.7.2.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "photutils",
+    "photutils.aperture",
+    "photutils.background",
+    "photutils.centroids",
+    "photutils.datasets",
+    "photutils.detection",
+    "photutils.extern",
+    "photutils.geometry",
+    "photutils.isophote",
+    "photutils.morphology",
+    "photutils.psf",
+    "photutils.psf.matching",
+    "photutils.segmentation",
+    "photutils.utils",
+    "photutils",
+    "photutils.aperture",
+    "photutils.background",
+    "photutils.centroids",
+    "photutils.datasets",
+    "photutils.detection",
+    "photutils.extern",
+    "photutils.geometry",
+    "photutils.isophote",
+    "photutils.morphology",
+    "photutils.psf",
+    "photutils.psf.matching",
+    "photutils.segmentation",
+    "photutils.utils",
+    "photutils",
+    "photutils.aperture",
+    "photutils.background",
+    "photutils.centroids",
+    "photutils.datasets",
+    "photutils.detection",
+    "photutils.extern",
+    "photutils.geometry",
+    "photutils.isophote",
+    "photutils.morphology",
+    "photutils.psf",
+    "photutils.psf.matching",
+    "photutils.segmentation",
+    "photutils.utils"
+   ],
+   "requires":[
+    "pytest-astropy",
+    "pytest-astropy",
+    "pytest-astropy"
+   ]
+  }
+ },
+ "name":"photutils",
+ "osx_64_meta_yaml":{
+  "about":{
+   "description":"Photutils is an Astropy package for detection and photometry of\nastronomical sources.\n",
+   "dev_url":"https://github.com/astropy/photutils",
+   "doc_url":"https://photutils.readthedocs.io/",
+   "home":"https://photutils.readthedocs.io/",
+   "license":"BSD 3-clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.rst",
+   "summary":"An Astropy package for photometry"
+  },
+  "build":{
+   "number":"1",
+   "script":"python setup.py install --offline --single-version-externally-managed --record=files.txt"
+  },
+  "package":{
+   "name":"photutils",
+   "version":"0.7.2"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub"
+   ],
+   "host":[
+    "python",
+    "pip",
+    "cython",
+    "numpy >=1.13",
+    "setuptools"
+   ],
+   "run":[
+    "python",
+    "astropy >=3.2",
+    "gwcs >=0.11",
+    "matplotlib-base >=2.2",
+    "numpy >=1.13",
+    "scikit-image >=0.14.2",
+    "scikit-learn",
+    "scipy"
+   ]
+  },
+  "source":{
+   "sha256":"1305bc4b6bc8a22bfbd14c76a286a5c6e64d1921a99dec7d7036afc93cb8effe",
+   "url":"https://pypi.io/packages/source/p/photutils/photutils-0.7.2.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "photutils",
+    "photutils.aperture",
+    "photutils.background",
+    "photutils.centroids",
+    "photutils.datasets",
+    "photutils.detection",
+    "photutils.extern",
+    "photutils.geometry",
+    "photutils.isophote",
+    "photutils.morphology",
+    "photutils.psf",
+    "photutils.psf.matching",
+    "photutils.segmentation",
+    "photutils.utils"
+   ],
+   "requires":[
+    "pytest-astropy"
+   ]
+  }
+ },
+ "osx_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "numpy",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astropy",
+    "gwcs",
+    "matplotlib-base",
+    "numpy",
+    "python",
+    "scikit-image",
+    "scikit-learn",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest-astropy"
+   ]
+  }
+ },
+ "raw_meta_yaml":"{% set name = \"photutils\" %}\n{% set version = \"0.7.2\" %}\n{% set sha256 = \"1305bc4b6bc8a22bfbd14c76a286a5c6e64d1921a99dec7d7036afc93cb8effe\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 1\n  # Note: pip-based install fails due to wanting to download astropy-helpers\n  script: python setup.py install --offline --single-version-externally-managed --record=files.txt\n  skip: true  # [py<36]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - python\n    - pip\n    - cython\n    - numpy >=1.13\n    - setuptools\n  run:\n    - python\n    - astropy >=3.2\n    - gwcs >=0.11\n    - matplotlib-base >=2.2\n    - numpy >=1.13\n    - scikit-image >=0.14.2\n    - scikit-learn\n    - scipy\n\ntest:\n  requires:\n    - pytest-astropy\n  imports:\n    - photutils\n    - photutils.aperture\n    - photutils.background\n    - photutils.centroids\n    - photutils.datasets\n    - photutils.detection\n    - photutils.extern\n    - photutils.geometry\n    - photutils.isophote\n    - photutils.morphology\n    - photutils.psf\n    - photutils.psf.matching\n    - photutils.segmentation\n    - photutils.utils\n\nabout:\n  home: https://photutils.readthedocs.io/\n  license: BSD 3-clause\n  license_family: BSD\n  license_file: LICENSE.rst\n  summary: An Astropy package for photometry\n  description: |\n    Photutils is an Astropy package for detection and photometry of\n    astronomical sources.\n  doc_url: https://photutils.readthedocs.io/\n  dev_url: https://github.com/astropy/photutils\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "astropy",
+   "c_compiler_stub",
+   "cython",
+   "gwcs",
+   "matplotlib-base",
+   "numpy",
+   "pip",
+   "python",
+   "scikit-image",
+   "scikit-learn",
+   "scipy",
+   "setuptools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "numpy",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astropy",
+    "gwcs",
+    "matplotlib-base",
+    "numpy",
+    "python",
+    "scikit-image",
+    "scikit-learn",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest-astropy"
+   ]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "numpy >=1.13",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astropy >=3.2",
+    "gwcs >=0.11",
+    "matplotlib-base >=2.2",
+    "numpy >=1.13",
+    "python",
+    "scikit-image >=0.14.2",
+    "scikit-learn",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest-astropy"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/p/photutils/photutils-0.7.2.tar.gz",
+ "version":"0.7.2",
+ "win_64_meta_yaml":{
+  "about":{
+   "description":"Photutils is an Astropy package for detection and photometry of\nastronomical sources.\n",
+   "dev_url":"https://github.com/astropy/photutils",
+   "doc_url":"https://photutils.readthedocs.io/",
+   "home":"https://photutils.readthedocs.io/",
+   "license":"BSD 3-clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.rst",
+   "summary":"An Astropy package for photometry"
+  },
+  "build":{
+   "number":"1",
+   "script":"python setup.py install --offline --single-version-externally-managed --record=files.txt"
+  },
+  "package":{
+   "name":"photutils",
+   "version":"0.7.2"
+  },
+  "requirements":{
+   "build":[
+    "c_compiler_stub"
+   ],
+   "host":[
+    "python",
+    "pip",
+    "cython",
+    "numpy >=1.13",
+    "setuptools"
+   ],
+   "run":[
+    "python",
+    "astropy >=3.2",
+    "gwcs >=0.11",
+    "matplotlib-base >=2.2",
+    "numpy >=1.13",
+    "scikit-image >=0.14.2",
+    "scikit-learn",
+    "scipy"
+   ]
+  },
+  "source":{
+   "sha256":"1305bc4b6bc8a22bfbd14c76a286a5c6e64d1921a99dec7d7036afc93cb8effe",
+   "url":"https://pypi.io/packages/source/p/photutils/photutils-0.7.2.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "photutils",
+    "photutils.aperture",
+    "photutils.background",
+    "photutils.centroids",
+    "photutils.datasets",
+    "photutils.detection",
+    "photutils.extern",
+    "photutils.geometry",
+    "photutils.isophote",
+    "photutils.morphology",
+    "photutils.psf",
+    "photutils.psf.matching",
+    "photutils.segmentation",
+    "photutils.utils"
+   ],
+   "requires":[
+    "pytest-astropy"
+   ]
+  }
+ },
+ "win_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "c_compiler_stub"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "cython",
+    "numpy",
+    "pip",
+    "python",
+    "setuptools"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "astropy",
+    "gwcs",
+    "matplotlib-base",
+    "numpy",
+    "python",
+    "scikit-image",
+    "scikit-learn",
+    "scipy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pytest-astropy"
+   ]
+  }
+ }
+}

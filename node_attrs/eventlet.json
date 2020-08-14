@@ -1,0 +1,393 @@
+{
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "linux":"azure",
+   "osx":"azure",
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"eventlet",
+ "hash_type":"sha256",
+ "linux_64_meta_yaml":{
+  "about":{
+   "home":"http://eventlet.net",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Highly concurrent networking library"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv "
+  },
+  "package":{
+   "name":"eventlet",
+   "version":"0.25.1"
+  },
+  "requirements":{
+   "build":[
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "greenlet >=0.3",
+    "dnspython >=1.15.0",
+    "monotonic >=1.4",
+    "six >=1.10.0",
+    "pyopenssl"
+   ]
+  },
+  "source":{
+   "sha256":"6c9c625af48424c4680d89314dbe45a76cc990cf002489f9469ff214b044ffc1",
+   "url":"https://pypi.io/packages/source/e/eventlet/eventlet-0.25.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "eventlet",
+    "eventlet.green",
+    "eventlet.green.OpenSSL",
+    "eventlet.green.http",
+    "eventlet.green.urllib",
+    "eventlet.greenio",
+    "eventlet.hubs",
+    "eventlet.support"
+   ]
+  }
+ },
+ "linux_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dnspython",
+    "greenlet",
+    "monotonic",
+    "pyopenssl",
+    "python",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "meta_yaml":{
+  "about":{
+   "home":"http://eventlet.net",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Highly concurrent networking library"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv "
+  },
+  "package":{
+   "name":"eventlet",
+   "version":"0.25.1"
+  },
+  "requirements":{
+   "build":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "greenlet >=0.3",
+    "dnspython >=1.15.0",
+    "monotonic >=1.4",
+    "six >=1.10.0",
+    "pyopenssl",
+    "python",
+    "greenlet >=0.3",
+    "dnspython >=1.15.0",
+    "monotonic >=1.4",
+    "six >=1.10.0",
+    "pyopenssl",
+    "python",
+    "greenlet >=0.3",
+    "dnspython >=1.15.0",
+    "monotonic >=1.4",
+    "six >=1.10.0",
+    "pyopenssl"
+   ]
+  },
+  "source":{
+   "sha256":"6c9c625af48424c4680d89314dbe45a76cc990cf002489f9469ff214b044ffc1",
+   "url":"https://pypi.io/packages/source/e/eventlet/eventlet-0.25.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "eventlet",
+    "eventlet.green",
+    "eventlet.green.OpenSSL",
+    "eventlet.green.http",
+    "eventlet.green.urllib",
+    "eventlet.greenio",
+    "eventlet.hubs",
+    "eventlet.support",
+    "eventlet",
+    "eventlet.green",
+    "eventlet.green.OpenSSL",
+    "eventlet.green.http",
+    "eventlet.green.urllib",
+    "eventlet.greenio",
+    "eventlet.hubs",
+    "eventlet.support",
+    "eventlet",
+    "eventlet.green",
+    "eventlet.green.OpenSSL",
+    "eventlet.green.http",
+    "eventlet.green.urllib",
+    "eventlet.greenio",
+    "eventlet.hubs",
+    "eventlet.support"
+   ]
+  }
+ },
+ "name":"eventlet",
+ "osx_64_meta_yaml":{
+  "about":{
+   "home":"http://eventlet.net",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Highly concurrent networking library"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv "
+  },
+  "package":{
+   "name":"eventlet",
+   "version":"0.25.1"
+  },
+  "requirements":{
+   "build":[
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "greenlet >=0.3",
+    "dnspython >=1.15.0",
+    "monotonic >=1.4",
+    "six >=1.10.0",
+    "pyopenssl"
+   ]
+  },
+  "source":{
+   "sha256":"6c9c625af48424c4680d89314dbe45a76cc990cf002489f9469ff214b044ffc1",
+   "url":"https://pypi.io/packages/source/e/eventlet/eventlet-0.25.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "eventlet",
+    "eventlet.green",
+    "eventlet.green.OpenSSL",
+    "eventlet.green.http",
+    "eventlet.green.urllib",
+    "eventlet.greenio",
+    "eventlet.hubs",
+    "eventlet.support"
+   ]
+  }
+ },
+ "osx_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dnspython",
+    "greenlet",
+    "monotonic",
+    "pyopenssl",
+    "python",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "raw_meta_yaml":"{% set name = \"eventlet\" %}\n{% set version = \"0.25.1\" %}\n{% set sha256 = \"6c9c625af48424c4680d89314dbe45a76cc990cf002489f9469ff214b044ffc1\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: \"python\"\n  script: \"{{ PYTHON }} -m pip install . -vv \"\n\nrequirements:\n  build:\n    - python >=3.6\n    - pip\n  run:\n    - python\n    - greenlet >=0.3\n    - enum34  # [py<34]\n    - dnspython >=1.15.0\n    - monotonic >=1.4\n    - six >=1.10.0\n    - pyopenssl\n\ntest:\n  imports:\n    - eventlet\n    - eventlet.green\n    - eventlet.green.OpenSSL\n    - eventlet.green.http  # [py3k]\n    - eventlet.green.urllib\n    - eventlet.greenio\n    - eventlet.hubs\n    - eventlet.support\n\nabout:\n  home: \"http://eventlet.net\"\n  license: \"MIT\"\n  license_family: \"MIT\"\n  license_file: LICENSE\n  summary: \"Highly concurrent networking library\"\n\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "dnspython",
+   "greenlet",
+   "monotonic",
+   "pip",
+   "pyopenssl",
+   "python",
+   "six"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dnspython",
+    "greenlet",
+    "monotonic",
+    "pyopenssl",
+    "python",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dnspython >=1.15.0",
+    "greenlet >=0.3",
+    "monotonic >=1.4",
+    "pyopenssl",
+    "python",
+    "six >=1.10.0"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/e/eventlet/eventlet-0.25.1.tar.gz",
+ "version":"0.25.1",
+ "win_64_meta_yaml":{
+  "about":{
+   "home":"http://eventlet.net",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"Highly concurrent networking library"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . -vv "
+  },
+  "package":{
+   "name":"eventlet",
+   "version":"0.25.1"
+  },
+  "requirements":{
+   "build":[
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python",
+    "greenlet >=0.3",
+    "dnspython >=1.15.0",
+    "monotonic >=1.4",
+    "six >=1.10.0",
+    "pyopenssl"
+   ]
+  },
+  "source":{
+   "sha256":"6c9c625af48424c4680d89314dbe45a76cc990cf002489f9469ff214b044ffc1",
+   "url":"https://pypi.io/packages/source/e/eventlet/eventlet-0.25.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "eventlet",
+    "eventlet.green",
+    "eventlet.green.OpenSSL",
+    "eventlet.green.http",
+    "eventlet.green.urllib",
+    "eventlet.greenio",
+    "eventlet.hubs",
+    "eventlet.support"
+   ]
+  }
+ },
+ "win_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dnspython",
+    "greenlet",
+    "monotonic",
+    "pyopenssl",
+    "python",
+    "six"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ }
+}

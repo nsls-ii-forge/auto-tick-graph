@@ -1,0 +1,433 @@
+{
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "linux":"azure",
+   "osx":"azure",
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"caproto",
+ "hash_type":"sha256",
+ "linux_64_meta_yaml":{
+  "about":{
+   "home":"http://github.com/caproto/caproto",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"/LICENSE",
+   "summary":"a bring-your-own-IO implementation of the EPICS Channel Access protocol in pure Python"
+  },
+  "build":{
+   "entry_points":[
+    "caproto-get = caproto.commandline.get:main",
+    "caproto-put = caproto.commandline.put:main",
+    "caproto-monitor = caproto.commandline.monitor:main",
+    "caproto-repeater = caproto.commandline.repeater:main",
+    "caproto-defaultdict-server = caproto.ioc_examples.defaultdict_server:main",
+    "caproto-spoof-beamline = caproto.ioc_examples.spoof_beamline:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "package":{
+   "name":"caproto",
+   "version":"0.5.2"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "asks",
+    "curio",
+    "dpkt",
+    "netifaces",
+    "numpy",
+    "trio"
+   ]
+  },
+  "source":{
+   "sha256":"cd1032a774d2855c236d881404fc92a0196bbc9f2f9f388aa14be1ba4f8453e5",
+   "url":"https://pypi.io/packages/source/c/caproto/caproto-0.5.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "caproto-get -h",
+    "caproto-get --help",
+    "caproto-put --help"
+   ],
+   "imports":[
+    "caproto"
+   ]
+  }
+ },
+ "linux_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "asks",
+    "curio",
+    "dpkt",
+    "netifaces",
+    "numpy",
+    "python",
+    "trio"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "meta_yaml":{
+  "about":{
+   "home":"http://github.com/caproto/caproto",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"/LICENSE",
+   "summary":"a bring-your-own-IO implementation of the EPICS Channel Access protocol in pure Python"
+  },
+  "build":{
+   "entry_points":[
+    "caproto-get = caproto.commandline.get:main",
+    "caproto-put = caproto.commandline.put:main",
+    "caproto-monitor = caproto.commandline.monitor:main",
+    "caproto-repeater = caproto.commandline.repeater:main",
+    "caproto-defaultdict-server = caproto.ioc_examples.defaultdict_server:main",
+    "caproto-spoof-beamline = caproto.ioc_examples.spoof_beamline:main",
+    "caproto-get = caproto.commandline.get:main",
+    "caproto-put = caproto.commandline.put:main",
+    "caproto-monitor = caproto.commandline.monitor:main",
+    "caproto-repeater = caproto.commandline.repeater:main",
+    "caproto-defaultdict-server = caproto.ioc_examples.defaultdict_server:main",
+    "caproto-spoof-beamline = caproto.ioc_examples.spoof_beamline:main",
+    "caproto-get = caproto.commandline.get:main",
+    "caproto-put = caproto.commandline.put:main",
+    "caproto-monitor = caproto.commandline.monitor:main",
+    "caproto-repeater = caproto.commandline.repeater:main",
+    "caproto-defaultdict-server = caproto.ioc_examples.defaultdict_server:main",
+    "caproto-spoof-beamline = caproto.ioc_examples.spoof_beamline:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "package":{
+   "name":"caproto",
+   "version":"0.5.2"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "asks",
+    "curio",
+    "dpkt",
+    "netifaces",
+    "numpy",
+    "trio",
+    "python >=3.6",
+    "asks",
+    "curio",
+    "dpkt",
+    "netifaces",
+    "numpy",
+    "trio",
+    "python >=3.6",
+    "asks",
+    "curio",
+    "dpkt",
+    "netifaces",
+    "numpy",
+    "trio"
+   ]
+  },
+  "source":{
+   "sha256":"cd1032a774d2855c236d881404fc92a0196bbc9f2f9f388aa14be1ba4f8453e5",
+   "url":"https://pypi.io/packages/source/c/caproto/caproto-0.5.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "caproto-get -h",
+    "caproto-get --help",
+    "caproto-put --help",
+    "caproto-get -h",
+    "caproto-get --help",
+    "caproto-put --help",
+    "caproto-get -h",
+    "caproto-get --help",
+    "caproto-put --help"
+   ],
+   "imports":[
+    "caproto",
+    "caproto",
+    "caproto"
+   ]
+  }
+ },
+ "name":"caproto",
+ "osx_64_meta_yaml":{
+  "about":{
+   "home":"http://github.com/caproto/caproto",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"/LICENSE",
+   "summary":"a bring-your-own-IO implementation of the EPICS Channel Access protocol in pure Python"
+  },
+  "build":{
+   "entry_points":[
+    "caproto-get = caproto.commandline.get:main",
+    "caproto-put = caproto.commandline.put:main",
+    "caproto-monitor = caproto.commandline.monitor:main",
+    "caproto-repeater = caproto.commandline.repeater:main",
+    "caproto-defaultdict-server = caproto.ioc_examples.defaultdict_server:main",
+    "caproto-spoof-beamline = caproto.ioc_examples.spoof_beamline:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "package":{
+   "name":"caproto",
+   "version":"0.5.2"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "asks",
+    "curio",
+    "dpkt",
+    "netifaces",
+    "numpy",
+    "trio"
+   ]
+  },
+  "source":{
+   "sha256":"cd1032a774d2855c236d881404fc92a0196bbc9f2f9f388aa14be1ba4f8453e5",
+   "url":"https://pypi.io/packages/source/c/caproto/caproto-0.5.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "caproto-get -h",
+    "caproto-get --help",
+    "caproto-put --help"
+   ],
+   "imports":[
+    "caproto"
+   ]
+  }
+ },
+ "osx_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "asks",
+    "curio",
+    "dpkt",
+    "netifaces",
+    "numpy",
+    "python",
+    "trio"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "raw_meta_yaml":"{% set name = \"caproto\" %}\n{% set version = \"0.5.2\" %}\n{% set sha256 = \"cd1032a774d2855c236d881404fc92a0196bbc9f2f9f388aa14be1ba4f8453e5\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  entry_points:\n    - caproto-get = caproto.commandline.get:main\n    - caproto-put = caproto.commandline.put:main\n    - caproto-monitor = caproto.commandline.monitor:main\n    - caproto-repeater = caproto.commandline.repeater:main\n    - caproto-defaultdict-server = caproto.ioc_examples.defaultdict_server:main\n    - caproto-spoof-beamline = caproto.ioc_examples.spoof_beamline:main\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - asks\n    - curio\n    - dpkt\n    - netifaces\n    - numpy\n    - trio\n\ntest:\n  imports:\n    - {{ name }}\n  commands:\n    - {{ name}}-get -h\n    - {{ name}}-get --help\n    - {{ name}}-put --help\n\nabout:\n  home: http://github.com/caproto/caproto\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: '{{ environ[\"RECIPE_DIR\"] }}/LICENSE'\n  summary: 'a bring-your-own-IO implementation of the EPICS Channel Access protocol in pure Python'\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "asks",
+   "curio",
+   "dpkt",
+   "netifaces",
+   "numpy",
+   "pip",
+   "python",
+   "trio"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "asks",
+    "curio",
+    "dpkt",
+    "netifaces",
+    "numpy",
+    "python",
+    "trio"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "asks",
+    "curio",
+    "dpkt",
+    "netifaces",
+    "numpy",
+    "python >=3.6",
+    "trio"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/c/caproto/caproto-0.5.2.tar.gz",
+ "version":"0.5.2",
+ "win_64_meta_yaml":{
+  "about":{
+   "home":"http://github.com/caproto/caproto",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"/LICENSE",
+   "summary":"a bring-your-own-IO implementation of the EPICS Channel Access protocol in pure Python"
+  },
+  "build":{
+   "entry_points":[
+    "caproto-get = caproto.commandline.get:main",
+    "caproto-put = caproto.commandline.put:main",
+    "caproto-monitor = caproto.commandline.monitor:main",
+    "caproto-repeater = caproto.commandline.repeater:main",
+    "caproto-defaultdict-server = caproto.ioc_examples.defaultdict_server:main",
+    "caproto-spoof-beamline = caproto.ioc_examples.spoof_beamline:main"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv"
+  },
+  "package":{
+   "name":"caproto",
+   "version":"0.5.2"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "asks",
+    "curio",
+    "dpkt",
+    "netifaces",
+    "numpy",
+    "trio"
+   ]
+  },
+  "source":{
+   "sha256":"cd1032a774d2855c236d881404fc92a0196bbc9f2f9f388aa14be1ba4f8453e5",
+   "url":"https://pypi.io/packages/source/c/caproto/caproto-0.5.2.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "caproto-get -h",
+    "caproto-get --help",
+    "caproto-put --help"
+   ],
+   "imports":[
+    "caproto"
+   ]
+  }
+ },
+ "win_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "asks",
+    "curio",
+    "dpkt",
+    "netifaces",
+    "numpy",
+    "python",
+    "trio"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ }
+}

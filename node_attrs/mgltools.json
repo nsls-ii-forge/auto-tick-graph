@@ -1,0 +1,240 @@
+{
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "linux":"azure",
+   "osx":"azure",
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"mgltools",
+ "hash_type":"sha256",
+ "linux_64_meta_yaml":{
+  "about":{
+   "home":"http://mgltools.scripps.edu",
+   "license":"custom",
+   "license_file":"LICENSES",
+   "summary":"MGLTools is an program for visualization and analysis of molecular structures"
+  },
+  "build":{
+   "number":"3"
+  },
+  "package":{
+   "name":"mgltools",
+   "version":"1.5.6"
+  },
+  "source":[
+   {
+    "sha256":"d4f1493a175cd67cf2f54e6f585c430e1093d3bbd33817b82345dc2a58676a0f",
+    "url":"http://mgltools.scripps.edu/downloads/downloads/tars/releases/REL1.5.6/mgltools_x86_64Linux2_1.5.6.tar.gz"
+   }
+  ],
+  "test":{
+   "commands":[
+    "pmv --help",
+    "prepare_ligand4.py",
+    "prepare_receptor4.py",
+    "pythonsh --help",
+    "test ! -z $AUTODOCKTOOLS_UTIL",
+    "test $AUTODOCKTOOLS_UTIL == ${CONDA_PREFIX}/MGLToolsPckgs/AutoDockTools/Utilities24"
+   ]
+  }
+ },
+ "linux_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "meta_yaml":{
+  "about":{
+   "home":"http://mgltools.scripps.edu",
+   "license":"custom",
+   "license_file":"LICENSES",
+   "summary":"MGLTools is an program for visualization and analysis of molecular structures"
+  },
+  "build":{
+   "number":"3",
+   "skip":true
+  },
+  "package":{
+   "name":"mgltools",
+   "version":"1.5.6"
+  },
+  "source":[
+   {
+    "sha256":"d4f1493a175cd67cf2f54e6f585c430e1093d3bbd33817b82345dc2a58676a0f",
+    "url":"http://mgltools.scripps.edu/downloads/downloads/tars/releases/REL1.5.6/mgltools_x86_64Linux2_1.5.6.tar.gz"
+   }
+  ],
+  "test":{
+   "commands":[
+    "pmv --help",
+    "prepare_ligand4.py",
+    "prepare_receptor4.py",
+    "pythonsh --help",
+    "pmv --help",
+    "prepare_ligand4.py",
+    "prepare_receptor4.py",
+    "pythonsh --help",
+    "test ! -z $AUTODOCKTOOLS_UTIL",
+    "test $AUTODOCKTOOLS_UTIL == ${CONDA_PREFIX}/MGLToolsPckgs/AutoDockTools/Utilities24",
+    "pmv --help",
+    "prepare_ligand4.py",
+    "prepare_receptor4.py",
+    "pythonsh --help",
+    "test ! -z $AUTODOCKTOOLS_UTIL",
+    "test $AUTODOCKTOOLS_UTIL == ${CONDA_PREFIX}/MGLToolsPckgs/AutoDockTools/Utilities24"
+   ]
+  }
+ },
+ "name":"mgltools",
+ "osx_64_meta_yaml":{
+  "about":{
+   "home":"http://mgltools.scripps.edu",
+   "license":"custom",
+   "license_file":"LICENSES",
+   "summary":"MGLTools is an program for visualization and analysis of molecular structures"
+  },
+  "build":{
+   "number":"3"
+  },
+  "package":{
+   "name":"mgltools",
+   "version":"1.5.6"
+  },
+  "source":[
+   {
+    "sha256":"15f9f64015270bfa6fa3091c7278e442a77e73d5db6d20ffe45ae019294a3d17",
+    "url":"http://mgltools.scripps.edu/downloads/downloads/tars/releases/REL1.5.6/mgltools_i86Darwin9_1.5.6.tar.gz"
+   }
+  ],
+  "test":{
+   "commands":[
+    "pmv --help",
+    "prepare_ligand4.py",
+    "prepare_receptor4.py",
+    "pythonsh --help",
+    "test ! -z $AUTODOCKTOOLS_UTIL",
+    "test $AUTODOCKTOOLS_UTIL == ${CONDA_PREFIX}/MGLToolsPckgs/AutoDockTools/Utilities24"
+   ]
+  }
+ },
+ "osx_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "raw_meta_yaml":"{% set name = \"mgltools\" %}\n{% set version = \"1.5.6\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  - url: http://{{ name }}.scripps.edu/downloads/downloads/tars/releases/REL{{ version }}/{{ name }}_x86_64Linux2_{{ version }}.tar.gz  # [linux]\n    sha256: d4f1493a175cd67cf2f54e6f585c430e1093d3bbd33817b82345dc2a58676a0f  # [linux]\n  - url: http://{{ name }}.scripps.edu/downloads/downloads/tars/releases/REL{{ version }}/{{ name }}_i86Darwin9_{{ version }}.tar.gz  # [osx]\n    sha256: 15f9f64015270bfa6fa3091c7278e442a77e73d5db6d20ffe45ae019294a3d17  # [osx]\n\nbuild:\n  number: 3\n  skip: True  # [win]\n\ntest:\n  commands:\n    - pmv --help\n    - prepare_ligand4.py\n    - prepare_receptor4.py\n    - pythonsh --help\n    - test ! -z $AUTODOCKTOOLS_UTIL  # [not win]\n    - test $AUTODOCKTOOLS_UTIL == ${CONDA_PREFIX}/MGLToolsPckgs/AutoDockTools/Utilities24  # [not win]\n\nabout:\n  home: http://mgltools.scripps.edu\n  license: custom\n  license_file: LICENSES\n  summary: MGLTools is an program for visualization and analysis of molecular structures\n",
+ "req":{
+  "__set__":true,
+  "elements":[]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"http://mgltools.scripps.edu/downloads/downloads/tars/releases/REL1.5.6/mgltools_x86_64Linux2_1.5.6.tar.gz",
+ "version":"1.5.6",
+ "win_64_meta_yaml":{
+  "about":{
+   "home":"http://mgltools.scripps.edu",
+   "license":"custom",
+   "license_file":"LICENSES",
+   "summary":"MGLTools is an program for visualization and analysis of molecular structures"
+  },
+  "build":{
+   "number":"3",
+   "skip":true
+  },
+  "package":{
+   "name":"mgltools",
+   "version":"1.5.6"
+  },
+  "source":{},
+  "test":{
+   "commands":[
+    "pmv --help",
+    "prepare_ligand4.py",
+    "prepare_receptor4.py",
+    "pythonsh --help"
+   ]
+  }
+ },
+ "win_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ }
+}

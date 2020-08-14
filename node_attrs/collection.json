@@ -1,0 +1,769 @@
+{
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "linux":"azure",
+   "osx":"azure",
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"collection",
+ "linux_64_meta_yaml":{
+  "about":{
+   "description":"Collection metapackage for NSLS-II deployments. See the deployment\ndocumentation at https://nsls-ii.github.io/deployment_docs.html\n",
+   "home":"https://nsls-ii.github.io/deployment_docs.html",
+   "license":"BSD-3-Clause",
+   "license_file":"LICENSE",
+   "summary":"Collection metapackage for NSLS-II deployments"
+  },
+  "build":{
+   "number":"7"
+  },
+  "package":{
+   "name":"collection",
+   "version":"2020C2.0"
+  },
+  "requirements":{
+   "host":[
+    "python"
+   ],
+   "run":[
+    "nsls2-analysis ==2020C2.0=*_7",
+    "python",
+    "ansiwrap",
+    "bluesky-darkframes",
+    "caproto",
+    "inflection",
+    "nslsii >=0.0.17",
+    "pexpect",
+    "pyepics >=3.4.2",
+    "pyolog >=4.4.0",
+    "pyserial",
+    "python-confluent-kafka",
+    "chxtools",
+    "hklpy",
+    "hxnfly",
+    "hxntools >=0.4.3",
+    "ppmac",
+    "sixtools"
+   ]
+  },
+  "test":{
+   "commands":[
+    "check-results -t channels -f conda-forge",
+    "check-results -t version -p bluesky     -e 1.6",
+    "check-results -t version -p databroker  -e 1.0",
+    "check-results -t version -p event_model -e 1.15",
+    "check-results -t version -p ophyd       -e 1.5",
+    "python -V",
+    "ipython -V",
+    "conda-pack --help",
+    "nexpy --help",
+    "napari --help",
+    "napari --version"
+   ],
+   "imports":[
+    "area_detector_handlers",
+    "bluesky",
+    "caproto",
+    "dask",
+    "databroker",
+    "event_model",
+    "lmfit",
+    "matplotlib",
+    "napari",
+    "nslsii",
+    "numpy",
+    "ophyd",
+    "oscars",
+    "peakutils",
+    "photutils",
+    "pymongo",
+    "pyxrf",
+    "skbeam",
+    "srwlpy",
+    "suitcase.csv",
+    "suitcase.json_metadata",
+    "suitcase.jsonl",
+    "suitcase.mongo_embedded",
+    "suitcase.mongo_normalized",
+    "suitcase.msgpack",
+    "suitcase.specfile",
+    "suitcase.tiff_series",
+    "suitcase.tiff_stack",
+    "suitcase.utils",
+    "xray_vision",
+    "chxtools",
+    "csxtools",
+    "edrixs",
+    "eiger_io",
+    "hkl",
+    "hxntools",
+    "isstools",
+    "py4xs",
+    "sixtools"
+   ],
+   "requires":[
+    "nsls2forge-utils"
+   ]
+  }
+ },
+ "linux_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ansiwrap",
+    "bluesky-darkframes",
+    "caproto",
+    "chxtools",
+    "hklpy",
+    "hxnfly",
+    "hxntools",
+    "inflection",
+    "nsls2-analysis",
+    "nslsii",
+    "pexpect",
+    "ppmac",
+    "pyepics",
+    "pyolog",
+    "pyserial",
+    "python",
+    "python-confluent-kafka",
+    "sixtools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "nsls2forge-utils"
+   ]
+  }
+ },
+ "meta_yaml":{
+  "about":{
+   "description":"Collection metapackage for NSLS-II deployments. See the deployment\ndocumentation at https://nsls-ii.github.io/deployment_docs.html\n",
+   "home":"https://nsls-ii.github.io/deployment_docs.html",
+   "license":"BSD-3-Clause",
+   "license_file":"LICENSE",
+   "summary":"Collection metapackage for NSLS-II deployments"
+  },
+  "build":{
+   "number":"7",
+   "skip":true
+  },
+  "package":{
+   "name":"collection",
+   "version":"2020C2.0"
+  },
+  "requirements":{
+   "host":[
+    "python",
+    "python",
+    "python"
+   ],
+   "run":[
+    "nsls2-analysis ==2020C2.0=*_7",
+    "python",
+    "ansiwrap",
+    "bluesky-darkframes",
+    "caproto",
+    "inflection",
+    "nslsii >=0.0.17",
+    "pexpect",
+    "pyepics >=3.4.2",
+    "pyolog >=4.4.0",
+    "pyserial",
+    "chxtools",
+    "hxnfly",
+    "hxntools >=0.4.3",
+    "ppmac",
+    "sixtools",
+    "nsls2-analysis ==2020C2.0=*_7",
+    "python",
+    "ansiwrap",
+    "bluesky-darkframes",
+    "caproto",
+    "inflection",
+    "nslsii >=0.0.17",
+    "pexpect",
+    "pyepics >=3.4.2",
+    "pyolog >=4.4.0",
+    "pyserial",
+    "python-confluent-kafka",
+    "chxtools",
+    "hxnfly",
+    "hxntools >=0.4.3",
+    "ppmac",
+    "sixtools",
+    "nsls2-analysis ==2020C2.0=*_7",
+    "python",
+    "ansiwrap",
+    "bluesky-darkframes",
+    "caproto",
+    "inflection",
+    "nslsii >=0.0.17",
+    "pexpect",
+    "pyepics >=3.4.2",
+    "pyolog >=4.4.0",
+    "pyserial",
+    "python-confluent-kafka",
+    "chxtools",
+    "hklpy",
+    "hxnfly",
+    "hxntools >=0.4.3",
+    "ppmac",
+    "sixtools"
+   ]
+  },
+  "test":{
+   "commands":[
+    "check-results -t channels -f conda-forge",
+    "check-results -t version -p bluesky     -e 1.6",
+    "check-results -t version -p databroker  -e 1.0",
+    "check-results -t version -p event_model -e 1.15",
+    "check-results -t version -p ophyd       -e 1.5",
+    "python -V",
+    "ipython -V",
+    "conda-pack --help",
+    "nexpy --help",
+    "napari --help",
+    "napari --version",
+    "check-results -t channels -f conda-forge",
+    "check-results -t version -p bluesky     -e 1.6",
+    "check-results -t version -p databroker  -e 1.0",
+    "check-results -t version -p event_model -e 1.15",
+    "check-results -t version -p ophyd       -e 1.5",
+    "python -V",
+    "ipython -V",
+    "conda-pack --help",
+    "nexpy --help",
+    "napari --help",
+    "napari --version",
+    "check-results -t channels -f conda-forge",
+    "check-results -t version -p bluesky     -e 1.6",
+    "check-results -t version -p databroker  -e 1.0",
+    "check-results -t version -p event_model -e 1.15",
+    "check-results -t version -p ophyd       -e 1.5",
+    "python -V",
+    "ipython -V",
+    "conda-pack --help",
+    "nexpy --help",
+    "napari --help",
+    "napari --version"
+   ],
+   "imports":[
+    "area_detector_handlers",
+    "bluesky",
+    "caproto",
+    "dask",
+    "databroker",
+    "event_model",
+    "lmfit",
+    "matplotlib",
+    "napari",
+    "nslsii",
+    "numpy",
+    "ophyd",
+    "oscars",
+    "peakutils",
+    "photutils",
+    "pymongo",
+    "pyxrf",
+    "skbeam",
+    "suitcase.csv",
+    "suitcase.json_metadata",
+    "suitcase.jsonl",
+    "suitcase.mongo_embedded",
+    "suitcase.mongo_normalized",
+    "suitcase.msgpack",
+    "suitcase.specfile",
+    "suitcase.tiff_series",
+    "suitcase.tiff_stack",
+    "suitcase.utils",
+    "xray_vision",
+    "chxtools",
+    "csxtools",
+    "edrixs",
+    "eiger_io",
+    "hxntools",
+    "isstools",
+    "py4xs",
+    "sixtools",
+    "area_detector_handlers",
+    "bluesky",
+    "caproto",
+    "dask",
+    "databroker",
+    "event_model",
+    "lmfit",
+    "matplotlib",
+    "napari",
+    "nslsii",
+    "numpy",
+    "ophyd",
+    "oscars",
+    "peakutils",
+    "photutils",
+    "pymongo",
+    "pyxrf",
+    "skbeam",
+    "suitcase.csv",
+    "suitcase.json_metadata",
+    "suitcase.jsonl",
+    "suitcase.mongo_embedded",
+    "suitcase.mongo_normalized",
+    "suitcase.msgpack",
+    "suitcase.specfile",
+    "suitcase.tiff_series",
+    "suitcase.tiff_stack",
+    "suitcase.utils",
+    "xray_vision",
+    "chxtools",
+    "csxtools",
+    "edrixs",
+    "eiger_io",
+    "hxntools",
+    "isstools",
+    "py4xs",
+    "sixtools",
+    "area_detector_handlers",
+    "bluesky",
+    "caproto",
+    "dask",
+    "databroker",
+    "event_model",
+    "lmfit",
+    "matplotlib",
+    "napari",
+    "nslsii",
+    "numpy",
+    "ophyd",
+    "oscars",
+    "peakutils",
+    "photutils",
+    "pymongo",
+    "pyxrf",
+    "skbeam",
+    "srwlpy",
+    "suitcase.csv",
+    "suitcase.json_metadata",
+    "suitcase.jsonl",
+    "suitcase.mongo_embedded",
+    "suitcase.mongo_normalized",
+    "suitcase.msgpack",
+    "suitcase.specfile",
+    "suitcase.tiff_series",
+    "suitcase.tiff_stack",
+    "suitcase.utils",
+    "xray_vision",
+    "chxtools",
+    "csxtools",
+    "edrixs",
+    "eiger_io",
+    "hkl",
+    "hxntools",
+    "isstools",
+    "py4xs",
+    "sixtools"
+   ],
+   "requires":[
+    "nsls2forge-utils",
+    "nsls2forge-utils",
+    "nsls2forge-utils"
+   ]
+  }
+ },
+ "name":"collection",
+ "osx_64_meta_yaml":{
+  "about":{
+   "description":"Collection metapackage for NSLS-II deployments. See the deployment\ndocumentation at https://nsls-ii.github.io/deployment_docs.html\n",
+   "home":"https://nsls-ii.github.io/deployment_docs.html",
+   "license":"BSD-3-Clause",
+   "license_file":"LICENSE",
+   "summary":"Collection metapackage for NSLS-II deployments"
+  },
+  "build":{
+   "number":"7",
+   "skip":true
+  },
+  "package":{
+   "name":"collection",
+   "version":"2020C2.0"
+  },
+  "requirements":{
+   "host":[
+    "python"
+   ],
+   "run":[
+    "nsls2-analysis ==2020C2.0=*_7",
+    "python",
+    "ansiwrap",
+    "bluesky-darkframes",
+    "caproto",
+    "inflection",
+    "nslsii >=0.0.17",
+    "pexpect",
+    "pyepics >=3.4.2",
+    "pyolog >=4.4.0",
+    "pyserial",
+    "python-confluent-kafka",
+    "chxtools",
+    "hxnfly",
+    "hxntools >=0.4.3",
+    "ppmac",
+    "sixtools"
+   ]
+  },
+  "test":{
+   "commands":[
+    "check-results -t channels -f conda-forge",
+    "check-results -t version -p bluesky     -e 1.6",
+    "check-results -t version -p databroker  -e 1.0",
+    "check-results -t version -p event_model -e 1.15",
+    "check-results -t version -p ophyd       -e 1.5",
+    "python -V",
+    "ipython -V",
+    "conda-pack --help",
+    "nexpy --help",
+    "napari --help",
+    "napari --version"
+   ],
+   "imports":[
+    "area_detector_handlers",
+    "bluesky",
+    "caproto",
+    "dask",
+    "databroker",
+    "event_model",
+    "lmfit",
+    "matplotlib",
+    "napari",
+    "nslsii",
+    "numpy",
+    "ophyd",
+    "oscars",
+    "peakutils",
+    "photutils",
+    "pymongo",
+    "pyxrf",
+    "skbeam",
+    "suitcase.csv",
+    "suitcase.json_metadata",
+    "suitcase.jsonl",
+    "suitcase.mongo_embedded",
+    "suitcase.mongo_normalized",
+    "suitcase.msgpack",
+    "suitcase.specfile",
+    "suitcase.tiff_series",
+    "suitcase.tiff_stack",
+    "suitcase.utils",
+    "xray_vision",
+    "chxtools",
+    "csxtools",
+    "edrixs",
+    "eiger_io",
+    "hxntools",
+    "isstools",
+    "py4xs",
+    "sixtools"
+   ],
+   "requires":[
+    "nsls2forge-utils"
+   ]
+  }
+ },
+ "osx_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ansiwrap",
+    "bluesky-darkframes",
+    "caproto",
+    "chxtools",
+    "hxnfly",
+    "hxntools",
+    "inflection",
+    "nsls2-analysis",
+    "nslsii",
+    "pexpect",
+    "ppmac",
+    "pyepics",
+    "pyolog",
+    "pyserial",
+    "python",
+    "python-confluent-kafka",
+    "sixtools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "nsls2forge-utils"
+   ]
+  }
+ },
+ "raw_meta_yaml":"{% set name = \"collection\" %}\n{% set year = \"2020\" %}\n{% set cycle = \"2\" %}\n{% set version = \"0\" %}\n{% set micro = \"\" %}\n{% set build_num = \"7\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ year }}C{{ cycle }}.{{ version }}{{ micro }}\n\nbuild:\n  skip: True  # [py<37 or not linux]\n  number: {{ build_num }}\n\nrequirements:\n  host:\n    - python\n  run:\n    - nsls2-analysis ==2020C2.0=*_{{ build_num }}\n    - python\n    - ansiwrap\n    - bluesky-darkframes\n    - caproto\n    - inflection\n    - nslsii >=0.0.17\n    - pexpect\n    - pyepics >=3.4.2\n    - pyolog >=4.4.0\n    - pyserial\n    - python-confluent-kafka  # [not win]\n    # Beamline-specific packages\n    - chxtools\n    - hklpy  # [linux]\n    - hxnfly\n    - hxntools >=0.4.3\n    - ppmac\n    # qastools are installed from source\n    # - qastools\n    - sixtools\n    # XPD packages are in conflict with the rest of the stack.\n    # Need to fix it on their side.\n    # - xpdacq\n    # - xpdan\n\ntest:\n  requires:\n    - nsls2forge-utils\n  imports:\n    - area_detector_handlers\n    - bluesky\n    - caproto\n    - dask\n    - databroker\n    - event_model\n    - lmfit\n    - matplotlib\n    - napari\n    - nslsii\n    - numpy\n    - ophyd\n    - oscars\n    - peakutils\n    - photutils\n    - pymongo\n    - pyxrf\n    - skbeam\n    - srwlpy  # [linux]    \n    - suitcase.csv\n    - suitcase.json_metadata\n    - suitcase.jsonl\n    - suitcase.mongo_embedded\n    - suitcase.mongo_normalized\n    - suitcase.msgpack\n    - suitcase.specfile\n    - suitcase.tiff_series\n    - suitcase.tiff_stack\n    - suitcase.utils\n    - xray_vision\n    # Beamline-specific packages\n    - chxtools\n    - csxtools\n    - edrixs\n    - eiger_io\n    - hkl  # [linux]\n    - hxntools\n    - isstools\n    - py4xs\n    - sixtools\n  commands:\n    # Fail if the \"conda-forge\" channel is in the list of channels.\n    - check-results -t channels -f conda-forge\n    # Fail if versions of the packages are not as expected minimum ones.\n    - check-results -t version -p bluesky     -e 1.6\n    - check-results -t version -p databroker  -e 1.0\n    - check-results -t version -p event_model -e 1.15\n    - check-results -t version -p ophyd       -e 1.5\n    - python -V\n    - ipython -V\n    - conda-pack --help\n    - nexpy --help\n    - napari --help\n    - napari --version\n\nabout:\n  home: https://nsls-ii.github.io/deployment_docs.html\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: Collection metapackage for NSLS-II deployments\n  description: |\n    Collection metapackage for NSLS-II deployments. See the deployment\n    documentation at https://nsls-ii.github.io/deployment_docs.html\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "ansiwrap",
+   "bluesky-darkframes",
+   "caproto",
+   "chxtools",
+   "hklpy",
+   "hxnfly",
+   "hxntools",
+   "inflection",
+   "nsls2-analysis",
+   "nslsii",
+   "pexpect",
+   "ppmac",
+   "pyepics",
+   "pyolog",
+   "pyserial",
+   "python",
+   "python-confluent-kafka",
+   "sixtools"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ansiwrap",
+    "bluesky-darkframes",
+    "caproto",
+    "chxtools",
+    "hklpy",
+    "hxnfly",
+    "hxntools",
+    "inflection",
+    "nsls2-analysis",
+    "nslsii",
+    "pexpect",
+    "ppmac",
+    "pyepics",
+    "pyolog",
+    "pyserial",
+    "python",
+    "python-confluent-kafka",
+    "sixtools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "nsls2forge-utils"
+   ]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ansiwrap",
+    "bluesky-darkframes",
+    "caproto",
+    "chxtools",
+    "hklpy",
+    "hxnfly",
+    "hxntools >=0.4.3",
+    "inflection",
+    "nsls2-analysis ==2020C2.0=*_7",
+    "nslsii >=0.0.17",
+    "pexpect",
+    "ppmac",
+    "pyepics >=3.4.2",
+    "pyolog >=4.4.0",
+    "pyserial",
+    "python",
+    "python-confluent-kafka",
+    "sixtools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "nsls2forge-utils"
+   ]
+  }
+ },
+ "version":"2020C2.0",
+ "win_64_meta_yaml":{
+  "about":{
+   "description":"Collection metapackage for NSLS-II deployments. See the deployment\ndocumentation at https://nsls-ii.github.io/deployment_docs.html\n",
+   "home":"https://nsls-ii.github.io/deployment_docs.html",
+   "license":"BSD-3-Clause",
+   "license_file":"LICENSE",
+   "summary":"Collection metapackage for NSLS-II deployments"
+  },
+  "build":{
+   "number":"7",
+   "skip":true
+  },
+  "package":{
+   "name":"collection",
+   "version":"2020C2.0"
+  },
+  "requirements":{
+   "host":[
+    "python"
+   ],
+   "run":[
+    "nsls2-analysis ==2020C2.0=*_7",
+    "python",
+    "ansiwrap",
+    "bluesky-darkframes",
+    "caproto",
+    "inflection",
+    "nslsii >=0.0.17",
+    "pexpect",
+    "pyepics >=3.4.2",
+    "pyolog >=4.4.0",
+    "pyserial",
+    "chxtools",
+    "hxnfly",
+    "hxntools >=0.4.3",
+    "ppmac",
+    "sixtools"
+   ]
+  },
+  "test":{
+   "commands":[
+    "check-results -t channels -f conda-forge",
+    "check-results -t version -p bluesky     -e 1.6",
+    "check-results -t version -p databroker  -e 1.0",
+    "check-results -t version -p event_model -e 1.15",
+    "check-results -t version -p ophyd       -e 1.5",
+    "python -V",
+    "ipython -V",
+    "conda-pack --help",
+    "nexpy --help",
+    "napari --help",
+    "napari --version"
+   ],
+   "imports":[
+    "area_detector_handlers",
+    "bluesky",
+    "caproto",
+    "dask",
+    "databroker",
+    "event_model",
+    "lmfit",
+    "matplotlib",
+    "napari",
+    "nslsii",
+    "numpy",
+    "ophyd",
+    "oscars",
+    "peakutils",
+    "photutils",
+    "pymongo",
+    "pyxrf",
+    "skbeam",
+    "suitcase.csv",
+    "suitcase.json_metadata",
+    "suitcase.jsonl",
+    "suitcase.mongo_embedded",
+    "suitcase.mongo_normalized",
+    "suitcase.msgpack",
+    "suitcase.specfile",
+    "suitcase.tiff_series",
+    "suitcase.tiff_stack",
+    "suitcase.utils",
+    "xray_vision",
+    "chxtools",
+    "csxtools",
+    "edrixs",
+    "eiger_io",
+    "hxntools",
+    "isstools",
+    "py4xs",
+    "sixtools"
+   ],
+   "requires":[
+    "nsls2forge-utils"
+   ]
+  }
+ },
+ "win_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ansiwrap",
+    "bluesky-darkframes",
+    "caproto",
+    "chxtools",
+    "hxnfly",
+    "hxntools",
+    "inflection",
+    "nsls2-analysis",
+    "nslsii",
+    "pexpect",
+    "ppmac",
+    "pyepics",
+    "pyolog",
+    "pyserial",
+    "python",
+    "sixtools"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "nsls2forge-utils"
+   ]
+  }
+ }
+}

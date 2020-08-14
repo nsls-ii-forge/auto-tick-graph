@@ -1,0 +1,421 @@
+{
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "linux":"azure",
+   "osx":"azure",
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"mendeleev",
+ "hash_type":"sha256",
+ "linux_64_meta_yaml":{
+  "about":{
+   "description":"This package provides an API for accessing various properties\nof elements from the periodic table of elements.\n",
+   "dev_url":"https://github.com/lmmentel/mendeleev",
+   "doc_url":"http://mendeleev.readthedocs.org",
+   "home":"https://github.com/lmmentel/mendeleev",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.txt",
+   "summary":"A perdioc table of elements API and a database of atomic properties."
+  },
+  "build":{
+   "entry_points":[
+    "element.py = mendeleev.cli:clielement"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "package":{
+   "name":"mendeleev",
+   "version":"0.6.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "colorama",
+    "numpy",
+    "pandas",
+    "pyfiglet",
+    "sqlalchemy"
+   ]
+  },
+  "source":{
+   "sha256":"944d185e81f158e48dd394b011e6c14acb612c2ffbc3c32c4aa490cd5b4f65dd",
+   "url":"https://pypi.io/packages/source/m/mendeleev/mendeleev-0.6.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "element.py --help",
+    "pip check"
+   ],
+   "imports":[
+    "mendeleev"
+   ],
+   "requires":[
+    "pip"
+   ]
+  }
+ },
+ "linux_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "colorama",
+    "numpy",
+    "pandas",
+    "pyfiglet",
+    "python",
+    "sqlalchemy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "meta_yaml":{
+  "about":{
+   "description":"This package provides an API for accessing various properties\nof elements from the periodic table of elements.\n",
+   "dev_url":"https://github.com/lmmentel/mendeleev",
+   "doc_url":"http://mendeleev.readthedocs.org",
+   "home":"https://github.com/lmmentel/mendeleev",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.txt",
+   "summary":"A perdioc table of elements API and a database of atomic properties."
+  },
+  "build":{
+   "entry_points":[
+    "element.py = mendeleev.cli:clielement",
+    "element.py = mendeleev.cli:clielement",
+    "element.py = mendeleev.cli:clielement"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "package":{
+   "name":"mendeleev",
+   "version":"0.6.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "colorama",
+    "numpy",
+    "pandas",
+    "pyfiglet",
+    "sqlalchemy",
+    "python >=3.6",
+    "colorama",
+    "numpy",
+    "pandas",
+    "pyfiglet",
+    "sqlalchemy",
+    "python >=3.6",
+    "colorama",
+    "numpy",
+    "pandas",
+    "pyfiglet",
+    "sqlalchemy"
+   ]
+  },
+  "source":{
+   "sha256":"944d185e81f158e48dd394b011e6c14acb612c2ffbc3c32c4aa490cd5b4f65dd",
+   "url":"https://pypi.io/packages/source/m/mendeleev/mendeleev-0.6.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "element.py --help",
+    "pip check",
+    "element.py --help",
+    "pip check",
+    "element.py --help",
+    "pip check"
+   ],
+   "imports":[
+    "mendeleev",
+    "mendeleev",
+    "mendeleev"
+   ],
+   "requires":[
+    "pip",
+    "pip",
+    "pip"
+   ]
+  }
+ },
+ "name":"mendeleev",
+ "osx_64_meta_yaml":{
+  "about":{
+   "description":"This package provides an API for accessing various properties\nof elements from the periodic table of elements.\n",
+   "dev_url":"https://github.com/lmmentel/mendeleev",
+   "doc_url":"http://mendeleev.readthedocs.org",
+   "home":"https://github.com/lmmentel/mendeleev",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.txt",
+   "summary":"A perdioc table of elements API and a database of atomic properties."
+  },
+  "build":{
+   "entry_points":[
+    "element.py = mendeleev.cli:clielement"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "package":{
+   "name":"mendeleev",
+   "version":"0.6.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "colorama",
+    "numpy",
+    "pandas",
+    "pyfiglet",
+    "sqlalchemy"
+   ]
+  },
+  "source":{
+   "sha256":"944d185e81f158e48dd394b011e6c14acb612c2ffbc3c32c4aa490cd5b4f65dd",
+   "url":"https://pypi.io/packages/source/m/mendeleev/mendeleev-0.6.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "element.py --help",
+    "pip check"
+   ],
+   "imports":[
+    "mendeleev"
+   ],
+   "requires":[
+    "pip"
+   ]
+  }
+ },
+ "osx_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "colorama",
+    "numpy",
+    "pandas",
+    "pyfiglet",
+    "python",
+    "sqlalchemy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "raw_meta_yaml":"{% set name = \"mendeleev\" %}\n{% set version = \"0.6.0\" %}\n{% set sha256 = \"944d185e81f158e48dd394b011e6c14acb612c2ffbc3c32c4aa490cd5b4f65dd\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  entry_points:\n    - element.py = mendeleev.cli:clielement\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - colorama\n    - numpy\n    - pandas\n    - pyfiglet\n    - sqlalchemy\n\ntest:\n  requires:\n    - pip\n  imports:\n    - mendeleev\n  commands:\n    - element.py --help\n    - pip check\n\nabout:\n  home: https://github.com/lmmentel/mendeleev\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.txt\n  summary: A perdioc table of elements API and a database of atomic properties.\n  description: |\n    This package provides an API for accessing various properties \n    of elements from the periodic table of elements.\n  doc_url: http://mendeleev.readthedocs.org\n  dev_url: https://github.com/lmmentel/mendeleev\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "colorama",
+   "numpy",
+   "pandas",
+   "pip",
+   "pyfiglet",
+   "python",
+   "sqlalchemy"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "colorama",
+    "numpy",
+    "pandas",
+    "pyfiglet",
+    "python",
+    "sqlalchemy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "colorama",
+    "numpy",
+    "pandas",
+    "pyfiglet",
+    "python >=3.6",
+    "sqlalchemy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/m/mendeleev/mendeleev-0.6.0.tar.gz",
+ "version":"0.6.0",
+ "win_64_meta_yaml":{
+  "about":{
+   "description":"This package provides an API for accessing various properties\nof elements from the periodic table of elements.\n",
+   "dev_url":"https://github.com/lmmentel/mendeleev",
+   "doc_url":"http://mendeleev.readthedocs.org",
+   "home":"https://github.com/lmmentel/mendeleev",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.txt",
+   "summary":"A perdioc table of elements API and a database of atomic properties."
+  },
+  "build":{
+   "entry_points":[
+    "element.py = mendeleev.cli:clielement"
+   ],
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv"
+  },
+  "package":{
+   "name":"mendeleev",
+   "version":"0.6.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "colorama",
+    "numpy",
+    "pandas",
+    "pyfiglet",
+    "sqlalchemy"
+   ]
+  },
+  "source":{
+   "sha256":"944d185e81f158e48dd394b011e6c14acb612c2ffbc3c32c4aa490cd5b4f65dd",
+   "url":"https://pypi.io/packages/source/m/mendeleev/mendeleev-0.6.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "element.py --help",
+    "pip check"
+   ],
+   "imports":[
+    "mendeleev"
+   ],
+   "requires":[
+    "pip"
+   ]
+  }
+ },
+ "win_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "colorama",
+    "numpy",
+    "pandas",
+    "pyfiglet",
+    "python",
+    "sqlalchemy"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ }
+}
