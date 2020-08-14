@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"pillow"
+ "feedstock_name":"pillow",
+ "new_version":false
 }

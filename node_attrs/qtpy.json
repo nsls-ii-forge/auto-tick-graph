@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"qtpy"
+ "feedstock_name":"qtpy",
+ "new_version":false
 }

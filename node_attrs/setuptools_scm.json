@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"setuptools_scm"
+ "feedstock_name":"setuptools_scm",
+ "new_version":false
 }

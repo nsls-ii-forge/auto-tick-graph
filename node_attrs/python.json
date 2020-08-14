@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"python"
+ "feedstock_name":"python",
+ "new_version":false
 }

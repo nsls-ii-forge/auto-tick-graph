@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"python-dateutil"
+ "feedstock_name":"python-dateutil",
+ "new_version":false
 }

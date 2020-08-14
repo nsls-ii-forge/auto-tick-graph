@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"sympy"
+ "feedstock_name":"sympy",
+ "new_version":false
 }

@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"setproctitle"
+ "feedstock_name":"setproctitle",
+ "new_version":false
 }

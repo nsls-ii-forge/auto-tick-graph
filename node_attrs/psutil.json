@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"psutil"
+ "feedstock_name":"psutil",
+ "new_version":false
 }

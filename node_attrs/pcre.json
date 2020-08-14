@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"pcre"
+ "feedstock_name":"pcre",
+ "new_version":false
 }

@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"fsspec"
+ "feedstock_name":"fsspec",
+ "new_version":false
 }

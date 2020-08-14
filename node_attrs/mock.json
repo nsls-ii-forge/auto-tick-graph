@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"mock"
+ "feedstock_name":"mock",
+ "new_version":false
 }

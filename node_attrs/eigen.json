@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"eigen"
+ "feedstock_name":"eigen",
+ "new_version":false
 }

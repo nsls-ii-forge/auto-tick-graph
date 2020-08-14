@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"gevent"
+ "feedstock_name":"gevent",
+ "new_version":false
 }

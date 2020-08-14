@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"pyjwt"
+ "feedstock_name":"pyjwt",
+ "new_version":false
 }

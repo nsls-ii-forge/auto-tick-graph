@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"h5py"
+ "feedstock_name":"h5py",
+ "new_version":false
 }

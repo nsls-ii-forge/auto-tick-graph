@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"tox"
+ "feedstock_name":"tox",
+ "new_version":false
 }

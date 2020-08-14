@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"gcc"
+ "feedstock_name":"gcc",
+ "new_version":false
 }

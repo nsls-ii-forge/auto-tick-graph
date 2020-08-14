@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"libxml2"
+ "feedstock_name":"libxml2",
+ "new_version":false
 }

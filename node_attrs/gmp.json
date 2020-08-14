@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"gmp"
+ "feedstock_name":"gmp",
+ "new_version":false
 }

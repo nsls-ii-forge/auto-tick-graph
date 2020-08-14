@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"openssl"
+ "feedstock_name":"openssl",
+ "new_version":false
 }

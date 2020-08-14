@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"zstd"
+ "feedstock_name":"zstd",
+ "new_version":false
 }

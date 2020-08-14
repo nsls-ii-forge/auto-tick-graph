@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"python-lzf"
+ "feedstock_name":"python-lzf",
+ "new_version":false
 }

@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"twine"
+ "feedstock_name":"twine",
+ "new_version":false
 }

@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"pywavelets"
+ "feedstock_name":"pywavelets",
+ "new_version":false
 }

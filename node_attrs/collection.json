@@ -384,6 +384,7 @@
   }
  },
  "name":"collection",
+ "new_version":false,
  "osx_64_meta_yaml":{
   "about":{
    "description":"Collection metapackage for NSLS-II deployments. See the deployment\ndocumentation at https://nsls-ii.github.io/deployment_docs.html\n",

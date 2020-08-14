@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"ipywidgets"
+ "feedstock_name":"ipywidgets",
+ "new_version":false
 }

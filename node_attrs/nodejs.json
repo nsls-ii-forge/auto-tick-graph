@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"nodejs"
+ "feedstock_name":"nodejs",
+ "new_version":false
 }

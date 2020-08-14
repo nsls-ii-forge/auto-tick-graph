@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"xlwt"
+ "feedstock_name":"xlwt",
+ "new_version":false
 }

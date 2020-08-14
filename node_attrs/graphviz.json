@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"graphviz"
+ "feedstock_name":"graphviz",
+ "new_version":false
 }

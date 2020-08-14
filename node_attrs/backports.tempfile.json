@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"backports.tempfile"
+ "feedstock_name":"backports.tempfile",
+ "new_version":false
 }

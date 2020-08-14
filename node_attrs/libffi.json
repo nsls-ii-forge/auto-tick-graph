@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"libffi"
+ "feedstock_name":"libffi",
+ "new_version":false
 }

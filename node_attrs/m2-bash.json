@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"m2-bash"
+ "feedstock_name":"m2-bash",
+ "new_version":false
 }

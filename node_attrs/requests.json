@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"requests"
+ "feedstock_name":"requests",
+ "new_version":false
 }

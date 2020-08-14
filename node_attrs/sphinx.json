@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"sphinx"
+ "feedstock_name":"sphinx",
+ "new_version":false
 }

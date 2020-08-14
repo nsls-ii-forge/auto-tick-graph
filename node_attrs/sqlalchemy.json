@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"sqlalchemy"
+ "feedstock_name":"sqlalchemy",
+ "new_version":false
 }

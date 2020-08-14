@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"pyyaml"
+ "feedstock_name":"pyyaml",
+ "new_version":false
 }

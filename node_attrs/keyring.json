@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"keyring"
+ "feedstock_name":"keyring",
+ "new_version":false
 }

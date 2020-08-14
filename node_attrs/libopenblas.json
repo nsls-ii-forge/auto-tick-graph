@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"libopenblas"
+ "feedstock_name":"libopenblas",
+ "new_version":false
 }

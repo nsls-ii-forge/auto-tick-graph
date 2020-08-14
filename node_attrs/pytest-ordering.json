@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"pytest-ordering"
+ "feedstock_name":"pytest-ordering",
+ "new_version":false
 }

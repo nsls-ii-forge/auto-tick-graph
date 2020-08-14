@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"boto3"
+ "feedstock_name":"boto3",
+ "new_version":false
 }

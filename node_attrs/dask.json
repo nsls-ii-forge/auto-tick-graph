@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"dask"
+ "feedstock_name":"dask",
+ "new_version":false
 }

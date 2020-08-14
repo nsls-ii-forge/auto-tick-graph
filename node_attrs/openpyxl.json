@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"openpyxl"
+ "feedstock_name":"openpyxl",
+ "new_version":false
 }

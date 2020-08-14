@@ -150,6 +150,7 @@
   }
  },
  "name":"11-id-chx-analysis",
+ "new_version":false,
  "osx_64_meta_yaml":{
   "about":{
    "description":"NSLS-II CHX analysis metapackage with extra-packages. See the deployment\ndocumentation at https://nsls-ii.github.io/deployment_docs.html\n",

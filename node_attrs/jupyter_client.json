@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"jupyter_client"
+ "feedstock_name":"jupyter_client",
+ "new_version":false
 }

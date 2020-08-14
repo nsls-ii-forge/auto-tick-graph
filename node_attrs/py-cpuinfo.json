@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"py-cpuinfo"
+ "feedstock_name":"py-cpuinfo",
+ "new_version":false
 }

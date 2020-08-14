@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"pytest-timeout"
+ "feedstock_name":"pytest-timeout",
+ "new_version":false
 }

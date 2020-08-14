@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"certifi"
+ "feedstock_name":"certifi",
+ "new_version":false
 }

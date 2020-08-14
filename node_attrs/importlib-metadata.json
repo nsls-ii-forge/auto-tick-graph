@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"importlib-metadata"
+ "feedstock_name":"importlib-metadata",
+ "new_version":false
 }

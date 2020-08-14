@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"pytest-astropy"
+ "feedstock_name":"pytest-astropy",
+ "new_version":false
 }

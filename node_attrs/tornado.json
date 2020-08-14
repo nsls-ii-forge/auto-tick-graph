@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"tornado"
+ "feedstock_name":"tornado",
+ "new_version":false
 }

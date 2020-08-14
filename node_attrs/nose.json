@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"nose"
+ "feedstock_name":"nose",
+ "new_version":false
 }

@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"memory_profiler"
+ "feedstock_name":"memory_profiler",
+ "new_version":false
 }

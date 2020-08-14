@@ -109,6 +109,7 @@
   }
  },
  "name":"conda-forge-pinning",
+ "new_version":false,
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://conda-forge.org/docs/maintainer/infrastructure.html#conda-forge-pinning",

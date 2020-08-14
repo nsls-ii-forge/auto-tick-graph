@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"urllib3"
+ "feedstock_name":"urllib3",
+ "new_version":false
 }

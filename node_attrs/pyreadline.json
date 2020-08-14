@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"pyreadline"
+ "feedstock_name":"pyreadline",
+ "new_version":false
 }

@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"pymongo"
+ "feedstock_name":"pymongo",
+ "new_version":false
 }

@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"mkl_fft"
+ "feedstock_name":"mkl_fft",
+ "new_version":false
 }

@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"ipython"
+ "feedstock_name":"ipython",
+ "new_version":false
 }

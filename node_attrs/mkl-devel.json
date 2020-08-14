@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"mkl-devel"
+ "feedstock_name":"mkl-devel",
+ "new_version":false
 }

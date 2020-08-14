@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"cyrus-sasl"
+ "feedstock_name":"cyrus-sasl",
+ "new_version":false
 }

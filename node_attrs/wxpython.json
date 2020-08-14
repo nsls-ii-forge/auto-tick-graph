@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"wxpython"
+ "feedstock_name":"wxpython",
+ "new_version":false
 }

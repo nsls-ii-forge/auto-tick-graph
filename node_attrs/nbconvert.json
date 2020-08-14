@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"nbconvert"
+ "feedstock_name":"nbconvert",
+ "new_version":false
 }

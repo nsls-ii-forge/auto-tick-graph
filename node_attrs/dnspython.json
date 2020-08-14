@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"dnspython"
+ "feedstock_name":"dnspython",
+ "new_version":false
 }

@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"scipy"
+ "feedstock_name":"scipy",
+ "new_version":false
 }

@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"libcxx"
+ "feedstock_name":"libcxx",
+ "new_version":false
 }

@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"libopencv"
+ "feedstock_name":"libopencv",
+ "new_version":false
 }

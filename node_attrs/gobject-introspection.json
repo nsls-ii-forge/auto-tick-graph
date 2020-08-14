@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"gobject-introspection"
+ "feedstock_name":"gobject-introspection",
+ "new_version":false
 }

@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"cmake"
+ "feedstock_name":"cmake",
+ "new_version":false
 }

@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"pyparsing"
+ "feedstock_name":"pyparsing",
+ "new_version":false
 }

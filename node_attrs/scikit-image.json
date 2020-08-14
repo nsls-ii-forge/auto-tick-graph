@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"scikit-image"
+ "feedstock_name":"scikit-image",
+ "new_version":false
 }

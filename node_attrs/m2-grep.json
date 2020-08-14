@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"m2-grep"
+ "feedstock_name":"m2-grep",
+ "new_version":false
 }

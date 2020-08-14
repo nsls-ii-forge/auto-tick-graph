@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"ffmpeg"
+ "feedstock_name":"ffmpeg",
+ "new_version":false
 }

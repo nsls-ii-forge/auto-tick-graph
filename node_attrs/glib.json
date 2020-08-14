@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"glib"
+ "feedstock_name":"glib",
+ "new_version":false
 }

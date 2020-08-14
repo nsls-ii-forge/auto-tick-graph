@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"toml"
+ "feedstock_name":"toml",
+ "new_version":false
 }

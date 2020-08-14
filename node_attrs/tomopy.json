@@ -312,6 +312,7 @@
   }
  },
  "name":"tomopy",
+ "new_version":false,
  "osx_64_meta_yaml":{
   "about":{
    "description":"TomoPy is an open-source Python package for tomographic data\nprocessing and image reconstruction.\n",

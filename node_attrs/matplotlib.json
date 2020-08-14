@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"matplotlib"
+ "feedstock_name":"matplotlib",
+ "new_version":false
 }

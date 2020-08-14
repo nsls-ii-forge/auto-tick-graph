@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"path.py"
+ "feedstock_name":"path.py",
+ "new_version":false
 }

@@ -8857,6 +8857,12 @@
    "payload":{
     "__lazy_json__":"node_attrs/jpeg.json"
    }
+  },
+  {
+   "id":"",
+   "payload":{
+    "__lazy_json__":"node_attrs/.json"
+   }
   }
  ]
 }

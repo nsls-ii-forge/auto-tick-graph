@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"dask-core"
+ "feedstock_name":"dask-core",
+ "new_version":false
 }

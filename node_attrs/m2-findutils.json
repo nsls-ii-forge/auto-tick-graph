@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"m2-findutils"
+ "feedstock_name":"m2-findutils",
+ "new_version":false
 }

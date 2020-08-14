@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"netcdf4"
+ "feedstock_name":"netcdf4",
+ "new_version":false
 }

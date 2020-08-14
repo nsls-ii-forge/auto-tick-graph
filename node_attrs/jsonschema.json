@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"jsonschema"
+ "feedstock_name":"jsonschema",
+ "new_version":false
 }

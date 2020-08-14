@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"pytest-mock"
+ "feedstock_name":"pytest-mock",
+ "new_version":false
 }

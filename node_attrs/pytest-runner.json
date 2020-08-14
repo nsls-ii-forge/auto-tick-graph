@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"pytest-runner"
+ "feedstock_name":"pytest-runner",
+ "new_version":false
 }

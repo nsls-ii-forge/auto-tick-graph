@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"cudnn"
+ "feedstock_name":"cudnn",
+ "new_version":false
 }

@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"wheel"
+ "feedstock_name":"wheel",
+ "new_version":false
 }

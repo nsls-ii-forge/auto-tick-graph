@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"cloudpickle"
+ "feedstock_name":"cloudpickle",
+ "new_version":false
 }

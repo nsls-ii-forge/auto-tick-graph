@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"deprecated"
+ "feedstock_name":"deprecated",
+ "new_version":false
 }

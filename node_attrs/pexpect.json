@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"pexpect"
+ "feedstock_name":"pexpect",
+ "new_version":false
 }

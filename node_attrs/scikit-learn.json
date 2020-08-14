@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"scikit-learn"
+ "feedstock_name":"scikit-learn",
+ "new_version":false
 }

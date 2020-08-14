@@ -140,6 +140,7 @@
   }
  },
  "name":"hdf5-lz4",
+ "new_version":false,
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/dectris/HDF5Plugin",

@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"astropy"
+ "feedstock_name":"astropy",
+ "new_version":false
 }

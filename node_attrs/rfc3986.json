@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"rfc3986"
+ "feedstock_name":"rfc3986",
+ "new_version":false
 }

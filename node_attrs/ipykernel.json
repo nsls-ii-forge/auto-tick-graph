@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"ipykernel"
+ "feedstock_name":"ipykernel",
+ "new_version":false
 }

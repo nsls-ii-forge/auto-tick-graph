@@ -1,5 +1,6 @@
 {
  "archived":true,
  "bad":false,
- "feedstock_name":"html5lib"
+ "feedstock_name":"html5lib",
+ "new_version":false
 }
