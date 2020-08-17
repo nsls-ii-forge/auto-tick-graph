@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/468925251.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -117,6 +136,10 @@
  },
  "name":"wxutils",
  "new_version":"0.2.4",
+ "new_version_attempts":{
+  "0.2.4":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/newville/wxutils",
@@ -177,6 +200,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2020.08.15.14.59.48",
  "raw_meta_yaml":"{% set name = \"wxutils\" %}\n{% set version = \"0.2.3\" %}\n{% set file_ext = \"tar.gz\" %}\n{% set sha256 = \"0d0b2f2cf81d894778d65eb35a986621a73acaf5afdd4296f10f797918d46a72\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ file_ext }}\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - wxpython\n\ntest:\n  imports:\n    - wxutils\n\nabout:\n  home: https://github.com/newville/wxutils\n  license: BSD\n  license_file: LICENSE\n  summary: Utilities and convenience classes and functions for wxPython\n",
  "req":{
   "__set__":true,
@@ -210,6 +234,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.10",
  "strong_exports":false,
  "total_requirements":{
   "build":{

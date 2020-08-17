@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/468924291.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.3.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -130,6 +149,10 @@
  },
  "name":"peakutils",
  "new_version":"1.3.3",
+ "new_version_attempts":{
+  "1.3.3":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "description":"This package provides utilities related to the detection of peaks on\n1D data. Includes functions to estimate baselines, finding the\nindexes of peaks in the data and performing Gaussian fitting or centroid\ncomputation to further increase the resolution of the peak detection.\n",
@@ -196,6 +219,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2020.08.15.14.59.48",
  "raw_meta_yaml":"{% set name = \"peakutils\" %}\n{% set version = \"1.3.2\" %}\n{% set sha256 = \"2cf1f609132f0219e2fc9c7e221b62d1c82c9a502ec9a4c1195823423275c954\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/P/PeakUtils/PeakUtils-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - numpy >=1.8\n    - scipy >=0.14\n\ntest:\n  imports:\n    - {{ name }}\n\nabout:\n  home: https://bitbucket.org/lucashnegri/peakutils\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.txt\n  summary: 'Peak detection utilities for 1D data'\n  description: |\n    This package provides utilities related to the detection of peaks on \n    1D data. Includes functions to estimate baselines, finding the \n    indexes of peaks in the data and performing Gaussian fitting or centroid \n    computation to further increase the resolution of the peak detection.\n  doc_url: http://pythonhosted.org/PeakUtils/\n  dev_url: https://bitbucket.org/lucashnegri/peakutils/\n",
  "req":{
   "__set__":true,
@@ -231,6 +255,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.10",
  "strong_exports":false,
  "total_requirements":{
   "build":{

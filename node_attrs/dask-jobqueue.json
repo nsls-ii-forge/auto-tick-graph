@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/468924686.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -130,6 +149,10 @@
  },
  "name":"dask-jobqueue",
  "new_version":"0.7.1",
+ "new_version_attempts":{
+  "0.7.1":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "description":"Easy deployment of Dask Distributed on job queuing systems such as PBS,\nSlurm, LSF or SGE.\n",
@@ -196,6 +219,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2020.08.15.14.59.48",
  "raw_meta_yaml":"{% set name = \"dask-jobqueue\" %}\n{% set version = \"0.7.0\" %}\n{% set sha256 = \"660cd4cd052ada872fd6413f224a2d9221026dd55a8a29a9a7d52b262bec67e7\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n  run:\n    - python >=3.5\n    - dask-core >=2.5.2\n    - distributed >=2.5.2\n\ntest:\n  imports:\n    - dask_jobqueue\n\nabout:\n  home: https://github.com/dask/dask-jobqueue\n  license: BSD 3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: 'Easy deployment of Dask Distributed on job queuing systems like PBS, Slurm, LSF and SGE.'\n  description: |\n    Easy deployment of Dask Distributed on job queuing systems such as PBS,\n    Slurm, LSF or SGE.\n  doc_url: https://jobqueue.dask.org\n  dev_url: https://github.com/dask/dask-jobqueue\n",
  "req":{
   "__set__":true,
@@ -231,6 +255,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.10",
  "strong_exports":false,
  "total_requirements":{
   "build":{
