@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/468909705.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.1.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -131,6 +150,10 @@
  },
  "name":"uncertainties",
  "new_version":"3.1.4",
+ "new_version_attempts":{
+  "3.1.4":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://pypi.python.org/pypi/uncertainties",
@@ -197,6 +220,7 @@
    ]
   }
  },
+ "pinning_version":"2020.08.15.14.59.48",
  "raw_meta_yaml":"{% set name = \"uncertainties\" %}\n{% set version = \"3.1.2\" %}\n{% set sha256 = \"ba07c17a8a78cb58a47cd373079c7ea459f8b26cd474e29163b6ba0d72856a1e\" %}\n\npackage:\n    name: {{ name|lower }}\n    version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/u/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - numpy\n\ntest:\n  requires:\n    - numpy\n  imports:\n    - {{ name }}\n    - {{ name }}.unumpy\n\nabout:\n  home: https://pypi.python.org/pypi/uncertainties\n  license: BSD 3-Clause\n  license_file: LICENSE.txt\n  summary: 'Transparent calculations with uncertainties on the quantities involved (aka \"error propagation\"); fast calculation of derivatives.'\n",
  "req":{
   "__set__":true,
@@ -232,6 +256,7 @@
    ]
   }
  },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.10",
  "strong_exports":false,
  "total_requirements":{
   "build":{

@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/468910065.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -150,6 +169,10 @@
  },
  "name":"helpdev",
  "new_version":"0.7.1",
+ "new_version_attempts":{
+  "0.7.1":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://gitlab.com/dpizetta/helpdev",
@@ -224,6 +247,7 @@
    ]
   }
  },
+ "pinning_version":"2020.08.15.14.59.48",
  "raw_meta_yaml":"{% set name = \"helpdev\" %}\n{% set version = \"0.6.10\" %}\n{% set sha256 = \"9e61d24458b7506809670222ca656b139e67d46c530cd227a899780152d7b44e\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  entry_points:\n    - helpdev=helpdev.__main__:main\n  noarch: \"python\"\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv \"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - importlib_metadata\n    - psutil >=5.6\n\ntest:\n  requires:\n    - pytest\n  imports:\n    - helpdev\n  commands:\n    - helpdev --help\n\nabout:\n  home: \"https://gitlab.com/dpizetta/helpdev\"\n  license: \"MIT\"\n  license_family: \"MIT\"\n  license_file: LICENSE.rst\n  summary: \"HelpDev - Extracts information about the Python environment easily.\"\n\n",
  "req":{
   "__set__":true,
@@ -261,6 +285,7 @@
    ]
   }
  },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.10",
  "strong_exports":false,
  "total_requirements":{
   "build":{

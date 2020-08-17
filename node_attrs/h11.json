@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/468909592.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.10.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -120,6 +139,10 @@
  },
  "name":"h11",
  "new_version":"0.10.0",
+ "new_version_attempts":{
+  "0.10.0":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "description":"h11 is an HTTP/1.1 protocol library written in Python, heavily inspired by\n[hyper-h2](https://hyper-h2.readthedocs.io/en/stable/).\n",
@@ -182,6 +205,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2020.08.15.14.59.48",
  "raw_meta_yaml":"{% set name = \"h11\" %}\n{% set version = \"0.9.0\" %}\n{% set sha256 = \"33d4bca7be0fa039f4e84d50ab00531047e53d6ee8ffbc83501ea602c169cae1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n\ntest:\n  imports:\n    - {{ name }}\n\nabout:\n  home: https://github.com/python-hyper/h11\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.txt\n  summary: 'A pure-Python HTTP/1.1 protocol library.'\n  description: |\n    h11 is an HTTP/1.1 protocol library written in Python, heavily inspired by\n    [hyper-h2](https://hyper-h2.readthedocs.io/en/stable/).\n  doc_url: https://h11.readthedocs.io/en/latest/\n  dev_url: https://github.com/python-hyper/h11\n",
  "req":{
   "__set__":true,
@@ -213,6 +237,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.10",
  "strong_exports":false,
  "total_requirements":{
   "build":{

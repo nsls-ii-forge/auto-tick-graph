@@ -226,6 +226,10 @@
  },
  "name":"sasview",
  "new_version":"5.0.3",
+ "new_version_attempts":{
+  "5.0.3":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/SasView/sasview",
