@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/468884460.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -168,6 +187,10 @@
  },
  "name":"amostra",
  "new_version":"1.0.1",
+ "new_version_attempts":{
+  "1.0.1":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://nsls-ii.github.io/amostra",
@@ -246,6 +269,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2020.08.15.14.59.48",
  "raw_meta_yaml":"{% set name = \"amostra\" %}\n{% set version = \"1.0.0\" %}\n{% set sha256 = \"52a34cf993ddc1367832f263b417eb4ed4f88214792acf86a4bd98c6cd5c3173\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/NSLS-II/{{ name  }}/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 1\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - doct\n    - jsonschema\n    - mongoquery\n    - pymongo\n    - pyyaml\n    - requests\n    - tornado\n    - ujson\n\ntest:\n  imports:\n    - amostra\n    - amostra.client\n    - amostra.sample_data\n    - amostra.server\n    - amostra.test\n\nabout:\n  home: https://nsls-ii.github.io/amostra\n  license: BSD 3-Clause\n  license_file: LICENSE\n  summary: \"amostra is a collection of light-weight sample management classes\"\n",
  "req":{
   "__set__":true,
@@ -293,6 +317,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.10",
  "strong_exports":false,
  "total_requirements":{
   "build":{

@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/468884327.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.8.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -136,6 +155,10 @@
  },
  "name":"qdarkstyle",
  "new_version":"2.8.1",
+ "new_version_attempts":{
+  "2.8.1":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/ColinDuquesnoy/QDarkStyleSheet",
@@ -203,6 +226,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2020.08.15.14.59.48",
  "raw_meta_yaml":"{% set name = \"QDarkStyle\" %}\n{% set version = \"2.7\" %}\n{% set sha256 = \"de7aba62119a839556afd7b3b962588410b6249cbcfcbd56e51e6e827264c38f\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  entry_points:\n    - qdarkstyle=qdarkstyle.__main__:main\n  noarch: \"python\"\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - helpdev >=0.6.2\n    - pyqt >=5\n\ntest:\n  imports:\n    - qdarkstyle\n    - qdarkstyle.utils\n\nabout:\n  home: \"https://github.com/ColinDuquesnoy/QDarkStyleSheet\"\n  license: \"MIT\"\n  license_family: \"MIT\"\n  license_file: LICENSE.md\n  summary: \"A dark stylesheet for Python and Qt applications\"\n\n",
  "req":{
   "__set__":true,
@@ -238,6 +262,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.10",
  "strong_exports":false,
  "total_requirements":{
   "build":{
