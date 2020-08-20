@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/470920700.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2020.8.13"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -132,6 +151,10 @@
  },
  "name":"tifffile",
  "new_version":"2020.8.13",
+ "new_version_attempts":{
+  "2020.8.13":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/blink1073/tifffile",
@@ -199,6 +222,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2020.08.17.20.01.55",
  "raw_meta_yaml":"{% set name = \"tifffile\" %}\n{% set version = \"0.15.1\" %}\n{% set sha256 = \"1fbb2cfd57fd8e42e417bc29001a17f319701f1be00e0b8a0004a52da93f1b08\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/t/tifffile/tifffile-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 1\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv\"\n  skip: True  # [py<36]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - python\n    - pip\n    - numpy\n    - msinttypes  # [win and py<36]\n  run:\n    - python\n    - {{ pin_compatible('numpy') }}\n\ntest:\n  imports:\n    - tifffile\n\nabout:\n  home: https://github.com/blink1073/tifffile\n  license: BSD 3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Read and write image data from and to TIFF files\n",
  "req":{
   "__set__":true,
@@ -236,6 +260,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.10",
  "strong_exports":false,
  "total_requirements":{
   "build":{

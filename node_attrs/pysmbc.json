@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/470921392.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.22"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -116,6 +135,10 @@
  },
  "name":"pysmbc",
  "new_version":"1.0.22",
+ "new_version_attempts":{
+  "1.0.22":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/hamano/pysmbc",
@@ -177,6 +200,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2020.08.17.20.01.55",
  "raw_meta_yaml":"{% set name = \"pysmbc\" %}\n{% set version = \"1.0.15.8\" %}\n{% set sha256 = \"0567c1789a911500b83c64becdaa0015c135cce0bcf59ec593df48859bebbf1d\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.bz2  # The extension has changed in the latest versions to .tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: |\n    export LDFLAGS=-L/usr/lib64\n    export CPPFLAGS=-I/usr/include\n    {{ PYTHON }} -m pip install . --no-deps -vv\n  skip: true  # [py<36 or not linux]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - python\n    - pip\n  run:\n    - python\n\n# Commenting out the tests for now as the \"undefined symbol: lp_set_cmdline\"\n# error happens when running this test with libsmbclient v3.6. It works well\n# with version 4.2 which is installed at NSLS-II ISS.\n# test:\n#   imports:\n#     smbc\n\nabout:\n  home: http://pypi.python.org/pypi/pysmbc\n  license: GNU GPL v2.0\n  license_file: COPYING\n  summary: libsmbclient binding for Python\n  dev_url: https://github.com/hamano/pysmbc\n",
  "req":{
   "__set__":true,
@@ -213,6 +237,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.10",
  "strong_exports":false,
  "total_requirements":{
   "build":{

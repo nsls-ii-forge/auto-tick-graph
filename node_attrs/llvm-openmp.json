@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/470922219.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"10.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -271,6 +290,10 @@
  },
  "name":"llvm-openmp",
  "new_version":"10.0.1",
+ "new_version_attempts":{
+  "10.0.1":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "home":"http://openmp.llvm.org/",
@@ -375,6 +398,7 @@
   "llvm-openmp",
   "openmp"
  ],
+ "pinning_version":"2020.08.17.20.01.55",
  "raw_meta_yaml":"{% set name = \"llvm-openmp\" %}\n{% set version = \"8.0.1\" %}\n{% set sha256 = \"3e85dd3cad41117b7c89a41de72f2e6aa756ea7b4ef63bb10dcddf8561a7722c\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/llvm/llvm-project/releases/download/llvmorg-{{ version }}/openmp-{{ version }}.src.tar.xz\n  sha256: {{ sha256 }}\n  patches:\n    - D65714.patch\n\nbuild:\n  number: 0\n  skip: true  # [win and vc<14]\n\ntest:\n  requires:\n    - clangdev\n    - {{ compiler('cxx') }}  # [linux]\n  commands:\n    - if not exist %LIBRARY_BIN%\\\\libomp.dll exit 1   # [win]\n    - test -f $PREFIX/lib/libomp.so                   # [linux]\n    - test -f $PREFIX/lib/libomp.dylib                # [osx]\n    - if not exist %LIBRARY_LIB%\\\\libomp.lib exit 1   # [win]\n    - if not exist %LIBRARY_INC%\\\\omp.h exit 1        # [win]\n    - test -f $PREFIX/include/omp.h                   # [unix]\n    - $PREFIX/bin/clang -v -fopenmp -I$PREFIX/include -L$PREFIX/lib -Wl,-rpath,$PREFIX/lib omp_hello.c -o omp_hello  # [not win]\n    - \"%LIBRARY_BIN%\\\\clang -v -fopenmp -I%LIBRARY_INC% -L%LIBRARY_LIB% omp_hello.c -o omp_hello.exe\"  # [win]\n    - ./omp_hello            # [unix]\n    - \"%cd%\\\\omp_hello.exe\"  # [win]\n  files:\n    - omp_hello.c\n\noutputs:\n  - name: llvm-openmp\n    script: build-llvm-openmp.sh  # [not win]\n    script: bld-llvm-openmp.bat   # [win]\n    build:\n      run_exports:\n        strong:\n          - {{ pin_subpackage(\"llvm-openmp\", max_pin=None) }}\n    requirements:\n      build:\n        - {{ compiler(\"cxx\") }}\n        - cmake\n        - perl\n        - ninja  # [win]\n      host:\n        - llvmdev {{ version }}|{{ version }}.*\n      run_constrained:\n        - clangdev {{ version }}|{{ version }}.*\n        - llvmdev {{ version }}|{{ version }}.*\n        - openmp {{ version }}|{{ version }}.*\n\n  - name: openmp\n    requirements:\n      run:\n        - {{ pin_subpackage(\"llvm-openmp\", exact=True) }}\n\nabout:\n  home: http://openmp.llvm.org/\n  license: NCSA\n  license_file: LICENSE.txt\n  summary: The OpenMP API supports multi-platform shared-memory parallel programming in C/C++ and Fortran.\n",
  "req":{
   "__set__":true,
@@ -417,6 +441,7 @@
    ]
   }
  },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.10",
  "strong_exports":true,
  "total_requirements":{
   "build":{
