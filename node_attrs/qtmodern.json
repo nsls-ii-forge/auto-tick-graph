@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/470904811.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -132,6 +151,10 @@
  },
  "name":"qtmodern",
  "new_version":"0.2.0",
+ "new_version_attempts":{
+  "0.2.0":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://www.github.com/gmarull/qtmodern",
@@ -197,6 +220,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2020.08.17.20.01.55",
  "raw_meta_yaml":"{% set name = \"qtmodern\" %}\n{% set version = \"0.1.4\" %}\n{% set sha256 = \"a2acb8bf01ca3cd7edf4d9eca25a5f29cee3ddd44fc2a3b2e5511d1bc5c37932\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: \"python\"\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv \"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - qtpy >=1.3.1\n    - pyqt >=5\n\ntest:\n  imports:\n    - qtmodern\n    - qtmodern.styles\n    - qtmodern.windows\n\nabout:\n  home: \"https://www.github.com/gmarull/qtmodern\"\n  license: \"MIT\"\n  license_family: \"MIT\"\n  license_file: LICENSE\n  summary: \"Qt Widgets Modern User Interface\"\n",
  "req":{
   "__set__":true,
@@ -232,6 +256,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.10",
  "strong_exports":false,
  "total_requirements":{
   "build":{

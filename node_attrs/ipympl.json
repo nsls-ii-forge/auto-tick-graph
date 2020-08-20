@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/470905762.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -139,6 +158,10 @@
  },
  "name":"ipympl",
  "new_version":"0.5.7",
+ "new_version_attempts":{
+  "0.5.7":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/matplotlib/jupyter-matplotlib",
@@ -208,6 +231,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2020.08.17.20.01.55",
  "raw_meta_yaml":"{% set name = \"ipympl\" %}\n{% set version = \"0.3.3\" %}\n{% set sha256 = \"edf4374806d704f35334260678d2e94db5079a3d5ef75ed88b8fc2a4a080ba54\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON}} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - jupyter\n    - pip\n  run:\n    - python\n    - ipywidgets >=7.5.0,<8.0\n    - ipykernel >=4.7\n    - matplotlib >=2.2.0\n    - six\n\ntest:\n  imports:\n    - {{ name }}\n\nabout:\n    home: https://github.com/matplotlib/jupyter-matplotlib\n    license: BSD 3-Clause\n    license_family: BSD\n    license_file: LICENSE\n    summary: Matplotlib Jupyter Extension\n",
  "req":{
   "__set__":true,
@@ -249,6 +273,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.10",
  "strong_exports":false,
  "total_requirements":{
   "build":{

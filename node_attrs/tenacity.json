@@ -39,11 +39,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . -vv"
+   "script":"-m pip install . -vv"
   },
   "package":{
    "name":"tenacity",
-   "version":"5.1.1"
+   "version":"6.2.0"
   },
   "requirements":{
    "host":[
@@ -59,9 +59,8 @@
    ]
   },
   "source":{
-   "fn":"tenacity-5.1.1.tar.gz",
-   "sha256":"a4eb168dbf55ed2cae27e7c6b2bd48ab54dabaf294177d998330cf59f294c112",
-   "url":"https://pypi.io/packages/source/t/tenacity/tenacity-5.1.1.tar.gz"
+   "sha256":"29ae90e7faf488a8628432154bb34ace1cca58244c6ea399fd33f066ac71339a",
+   "url":"https://pypi.io/packages/source/t/tenacity/tenacity-6.2.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -107,11 +106,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . -vv"
+   "script":"-m pip install . -vv"
   },
   "package":{
    "name":"tenacity",
-   "version":"5.1.1"
+   "version":"6.2.0"
   },
   "requirements":{
    "host":[
@@ -141,9 +140,8 @@
    ]
   },
   "source":{
-   "fn":"tenacity-5.1.1.tar.gz",
-   "sha256":"a4eb168dbf55ed2cae27e7c6b2bd48ab54dabaf294177d998330cf59f294c112",
-   "url":"https://pypi.io/packages/source/t/tenacity/tenacity-5.1.1.tar.gz"
+   "sha256":"29ae90e7faf488a8628432154bb34ace1cca58244c6ea399fd33f066ac71339a",
+   "url":"https://pypi.io/packages/source/t/tenacity/tenacity-6.2.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -170,11 +168,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . -vv"
+   "script":"-m pip install . -vv"
   },
   "package":{
    "name":"tenacity",
-   "version":"5.1.1"
+   "version":"6.2.0"
   },
   "requirements":{
    "host":[
@@ -190,9 +188,8 @@
    ]
   },
   "source":{
-   "fn":"tenacity-5.1.1.tar.gz",
-   "sha256":"a4eb168dbf55ed2cae27e7c6b2bd48ab54dabaf294177d998330cf59f294c112",
-   "url":"https://pypi.io/packages/source/t/tenacity/tenacity-5.1.1.tar.gz"
+   "sha256":"29ae90e7faf488a8628432154bb34ace1cca58244c6ea399fd33f066ac71339a",
+   "url":"https://pypi.io/packages/source/t/tenacity/tenacity-6.2.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -228,7 +225,7 @@
   }
  },
  "pinning_version":"2020.08.15.14.59.48",
- "raw_meta_yaml":"{% set name = \"tenacity\" %}\n{% set version = \"5.1.1\" %}\n{% set sha256 = \"a4eb168dbf55ed2cae27e7c6b2bd48ab54dabaf294177d998330cf59f294c112\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python\n    - pbr\n    - pip\n    - setuptools\n    - setuptools_scm\n  run:\n    - python\n    - futures >=3  # [py27]\n    - monotonic >=0.6  # [py27]\n    - six >=1.9.0\n\ntest:\n  imports:\n    - tenacity\n\nabout:\n  home: http://github.com/jd/tenacity\n  license: Apache 2.0\n  license_file: LICENSE\n  summary: 'Retry a flaky function whenever an exception occurs until it works'\n\n  description: |\n    Tenacity is general-purpose retrying library, written in Python, to simplify the task of\n    adding retry behavior to just about anything. It originates from a fork of Retrying\n\n",
+ "raw_meta_yaml":"{% set name = \"tenacity\" %}\n{% set version = \"6.2.0\" %}\n{% set sha256 = \"29ae90e7faf488a8628432154bb34ace1cca58244c6ea399fd33f066ac71339a\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python\n    - pbr\n    - pip\n    - setuptools\n    - setuptools_scm\n  run:\n    - python\n    - futures >=3  # [py27]\n    - monotonic >=0.6  # [py27]\n    - six >=1.9.0\n\ntest:\n  imports:\n    - tenacity\n\nabout:\n  home: http://github.com/jd/tenacity\n  license: Apache 2.0\n  license_file: LICENSE\n  summary: Retry a flaky function whenever an exception occurs until it works\n  description: |\n    Tenacity is general-purpose retrying library, written in Python, to simplify the task of\n    adding retry behavior to just about anything. It originates from a fork of Retrying\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -297,7 +294,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/t/tenacity/tenacity-5.1.1.tar.gz",
- "version":"5.1.1",
+ "version":"6.2.0",
  "win_64_meta_yaml":{
   "about":{
    "description":"Tenacity is general-purpose retrying library, written in Python, to simplify the task of\nadding retry behavior to just about anything. It originates from a fork of Retrying\n",
@@ -309,11 +306,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . -vv"
+   "script":"-m pip install . -vv"
   },
   "package":{
    "name":"tenacity",
-   "version":"5.1.1"
+   "version":"6.2.0"
   },
   "requirements":{
    "host":[
@@ -329,9 +326,8 @@
    ]
   },
   "source":{
-   "fn":"tenacity-5.1.1.tar.gz",
-   "sha256":"a4eb168dbf55ed2cae27e7c6b2bd48ab54dabaf294177d998330cf59f294c112",
-   "url":"https://pypi.io/packages/source/t/tenacity/tenacity-5.1.1.tar.gz"
+   "sha256":"29ae90e7faf488a8628432154bb34ace1cca58244c6ea399fd33f066ac71339a",
+   "url":"https://pypi.io/packages/source/t/tenacity/tenacity-6.2.0.tar.gz"
   },
   "test":{
    "imports":[

@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/470905625.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -158,6 +177,10 @@
  },
  "name":"kafka-python",
  "new_version":"2.0.1",
+ "new_version_attempts":{
+  "2.0.1":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/dpkp/kafka-python",
@@ -229,6 +252,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2020.08.17.20.01.55",
  "raw_meta_yaml":"{% set name = \"kafka-python\" %}\n{% set version = \"1.4.6\" %}\n{% set bundle = \"tar.gz\" %}\n{% set hash_type = \"sha256\" %}\n{% set hash = \"08f83d8e0af2e64d25f94314d4bef6785b34e3b0df0effe9eebf76b98de66eeb\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}\n  {{ hash_type }}: {{ hash }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n\ntest:\n  imports:\n    - kafka\n    - kafka.consumer\n    - kafka.coordinator\n    - kafka.coordinator.assignors\n    - kafka.metrics\n    - kafka.metrics.stats\n    - kafka.partitioner\n    - kafka.producer\n    - kafka.protocol\n    - kafka.serializer\n    - kafka.vendor\n\nabout:\n  home: https://github.com/dpkp/kafka-python\n  license_file: LICENSE\n  license: Apache 2.0\n  license_family: Apache\n  summary: 'Pure Python client for Apache Kafka'\n  dev_url: https://github.com/dpkp/kafka-python\n  doc_url: https://kafka-python.readthedocs.io/en/master/\n",
  "req":{
   "__set__":true,
@@ -260,6 +284,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.10",
  "strong_exports":false,
  "total_requirements":{
   "build":{

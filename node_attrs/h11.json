@@ -42,11 +42,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . -vv"
+   "script":"-m pip install . -vv"
   },
   "package":{
    "name":"h11",
-   "version":"0.9.0"
+   "version":"0.10.0"
   },
   "requirements":{
    "host":[
@@ -58,8 +58,8 @@
    ]
   },
   "source":{
-   "sha256":"33d4bca7be0fa039f4e84d50ab00531047e53d6ee8ffbc83501ea602c169cae1",
-   "url":"https://pypi.io/packages/source/h/h11/h11-0.9.0.tar.gz"
+   "sha256":"311dc5478c2568cc07262e0381cdfc5b9c6ba19775905736c87e81ae6662b9fd",
+   "url":"https://pypi.io/packages/source/h/h11/h11-0.10.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -104,11 +104,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . -vv"
+   "script":"-m pip install . -vv"
   },
   "package":{
    "name":"h11",
-   "version":"0.9.0"
+   "version":"0.10.0"
   },
   "requirements":{
    "host":[
@@ -126,8 +126,8 @@
    ]
   },
   "source":{
-   "sha256":"33d4bca7be0fa039f4e84d50ab00531047e53d6ee8ffbc83501ea602c169cae1",
-   "url":"https://pypi.io/packages/source/h/h11/h11-0.9.0.tar.gz"
+   "sha256":"311dc5478c2568cc07262e0381cdfc5b9c6ba19775905736c87e81ae6662b9fd",
+   "url":"https://pypi.io/packages/source/h/h11/h11-0.10.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -157,11 +157,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . -vv"
+   "script":"-m pip install . -vv"
   },
   "package":{
    "name":"h11",
-   "version":"0.9.0"
+   "version":"0.10.0"
   },
   "requirements":{
    "host":[
@@ -173,8 +173,8 @@
    ]
   },
   "source":{
-   "sha256":"33d4bca7be0fa039f4e84d50ab00531047e53d6ee8ffbc83501ea602c169cae1",
-   "url":"https://pypi.io/packages/source/h/h11/h11-0.9.0.tar.gz"
+   "sha256":"311dc5478c2568cc07262e0381cdfc5b9c6ba19775905736c87e81ae6662b9fd",
+   "url":"https://pypi.io/packages/source/h/h11/h11-0.10.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -206,7 +206,7 @@
   }
  },
  "pinning_version":"2020.08.15.14.59.48",
- "raw_meta_yaml":"{% set name = \"h11\" %}\n{% set version = \"0.9.0\" %}\n{% set sha256 = \"33d4bca7be0fa039f4e84d50ab00531047e53d6ee8ffbc83501ea602c169cae1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n\ntest:\n  imports:\n    - {{ name }}\n\nabout:\n  home: https://github.com/python-hyper/h11\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.txt\n  summary: 'A pure-Python HTTP/1.1 protocol library.'\n  description: |\n    h11 is an HTTP/1.1 protocol library written in Python, heavily inspired by\n    [hyper-h2](https://hyper-h2.readthedocs.io/en/stable/).\n  doc_url: https://h11.readthedocs.io/en/latest/\n  dev_url: https://github.com/python-hyper/h11\n",
+ "raw_meta_yaml":"{% set name = \"h11\" %}\n{% set version = \"0.10.0\" %}\n{% set sha256 = \"311dc5478c2568cc07262e0381cdfc5b9c6ba19775905736c87e81ae6662b9fd\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n\ntest:\n  imports:\n    - {{ name }}\n\nabout:\n  home: https://github.com/python-hyper/h11\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.txt\n  summary: A pure-Python HTTP/1.1 protocol library.\n  description: |\n    h11 is an HTTP/1.1 protocol library written in Python, heavily inspired by\n    [hyper-h2](https://hyper-h2.readthedocs.io/en/stable/).\n  doc_url: https://h11.readthedocs.io/en/latest/\n  dev_url: https://github.com/python-hyper/h11\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -263,7 +263,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/h/h11/h11-0.9.0.tar.gz",
- "version":"0.9.0",
+ "version":"0.10.0",
  "win_64_meta_yaml":{
   "about":{
    "description":"h11 is an HTTP/1.1 protocol library written in Python, heavily inspired by\n[hyper-h2](https://hyper-h2.readthedocs.io/en/stable/).\n",
@@ -278,11 +278,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . -vv"
+   "script":"-m pip install . -vv"
   },
   "package":{
    "name":"h11",
-   "version":"0.9.0"
+   "version":"0.10.0"
   },
   "requirements":{
    "host":[
@@ -294,8 +294,8 @@
    ]
   },
   "source":{
-   "sha256":"33d4bca7be0fa039f4e84d50ab00531047e53d6ee8ffbc83501ea602c169cae1",
-   "url":"https://pypi.io/packages/source/h/h11/h11-0.9.0.tar.gz"
+   "sha256":"311dc5478c2568cc07262e0381cdfc5b9c6ba19775905736c87e81ae6662b9fd",
+   "url":"https://pypi.io/packages/source/h/h11/h11-0.10.0.tar.gz"
   },
   "test":{
    "imports":[

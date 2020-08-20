@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/470904672.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.5.47"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -195,6 +214,10 @@
  },
  "name":"reportlab",
  "new_version":"3.5.47",
+ "new_version_attempts":{
+  "3.5.47":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "doc_url":"https://www.reportlab.com/dev/docs",
@@ -281,6 +304,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2020.08.17.20.01.55",
  "raw_meta_yaml":"{% set name = \"reportlab\" %}\n{% set version = \"3.5.44\" %}\n{% set sha256 = \"670650970c7ba7164cf6340bcd182e7e933eff5d65183af98ee77b40cc25a438\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  skip: True  # [py<36]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - python\n    - pip\n    - freetype\n  run:\n    - python\n    - freetype  # it is a dependency of pillow, but putting it here explicitly\n    - pillow >=2.4.0\n\ntest:\n  imports:\n    - reportlab\n    - reportlab.graphics.charts\n    - reportlab.graphics.samples\n    - reportlab.graphics.widgets\n    - reportlab.graphics.barcode\n    - reportlab.graphics\n    - reportlab.lib\n    - reportlab.pdfbase\n    - reportlab.pdfgen\n    - reportlab.platypus\n  source_files:\n    - docs/\n    - tests/\n    - tools/\n  commands:\n    - \"cd tests && $PYTHON runAll.py\"  # [not win]\n    # Skip full Windows tests for now. See\n    # https://github.com/nsls-ii-forge/reportlab-feedstock/pull/4 for details.\n    # - \"cd tests && %PYTHON% runAll.py\"  # [win]\n\nabout:\n  home: https://www.reportlab.com\n  license: BSD 3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: 'Open-source engine for creating complex, data-driven PDF documents and custom vector graphics'\n  doc_url: https://www.reportlab.com/dev/docs\n",
  "req":{
   "__set__":true,
@@ -320,6 +344,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.10",
  "strong_exports":false,
  "total_requirements":{
   "build":{
