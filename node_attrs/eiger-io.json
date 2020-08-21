@@ -16,6 +16,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/471745995.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -153,8 +170,9 @@
   }
  },
  "name":"eiger-io",
- "new_version":"2.01",
+ "new_version":"2.0.4",
  "new_version_attempts":{
+  "2.0.4":1,
   "2.01":1
  },
  "new_version_errors":{},
@@ -225,7 +243,7 @@
    "elements":[]
   }
  },
- "pinning_version":"2020.08.15.14.59.48",
+ "pinning_version":"2020.08.21.04.46.41",
  "raw_meta_yaml":"{% set name = \"eiger-io\" %}\n{% set name_ = name.replace('-', '_') %}\n{% set version = \"2.0.3\" %}\n{% set sha256 = \"34e2e4dc7a90ea7df9484005309d22a8eda3ab0da015686cb69f826c1461dd61\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/NSLS-II/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 1\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - h5py\n    - hdf5-lz4\n    - numpy\n    - pims\n    - six\n\ntest:\n  imports:\n    - {{ name_ }}\n\nabout:\n  home: https://github.com/NSLS-II/eiger-io\n  license: BSD  # TODO: add a license file in the repo and feedstock\n  summary: I/O tools for the Eiger detector\n",
  "req":{
   "__set__":true,

@@ -286,7 +286,7 @@
   }
  },
  "name":"cupy",
- "new_version":"7.7.0",
+ "new_version":"7.8.0",
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://cupy.chainer.org/",

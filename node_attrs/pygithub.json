@@ -43,7 +43,7 @@
   },
   "package":{
    "name":"pygithub",
-   "version":"1.52"
+   "version":"1.53"
   },
   "requirements":{
    "build":[
@@ -58,9 +58,9 @@
    ]
   },
   "source":{
-   "fn":"PyGithub-1.52.tar.gz",
-   "sha256":"fc11a182ca3d88dde6ab2fbbd07e3441685cc8b738f7813fcbfc18be28c1d8ed",
-   "url":"https://pypi.io/packages/source/P/PyGithub/PyGithub-1.52.tar.gz"
+   "fn":"PyGithub-1.53.tar.gz",
+   "sha256":"776befaddab9d8fddd525d52a6ca1ac228cf62b5b1e271836d766f4925e1452e",
+   "url":"https://pypi.io/packages/source/P/PyGithub/PyGithub-1.53.tar.gz"
   },
   "test":{
    "commands":[
@@ -117,7 +117,7 @@
   },
   "package":{
    "name":"pygithub",
-   "version":"1.52"
+   "version":"1.53"
   },
   "requirements":{
    "build":[
@@ -144,9 +144,9 @@
    ]
   },
   "source":{
-   "fn":"PyGithub-1.52.tar.gz",
-   "sha256":"fc11a182ca3d88dde6ab2fbbd07e3441685cc8b738f7813fcbfc18be28c1d8ed",
-   "url":"https://pypi.io/packages/source/P/PyGithub/PyGithub-1.52.tar.gz"
+   "fn":"PyGithub-1.53.tar.gz",
+   "sha256":"776befaddab9d8fddd525d52a6ca1ac228cf62b5b1e271836d766f4925e1452e",
+   "url":"https://pypi.io/packages/source/P/PyGithub/PyGithub-1.53.tar.gz"
   },
   "test":{
    "commands":[
@@ -167,7 +167,7 @@
   }
  },
  "name":"pygithub",
- "new_version":"1.52",
+ "new_version":"1.53",
  "new_version_attempts":{
   "1.52":1
  },
@@ -187,7 +187,7 @@
   },
   "package":{
    "name":"pygithub",
-   "version":"1.52"
+   "version":"1.53"
   },
   "requirements":{
    "build":[
@@ -202,9 +202,9 @@
    ]
   },
   "source":{
-   "fn":"PyGithub-1.52.tar.gz",
-   "sha256":"fc11a182ca3d88dde6ab2fbbd07e3441685cc8b738f7813fcbfc18be28c1d8ed",
-   "url":"https://pypi.io/packages/source/P/PyGithub/PyGithub-1.52.tar.gz"
+   "fn":"PyGithub-1.53.tar.gz",
+   "sha256":"776befaddab9d8fddd525d52a6ca1ac228cf62b5b1e271836d766f4925e1452e",
+   "url":"https://pypi.io/packages/source/P/PyGithub/PyGithub-1.53.tar.gz"
   },
   "test":{
    "commands":[
@@ -247,7 +247,7 @@
   }
  },
  "pinning_version":"2020.08.15.14.59.48",
- "raw_meta_yaml":"{% set name = \"PyGithub\" %}\n{% set version = \"1.52\" %}\n{% set sha256 = \"fc11a182ca3d88dde6ab2fbbd07e3441685cc8b738f7813fcbfc18be28c1d8ed\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  build:\n    - python\n    - pip\n\n  run:\n    - python >=3\n    - pyjwt\n    - requests >=2.14.0\n    - deprecated\n\ntest:\n  requires:\n    - pip\n  imports:\n    - github\n  commands:\n    - pip check\n\nabout:\n  home: http://pygithub.github.io/PyGithub\n  license_file: COPYING.LESSER\n  license: LGPL-3.0-only\n  license_family: LGPL\n  summary: Python library implementing the GitHub API v3\n",
+ "raw_meta_yaml":"{% set name = \"PyGithub\" %}\n{% set version = \"1.53\" %}\n{% set sha256 = \"776befaddab9d8fddd525d52a6ca1ac228cf62b5b1e271836d766f4925e1452e\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  build:\n    - python\n    - pip\n\n  run:\n    - python >=3\n    - pyjwt\n    - requests >=2.14.0\n    - deprecated\n\ntest:\n  requires:\n    - pip\n  imports:\n    - github\n  commands:\n    - pip check\n\nabout:\n  home: http://pygithub.github.io/PyGithub\n  license_file: COPYING.LESSER\n  license: LGPL-3.0-only\n  license_family: LGPL\n  summary: Python library implementing the GitHub API v3\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -317,7 +317,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/P/PyGithub/PyGithub-1.51.tar.gz",
- "version":"1.52",
+ "version":"1.53",
  "win_64_meta_yaml":{
   "about":{
    "home":"http://pygithub.github.io/PyGithub",
@@ -333,7 +333,7 @@
   },
   "package":{
    "name":"pygithub",
-   "version":"1.52"
+   "version":"1.53"
   },
   "requirements":{
    "build":[
@@ -348,9 +348,9 @@
    ]
   },
   "source":{
-   "fn":"PyGithub-1.52.tar.gz",
-   "sha256":"fc11a182ca3d88dde6ab2fbbd07e3441685cc8b738f7813fcbfc18be28c1d8ed",
-   "url":"https://pypi.io/packages/source/P/PyGithub/PyGithub-1.52.tar.gz"
+   "fn":"PyGithub-1.53.tar.gz",
+   "sha256":"776befaddab9d8fddd525d52a6ca1ac228cf62b5b1e271836d766f4925e1452e",
+   "url":"https://pypi.io/packages/source/P/PyGithub/PyGithub-1.53.tar.gz"
   },
   "test":{
    "commands":[

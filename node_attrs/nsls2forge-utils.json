@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/471745816.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -129,7 +148,11 @@
   }
  },
  "name":"nsls2forge-utils",
- "new_version":"0.0.2",
+ "new_version":"0.1.0",
+ "new_version_attempts":{
+  "0.1.0":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/nsls-ii-forge/nsls2forge-utils",
@@ -195,6 +218,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2020.08.21.04.46.41",
  "raw_meta_yaml":"{% set name = \"nsls2forge-utils\" %}\n{% set version = \"0.0.2\" %}\n{% set sha256 = \"1f594a4f8e28e5dd936a999b3fd425ee185d43543ade1d88428c85021ac7b587\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  entry_points:\n    - check-results = nsls2forge_utils.cli:main\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n\ntest:\n  imports:\n    - nsls2forge_utils\n  commands:\n    - check-results --help\n\nabout:\n  home: https://github.com/nsls-ii-forge/nsls2forge-utils\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: nsls2forge utilities for packaging\n",
  "req":{
   "__set__":true,
@@ -226,6 +250,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.10",
  "strong_exports":false,
  "total_requirements":{
   "build":{
