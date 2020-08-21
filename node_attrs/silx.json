@@ -227,7 +227,7 @@
    "summary":"The silx project aims at providing a collection of Python packages to support the development of data assessment, reduction and analysis applications at synchrotron radiation facilities."
   },
   "build":{
-   "number":0,
+   "number":"0",
    "script":"-m pip install . --no-deps --ignore-installed -vv"
   },
   "package":{

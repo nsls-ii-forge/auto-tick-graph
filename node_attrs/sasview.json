@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/471698503.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.0.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -21,11 +40,7 @@
    "entry_points":[
     "sasview = sas.qtgui.MainWindow.MainWindow:run_sasview"
    ],
-   "number":"0",
-   "script":[
-    " $SRC_DIR/src/sas/qtgui/convertUI.py",
-    " -m pip install . --no-deps -vv"
-   ]
+   "number":"0"
   },
   "package":{
    "name":"sasview",
@@ -125,15 +140,7 @@
     "sasview = sas.qtgui.MainWindow.MainWindow:run_sasview",
     "sasview = sas.qtgui.MainWindow.MainWindow:run_sasview"
    ],
-   "number":"0",
-   "script":[
-    " %SRC_DIR%\\src\\sas\\qtgui\\convertUI.py",
-    " -m pip install . --no-deps -vv",
-    " $SRC_DIR/src/sas/qtgui/convertUI.py",
-    " -m pip install . --no-deps -vv",
-    " $SRC_DIR/src/sas/qtgui/convertUI.py",
-    " -m pip install . --no-deps -vv"
-   ]
+   "number":"0"
   },
   "package":{
    "name":"sasview",
@@ -227,7 +234,7 @@
  "name":"sasview",
  "new_version":"5.0.3",
  "new_version_attempts":{
-  "5.0.3":4
+  "5.0.3":5
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -242,11 +249,7 @@
    "entry_points":[
     "sasview = sas.qtgui.MainWindow.MainWindow:run_sasview"
    ],
-   "number":"0",
-   "script":[
-    " $SRC_DIR/src/sas/qtgui/convertUI.py",
-    " -m pip install . --no-deps -vv"
-   ]
+   "number":"0"
   },
   "package":{
    "name":"sasview",
@@ -332,7 +335,8 @@
    "elements":[]
   }
  },
- "raw_meta_yaml":"{% set name = \"sasview\" %}\n{% set version = \"5.0.2\" %}\n{% set sha256 = \"92752efb4593be216ccc3063e70f5868ccf779c2815547610d0bc9ba460edd36\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/SasView/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  skip: true  # [py<36]\n  entry_points:\n    - sasview = sas.qtgui.MainWindow.MainWindow:run_sasview\n  script:\n    - \"{{ PYTHON }} $SRC_DIR/src/sas/qtgui/convertUI.py\"  # [not win]\n    - \"{{ PYTHON }} %SRC_DIR%\\\\src\\\\sas\\\\qtgui\\\\convertUI.py\"  # [win]\n    - \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  build:\n    - {{ compiler('cxx') }}\n  host:\n    - python\n    - pip\n    - numpy\n  run:\n    - python\n    - bumps\n    - h5py >=2.5\n    - lxml\n    - matplotlib-base\n    - periodictable >=1.5.0\n    - pillow\n    - pyparsing >=2.0.0\n    - pyqt >=5\n    - qt5reactor\n    - sasmodels\n    - scipy\n    - xhtml2pdf\n    - {{ pin_compatible('numpy') }}\n\ntest:\n  imports:\n    - sas.sasview\n    - sas.qtgui\n    - sas.qtgui.MainWindow\n  commands:\n    - which sasview  # [not win]\n    - where sasview  # [win]\n\nabout:\n  home: https://github.com/SasView/sasview\n  license: BSD 3-Clause\n  license_family: BSD\n  license_file: LICENSE.TXT\n  summary: SasView is a Small Angle Scattering (SAS) analysis package\n",
+ "pinning_version":"2020.08.21.04.46.41",
+ "raw_meta_yaml":"{% set name = \"sasview\" %}\n{% set version = \"5.0.2\" %}\n{% set sha256 = \"92752efb4593be216ccc3063e70f5868ccf779c2815547610d0bc9ba460edd36\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/SasView/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  skip: true  # [py<36]\n  entry_points:\n    - sasview = sas.qtgui.MainWindow.MainWindow:run_sasview\n\nrequirements:\n  build:\n    - {{ compiler('cxx') }}\n  host:\n    - python\n    - pip\n    - numpy\n  run:\n    - python\n    - bumps\n    - h5py >=2.5\n    - lxml\n    - matplotlib-base\n    - periodictable >=1.5.0\n    - pillow\n    - pyparsing >=2.0.0\n    - pyqt >=5\n    - qt5reactor\n    - sasmodels\n    - scipy\n    - xhtml2pdf\n    - {{ pin_compatible('numpy') }}\n\ntest:\n  imports:\n    - sas.sasview\n    - sas.qtgui\n    - sas.qtgui.MainWindow\n  commands:\n    - which sasview  # [not win]\n    - where sasview  # [win]\n\nabout:\n  home: https://github.com/SasView/sasview\n  license: BSD 3-Clause\n  license_family: BSD\n  license_file: LICENSE.TXT\n  summary: SasView is a Small Angle Scattering (SAS) analysis package\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -393,6 +397,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.10",
  "strong_exports":false,
  "total_requirements":{
   "build":{
@@ -447,11 +452,7 @@
    "entry_points":[
     "sasview = sas.qtgui.MainWindow.MainWindow:run_sasview"
    ],
-   "number":"0",
-   "script":[
-    " %SRC_DIR%\\src\\sas\\qtgui\\convertUI.py",
-    " -m pip install . --no-deps -vv"
-   ]
+   "number":"0"
   },
   "package":{
    "name":"sasview",
