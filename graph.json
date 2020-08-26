@@ -123,6 +123,10 @@
   },
   {
    "source":"async_generator",
+   "target":"nbclient"
+  },
+  {
+   "source":"async_generator",
    "target":"trio"
   },
   {
@@ -162,16 +166,16 @@
    "target":"napari"
   },
   {
-   "source":"backports.tempfile",
-   "target":"papermill"
-  },
-  {
    "source":"bitshuffle",
    "target":"imagecodecs"
   },
   {
    "source":"black",
    "target":"analysis"
+  },
+  {
+   "source":"black",
+   "target":"papermill"
   },
   {
    "source":"blosc",
@@ -407,10 +411,6 @@
   },
   {
    "source":"c_compiler_stub",
-   "target":"tifffile"
-  },
-  {
-   "source":"c_compiler_stub",
    "target":"uwsgi"
   },
   {
@@ -572,6 +572,14 @@
   {
    "source":"cpplint",
    "target":"pycentroids"
+  },
+  {
+   "source":"cryptography",
+   "target":"doctr"
+  },
+  {
+   "source":"cryptography",
+   "target":"jwcrypto"
   },
   {
    "source":"csxtools",
@@ -875,6 +883,10 @@
   },
   {
    "source":"databroker",
+   "target":"legacy-suitcase"
+  },
+  {
+   "source":"databroker",
    "target":"nslsii"
   },
   {
@@ -1175,10 +1187,6 @@
   },
   {
    "source":"future",
-   "target":"papermill"
-  },
-  {
-   "source":"future",
    "target":"pykern"
   },
   {
@@ -1267,15 +1275,7 @@
   },
   {
    "source":"h11",
-   "target":"httpx"
-  },
-  {
-   "source":"h11",
    "target":"overly"
-  },
-  {
-   "source":"h2",
-   "target":"httpx"
   },
   {
    "source":"h5py",
@@ -1300,6 +1300,10 @@
   {
    "source":"h5py",
    "target":"hxntools"
+  },
+  {
+   "source":"h5py",
+   "target":"legacy-suitcase"
   },
   {
    "source":"h5py",
@@ -1374,12 +1378,12 @@
    "target":"collection"
   },
   {
-   "source":"hstspreload",
-   "target":"httpx"
-  },
-  {
    "source":"html5lib",
    "target":"xhtml2pdf"
+  },
+  {
+   "source":"httpcore",
+   "target":"httpx"
   },
   {
    "source":"humanize",
@@ -1432,6 +1436,10 @@
   {
    "source":"idna",
    "target":"trio"
+  },
+  {
+   "source":"imagecodecs",
+   "target":"tifffile"
   },
   {
    "source":"imageio",
@@ -1516,10 +1524,6 @@
   {
    "source":"ipython",
    "target":"nslsii"
-  },
-  {
-   "source":"ipython",
-   "target":"papermill"
   },
   {
    "source":"ipython",
@@ -1627,6 +1631,10 @@
   },
   {
    "source":"jupyter_client",
+   "target":"nbclient"
+  },
+  {
+   "source":"jupyter_client",
    "target":"papermill"
   },
   {
@@ -1648,6 +1656,10 @@
   {
    "source":"jupyter",
    "target":"pyxrf"
+  },
+  {
+   "source":"jwcrypto",
+   "target":"github3.py"
   },
   {
    "source":"kazoo",
@@ -1951,6 +1963,10 @@
   },
   {
    "source":"matplotlib-base",
+   "target":"igor"
+  },
+  {
+   "source":"matplotlib-base",
    "target":"photutils"
   },
   {
@@ -1960,10 +1976,6 @@
   {
    "source":"matplotlib-base",
    "target":"shed"
-  },
-  {
-   "source":"matplotlib-base",
-   "target":"xpdtools"
   },
   {
    "source":"matplotlib",
@@ -2202,8 +2214,12 @@
    "target":"analysis"
   },
   {
-   "source":"nbconvert",
+   "source":"nbclient",
    "target":"papermill"
+  },
+  {
+   "source":"nbformat",
+   "target":"nbclient"
   },
   {
    "source":"nbformat",
@@ -2212,6 +2228,14 @@
   {
    "source":"nccl",
    "target":"cupy"
+  },
+  {
+   "source":"ndg-httpsclient",
+   "target":"github3.py"
+  },
+  {
+   "source":"nest-asyncio",
+   "target":"nbclient"
   },
   {
    "source":"netcdf4",
@@ -2439,6 +2463,10 @@
   },
   {
    "source":"numpy",
+   "target":"igor"
+  },
+  {
+   "source":"numpy",
    "target":"imagecodecs"
   },
   {
@@ -2452,6 +2480,10 @@
   {
    "source":"numpy",
    "target":"itk"
+  },
+  {
+   "source":"numpy",
+   "target":"legacy-suitcase"
   },
   {
    "source":"numpy",
@@ -2771,10 +2803,6 @@
   },
   {
    "source":"pandas",
-   "target":"papermill"
-  },
-  {
-   "source":"pandas",
    "target":"pycentroids"
   },
   {
@@ -3071,6 +3099,10 @@
   },
   {
    "source":"pip",
+   "target":"doctr"
+  },
+  {
+   "source":"pip",
    "target":"dpkt"
   },
   {
@@ -3119,6 +3151,10 @@
   },
   {
    "source":"pip",
+   "target":"github3.py"
+  },
+  {
+   "source":"pip",
    "target":"grid-strategy"
   },
   {
@@ -3159,6 +3195,10 @@
   },
   {
    "source":"pip",
+   "target":"igor"
+  },
+  {
+   "source":"pip",
    "target":"imagecodecs"
   },
   {
@@ -3187,11 +3227,19 @@
   },
   {
    "source":"pip",
+   "target":"jwcrypto"
+  },
+  {
+   "source":"pip",
    "target":"kafka-python"
   },
   {
    "source":"pip",
    "target":"kazoo"
+  },
+  {
+   "source":"pip",
+   "target":"legacy-suitcase"
   },
   {
    "source":"pip",
@@ -3240,6 +3288,14 @@
   {
    "source":"pip",
    "target":"napari-svg"
+  },
+  {
+   "source":"pip",
+   "target":"nbclient"
+  },
+  {
+   "source":"pip",
+   "target":"nest-asyncio"
   },
   {
    "source":"pip",
@@ -3539,6 +3595,10 @@
   },
   {
    "source":"pip",
+   "target":"uritemplate.py"
+  },
+  {
+   "source":"pip",
    "target":"uwsgi"
   },
   {
@@ -3682,6 +3742,10 @@
    "target":"nsls2-analysis"
   },
   {
+   "source":"pyasn1",
+   "target":"github3.py"
+  },
+  {
    "source":"pybind11",
    "target":"pycentroids"
   },
@@ -3816,6 +3880,10 @@
   {
    "source":"pyopenssl",
    "target":"eventlet"
+  },
+  {
+   "source":"pyopenssl",
+   "target":"github3.py"
   },
   {
    "source":"pyparsing",
@@ -4087,6 +4155,10 @@
   },
   {
    "source":"python-dateutil",
+   "target":"github3.py"
+  },
+  {
+   "source":"python-dateutil",
    "target":"pykern"
   },
   {
@@ -4263,6 +4335,10 @@
   },
   {
    "source":"python",
+   "target":"doctr"
+  },
+  {
+   "source":"python",
    "target":"dpkt"
   },
   {
@@ -4315,6 +4391,10 @@
   },
   {
    "source":"python",
+   "target":"github3.py"
+  },
+  {
+   "source":"python",
    "target":"grid-strategy"
   },
   {
@@ -4363,6 +4443,10 @@
   },
   {
    "source":"python",
+   "target":"igor"
+  },
+  {
+   "source":"python",
    "target":"imagecodecs"
   },
   {
@@ -4391,11 +4475,19 @@
   },
   {
    "source":"python",
+   "target":"jwcrypto"
+  },
+  {
+   "source":"python",
    "target":"kafka-python"
   },
   {
    "source":"python",
    "target":"kazoo"
+  },
+  {
+   "source":"python",
+   "target":"legacy-suitcase"
   },
   {
    "source":"python",
@@ -4444,6 +4536,14 @@
   {
    "source":"python",
    "target":"napari-svg"
+  },
+  {
+   "source":"python",
+   "target":"nbclient"
+  },
+  {
+   "source":"python",
+   "target":"nest-asyncio"
   },
   {
    "source":"python",
@@ -4763,6 +4863,10 @@
   },
   {
    "source":"python",
+   "target":"uritemplate.py"
+  },
+  {
+   "source":"python",
    "target":"uwsgi"
   },
   {
@@ -4895,6 +4999,10 @@
   },
   {
    "source":"pyyaml",
+   "target":"doctr"
+  },
+  {
+   "source":"pyyaml",
    "target":"intake"
   },
   {
@@ -5024,6 +5132,14 @@
   {
    "source":"requests",
    "target":"databroker"
+  },
+  {
+   "source":"requests",
+   "target":"doctr"
+  },
+  {
+   "source":"requests",
+   "target":"github3.py"
   },
   {
    "source":"requests",
@@ -5371,6 +5487,10 @@
   },
   {
    "source":"setuptools",
+   "target":"nest-asyncio"
+  },
+  {
+   "source":"setuptools",
    "target":"nexpy"
   },
   {
@@ -5496,10 +5616,6 @@
   {
    "source":"six",
    "target":"lmfit"
-  },
-  {
-   "source":"six",
-   "target":"papermill"
   },
   {
    "source":"six",
@@ -5862,6 +5978,10 @@
    "target":"xpdtools"
   },
   {
+   "source":"traitlets",
+   "target":"nbclient"
+  },
+  {
    "source":"trio",
    "target":"anyio"
   },
@@ -5906,8 +6026,8 @@
    "target":"weakrefmethod"
   },
   {
-   "source":"urllib3",
-   "target":"httpx"
+   "source":"uritemplate.py",
+   "target":"github3.py"
   },
   {
    "source":"vcrpy",
@@ -6032,6 +6152,10 @@
   {
    "source":"xpdsim",
    "target":"xpdan"
+  },
+  {
+   "source":"xpdsim",
+   "target":"xpdtools"
   },
   {
    "source":"xpdtools",
@@ -8860,6 +8984,78 @@
    "id":"jpeg",
    "payload":{
     "__lazy_json__":"node_attrs/jpeg.json"
+   }
+  },
+  {
+   "id":"uritemplate.py",
+   "payload":{
+    "__lazy_json__":"node_attrs/uritemplate.py.json"
+   }
+  },
+  {
+   "id":"legacy-suitcase",
+   "payload":{
+    "__lazy_json__":"node_attrs/legacy-suitcase.json"
+   }
+  },
+  {
+   "id":"jwcrypto",
+   "payload":{
+    "__lazy_json__":"node_attrs/jwcrypto.json"
+   }
+  },
+  {
+   "id":"doctr",
+   "payload":{
+    "__lazy_json__":"node_attrs/doctr.json"
+   }
+  },
+  {
+   "id":"nest-asyncio",
+   "payload":{
+    "__lazy_json__":"node_attrs/nest-asyncio.json"
+   }
+  },
+  {
+   "id":"nbclient",
+   "payload":{
+    "__lazy_json__":"node_attrs/nbclient.json"
+   }
+  },
+  {
+   "id":"igor",
+   "payload":{
+    "__lazy_json__":"node_attrs/igor.json"
+   }
+  },
+  {
+   "id":"httpcore",
+   "payload":{
+    "__lazy_json__":"node_attrs/httpcore.json"
+   }
+  },
+  {
+   "id":"ndg-httpsclient",
+   "payload":{
+    "__lazy_json__":"node_attrs/ndg-httpsclient.json"
+   }
+  },
+  {
+   "id":"pyasn1",
+   "payload":{
+    "__lazy_json__":"node_attrs/pyasn1.json"
+   }
+  },
+  {
+   "id":"cryptography",
+   "payload":{
+    "__lazy_json__":"node_attrs/cryptography.json"
+   }
+  },
+  {
+   "id":"traitlets",
+   "payload":{
+    "__lazy_json__":"node_attrs/traitlets.json"
    }
   }
  ]

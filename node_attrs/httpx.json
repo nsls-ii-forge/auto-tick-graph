@@ -16,6 +16,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/473931284.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.14.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -30,42 +47,41 @@
  "hash_type":"sha256",
  "linux_64_meta_yaml":{
   "about":{
+   "dev_url":"https://github.com/encode/httpx",
+   "doc_url":"https://www.encode.io/httpx/",
    "home":"https://github.com/encode/httpx",
-   "license":"BSD",
+   "license":"BSD-3-Clause",
    "license_family":"BSD",
-   "license_file":"LICENSE",
-   "summary":"The next generation HTTP client."
+   "license_file":"LICENSE.md",
+   "summary":"A next-generation HTTP client for Python."
   },
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . -vv"
+   "script":"-m pip install . -vv"
   },
   "package":{
    "name":"httpx",
-   "version":"0.12.1"
+   "version":"0.14.1"
   },
   "requirements":{
    "host":[
-    "pip",
-    "python >=3.6"
+    "python >=3.6",
+    "pip"
    ],
    "run":[
+    "python >=3.6",
     "certifi",
     "chardet ==3.*",
-    "h11 >=0.8,<0.10",
-    "h2 ==3.*",
-    "hstspreload",
+    "httpcore ==0.10.*",
     "idna ==2.*",
-    "python >=3.6",
     "rfc3986 >=1.3,<2",
-    "sniffio ==1.*",
-    "urllib3 ==1.*"
+    "sniffio"
    ]
   },
   "source":{
-   "sha256":"405b4749f597b1f45cae5bffc17b23dc251cce30a0c4c8126f1007b9e728a615",
-   "url":"https://pypi.io/packages/source/h/httpx/httpx-0.12.1.tar.gz"
+   "sha256":"0c557173821c1e453396325b3fef768d2bca9078f7300d431735177654e0f9b1",
+   "url":"https://pypi.io/packages/source/h/httpx/httpx-0.14.1.tar.gz"
   },
   "test":{
    "commands":[
@@ -96,14 +112,11 @@
    "elements":[
     "certifi",
     "chardet",
-    "h11",
-    "h2",
-    "hstspreload",
+    "httpcore",
     "idna",
     "python",
     "rfc3986",
-    "sniffio",
-    "urllib3"
+    "sniffio"
    ]
   },
   "test":{
@@ -115,66 +128,59 @@
  },
  "meta_yaml":{
   "about":{
+   "dev_url":"https://github.com/encode/httpx",
+   "doc_url":"https://www.encode.io/httpx/",
    "home":"https://github.com/encode/httpx",
-   "license":"BSD",
+   "license":"BSD-3-Clause",
    "license_family":"BSD",
-   "license_file":"LICENSE",
-   "summary":"The next generation HTTP client."
+   "license_file":"LICENSE.md",
+   "summary":"A next-generation HTTP client for Python."
   },
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . -vv"
+   "script":"-m pip install . -vv"
   },
   "package":{
    "name":"httpx",
-   "version":"0.12.1"
+   "version":"0.14.1"
   },
   "requirements":{
    "host":[
-    "pip",
     "python >=3.6",
     "pip",
     "python >=3.6",
     "pip",
-    "python >=3.6"
+    "python >=3.6",
+    "pip"
    ],
    "run":[
+    "python >=3.6",
     "certifi",
     "chardet ==3.*",
-    "h11 >=0.8,<0.10",
-    "h2 ==3.*",
-    "hstspreload",
+    "httpcore ==0.10.*",
     "idna ==2.*",
-    "python >=3.6",
     "rfc3986 >=1.3,<2",
-    "sniffio ==1.*",
-    "urllib3 ==1.*",
+    "sniffio",
+    "python >=3.6",
     "certifi",
     "chardet ==3.*",
-    "h11 >=0.8,<0.10",
-    "h2 ==3.*",
-    "hstspreload",
+    "httpcore ==0.10.*",
     "idna ==2.*",
-    "python >=3.6",
     "rfc3986 >=1.3,<2",
-    "sniffio ==1.*",
-    "urllib3 ==1.*",
+    "sniffio",
+    "python >=3.6",
     "certifi",
     "chardet ==3.*",
-    "h11 >=0.8,<0.10",
-    "h2 ==3.*",
-    "hstspreload",
+    "httpcore ==0.10.*",
     "idna ==2.*",
-    "python >=3.6",
     "rfc3986 >=1.3,<2",
-    "sniffio ==1.*",
-    "urllib3 ==1.*"
+    "sniffio"
    ]
   },
   "source":{
-   "sha256":"405b4749f597b1f45cae5bffc17b23dc251cce30a0c4c8126f1007b9e728a615",
-   "url":"https://pypi.io/packages/source/h/httpx/httpx-0.12.1.tar.gz"
+   "sha256":"0c557173821c1e453396325b3fef768d2bca9078f7300d431735177654e0f9b1",
+   "url":"https://pypi.io/packages/source/h/httpx/httpx-0.14.1.tar.gz"
   },
   "test":{
    "commands":[
@@ -195,49 +201,49 @@
   }
  },
  "name":"httpx",
- "new_version":"0.14.1",
+ "new_version":"0.14.2",
  "new_version_attempts":{
-  "0.14.1":1
+  "0.14.1":1,
+  "0.14.2":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
+   "dev_url":"https://github.com/encode/httpx",
+   "doc_url":"https://www.encode.io/httpx/",
    "home":"https://github.com/encode/httpx",
-   "license":"BSD",
+   "license":"BSD-3-Clause",
    "license_family":"BSD",
-   "license_file":"LICENSE",
-   "summary":"The next generation HTTP client."
+   "license_file":"LICENSE.md",
+   "summary":"A next-generation HTTP client for Python."
   },
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . -vv"
+   "script":"-m pip install . -vv"
   },
   "package":{
    "name":"httpx",
-   "version":"0.12.1"
+   "version":"0.14.1"
   },
   "requirements":{
    "host":[
-    "pip",
-    "python >=3.6"
+    "python >=3.6",
+    "pip"
    ],
    "run":[
+    "python >=3.6",
     "certifi",
     "chardet ==3.*",
-    "h11 >=0.8,<0.10",
-    "h2 ==3.*",
-    "hstspreload",
+    "httpcore ==0.10.*",
     "idna ==2.*",
-    "python >=3.6",
     "rfc3986 >=1.3,<2",
-    "sniffio ==1.*",
-    "urllib3 ==1.*"
+    "sniffio"
    ]
   },
   "source":{
-   "sha256":"405b4749f597b1f45cae5bffc17b23dc251cce30a0c4c8126f1007b9e728a615",
-   "url":"https://pypi.io/packages/source/h/httpx/httpx-0.12.1.tar.gz"
+   "sha256":"0c557173821c1e453396325b3fef768d2bca9078f7300d431735177654e0f9b1",
+   "url":"https://pypi.io/packages/source/h/httpx/httpx-0.14.1.tar.gz"
   },
   "test":{
    "commands":[
@@ -268,14 +274,11 @@
    "elements":[
     "certifi",
     "chardet",
-    "h11",
-    "h2",
-    "hstspreload",
+    "httpcore",
     "idna",
     "python",
     "rfc3986",
-    "sniffio",
-    "urllib3"
+    "sniffio"
    ]
   },
   "test":{
@@ -285,22 +288,19 @@
    ]
   }
  },
- "pinning_version":"2020.08.21.04.46.41",
- "raw_meta_yaml":"{% set name = \"httpx\" %}\n{% set version = \"0.12.1\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: 405b4749f597b1f45cae5bffc17b23dc251cce30a0c4c8126f1007b9e728a615\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip\n    - python >=3.6\n  run:\n    - certifi\n    - chardet ==3.*\n    - h11 >=0.8,<0.10\n    - h2 ==3.*\n    - hstspreload\n    - idna ==2.*\n    - python >=3.6\n    - rfc3986 >=1.3,<2\n    - sniffio ==1.*\n    - urllib3 ==1.*\n\ntest:\n  imports:\n    - httpx\n  requires:\n    - pip\n  commands:\n    - pip check\n\nabout:\n  home: \"https://github.com/encode/httpx\"\n  license: BSD\n  license_family: BSD\n  license_file: LICENSE\n  summary: \"The next generation HTTP client.\"\n",
+ "pinning_version":"2020.08.25.14.55.21",
+ "raw_meta_yaml":"{% set name = \"httpx\" %}\n{% set version = \"0.14.1\" %}\n{% set sha256 = \"0c557173821c1e453396325b3fef768d2bca9078f7300d431735177654e0f9b1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - certifi\n    - chardet ==3.*\n    - httpcore ==0.10.*\n    - idna ==2.*\n    - rfc3986 >=1.3,<2\n    - sniffio\n\ntest:\n  imports:\n    - httpx\n  requires:\n    - pip\n  commands:\n    - pip check\n\nabout:\n  home: https://github.com/encode/httpx\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.md\n  summary: A next-generation HTTP client for Python.\n  doc_url: https://www.encode.io/httpx/\n  dev_url: https://github.com/encode/httpx\n",
  "req":{
   "__set__":true,
   "elements":[
    "certifi",
    "chardet",
-   "h11",
-   "h2",
-   "hstspreload",
+   "httpcore",
    "idna",
    "pip",
    "python",
    "rfc3986",
-   "sniffio",
-   "urllib3"
+   "sniffio"
   ]
  },
  "requirements":{
@@ -320,14 +320,11 @@
    "elements":[
     "certifi",
     "chardet",
-    "h11",
-    "h2",
-    "hstspreload",
+    "httpcore",
     "idna",
     "python",
     "rfc3986",
-    "sniffio",
-    "urllib3"
+    "sniffio"
    ]
   },
   "test":{
@@ -356,14 +353,11 @@
    "elements":[
     "certifi",
     "chardet ==3.*",
-    "h11 >=0.8,<0.10",
-    "h2 ==3.*",
-    "hstspreload",
+    "httpcore ==0.10.*",
     "idna ==2.*",
     "python >=3.6",
     "rfc3986 >=1.3,<2",
-    "sniffio ==1.*",
-    "urllib3 ==1.*"
+    "sniffio"
    ]
   },
   "test":{
@@ -374,45 +368,44 @@
   }
  },
  "url":"https://pypi.io/packages/source/h/httpx/httpx-0.12.1.tar.gz",
- "version":"0.12.1",
+ "version":"0.14.1",
  "win_64_meta_yaml":{
   "about":{
+   "dev_url":"https://github.com/encode/httpx",
+   "doc_url":"https://www.encode.io/httpx/",
    "home":"https://github.com/encode/httpx",
-   "license":"BSD",
+   "license":"BSD-3-Clause",
    "license_family":"BSD",
-   "license_file":"LICENSE",
-   "summary":"The next generation HTTP client."
+   "license_file":"LICENSE.md",
+   "summary":"A next-generation HTTP client for Python."
   },
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . -vv"
+   "script":"-m pip install . -vv"
   },
   "package":{
    "name":"httpx",
-   "version":"0.12.1"
+   "version":"0.14.1"
   },
   "requirements":{
    "host":[
-    "pip",
-    "python >=3.6"
+    "python >=3.6",
+    "pip"
    ],
    "run":[
+    "python >=3.6",
     "certifi",
     "chardet ==3.*",
-    "h11 >=0.8,<0.10",
-    "h2 ==3.*",
-    "hstspreload",
+    "httpcore ==0.10.*",
     "idna ==2.*",
-    "python >=3.6",
     "rfc3986 >=1.3,<2",
-    "sniffio ==1.*",
-    "urllib3 ==1.*"
+    "sniffio"
    ]
   },
   "source":{
-   "sha256":"405b4749f597b1f45cae5bffc17b23dc251cce30a0c4c8126f1007b9e728a615",
-   "url":"https://pypi.io/packages/source/h/httpx/httpx-0.12.1.tar.gz"
+   "sha256":"0c557173821c1e453396325b3fef768d2bca9078f7300d431735177654e0f9b1",
+   "url":"https://pypi.io/packages/source/h/httpx/httpx-0.14.1.tar.gz"
   },
   "test":{
    "commands":[
@@ -443,14 +436,11 @@
    "elements":[
     "certifi",
     "chardet",
-    "h11",
-    "h2",
-    "hstspreload",
+    "httpcore",
     "idna",
     "python",
     "rfc3986",
-    "sniffio",
-    "urllib3"
+    "sniffio"
    ]
   },
   "test":{

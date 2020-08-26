@@ -61,11 +61,11 @@
    ],
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"papermill",
-   "version":"1.2.0"
+   "version":"2.1.3"
   },
   "requirements":{
    "host":[
@@ -75,25 +75,21 @@
    "run":[
     "python",
     "ansiwrap",
-    "backports.tempfile",
+    "black",
     "click",
     "entrypoints",
-    "future",
-    "ipython >=5.0",
     "jupyter_client",
-    "nbconvert >=5.5",
+    "nbclient >=0.2.0",
     "nbformat",
-    "pandas",
     "pyyaml",
     "requests",
-    "six",
     "tenacity",
-    "tqdm >=4.29.1"
+    "tqdm >=4.32.2"
    ]
   },
   "source":{
-   "sha256":"cdde3acc9e99040ee34ff0773b9d479ea1098999a56b60f23cfe5e97b7408171",
-   "url":"https://pypi.io/packages/source/p/papermill/papermill-1.2.0.tar.gz"
+   "sha256":"ecd4cafa9179693b0eedc3b6f4560f9ee47826a6e366e42bfa3cc20f7931b3f8",
+   "url":"https://pypi.io/packages/source/p/papermill/papermill-2.1.3.tar.gz"
   },
   "test":{
    "commands":[
@@ -120,19 +116,15 @@
    "__set__":true,
    "elements":[
     "ansiwrap",
-    "backports.tempfile",
+    "black",
     "click",
     "entrypoints",
-    "future",
-    "ipython",
     "jupyter_client",
-    "nbconvert",
+    "nbclient",
     "nbformat",
-    "pandas",
     "python",
     "pyyaml",
     "requests",
-    "six",
     "tenacity",
     "tqdm"
    ]
@@ -160,11 +152,11 @@
    ],
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"papermill",
-   "version":"1.2.0"
+   "version":"2.1.3"
   },
   "requirements":{
    "host":[
@@ -178,57 +170,45 @@
    "run":[
     "python",
     "ansiwrap",
-    "backports.tempfile",
+    "black",
     "click",
     "entrypoints",
-    "future",
-    "ipython >=5.0",
     "jupyter_client",
-    "nbconvert >=5.5",
+    "nbclient >=0.2.0",
     "nbformat",
-    "pandas",
     "pyyaml",
     "requests",
-    "six",
     "tenacity",
-    "tqdm >=4.29.1",
+    "tqdm >=4.32.2",
     "python",
     "ansiwrap",
-    "backports.tempfile",
+    "black",
     "click",
     "entrypoints",
-    "future",
-    "ipython >=5.0",
     "jupyter_client",
-    "nbconvert >=5.5",
+    "nbclient >=0.2.0",
     "nbformat",
-    "pandas",
     "pyyaml",
     "requests",
-    "six",
     "tenacity",
-    "tqdm >=4.29.1",
+    "tqdm >=4.32.2",
     "python",
     "ansiwrap",
-    "backports.tempfile",
+    "black",
     "click",
     "entrypoints",
-    "future",
-    "ipython >=5.0",
     "jupyter_client",
-    "nbconvert >=5.5",
+    "nbclient >=0.2.0",
     "nbformat",
-    "pandas",
     "pyyaml",
     "requests",
-    "six",
     "tenacity",
-    "tqdm >=4.29.1"
+    "tqdm >=4.32.2"
    ]
   },
   "source":{
-   "sha256":"cdde3acc9e99040ee34ff0773b9d479ea1098999a56b60f23cfe5e97b7408171",
-   "url":"https://pypi.io/packages/source/p/papermill/papermill-1.2.0.tar.gz"
+   "sha256":"ecd4cafa9179693b0eedc3b6f4560f9ee47826a6e366e42bfa3cc20f7931b3f8",
+   "url":"https://pypi.io/packages/source/p/papermill/papermill-2.1.3.tar.gz"
   },
   "test":{
    "commands":[
@@ -266,11 +246,11 @@
    ],
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"papermill",
-   "version":"1.2.0"
+   "version":"2.1.3"
   },
   "requirements":{
    "host":[
@@ -280,25 +260,21 @@
    "run":[
     "python",
     "ansiwrap",
-    "backports.tempfile",
+    "black",
     "click",
     "entrypoints",
-    "future",
-    "ipython >=5.0",
     "jupyter_client",
-    "nbconvert >=5.5",
+    "nbclient >=0.2.0",
     "nbformat",
-    "pandas",
     "pyyaml",
     "requests",
-    "six",
     "tenacity",
-    "tqdm >=4.29.1"
+    "tqdm >=4.32.2"
    ]
   },
   "source":{
-   "sha256":"cdde3acc9e99040ee34ff0773b9d479ea1098999a56b60f23cfe5e97b7408171",
-   "url":"https://pypi.io/packages/source/p/papermill/papermill-1.2.0.tar.gz"
+   "sha256":"ecd4cafa9179693b0eedc3b6f4560f9ee47826a6e366e42bfa3cc20f7931b3f8",
+   "url":"https://pypi.io/packages/source/p/papermill/papermill-2.1.3.tar.gz"
   },
   "test":{
    "commands":[
@@ -325,19 +301,15 @@
    "__set__":true,
    "elements":[
     "ansiwrap",
-    "backports.tempfile",
+    "black",
     "click",
     "entrypoints",
-    "future",
-    "ipython",
     "jupyter_client",
-    "nbconvert",
+    "nbclient",
     "nbformat",
-    "pandas",
     "python",
     "pyyaml",
     "requests",
-    "six",
     "tenacity",
     "tqdm"
    ]
@@ -348,25 +320,21 @@
   }
  },
  "pinning_version":"2020.08.21.04.46.41",
- "raw_meta_yaml":"{% set name = \"papermill\" %}\n{% set version = \"1.2.0\" %}\n{% set sha256 = \"cdde3acc9e99040ee34ff0773b9d479ea1098999a56b60f23cfe5e97b7408171\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  entry_points:\n    - papermill = papermill.cli:papermill\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - ansiwrap\n    - backports.tempfile\n    - click\n    - entrypoints\n    - future\n    - ipython >=5.0\n    - jupyter_client\n    - nbconvert >=5.5\n    - nbformat\n    - pandas\n    - pyyaml\n    - requests\n    - six\n    - tenacity\n    - tqdm >=4.29.1\n\ntest:\n  imports:\n    - papermill\n  commands:\n    - papermill --help\n\nabout:\n  home: http://github.com/nteract/papermill\n  license: BSD 3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Papermill parameterizes, executes, and analyzes Jupyter Notebooks\n  doc_url: http://papermill.readthedocs.io\n  dev_url: https://github.com/nteract/papermill\n",
+ "raw_meta_yaml":"{% set name = \"papermill\" %}\n{% set version = \"2.1.3\" %}\n{% set sha256 = \"ecd4cafa9179693b0eedc3b6f4560f9ee47826a6e366e42bfa3cc20f7931b3f8\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  entry_points:\n    - papermill = papermill.cli:papermill\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - ansiwrap\n    - black\n    - click\n    - entrypoints\n    - jupyter_client\n    - nbclient >=0.2.0\n    - nbformat\n    - pyyaml\n    - requests\n    - tenacity\n    - tqdm >=4.32.2\n\ntest:\n  imports:\n    - papermill\n  commands:\n    - papermill --help\n\nabout:\n  home: http://github.com/nteract/papermill\n  license: BSD 3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Papermill parameterizes, executes, and analyzes Jupyter Notebooks\n  doc_url: http://papermill.readthedocs.io\n  dev_url: https://github.com/nteract/papermill\n",
  "req":{
   "__set__":true,
   "elements":[
    "ansiwrap",
-   "backports.tempfile",
+   "black",
    "click",
    "entrypoints",
-   "future",
-   "ipython",
    "jupyter_client",
-   "nbconvert",
+   "nbclient",
    "nbformat",
-   "pandas",
    "pip",
    "python",
    "pyyaml",
    "requests",
-   "six",
    "tenacity",
    "tqdm"
   ]
@@ -387,19 +355,15 @@
    "__set__":true,
    "elements":[
     "ansiwrap",
-    "backports.tempfile",
+    "black",
     "click",
     "entrypoints",
-    "future",
-    "ipython",
     "jupyter_client",
-    "nbconvert",
+    "nbclient",
     "nbformat",
-    "pandas",
     "python",
     "pyyaml",
     "requests",
-    "six",
     "tenacity",
     "tqdm"
    ]
@@ -427,21 +391,17 @@
    "__set__":true,
    "elements":[
     "ansiwrap",
-    "backports.tempfile",
+    "black",
     "click",
     "entrypoints",
-    "future",
-    "ipython >=5.0",
     "jupyter_client",
-    "nbconvert >=5.5",
+    "nbclient >=0.2.0",
     "nbformat",
-    "pandas",
     "python",
     "pyyaml",
     "requests",
-    "six",
     "tenacity",
-    "tqdm >=4.29.1"
+    "tqdm >=4.32.2"
    ]
   },
   "test":{
@@ -450,7 +410,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/p/papermill/papermill-1.2.0.tar.gz",
- "version":"1.2.0",
+ "version":"2.1.3",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/nteract/papermill",
@@ -467,11 +427,11 @@
    ],
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"papermill",
-   "version":"1.2.0"
+   "version":"2.1.3"
   },
   "requirements":{
    "host":[
@@ -481,25 +441,21 @@
    "run":[
     "python",
     "ansiwrap",
-    "backports.tempfile",
+    "black",
     "click",
     "entrypoints",
-    "future",
-    "ipython >=5.0",
     "jupyter_client",
-    "nbconvert >=5.5",
+    "nbclient >=0.2.0",
     "nbformat",
-    "pandas",
     "pyyaml",
     "requests",
-    "six",
     "tenacity",
-    "tqdm >=4.29.1"
+    "tqdm >=4.32.2"
    ]
   },
   "source":{
-   "sha256":"cdde3acc9e99040ee34ff0773b9d479ea1098999a56b60f23cfe5e97b7408171",
-   "url":"https://pypi.io/packages/source/p/papermill/papermill-1.2.0.tar.gz"
+   "sha256":"ecd4cafa9179693b0eedc3b6f4560f9ee47826a6e366e42bfa3cc20f7931b3f8",
+   "url":"https://pypi.io/packages/source/p/papermill/papermill-2.1.3.tar.gz"
   },
   "test":{
    "commands":[
@@ -526,19 +482,15 @@
    "__set__":true,
    "elements":[
     "ansiwrap",
-    "backports.tempfile",
+    "black",
     "click",
     "entrypoints",
-    "future",
-    "ipython",
     "jupyter_client",
-    "nbconvert",
+    "nbclient",
     "nbformat",
-    "pandas",
     "python",
     "pyyaml",
     "requests",
-    "six",
     "tenacity",
     "tqdm"
    ]

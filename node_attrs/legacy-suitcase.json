@@ -2,30 +2,13 @@
  "PRed":[
   {
    "PR":{
-    "__lazy_json__":"pr_json/468885045.json"
+    "__lazy_json__":"pr_json/473930604.json"
    },
    "data":{
     "bot_rerun":false,
     "migrator_name":"Version",
     "migrator_version":0,
-    "version":"2.01"
-   },
-   "keys":[
-    "bot_rerun",
-    "migrator_name",
-    "migrator_version",
-    "version"
-   ]
-  },
-  {
-   "PR":{
-    "__lazy_json__":"pr_json/471745995.json"
-   },
-   "data":{
-    "bot_rerun":false,
-    "migrator_name":"Version",
-    "migrator_version":0,
-    "version":"2.0.4"
+    "version":"0.8.0"
    },
    "keys":[
     "bot_rerun",
@@ -43,14 +26,16 @@
    "win":"azure"
   }
  },
- "feedstock_name":"eiger-io",
+ "feedstock_name":"legacy-suitcase",
  "hash_type":"sha256",
  "linux_64_meta_yaml":{
   "about":{
-   "home":"https://github.com/NSLS-II/eiger-io",
-   "license":"BSD",
+   "dev_url":"https://github.com/bluesky/suitcase-core",
+   "doc_url":"https://blueskyproject.io/suitcase",
+   "home":"https://github.com/bluesky/suitcase-core",
+   "license":"BSD-3-Clause",
    "license_file":"LICENSE",
-   "summary":"I/O tools for the Eiger detector"
+   "summary":"Legacy HDF5 exporter used at NSLS-II ESM-1 and ESM-2"
   },
   "build":{
    "noarch":"python",
@@ -58,8 +43,8 @@
    "script":"-m pip install . --no-deps -vv"
   },
   "package":{
-   "name":"eiger-io",
-   "version":"2.0.4"
+   "name":"legacy-suitcase",
+   "version":"0.7.0"
   },
   "requirements":{
    "host":[
@@ -68,20 +53,19 @@
    ],
    "run":[
     "python",
+    "databroker",
     "h5py",
-    "hdf5-lz4",
-    "numpy",
-    "pims",
-    "six"
+    "numpy"
    ]
   },
   "source":{
-   "sha256":"40f79e360c300a71dd358f5881c3e361ce08a0ce2780e953e0531bef27c65ad6",
-   "url":"https://github.com/NSLS-II/eiger-io/archive/v2.0.4.tar.gz"
+   "sha256":"04ec6485bd885312155e440d1f35097f3c664abd65ee52ca57fff1d93f1ef79d",
+   "url":"https://github.com/bluesky/suitcase-core/archive/v0.7.0.tar.gz"
   },
   "test":{
    "imports":[
-    "eiger_io"
+    "suitcase",
+    "suitcase.hdf5"
    ]
   }
  },
@@ -100,12 +84,10 @@
   "run":{
    "__set__":true,
    "elements":[
+    "databroker",
     "h5py",
-    "hdf5-lz4",
     "numpy",
-    "pims",
-    "python",
-    "six"
+    "python"
    ]
   },
   "test":{
@@ -115,10 +97,12 @@
  },
  "meta_yaml":{
   "about":{
-   "home":"https://github.com/NSLS-II/eiger-io",
-   "license":"BSD",
+   "dev_url":"https://github.com/bluesky/suitcase-core",
+   "doc_url":"https://blueskyproject.io/suitcase",
+   "home":"https://github.com/bluesky/suitcase-core",
+   "license":"BSD-3-Clause",
    "license_file":"LICENSE",
-   "summary":"I/O tools for the Eiger detector"
+   "summary":"Legacy HDF5 exporter used at NSLS-II ESM-1 and ESM-2"
   },
   "build":{
    "noarch":"python",
@@ -126,8 +110,8 @@
    "script":"-m pip install . --no-deps -vv"
   },
   "package":{
-   "name":"eiger-io",
-   "version":"2.0.4"
+   "name":"legacy-suitcase",
+   "version":"0.7.0"
   },
   "requirements":{
    "host":[
@@ -140,50 +124,48 @@
    ],
    "run":[
     "python",
+    "databroker",
     "h5py",
-    "hdf5-lz4",
     "numpy",
-    "pims",
-    "six",
     "python",
+    "databroker",
     "h5py",
-    "hdf5-lz4",
     "numpy",
-    "pims",
-    "six",
     "python",
+    "databroker",
     "h5py",
-    "hdf5-lz4",
-    "numpy",
-    "pims",
-    "six"
+    "numpy"
    ]
   },
   "source":{
-   "sha256":"40f79e360c300a71dd358f5881c3e361ce08a0ce2780e953e0531bef27c65ad6",
-   "url":"https://github.com/NSLS-II/eiger-io/archive/v2.0.4.tar.gz"
+   "sha256":"04ec6485bd885312155e440d1f35097f3c664abd65ee52ca57fff1d93f1ef79d",
+   "url":"https://github.com/bluesky/suitcase-core/archive/v0.7.0.tar.gz"
   },
   "test":{
    "imports":[
-    "eiger_io",
-    "eiger_io",
-    "eiger_io"
+    "suitcase",
+    "suitcase.hdf5",
+    "suitcase",
+    "suitcase.hdf5",
+    "suitcase",
+    "suitcase.hdf5"
    ]
   }
  },
- "name":"eiger-io",
- "new_version":"2.0.4",
+ "name":"legacy-suitcase",
+ "new_version":"0.8.0",
  "new_version_attempts":{
-  "2.0.4":1,
-  "2.01":1
+  "0.8.0":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
-   "home":"https://github.com/NSLS-II/eiger-io",
-   "license":"BSD",
+   "dev_url":"https://github.com/bluesky/suitcase-core",
+   "doc_url":"https://blueskyproject.io/suitcase",
+   "home":"https://github.com/bluesky/suitcase-core",
+   "license":"BSD-3-Clause",
    "license_file":"LICENSE",
-   "summary":"I/O tools for the Eiger detector"
+   "summary":"Legacy HDF5 exporter used at NSLS-II ESM-1 and ESM-2"
   },
   "build":{
    "noarch":"python",
@@ -191,8 +173,8 @@
    "script":"-m pip install . --no-deps -vv"
   },
   "package":{
-   "name":"eiger-io",
-   "version":"2.0.4"
+   "name":"legacy-suitcase",
+   "version":"0.7.0"
   },
   "requirements":{
    "host":[
@@ -201,20 +183,19 @@
    ],
    "run":[
     "python",
+    "databroker",
     "h5py",
-    "hdf5-lz4",
-    "numpy",
-    "pims",
-    "six"
+    "numpy"
    ]
   },
   "source":{
-   "sha256":"40f79e360c300a71dd358f5881c3e361ce08a0ce2780e953e0531bef27c65ad6",
-   "url":"https://github.com/NSLS-II/eiger-io/archive/v2.0.4.tar.gz"
+   "sha256":"04ec6485bd885312155e440d1f35097f3c664abd65ee52ca57fff1d93f1ef79d",
+   "url":"https://github.com/bluesky/suitcase-core/archive/v0.7.0.tar.gz"
   },
   "test":{
    "imports":[
-    "eiger_io"
+    "suitcase",
+    "suitcase.hdf5"
    ]
   }
  },
@@ -233,12 +214,10 @@
   "run":{
    "__set__":true,
    "elements":[
+    "databroker",
     "h5py",
-    "hdf5-lz4",
     "numpy",
-    "pims",
-    "python",
-    "six"
+    "python"
    ]
   },
   "test":{
@@ -246,18 +225,16 @@
    "elements":[]
   }
  },
- "pinning_version":"2020.08.21.04.46.41",
- "raw_meta_yaml":"{% set name = \"eiger-io\" %}\n{% set name_ = name.replace('-', '_') %}\n{% set version = \"2.0.4\" %}\n{% set sha256 = \"40f79e360c300a71dd358f5881c3e361ce08a0ce2780e953e0531bef27c65ad6\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/NSLS-II/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - h5py\n    - hdf5-lz4\n    - numpy\n    - pims\n    - six\n\ntest:\n  imports:\n    - {{ name_ }}\n\nabout:\n  home: https://github.com/NSLS-II/eiger-io\n  license: BSD  # TODO: add a license file in the repo and feedstock\n  license_file: LICENSE\n  summary: I/O tools for the Eiger detector\n",
+ "pinning_version":"2020.08.25.14.55.21",
+ "raw_meta_yaml":"{% set name = \"legacy-suitcase\" %}\n{% set version = \"0.7.0\" %}\n{% set sha256 = \"04ec6485bd885312155e440d1f35097f3c664abd65ee52ca57fff1d93f1ef79d\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/bluesky/suitcase-core/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - databroker\n    - h5py\n    - numpy\n\ntest:\n  imports:\n    - suitcase\n    - suitcase.hdf5\n\nabout:\n  home: https://github.com/bluesky/suitcase-core\n  license:  BSD-3-Clause\n  license_file: LICENSE\n  summary: Legacy HDF5 exporter used at NSLS-II ESM-1 and ESM-2\n  dev_url: https://github.com/bluesky/suitcase-core\n  doc_url: https://blueskyproject.io/suitcase\n",
  "req":{
   "__set__":true,
   "elements":[
+   "databroker",
    "h5py",
-   "hdf5-lz4",
    "numpy",
-   "pims",
    "pip",
-   "python",
-   "six"
+   "python"
   ]
  },
  "requirements":{
@@ -275,12 +252,10 @@
   "run":{
    "__set__":true,
    "elements":[
+    "databroker",
     "h5py",
-    "hdf5-lz4",
     "numpy",
-    "pims",
-    "python",
-    "six"
+    "python"
    ]
   },
   "test":{
@@ -305,12 +280,10 @@
   "run":{
    "__set__":true,
    "elements":[
+    "databroker",
     "h5py",
-    "hdf5-lz4",
     "numpy",
-    "pims",
-    "python",
-    "six"
+    "python"
    ]
   },
   "test":{
@@ -318,14 +291,16 @@
    "elements":[]
   }
  },
- "url":"https://github.com/NSLS-II/eiger-io/archive/v2.0.3.tar.gz",
- "version":"2.0.4",
+ "url":"https://github.com/bluesky/suitcase-core/archive/v0.7.0.tar.gz",
+ "version":"0.7.0",
  "win_64_meta_yaml":{
   "about":{
-   "home":"https://github.com/NSLS-II/eiger-io",
-   "license":"BSD",
+   "dev_url":"https://github.com/bluesky/suitcase-core",
+   "doc_url":"https://blueskyproject.io/suitcase",
+   "home":"https://github.com/bluesky/suitcase-core",
+   "license":"BSD-3-Clause",
    "license_file":"LICENSE",
-   "summary":"I/O tools for the Eiger detector"
+   "summary":"Legacy HDF5 exporter used at NSLS-II ESM-1 and ESM-2"
   },
   "build":{
    "noarch":"python",
@@ -333,8 +308,8 @@
    "script":"-m pip install . --no-deps -vv"
   },
   "package":{
-   "name":"eiger-io",
-   "version":"2.0.4"
+   "name":"legacy-suitcase",
+   "version":"0.7.0"
   },
   "requirements":{
    "host":[
@@ -343,20 +318,19 @@
    ],
    "run":[
     "python",
+    "databroker",
     "h5py",
-    "hdf5-lz4",
-    "numpy",
-    "pims",
-    "six"
+    "numpy"
    ]
   },
   "source":{
-   "sha256":"40f79e360c300a71dd358f5881c3e361ce08a0ce2780e953e0531bef27c65ad6",
-   "url":"https://github.com/NSLS-II/eiger-io/archive/v2.0.4.tar.gz"
+   "sha256":"04ec6485bd885312155e440d1f35097f3c664abd65ee52ca57fff1d93f1ef79d",
+   "url":"https://github.com/bluesky/suitcase-core/archive/v0.7.0.tar.gz"
   },
   "test":{
    "imports":[
-    "eiger_io"
+    "suitcase",
+    "suitcase.hdf5"
    ]
   }
  },
@@ -375,12 +349,10 @@
   "run":{
    "__set__":true,
    "elements":[
+    "databroker",
     "h5py",
-    "hdf5-lz4",
     "numpy",
-    "pims",
-    "python",
-    "six"
+    "python"
    ]
   },
   "test":{

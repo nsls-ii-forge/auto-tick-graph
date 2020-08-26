@@ -28,7 +28,7 @@
   },
   "package":{
    "name":"xpdtools",
-   "version":"0.8.1"
+   "version":"0.8.2"
   },
   "requirements":{
    "host":[
@@ -39,7 +39,6 @@
     "python >=3",
     "fabio",
     "fire",
-    "matplotlib-base",
     "numba",
     "numpy",
     "pims",
@@ -50,12 +49,13 @@
     "scikit-learn",
     "scipy",
     "tomopy",
-    "tqdm"
+    "tqdm",
+    "xpdsim"
    ]
   },
   "source":{
-   "sha256":"efbdc18ffacb681f2baa9a0f535dd1e9e64ded52037e1330863b98d3e181c165",
-   "url":"http://github.com/xpdAcq/xpdtools/releases/download/0.8.1/0.8.1.tar.gz"
+   "sha256":"b7b3412a4137df3ef60ba93740614039819615265e4e833c8b1a7de15b631d19",
+   "url":"http://github.com/xpdAcq/xpdtools/releases/download/0.8.2/xpdtools-0.8.2.tar.gz"
   },
   "test":{
    "commands":[
@@ -85,7 +85,6 @@
    "elements":[
     "fabio",
     "fire",
-    "matplotlib-base",
     "numba",
     "numpy",
     "pims",
@@ -97,7 +96,8 @@
     "scikit-learn",
     "scipy",
     "tomopy",
-    "tqdm"
+    "tqdm",
+    "xpdsim"
    ]
   },
   "test":{
@@ -126,7 +126,7 @@
   },
   "package":{
    "name":"xpdtools",
-   "version":"0.8.1"
+   "version":"0.8.2"
   },
   "requirements":{
    "host":[
@@ -141,7 +141,6 @@
     "python >=3",
     "fabio",
     "fire",
-    "matplotlib-base",
     "numba",
     "numpy",
     "pims",
@@ -153,10 +152,10 @@
     "scipy",
     "tomopy",
     "tqdm",
+    "xpdsim",
     "python >=3",
     "fabio",
     "fire",
-    "matplotlib-base",
     "numba",
     "numpy",
     "pims",
@@ -168,10 +167,10 @@
     "scipy",
     "tomopy",
     "tqdm",
+    "xpdsim",
     "python >=3",
     "fabio",
     "fire",
-    "matplotlib-base",
     "numba",
     "numpy",
     "pims",
@@ -182,12 +181,13 @@
     "scikit-learn",
     "scipy",
     "tomopy",
-    "tqdm"
+    "tqdm",
+    "xpdsim"
    ]
   },
   "source":{
-   "sha256":"efbdc18ffacb681f2baa9a0f535dd1e9e64ded52037e1330863b98d3e181c165",
-   "url":"http://github.com/xpdAcq/xpdtools/releases/download/0.8.1/0.8.1.tar.gz"
+   "sha256":"b7b3412a4137df3ef60ba93740614039819615265e4e833c8b1a7de15b631d19",
+   "url":"http://github.com/xpdAcq/xpdtools/releases/download/0.8.2/xpdtools-0.8.2.tar.gz"
   },
   "test":{
    "commands":[
@@ -235,7 +235,7 @@
   },
   "package":{
    "name":"xpdtools",
-   "version":"0.8.1"
+   "version":"0.8.2"
   },
   "requirements":{
    "host":[
@@ -246,7 +246,6 @@
     "python >=3",
     "fabio",
     "fire",
-    "matplotlib-base",
     "numba",
     "numpy",
     "pims",
@@ -257,12 +256,13 @@
     "scikit-learn",
     "scipy",
     "tomopy",
-    "tqdm"
+    "tqdm",
+    "xpdsim"
    ]
   },
   "source":{
-   "sha256":"efbdc18ffacb681f2baa9a0f535dd1e9e64ded52037e1330863b98d3e181c165",
-   "url":"http://github.com/xpdAcq/xpdtools/releases/download/0.8.1/0.8.1.tar.gz"
+   "sha256":"b7b3412a4137df3ef60ba93740614039819615265e4e833c8b1a7de15b631d19",
+   "url":"http://github.com/xpdAcq/xpdtools/releases/download/0.8.2/xpdtools-0.8.2.tar.gz"
   },
   "test":{
    "commands":[
@@ -292,7 +292,6 @@
    "elements":[
     "fabio",
     "fire",
-    "matplotlib-base",
     "numba",
     "numpy",
     "pims",
@@ -304,7 +303,8 @@
     "scikit-learn",
     "scipy",
     "tomopy",
-    "tqdm"
+    "tqdm",
+    "xpdsim"
    ]
   },
   "test":{
@@ -312,13 +312,12 @@
    "elements":[]
   }
  },
- "raw_meta_yaml":"{% set name = \"xpdtools\" %}\n{% set version = \"0.8.1\" %}\n{% set sha256 = \"efbdc18ffacb681f2baa9a0f535dd1e9e64ded52037e1330863b98d3e181c165\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: http://github.com/xpdAcq/{{ name }}/releases/download/{{ version }}/{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  entry_points:\n    - image_to_iq = xpdtools.cli.process_tiff:run_main\n\nrequirements:\n  host:\n    - python >=3\n    - pip \n  run:\n    - python >=3\n    - fabio\n    - fire\n    - matplotlib-base\n    - numba\n    - numpy\n    - pims\n    - pyfai\n    - pyyaml\n    - rapidz\n    - scikit-beam\n    - scikit-learn\n    - scipy\n    - tomopy\n    - tqdm\n\ntest:\n  imports:\n    - xpdtools\n    - xpdtools.tools\n    - xpdtools.cli.process_tiff\n  commands:\n    - image_to_iq -- --help\n\nabout:\n  home: https://xpdacq.github.io\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: Analysis Tools for XPD\n  dev_url: https://github.com/xpdAcq/xpdtools\n  doc_url: https://xpdacq.github.io/xpdtools\n",
+ "raw_meta_yaml":"{% set name = \"xpdtools\" %}\n{% set version = \"0.8.2\" %}\n{% set sha256 = \"b7b3412a4137df3ef60ba93740614039819615265e4e833c8b1a7de15b631d19\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: http://github.com/xpdAcq/{{ name }}/releases/download/{{ version }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  entry_points:\n    - image_to_iq = xpdtools.cli.process_tiff:run_main\n\nrequirements:\n  host:\n    - python >=3\n    - pip\n  run:\n    - python >=3\n    - fabio\n    - fire\n    - numba\n    - numpy\n    - pims\n    - pyfai\n    - pyyaml\n    - rapidz\n    - scikit-beam\n    - scikit-learn\n    - scipy\n    - tomopy\n    - tqdm\n    - xpdsim\n\n\ntest:\n  imports:\n    - xpdtools\n    - xpdtools.tools\n    - xpdtools.cli.process_tiff\n  commands:\n    - image_to_iq -- --help\n\nabout:\n  home: https://xpdacq.github.io\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: Analysis Tools for XPD\n  dev_url: https://github.com/xpdAcq/xpdtools\n  doc_url: https://xpdacq.github.io/xpdtools\n",
  "req":{
   "__set__":true,
   "elements":[
    "fabio",
    "fire",
-   "matplotlib-base",
    "numba",
    "numpy",
    "pims",
@@ -331,7 +330,8 @@
    "scikit-learn",
    "scipy",
    "tomopy",
-   "tqdm"
+   "tqdm",
+   "xpdsim"
   ]
  },
  "requirements":{
@@ -351,7 +351,6 @@
    "elements":[
     "fabio",
     "fire",
-    "matplotlib-base",
     "numba",
     "numpy",
     "pims",
@@ -363,7 +362,8 @@
     "scikit-learn",
     "scipy",
     "tomopy",
-    "tqdm"
+    "tqdm",
+    "xpdsim"
    ]
   },
   "test":{
@@ -389,7 +389,6 @@
    "elements":[
     "fabio",
     "fire",
-    "matplotlib-base",
     "numba",
     "numpy",
     "pims",
@@ -401,7 +400,8 @@
     "scikit-learn",
     "scipy",
     "tomopy",
-    "tqdm"
+    "tqdm",
+    "xpdsim"
    ]
   },
   "test":{
@@ -410,7 +410,7 @@
   }
  },
  "url":"http://github.com/xpdAcq/xpdtools/releases/download/0.8.1/0.8.1.tar.gz",
- "version":"0.8.1",
+ "version":"0.8.2",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/xpdAcq/xpdtools",
@@ -430,7 +430,7 @@
   },
   "package":{
    "name":"xpdtools",
-   "version":"0.8.1"
+   "version":"0.8.2"
   },
   "requirements":{
    "host":[
@@ -441,7 +441,6 @@
     "python >=3",
     "fabio",
     "fire",
-    "matplotlib-base",
     "numba",
     "numpy",
     "pims",
@@ -452,12 +451,13 @@
     "scikit-learn",
     "scipy",
     "tomopy",
-    "tqdm"
+    "tqdm",
+    "xpdsim"
    ]
   },
   "source":{
-   "sha256":"efbdc18ffacb681f2baa9a0f535dd1e9e64ded52037e1330863b98d3e181c165",
-   "url":"http://github.com/xpdAcq/xpdtools/releases/download/0.8.1/0.8.1.tar.gz"
+   "sha256":"b7b3412a4137df3ef60ba93740614039819615265e4e833c8b1a7de15b631d19",
+   "url":"http://github.com/xpdAcq/xpdtools/releases/download/0.8.2/xpdtools-0.8.2.tar.gz"
   },
   "test":{
    "commands":[
@@ -487,7 +487,6 @@
    "elements":[
     "fabio",
     "fire",
-    "matplotlib-base",
     "numba",
     "numpy",
     "pims",
@@ -499,7 +498,8 @@
     "scikit-learn",
     "scipy",
     "tomopy",
-    "tqdm"
+    "tqdm",
+    "xpdsim"
    ]
   },
   "test":{

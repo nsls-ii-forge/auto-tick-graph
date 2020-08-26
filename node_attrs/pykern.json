@@ -16,6 +16,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/473930891.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"20200824.233924"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -252,9 +269,10 @@
   }
  },
  "name":"pykern",
- "new_version":"20200805.224948",
+ "new_version":"20200824.233924",
  "new_version_attempts":{
-  "20200805.224948":1
+  "20200805.224948":1,
+  "20200824.233924":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -364,7 +382,7 @@
    ]
   }
  },
- "pinning_version":"2020.08.17.20.01.55",
+ "pinning_version":"2020.08.25.14.55.21",
  "raw_meta_yaml":"{% set name = \"pykern\" %}\n{% set version = \"20190922.150150\" %}\n{% set file_ext = \"zip\" %}\n{% set hash_type = \"sha256\" %}\n{% set hash_value = \"0fcc6532d3b37271df8c66a9b6fba0e05b31abf1aa0d323b5e899790d20c3004\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ file_ext }}\n  {{ hash_type }}: {{ hash_value }}\n\nbuild:\n  noarch: python\n  number: 0\n  entry_points:\n    - pykern = pykern.pykern_console:main\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  build:\n    - python\n    - pip\n  run:\n    - python\n    - argh >=0.26\n    - future >=0.14\n    - github3.py >=1.1\n    - jinja2 >=2.7\n    - py-cpuinfo >=0.2\n    - py >=1.4\n    - pytest >=2.7,<=3.2.3\n    - pytest-forked >=0.2\n    - pytz >=2015.4\n    - pyyaml >=3.0\n    - requests >=2.18\n    - setuptools >=20.3\n    - six >=1.9\n    - sphinx >=1.3.5\n    - twine >=1.9\n    - tox >=1.9\n    - path.py >=7.7.1\n    - python-dateutil >=2.4.2\n\ntest:\n  imports:\n    - pykern\n    - pykern.pkcli\n  commands:\n    - pykern --help\n  requires:\n    - pytest\n\nabout:\n  home: http://pykern.org\n  license: Apache Software License\n  license_family: APACHE\n  license_file: LICENSE\n  summary: Python application support\n",
  "req":{
   "__set__":true,
