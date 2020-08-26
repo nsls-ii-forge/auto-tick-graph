@@ -42,11 +42,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"dpkt",
-   "version":"1.9.2"
+   "version":"1.9.3"
   },
   "requirements":{
    "host":[
@@ -58,8 +58,8 @@
    ]
   },
   "source":{
-   "sha256":"52a92ecd5ca04d5bd852bb11cb2eac4bbe38b42a7c472e0d950eeb9f82a81e54",
-   "url":"https://pypi.io/packages/source/d/dpkt/dpkt-1.9.2.tar.gz"
+   "sha256":"6f577e4a5f730fe12f127f18924aee17863af75efcba259fb0a5cd7fbb554ca2",
+   "url":"https://pypi.io/packages/source/d/dpkt/dpkt-1.9.3.tar.gz"
   },
   "test":{
    "imports":[
@@ -104,11 +104,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"dpkt",
-   "version":"1.9.2"
+   "version":"1.9.3"
   },
   "requirements":{
    "host":[
@@ -126,8 +126,8 @@
    ]
   },
   "source":{
-   "sha256":"52a92ecd5ca04d5bd852bb11cb2eac4bbe38b42a7c472e0d950eeb9f82a81e54",
-   "url":"https://pypi.io/packages/source/d/dpkt/dpkt-1.9.2.tar.gz"
+   "sha256":"6f577e4a5f730fe12f127f18924aee17863af75efcba259fb0a5cd7fbb554ca2",
+   "url":"https://pypi.io/packages/source/d/dpkt/dpkt-1.9.3.tar.gz"
   },
   "test":{
    "imports":[
@@ -157,11 +157,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"dpkt",
-   "version":"1.9.2"
+   "version":"1.9.3"
   },
   "requirements":{
    "host":[
@@ -173,8 +173,8 @@
    ]
   },
   "source":{
-   "sha256":"52a92ecd5ca04d5bd852bb11cb2eac4bbe38b42a7c472e0d950eeb9f82a81e54",
-   "url":"https://pypi.io/packages/source/d/dpkt/dpkt-1.9.2.tar.gz"
+   "sha256":"6f577e4a5f730fe12f127f18924aee17863af75efcba259fb0a5cd7fbb554ca2",
+   "url":"https://pypi.io/packages/source/d/dpkt/dpkt-1.9.3.tar.gz"
   },
   "test":{
    "imports":[
@@ -206,7 +206,7 @@
   }
  },
  "pinning_version":"2020.08.17.20.01.55",
- "raw_meta_yaml":"{% set name = \"dpkt\" %}\n{% set version = \"1.9.2\" %}\n{% set sha256 = \"52a92ecd5ca04d5bd852bb11cb2eac4bbe38b42a7c472e0d950eeb9f82a81e54\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n\ntest:\n  imports:\n    - {{ name }}\n\nabout:\n  home: http://github.com/kbandla/dpkt\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'fast, simple packet creation / parsing, with definitions for the basic TCP/IP protocols'\n  description: |\n    dpkt is a simple packet creation / parsing, with definitions for the basic TCP/IP protocols\n    and is implemented in pure python\n  doc_url: https://dpkt.readthedocs.io\n  dev_url: http://github.com/kbandla/dpkt\n",
+ "raw_meta_yaml":"{% set name = \"dpkt\" %}\n{% set version = \"1.9.3\" %}\n{% set sha256 = \"6f577e4a5f730fe12f127f18924aee17863af75efcba259fb0a5cd7fbb554ca2\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n\ntest:\n  imports:\n    - dpkt\n\nabout:\n  home: http://github.com/kbandla/dpkt\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: fast, simple packet creation / parsing, with definitions for the basic TCP/IP protocols\n  description: |\n    dpkt is a simple packet creation / parsing, with definitions for the basic TCP/IP protocols\n    and is implemented in pure python\n  doc_url: https://dpkt.readthedocs.io\n  dev_url: http://github.com/kbandla/dpkt\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -263,7 +263,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/d/dpkt/dpkt-1.9.2.tar.gz",
- "version":"1.9.2",
+ "version":"1.9.3",
  "win_64_meta_yaml":{
   "about":{
    "description":"dpkt is a simple packet creation / parsing, with definitions for the basic TCP/IP protocols\nand is implemented in pure python\n",
@@ -278,11 +278,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"dpkt",
-   "version":"1.9.2"
+   "version":"1.9.3"
   },
   "requirements":{
    "host":[
@@ -294,8 +294,8 @@
    ]
   },
   "source":{
-   "sha256":"52a92ecd5ca04d5bd852bb11cb2eac4bbe38b42a7c472e0d950eeb9f82a81e54",
-   "url":"https://pypi.io/packages/source/d/dpkt/dpkt-1.9.2.tar.gz"
+   "sha256":"6f577e4a5f730fe12f127f18924aee17863af75efcba259fb0a5cd7fbb554ca2",
+   "url":"https://pypi.io/packages/source/d/dpkt/dpkt-1.9.3.tar.gz"
   },
   "test":{
    "imports":[

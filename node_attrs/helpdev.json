@@ -46,7 +46,7 @@
   },
   "package":{
    "name":"helpdev",
-   "version":"0.6.10"
+   "version":"0.7.1"
   },
   "requirements":{
    "host":[
@@ -60,8 +60,8 @@
    ]
   },
   "source":{
-   "sha256":"9e61d24458b7506809670222ca656b139e67d46c530cd227a899780152d7b44e",
-   "url":"https://pypi.io/packages/source/h/helpdev/helpdev-0.6.10.tar.gz"
+   "sha256":"bb62a79acbac141dadf42cadeb92bb7450dd18b9824a62043b6a0b149190db3d",
+   "url":"https://pypi.io/packages/source/h/helpdev/helpdev-0.7.1.tar.gz"
   },
   "test":{
    "commands":[
@@ -122,7 +122,7 @@
   },
   "package":{
    "name":"helpdev",
-   "version":"0.6.10"
+   "version":"0.7.1"
   },
   "requirements":{
    "host":[
@@ -146,8 +146,8 @@
    ]
   },
   "source":{
-   "sha256":"9e61d24458b7506809670222ca656b139e67d46c530cd227a899780152d7b44e",
-   "url":"https://pypi.io/packages/source/h/helpdev/helpdev-0.6.10.tar.gz"
+   "sha256":"bb62a79acbac141dadf42cadeb92bb7450dd18b9824a62043b6a0b149190db3d",
+   "url":"https://pypi.io/packages/source/h/helpdev/helpdev-0.7.1.tar.gz"
   },
   "test":{
    "commands":[
@@ -191,7 +191,7 @@
   },
   "package":{
    "name":"helpdev",
-   "version":"0.6.10"
+   "version":"0.7.1"
   },
   "requirements":{
    "host":[
@@ -205,8 +205,8 @@
    ]
   },
   "source":{
-   "sha256":"9e61d24458b7506809670222ca656b139e67d46c530cd227a899780152d7b44e",
-   "url":"https://pypi.io/packages/source/h/helpdev/helpdev-0.6.10.tar.gz"
+   "sha256":"bb62a79acbac141dadf42cadeb92bb7450dd18b9824a62043b6a0b149190db3d",
+   "url":"https://pypi.io/packages/source/h/helpdev/helpdev-0.7.1.tar.gz"
   },
   "test":{
    "commands":[
@@ -248,7 +248,7 @@
   }
  },
  "pinning_version":"2020.08.15.14.59.48",
- "raw_meta_yaml":"{% set name = \"helpdev\" %}\n{% set version = \"0.6.10\" %}\n{% set sha256 = \"9e61d24458b7506809670222ca656b139e67d46c530cd227a899780152d7b44e\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  entry_points:\n    - helpdev=helpdev.__main__:main\n  noarch: \"python\"\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv \"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - importlib_metadata\n    - psutil >=5.6\n\ntest:\n  requires:\n    - pytest\n  imports:\n    - helpdev\n  commands:\n    - helpdev --help\n\nabout:\n  home: \"https://gitlab.com/dpizetta/helpdev\"\n  license: \"MIT\"\n  license_family: \"MIT\"\n  license_file: LICENSE.rst\n  summary: \"HelpDev - Extracts information about the Python environment easily.\"\n\n",
+ "raw_meta_yaml":"{% set name = \"helpdev\" %}\n{% set version = \"0.7.1\" %}\n{% set sha256 = \"bb62a79acbac141dadf42cadeb92bb7450dd18b9824a62043b6a0b149190db3d\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  entry_points:\n    - helpdev=helpdev.__main__:main\n  noarch: python\n  script: '{{ PYTHON }} -m pip install . --no-deps -vv '\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - importlib_metadata\n    - psutil >=5.6\n\ntest:\n  requires:\n    - pytest\n  imports:\n    - helpdev\n  commands:\n    - helpdev --help\n\nabout:\n  home: https://gitlab.com/dpizetta/helpdev\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.rst\n  summary: HelpDev - Extracts information about the Python environment easily.\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -315,7 +315,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/h/helpdev/helpdev-0.6.10.tar.gz",
- "version":"0.6.10",
+ "version":"0.7.1",
  "win_64_meta_yaml":{
   "about":{
    "home":"https://gitlab.com/dpizetta/helpdev",
@@ -334,7 +334,7 @@
   },
   "package":{
    "name":"helpdev",
-   "version":"0.6.10"
+   "version":"0.7.1"
   },
   "requirements":{
    "host":[
@@ -348,8 +348,8 @@
    ]
   },
   "source":{
-   "sha256":"9e61d24458b7506809670222ca656b139e67d46c530cd227a899780152d7b44e",
-   "url":"https://pypi.io/packages/source/h/helpdev/helpdev-0.6.10.tar.gz"
+   "sha256":"bb62a79acbac141dadf42cadeb92bb7450dd18b9824a62043b6a0b149190db3d",
+   "url":"https://pypi.io/packages/source/h/helpdev/helpdev-0.7.1.tar.gz"
   },
   "test":{
    "commands":[

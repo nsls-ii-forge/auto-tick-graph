@@ -56,12 +56,12 @@
     "pyFAI-saxs = pyFAI.app.saxs:main",
     "pyFAI-waxs = pyFAI.app.waxs:main"
    ],
-   "number":"1",
+   "number":"0",
    "script":"-m pip install . --no-deps --ignore-installed -vv"
   },
   "package":{
    "name":"pyfai",
-   "version":"0.18.0"
+   "version":"0.19.0"
   },
   "requirements":{
    "build":[
@@ -87,8 +87,8 @@
    ]
   },
   "source":{
-   "sha256":"355a9722c928ef1904be8f1487c5f4ef52eebb3728e069e111d8e8a9a43b2b7b",
-   "url":"https://pypi.io/packages/source/p/pyFAI/pyFAI-0.18.0.tar.gz"
+   "sha256":"4dcbc92470997b5002d5626da4df428ab12efcfcec437d4cb001f41141665774",
+   "url":"https://pypi.io/packages/source/p/pyFAI/pyFAI-0.19.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -196,12 +196,12 @@
     "pyFAI-saxs = pyFAI.app.saxs:main",
     "pyFAI-waxs = pyFAI.app.waxs:main"
    ],
-   "number":"1",
+   "number":"0",
    "script":"-m pip install . --no-deps --ignore-installed -vv"
   },
   "package":{
    "name":"pyfai",
-   "version":"0.18.0"
+   "version":"0.19.0"
   },
   "requirements":{
    "build":[
@@ -257,8 +257,8 @@
    ]
   },
   "source":{
-   "sha256":"355a9722c928ef1904be8f1487c5f4ef52eebb3728e069e111d8e8a9a43b2b7b",
-   "url":"https://pypi.io/packages/source/p/pyFAI/pyFAI-0.18.0.tar.gz"
+   "sha256":"4dcbc92470997b5002d5626da4df428ab12efcfcec437d4cb001f41141665774",
+   "url":"https://pypi.io/packages/source/p/pyFAI/pyFAI-0.19.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -316,12 +316,12 @@
     "pyFAI-saxs = pyFAI.app.saxs:main",
     "pyFAI-waxs = pyFAI.app.waxs:main"
    ],
-   "number":"1",
+   "number":"0",
    "script":"-m pip install . --no-deps --ignore-installed -vv"
   },
   "package":{
    "name":"pyfai",
-   "version":"0.18.0"
+   "version":"0.19.0"
   },
   "requirements":{
    "build":[
@@ -347,8 +347,8 @@
    ]
   },
   "source":{
-   "sha256":"355a9722c928ef1904be8f1487c5f4ef52eebb3728e069e111d8e8a9a43b2b7b",
-   "url":"https://pypi.io/packages/source/p/pyFAI/pyFAI-0.18.0.tar.gz"
+   "sha256":"4dcbc92470997b5002d5626da4df428ab12efcfcec437d4cb001f41141665774",
+   "url":"https://pypi.io/packages/source/p/pyFAI/pyFAI-0.19.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -399,7 +399,7 @@
   }
  },
  "pinning_version":"2020.08.15.14.59.48",
- "raw_meta_yaml":"{% set name = \"pyFAI\" %}\n{% set version = \"0.18.0\" %}\n{% set sha256 = \"355a9722c928ef1904be8f1487c5f4ef52eebb3728e069e111d8e8a9a43b2b7b\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 1\n  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv\n  entry_points:\n    - check_calib = pyFAI.app.check_calib:main\n    - detector2nexus = pyFAI.app.detector2nexus:main\n    - diff_map = pyFAI.app.diff_map:main\n    - diff_tomo = pyFAI.app.diff_tomo:main\n    - eiger-mask = pyFAI.app.eiger_mask:main\n    - MX-calibrate = pyFAI.app.mx_calibrate:main\n    - pyFAI-average = pyFAI.app.average:main\n    - pyFAI-benchmark = pyFAI.app.benchmark:main\n    - pyFAI-calib = pyFAI.app.calib:main\n    - pyFAI-calib2 = pyFAI.app.calib2:main\n    - pyFAI-drawmask = pyFAI.app.drawmask:main\n    - pyFAI-integrate = pyFAI.app.integrate:main\n    - pyFAI-recalib = pyFAI.app.recalib:main\n    - pyFAI-saxs = pyFAI.app.saxs:main\n    - pyFAI-waxs = pyFAI.app.waxs:main\n  skip: True  # [py<36]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - python\n    - cython\n    - numpy\n    - pip\n  run:\n    - python\n    - fabio\n    - h5py\n    - lxml\n    - matplotlib\n    - pillow\n    - scipy\n    - silx\n    - {{ pin_compatible('numpy') }}\n\ntest:\n  imports:\n    - pyFAI\n    - pyFAI.test\n    - pyFAI.third_party\n    - pyFAI.gui\n  commands:\n    - pyFAI-calib -h\n\nabout:\n  home: https://github.com/silx-kit/pyFAI/\n  license: GPL-3\n  license_file: copyright\n  summary: 'Python implementation of fast azimuthal integration'\n  description: |\n    pyFAI is an azimuthal integration library that tries to be fast (as fast\n    as C and even more using OpenCL and GPU). It is based on histogramming of\n    the 2theta/Q positions of each (center of) pixel weighted by the intensity\n    of each pixel, but parallel version uses a SparseMatrix-DenseVector\n    multiplication. Neighboring output bins get also a contribution of pixels\n    next to the border thanks to pixel splitting. Finally pyFAI provides also\n    tools to calibrate the experimental setup using Debye-Scherrer rings of a\n    reference compound.\n  doc_url: http://pythonhosted.org/pyFAI/\n  dev_url: https://github.com/silx-kit/pyFAI/\n",
+ "raw_meta_yaml":"{% set name = \"pyFAI\" %}\n{% set version = \"0.19.0\" %}\n{% set sha256 = \"4dcbc92470997b5002d5626da4df428ab12efcfcec437d4cb001f41141665774\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv\n  entry_points:\n    - check_calib = pyFAI.app.check_calib:main\n    - detector2nexus = pyFAI.app.detector2nexus:main\n    - diff_map = pyFAI.app.diff_map:main\n    - diff_tomo = pyFAI.app.diff_tomo:main\n    - eiger-mask = pyFAI.app.eiger_mask:main\n    - MX-calibrate = pyFAI.app.mx_calibrate:main\n    - pyFAI-average = pyFAI.app.average:main\n    - pyFAI-benchmark = pyFAI.app.benchmark:main\n    - pyFAI-calib = pyFAI.app.calib:main\n    - pyFAI-calib2 = pyFAI.app.calib2:main\n    - pyFAI-drawmask = pyFAI.app.drawmask:main\n    - pyFAI-integrate = pyFAI.app.integrate:main\n    - pyFAI-recalib = pyFAI.app.recalib:main\n    - pyFAI-saxs = pyFAI.app.saxs:main\n    - pyFAI-waxs = pyFAI.app.waxs:main\n  skip: true  # [py<36]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - python\n    - cython\n    - numpy\n    - pip\n  run:\n    - python\n    - fabio\n    - h5py\n    - lxml\n    - matplotlib\n    - pillow\n    - scipy\n    - silx\n    - {{ pin_compatible('numpy') }}\n\ntest:\n  imports:\n    - pyFAI\n    - pyFAI.test\n    - pyFAI.third_party\n    - pyFAI.gui\n  commands:\n    - pyFAI-calib -h\n\nabout:\n  home: https://github.com/silx-kit/pyFAI/\n  license: GPL-3\n  license_file: copyright\n  summary: Python implementation of fast azimuthal integration\n  description: |\n    pyFAI is an azimuthal integration library that tries to be fast (as fast\n    as C and even more using OpenCL and GPU). It is based on histogramming of\n    the 2theta/Q positions of each (center of) pixel weighted by the intensity\n    of each pixel, but parallel version uses a SparseMatrix-DenseVector\n    multiplication. Neighboring output bins get also a contribution of pixels\n    next to the border thanks to pixel splitting. Finally pyFAI provides also\n    tools to calibrate the experimental setup using Debye-Scherrer rings of a\n    reference compound.\n  doc_url: http://pythonhosted.org/pyFAI/\n  dev_url: https://github.com/silx-kit/pyFAI/\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -493,7 +493,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/p/pyFAI/pyFAI-0.18.0.tar.gz",
- "version":"0.18.0",
+ "version":"0.19.0",
  "win_64_meta_yaml":{
   "about":{
    "description":"pyFAI is an azimuthal integration library that tries to be fast (as fast\nas C and even more using OpenCL and GPU). It is based on histogramming of\nthe 2theta/Q positions of each (center of) pixel weighted by the intensity\nof each pixel, but parallel version uses a SparseMatrix-DenseVector\nmultiplication. Neighboring output bins get also a contribution of pixels\nnext to the border thanks to pixel splitting. Finally pyFAI provides also\ntools to calibrate the experimental setup using Debye-Scherrer rings of a\nreference compound.\n",
@@ -522,12 +522,12 @@
     "pyFAI-saxs = pyFAI.app.saxs:main",
     "pyFAI-waxs = pyFAI.app.waxs:main"
    ],
-   "number":"1",
+   "number":"0",
    "script":"-m pip install . --no-deps --ignore-installed -vv"
   },
   "package":{
    "name":"pyfai",
-   "version":"0.18.0"
+   "version":"0.19.0"
   },
   "requirements":{
    "build":[
@@ -553,8 +553,8 @@
    ]
   },
   "source":{
-   "sha256":"355a9722c928ef1904be8f1487c5f4ef52eebb3728e069e111d8e8a9a43b2b7b",
-   "url":"https://pypi.io/packages/source/p/pyFAI/pyFAI-0.18.0.tar.gz"
+   "sha256":"4dcbc92470997b5002d5626da4df428ab12efcfcec437d4cb001f41141665774",
+   "url":"https://pypi.io/packages/source/p/pyFAI/pyFAI-0.19.0.tar.gz"
   },
   "test":{
    "commands":[

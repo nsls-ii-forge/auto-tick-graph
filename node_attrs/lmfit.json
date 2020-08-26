@@ -38,12 +38,12 @@
   },
   "build":{
    "noarch":"python",
-   "number":"1",
-   "script":" -m pip install . --no-deps -vv"
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"lmfit",
-   "version":"1.0.0"
+   "version":"1.0.1"
   },
   "requirements":{
    "host":[
@@ -60,8 +60,8 @@
    ]
   },
   "source":{
-   "sha256":"aa005a3ed8fe759e89cba59c5e130b5ff0b73e9379c6d6b10240daabff706ed5",
-   "url":"https://pypi.io/packages/source/l/lmfit/lmfit-1.0.0.tar.gz"
+   "sha256":"d249eb756899360f4d2a544c9458f47fc8f765ac22c09e099530585fd64e286e",
+   "url":"https://pypi.io/packages/source/l/lmfit/lmfit-1.0.1.tar.gz"
   },
   "test":{
    "imports":[
@@ -107,12 +107,12 @@
   },
   "build":{
    "noarch":"python",
-   "number":"1",
-   "script":" -m pip install . --no-deps -vv"
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"lmfit",
-   "version":"1.0.0"
+   "version":"1.0.1"
   },
   "requirements":{
    "host":[
@@ -145,8 +145,8 @@
    ]
   },
   "source":{
-   "sha256":"aa005a3ed8fe759e89cba59c5e130b5ff0b73e9379c6d6b10240daabff706ed5",
-   "url":"https://pypi.io/packages/source/l/lmfit/lmfit-1.0.0.tar.gz"
+   "sha256":"d249eb756899360f4d2a544c9458f47fc8f765ac22c09e099530585fd64e286e",
+   "url":"https://pypi.io/packages/source/l/lmfit/lmfit-1.0.1.tar.gz"
   },
   "test":{
    "imports":[
@@ -172,12 +172,12 @@
   },
   "build":{
    "noarch":"python",
-   "number":"1",
-   "script":" -m pip install . --no-deps -vv"
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"lmfit",
-   "version":"1.0.0"
+   "version":"1.0.1"
   },
   "requirements":{
    "host":[
@@ -194,8 +194,8 @@
    ]
   },
   "source":{
-   "sha256":"aa005a3ed8fe759e89cba59c5e130b5ff0b73e9379c6d6b10240daabff706ed5",
-   "url":"https://pypi.io/packages/source/l/lmfit/lmfit-1.0.0.tar.gz"
+   "sha256":"d249eb756899360f4d2a544c9458f47fc8f765ac22c09e099530585fd64e286e",
+   "url":"https://pypi.io/packages/source/l/lmfit/lmfit-1.0.1.tar.gz"
   },
   "test":{
    "imports":[
@@ -232,7 +232,7 @@
   }
  },
  "pinning_version":"2020.08.17.20.01.55",
- "raw_meta_yaml":"{% set name = \"lmfit\" %}\n{% set version = \"1.0.0\" %}\n{% set sha256 = \"aa005a3ed8fe759e89cba59c5e130b5ff0b73e9379c6d6b10240daabff706ed5\" %}\n\npackage:\n  name: {{ name }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 1\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python >=3.5\n    - asteval >=0.9.16\n    - numpy >=1.16\n    - scipy >=1.2\n    - six\n    - uncertainties >=3.0.1\n\ntest:\n  imports:\n    - {{ name }}\n\nabout:\n  home: http://lmfit.github.io/lmfit-py\n  license: lmfit\n  license_family: BSD\n  license_file: LICENSE\n  summary: >\n      Non-Linear Least Squares Minimization, with flexible Parameter\n      settings, based on scipy.optimize.leastsq, and with many additional\n      classes and methods for curve fitting http://lmfit.github.io/lmfit-py.\n",
+ "raw_meta_yaml":"{% set name = \"lmfit\" %}\n{% set version = \"1.0.1\" %}\n{% set sha256 = \"d249eb756899360f4d2a544c9458f47fc8f765ac22c09e099530585fd64e286e\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python >=3.5\n    - asteval >=0.9.16\n    - numpy >=1.16\n    - scipy >=1.2\n    - six\n    - uncertainties >=3.0.1\n\ntest:\n  imports:\n    - {{ name }}\n\nabout:\n  home: http://lmfit.github.io/lmfit-py\n  license: lmfit\n  license_family: BSD\n  license_file: LICENSE\n  summary: >\n    Non-Linear Least Squares Minimization, with flexible Parameter settings, based on scipy.optimize.leastsq, and with many additional classes and methods for curve fitting http://lmfit.github.io/lmfit-py.\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -304,7 +304,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/l/lmfit/lmfit-1.0.0.tar.gz",
- "version":"1.0.0",
+ "version":"1.0.1",
  "win_64_meta_yaml":{
   "about":{
    "home":"http://lmfit.github.io/lmfit-py",
@@ -315,12 +315,12 @@
   },
   "build":{
    "noarch":"python",
-   "number":"1",
-   "script":" -m pip install . --no-deps -vv"
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"lmfit",
-   "version":"1.0.0"
+   "version":"1.0.1"
   },
   "requirements":{
    "host":[
@@ -337,8 +337,8 @@
    ]
   },
   "source":{
-   "sha256":"aa005a3ed8fe759e89cba59c5e130b5ff0b73e9379c6d6b10240daabff706ed5",
-   "url":"https://pypi.io/packages/source/l/lmfit/lmfit-1.0.0.tar.gz"
+   "sha256":"d249eb756899360f4d2a544c9458f47fc8f765ac22c09e099530585fd64e286e",
+   "url":"https://pypi.io/packages/source/l/lmfit/lmfit-1.0.1.tar.gz"
   },
   "test":{
    "imports":[

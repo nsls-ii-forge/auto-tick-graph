@@ -39,11 +39,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"ipympl",
-   "version":"0.3.3"
+   "version":"0.5.7"
   },
   "requirements":{
    "host":[
@@ -60,8 +60,8 @@
    ]
   },
   "source":{
-   "sha256":"edf4374806d704f35334260678d2e94db5079a3d5ef75ed88b8fc2a4a080ba54",
-   "url":"https://pypi.io/packages/source/i/ipympl/ipympl-0.3.3.tar.gz"
+   "sha256":"a5e7e8bdc5e97e6397b8507cbbea01c711f770eba903ea87bb5b00bbf4525a32",
+   "url":"https://pypi.io/packages/source/i/ipympl/ipympl-0.5.7.tar.gz"
   },
   "test":{
    "imports":[
@@ -108,11 +108,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"ipympl",
-   "version":"0.3.3"
+   "version":"0.5.7"
   },
   "requirements":{
    "host":[
@@ -145,8 +145,8 @@
    ]
   },
   "source":{
-   "sha256":"edf4374806d704f35334260678d2e94db5079a3d5ef75ed88b8fc2a4a080ba54",
-   "url":"https://pypi.io/packages/source/i/ipympl/ipympl-0.3.3.tar.gz"
+   "sha256":"a5e7e8bdc5e97e6397b8507cbbea01c711f770eba903ea87bb5b00bbf4525a32",
+   "url":"https://pypi.io/packages/source/i/ipympl/ipympl-0.5.7.tar.gz"
   },
   "test":{
    "imports":[
@@ -173,11 +173,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"ipympl",
-   "version":"0.3.3"
+   "version":"0.5.7"
   },
   "requirements":{
    "host":[
@@ -194,8 +194,8 @@
    ]
   },
   "source":{
-   "sha256":"edf4374806d704f35334260678d2e94db5079a3d5ef75ed88b8fc2a4a080ba54",
-   "url":"https://pypi.io/packages/source/i/ipympl/ipympl-0.3.3.tar.gz"
+   "sha256":"a5e7e8bdc5e97e6397b8507cbbea01c711f770eba903ea87bb5b00bbf4525a32",
+   "url":"https://pypi.io/packages/source/i/ipympl/ipympl-0.5.7.tar.gz"
   },
   "test":{
    "imports":[
@@ -232,7 +232,7 @@
   }
  },
  "pinning_version":"2020.08.17.20.01.55",
- "raw_meta_yaml":"{% set name = \"ipympl\" %}\n{% set version = \"0.3.3\" %}\n{% set sha256 = \"edf4374806d704f35334260678d2e94db5079a3d5ef75ed88b8fc2a4a080ba54\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON}} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - jupyter\n    - pip\n  run:\n    - python\n    - ipywidgets >=7.5.0,<8.0\n    - ipykernel >=4.7\n    - matplotlib >=2.2.0\n    - six\n\ntest:\n  imports:\n    - {{ name }}\n\nabout:\n    home: https://github.com/matplotlib/jupyter-matplotlib\n    license: BSD 3-Clause\n    license_family: BSD\n    license_file: LICENSE\n    summary: Matplotlib Jupyter Extension\n",
+ "raw_meta_yaml":"{% set name = \"ipympl\" %}\n{% set version = \"0.5.7\" %}\n{% set sha256 = \"a5e7e8bdc5e97e6397b8507cbbea01c711f770eba903ea87bb5b00bbf4525a32\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - jupyter\n    - pip\n  run:\n    - python\n    - ipywidgets >=7.5.0,<8.0\n    - ipykernel >=4.7\n    - matplotlib >=2.2.0\n    - six\n\ntest:\n  imports:\n    - ipympl\n\nabout:\n  home: https://github.com/matplotlib/jupyter-matplotlib\n  license: BSD 3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Matplotlib Jupyter Extension\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -304,7 +304,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/i/ipympl/ipympl-0.3.3.tar.gz",
- "version":"0.3.3",
+ "version":"0.5.7",
  "win_64_meta_yaml":{
   "about":{
    "home":"https://github.com/matplotlib/jupyter-matplotlib",
@@ -316,11 +316,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"ipympl",
-   "version":"0.3.3"
+   "version":"0.5.7"
   },
   "requirements":{
    "host":[
@@ -337,8 +337,8 @@
    ]
   },
   "source":{
-   "sha256":"edf4374806d704f35334260678d2e94db5079a3d5ef75ed88b8fc2a4a080ba54",
-   "url":"https://pypi.io/packages/source/i/ipympl/ipympl-0.3.3.tar.gz"
+   "sha256":"a5e7e8bdc5e97e6397b8507cbbea01c711f770eba903ea87bb5b00bbf4525a32",
+   "url":"https://pypi.io/packages/source/i/ipympl/ipympl-0.5.7.tar.gz"
   },
   "test":{
    "imports":[
