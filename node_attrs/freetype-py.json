@@ -42,11 +42,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"freetype-py",
-   "version":"2.1.0.post1"
+   "version":"2.2.0"
   },
   "requirements":{
    "host":[
@@ -60,8 +60,8 @@
    ]
   },
   "source":{
-   "sha256":"76383bb3e59efa6ce0be1797ed70207d7d1e421611df3aceb269673c4a77c2cc",
-   "url":"https://pypi.io/packages/source/f/freetype-py/freetype-py-2.1.0.post1.tar.gz"
+   "sha256":"cf43716bc5246cd54a64b2238b942e8dc80b79eda92f814c720286fa6fab387a",
+   "url":"https://pypi.io/packages/source/f/freetype-py/freetype-py-2.2.0.zip"
   },
   "test":{
    "imports":[
@@ -108,11 +108,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"freetype-py",
-   "version":"2.1.0.post1"
+   "version":"2.2.0"
   },
   "requirements":{
    "host":[
@@ -136,8 +136,8 @@
    ]
   },
   "source":{
-   "sha256":"76383bb3e59efa6ce0be1797ed70207d7d1e421611df3aceb269673c4a77c2cc",
-   "url":"https://pypi.io/packages/source/f/freetype-py/freetype-py-2.1.0.post1.tar.gz"
+   "sha256":"cf43716bc5246cd54a64b2238b942e8dc80b79eda92f814c720286fa6fab387a",
+   "url":"https://pypi.io/packages/source/f/freetype-py/freetype-py-2.2.0.zip"
   },
   "test":{
    "imports":[
@@ -167,11 +167,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"freetype-py",
-   "version":"2.1.0.post1"
+   "version":"2.2.0"
   },
   "requirements":{
    "host":[
@@ -185,8 +185,8 @@
    ]
   },
   "source":{
-   "sha256":"76383bb3e59efa6ce0be1797ed70207d7d1e421611df3aceb269673c4a77c2cc",
-   "url":"https://pypi.io/packages/source/f/freetype-py/freetype-py-2.1.0.post1.tar.gz"
+   "sha256":"cf43716bc5246cd54a64b2238b942e8dc80b79eda92f814c720286fa6fab387a",
+   "url":"https://pypi.io/packages/source/f/freetype-py/freetype-py-2.2.0.zip"
   },
   "test":{
    "imports":[
@@ -220,7 +220,7 @@
   }
  },
  "pinning_version":"2020.08.15.14.59.48",
- "raw_meta_yaml":"{% set name = \"freetype-py\" %}\n{% set version = \"2.1.0.post1\" %}\n{% set sha256 = \"76383bb3e59efa6ce0be1797ed70207d7d1e421611df3aceb269673c4a77c2cc\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n    - setuptools_scm\n  run:\n    - python\n    - freetype\n\ntest:\n  imports:\n    - freetype\n\nabout:\n  home: https://github.com/rougier/freetype-py\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: 'Python binding for the freetype library'\n  description: |\n    Freetype Python provides bindings for the FreeType library.\n    Only the high-level API is bound.\n  doc_url: https://freetype-py.readthedocs.io/\n  dev_url: https://github.com/rougier/freetype-py\n",
+ "raw_meta_yaml":"{% set name = \"freetype-py\" %}\n{% set version = \"2.2.0\" %}\n{% set sha256 = \"cf43716bc5246cd54a64b2238b942e8dc80b79eda92f814c720286fa6fab387a\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.zip\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n    - setuptools_scm\n  run:\n    - python\n    - freetype\n\ntest:\n  imports:\n    - freetype\n\nabout:\n  home: https://github.com/rougier/freetype-py\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: Python binding for the freetype library\n  description: |\n    Freetype Python provides bindings for the FreeType library.\n    Only the high-level API is bound.\n  doc_url: https://freetype-py.readthedocs.io/\n  dev_url: https://github.com/rougier/freetype-py\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -283,7 +283,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/f/freetype-py/freetype-py-2.1.0.post1.tar.gz",
- "version":"2.1.0.post1",
+ "version":"2.2.0",
  "win_64_meta_yaml":{
   "about":{
    "description":"Freetype Python provides bindings for the FreeType library.\nOnly the high-level API is bound.\n",
@@ -298,11 +298,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"freetype-py",
-   "version":"2.1.0.post1"
+   "version":"2.2.0"
   },
   "requirements":{
    "host":[
@@ -316,8 +316,8 @@
    ]
   },
   "source":{
-   "sha256":"76383bb3e59efa6ce0be1797ed70207d7d1e421611df3aceb269673c4a77c2cc",
-   "url":"https://pypi.io/packages/source/f/freetype-py/freetype-py-2.1.0.post1.tar.gz"
+   "sha256":"cf43716bc5246cd54a64b2238b942e8dc80b79eda92f814c720286fa6fab387a",
+   "url":"https://pypi.io/packages/source/f/freetype-py/freetype-py-2.2.0.zip"
   },
   "test":{
    "imports":[

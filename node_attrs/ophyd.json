@@ -42,11 +42,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"ophyd",
-   "version":"1.5.2"
+   "version":"1.5.3"
   },
   "requirements":{
    "host":[
@@ -61,8 +61,8 @@
    ]
   },
   "source":{
-   "sha256":"ea78821936ee629717677a0669c7c47fd8ee26ba47d5f1b0cd07fdb4a67dd313",
-   "url":"https://pypi.io/packages/source/o/ophyd/ophyd-1.5.2.tar.gz"
+   "sha256":"7ec3a5533569ce1ff7c0305948d48eacf61668dc9fe3e1e9fbb525b9eeaa8e27",
+   "url":"https://pypi.io/packages/source/o/ophyd/ophyd-1.5.3.tar.gz"
   },
   "test":{
    "imports":[
@@ -113,11 +113,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"ophyd",
-   "version":"1.5.2"
+   "version":"1.5.3"
   },
   "requirements":{
    "host":[
@@ -144,8 +144,8 @@
    ]
   },
   "source":{
-   "sha256":"ea78821936ee629717677a0669c7c47fd8ee26ba47d5f1b0cd07fdb4a67dd313",
-   "url":"https://pypi.io/packages/source/o/ophyd/ophyd-1.5.2.tar.gz"
+   "sha256":"7ec3a5533569ce1ff7c0305948d48eacf61668dc9fe3e1e9fbb525b9eeaa8e27",
+   "url":"https://pypi.io/packages/source/o/ophyd/ophyd-1.5.3.tar.gz"
   },
   "test":{
    "imports":[
@@ -184,11 +184,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"ophyd",
-   "version":"1.5.2"
+   "version":"1.5.3"
   },
   "requirements":{
    "host":[
@@ -203,8 +203,8 @@
    ]
   },
   "source":{
-   "sha256":"ea78821936ee629717677a0669c7c47fd8ee26ba47d5f1b0cd07fdb4a67dd313",
-   "url":"https://pypi.io/packages/source/o/ophyd/ophyd-1.5.2.tar.gz"
+   "sha256":"7ec3a5533569ce1ff7c0305948d48eacf61668dc9fe3e1e9fbb525b9eeaa8e27",
+   "url":"https://pypi.io/packages/source/o/ophyd/ophyd-1.5.3.tar.gz"
   },
   "test":{
    "imports":[
@@ -242,7 +242,7 @@
   }
  },
  "pinning_version":"2020.08.25.14.55.21",
- "raw_meta_yaml":"{% set name = \"ophyd\" %}\n{% set version = \"1.5.2\" %}\n{% set sha256 = \"ea78821936ee629717677a0669c7c47fd8ee26ba47d5f1b0cd07fdb4a67dd313\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - networkx\n    - numpy\n    - pyepics\n\ntest:\n  imports:\n    - {{ name }}\n    - {{ name }}.utils\n    - {{ name }}.areadetector\n    - {{ name }}.sim\n\nabout:\n  home: https://blueskyproject.io\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'Ophyd - EPICS Client Abstractions'\n  description: 'Ophyd - EPICS Client Abstractions'\n  doc_url: https://blueskyproject.io/ophyd\n  dev_url: https://github.com/bluesky/ophyd\n",
+ "raw_meta_yaml":"{% set name = \"ophyd\" %}\n{% set version = \"1.5.3\" %}\n{% set sha256 = \"7ec3a5533569ce1ff7c0305948d48eacf61668dc9fe3e1e9fbb525b9eeaa8e27\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - networkx\n    - numpy\n    - pyepics\n\ntest:\n  imports:\n    - {{ name }}\n    - {{ name }}.utils\n    - {{ name }}.areadetector\n    - {{ name }}.sim\n\nabout:\n  home: https://blueskyproject.io\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Ophyd - EPICS Client Abstractions\n  description: Ophyd - EPICS Client Abstractions\n  doc_url: https://blueskyproject.io/ophyd\n  dev_url: https://github.com/bluesky/ophyd\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -308,7 +308,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/o/ophyd/ophyd-1.5.2.tar.gz",
- "version":"1.5.2",
+ "version":"1.5.3",
  "win_64_meta_yaml":{
   "about":{
    "description":"Ophyd - EPICS Client Abstractions",
@@ -323,11 +323,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"ophyd",
-   "version":"1.5.2"
+   "version":"1.5.3"
   },
   "requirements":{
    "host":[
@@ -342,8 +342,8 @@
    ]
   },
   "source":{
-   "sha256":"ea78821936ee629717677a0669c7c47fd8ee26ba47d5f1b0cd07fdb4a67dd313",
-   "url":"https://pypi.io/packages/source/o/ophyd/ophyd-1.5.2.tar.gz"
+   "sha256":"7ec3a5533569ce1ff7c0305948d48eacf61668dc9fe3e1e9fbb525b9eeaa8e27",
+   "url":"https://pypi.io/packages/source/o/ophyd/ophyd-1.5.3.tar.gz"
   },
   "test":{
    "imports":[
