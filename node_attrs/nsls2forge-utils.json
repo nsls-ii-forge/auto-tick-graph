@@ -68,7 +68,7 @@
   },
   "package":{
    "name":"nsls2forge-utils",
-   "version":"0.1.0"
+   "version":"0.1.1"
   },
   "requirements":{
    "host":[
@@ -91,8 +91,8 @@
    ]
   },
   "source":{
-   "sha256":"aae47b0158bfe542ba4f94795d5bd8bf198c027b25294313a5fe9edd584d68a4",
-   "url":"https://pypi.io/packages/source/n/nsls2forge-utils/nsls2forge-utils-0.1.0.tar.gz"
+   "sha256":"66756b6bef638334f201eec9d06ee7c8c21eec57976cc754eae7e79ad2093751",
+   "url":"https://pypi.io/packages/source/n/nsls2forge-utils/nsls2forge-utils-0.1.1.tar.gz"
   },
   "test":{
    "commands":[
@@ -177,7 +177,7 @@
   },
   "package":{
    "name":"nsls2forge-utils",
-   "version":"0.1.0"
+   "version":"0.1.1"
   },
   "requirements":{
    "host":[
@@ -228,8 +228,8 @@
    ]
   },
   "source":{
-   "sha256":"aae47b0158bfe542ba4f94795d5bd8bf198c027b25294313a5fe9edd584d68a4",
-   "url":"https://pypi.io/packages/source/n/nsls2forge-utils/nsls2forge-utils-0.1.0.tar.gz"
+   "sha256":"66756b6bef638334f201eec9d06ee7c8c21eec57976cc754eae7e79ad2093751",
+   "url":"https://pypi.io/packages/source/n/nsls2forge-utils/nsls2forge-utils-0.1.1.tar.gz"
   },
   "test":{
    "commands":[
@@ -279,7 +279,7 @@
   },
   "package":{
    "name":"nsls2forge-utils",
-   "version":"0.1.0"
+   "version":"0.1.1"
   },
   "requirements":{
    "host":[
@@ -302,8 +302,8 @@
    ]
   },
   "source":{
-   "sha256":"aae47b0158bfe542ba4f94795d5bd8bf198c027b25294313a5fe9edd584d68a4",
-   "url":"https://pypi.io/packages/source/n/nsls2forge-utils/nsls2forge-utils-0.1.0.tar.gz"
+   "sha256":"66756b6bef638334f201eec9d06ee7c8c21eec57976cc754eae7e79ad2093751",
+   "url":"https://pypi.io/packages/source/n/nsls2forge-utils/nsls2forge-utils-0.1.1.tar.gz"
   },
   "test":{
    "commands":[
@@ -354,7 +354,7 @@
   }
  },
  "pinning_version":"2020.08.26.22.12.02",
- "raw_meta_yaml":"{% set name = \"nsls2forge-utils\" %}\n{% set version = \"0.1.0\" %}\n{% set sha256 = \"aae47b0158bfe542ba4f94795d5bd8bf198c027b25294313a5fe9edd584d68a4\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  entry_points:\n    - all-feedstocks = nsls2forge_utils.cli:all_feedstocks\n    - auto-tick = nsls2forge_utils.cli:auto_tick\n    - check-results = nsls2forge_utils.cli:check_results\n    - dashboard = nsls2forge_utils.cli:dashboard\n    - graph-utils = nsls2forge_utils.cli:graph_utils\n    - meta-utils = nsls2forge_utils.cli:meta_utils\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - beautifulsoup4\n    - doctr\n    - github3.py\n    - gitpython\n    - markdown\n    - networkx\n    - pandas\n    - pygithub\n    - requests\n    - tabulate\n    - xonsh\n\ntest:\n  requires:\n    - git\n  imports:\n    - nsls2forge_utils\n  commands:\n    - check-results --help\n\nabout:\n  home: https://github.com/nsls-ii-forge/nsls2forge-utils\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: nsls2forge utilities for packaging\n",
+ "raw_meta_yaml":"{% set name = \"nsls2forge-utils\" %}\n{% set version = \"0.1.1\" %}\n{% set sha256 = \"66756b6bef638334f201eec9d06ee7c8c21eec57976cc754eae7e79ad2093751\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  entry_points:\n    - all-feedstocks = nsls2forge_utils.cli:all_feedstocks\n    - auto-tick = nsls2forge_utils.cli:auto_tick\n    - check-results = nsls2forge_utils.cli:check_results\n    - dashboard = nsls2forge_utils.cli:dashboard\n    - graph-utils = nsls2forge_utils.cli:graph_utils\n    - meta-utils = nsls2forge_utils.cli:meta_utils\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - beautifulsoup4\n    - doctr\n    - github3.py\n    - gitpython\n    - markdown\n    - networkx\n    - pandas\n    - pygithub\n    - requests\n    - tabulate\n    - xonsh\n\ntest:\n  requires:\n    - git\n  imports:\n    - nsls2forge_utils\n  commands:\n    - check-results --help\n\nabout:\n  home: https://github.com/nsls-ii-forge/nsls2forge-utils\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: nsls2forge utilities for packaging\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -448,7 +448,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/n/nsls2forge-utils/nsls2forge-utils-0.0.2.tar.gz",
- "version":"0.1.0",
+ "version":"0.1.1",
  "win_64_meta_yaml":{
   "about":{
    "home":"https://github.com/nsls-ii-forge/nsls2forge-utils",
@@ -472,7 +472,7 @@
   },
   "package":{
    "name":"nsls2forge-utils",
-   "version":"0.1.0"
+   "version":"0.1.1"
   },
   "requirements":{
    "host":[
@@ -495,8 +495,8 @@
    ]
   },
   "source":{
-   "sha256":"aae47b0158bfe542ba4f94795d5bd8bf198c027b25294313a5fe9edd584d68a4",
-   "url":"https://pypi.io/packages/source/n/nsls2forge-utils/nsls2forge-utils-0.1.0.tar.gz"
+   "sha256":"66756b6bef638334f201eec9d06ee7c8c21eec57976cc754eae7e79ad2093751",
+   "url":"https://pypi.io/packages/source/n/nsls2forge-utils/nsls2forge-utils-0.1.1.tar.gz"
   },
   "test":{
    "commands":[
