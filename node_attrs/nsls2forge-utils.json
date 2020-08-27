@@ -16,6 +16,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/474452888.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -38,15 +55,20 @@
   },
   "build":{
    "entry_points":[
-    "check-results = nsls2forge_utils.cli:main"
+    "all-feedstocks = nsls2forge_utils.cli:all_feedstocks",
+    "auto-tick = nsls2forge_utils.cli:auto_tick",
+    "check-results = nsls2forge_utils.cli:check_results",
+    "dashboard = nsls2forge_utils.cli:dashboard",
+    "graph-utils = nsls2forge_utils.cli:graph_utils",
+    "meta-utils = nsls2forge_utils.cli:meta_utils"
    ],
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"nsls2forge-utils",
-   "version":"0.0.2"
+   "version":"0.1.0"
   },
   "requirements":{
    "host":[
@@ -54,12 +76,23 @@
     "pip"
    ],
    "run":[
-    "python"
+    "python",
+    "beautifulsoup4",
+    "doctr",
+    "github3.py",
+    "gitpython",
+    "markdown",
+    "networkx",
+    "pandas",
+    "pygithub",
+    "requests",
+    "tabulate",
+    "xonsh"
    ]
   },
   "source":{
-   "sha256":"1f594a4f8e28e5dd936a999b3fd425ee185d43543ade1d88428c85021ac7b587",
-   "url":"https://pypi.io/packages/source/n/nsls2forge-utils/nsls2forge-utils-0.0.2.tar.gz"
+   "sha256":"aae47b0158bfe542ba4f94795d5bd8bf198c027b25294313a5fe9edd584d68a4",
+   "url":"https://pypi.io/packages/source/n/nsls2forge-utils/nsls2forge-utils-0.1.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -67,6 +100,9 @@
    ],
    "imports":[
     "nsls2forge_utils"
+   ],
+   "requires":[
+    "git"
    ]
   }
  },
@@ -85,12 +121,25 @@
   "run":{
    "__set__":true,
    "elements":[
-    "python"
+    "beautifulsoup4",
+    "doctr",
+    "github3.py",
+    "gitpython",
+    "markdown",
+    "networkx",
+    "pandas",
+    "pygithub",
+    "python",
+    "requests",
+    "tabulate",
+    "xonsh"
    ]
   },
   "test":{
    "__set__":true,
-   "elements":[]
+   "elements":[
+    "git"
+   ]
   }
  },
  "meta_yaml":{
@@ -103,17 +152,32 @@
   },
   "build":{
    "entry_points":[
-    "check-results = nsls2forge_utils.cli:main",
-    "check-results = nsls2forge_utils.cli:main",
-    "check-results = nsls2forge_utils.cli:main"
+    "all-feedstocks = nsls2forge_utils.cli:all_feedstocks",
+    "auto-tick = nsls2forge_utils.cli:auto_tick",
+    "check-results = nsls2forge_utils.cli:check_results",
+    "dashboard = nsls2forge_utils.cli:dashboard",
+    "graph-utils = nsls2forge_utils.cli:graph_utils",
+    "meta-utils = nsls2forge_utils.cli:meta_utils",
+    "all-feedstocks = nsls2forge_utils.cli:all_feedstocks",
+    "auto-tick = nsls2forge_utils.cli:auto_tick",
+    "check-results = nsls2forge_utils.cli:check_results",
+    "dashboard = nsls2forge_utils.cli:dashboard",
+    "graph-utils = nsls2forge_utils.cli:graph_utils",
+    "meta-utils = nsls2forge_utils.cli:meta_utils",
+    "all-feedstocks = nsls2forge_utils.cli:all_feedstocks",
+    "auto-tick = nsls2forge_utils.cli:auto_tick",
+    "check-results = nsls2forge_utils.cli:check_results",
+    "dashboard = nsls2forge_utils.cli:dashboard",
+    "graph-utils = nsls2forge_utils.cli:graph_utils",
+    "meta-utils = nsls2forge_utils.cli:meta_utils"
    ],
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"nsls2forge-utils",
-   "version":"0.0.2"
+   "version":"0.1.0"
   },
   "requirements":{
    "host":[
@@ -126,13 +190,46 @@
    ],
    "run":[
     "python",
+    "beautifulsoup4",
+    "doctr",
+    "github3.py",
+    "gitpython",
+    "markdown",
+    "networkx",
+    "pandas",
+    "pygithub",
+    "requests",
+    "tabulate",
+    "xonsh",
     "python",
-    "python"
+    "beautifulsoup4",
+    "doctr",
+    "github3.py",
+    "gitpython",
+    "markdown",
+    "networkx",
+    "pandas",
+    "pygithub",
+    "requests",
+    "tabulate",
+    "xonsh",
+    "python",
+    "beautifulsoup4",
+    "doctr",
+    "github3.py",
+    "gitpython",
+    "markdown",
+    "networkx",
+    "pandas",
+    "pygithub",
+    "requests",
+    "tabulate",
+    "xonsh"
    ]
   },
   "source":{
-   "sha256":"1f594a4f8e28e5dd936a999b3fd425ee185d43543ade1d88428c85021ac7b587",
-   "url":"https://pypi.io/packages/source/n/nsls2forge-utils/nsls2forge-utils-0.0.2.tar.gz"
+   "sha256":"aae47b0158bfe542ba4f94795d5bd8bf198c027b25294313a5fe9edd584d68a4",
+   "url":"https://pypi.io/packages/source/n/nsls2forge-utils/nsls2forge-utils-0.1.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -144,13 +241,19 @@
     "nsls2forge_utils",
     "nsls2forge_utils",
     "nsls2forge_utils"
+   ],
+   "requires":[
+    "git",
+    "git",
+    "git"
    ]
   }
  },
  "name":"nsls2forge-utils",
- "new_version":"0.1.0",
+ "new_version":"0.1.1",
  "new_version_attempts":{
-  "0.1.0":1
+  "0.1.0":1,
+  "0.1.1":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -163,15 +266,20 @@
   },
   "build":{
    "entry_points":[
-    "check-results = nsls2forge_utils.cli:main"
+    "all-feedstocks = nsls2forge_utils.cli:all_feedstocks",
+    "auto-tick = nsls2forge_utils.cli:auto_tick",
+    "check-results = nsls2forge_utils.cli:check_results",
+    "dashboard = nsls2forge_utils.cli:dashboard",
+    "graph-utils = nsls2forge_utils.cli:graph_utils",
+    "meta-utils = nsls2forge_utils.cli:meta_utils"
    ],
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"nsls2forge-utils",
-   "version":"0.0.2"
+   "version":"0.1.0"
   },
   "requirements":{
    "host":[
@@ -179,12 +287,23 @@
     "pip"
    ],
    "run":[
-    "python"
+    "python",
+    "beautifulsoup4",
+    "doctr",
+    "github3.py",
+    "gitpython",
+    "markdown",
+    "networkx",
+    "pandas",
+    "pygithub",
+    "requests",
+    "tabulate",
+    "xonsh"
    ]
   },
   "source":{
-   "sha256":"1f594a4f8e28e5dd936a999b3fd425ee185d43543ade1d88428c85021ac7b587",
-   "url":"https://pypi.io/packages/source/n/nsls2forge-utils/nsls2forge-utils-0.0.2.tar.gz"
+   "sha256":"aae47b0158bfe542ba4f94795d5bd8bf198c027b25294313a5fe9edd584d68a4",
+   "url":"https://pypi.io/packages/source/n/nsls2forge-utils/nsls2forge-utils-0.1.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -192,6 +311,9 @@
    ],
    "imports":[
     "nsls2forge_utils"
+   ],
+   "requires":[
+    "git"
    ]
   }
  },
@@ -210,21 +332,45 @@
   "run":{
    "__set__":true,
    "elements":[
-    "python"
+    "beautifulsoup4",
+    "doctr",
+    "github3.py",
+    "gitpython",
+    "markdown",
+    "networkx",
+    "pandas",
+    "pygithub",
+    "python",
+    "requests",
+    "tabulate",
+    "xonsh"
    ]
   },
   "test":{
    "__set__":true,
-   "elements":[]
+   "elements":[
+    "git"
+   ]
   }
  },
- "pinning_version":"2020.08.21.04.46.41",
- "raw_meta_yaml":"{% set name = \"nsls2forge-utils\" %}\n{% set version = \"0.0.2\" %}\n{% set sha256 = \"1f594a4f8e28e5dd936a999b3fd425ee185d43543ade1d88428c85021ac7b587\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  entry_points:\n    - check-results = nsls2forge_utils.cli:main\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n\ntest:\n  imports:\n    - nsls2forge_utils\n  commands:\n    - check-results --help\n\nabout:\n  home: https://github.com/nsls-ii-forge/nsls2forge-utils\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: nsls2forge utilities for packaging\n",
+ "pinning_version":"2020.08.26.22.12.02",
+ "raw_meta_yaml":"{% set name = \"nsls2forge-utils\" %}\n{% set version = \"0.1.0\" %}\n{% set sha256 = \"aae47b0158bfe542ba4f94795d5bd8bf198c027b25294313a5fe9edd584d68a4\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  entry_points:\n    - all-feedstocks = nsls2forge_utils.cli:all_feedstocks\n    - auto-tick = nsls2forge_utils.cli:auto_tick\n    - check-results = nsls2forge_utils.cli:check_results\n    - dashboard = nsls2forge_utils.cli:dashboard\n    - graph-utils = nsls2forge_utils.cli:graph_utils\n    - meta-utils = nsls2forge_utils.cli:meta_utils\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - beautifulsoup4\n    - doctr\n    - github3.py\n    - gitpython\n    - markdown\n    - networkx\n    - pandas\n    - pygithub\n    - requests\n    - tabulate\n    - xonsh\n\ntest:\n  requires:\n    - git\n  imports:\n    - nsls2forge_utils\n  commands:\n    - check-results --help\n\nabout:\n  home: https://github.com/nsls-ii-forge/nsls2forge-utils\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: nsls2forge utilities for packaging\n",
  "req":{
   "__set__":true,
   "elements":[
+   "beautifulsoup4",
+   "doctr",
+   "github3.py",
+   "gitpython",
+   "markdown",
+   "networkx",
+   "pandas",
    "pip",
-   "python"
+   "pygithub",
+   "python",
+   "requests",
+   "tabulate",
+   "xonsh"
   ]
  },
  "requirements":{
@@ -242,12 +388,25 @@
   "run":{
    "__set__":true,
    "elements":[
-    "python"
+    "beautifulsoup4",
+    "doctr",
+    "github3.py",
+    "gitpython",
+    "markdown",
+    "networkx",
+    "pandas",
+    "pygithub",
+    "python",
+    "requests",
+    "tabulate",
+    "xonsh"
    ]
   },
   "test":{
    "__set__":true,
-   "elements":[]
+   "elements":[
+    "git"
+   ]
   }
  },
  "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.10",
@@ -267,16 +426,29 @@
   "run":{
    "__set__":true,
    "elements":[
-    "python"
+    "beautifulsoup4",
+    "doctr",
+    "github3.py",
+    "gitpython",
+    "markdown",
+    "networkx",
+    "pandas",
+    "pygithub",
+    "python",
+    "requests",
+    "tabulate",
+    "xonsh"
    ]
   },
   "test":{
    "__set__":true,
-   "elements":[]
+   "elements":[
+    "git"
+   ]
   }
  },
  "url":"https://pypi.io/packages/source/n/nsls2forge-utils/nsls2forge-utils-0.0.2.tar.gz",
- "version":"0.0.2",
+ "version":"0.1.0",
  "win_64_meta_yaml":{
   "about":{
    "home":"https://github.com/nsls-ii-forge/nsls2forge-utils",
@@ -287,15 +459,20 @@
   },
   "build":{
    "entry_points":[
-    "check-results = nsls2forge_utils.cli:main"
+    "all-feedstocks = nsls2forge_utils.cli:all_feedstocks",
+    "auto-tick = nsls2forge_utils.cli:auto_tick",
+    "check-results = nsls2forge_utils.cli:check_results",
+    "dashboard = nsls2forge_utils.cli:dashboard",
+    "graph-utils = nsls2forge_utils.cli:graph_utils",
+    "meta-utils = nsls2forge_utils.cli:meta_utils"
    ],
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"nsls2forge-utils",
-   "version":"0.0.2"
+   "version":"0.1.0"
   },
   "requirements":{
    "host":[
@@ -303,12 +480,23 @@
     "pip"
    ],
    "run":[
-    "python"
+    "python",
+    "beautifulsoup4",
+    "doctr",
+    "github3.py",
+    "gitpython",
+    "markdown",
+    "networkx",
+    "pandas",
+    "pygithub",
+    "requests",
+    "tabulate",
+    "xonsh"
    ]
   },
   "source":{
-   "sha256":"1f594a4f8e28e5dd936a999b3fd425ee185d43543ade1d88428c85021ac7b587",
-   "url":"https://pypi.io/packages/source/n/nsls2forge-utils/nsls2forge-utils-0.0.2.tar.gz"
+   "sha256":"aae47b0158bfe542ba4f94795d5bd8bf198c027b25294313a5fe9edd584d68a4",
+   "url":"https://pypi.io/packages/source/n/nsls2forge-utils/nsls2forge-utils-0.1.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -316,6 +504,9 @@
    ],
    "imports":[
     "nsls2forge_utils"
+   ],
+   "requires":[
+    "git"
    ]
   }
  },
@@ -334,12 +525,25 @@
   "run":{
    "__set__":true,
    "elements":[
-    "python"
+    "beautifulsoup4",
+    "doctr",
+    "github3.py",
+    "gitpython",
+    "markdown",
+    "networkx",
+    "pandas",
+    "pygithub",
+    "python",
+    "requests",
+    "tabulate",
+    "xonsh"
    ]
   },
   "test":{
    "__set__":true,
-   "elements":[]
+   "elements":[
+    "git"
+   ]
   }
  }
 }

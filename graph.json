@@ -166,6 +166,10 @@
    "target":"napari"
   },
   {
+   "source":"beautifulsoup4",
+   "target":"nsls2forge-utils"
+  },
+  {
    "source":"bitshuffle",
    "target":"imagecodecs"
   },
@@ -974,6 +978,10 @@
    "target":"databroker"
   },
   {
+   "source":"doctr",
+   "target":"nsls2forge-utils"
+  },
+  {
    "source":"dpkt",
    "target":"caproto"
   },
@@ -1211,7 +1219,19 @@
   },
   {
    "source":"github3.py",
+   "target":"nsls2forge-utils"
+  },
+  {
+   "source":"github3.py",
    "target":"pykern"
+  },
+  {
+   "source":"git",
+   "target":"nsls2forge-utils"
+  },
+  {
+   "source":"gitpython",
+   "target":"nsls2forge-utils"
   },
   {
    "source":"git",
@@ -1970,6 +1990,10 @@
    "target":"hunter"
   },
   {
+   "source":"markdown",
+   "target":"nsls2forge-utils"
+  },
+  {
    "source":"matplotlib-base",
    "target":"igor"
   },
@@ -2264,6 +2288,10 @@
   {
    "source":"netifaces",
    "target":"caproto"
+  },
+  {
+   "source":"networkx",
+   "target":"nsls2forge-utils"
   },
   {
    "source":"networkx",
@@ -2808,6 +2836,10 @@
   {
    "source":"pandas",
    "target":"nsls2-detector-handlers"
+  },
+  {
+   "source":"pandas",
+   "target":"nsls2forge-utils"
   },
   {
    "source":"pandas",
@@ -3836,6 +3868,10 @@
   {
    "source":"pyfiglet",
    "target":"mendeleev"
+  },
+  {
+   "source":"pygithub",
+   "target":"nsls2forge-utils"
   },
   {
    "source":"pygithub",
@@ -5179,6 +5215,10 @@
   },
   {
    "source":"requests",
+   "target":"nsls2forge-utils"
+  },
+  {
+   "source":"requests",
    "target":"papermill"
   },
   {
@@ -5875,6 +5915,10 @@
   },
   {
    "source":"tabulate",
+   "target":"nsls2forge-utils"
+  },
+  {
+   "source":"tabulate",
    "target":"pykafka"
   },
   {
@@ -6156,6 +6200,10 @@
   {
    "source":"xlwt",
    "target":"analysis"
+  },
+  {
+   "source":"xonsh",
+   "target":"nsls2forge-utils"
   },
   {
    "source":"xonsh",
@@ -9094,6 +9142,24 @@
    "id":"pylatexenc",
    "payload":{
     "__lazy_json__":"node_attrs/pylatexenc.json"
+   }
+  },
+  {
+   "id":"beautifulsoup4",
+   "payload":{
+    "__lazy_json__":"node_attrs/beautifulsoup4.json"
+   }
+  },
+  {
+   "id":"markdown",
+   "payload":{
+    "__lazy_json__":"node_attrs/markdown.json"
+   }
+  },
+  {
+   "id":"gitpython",
+   "payload":{
+    "__lazy_json__":"node_attrs/gitpython.json"
    }
   }
  ]
