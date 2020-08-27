@@ -32,15 +32,16 @@
   "about":{
    "home":"http://www.gtk.org",
    "license":"LGPL",
+   "license_file":"COPYING",
    "summary":"Access to GObject-based libraries in Python."
   },
   "build":{
    "number":"0",
-   "script":"python setup.py install --single-version-externally-managed --record=record.txt"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"pygobject",
-   "version":"3.31.1"
+   "version":"3.32.2"
   },
   "requirements":{
    "build":[
@@ -67,8 +68,8 @@
    ]
   },
   "source":{
-   "sha256":"e2670219ca2ed4d1817b5ffb6ca086e61d54b0f95d3ee28a38e07f0f76a6d6f1",
-   "url":"http://ftp.gnome.org/pub/GNOME/sources/pygobject/3.31/pygobject-3.31.1.tar.xz"
+   "sha256":"c39ca2a28364b57fa00549c6e836346031e6b886c3ceabfd8ab4b4fed0a83611",
+   "url":"http://ftp.gnome.org/pub/GNOME/sources/pygobject/3.32/pygobject-3.32.2.tar.xz"
   },
   "test":{
    "imports":[
@@ -117,16 +118,17 @@
   "about":{
    "home":"http://www.gtk.org",
    "license":"LGPL",
+   "license_file":"COPYING",
    "summary":"Access to GObject-based libraries in Python."
   },
   "build":{
    "number":"0",
-   "script":"python setup.py install --single-version-externally-managed --record=record.txt",
+   "script":"-m pip install . --no-deps -vv",
    "skip":true
   },
   "package":{
    "name":"pygobject",
-   "version":"3.31.1"
+   "version":"3.32.2"
   },
   "requirements":{
    "build":[
@@ -185,8 +187,8 @@
    ]
   },
   "source":{
-   "sha256":"e2670219ca2ed4d1817b5ffb6ca086e61d54b0f95d3ee28a38e07f0f76a6d6f1",
-   "url":"http://ftp.gnome.org/pub/GNOME/sources/pygobject/3.31/pygobject-3.31.1.tar.xz"
+   "sha256":"c39ca2a28364b57fa00549c6e836346031e6b886c3ceabfd8ab4b4fed0a83611",
+   "url":"http://ftp.gnome.org/pub/GNOME/sources/pygobject/3.32/pygobject-3.32.2.tar.xz"
   },
   "test":{
    "imports":[
@@ -206,16 +208,17 @@
   "about":{
    "home":"http://www.gtk.org",
    "license":"LGPL",
+   "license_file":"COPYING",
    "summary":"Access to GObject-based libraries in Python."
   },
   "build":{
    "number":"0",
-   "script":"python setup.py install --single-version-externally-managed --record=record.txt",
+   "script":"-m pip install . --no-deps -vv",
    "skip":true
   },
   "package":{
    "name":"pygobject",
-   "version":"3.31.1"
+   "version":"3.32.2"
   },
   "requirements":{
    "build":[
@@ -242,8 +245,8 @@
    ]
   },
   "source":{
-   "sha256":"e2670219ca2ed4d1817b5ffb6ca086e61d54b0f95d3ee28a38e07f0f76a6d6f1",
-   "url":"http://ftp.gnome.org/pub/GNOME/sources/pygobject/3.31/pygobject-3.31.1.tar.xz"
+   "sha256":"c39ca2a28364b57fa00549c6e836346031e6b886c3ceabfd8ab4b4fed0a83611",
+   "url":"http://ftp.gnome.org/pub/GNOME/sources/pygobject/3.32/pygobject-3.32.2.tar.xz"
   },
   "test":{
    "imports":[
@@ -289,7 +292,7 @@
   }
  },
  "pinning_version":"2020.08.21.04.46.41",
- "raw_meta_yaml":"{% set name = \"pygobject\" %}\n{% set version = \"3.31.1\" %}\n{% set majmin = '.'.join(version.split('.', 2)[:2]) %}\n{% set sha256 = \"e2670219ca2ed4d1817b5ffb6ca086e61d54b0f95d3ee28a38e07f0f76a6d6f1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: http://ftp.gnome.org/pub/GNOME/sources/{{ name }}/{{ majmin }}/{{ name }}-{{ version }}.tar.xz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: python setup.py install --single-version-externally-managed --record=record.txt\n  skip: True  # [py<36 or not linux]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - python\n    - pip\n    - cairo\n    - glib\n    - gobject-introspection\n    - libffi\n    - pycairo\n    - pytest\n  run:\n    - python\n    - {{ pin_compatible('cairo') }}\n    - {{ pin_compatible('pycairo') }}\n    - glib\n    - gobject-introspection\n    - libffi\n\ntest:\n  imports:\n    - gi\n\nabout:\n  home: http://www.gtk.org\n  license: LGPL\n  summary: Access to GObject-based libraries in Python.\n",
+ "raw_meta_yaml":"{% set name = \"pygobject\" %}\n{% set version = \"3.32.2\" %}\n{% set majmin = '.'.join(version.split('.', 2)[:2]) %}\n{% set sha256 = \"c39ca2a28364b57fa00549c6e836346031e6b886c3ceabfd8ab4b4fed0a83611\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: http://ftp.gnome.org/pub/GNOME/sources/{{ name }}/{{ majmin }}/{{ name }}-{{ version }}.tar.xz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  skip: true  # [py<36 or not linux]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - python\n    - pip\n    - cairo\n    - glib\n    - gobject-introspection\n    - libffi\n    - pycairo\n    - pytest\n  run:\n    - python\n    - {{ pin_compatible('cairo') }}\n    - {{ pin_compatible('pycairo') }}\n    - glib\n    - gobject-introspection\n    - libffi\n\ntest:\n  imports:\n    - gi\n\nabout:\n  home: http://www.gtk.org\n  license: LGPL\n  license_file: COPYING\n  summary: Access to GObject-based libraries in Python.\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -382,21 +385,22 @@
   }
  },
  "url":"http://ftp.gnome.org/pub/GNOME/sources/pygobject/3.31/pygobject-3.31.1.tar.xz",
- "version":"3.31.1",
+ "version":"3.32.2",
  "win_64_meta_yaml":{
   "about":{
    "home":"http://www.gtk.org",
    "license":"LGPL",
+   "license_file":"COPYING",
    "summary":"Access to GObject-based libraries in Python."
   },
   "build":{
    "number":"0",
-   "script":"python setup.py install --single-version-externally-managed --record=record.txt",
+   "script":"-m pip install . --no-deps -vv",
    "skip":true
   },
   "package":{
    "name":"pygobject",
-   "version":"3.31.1"
+   "version":"3.32.2"
   },
   "requirements":{
    "build":[
@@ -423,8 +427,8 @@
    ]
   },
   "source":{
-   "sha256":"e2670219ca2ed4d1817b5ffb6ca086e61d54b0f95d3ee28a38e07f0f76a6d6f1",
-   "url":"http://ftp.gnome.org/pub/GNOME/sources/pygobject/3.31/pygobject-3.31.1.tar.xz"
+   "sha256":"c39ca2a28364b57fa00549c6e836346031e6b886c3ceabfd8ab4b4fed0a83611",
+   "url":"http://ftp.gnome.org/pub/GNOME/sources/pygobject/3.32/pygobject-3.32.2.tar.xz"
   },
   "test":{
    "imports":[

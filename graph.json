@@ -1494,6 +1494,10 @@
    "target":"napari"
   },
   {
+   "source":"ipykernel",
+   "target":"nexpy"
+  },
+  {
    "source":"ipympl",
    "target":"analysis"
   },
@@ -1768,6 +1772,10 @@
   {
    "source":"lmfit",
    "target":"bluesky"
+  },
+  {
+   "source":"lmfit",
+   "target":"nexpy"
   },
   {
    "source":"lmfit",
@@ -3419,6 +3427,10 @@
   },
   {
    "source":"pip",
+   "target":"pylatexenc"
+  },
+  {
+   "source":"pip",
    "target":"pyolog"
   },
   {
@@ -3846,6 +3858,10 @@
    "target":"pygithub"
   },
   {
+   "source":"pylatexenc",
+   "target":"nexpy"
+  },
+  {
    "source":"pymongo",
    "target":"amostra"
   },
@@ -3924,6 +3940,10 @@
   {
    "source":"pyqt",
    "target":"napari"
+  },
+  {
+   "source":"pyqt",
+   "target":"nexpy"
   },
   {
    "source":"pyqt",
@@ -4675,6 +4695,10 @@
   },
   {
    "source":"python",
+   "target":"pylatexenc"
+  },
+  {
+   "source":"python",
    "target":"pyolog"
   },
   {
@@ -5034,6 +5058,10 @@
    "target":"xpdtools"
   },
   {
+   "source":"pyyaml",
+   "target":"xraylarch"
+  },
+  {
    "source":"pyzbar",
    "target":"analysis"
   },
@@ -5072,6 +5100,10 @@
   {
    "source":"qtpy",
    "target":"napari"
+  },
+  {
+   "source":"qtpy",
+   "target":"nexpy"
   },
   {
    "source":"qtpy",
@@ -5323,6 +5355,10 @@
   },
   {
    "source":"scipy",
+   "target":"nexusformat"
+  },
+  {
+   "source":"scipy",
    "target":"oscars"
   },
   {
@@ -5492,10 +5528,6 @@
   {
    "source":"setuptools",
    "target":"nexpy"
-  },
-  {
-   "source":"setuptools",
-   "target":"nexusformat"
   },
   {
    "source":"setuptools",
@@ -5914,10 +5946,6 @@
    "target":"xpdtools"
   },
   {
-   "source":"tomopy",
-   "target":"xraylarch"
-  },
-  {
    "source":"toolz",
    "target":"bluesky"
   },
@@ -6180,6 +6208,10 @@
   {
    "source":"xray-vision",
    "target":"xpdview"
+  },
+  {
+   "source":"xraydb",
+   "target":"xraylarch"
   },
   {
    "source":"xraylarch",
@@ -9056,6 +9088,12 @@
    "id":"traitlets",
    "payload":{
     "__lazy_json__":"node_attrs/traitlets.json"
+   }
+  },
+  {
+   "id":"pylatexenc",
+   "payload":{
+    "__lazy_json__":"node_attrs/pylatexenc.json"
    }
   }
  ]

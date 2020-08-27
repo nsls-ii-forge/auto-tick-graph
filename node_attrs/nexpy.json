@@ -43,12 +43,12 @@
     "nexpy = nexpy.nexpygui:main"
    ],
    "noarch":"python",
-   "number":"1",
+   "number":"0",
    "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"nexpy",
-   "version":"0.12.6"
+   "version":"0.12.7"
   },
   "requirements":{
    "host":[
@@ -61,18 +61,23 @@
     "python",
     "ansi2html",
     "h5py",
+    "ipykernel >=5.2.0",
     "ipython",
+    "lmfit",
     "matplotlib",
-    "nexusformat >=0.5.1",
+    "nexusformat >=0.5.3",
     "numpy",
     "pillow",
+    "pylatexenc",
+    "pyqt <=5.13",
     "qtconsole",
+    "qtpy",
     "scipy"
    ]
   },
   "source":{
-   "sha256":"bfe7ead73cf2c243320ee0c510d84abb665e6f6def164b93ab4b01eedffe5211",
-   "url":"https://pypi.io/packages/source/N/NeXpy/NeXpy-0.12.6.tar.gz"
+   "sha256":"477d27b45d71467e28d77b998cc78cfdff018fc5aad390735624a65928bd124c",
+   "url":"https://pypi.io/packages/source/N/NeXpy/NeXpy-0.12.7.tar.gz"
   },
   "test":{
    "commands":[
@@ -110,13 +115,18 @@
    "elements":[
     "ansi2html",
     "h5py",
+    "ipykernel",
     "ipython",
+    "lmfit",
     "matplotlib",
     "nexusformat",
     "numpy",
     "pillow",
+    "pylatexenc",
+    "pyqt",
     "python",
     "qtconsole",
+    "qtpy",
     "scipy"
    ]
   },
@@ -142,12 +152,12 @@
     "nexpy = nexpy.nexpygui:main"
    ],
    "noarch":"python",
-   "number":"1",
+   "number":"0",
    "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"nexpy",
-   "version":"0.12.6"
+   "version":"0.12.7"
   },
   "requirements":{
    "host":[
@@ -168,38 +178,53 @@
     "python",
     "ansi2html",
     "h5py",
+    "ipykernel >=5.2.0",
     "ipython",
+    "lmfit",
     "matplotlib",
-    "nexusformat >=0.5.1",
+    "nexusformat >=0.5.3",
     "numpy",
     "pillow",
+    "pylatexenc",
+    "pyqt <=5.13",
     "qtconsole",
+    "qtpy",
     "scipy",
     "python",
     "ansi2html",
     "h5py",
+    "ipykernel >=5.2.0",
     "ipython",
+    "lmfit",
     "matplotlib",
-    "nexusformat >=0.5.1",
+    "nexusformat >=0.5.3",
     "numpy",
     "pillow",
+    "pylatexenc",
+    "pyqt <=5.13",
     "qtconsole",
+    "qtpy",
     "scipy",
     "python",
     "ansi2html",
     "h5py",
+    "ipykernel >=5.2.0",
     "ipython",
+    "lmfit",
     "matplotlib",
-    "nexusformat >=0.5.1",
+    "nexusformat >=0.5.3",
     "numpy",
     "pillow",
+    "pylatexenc",
+    "pyqt <=5.13",
     "qtconsole",
+    "qtpy",
     "scipy"
    ]
   },
   "source":{
-   "sha256":"bfe7ead73cf2c243320ee0c510d84abb665e6f6def164b93ab4b01eedffe5211",
-   "url":"https://pypi.io/packages/source/N/NeXpy/NeXpy-0.12.6.tar.gz"
+   "sha256":"477d27b45d71467e28d77b998cc78cfdff018fc5aad390735624a65928bd124c",
+   "url":"https://pypi.io/packages/source/N/NeXpy/NeXpy-0.12.7.tar.gz"
   },
   "test":{
    "commands":[
@@ -259,12 +284,12 @@
     "nexpy = nexpy.nexpygui:main"
    ],
    "noarch":"python",
-   "number":"1",
+   "number":"0",
    "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"nexpy",
-   "version":"0.12.6"
+   "version":"0.12.7"
   },
   "requirements":{
    "host":[
@@ -277,18 +302,23 @@
     "python",
     "ansi2html",
     "h5py",
+    "ipykernel >=5.2.0",
     "ipython",
+    "lmfit",
     "matplotlib",
-    "nexusformat >=0.5.1",
+    "nexusformat >=0.5.3",
     "numpy",
     "pillow",
+    "pylatexenc",
+    "pyqt <=5.13",
     "qtconsole",
+    "qtpy",
     "scipy"
    ]
   },
   "source":{
-   "sha256":"bfe7ead73cf2c243320ee0c510d84abb665e6f6def164b93ab4b01eedffe5211",
-   "url":"https://pypi.io/packages/source/N/NeXpy/NeXpy-0.12.6.tar.gz"
+   "sha256":"477d27b45d71467e28d77b998cc78cfdff018fc5aad390735624a65928bd124c",
+   "url":"https://pypi.io/packages/source/N/NeXpy/NeXpy-0.12.7.tar.gz"
   },
   "test":{
    "commands":[
@@ -326,13 +356,18 @@
    "elements":[
     "ansi2html",
     "h5py",
+    "ipykernel",
     "ipython",
+    "lmfit",
     "matplotlib",
     "nexusformat",
     "numpy",
     "pillow",
+    "pylatexenc",
+    "pyqt",
     "python",
     "qtconsole",
+    "qtpy",
     "scipy"
    ]
   },
@@ -342,20 +377,25 @@
   }
  },
  "pinning_version":"2020.08.15.14.59.48",
- "raw_meta_yaml":"{% set name = \"NeXpy\" %}\n{% set version = \"0.12.6\" %}\n{% set sha256 = \"bfe7ead73cf2c243320ee0c510d84abb665e6f6def164b93ab4b01eedffe5211\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/NeXpy-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 1\n  noarch: python\n  entry_points:\n    - nexpy = nexpy.nexpygui:main\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - numpy\n    - pip\n    - setuptools\n  run:\n    - python\n    - ansi2html\n    - h5py\n    - ipython\n    - matplotlib\n    - nexusformat >=0.5.1\n    - numpy\n    - pillow\n    - qtconsole\n    - scipy\n\ntest:\n  imports:\n    - nexpy\n    - nexpy.api\n    - nexpy.api.frills\n    - nexpy.api.frills.functions\n    - nexpy.definitions\n    - nexpy.gui\n    - nexpy.plugins\n    - nexpy.readers\n  commands:\n    - nexpy --help\n    - nexpy --version\n\nabout:\n  home: http://nexpy.github.io/nexpy\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: COPYING\n  summary: \"NeXpy: A Python GUI to analyze NeXus data\"\n  doc_url: https://nexpy.github.io/nexpy\n  dev_url: https://github.com/nexpy/nexpy\n",
+ "raw_meta_yaml":"{% set name = \"NeXpy\" %}\n{% set version = \"0.12.7\" %}\n{% set sha256 = \"477d27b45d71467e28d77b998cc78cfdff018fc5aad390735624a65928bd124c\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/NeXpy-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  entry_points:\n    - nexpy = nexpy.nexpygui:main\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - numpy\n    - pip\n    - setuptools\n  run:\n    - python\n    - ansi2html\n    - h5py\n    - ipykernel >=5.2.0\n    - ipython\n    - lmfit\n    - matplotlib\n    - nexusformat >=0.5.3\n    - numpy\n    - pillow\n    - pylatexenc\n    - pyqt <=5.13\n    - qtconsole\n    - qtpy\n    - scipy\n\ntest:\n  imports:\n    - nexpy\n    - nexpy.api\n    - nexpy.api.frills\n    - nexpy.api.frills.functions\n    - nexpy.definitions\n    - nexpy.gui\n    - nexpy.plugins\n    - nexpy.readers\n  commands:\n    - nexpy --help\n    - nexpy --version\n\nabout:\n  home: http://nexpy.github.io/nexpy\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: COPYING\n  summary: 'NeXpy: A Python GUI to analyze NeXus data'\n  doc_url: https://nexpy.github.io/nexpy\n  dev_url: https://github.com/nexpy/nexpy\n",
  "req":{
   "__set__":true,
   "elements":[
    "ansi2html",
    "h5py",
+   "ipykernel",
    "ipython",
+   "lmfit",
    "matplotlib",
    "nexusformat",
    "numpy",
    "pillow",
    "pip",
+   "pylatexenc",
+   "pyqt",
    "python",
    "qtconsole",
+   "qtpy",
    "scipy",
    "setuptools"
   ]
@@ -379,13 +419,18 @@
    "elements":[
     "ansi2html",
     "h5py",
+    "ipykernel",
     "ipython",
+    "lmfit",
     "matplotlib",
     "nexusformat",
     "numpy",
     "pillow",
+    "pylatexenc",
+    "pyqt",
     "python",
     "qtconsole",
+    "qtpy",
     "scipy"
    ]
   },
@@ -415,13 +460,18 @@
    "elements":[
     "ansi2html",
     "h5py",
+    "ipykernel >=5.2.0",
     "ipython",
+    "lmfit",
     "matplotlib",
-    "nexusformat >=0.5.1",
+    "nexusformat >=0.5.3",
     "numpy",
     "pillow",
+    "pylatexenc",
+    "pyqt <=5.13",
     "python",
     "qtconsole",
+    "qtpy",
     "scipy"
    ]
   },
@@ -431,7 +481,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/N/NeXpy/NeXpy-0.12.6.tar.gz",
- "version":"0.12.6",
+ "version":"0.12.7",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/nexpy/nexpy",
@@ -447,12 +497,12 @@
     "nexpy = nexpy.nexpygui:main"
    ],
    "noarch":"python",
-   "number":"1",
+   "number":"0",
    "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"nexpy",
-   "version":"0.12.6"
+   "version":"0.12.7"
   },
   "requirements":{
    "host":[
@@ -465,18 +515,23 @@
     "python",
     "ansi2html",
     "h5py",
+    "ipykernel >=5.2.0",
     "ipython",
+    "lmfit",
     "matplotlib",
-    "nexusformat >=0.5.1",
+    "nexusformat >=0.5.3",
     "numpy",
     "pillow",
+    "pylatexenc",
+    "pyqt <=5.13",
     "qtconsole",
+    "qtpy",
     "scipy"
    ]
   },
   "source":{
-   "sha256":"bfe7ead73cf2c243320ee0c510d84abb665e6f6def164b93ab4b01eedffe5211",
-   "url":"https://pypi.io/packages/source/N/NeXpy/NeXpy-0.12.6.tar.gz"
+   "sha256":"477d27b45d71467e28d77b998cc78cfdff018fc5aad390735624a65928bd124c",
+   "url":"https://pypi.io/packages/source/N/NeXpy/NeXpy-0.12.7.tar.gz"
   },
   "test":{
    "commands":[
@@ -514,13 +569,18 @@
    "elements":[
     "ansi2html",
     "h5py",
+    "ipykernel",
     "ipython",
+    "lmfit",
     "matplotlib",
     "nexusformat",
     "numpy",
     "pillow",
+    "pylatexenc",
+    "pyqt",
     "python",
     "qtconsole",
+    "qtpy",
     "scipy"
    ]
   },

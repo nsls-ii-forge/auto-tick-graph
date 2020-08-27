@@ -43,7 +43,7 @@
   },
   "package":{
    "name":"xraylarch",
-   "version":"0.9.45"
+   "version":"0.9.47"
   },
   "requirements":{
    "host":[
@@ -52,29 +52,30 @@
    ],
    "run":[
     "python",
-    "asteval >=0.9.12",
+    "asteval >=0.9.18",
     "fabio",
-    "h5py >=2.2",
-    "lmfit >=0.9.9",
-    "matplotlib >=1.5.1",
+    "h5py >=2.8",
+    "lmfit >=1.0",
+    "matplotlib >=3.0",
     "numpy >=1.7",
     "peakutils >=1.0.0",
     "pillow >=3.4",
     "psutil",
     "pyFAI",
+    "pyyaml",
     "requests >=2.1",
     "scikit-image",
     "scikit-learn",
-    "scipy >=0.17",
+    "scipy >=1.2",
     "silx",
     "six >=1.10",
     "sqlalchemy >=0.9",
     "termcolor",
-    "tomopy",
     "uncertainties",
     "wxmplot",
     "wxpython",
-    "wxutils"
+    "wxutils",
+    "xraydb >=4.3"
    ]
   },
   "source":{
@@ -82,8 +83,8 @@
     "0001-MNT-remove-the-desktop-shortcut-logic.patch",
     "0002-MNT-remove-the-feff-wrappers-and-binaries.patch"
    ],
-   "sha256":"f9221be94d9ae4ebb3cc2897dd08b7d7dbc492ab21bbd5accc9421471342f848",
-   "url":"https://github.com/xraypy/xraylarch/archive/0.9.45.tar.gz"
+   "sha256":"4f76db402947464a21e09ff0b1e1a442b651a7de452918de04b9c828f6071af8",
+   "url":"https://github.com/xraypy/xraylarch/archive/0.9.47.tar.gz"
   },
   "test":{
    "imports":[
@@ -117,6 +118,7 @@
     "psutil",
     "pyfai",
     "python",
+    "pyyaml",
     "requests",
     "scikit-image",
     "scikit-learn",
@@ -125,11 +127,11 @@
     "six",
     "sqlalchemy",
     "termcolor",
-    "tomopy",
     "uncertainties",
     "wxmplot",
     "wxpython",
-    "wxutils"
+    "wxutils",
+    "xraydb"
    ]
   },
   "test":{
@@ -152,7 +154,7 @@
   },
   "package":{
    "name":"xraylarch",
-   "version":"0.9.45"
+   "version":"0.9.47"
   },
   "requirements":{
    "host":[
@@ -165,77 +167,80 @@
    ],
    "run":[
     "python",
-    "asteval >=0.9.12",
+    "asteval >=0.9.18",
     "fabio",
-    "h5py >=2.2",
-    "lmfit >=0.9.9",
-    "matplotlib >=1.5.1",
+    "h5py >=2.8",
+    "lmfit >=1.0",
+    "matplotlib >=3.0",
     "numpy >=1.7",
     "peakutils >=1.0.0",
     "pillow >=3.4",
     "psutil",
     "pyFAI",
+    "pyyaml",
     "requests >=2.1",
     "scikit-image",
     "scikit-learn",
-    "scipy >=0.17",
+    "scipy >=1.2",
     "silx",
     "six >=1.10",
     "sqlalchemy >=0.9",
     "termcolor",
-    "tomopy",
     "uncertainties",
     "wxmplot",
     "wxpython",
     "wxutils",
+    "xraydb >=4.3",
     "python",
-    "asteval >=0.9.12",
+    "asteval >=0.9.18",
     "fabio",
-    "h5py >=2.2",
-    "lmfit >=0.9.9",
-    "matplotlib >=1.5.1",
+    "h5py >=2.8",
+    "lmfit >=1.0",
+    "matplotlib >=3.0",
     "numpy >=1.7",
     "peakutils >=1.0.0",
     "pillow >=3.4",
     "psutil",
     "pyFAI",
+    "pyyaml",
     "requests >=2.1",
     "scikit-image",
     "scikit-learn",
-    "scipy >=0.17",
+    "scipy >=1.2",
     "silx",
     "six >=1.10",
     "sqlalchemy >=0.9",
     "termcolor",
-    "tomopy",
     "uncertainties",
     "wxmplot",
     "wxpython",
     "wxutils",
+    "xraydb >=4.3",
     "python",
-    "asteval >=0.9.12",
+    "asteval >=0.9.18",
     "fabio",
-    "h5py >=2.2",
-    "lmfit >=0.9.9",
-    "matplotlib >=1.5.1",
+    "h5py >=2.8",
+    "lmfit >=1.0",
+    "matplotlib >=3.0",
     "numpy >=1.7",
     "peakutils >=1.0.0",
     "pillow >=3.4",
     "psutil",
     "pyFAI",
+    "pyyaml",
     "requests >=2.1",
     "scikit-image",
     "scikit-learn",
-    "scipy >=0.17",
+    "scipy >=1.2",
     "silx",
     "six >=1.10",
     "sqlalchemy >=0.9",
     "termcolor",
-    "tomopy",
     "uncertainties",
     "wxmplot",
     "wxpython",
-    "wxutils"
+    "wxutils",
+    "xraydb >=4.3"
    ]
   },
   "source":{
@@ -247,8 +252,8 @@
     "0001-MNT-remove-the-desktop-shortcut-logic.patch",
     "0002-MNT-remove-the-feff-wrappers-and-binaries.patch"
    ],
-   "sha256":"f9221be94d9ae4ebb3cc2897dd08b7d7dbc492ab21bbd5accc9421471342f848",
-   "url":"https://github.com/xraypy/xraylarch/archive/0.9.45.tar.gz"
+   "sha256":"4f76db402947464a21e09ff0b1e1a442b651a7de452918de04b9c828f6071af8",
+   "url":"https://github.com/xraypy/xraylarch/archive/0.9.47.tar.gz"
   },
   "test":{
    "imports":[
@@ -279,7 +284,7 @@
   },
   "package":{
    "name":"xraylarch",
-   "version":"0.9.45"
+   "version":"0.9.47"
   },
   "requirements":{
    "host":[
@@ -288,29 +293,30 @@
    ],
    "run":[
     "python",
-    "asteval >=0.9.12",
+    "asteval >=0.9.18",
     "fabio",
-    "h5py >=2.2",
-    "lmfit >=0.9.9",
-    "matplotlib >=1.5.1",
+    "h5py >=2.8",
+    "lmfit >=1.0",
+    "matplotlib >=3.0",
     "numpy >=1.7",
     "peakutils >=1.0.0",
     "pillow >=3.4",
     "psutil",
     "pyFAI",
+    "pyyaml",
     "requests >=2.1",
     "scikit-image",
     "scikit-learn",
-    "scipy >=0.17",
+    "scipy >=1.2",
     "silx",
     "six >=1.10",
     "sqlalchemy >=0.9",
     "termcolor",
-    "tomopy",
     "uncertainties",
     "wxmplot",
     "wxpython",
-    "wxutils"
+    "wxutils",
+    "xraydb >=4.3"
    ]
   },
   "source":{
@@ -318,8 +324,8 @@
     "0001-MNT-remove-the-desktop-shortcut-logic.patch",
     "0002-MNT-remove-the-feff-wrappers-and-binaries.patch"
    ],
-   "sha256":"f9221be94d9ae4ebb3cc2897dd08b7d7dbc492ab21bbd5accc9421471342f848",
-   "url":"https://github.com/xraypy/xraylarch/archive/0.9.45.tar.gz"
+   "sha256":"4f76db402947464a21e09ff0b1e1a442b651a7de452918de04b9c828f6071af8",
+   "url":"https://github.com/xraypy/xraylarch/archive/0.9.47.tar.gz"
   },
   "test":{
    "imports":[
@@ -353,6 +359,7 @@
     "psutil",
     "pyfai",
     "python",
+    "pyyaml",
     "requests",
     "scikit-image",
     "scikit-learn",
@@ -361,11 +368,11 @@
     "six",
     "sqlalchemy",
     "termcolor",
-    "tomopy",
     "uncertainties",
     "wxmplot",
     "wxpython",
-    "wxutils"
+    "wxutils",
+    "xraydb"
    ]
   },
   "test":{
@@ -374,7 +381,7 @@
   }
  },
  "pinning_version":"2020.08.17.20.01.55",
- "raw_meta_yaml":"{% set name = \"xraylarch\" %}\n{% set version = \"0.9.45\" %}\n{% set sha256 = \"f9221be94d9ae4ebb3cc2897dd08b7d7dbc492ab21bbd5accc9421471342f848\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/xraypy/{{ name }}/archive/{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n  patches:\n    - 0001-MNT-remove-the-desktop-shortcut-logic.patch\n    - 0002-MNT-remove-the-feff-wrappers-and-binaries.patch\n\nbuild:\n  number: 0\n  script: |\n    # We do not have a license to distribute built FEFF binaries.\n    # We may have one to deploy it to the floor, but definitely not to make\n    # them public, so remove binaries.\n    rm -rf larch/bin  # [not win]\n    rmdir /q /s larch/bin  # [win]\n    {{ PYTHON }} -m pip install . --no-deps -vv\n  skip: True  # [py<36]\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - asteval >=0.9.12\n    - fabio\n    - h5py >=2.2\n    - lmfit >=0.9.9\n    - matplotlib >=1.5.1\n    - numpy >=1.7\n    - peakutils >=1.0.0\n    - pillow >=3.4\n    - psutil\n    - pyFAI\n    - requests >=2.1\n    - scikit-image\n    - scikit-learn\n    - scipy >=0.17\n    - silx\n    - six >=1.10\n    - sqlalchemy >=0.9\n    - termcolor\n    - tomopy\n    - uncertainties\n    - wxmplot\n    - wxpython\n    - wxutils\n\ntest:\n  imports:\n    - larch\n\nabout:\n  home: https://xraypy.github.io/xraylarch\n  license: BSD-2\n  license_file: LICENSE\n  summary: \"Larch: X-ray Analysis for Synchrotron Applications using Python\"\n  doc_url: https://xraypy.github.io/xraylarch\n  dev_url: https://github.com/xraypy/xraylarch\n\n",
+ "raw_meta_yaml":"{% set name = \"xraylarch\" %}\n{% set version = \"0.9.47\" %}\n{% set sha256 = \"4f76db402947464a21e09ff0b1e1a442b651a7de452918de04b9c828f6071af8\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/xraypy/{{ name }}/archive/{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n  patches:\n    - 0001-MNT-remove-the-desktop-shortcut-logic.patch\n    - 0002-MNT-remove-the-feff-wrappers-and-binaries.patch\n\nbuild:\n  number: 0\n  script: |\n    # We do not have a license to distribute built FEFF binaries.\n    # We may have one to deploy it to the floor, but definitely not to make\n    # them public, so remove binaries.\n    rm -rf larch/bin  # [not win]\n    rmdir /q /s larch/bin  # [win]\n    {{ PYTHON }} -m pip install . --no-deps -vv\n  skip: true  # [py<36]\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - asteval >=0.9.18\n    - fabio\n    - h5py >=2.8\n    - lmfit >=1.0\n    - matplotlib >=3.0\n    - numpy >=1.7\n    - peakutils >=1.0.0\n    - pillow >=3.4\n    - psutil\n    - pyFAI\n    - pyyaml\n    - requests >=2.1\n    - scikit-image\n    - scikit-learn\n    - scipy >=1.2\n    - silx\n    - six >=1.10\n    - sqlalchemy >=0.9\n    - termcolor\n    - uncertainties\n    - wxmplot\n    - wxpython\n    - wxutils\n    - xraydb >=4.3\n\ntest:\n  imports:\n    - larch\n\nabout:\n  home: https://xraypy.github.io/xraylarch\n  license: BSD-2\n  license_file: LICENSE\n  summary: 'Larch: X-ray Analysis for Synchrotron Applications using Python'\n  doc_url: https://xraypy.github.io/xraylarch\n  dev_url: https://github.com/xraypy/xraylarch\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -390,6 +397,7 @@
    "psutil",
    "pyfai",
    "python",
+   "pyyaml",
    "requests",
    "scikit-image",
    "scikit-learn",
@@ -398,11 +406,11 @@
    "six",
    "sqlalchemy",
    "termcolor",
-   "tomopy",
    "uncertainties",
    "wxmplot",
    "wxpython",
-   "wxutils"
+   "wxutils",
+   "xraydb"
   ]
  },
  "requirements":{
@@ -431,6 +439,7 @@
     "psutil",
     "pyfai",
     "python",
+    "pyyaml",
     "requests",
     "scikit-image",
     "scikit-learn",
@@ -439,11 +448,11 @@
     "six",
     "sqlalchemy",
     "termcolor",
-    "tomopy",
     "uncertainties",
     "wxmplot",
     "wxpython",
-    "wxutils"
+    "wxutils",
+    "xraydb"
    ]
   },
   "test":{
@@ -468,30 +477,31 @@
   "run":{
    "__set__":true,
    "elements":[
-    "asteval >=0.9.12",
+    "asteval >=0.9.18",
     "fabio",
-    "h5py >=2.2",
-    "lmfit >=0.9.9",
-    "matplotlib >=1.5.1",
+    "h5py >=2.8",
+    "lmfit >=1.0",
+    "matplotlib >=3.0",
     "numpy >=1.7",
     "peakutils >=1.0.0",
     "pillow >=3.4",
     "psutil",
     "pyFAI",
     "python",
+    "pyyaml",
     "requests >=2.1",
     "scikit-image",
     "scikit-learn",
-    "scipy >=0.17",
+    "scipy >=1.2",
     "silx",
     "six >=1.10",
     "sqlalchemy >=0.9",
     "termcolor",
-    "tomopy",
     "uncertainties",
     "wxmplot",
     "wxpython",
-    "wxutils"
+    "wxutils",
+    "xraydb >=4.3"
    ]
   },
   "test":{
@@ -500,7 +510,7 @@
   }
  },
  "url":"https://github.com/xraypy/xraylarch/archive/0.9.45.tar.gz",
- "version":"0.9.45",
+ "version":"0.9.47",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/xraypy/xraylarch",
@@ -516,7 +526,7 @@
   },
   "package":{
    "name":"xraylarch",
-   "version":"0.9.45"
+   "version":"0.9.47"
   },
   "requirements":{
    "host":[
@@ -525,29 +535,30 @@
    ],
    "run":[
     "python",
-    "asteval >=0.9.12",
+    "asteval >=0.9.18",
     "fabio",
-    "h5py >=2.2",
-    "lmfit >=0.9.9",
-    "matplotlib >=1.5.1",
+    "h5py >=2.8",
+    "lmfit >=1.0",
+    "matplotlib >=3.0",
     "numpy >=1.7",
     "peakutils >=1.0.0",
     "pillow >=3.4",
     "psutil",
     "pyFAI",
+    "pyyaml",
     "requests >=2.1",
     "scikit-image",
     "scikit-learn",
-    "scipy >=0.17",
+    "scipy >=1.2",
     "silx",
     "six >=1.10",
     "sqlalchemy >=0.9",
     "termcolor",
-    "tomopy",
     "uncertainties",
     "wxmplot",
     "wxpython",
-    "wxutils"
+    "wxutils",
+    "xraydb >=4.3"
    ]
   },
   "source":{
@@ -555,8 +566,8 @@
     "0001-MNT-remove-the-desktop-shortcut-logic.patch",
     "0002-MNT-remove-the-feff-wrappers-and-binaries.patch"
    ],
-   "sha256":"f9221be94d9ae4ebb3cc2897dd08b7d7dbc492ab21bbd5accc9421471342f848",
-   "url":"https://github.com/xraypy/xraylarch/archive/0.9.45.tar.gz"
+   "sha256":"4f76db402947464a21e09ff0b1e1a442b651a7de452918de04b9c828f6071af8",
+   "url":"https://github.com/xraypy/xraylarch/archive/0.9.47.tar.gz"
   },
   "test":{
    "imports":[
@@ -590,6 +601,7 @@
     "psutil",
     "pyfai",
     "python",
+    "pyyaml",
     "requests",
     "scikit-image",
     "scikit-learn",
@@ -598,11 +610,11 @@
     "six",
     "sqlalchemy",
     "termcolor",
-    "tomopy",
     "uncertainties",
     "wxmplot",
     "wxpython",
-    "wxutils"
+    "wxutils",
+    "xraydb"
    ]
   },
   "test":{

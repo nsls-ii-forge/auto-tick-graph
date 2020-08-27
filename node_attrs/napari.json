@@ -48,7 +48,7 @@
   },
   "package":{
    "name":"napari",
-   "version":"0.3.5"
+   "version":"0.3.6"
   },
   "requirements":{
    "build":[
@@ -88,8 +88,8 @@
    ]
   },
   "source":{
-   "sha256":"210873884c0bb901ed7f9696b2a202a5967dff83612e2c9fd89ddd0c3ed6d9ff",
-   "url":"https://pypi.io/packages/source/n/napari/napari-0.3.5.tar.gz"
+   "sha256":"95fd38a423b9e6c926aa5db7a0b7b50ebe8b59976a380855ed2ef4fce6f1fd56",
+   "url":"https://pypi.io/packages/source/n/napari/napari-0.3.6.tar.gz"
   },
   "test":{
    "imports":[
@@ -188,7 +188,7 @@
   },
   "package":{
    "name":"napari",
-   "version":"0.3.5"
+   "version":"0.3.6"
   },
   "requirements":{
    "build":[
@@ -286,8 +286,8 @@
    ]
   },
   "source":{
-   "sha256":"210873884c0bb901ed7f9696b2a202a5967dff83612e2c9fd89ddd0c3ed6d9ff",
-   "url":"https://pypi.io/packages/source/n/napari/napari-0.3.5.tar.gz"
+   "sha256":"95fd38a423b9e6c926aa5db7a0b7b50ebe8b59976a380855ed2ef4fce6f1fd56",
+   "url":"https://pypi.io/packages/source/n/napari/napari-0.3.6.tar.gz"
   },
   "test":{
    "imports":[
@@ -349,7 +349,7 @@
   },
   "package":{
    "name":"napari",
-   "version":"0.3.5"
+   "version":"0.3.6"
   },
   "requirements":{
    "build":[
@@ -389,8 +389,8 @@
    ]
   },
   "source":{
-   "sha256":"210873884c0bb901ed7f9696b2a202a5967dff83612e2c9fd89ddd0c3ed6d9ff",
-   "url":"https://pypi.io/packages/source/n/napari/napari-0.3.5.tar.gz"
+   "sha256":"95fd38a423b9e6c926aa5db7a0b7b50ebe8b59976a380855ed2ef4fce6f1fd56",
+   "url":"https://pypi.io/packages/source/n/napari/napari-0.3.6.tar.gz"
   },
   "test":{
    "imports":[
@@ -468,7 +468,7 @@
   }
  },
  "pinning_version":"2020.08.17.20.01.55",
- "raw_meta_yaml":"{% set name = \"napari\" %}\n{% set version = \"0.3.5\" %}\n{% set sha256 = \"210873884c0bb901ed7f9696b2a202a5967dff83612e2c9fd89ddd0c3ed6d9ff\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n  entry_points:\n    - napari = napari.__main__:main\n\nrequirements:\n  build:\n    - pep517\n    - setuptools_scm\n  host:\n    - python >=3.6\n    - pip\n    - setuptools_scm\n  run:\n    - python >=3.6\n    - backcall\n    - cachey\n    - dask\n    - fsspec\n    - imageio\n    - ipykernel\n    - ipython\n    - jupyter_client\n    - napari-plugin-engine\n    - napari-svg\n    - numpy\n    - numpydoc\n    - pluggy\n    - pyopengl\n    - pyqt >=5.9\n    - qtconsole\n    - qtpy\n    - scikit-image\n    - scipy\n    - tifffile\n    - vispy >=0.6.4\n    - wrapt\n    - zarr\n\ntest:\n  requires:\n    - pandas\n    - pytest\n    - pytest-faulthandler\n    - pytest-ordering\n    - pytest-qt\n    - pytest-timeout\n    - xarray\n    - zarr\n  imports:\n    - napari\n\nabout:\n  home: http://napari.org\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: a fast n-dimensional image viewer in Python\n  doc_url: http://napari.org\n  dev_url: https://github.com/napari/napari\n",
+ "raw_meta_yaml":"{% set name = \"napari\" %}\n{% set version = \"0.3.6\" %}\n{% set sha256 = \"95fd38a423b9e6c926aa5db7a0b7b50ebe8b59976a380855ed2ef4fce6f1fd56\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n  entry_points:\n    - napari = napari.__main__:main\n\nrequirements:\n  build:\n    - pep517\n    - setuptools_scm\n  host:\n    - python >=3.6\n    - pip\n    - setuptools_scm\n  run:\n    - python >=3.6\n    - backcall\n    - cachey\n    - dask\n    - fsspec\n    - imageio\n    - ipykernel\n    - ipython\n    - jupyter_client\n    - napari-plugin-engine\n    - napari-svg\n    - numpy\n    - numpydoc\n    - pluggy\n    - pyopengl\n    - pyqt >=5.9\n    - qtconsole\n    - qtpy\n    - scikit-image\n    - scipy\n    - tifffile\n    - vispy >=0.6.4\n    - wrapt\n    - zarr\n\ntest:\n  requires:\n    - pandas\n    - pytest\n    - pytest-faulthandler\n    - pytest-ordering\n    - pytest-qt\n    - pytest-timeout\n    - xarray\n    - zarr\n  imports:\n    - napari\n\nabout:\n  home: http://napari.org\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: a fast n-dimensional image viewer in Python\n  doc_url: http://napari.org\n  dev_url: https://github.com/napari/napari\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -622,7 +622,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/n/napari/napari-0.3.5.tar.gz",
- "version":"0.3.5",
+ "version":"0.3.6",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/napari/napari",
@@ -643,7 +643,7 @@
   },
   "package":{
    "name":"napari",
-   "version":"0.3.5"
+   "version":"0.3.6"
   },
   "requirements":{
    "build":[
@@ -683,8 +683,8 @@
    ]
   },
   "source":{
-   "sha256":"210873884c0bb901ed7f9696b2a202a5967dff83612e2c9fd89ddd0c3ed6d9ff",
-   "url":"https://pypi.io/packages/source/n/napari/napari-0.3.5.tar.gz"
+   "sha256":"95fd38a423b9e6c926aa5db7a0b7b50ebe8b59976a380855ed2ef4fce6f1fd56",
+   "url":"https://pypi.io/packages/source/n/napari/napari-0.3.6.tar.gz"
   },
   "test":{
    "imports":[
