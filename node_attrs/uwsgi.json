@@ -41,7 +41,7 @@
   },
   "package":{
    "name":"uwsgi",
-   "version":"2.0.18"
+   "version":"2.0.19.1"
   },
   "requirements":{
    "build":[
@@ -65,8 +65,8 @@
    ]
   },
   "source":{
-   "sha256":"4972ac538800fb2d421027f49b4a1869b66048839507ccf0aa2fda792d99f583",
-   "url":"https://pypi.io/packages/source/u/uWSGI/uWSGI-2.0.18.tar.gz"
+   "sha256":"faa85e053c0b1be4d5585b0858d3a511d2cd10201802e8676060fd0a109e5869",
+   "url":"https://pypi.io/packages/source/u/uWSGI/uWSGI-2.0.19.1.tar.gz"
   },
   "test":{
    "commands":[
@@ -126,7 +126,7 @@
   },
   "package":{
    "name":"uwsgi",
-   "version":"2.0.18"
+   "version":"2.0.19.1"
   },
   "requirements":{
    "build":[
@@ -176,8 +176,8 @@
    ]
   },
   "source":{
-   "sha256":"4972ac538800fb2d421027f49b4a1869b66048839507ccf0aa2fda792d99f583",
-   "url":"https://pypi.io/packages/source/u/uWSGI/uWSGI-2.0.18.tar.gz"
+   "sha256":"faa85e053c0b1be4d5585b0858d3a511d2cd10201802e8676060fd0a109e5869",
+   "url":"https://pypi.io/packages/source/u/uWSGI/uWSGI-2.0.19.1.tar.gz"
   },
   "test":{
    "commands":[
@@ -212,11 +212,12 @@
   },
   "build":{
    "detect_binary_files_with_prefix":true,
-   "number":"0"
+   "number":"0",
+   "skip":true
   },
   "package":{
    "name":"uwsgi",
-   "version":"2.0.18"
+   "version":"2.0.19.1"
   },
   "requirements":{
    "build":[
@@ -240,8 +241,8 @@
    ]
   },
   "source":{
-   "sha256":"4972ac538800fb2d421027f49b4a1869b66048839507ccf0aa2fda792d99f583",
-   "url":"https://pypi.io/packages/source/u/uWSGI/uWSGI-2.0.18.tar.gz"
+   "sha256":"faa85e053c0b1be4d5585b0858d3a511d2cd10201802e8676060fd0a109e5869",
+   "url":"https://pypi.io/packages/source/u/uWSGI/uWSGI-2.0.19.1.tar.gz"
   },
   "test":{
    "commands":[
@@ -288,7 +289,7 @@
   }
  },
  "pinning_version":"2020.08.21.04.46.41",
- "raw_meta_yaml":"{% set name = \"uWSGI\" %}\n{% set version = \"2.0.18\" %}\n{% set sha256 = \"4972ac538800fb2d421027f49b4a1869b66048839507ccf0aa2fda792d99f583\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  skip: True  # [win or py<36]\n  detect_binary_files_with_prefix: true\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - python\n    - pip\n    - icu\n    - jansson\n    - libxml2\n    - openssl\n    - pcre\n    - yaml\n    - zlib\n  run:\n    - python\n    - jansson\n\ntest:\n  source_files:\n    - tests\n  commands:\n    - uwsgi --version\n    - uwsgi --plugin-list\n\nabout:\n  home: https://github.com/unbit/uwsgi\n  license: GPL-2.0\n  license_file: LICENSE\n  summary: |\n    The uWSGI project aims at developing a full stack for building hosting\n    services. Application servers (for various programming languages and\n    protocols), proxies, process managers and monitors are all implemented.\n",
+ "raw_meta_yaml":"{% set name = \"uWSGI\" %}\n{% set version = \"2.0.19.1\" %}\n{% set sha256 = \"faa85e053c0b1be4d5585b0858d3a511d2cd10201802e8676060fd0a109e5869\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  skip: true  # [not linux or py<36]\n  detect_binary_files_with_prefix: true\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - python\n    - pip\n    - icu\n    - jansson\n    - libxml2\n    - openssl\n    - pcre\n    - yaml\n    - zlib\n  run:\n    - python\n    - jansson\n\ntest:\n  source_files:\n    - tests\n  commands:\n    - uwsgi --version\n    - uwsgi --plugin-list\n\nabout:\n  home: https://github.com/unbit/uwsgi\n  license: GPL-2.0\n  license_file: LICENSE\n  summary: |\n    The uWSGI project aims at developing a full stack for building hosting\n    services. Application servers (for various programming languages and\n    protocols), proxies, process managers and monitors are all implemented.\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -376,7 +377,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/u/uWSGI/uwsgi-2.0.18.tar.gz",
- "version":"2.0.18",
+ "version":"2.0.19.1",
  "win_64_meta_yaml":{
   "about":{
    "home":"https://github.com/unbit/uwsgi",
@@ -391,7 +392,7 @@
   },
   "package":{
    "name":"uwsgi",
-   "version":"2.0.18"
+   "version":"2.0.19.1"
   },
   "requirements":{
    "build":[
@@ -415,8 +416,8 @@
    ]
   },
   "source":{
-   "sha256":"4972ac538800fb2d421027f49b4a1869b66048839507ccf0aa2fda792d99f583",
-   "url":"https://pypi.io/packages/source/u/uWSGI/uWSGI-2.0.18.tar.gz"
+   "sha256":"faa85e053c0b1be4d5585b0858d3a511d2cd10201802e8676060fd0a109e5869",
+   "url":"https://pypi.io/packages/source/u/uWSGI/uWSGI-2.0.19.1.tar.gz"
   },
   "test":{
    "commands":[

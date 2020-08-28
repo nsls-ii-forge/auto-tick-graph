@@ -80,7 +80,7 @@
   },
   "package":{
    "name":"nbclient",
-   "version":"0.4.2"
+   "version":"0.5.0"
   },
   "requirements":{
    "host":[
@@ -97,8 +97,8 @@
    ]
   },
   "source":{
-   "sha256":"5dff9595d8b2be1bd304b6142b138e911419c601d02133cbe001a0edbd212634",
-   "url":"https://pypi.io/packages/source/n/nbclient/nbclient-0.4.2.tar.gz"
+   "sha256":"8ad52d27ba144fca1402db014857e53c5a864a2f407be66ca9d74c3a56d6591d",
+   "url":"https://pypi.io/packages/source/n/nbclient/nbclient-0.5.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -152,7 +152,7 @@
   },
   "package":{
    "name":"nbclient",
-   "version":"0.4.2"
+   "version":"0.5.0"
   },
   "requirements":{
    "host":[
@@ -185,8 +185,8 @@
    ]
   },
   "source":{
-   "sha256":"5dff9595d8b2be1bd304b6142b138e911419c601d02133cbe001a0edbd212634",
-   "url":"https://pypi.io/packages/source/n/nbclient/nbclient-0.4.2.tar.gz"
+   "sha256":"8ad52d27ba144fca1402db014857e53c5a864a2f407be66ca9d74c3a56d6591d",
+   "url":"https://pypi.io/packages/source/n/nbclient/nbclient-0.5.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -222,7 +222,7 @@
   },
   "package":{
    "name":"nbclient",
-   "version":"0.4.2"
+   "version":"0.5.0"
   },
   "requirements":{
    "host":[
@@ -239,8 +239,8 @@
    ]
   },
   "source":{
-   "sha256":"5dff9595d8b2be1bd304b6142b138e911419c601d02133cbe001a0edbd212634",
-   "url":"https://pypi.io/packages/source/n/nbclient/nbclient-0.4.2.tar.gz"
+   "sha256":"8ad52d27ba144fca1402db014857e53c5a864a2f407be66ca9d74c3a56d6591d",
+   "url":"https://pypi.io/packages/source/n/nbclient/nbclient-0.5.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -277,7 +277,7 @@
   }
  },
  "pinning_version":"2020.08.27.12.52.30",
- "raw_meta_yaml":"{% set name = \"nbclient\" %}\n{% set version = \"0.4.2\" %}\n{% set sha256 = \"5dff9595d8b2be1bd304b6142b138e911419c601d02133cbe001a0edbd212634\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - async_generator\n    - jupyter_client >=6.1.5\n    - nbformat >=5.0\n    - nest-asyncio\n    - traitlets >=4.2\n\ntest:\n  imports:\n    - nbclient\n\nabout:\n  home: https://jupyter.org\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: A client library for executing notebooks. Formally nbconvert's ExecutePreprocessor.\n  description: |\n    NBClient is a tool for parameterizing and executing Jupyter Notebooks.\n    NBClient lets you execute notebooks. Similar in nature to jupyter_client, as the jupyter_client\n    is to the jupyter protocol nbclient is to notebooks allowing for execution contexts to be run.\n  dev_url: https://github.com/jupyter/nbclient\n  doc_url: https://nbclient.readthedocs.io\n",
+ "raw_meta_yaml":"{% set name = \"nbclient\" %}\n{% set version = \"0.5.0\" %}\n{% set sha256 = \"8ad52d27ba144fca1402db014857e53c5a864a2f407be66ca9d74c3a56d6591d\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - async_generator\n    - jupyter_client >=6.1.5\n    - nbformat >=5.0\n    - nest-asyncio\n    - traitlets >=4.2\n\ntest:\n  imports:\n    - nbclient\n\nabout:\n  home: https://jupyter.org\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: A client library for executing notebooks. Formally nbconvert's ExecutePreprocessor.\n  description: |\n    NBClient is a tool for parameterizing and executing Jupyter Notebooks.\n    NBClient lets you execute notebooks. Similar in nature to jupyter_client, as the jupyter_client\n    is to the jupyter protocol nbclient is to notebooks allowing for execution contexts to be run.\n  dev_url: https://github.com/jupyter/nbclient\n  doc_url: https://nbclient.readthedocs.io\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -349,7 +349,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/n/nbclient/nbclient-0.4.1.tar.gz",
- "version":"0.4.2",
+ "version":"0.5.0",
  "win_64_meta_yaml":{
   "about":{
    "description":"NBClient is a tool for parameterizing and executing Jupyter Notebooks.\nNBClient lets you execute notebooks. Similar in nature to jupyter_client, as the jupyter_client\nis to the jupyter protocol nbclient is to notebooks allowing for execution contexts to be run.\n",
@@ -368,7 +368,7 @@
   },
   "package":{
    "name":"nbclient",
-   "version":"0.4.2"
+   "version":"0.5.0"
   },
   "requirements":{
    "host":[
@@ -385,8 +385,8 @@
    ]
   },
   "source":{
-   "sha256":"5dff9595d8b2be1bd304b6142b138e911419c601d02133cbe001a0edbd212634",
-   "url":"https://pypi.io/packages/source/n/nbclient/nbclient-0.4.2.tar.gz"
+   "sha256":"8ad52d27ba144fca1402db014857e53c5a864a2f407be66ca9d74c3a56d6591d",
+   "url":"https://pypi.io/packages/source/n/nbclient/nbclient-0.5.0.tar.gz"
   },
   "test":{
    "imports":[
