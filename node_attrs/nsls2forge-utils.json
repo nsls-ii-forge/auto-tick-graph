@@ -33,6 +33,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/475946345.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -250,10 +267,11 @@
   }
  },
  "name":"nsls2forge-utils",
- "new_version":"0.1.1",
+ "new_version":"0.1.2",
  "new_version_attempts":{
   "0.1.0":1,
-  "0.1.1":1
+  "0.1.1":1,
+  "0.1.2":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -353,7 +371,7 @@
    ]
   }
  },
- "pinning_version":"2020.08.26.22.12.02",
+ "pinning_version":"2020.08.29.21.09.48",
  "raw_meta_yaml":"{% set name = \"nsls2forge-utils\" %}\n{% set version = \"0.1.1\" %}\n{% set sha256 = \"66756b6bef638334f201eec9d06ee7c8c21eec57976cc754eae7e79ad2093751\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  entry_points:\n    - all-feedstocks = nsls2forge_utils.cli:all_feedstocks\n    - auto-tick = nsls2forge_utils.cli:auto_tick\n    - check-results = nsls2forge_utils.cli:check_results\n    - dashboard = nsls2forge_utils.cli:dashboard\n    - graph-utils = nsls2forge_utils.cli:graph_utils\n    - meta-utils = nsls2forge_utils.cli:meta_utils\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - beautifulsoup4\n    - doctr\n    - github3.py\n    - gitpython\n    - markdown\n    - networkx\n    - pandas\n    - pygithub\n    - requests\n    - tabulate\n    - xonsh\n\ntest:\n  requires:\n    - git\n  imports:\n    - nsls2forge_utils\n  commands:\n    - check-results --help\n\nabout:\n  home: https://github.com/nsls-ii-forge/nsls2forge-utils\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: nsls2forge utilities for packaging\n",
  "req":{
   "__set__":true,

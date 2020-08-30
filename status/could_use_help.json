@@ -1,4 +1,5 @@
 [
   "xraydb",
-  "nbclient"
+  "nbclient",
+  "nsls2forge-utils"
 ]
