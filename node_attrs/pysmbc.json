@@ -42,7 +42,7 @@
   },
   "package":{
    "name":"pysmbc",
-   "version":"1.0.15.8"
+   "version":"1.0.22"
   },
   "requirements":{
    "build":[
@@ -58,8 +58,11 @@
    ]
   },
   "source":{
-   "sha256":"0567c1789a911500b83c64becdaa0015c135cce0bcf59ec593df48859bebbf1d",
-   "url":"https://pypi.io/packages/source/p/pysmbc/pysmbc-1.0.15.8.tar.bz2"
+   "patches":[
+    "0001-setup.py-v1.0.22-install-issues.patch"
+   ],
+   "sha256":"f9ce6f8cf17a2e7867b3cd87b2a47eca04ed955f37937b617088698c06177eba",
+   "url":"https://pypi.io/packages/source/p/pysmbc/pysmbc-1.0.22.tar.gz"
   }
  },
  "linux_64_requirements":{
@@ -103,7 +106,7 @@
   },
   "package":{
    "name":"pysmbc",
-   "version":"1.0.15.8"
+   "version":"1.0.22"
   },
   "requirements":{
    "build":[
@@ -129,8 +132,13 @@
    ]
   },
   "source":{
-   "sha256":"0567c1789a911500b83c64becdaa0015c135cce0bcf59ec593df48859bebbf1d",
-   "url":"https://pypi.io/packages/source/p/pysmbc/pysmbc-1.0.15.8.tar.bz2"
+   "patches":[
+    "0001-setup.py-v1.0.22-install-issues.patch",
+    "0001-setup.py-v1.0.22-install-issues.patch",
+    "0001-setup.py-v1.0.22-install-issues.patch"
+   ],
+   "sha256":"f9ce6f8cf17a2e7867b3cd87b2a47eca04ed955f37937b617088698c06177eba",
+   "url":"https://pypi.io/packages/source/p/pysmbc/pysmbc-1.0.22.tar.gz"
   }
  },
  "name":"pysmbc",
@@ -154,7 +162,7 @@
   },
   "package":{
    "name":"pysmbc",
-   "version":"1.0.15.8"
+   "version":"1.0.22"
   },
   "requirements":{
    "build":[
@@ -170,8 +178,11 @@
    ]
   },
   "source":{
-   "sha256":"0567c1789a911500b83c64becdaa0015c135cce0bcf59ec593df48859bebbf1d",
-   "url":"https://pypi.io/packages/source/p/pysmbc/pysmbc-1.0.15.8.tar.bz2"
+   "patches":[
+    "0001-setup.py-v1.0.22-install-issues.patch"
+   ],
+   "sha256":"f9ce6f8cf17a2e7867b3cd87b2a47eca04ed955f37937b617088698c06177eba",
+   "url":"https://pypi.io/packages/source/p/pysmbc/pysmbc-1.0.22.tar.gz"
   }
  },
  "osx_64_requirements":{
@@ -201,7 +212,7 @@
   }
  },
  "pinning_version":"2020.08.17.20.01.55",
- "raw_meta_yaml":"{% set name = \"pysmbc\" %}\n{% set version = \"1.0.15.8\" %}\n{% set sha256 = \"0567c1789a911500b83c64becdaa0015c135cce0bcf59ec593df48859bebbf1d\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.bz2  # The extension has changed in the latest versions to .tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: |\n    export LDFLAGS=-L/usr/lib64\n    export CPPFLAGS=-I/usr/include\n    {{ PYTHON }} -m pip install . --no-deps -vv\n  skip: true  # [py<36 or not linux]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - python\n    - pip\n  run:\n    - python\n\n# Commenting out the tests for now as the \"undefined symbol: lp_set_cmdline\"\n# error happens when running this test with libsmbclient v3.6. It works well\n# with version 4.2 which is installed at NSLS-II ISS.\n# test:\n#   imports:\n#     smbc\n\nabout:\n  home: http://pypi.python.org/pypi/pysmbc\n  license: GNU GPL v2.0\n  license_file: COPYING\n  summary: libsmbclient binding for Python\n  dev_url: https://github.com/hamano/pysmbc\n",
+ "raw_meta_yaml":"{% set name = \"pysmbc\" %}\n{% set version = \"1.0.22\" %}\n{% set sha256 = \"f9ce6f8cf17a2e7867b3cd87b2a47eca04ed955f37937b617088698c06177eba\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz   # The extension has changed in the latest versions to .tar.gz\n  sha256: {{ sha256 }}\n  patches:\n    # See the bug report at https://github.com/hamano/pysmbc/issues/53 and the\n    # proposed fix in https://github.com/hamano/pysmbc/pull/54.\n    - 0001-setup.py-v1.0.22-install-issues.patch\n\nbuild:\n  number: 0\n  script: |\n    export LDFLAGS=-L/usr/lib64\n    export CPPFLAGS=-I/usr/include\n    {{ PYTHON }} -m pip install . --no-deps -vv\n  skip: true  # [py<36 or not linux]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - python\n    - pip\n  run:\n    - python\n\n# Commenting out the tests for now as the \"undefined symbol: lp_set_cmdline\"\n# error happens when running this test with libsmbclient v3.6. It works well\n# with version 4.2 which is installed at NSLS-II ISS.\n# test:\n#   imports:\n#     smbc\n\nabout:\n  home: http://pypi.python.org/pypi/pysmbc\n  license: GNU GPL v2.0\n  license_file: COPYING\n  summary: libsmbclient binding for Python\n  dev_url: https://github.com/hamano/pysmbc\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -266,7 +277,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/p/pysmbc/pysmbc-1.0.15.8.tar.bz2",
- "version":"1.0.15.8",
+ "version":"1.0.22",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/hamano/pysmbc",
@@ -282,7 +293,7 @@
   },
   "package":{
    "name":"pysmbc",
-   "version":"1.0.15.8"
+   "version":"1.0.22"
   },
   "requirements":{
    "build":[
@@ -298,8 +309,11 @@
    ]
   },
   "source":{
-   "sha256":"0567c1789a911500b83c64becdaa0015c135cce0bcf59ec593df48859bebbf1d",
-   "url":"https://pypi.io/packages/source/p/pysmbc/pysmbc-1.0.15.8.tar.bz2"
+   "patches":[
+    "0001-setup.py-v1.0.22-install-issues.patch"
+   ],
+   "sha256":"f9ce6f8cf17a2e7867b3cd87b2a47eca04ed955f37937b617088698c06177eba",
+   "url":"https://pypi.io/packages/source/p/pysmbc/pysmbc-1.0.22.tar.gz"
   }
  },
  "win_64_requirements":{

@@ -4175,10 +4175,6 @@
   },
   {
    "source":"pytest",
-   "target":"recordwhat"
-  },
-  {
-   "source":"pytest",
    "target":"rixs"
   },
   {

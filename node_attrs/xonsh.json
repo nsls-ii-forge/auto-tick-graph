@@ -48,7 +48,7 @@
   },
   "package":{
    "name":"xonsh",
-   "version":"0.9.19"
+   "version":"0.9.20"
   },
   "requirements":{
    "host":[
@@ -64,16 +64,15 @@
    ]
   },
   "source":{
-   "sha256":"977d75dd5ddb7bb2d329e4a00f01b1bd8705a76ee2ecc02f91e470634213fb4c",
-   "url":"https://pypi.io/packages/source/x/xonsh/xonsh-0.9.19.tar.gz"
+   "sha256":"ae9b402c3414fff163ded477cbfd45dd00da6c750bbfd9311b656a86f83e0e7a",
+   "url":"https://pypi.io/packages/source/x/xonsh/xonsh-0.9.20.tar.gz"
   },
   "test":{
    "commands":[
     "USER=test xonsh -h"
    ],
    "imports":[
-    "xonsh",
-    "xonsh.__amalgam__"
+    "xonsh"
    ],
    "requires":[
     "pytest"
@@ -133,7 +132,7 @@
   },
   "package":{
    "name":"xonsh",
-   "version":"0.9.19"
+   "version":"0.9.20"
   },
   "requirements":{
    "host":[
@@ -164,8 +163,8 @@
    ]
   },
   "source":{
-   "sha256":"977d75dd5ddb7bb2d329e4a00f01b1bd8705a76ee2ecc02f91e470634213fb4c",
-   "url":"https://pypi.io/packages/source/x/xonsh/xonsh-0.9.19.tar.gz"
+   "sha256":"ae9b402c3414fff163ded477cbfd45dd00da6c750bbfd9311b656a86f83e0e7a",
+   "url":"https://pypi.io/packages/source/x/xonsh/xonsh-0.9.20.tar.gz"
   },
   "test":{
    "commands":[
@@ -175,11 +174,8 @@
    ],
    "imports":[
     "xonsh",
-    "xonsh.__amalgam__",
     "xonsh",
-    "xonsh.__amalgam__",
-    "xonsh",
-    "xonsh.__amalgam__"
+    "xonsh"
    ],
    "requires":[
     "pytest",
@@ -214,7 +210,7 @@
   },
   "package":{
    "name":"xonsh",
-   "version":"0.9.19"
+   "version":"0.9.20"
   },
   "requirements":{
    "host":[
@@ -230,16 +226,15 @@
    ]
   },
   "source":{
-   "sha256":"977d75dd5ddb7bb2d329e4a00f01b1bd8705a76ee2ecc02f91e470634213fb4c",
-   "url":"https://pypi.io/packages/source/x/xonsh/xonsh-0.9.19.tar.gz"
+   "sha256":"ae9b402c3414fff163ded477cbfd45dd00da6c750bbfd9311b656a86f83e0e7a",
+   "url":"https://pypi.io/packages/source/x/xonsh/xonsh-0.9.20.tar.gz"
   },
   "test":{
    "commands":[
     "USER=test xonsh -h"
    ],
    "imports":[
-    "xonsh",
-    "xonsh.__amalgam__"
+    "xonsh"
    ],
    "requires":[
     "pytest"
@@ -276,7 +271,7 @@
   }
  },
  "pinning_version":"2020.08.25.14.55.21",
- "raw_meta_yaml":"{% set name = \"xonsh\" %}\n{% set version = \"0.9.19\" %}\n{% set sha256 = \"977d75dd5ddb7bb2d329e4a00f01b1bd8705a76ee2ecc02f91e470634213fb4c\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv  # [not win]\n  entry_points:\n    - xonsh = xonsh.main:main\n    - xonsh-cat = xonsh.xoreutils.cat:cat_main\n  skip: true  # [py<36]\n\nrequirements:\n  host:\n    - python\n    - pip\n    - jupyter_client\n  run:\n    - python\n    - prompt_toolkit\n    - pygments >=2.2\n    - pyreadline  # [win]\n    - setproctitle\n\ntest:\n  requires:\n    - pytest\n  imports:\n    - xonsh\n    - xonsh.__amalgam__\n  commands:\n    - USER=test xonsh -h  # [unix]\n    - xonsh -h  # [win]\n\nabout:\n  home: http://xon.sh\n  license: BSD-2-Clause\n  license_file: license\n  summary: Python-powered, cross-platform, Unix-gazing shell\n  description: |\n    Xonsh is a Python-powered, cross-platform, Unix-gazing shell shell language\n    and command prompt. The language is a superset of Python 3.4+ with\n    additional shell primitives that you are used to from Bash and IPython. It\n    works on all major systems including Linux, Mac OSX, and Windows. Xonsh is\n    meant for the daily use of experts and novices alike.\n  doc_url: http://xon.sh\n  dev_url: https://github.com/xonsh/xonsh\n",
+ "raw_meta_yaml":"{% set name = \"xonsh\" %}\n{% set version = \"0.9.20\" %}\n{% set sha256 = \"ae9b402c3414fff163ded477cbfd45dd00da6c750bbfd9311b656a86f83e0e7a\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv  # [not win]\n  entry_points:\n    - xonsh = xonsh.main:main\n    - xonsh-cat = xonsh.xoreutils.cat:cat_main\n  skip: true  # [py<36]\n\nrequirements:\n  host:\n    - python\n    - pip\n    - jupyter_client\n  run:\n    - python\n    - prompt_toolkit\n    - pygments >=2.2\n    - pyreadline  # [win]\n    - setproctitle\n\ntest:\n  requires:\n    - pytest\n  imports:\n    - xonsh\n  commands:\n    - USER=test xonsh -h  # [unix]\n    - xonsh -h  # [win]\n\nabout:\n  home: http://xon.sh\n  license: BSD-2-Clause\n  license_file: license\n  summary: Python-powered, cross-platform, Unix-gazing shell\n  description: |\n    Xonsh is a Python-powered, cross-platform, Unix-gazing shell shell language\n    and command prompt. The language is a superset of Python 3.4+ with\n    additional shell primitives that you are used to from Bash and IPython. It\n    works on all major systems including Linux, Mac OSX, and Windows. Xonsh is\n    meant for the daily use of experts and novices alike.\n  doc_url: http://xon.sh\n  dev_url: https://github.com/xonsh/xonsh\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -352,7 +347,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/x/xonsh/xonsh-0.9.19.tar.gz",
- "version":"0.9.19",
+ "version":"0.9.20",
  "win_64_meta_yaml":{
   "about":{
    "description":"Xonsh is a Python-powered, cross-platform, Unix-gazing shell shell language\nand command prompt. The language is a superset of Python 3.4+ with\nadditional shell primitives that you are used to from Bash and IPython. It\nworks on all major systems including Linux, Mac OSX, and Windows. Xonsh is\nmeant for the daily use of experts and novices alike.\n",
@@ -372,7 +367,7 @@
   },
   "package":{
    "name":"xonsh",
-   "version":"0.9.19"
+   "version":"0.9.20"
   },
   "requirements":{
    "host":[
@@ -389,16 +384,15 @@
    ]
   },
   "source":{
-   "sha256":"977d75dd5ddb7bb2d329e4a00f01b1bd8705a76ee2ecc02f91e470634213fb4c",
-   "url":"https://pypi.io/packages/source/x/xonsh/xonsh-0.9.19.tar.gz"
+   "sha256":"ae9b402c3414fff163ded477cbfd45dd00da6c750bbfd9311b656a86f83e0e7a",
+   "url":"https://pypi.io/packages/source/x/xonsh/xonsh-0.9.20.tar.gz"
   },
   "test":{
    "commands":[
     "xonsh -h"
    ],
    "imports":[
-    "xonsh",
-    "xonsh.__amalgam__"
+    "xonsh"
    ],
    "requires":[
     "pytest"
