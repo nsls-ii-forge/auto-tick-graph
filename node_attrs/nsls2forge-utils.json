@@ -50,6 +50,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/476008495.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -262,11 +279,12 @@
   }
  },
  "name":"nsls2forge-utils",
- "new_version":"0.1.2",
+ "new_version":"0.1.3",
  "new_version_attempts":{
   "0.1.0":1,
   "0.1.1":1,
-  "0.1.2":1
+  "0.1.2":1,
+  "0.1.3":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
