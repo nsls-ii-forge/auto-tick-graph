@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/477185417.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.19"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -137,7 +156,11 @@
   }
  },
  "name":"asteval",
- "new_version":"0.9.18",
+ "new_version":"0.9.19",
+ "new_version_attempts":{
+  "0.9.19":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "description":"asteval is a simple and robust evaluator of\nPython expressions and statements, using Python's ast module.\n",
@@ -207,6 +230,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2020.08.29.21.09.48",
  "raw_meta_yaml":"{% set name = \"asteval\" %}\n{% set version = \"0.9.18\" %}\n{% set sha256 = \"5d64e18b8a72c2c7ae8f9b70d1f80b68bbcaa98c1c0d7047c35489d03209bc86\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - numpy\n    - pip\n    - six\n  run:\n    - python\n    - numpy\n    - six\n\ntest:\n  imports:\n    - {{ name }}\n\nabout:\n  home: https://github.com/newville/asteval\n  license: BSD\n  license_file: LICENSE\n  summary: 'Simple and robust expressions evaluator for Python'\n\n  # The remaining entries in this section are optional, but recommended\n  description: |\n    asteval is a simple and robust evaluator of\n    Python expressions and statements, using Python's ast module.\n  doc_url: http://newville.github.io/asteval/\n  dev_url: https://github.com/newville/asteval\n",
  "req":{
   "__set__":true,
@@ -244,6 +268,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.10",
  "strong_exports":false,
  "total_requirements":{
   "build":{

@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/477185282.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -337,7 +356,11 @@
   }
  },
  "name":"pyxrf",
- "new_version":"0.0.31",
+ "new_version":"1.0.0",
+ "new_version_attempts":{
+  "1.0.0":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/NSLS-II/pyxrf",
@@ -473,6 +496,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2020.08.29.21.09.48",
  "raw_meta_yaml":"{% set name = \"pyxrf\" %}\n{% set version = \"0.0.31\" %}\n{% set sha256 = \"4420b8303c79f8823016fcaa676d123652c43d7369258437dd6e6322f806b2aa\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  entry_points:\n    - pyxrf = pyxrf.gui:run\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - atom ==0.4.3\n    - dask\n    - distributed\n    - enaml ==0.10.4\n    - h5py >=2.9.0\n    - ipywidgets\n    - jsonschema\n    - jupyter\n    - lmfit >=0.8.3\n    - matplotlib\n    - numba\n    - numpy\n    - pandas\n    - pillow\n    - progress\n    - pyqt >=5.9.2\n    - pystackreg\n    - pyyaml\n    - requests\n    - scikit-beam >=0.0.21\n    - scikit-image\n    - scipy\n    - six\n    - tifffile\n\ntest:\n  imports:\n    - pyxrf\n    - pyxrf.api\n    - pyxrf.gui\n    - pyxrf.core.fitting\n    - pyxrf.core.quant_analysis\n    - pyxrf.core.utils\n    - pyxrf.core.xrf_utils\n    - pyxrf.core.yaml_param_files\n    - pyxrf.model\n    - pyxrf.model.command_tools\n    - pyxrf.model.data_to_analysis_store\n    - pyxrf.model.draw_image\n    - pyxrf.model.draw_image_rgb\n    - pyxrf.model.fileio\n    - pyxrf.model.fit_spectrum\n    - pyxrf.model.guessparam\n    - pyxrf.model.lineplot\n    - pyxrf.model.load_data_from_db\n    - pyxrf.model.param_data\n    - pyxrf.model.scan_metadata\n    - pyxrf.model.setting\n    - pyxrf.simulation.sim_xrf_scan_data\n    - pyxrf.view\n    - pyxrf.xanes_maps.xanes_maps_api\n\nabout:\n  home: https://github.com/NSLS-II/pyxrf\n  license: 3-Clause BSD\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'Python-based sophisticated fluorescence analysis package for fitting and visualizing X-ray fluorescence data'\n  dev_url: https://github.com/NSLS-II/pyxrf\n  doc_url: http://nsls-ii.github.io/PyXRF\n",
  "req":{
   "__set__":true,
@@ -552,6 +576,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.10",
  "strong_exports":false,
  "total_requirements":{
   "build":{
