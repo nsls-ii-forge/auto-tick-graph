@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/477245002.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -140,7 +159,11 @@
   }
  },
  "name":"conda-pack",
- "new_version":"0.4.0",
+ "new_version":"0.5.0",
+ "new_version_attempts":{
+  "0.5.0":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "description":"``conda-pack`` is a command line tool for creating relocatable conda\nenvironments. This is useful for deploying code in a consistent environment,\npotentially in a location where python/conda isn't already installed.\n",
@@ -211,6 +234,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2020.08.29.21.09.48",
  "raw_meta_yaml":"{% set name = \"conda-pack\" %}\n{% set version = \"0.4.0\" %}\n{% set sha256 = \"70bf587cacfabd93d2ec4f3eda3e50e2661e7f92e994879ca1e2d61a8f9a225f\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: python -m pip install --no-deps .\n  entry_points:\n    - conda-pack = conda_pack.cli:main\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - setuptools\n\ntest:\n  commands:\n    - conda-pack --help\n  imports:\n    - conda_pack\n\nabout:\n  home: https://conda.github.io/conda-pack\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: Package conda environments for redistribution\n  description: |\n    ``conda-pack`` is a command line tool for creating relocatable conda\n    environments. This is useful for deploying code in a consistent environment,\n    potentially in a location where python/conda isn't already installed.\n  doc_url: https://conda.github.io/conda-pack\n  dev_url: https://github.com/conda/conda-pack\n",
  "req":{
   "__set__":true,
@@ -244,6 +268,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.10",
  "strong_exports":false,
  "total_requirements":{
   "build":{
