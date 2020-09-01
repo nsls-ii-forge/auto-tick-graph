@@ -1,5 +1,6 @@
 [
   "xraydb",
   "nbclient",
-  "nsls2forge-utils"
+  "nsls2forge-utils",
+  "pykern"
 ]
