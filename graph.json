@@ -1014,10 +1014,6 @@
    "target":"nsls2-analysis"
   },
   {
-   "source":"enaml",
-   "target":"pyxrf"
-  },
-  {
    "source":"entrypoints",
    "target":"intake"
   },
@@ -5136,6 +5132,10 @@
   {
    "source":"qtpy",
    "target":"nexpy"
+  },
+  {
+   "source":"qtpy",
+   "target":"pyxrf"
   },
   {
    "source":"qtpy",

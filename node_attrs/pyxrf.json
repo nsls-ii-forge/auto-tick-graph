@@ -30,25 +30,25 @@
  "hash_type":"sha256",
  "linux_64_meta_yaml":{
   "about":{
-   "dev_url":"https://github.com/NSLS-II/pyxrf",
+   "dev_url":"https://github.com/NSLS-II/PyXRF",
    "doc_url":"http://nsls-ii.github.io/PyXRF",
-   "home":"https://github.com/NSLS-II/pyxrf",
-   "license":"3-Clause BSD",
+   "home":"https://github.com/NSLS-II/PyXRF",
+   "license":"BSD-3-Clause",
    "license_family":"BSD",
    "license_file":"LICENSE",
    "summary":"Python-based sophisticated fluorescence analysis package for fitting and visualizing X-ray fluorescence data"
   },
   "build":{
    "entry_points":[
-    "pyxrf = pyxrf.gui:run"
+    "pyxrf = pyxrf.pyxrf_run:run"
    ],
    "noarch":"python",
-   "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "number":"1",
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"pyxrf",
-   "version":"0.0.31"
+   "version":"1.0.0"
   },
   "requirements":{
    "host":[
@@ -60,7 +60,6 @@
     "atom ==0.4.3",
     "dask",
     "distributed",
-    "enaml ==0.10.4",
     "h5py >=2.9.0",
     "ipywidgets",
     "jsonschema",
@@ -73,10 +72,11 @@
     "pillow",
     "progress",
     "pyqt >=5.9.2",
+    "qtpy >=1.9.0",
     "pystackreg",
     "pyyaml",
     "requests",
-    "scikit-beam >=0.0.21",
+    "scikit-beam >=0.0.23",
     "scikit-image",
     "scipy",
     "six",
@@ -84,14 +84,16 @@
    ]
   },
   "source":{
-   "sha256":"4420b8303c79f8823016fcaa676d123652c43d7369258437dd6e6322f806b2aa",
-   "url":"https://pypi.io/packages/source/p/pyxrf/pyxrf-0.0.31.tar.gz"
+   "sha256":"a70898faa1dbac3b89c1480ab2128c76d017acd67a8f92333a600907f07df6a7",
+   "url":"https://pypi.io/packages/source/p/pyxrf/pyxrf-1.0.0.tar.gz"
   },
   "test":{
    "imports":[
     "pyxrf",
     "pyxrf.api",
-    "pyxrf.gui",
+    "pyxrf.api_dev",
+    "pyxrf.gui_module",
+    "pyxrf.gui_support",
     "pyxrf.core.fitting",
     "pyxrf.core.quant_analysis",
     "pyxrf.core.utils",
@@ -111,7 +113,6 @@
     "pyxrf.model.scan_metadata",
     "pyxrf.model.setting",
     "pyxrf.simulation.sim_xrf_scan_data",
-    "pyxrf.view",
     "pyxrf.xanes_maps.xanes_maps_api"
    ]
   }
@@ -134,7 +135,6 @@
     "atom",
     "dask",
     "distributed",
-    "enaml",
     "h5py",
     "ipywidgets",
     "jsonschema",
@@ -150,6 +150,7 @@
     "pystackreg",
     "python",
     "pyyaml",
+    "qtpy",
     "requests",
     "scikit-beam",
     "scikit-image",
@@ -165,27 +166,27 @@
  },
  "meta_yaml":{
   "about":{
-   "dev_url":"https://github.com/NSLS-II/pyxrf",
+   "dev_url":"https://github.com/NSLS-II/PyXRF",
    "doc_url":"http://nsls-ii.github.io/PyXRF",
-   "home":"https://github.com/NSLS-II/pyxrf",
-   "license":"3-Clause BSD",
+   "home":"https://github.com/NSLS-II/PyXRF",
+   "license":"BSD-3-Clause",
    "license_family":"BSD",
    "license_file":"LICENSE",
    "summary":"Python-based sophisticated fluorescence analysis package for fitting and visualizing X-ray fluorescence data"
   },
   "build":{
    "entry_points":[
-    "pyxrf = pyxrf.gui:run",
-    "pyxrf = pyxrf.gui:run",
-    "pyxrf = pyxrf.gui:run"
+    "pyxrf = pyxrf.pyxrf_run:run",
+    "pyxrf = pyxrf.pyxrf_run:run",
+    "pyxrf = pyxrf.pyxrf_run:run"
    ],
    "noarch":"python",
-   "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "number":"1",
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"pyxrf",
-   "version":"0.0.31"
+   "version":"1.0.0"
   },
   "requirements":{
    "host":[
@@ -201,7 +202,6 @@
     "atom ==0.4.3",
     "dask",
     "distributed",
-    "enaml ==0.10.4",
     "h5py >=2.9.0",
     "ipywidgets",
     "jsonschema",
@@ -214,10 +214,11 @@
     "pillow",
     "progress",
     "pyqt >=5.9.2",
+    "qtpy >=1.9.0",
     "pystackreg",
     "pyyaml",
     "requests",
-    "scikit-beam >=0.0.21",
+    "scikit-beam >=0.0.23",
     "scikit-image",
     "scipy",
     "six",
@@ -226,7 +227,6 @@
     "atom ==0.4.3",
     "dask",
     "distributed",
-    "enaml ==0.10.4",
     "h5py >=2.9.0",
     "ipywidgets",
     "jsonschema",
@@ -239,10 +239,11 @@
     "pillow",
     "progress",
     "pyqt >=5.9.2",
+    "qtpy >=1.9.0",
     "pystackreg",
     "pyyaml",
     "requests",
-    "scikit-beam >=0.0.21",
+    "scikit-beam >=0.0.23",
     "scikit-image",
     "scipy",
     "six",
@@ -251,7 +252,6 @@
     "atom ==0.4.3",
     "dask",
     "distributed",
-    "enaml ==0.10.4",
     "h5py >=2.9.0",
     "ipywidgets",
     "jsonschema",
@@ -264,10 +264,11 @@
     "pillow",
     "progress",
     "pyqt >=5.9.2",
+    "qtpy >=1.9.0",
     "pystackreg",
     "pyyaml",
     "requests",
-    "scikit-beam >=0.0.21",
+    "scikit-beam >=0.0.23",
     "scikit-image",
     "scipy",
     "six",
@@ -275,14 +276,16 @@
    ]
   },
   "source":{
-   "sha256":"4420b8303c79f8823016fcaa676d123652c43d7369258437dd6e6322f806b2aa",
-   "url":"https://pypi.io/packages/source/p/pyxrf/pyxrf-0.0.31.tar.gz"
+   "sha256":"a70898faa1dbac3b89c1480ab2128c76d017acd67a8f92333a600907f07df6a7",
+   "url":"https://pypi.io/packages/source/p/pyxrf/pyxrf-1.0.0.tar.gz"
   },
   "test":{
    "imports":[
     "pyxrf",
     "pyxrf.api",
-    "pyxrf.gui",
+    "pyxrf.api_dev",
+    "pyxrf.gui_module",
+    "pyxrf.gui_support",
     "pyxrf.core.fitting",
     "pyxrf.core.quant_analysis",
     "pyxrf.core.utils",
@@ -302,11 +305,12 @@
     "pyxrf.model.scan_metadata",
     "pyxrf.model.setting",
     "pyxrf.simulation.sim_xrf_scan_data",
-    "pyxrf.view",
     "pyxrf.xanes_maps.xanes_maps_api",
     "pyxrf",
     "pyxrf.api",
-    "pyxrf.gui",
+    "pyxrf.api_dev",
+    "pyxrf.gui_module",
+    "pyxrf.gui_support",
     "pyxrf.core.fitting",
     "pyxrf.core.quant_analysis",
     "pyxrf.core.utils",
@@ -326,11 +330,12 @@
     "pyxrf.model.scan_metadata",
     "pyxrf.model.setting",
     "pyxrf.simulation.sim_xrf_scan_data",
-    "pyxrf.view",
     "pyxrf.xanes_maps.xanes_maps_api",
     "pyxrf",
     "pyxrf.api",
-    "pyxrf.gui",
+    "pyxrf.api_dev",
+    "pyxrf.gui_module",
+    "pyxrf.gui_support",
     "pyxrf.core.fitting",
     "pyxrf.core.quant_analysis",
     "pyxrf.core.utils",
@@ -350,7 +355,6 @@
     "pyxrf.model.scan_metadata",
     "pyxrf.model.setting",
     "pyxrf.simulation.sim_xrf_scan_data",
-    "pyxrf.view",
     "pyxrf.xanes_maps.xanes_maps_api"
    ]
   }
@@ -363,25 +367,25 @@
  "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
-   "dev_url":"https://github.com/NSLS-II/pyxrf",
+   "dev_url":"https://github.com/NSLS-II/PyXRF",
    "doc_url":"http://nsls-ii.github.io/PyXRF",
-   "home":"https://github.com/NSLS-II/pyxrf",
-   "license":"3-Clause BSD",
+   "home":"https://github.com/NSLS-II/PyXRF",
+   "license":"BSD-3-Clause",
    "license_family":"BSD",
    "license_file":"LICENSE",
    "summary":"Python-based sophisticated fluorescence analysis package for fitting and visualizing X-ray fluorescence data"
   },
   "build":{
    "entry_points":[
-    "pyxrf = pyxrf.gui:run"
+    "pyxrf = pyxrf.pyxrf_run:run"
    ],
    "noarch":"python",
-   "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "number":"1",
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"pyxrf",
-   "version":"0.0.31"
+   "version":"1.0.0"
   },
   "requirements":{
    "host":[
@@ -393,7 +397,6 @@
     "atom ==0.4.3",
     "dask",
     "distributed",
-    "enaml ==0.10.4",
     "h5py >=2.9.0",
     "ipywidgets",
     "jsonschema",
@@ -406,10 +409,11 @@
     "pillow",
     "progress",
     "pyqt >=5.9.2",
+    "qtpy >=1.9.0",
     "pystackreg",
     "pyyaml",
     "requests",
-    "scikit-beam >=0.0.21",
+    "scikit-beam >=0.0.23",
     "scikit-image",
     "scipy",
     "six",
@@ -417,14 +421,16 @@
    ]
   },
   "source":{
-   "sha256":"4420b8303c79f8823016fcaa676d123652c43d7369258437dd6e6322f806b2aa",
-   "url":"https://pypi.io/packages/source/p/pyxrf/pyxrf-0.0.31.tar.gz"
+   "sha256":"a70898faa1dbac3b89c1480ab2128c76d017acd67a8f92333a600907f07df6a7",
+   "url":"https://pypi.io/packages/source/p/pyxrf/pyxrf-1.0.0.tar.gz"
   },
   "test":{
    "imports":[
     "pyxrf",
     "pyxrf.api",
-    "pyxrf.gui",
+    "pyxrf.api_dev",
+    "pyxrf.gui_module",
+    "pyxrf.gui_support",
     "pyxrf.core.fitting",
     "pyxrf.core.quant_analysis",
     "pyxrf.core.utils",
@@ -444,7 +450,6 @@
     "pyxrf.model.scan_metadata",
     "pyxrf.model.setting",
     "pyxrf.simulation.sim_xrf_scan_data",
-    "pyxrf.view",
     "pyxrf.xanes_maps.xanes_maps_api"
    ]
   }
@@ -467,7 +472,6 @@
     "atom",
     "dask",
     "distributed",
-    "enaml",
     "h5py",
     "ipywidgets",
     "jsonschema",
@@ -483,6 +487,7 @@
     "pystackreg",
     "python",
     "pyyaml",
+    "qtpy",
     "requests",
     "scikit-beam",
     "scikit-image",
@@ -497,14 +502,13 @@
   }
  },
  "pinning_version":"2020.08.29.21.09.48",
- "raw_meta_yaml":"{% set name = \"pyxrf\" %}\n{% set version = \"0.0.31\" %}\n{% set sha256 = \"4420b8303c79f8823016fcaa676d123652c43d7369258437dd6e6322f806b2aa\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  entry_points:\n    - pyxrf = pyxrf.gui:run\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - atom ==0.4.3\n    - dask\n    - distributed\n    - enaml ==0.10.4\n    - h5py >=2.9.0\n    - ipywidgets\n    - jsonschema\n    - jupyter\n    - lmfit >=0.8.3\n    - matplotlib\n    - numba\n    - numpy\n    - pandas\n    - pillow\n    - progress\n    - pyqt >=5.9.2\n    - pystackreg\n    - pyyaml\n    - requests\n    - scikit-beam >=0.0.21\n    - scikit-image\n    - scipy\n    - six\n    - tifffile\n\ntest:\n  imports:\n    - pyxrf\n    - pyxrf.api\n    - pyxrf.gui\n    - pyxrf.core.fitting\n    - pyxrf.core.quant_analysis\n    - pyxrf.core.utils\n    - pyxrf.core.xrf_utils\n    - pyxrf.core.yaml_param_files\n    - pyxrf.model\n    - pyxrf.model.command_tools\n    - pyxrf.model.data_to_analysis_store\n    - pyxrf.model.draw_image\n    - pyxrf.model.draw_image_rgb\n    - pyxrf.model.fileio\n    - pyxrf.model.fit_spectrum\n    - pyxrf.model.guessparam\n    - pyxrf.model.lineplot\n    - pyxrf.model.load_data_from_db\n    - pyxrf.model.param_data\n    - pyxrf.model.scan_metadata\n    - pyxrf.model.setting\n    - pyxrf.simulation.sim_xrf_scan_data\n    - pyxrf.view\n    - pyxrf.xanes_maps.xanes_maps_api\n\nabout:\n  home: https://github.com/NSLS-II/pyxrf\n  license: 3-Clause BSD\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'Python-based sophisticated fluorescence analysis package for fitting and visualizing X-ray fluorescence data'\n  dev_url: https://github.com/NSLS-II/pyxrf\n  doc_url: http://nsls-ii.github.io/PyXRF\n",
+ "raw_meta_yaml":"{% set name = \"pyxrf\" %}\n{% set version = \"1.0.0\" %}\n{% set sha256 = \"a70898faa1dbac3b89c1480ab2128c76d017acd67a8f92333a600907f07df6a7\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 1\n  entry_points:\n    - pyxrf = pyxrf.pyxrf_run:run\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - atom ==0.4.3\n    - dask\n    - distributed\n    - h5py >=2.9.0\n    - ipywidgets\n    - jsonschema\n    - jupyter\n    - lmfit >=0.8.3\n    - matplotlib\n    - numba\n    - numpy\n    - pandas\n    - pillow\n    - progress\n    - pyqt >=5.9.2\n    - qtpy >=1.9.0\n    - pystackreg\n    - pyyaml\n    - requests\n    - scikit-beam >=0.0.23\n    - scikit-image\n    - scipy\n    - six\n    - tifffile\n\ntest:\n  imports:\n    - pyxrf\n    - pyxrf.api\n    - pyxrf.api_dev\n    - pyxrf.gui_module\n    - pyxrf.gui_support\n    - pyxrf.core.fitting\n    - pyxrf.core.quant_analysis\n    - pyxrf.core.utils\n    - pyxrf.core.xrf_utils\n    - pyxrf.core.yaml_param_files\n    - pyxrf.model\n    - pyxrf.model.command_tools\n    - pyxrf.model.data_to_analysis_store\n    - pyxrf.model.draw_image\n    - pyxrf.model.draw_image_rgb\n    - pyxrf.model.fileio\n    - pyxrf.model.fit_spectrum\n    - pyxrf.model.guessparam\n    - pyxrf.model.lineplot\n    - pyxrf.model.load_data_from_db\n    - pyxrf.model.param_data\n    - pyxrf.model.scan_metadata\n    - pyxrf.model.setting\n    - pyxrf.simulation.sim_xrf_scan_data\n    - pyxrf.xanes_maps.xanes_maps_api\n\nabout:\n  home: https://github.com/NSLS-II/PyXRF\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Python-based sophisticated fluorescence analysis package for fitting and visualizing X-ray fluorescence data\n  dev_url: https://github.com/NSLS-II/PyXRF\n  doc_url: http://nsls-ii.github.io/PyXRF\n",
  "req":{
   "__set__":true,
   "elements":[
    "atom",
    "dask",
    "distributed",
-   "enaml",
    "h5py",
    "ipywidgets",
    "jsonschema",
@@ -521,6 +525,7 @@
    "pystackreg",
    "python",
    "pyyaml",
+   "qtpy",
    "requests",
    "scikit-beam",
    "scikit-image",
@@ -547,7 +552,6 @@
     "atom",
     "dask",
     "distributed",
-    "enaml",
     "h5py",
     "ipywidgets",
     "jsonschema",
@@ -563,6 +567,7 @@
     "pystackreg",
     "python",
     "pyyaml",
+    "qtpy",
     "requests",
     "scikit-beam",
     "scikit-image",
@@ -596,7 +601,6 @@
     "atom ==0.4.3",
     "dask",
     "distributed",
-    "enaml ==0.10.4",
     "h5py >=2.9.0",
     "ipywidgets",
     "jsonschema",
@@ -612,8 +616,9 @@
     "pystackreg",
     "python",
     "pyyaml",
+    "qtpy >=1.9.0",
     "requests",
-    "scikit-beam >=0.0.21",
+    "scikit-beam >=0.0.23",
     "scikit-image",
     "scipy",
     "six",
@@ -626,28 +631,28 @@
   }
  },
  "url":"https://pypi.io/packages/source/p/pyxrf/pyxrf-0.0.31.tar.gz",
- "version":"0.0.31",
+ "version":"1.0.0",
  "win_64_meta_yaml":{
   "about":{
-   "dev_url":"https://github.com/NSLS-II/pyxrf",
+   "dev_url":"https://github.com/NSLS-II/PyXRF",
    "doc_url":"http://nsls-ii.github.io/PyXRF",
-   "home":"https://github.com/NSLS-II/pyxrf",
-   "license":"3-Clause BSD",
+   "home":"https://github.com/NSLS-II/PyXRF",
+   "license":"BSD-3-Clause",
    "license_family":"BSD",
    "license_file":"LICENSE",
    "summary":"Python-based sophisticated fluorescence analysis package for fitting and visualizing X-ray fluorescence data"
   },
   "build":{
    "entry_points":[
-    "pyxrf = pyxrf.gui:run"
+    "pyxrf = pyxrf.pyxrf_run:run"
    ],
    "noarch":"python",
-   "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "number":"1",
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"pyxrf",
-   "version":"0.0.31"
+   "version":"1.0.0"
   },
   "requirements":{
    "host":[
@@ -659,7 +664,6 @@
     "atom ==0.4.3",
     "dask",
     "distributed",
-    "enaml ==0.10.4",
     "h5py >=2.9.0",
     "ipywidgets",
     "jsonschema",
@@ -672,10 +676,11 @@
     "pillow",
     "progress",
     "pyqt >=5.9.2",
+    "qtpy >=1.9.0",
     "pystackreg",
     "pyyaml",
     "requests",
-    "scikit-beam >=0.0.21",
+    "scikit-beam >=0.0.23",
     "scikit-image",
     "scipy",
     "six",
@@ -683,14 +688,16 @@
    ]
   },
   "source":{
-   "sha256":"4420b8303c79f8823016fcaa676d123652c43d7369258437dd6e6322f806b2aa",
-   "url":"https://pypi.io/packages/source/p/pyxrf/pyxrf-0.0.31.tar.gz"
+   "sha256":"a70898faa1dbac3b89c1480ab2128c76d017acd67a8f92333a600907f07df6a7",
+   "url":"https://pypi.io/packages/source/p/pyxrf/pyxrf-1.0.0.tar.gz"
   },
   "test":{
    "imports":[
     "pyxrf",
     "pyxrf.api",
-    "pyxrf.gui",
+    "pyxrf.api_dev",
+    "pyxrf.gui_module",
+    "pyxrf.gui_support",
     "pyxrf.core.fitting",
     "pyxrf.core.quant_analysis",
     "pyxrf.core.utils",
@@ -710,7 +717,6 @@
     "pyxrf.model.scan_metadata",
     "pyxrf.model.setting",
     "pyxrf.simulation.sim_xrf_scan_data",
-    "pyxrf.view",
     "pyxrf.xanes_maps.xanes_maps_api"
    ]
   }
@@ -733,7 +739,6 @@
     "atom",
     "dask",
     "distributed",
-    "enaml",
     "h5py",
     "ipywidgets",
     "jsonschema",
@@ -749,6 +754,7 @@
     "pystackreg",
     "python",
     "pyyaml",
+    "qtpy",
     "requests",
     "scikit-beam",
     "scikit-image",
