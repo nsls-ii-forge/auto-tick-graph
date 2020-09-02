@@ -1,4 +1,5 @@
 [
+  "reportlab",
   "xraydb",
   "nbclient",
   "nsls2forge-utils",
