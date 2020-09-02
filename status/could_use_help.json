@@ -2,5 +2,6 @@
   "xraydb",
   "nbclient",
   "nsls2forge-utils",
+  "httpx",
   "pykern"
 ]
