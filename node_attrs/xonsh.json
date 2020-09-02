@@ -185,11 +185,14 @@
   }
  },
  "name":"xonsh",
- "new_version":"0.9.20",
+ "new_version":"0.9.21",
  "new_version_attempts":{
-  "0.9.20":1
+  "0.9.20":1,
+  "0.9.21":1
  },
- "new_version_errors":{},
+ "new_version_errors":{
+  "0.9.21":"The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '0.9.21' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz'\n"
+ },
  "osx_64_meta_yaml":{
   "about":{
    "description":"Xonsh is a Python-powered, cross-platform, Unix-gazing shell shell language\nand command prompt. The language is a superset of Python 3.4+ with\nadditional shell primitives that you are used to from Bash and IPython. It\nworks on all major systems including Linux, Mac OSX, and Windows. Xonsh is\nmeant for the daily use of experts and novices alike.\n",
