@@ -76,7 +76,7 @@
   },
   "package":{
    "name":"reportlab",
-   "version":"3.5.48"
+   "version":"3.5.49"
   },
   "requirements":{
    "build":[
@@ -94,8 +94,8 @@
    ]
   },
   "source":{
-   "sha256":"0bfe3fe6e1bd1d922f83683eae2ba1d2d29de94e25fb115eacca9530b4b02f76",
-   "url":"https://pypi.io/packages/source/r/reportlab/reportlab-3.5.48.tar.gz"
+   "sha256":"2ccf5165aa64e51abf240cd3f0062b860bb19346bd2c268fb00c33c09a53f8a8",
+   "url":"https://pypi.io/packages/source/r/reportlab/reportlab-3.5.49.tar.gz"
   },
   "test":{
    "commands":[
@@ -162,7 +162,7 @@
   },
   "package":{
    "name":"reportlab",
-   "version":"3.5.48"
+   "version":"3.5.49"
   },
   "requirements":{
    "build":[
@@ -194,8 +194,8 @@
    ]
   },
   "source":{
-   "sha256":"0bfe3fe6e1bd1d922f83683eae2ba1d2d29de94e25fb115eacca9530b4b02f76",
-   "url":"https://pypi.io/packages/source/r/reportlab/reportlab-3.5.48.tar.gz"
+   "sha256":"2ccf5165aa64e51abf240cd3f0062b860bb19346bd2c268fb00c33c09a53f8a8",
+   "url":"https://pypi.io/packages/source/r/reportlab/reportlab-3.5.49.tar.gz"
   },
   "test":{
    "commands":[
@@ -268,7 +268,7 @@
   },
   "package":{
    "name":"reportlab",
-   "version":"3.5.48"
+   "version":"3.5.49"
   },
   "requirements":{
    "build":[
@@ -286,8 +286,8 @@
    ]
   },
   "source":{
-   "sha256":"0bfe3fe6e1bd1d922f83683eae2ba1d2d29de94e25fb115eacca9530b4b02f76",
-   "url":"https://pypi.io/packages/source/r/reportlab/reportlab-3.5.48.tar.gz"
+   "sha256":"2ccf5165aa64e51abf240cd3f0062b860bb19346bd2c268fb00c33c09a53f8a8",
+   "url":"https://pypi.io/packages/source/r/reportlab/reportlab-3.5.49.tar.gz"
   },
   "test":{
    "commands":[
@@ -341,7 +341,7 @@
   }
  },
  "pinning_version":"2020.09.02.16.41.07",
- "raw_meta_yaml":"{% set name = \"reportlab\" %}\n{% set version = \"3.5.48\" %}\n{% set sha256 = \"0bfe3fe6e1bd1d922f83683eae2ba1d2d29de94e25fb115eacca9530b4b02f76\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  skip: true  # [py<36]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - python\n    - pip\n    - freetype\n  run:\n    - python\n    - freetype  # it is a dependency of pillow, but putting it here explicitly\n    - pillow >=2.4.0\n\ntest:\n  imports:\n    - reportlab\n    - reportlab.graphics.charts\n    - reportlab.graphics.samples\n    - reportlab.graphics.widgets\n    - reportlab.graphics.barcode\n    - reportlab.graphics\n    - reportlab.lib\n    - reportlab.pdfbase\n    - reportlab.pdfgen\n    - reportlab.platypus\n  source_files:\n    - docs/\n    - tests/\n    - tools/\n  commands:\n    - cd tests && $PYTHON runAll.py    # [not win]\n    # Skip full Windows tests for now. See\n    # https://github.com/nsls-ii-forge/reportlab-feedstock/pull/4 for details.\n    # - \"cd tests && %PYTHON% runAll.py\"  # [win]\n\nabout:\n  home: https://www.reportlab.com\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: Open-source engine for creating complex, data-driven PDF documents and custom vector graphics\n  doc_url: https://www.reportlab.com/dev/docs\n",
+ "raw_meta_yaml":"{% set name = \"reportlab\" %}\n{% set version = \"3.5.49\" %}\n{% set sha256 = \"2ccf5165aa64e51abf240cd3f0062b860bb19346bd2c268fb00c33c09a53f8a8\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  skip: true  # [py<36]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - python\n    - pip\n    - freetype\n  run:\n    - python\n    - freetype  # it is a dependency of pillow, but putting it here explicitly\n    - pillow >=2.4.0\n\ntest:\n  imports:\n    - reportlab\n    - reportlab.graphics.charts\n    - reportlab.graphics.samples\n    - reportlab.graphics.widgets\n    - reportlab.graphics.barcode\n    - reportlab.graphics\n    - reportlab.lib\n    - reportlab.pdfbase\n    - reportlab.pdfgen\n    - reportlab.platypus\n  source_files:\n    - docs/\n    - tests/\n    - tools/\n  commands:\n    - cd tests && $PYTHON runAll.py    # [not win]\n    # Skip full Windows tests for now. See\n    # https://github.com/nsls-ii-forge/reportlab-feedstock/pull/4 for details.\n    # - \"cd tests && %PYTHON% runAll.py\"  # [win]\n\nabout:\n  home: https://www.reportlab.com\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: Open-source engine for creating complex, data-driven PDF documents and custom vector graphics\n  doc_url: https://www.reportlab.com/dev/docs\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -411,7 +411,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/r/reportlab/reportlab-3.5.44.tar.gz",
- "version":"3.5.48",
+ "version":"3.5.49",
  "win_64_meta_yaml":{
   "about":{
    "doc_url":"https://www.reportlab.com/dev/docs",
@@ -426,7 +426,7 @@
   },
   "package":{
    "name":"reportlab",
-   "version":"3.5.48"
+   "version":"3.5.49"
   },
   "requirements":{
    "build":[
@@ -444,8 +444,8 @@
    ]
   },
   "source":{
-   "sha256":"0bfe3fe6e1bd1d922f83683eae2ba1d2d29de94e25fb115eacca9530b4b02f76",
-   "url":"https://pypi.io/packages/source/r/reportlab/reportlab-3.5.48.tar.gz"
+   "sha256":"2ccf5165aa64e51abf240cd3f0062b860bb19346bd2c268fb00c33c09a53f8a8",
+   "url":"https://pypi.io/packages/source/r/reportlab/reportlab-3.5.49.tar.gz"
   },
   "test":{
    "commands":null,
