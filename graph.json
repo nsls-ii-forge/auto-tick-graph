@@ -423,6 +423,10 @@
   },
   {
    "source":"c_compiler_stub",
+   "target":"srwpy"
+  },
+  {
+   "source":"c_compiler_stub",
    "target":"uwsgi"
   },
   {
@@ -744,6 +748,10 @@
   {
    "source":"cxx_compiler_stub",
    "target":"srw"
+  },
+  {
+   "source":"cxx_compiler_stub",
+   "target":"srwpy"
   },
   {
    "source":"cxx_compiler_stub",
@@ -2119,6 +2127,10 @@
   },
   {
    "source":"matplotlib",
+   "target":"srwpy"
+  },
+  {
+   "source":"matplotlib",
    "target":"wxmplot"
   },
   {
@@ -2699,6 +2711,10 @@
   },
   {
    "source":"numpy",
+   "target":"srwpy"
+  },
+  {
+   "source":"numpy",
    "target":"tifffile"
   },
   {
@@ -3039,6 +3055,10 @@
   },
   {
    "source":"pillow",
+   "target":"srwpy"
+  },
+  {
+   "source":"pillow",
    "target":"xhtml2pdf"
   },
   {
@@ -3180,6 +3200,10 @@
   {
    "source":"pip",
    "target":"databroker-pack"
+  },
+  {
+   "source":"pip",
+   "target":"delocate"
   },
   {
    "source":"pip",
@@ -3639,6 +3663,10 @@
   },
   {
    "source":"pip",
+   "target":"srwpy"
+  },
+  {
+   "source":"pip",
    "target":"suitcase-csv"
   },
   {
@@ -4034,10 +4062,6 @@
    "target":"pykern"
   },
   {
-   "source":"pyqt5",
-   "target":"sirepo-bluesky"
-  },
-  {
    "source":"pyqt",
    "target":"analysis"
   },
@@ -4080,6 +4104,10 @@
   {
    "source":"pyqt",
    "target":"sasview"
+  },
+  {
+   "source":"pyqt",
+   "target":"sirepo-bluesky"
   },
   {
    "source":"pyqt",
@@ -4452,6 +4480,10 @@
   {
    "source":"python",
    "target":"databroker-pack"
+  },
+  {
+   "source":"python",
+   "target":"delocate"
   },
   {
    "source":"python",
@@ -4940,6 +4972,10 @@
   {
    "source":"python",
    "target":"srw"
+  },
+  {
+   "source":"python",
+   "target":"srwpy"
   },
   {
    "source":"python",
@@ -5544,6 +5580,10 @@
   {
    "source":"scipy",
    "target":"srw"
+  },
+  {
+   "source":"scipy",
+   "target":"srwpy"
   },
   {
    "source":"scipy",
@@ -6224,6 +6264,14 @@
   {
    "source":"weakrefmethod",
    "target":"signalslot"
+  },
+  {
+   "source":"wget",
+   "target":"srwpy"
+  },
+  {
+   "source":"wheel",
+   "target":"delocate"
   },
   {
    "source":"wheel",
@@ -9304,6 +9352,18 @@
    "id":"pyqt5",
    "payload":{
     "__lazy_json__":"node_attrs/pyqt5.json"
+   }
+  },
+  {
+   "id":"delocate",
+   "payload":{
+    "__lazy_json__":"node_attrs/delocate.json"
+   }
+  },
+  {
+   "id":"wget",
+   "payload":{
+    "__lazy_json__":"node_attrs/wget.json"
    }
   }
  ]
