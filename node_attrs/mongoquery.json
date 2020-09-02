@@ -18,7 +18,7 @@
    ]
   }
  ],
- "bad":false,
+ "bad":"Upstream: Error getting upstream version",
  "conda-forge.yml":{
   "provider":{
    "linux":"azure",
@@ -38,11 +38,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"mongoquery",
-   "version":"1.2.0"
+   "version":"1.3.0"
   },
   "requirements":{
    "build":[
@@ -50,12 +50,13 @@
     "pip"
    ],
    "run":[
-    "python"
+    "python",
+    "six"
    ]
   },
   "source":{
-   "sha256":"2a996a0c78bd273e0be59b0592ce4f118b9db084c4920b58de1a1f94e837d06a",
-   "url":"https://pypi.io/packages/source/m/mongoquery/mongoquery-1.2.0.tar.gz"
+   "sha256":"381c092dafd6f36ab919e3a879ea60811394e46b77e652dc9b2927f2707d7b8b",
+   "url":"https://pypi.io/packages/source/m/mongoquery/mongoquery-1.3.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -78,7 +79,8 @@
   "run":{
    "__set__":true,
    "elements":[
-    "python"
+    "python",
+    "six"
    ]
   },
   "test":{
@@ -96,11 +98,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"mongoquery",
-   "version":"1.2.0"
+   "version":"1.3.0"
   },
   "requirements":{
    "build":[
@@ -113,13 +115,16 @@
    ],
    "run":[
     "python",
+    "six",
     "python",
-    "python"
+    "six",
+    "python",
+    "six"
    ]
   },
   "source":{
-   "sha256":"2a996a0c78bd273e0be59b0592ce4f118b9db084c4920b58de1a1f94e837d06a",
-   "url":"https://pypi.io/packages/source/m/mongoquery/mongoquery-1.2.0.tar.gz"
+   "sha256":"381c092dafd6f36ab919e3a879ea60811394e46b77e652dc9b2927f2707d7b8b",
+   "url":"https://pypi.io/packages/source/m/mongoquery/mongoquery-1.3.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -145,11 +150,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"mongoquery",
-   "version":"1.2.0"
+   "version":"1.3.0"
   },
   "requirements":{
    "build":[
@@ -157,12 +162,13 @@
     "pip"
    ],
    "run":[
-    "python"
+    "python",
+    "six"
    ]
   },
   "source":{
-   "sha256":"2a996a0c78bd273e0be59b0592ce4f118b9db084c4920b58de1a1f94e837d06a",
-   "url":"https://pypi.io/packages/source/m/mongoquery/mongoquery-1.2.0.tar.gz"
+   "sha256":"381c092dafd6f36ab919e3a879ea60811394e46b77e652dc9b2927f2707d7b8b",
+   "url":"https://pypi.io/packages/source/m/mongoquery/mongoquery-1.3.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -185,7 +191,8 @@
   "run":{
    "__set__":true,
    "elements":[
-    "python"
+    "python",
+    "six"
    ]
   },
   "test":{
@@ -194,12 +201,13 @@
   }
  },
  "pinning_version":"2020.09.02.00.32.57",
- "raw_meta_yaml":"{% set name = \"mongoquery\" %}\n{% set version = \"1.2.0\" %}\n{% set sha256 = \"2a996a0c78bd273e0be59b0592ce4f118b9db084c4920b58de1a1f94e837d06a\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  build:\n    - python\n    - pip\n  run:\n    - python\n\ntest:\n  imports:\n    - mongoquery\n\nabout:\n  home: https://github.com/kapouille/mongoquery\n  license: Public Domain\n  license_file: LICENSE\n  summary: >\n    A utility library that provides a MongoDB-like query\n    language for querying python collections. It's mainly\n    intended to parse objects structured as fundamental types in\n    a similar fashion to what is produced by JSON or YAML\n    parsers.\n",
+ "raw_meta_yaml":"{% set name = \"mongoquery\" %}\n{% set version = \"1.3.0\" %}\n{% set sha256 = \"381c092dafd6f36ab919e3a879ea60811394e46b77e652dc9b2927f2707d7b8b\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  build:\n    - python\n    - pip\n  run:\n    - python\n    - six\n\ntest:\n  imports:\n    - mongoquery\n\nabout:\n  home: https://github.com/kapouille/mongoquery\n  license: Public Domain\n  license_file: LICENSE\n  summary: >\n    A utility library that provides a MongoDB-like query language for querying python collections. It's mainly intended to parse objects structured as fundamental types in a similar fashion to what is produced by JSON or YAML parsers.\n",
  "req":{
   "__set__":true,
   "elements":[
    "pip",
-   "python"
+   "python",
+   "six"
   ]
  },
  "requirements":{
@@ -217,7 +225,8 @@
   "run":{
    "__set__":true,
    "elements":[
-    "python"
+    "python",
+    "six"
    ]
   },
   "test":{
@@ -242,7 +251,8 @@
   "run":{
    "__set__":true,
    "elements":[
-    "python"
+    "python",
+    "six"
    ]
   },
   "test":{
@@ -251,7 +261,7 @@
   }
  },
  "url":"https://github.com/kapouille/mongoquery/archive/v1.1.0.tar.gz",
- "version":"1.2.0",
+ "version":"1.3.0",
  "win_64_meta_yaml":{
   "about":{
    "home":"https://github.com/kapouille/mongoquery",
@@ -262,11 +272,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"mongoquery",
-   "version":"1.2.0"
+   "version":"1.3.0"
   },
   "requirements":{
    "build":[
@@ -274,12 +284,13 @@
     "pip"
    ],
    "run":[
-    "python"
+    "python",
+    "six"
    ]
   },
   "source":{
-   "sha256":"2a996a0c78bd273e0be59b0592ce4f118b9db084c4920b58de1a1f94e837d06a",
-   "url":"https://pypi.io/packages/source/m/mongoquery/mongoquery-1.2.0.tar.gz"
+   "sha256":"381c092dafd6f36ab919e3a879ea60811394e46b77e652dc9b2927f2707d7b8b",
+   "url":"https://pypi.io/packages/source/m/mongoquery/mongoquery-1.3.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -302,7 +313,8 @@
   "run":{
    "__set__":true,
    "elements":[
-    "python"
+    "python",
+    "six"
    ]
   },
   "test":{
