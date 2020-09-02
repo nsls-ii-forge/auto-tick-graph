@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/477597588.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -44,7 +63,7 @@
   },
   "source":{
    "sha256":"f8d629d1e3e3b7b89cb99d0e3bc5505e76cc42089829807950d5c56606ed48e0",
-   "url":"https://bitbucket.org/mpi4py/mpi4py/downloads/mpi4py-3.0.2.tar.gz"
+   "url":"https://pypi.io/packages/source/m/mpi4py/mpi4py-3.0.2.tar.gz"
   },
   "test":{
    "files":[
@@ -125,7 +144,7 @@
   },
   "source":{
    "sha256":"f8d629d1e3e3b7b89cb99d0e3bc5505e76cc42089829807950d5c56606ed48e0",
-   "url":"https://bitbucket.org/mpi4py/mpi4py/downloads/mpi4py-3.0.2.tar.gz"
+   "url":"https://pypi.io/packages/source/m/mpi4py/mpi4py-3.0.2.tar.gz"
   },
   "test":{
    "files":[
@@ -136,7 +155,11 @@
   }
  },
  "name":"mpi4py",
- "new_version":false,
+ "new_version":"3.0.3",
+ "new_version_attempts":{
+  "3.0.3":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "description":"MPI for Python provides bindings of the Message Passing Interface (MPI)\nstandard for the Python programming language, allowing any Python program\nto exploit multiple processors.\n",
@@ -172,7 +195,7 @@
   },
   "source":{
    "sha256":"f8d629d1e3e3b7b89cb99d0e3bc5505e76cc42089829807950d5c56606ed48e0",
-   "url":"https://bitbucket.org/mpi4py/mpi4py/downloads/mpi4py-3.0.2.tar.gz"
+   "url":"https://pypi.io/packages/source/m/mpi4py/mpi4py-3.0.2.tar.gz"
   },
   "test":{
    "files":[
@@ -205,7 +228,8 @@
    "elements":[]
   }
  },
- "raw_meta_yaml":"{% set name = \"mpi4py\" %}\n{% set version = '3.0.2' %}\n{% set sha256 = 'f8d629d1e3e3b7b89cb99d0e3bc5505e76cc42089829807950d5c56606ed48e0' %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://bitbucket.org/{{ name }}/{{ name }}/downloads/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  skip: True  # [win or py<36]\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  # TODO: build with msmpi when it works\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - python\n    - pip\n    - {{ mpi }}\n  run:\n    - python\n    - {{ mpi }}\n\ntest:\n  files:\n    - test_mpi.py\n\nabout:\n  home: https://mpi4py.bitbucket.io/\n  license: BSD 2-clause\n  license_family: BSD\n  license_file: LICENSE.rst\n  summary: Python bindings for MPI\n  description: |\n     MPI for Python provides bindings of the Message Passing Interface (MPI)\n     standard for the Python programming language, allowing any Python program\n     to exploit multiple processors.\n  doc_url: https://mpi4py.readthedocs.org/\n  dev_url: https://bitbucket.org/mpi4py/mpi4py\n",
+ "pinning_version":"2020.09.02.00.32.57",
+ "raw_meta_yaml":"{% set name = \"mpi4py\" %}\n{% set version = '3.0.2' %}\n{% set sha256 = 'f8d629d1e3e3b7b89cb99d0e3bc5505e76cc42089829807950d5c56606ed48e0' %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  skip: True  # [win or py<36]\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  # TODO: build with msmpi when it works\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - python\n    - pip\n    - {{ mpi }}\n  run:\n    - python\n    - {{ mpi }}\n\ntest:\n  files:\n    - test_mpi.py\n\nabout:\n  home: https://mpi4py.bitbucket.io/\n  license: BSD 2-clause\n  license_family: BSD\n  license_file: LICENSE.rst\n  summary: Python bindings for MPI\n  description: |\n     MPI for Python provides bindings of the Message Passing Interface (MPI)\n     standard for the Python programming language, allowing any Python program\n     to exploit multiple processors.\n  doc_url: https://mpi4py.readthedocs.org/\n  dev_url: https://bitbucket.org/mpi4py/mpi4py\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -239,6 +263,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.10",
  "strong_exports":false,
  "total_requirements":{
   "build":{
@@ -303,7 +328,7 @@
   },
   "source":{
    "sha256":"f8d629d1e3e3b7b89cb99d0e3bc5505e76cc42089829807950d5c56606ed48e0",
-   "url":"https://bitbucket.org/mpi4py/mpi4py/downloads/mpi4py-3.0.2.tar.gz"
+   "url":"https://pypi.io/packages/source/m/mpi4py/mpi4py-3.0.2.tar.gz"
   },
   "test":{
    "files":[
