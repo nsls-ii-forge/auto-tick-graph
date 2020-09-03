@@ -23,7 +23,7 @@
   },
   "package":{
    "name":"event-model",
-   "version":"1.15.2"
+   "version":"1.16.0"
   },
   "requirements":{
    "host":[
@@ -37,8 +37,8 @@
    ]
   },
   "source":{
-   "sha256":"31b6103801abcc3ebe099757bca7c9da9b4d535330acf0ba10d81c0753eb0e51",
-   "url":"https://pypi.io/packages/source/e/event-model/event-model-1.15.2.tar.gz"
+   "sha256":"2193053c12baf0c2967d4651c8d3c6c220883da0c252b85fd7e90f6164093f0a",
+   "url":"https://pypi.io/packages/source/e/event-model/event-model-1.16.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -93,7 +93,7 @@
   },
   "package":{
    "name":"event-model",
-   "version":"1.15.2"
+   "version":"1.16.0"
   },
   "requirements":{
    "host":[
@@ -117,8 +117,8 @@
    ]
   },
   "source":{
-   "sha256":"31b6103801abcc3ebe099757bca7c9da9b4d535330acf0ba10d81c0753eb0e51",
-   "url":"https://pypi.io/packages/source/e/event-model/event-model-1.15.2.tar.gz"
+   "sha256":"2193053c12baf0c2967d4651c8d3c6c220883da0c252b85fd7e90f6164093f0a",
+   "url":"https://pypi.io/packages/source/e/event-model/event-model-1.16.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -139,7 +139,7 @@
   }
  },
  "name":"event-model",
- "new_version":"1.15.2",
+ "new_version":"1.16.0",
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/bluesky/event-model",
@@ -154,7 +154,7 @@
   },
   "package":{
    "name":"event-model",
-   "version":"1.15.2"
+   "version":"1.16.0"
   },
   "requirements":{
    "host":[
@@ -168,8 +168,8 @@
    ]
   },
   "source":{
-   "sha256":"31b6103801abcc3ebe099757bca7c9da9b4d535330acf0ba10d81c0753eb0e51",
-   "url":"https://pypi.io/packages/source/e/event-model/event-model-1.15.2.tar.gz"
+   "sha256":"2193053c12baf0c2967d4651c8d3c6c220883da0c252b85fd7e90f6164093f0a",
+   "url":"https://pypi.io/packages/source/e/event-model/event-model-1.16.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -210,7 +210,7 @@
    ]
   }
  },
- "raw_meta_yaml":"{% set name = \"event-model\" %}\n{% set version = \"1.15.2\" %}\n{% set sha256 = \"31b6103801abcc3ebe099757bca7c9da9b4d535330acf0ba10d81c0753eb0e51\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - jsonschema\n    - numpy\n\ntest:\n  requires:\n    - pytest\n  imports:\n    - event_model\n  commands:\n    - pytest --pyargs event_model.tests\n\nabout:\n  home: https://github.com/bluesky/event-model\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: Data model for event-based data collection and analysis\n",
+ "raw_meta_yaml":"{% set name = \"event-model\" %}\n{% set version = \"1.16.0\" %}\n{% set sha256 = \"2193053c12baf0c2967d4651c8d3c6c220883da0c252b85fd7e90f6164093f0a\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - jsonschema\n    - numpy\n\ntest:\n  requires:\n    - pytest\n  imports:\n    - event_model\n  commands:\n    - pytest --pyargs event_model.tests\n\nabout:\n  home: https://github.com/bluesky/event-model\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: Data model for event-based data collection and analysis\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -276,7 +276,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/e/event-model/event-model-1.15.2.tar.gz",
- "version":"1.15.2",
+ "version":"1.16.0",
  "win_64_meta_yaml":{
   "about":{
    "home":"https://github.com/bluesky/event-model",
@@ -291,7 +291,7 @@
   },
   "package":{
    "name":"event-model",
-   "version":"1.15.2"
+   "version":"1.16.0"
   },
   "requirements":{
    "host":[
@@ -305,8 +305,8 @@
    ]
   },
   "source":{
-   "sha256":"31b6103801abcc3ebe099757bca7c9da9b4d535330acf0ba10d81c0753eb0e51",
-   "url":"https://pypi.io/packages/source/e/event-model/event-model-1.15.2.tar.gz"
+   "sha256":"2193053c12baf0c2967d4651c8d3c6c220883da0c252b85fd7e90f6164093f0a",
+   "url":"https://pypi.io/packages/source/e/event-model/event-model-1.16.0.tar.gz"
   },
   "test":{
    "commands":[
