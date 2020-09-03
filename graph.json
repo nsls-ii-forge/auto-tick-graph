@@ -2071,6 +2071,10 @@
   },
   {
    "source":"matplotlib",
+   "target":"hxntools"
+  },
+  {
+   "source":"matplotlib",
    "target":"ipympl"
   },
   {
@@ -2404,6 +2408,10 @@
   {
    "source":"nslsii",
    "target":"collection"
+  },
+  {
+   "source":"nslsii",
+   "target":"hxntools"
   },
   {
    "source":"nslsii",

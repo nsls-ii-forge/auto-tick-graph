@@ -31,18 +31,18 @@
  "linux_64_meta_yaml":{
   "about":{
    "home":"https://github.com/NSLS-II-HXN/hxntools",
-   "license":"BSD",
+   "license":"BSD-3-Clause",
    "license_file":"LICENSE",
-   "summary":"NSLS-II's Hard X-ray Nanoprobe data acquisition tools"
+   "summary":"NSLS-II Hard X-ray Nanoprobe data acquisition tools"
   },
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"hxntools",
-   "version":"0.4.3"
+   "version":"0.5.0"
   },
   "requirements":{
    "host":[
@@ -54,8 +54,10 @@
     "bluesky",
     "boltons",
     "cycler",
-    "databroker >=0.11.1",
-    "h5py >=2.5.0",
+    "databroker",
+    "h5py",
+    "matplotlib",
+    "nslsii",
     "numpy",
     "ophyd",
     "pandas",
@@ -64,8 +66,8 @@
    ]
   },
   "source":{
-   "sha256":"b6fab7b09636145e4017609488a2fccb153ee2f5fc629a6eaf12fc9a9e2e6a04",
-   "url":"https://github.com/NSLS-II-HXN/hxntools/archive/v0.4.3.tar.gz"
+   "sha256":"4edf0bc2740e3dee44c33fa4f7fcdc17f854a8c719a02bf238b9e904155c7b89",
+   "url":"https://github.com/NSLS-II-HXN/hxntools/archive/v0.5.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -93,6 +95,8 @@
     "cycler",
     "databroker",
     "h5py",
+    "matplotlib",
+    "nslsii",
     "numpy",
     "ophyd",
     "pandas",
@@ -109,18 +113,18 @@
  "meta_yaml":{
   "about":{
    "home":"https://github.com/NSLS-II-HXN/hxntools",
-   "license":"BSD",
+   "license":"BSD-3-Clause",
    "license_file":"LICENSE",
-   "summary":"NSLS-II's Hard X-ray Nanoprobe data acquisition tools"
+   "summary":"NSLS-II Hard X-ray Nanoprobe data acquisition tools"
   },
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"hxntools",
-   "version":"0.4.3"
+   "version":"0.5.0"
   },
   "requirements":{
    "host":[
@@ -136,8 +140,10 @@
     "bluesky",
     "boltons",
     "cycler",
-    "databroker >=0.11.1",
-    "h5py >=2.5.0",
+    "databroker",
+    "h5py",
+    "matplotlib",
+    "nslsii",
     "numpy",
     "ophyd",
     "pandas",
@@ -147,8 +153,10 @@
     "bluesky",
     "boltons",
     "cycler",
-    "databroker >=0.11.1",
-    "h5py >=2.5.0",
+    "databroker",
+    "h5py",
+    "matplotlib",
+    "nslsii",
     "numpy",
     "ophyd",
     "pandas",
@@ -158,8 +166,10 @@
     "bluesky",
     "boltons",
     "cycler",
-    "databroker >=0.11.1",
-    "h5py >=2.5.0",
+    "databroker",
+    "h5py",
+    "matplotlib",
+    "nslsii",
     "numpy",
     "ophyd",
     "pandas",
@@ -168,8 +178,8 @@
    ]
   },
   "source":{
-   "sha256":"b6fab7b09636145e4017609488a2fccb153ee2f5fc629a6eaf12fc9a9e2e6a04",
-   "url":"https://github.com/NSLS-II-HXN/hxntools/archive/v0.4.3.tar.gz"
+   "sha256":"4edf0bc2740e3dee44c33fa4f7fcdc17f854a8c719a02bf238b9e904155c7b89",
+   "url":"https://github.com/NSLS-II-HXN/hxntools/archive/v0.5.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -188,18 +198,18 @@
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/NSLS-II-HXN/hxntools",
-   "license":"BSD",
+   "license":"BSD-3-Clause",
    "license_file":"LICENSE",
-   "summary":"NSLS-II's Hard X-ray Nanoprobe data acquisition tools"
+   "summary":"NSLS-II Hard X-ray Nanoprobe data acquisition tools"
   },
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"hxntools",
-   "version":"0.4.3"
+   "version":"0.5.0"
   },
   "requirements":{
    "host":[
@@ -211,8 +221,10 @@
     "bluesky",
     "boltons",
     "cycler",
-    "databroker >=0.11.1",
-    "h5py >=2.5.0",
+    "databroker",
+    "h5py",
+    "matplotlib",
+    "nslsii",
     "numpy",
     "ophyd",
     "pandas",
@@ -221,8 +233,8 @@
    ]
   },
   "source":{
-   "sha256":"b6fab7b09636145e4017609488a2fccb153ee2f5fc629a6eaf12fc9a9e2e6a04",
-   "url":"https://github.com/NSLS-II-HXN/hxntools/archive/v0.4.3.tar.gz"
+   "sha256":"4edf0bc2740e3dee44c33fa4f7fcdc17f854a8c719a02bf238b9e904155c7b89",
+   "url":"https://github.com/NSLS-II-HXN/hxntools/archive/v0.5.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -250,6 +262,8 @@
     "cycler",
     "databroker",
     "h5py",
+    "matplotlib",
+    "nslsii",
     "numpy",
     "ophyd",
     "pandas",
@@ -264,7 +278,7 @@
   }
  },
  "pinning_version":"2020.09.02.16.41.07",
- "raw_meta_yaml":"{% set name = \"hxntools\" %}\n{% set version = \"0.4.3\" %}\n{% set sha256 = \"b6fab7b09636145e4017609488a2fccb153ee2f5fc629a6eaf12fc9a9e2e6a04\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/NSLS-II-HXN/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - bluesky\n    - boltons\n    - cycler\n    - databroker >=0.11.1\n    - h5py >=2.5.0\n    - numpy\n    - ophyd\n    - pandas\n    - pyepics\n    - scipy\n\ntest:\n  imports:\n    - hxntools\n\nabout:\n  home: https://github.com/NSLS-II-HXN/hxntools\n  license: BSD\n  license_file: LICENSE\n  summary: NSLS-II's Hard X-ray Nanoprobe data acquisition tools\n",
+ "raw_meta_yaml":"{% set name = \"hxntools\" %}\n{% set version = \"0.5.0\" %}\n{% set sha256 = \"4edf0bc2740e3dee44c33fa4f7fcdc17f854a8c719a02bf238b9e904155c7b89\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/NSLS-II-HXN/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - bluesky\n    - boltons\n    - cycler\n    - databroker\n    - h5py\n    - matplotlib\n    - nslsii\n    - numpy\n    - ophyd\n    - pandas\n    - pyepics\n    - scipy\n\ntest:\n  imports:\n    - hxntools\n\nabout:\n  home: https://github.com/NSLS-II-HXN/hxntools\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: NSLS-II Hard X-ray Nanoprobe data acquisition tools\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -273,6 +287,8 @@
    "cycler",
    "databroker",
    "h5py",
+   "matplotlib",
+   "nslsii",
    "numpy",
    "ophyd",
    "pandas",
@@ -302,6 +318,8 @@
     "cycler",
     "databroker",
     "h5py",
+    "matplotlib",
+    "nslsii",
     "numpy",
     "ophyd",
     "pandas",
@@ -335,8 +353,10 @@
     "bluesky",
     "boltons",
     "cycler",
-    "databroker >=0.11.1",
-    "h5py >=2.5.0",
+    "databroker",
+    "h5py",
+    "matplotlib",
+    "nslsii",
     "numpy",
     "ophyd",
     "pandas",
@@ -351,22 +371,22 @@
   }
  },
  "url":"https://github.com/NSLS-II-HXN/hxntools/archive/v0.4.3.tar.gz",
- "version":"0.4.3",
+ "version":"0.5.0",
  "win_64_meta_yaml":{
   "about":{
    "home":"https://github.com/NSLS-II-HXN/hxntools",
-   "license":"BSD",
+   "license":"BSD-3-Clause",
    "license_file":"LICENSE",
-   "summary":"NSLS-II's Hard X-ray Nanoprobe data acquisition tools"
+   "summary":"NSLS-II Hard X-ray Nanoprobe data acquisition tools"
   },
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"hxntools",
-   "version":"0.4.3"
+   "version":"0.5.0"
   },
   "requirements":{
    "host":[
@@ -378,8 +398,10 @@
     "bluesky",
     "boltons",
     "cycler",
-    "databroker >=0.11.1",
-    "h5py >=2.5.0",
+    "databroker",
+    "h5py",
+    "matplotlib",
+    "nslsii",
     "numpy",
     "ophyd",
     "pandas",
@@ -388,8 +410,8 @@
    ]
   },
   "source":{
-   "sha256":"b6fab7b09636145e4017609488a2fccb153ee2f5fc629a6eaf12fc9a9e2e6a04",
-   "url":"https://github.com/NSLS-II-HXN/hxntools/archive/v0.4.3.tar.gz"
+   "sha256":"4edf0bc2740e3dee44c33fa4f7fcdc17f854a8c719a02bf238b9e904155c7b89",
+   "url":"https://github.com/NSLS-II-HXN/hxntools/archive/v0.5.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -417,6 +439,8 @@
     "cycler",
     "databroker",
     "h5py",
+    "matplotlib",
+    "nslsii",
     "numpy",
     "ophyd",
     "pandas",
