@@ -6003,6 +6003,10 @@
   },
   {
    "source":"srwpy",
+   "target":"analysis"
+  },
+  {
+   "source":"srwpy",
    "target":"sirepo-bluesky"
   },
   {
