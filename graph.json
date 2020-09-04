@@ -1014,6 +1014,10 @@
    "target":"nsls2forge-utils"
   },
   {
+   "source":"doi2bib",
+   "target":"nsls2-analysis"
+  },
+  {
    "source":"dpkt",
    "target":"caproto"
   },
@@ -1494,6 +1498,10 @@
    "target":"trio"
   },
   {
+   "source":"igor",
+   "target":"nsls2-analysis"
+  },
+  {
    "source":"imagecodecs",
    "target":"tifffile"
   },
@@ -1736,6 +1744,10 @@
   {
    "source":"ld64",
    "target":"gfortran_osx-64"
+  },
+  {
+   "source":"legacy-suitcase",
+   "target":"nsls2-analysis"
   },
   {
    "source":"libcxx",
@@ -4100,6 +4112,10 @@
   {
    "source":"pyqt",
    "target":"analysis"
+  },
+  {
+   "source":"pyqtgraph",
+   "target":"nsls2-analysis"
   },
   {
    "source":"pyqt",
@@ -9432,6 +9448,12 @@
    "id":"bibtexparser",
    "payload":{
     "__lazy_json__":"node_attrs/bibtexparser.json"
+   }
+  },
+  {
+   "id":"pyqtgraph",
+   "payload":{
+    "__lazy_json__":"node_attrs/pyqtgraph.json"
    }
   }
  ]
