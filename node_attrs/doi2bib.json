@@ -45,7 +45,7 @@
   },
   "package":{
    "name":"doi2bib",
-   "version":"0.3.0"
+   "version":"0.4.0"
   },
   "requirements":{
    "host":[
@@ -60,8 +60,8 @@
    ]
   },
   "source":{
-   "sha256":"94857e12d71727bd9bfc9e4667a31c68b159ba1de60fb8a2adf0905baca2827a",
-   "url":"https://github.com/bibcure/doi2bib/archive/0.3.0.tar.gz"
+   "sha256":"272458eb88a34ab0fd4c69c6a4f2698496ccd9791d827f52b6c2b3ae6a3a221c",
+   "url":"https://github.com/bibcure/doi2bib/archive/0.4.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -116,7 +116,7 @@
   },
   "package":{
    "name":"doi2bib",
-   "version":"0.3.0"
+   "version":"0.4.0"
   },
   "requirements":{
    "host":[
@@ -143,8 +143,8 @@
    ]
   },
   "source":{
-   "sha256":"94857e12d71727bd9bfc9e4667a31c68b159ba1de60fb8a2adf0905baca2827a",
-   "url":"https://github.com/bibcure/doi2bib/archive/0.3.0.tar.gz"
+   "sha256":"272458eb88a34ab0fd4c69c6a4f2698496ccd9791d827f52b6c2b3ae6a3a221c",
+   "url":"https://github.com/bibcure/doi2bib/archive/0.4.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -185,7 +185,7 @@
   },
   "package":{
    "name":"doi2bib",
-   "version":"0.3.0"
+   "version":"0.4.0"
   },
   "requirements":{
    "host":[
@@ -200,8 +200,8 @@
    ]
   },
   "source":{
-   "sha256":"94857e12d71727bd9bfc9e4667a31c68b159ba1de60fb8a2adf0905baca2827a",
-   "url":"https://github.com/bibcure/doi2bib/archive/0.3.0.tar.gz"
+   "sha256":"272458eb88a34ab0fd4c69c6a4f2698496ccd9791d827f52b6c2b3ae6a3a221c",
+   "url":"https://github.com/bibcure/doi2bib/archive/0.4.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -240,7 +240,7 @@
   }
  },
  "pinning_version":"2020.09.03.21.10.34",
- "raw_meta_yaml":"{% set name = \"doi2bib\" %}\n{% set version = \"0.3.0\" %}\n{% set sha256 = \"94857e12d71727bd9bfc9e4667a31c68b159ba1de60fb8a2adf0905baca2827a\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  # TODO: use sources from PyPI. See https://github.com/bibcure/doi2bib/issues/7\n  # https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  url: https://github.com/bibcure/{{ name }}/archive/{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - bibtexparser\n    - future\n    - requests\n\ntest:\n  imports:\n    - doi2bib\n  commands:\n    - doi2bib --help\n    - doi2bib 10.1038/nature24270\n\nabout:\n  home: https://doi2bib.org\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: get the bibtex string given a doi\n  doc_url: https://doi2bib.readthedocs.io\n  dev_url: https://github.com/bibcure/doi2bib\n",
+ "raw_meta_yaml":"{% set name = \"doi2bib\" %}\n{% set version = \"0.4.0\" %}\n{% set sha256 = \"272458eb88a34ab0fd4c69c6a4f2698496ccd9791d827f52b6c2b3ae6a3a221c\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  # TODO: use sources from PyPI. See https://github.com/bibcure/doi2bib/issues/7\n  # https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  url: https://github.com/bibcure/{{ name }}/archive/{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - bibtexparser\n    - future\n    - requests\n\ntest:\n  imports:\n    - doi2bib\n  commands:\n    - doi2bib --help\n    - doi2bib 10.1038/nature24270\n\nabout:\n  home: https://doi2bib.org\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: get the bibtex string given a doi\n  doc_url: https://doi2bib.readthedocs.io\n  dev_url: https://github.com/bibcure/doi2bib\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -306,7 +306,7 @@
   }
  },
  "url":"https://github.com/bibcure/doi2bib/archive/0.3.0.tar.gz",
- "version":"0.3.0",
+ "version":"0.4.0",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/bibcure/doi2bib",
@@ -324,7 +324,7 @@
   },
   "package":{
    "name":"doi2bib",
-   "version":"0.3.0"
+   "version":"0.4.0"
   },
   "requirements":{
    "host":[
@@ -339,8 +339,8 @@
    ]
   },
   "source":{
-   "sha256":"94857e12d71727bd9bfc9e4667a31c68b159ba1de60fb8a2adf0905baca2827a",
-   "url":"https://github.com/bibcure/doi2bib/archive/0.3.0.tar.gz"
+   "sha256":"272458eb88a34ab0fd4c69c6a4f2698496ccd9791d827f52b6c2b3ae6a3a221c",
+   "url":"https://github.com/bibcure/doi2bib/archive/0.4.0.tar.gz"
   },
   "test":{
    "commands":[
