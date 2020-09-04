@@ -174,6 +174,10 @@
    "target":"nsls2forge-utils"
   },
   {
+   "source":"bibtexparser",
+   "target":"doi2bib"
+  },
+  {
    "source":"bitshuffle",
    "target":"imagecodecs"
   },
@@ -1216,6 +1220,14 @@
   {
    "source":"fsspec",
    "target":"napari"
+  },
+  {
+   "source":"future",
+   "target":"bibtexparser"
+  },
+  {
+   "source":"future",
+   "target":"doi2bib"
   },
   {
    "source":"future",
@@ -3139,6 +3151,10 @@
   },
   {
    "source":"pip",
+   "target":"bibtexparser"
+  },
+  {
+   "source":"pip",
    "target":"bloptools"
   },
   {
@@ -3228,6 +3244,10 @@
   {
    "source":"pip",
    "target":"doctr"
+  },
+  {
+   "source":"pip",
+   "target":"doi2bib"
   },
   {
    "source":"pip",
@@ -4047,6 +4067,10 @@
   },
   {
    "source":"pyparsing",
+   "target":"bibtexparser"
+  },
+  {
+   "source":"pyparsing",
    "target":"periodictable"
   },
   {
@@ -4411,6 +4435,10 @@
   },
   {
    "source":"python",
+   "target":"bibtexparser"
+  },
+  {
+   "source":"python",
    "target":"bloptools"
   },
   {
@@ -4508,6 +4536,10 @@
   {
    "source":"python",
    "target":"doctr"
+  },
+  {
+   "source":"python",
+   "target":"doi2bib"
   },
   {
    "source":"python",
@@ -5340,6 +5372,10 @@
   {
    "source":"requests",
    "target":"doctr"
+  },
+  {
+   "source":"requests",
+   "target":"doi2bib"
   },
   {
    "source":"requests",
@@ -9380,6 +9416,18 @@
    "id":"wget",
    "payload":{
     "__lazy_json__":"node_attrs/wget.json"
+   }
+  },
+  {
+   "id":"doi2bib",
+   "payload":{
+    "__lazy_json__":"node_attrs/doi2bib.json"
+   }
+  },
+  {
+   "id":"bibtexparser",
+   "payload":{
+    "__lazy_json__":"node_attrs/bibtexparser.json"
    }
   }
  ]
