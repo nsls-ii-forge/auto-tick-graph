@@ -60,7 +60,7 @@
   },
   "package":{
    "name":"bluesky-kafka",
-   "version":"0.2.0"
+   "version":"0.3.0"
   },
   "requirements":{
    "host":[
@@ -74,8 +74,8 @@
    ]
   },
   "source":{
-   "sha256":"1e16997240c2ca9ca7feea79810a63ff70afa35a177c777818ee65fdd2aebd9b",
-   "url":"https://pypi.io/packages/source/b/bluesky-kafka/bluesky-kafka-0.2.0.tar.gz"
+   "sha256":"4a8c3df41b39069f63f5e7aec82f098a173644b18e60213367c9091840e0f7d5",
+   "url":"https://pypi.io/packages/source/b/bluesky-kafka/bluesky-kafka-0.3.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -123,7 +123,7 @@
   },
   "package":{
    "name":"bluesky-kafka",
-   "version":"0.2.0"
+   "version":"0.3.0"
   },
   "requirements":{
    "host":[
@@ -147,8 +147,8 @@
    ]
   },
   "source":{
-   "sha256":"1e16997240c2ca9ca7feea79810a63ff70afa35a177c777818ee65fdd2aebd9b",
-   "url":"https://pypi.io/packages/source/b/bluesky-kafka/bluesky-kafka-0.2.0.tar.gz"
+   "sha256":"4a8c3df41b39069f63f5e7aec82f098a173644b18e60213367c9091840e0f7d5",
+   "url":"https://pypi.io/packages/source/b/bluesky-kafka/bluesky-kafka-0.3.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -180,7 +180,7 @@
   },
   "package":{
    "name":"bluesky-kafka",
-   "version":"0.2.0"
+   "version":"0.3.0"
   },
   "requirements":{
    "host":[
@@ -194,8 +194,8 @@
    ]
   },
   "source":{
-   "sha256":"1e16997240c2ca9ca7feea79810a63ff70afa35a177c777818ee65fdd2aebd9b",
-   "url":"https://pypi.io/packages/source/b/bluesky-kafka/bluesky-kafka-0.2.0.tar.gz"
+   "sha256":"4a8c3df41b39069f63f5e7aec82f098a173644b18e60213367c9091840e0f7d5",
+   "url":"https://pypi.io/packages/source/b/bluesky-kafka/bluesky-kafka-0.3.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -229,7 +229,7 @@
   }
  },
  "pinning_version":"2020.09.04.10.00.02",
- "raw_meta_yaml":"{% set version = \"0.2.0\" %}\n{% set name = \"bluesky-kafka\" %}\n{% set sha256 = \"1e16997240c2ca9ca7feea79810a63ff70afa35a177c777818ee65fdd2aebd9b\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - bluesky\n    - python-confluent-kafka\n\ntest:\n  imports:\n    - bluesky_kafka\n\nabout:\n  home: https://github.com/bluesky/bluesky-kafka\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: The bluesky-kafka module\n  dev_url: https://github.com/bluesky/bluesky-kafka\n",
+ "raw_meta_yaml":"{% set version = \"0.3.0\" %}\n{% set name = \"bluesky-kafka\" %}\n{% set sha256 = \"4a8c3df41b39069f63f5e7aec82f098a173644b18e60213367c9091840e0f7d5\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - bluesky\n    - python-confluent-kafka\n\ntest:\n  imports:\n    - bluesky_kafka\n\nabout:\n  home: https://github.com/bluesky/bluesky-kafka\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: The bluesky-kafka module\n  dev_url: https://github.com/bluesky/bluesky-kafka\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -292,7 +292,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/b/bluesky-kafka/bluesky-kafka-0.1.0.tar.gz",
- "version":"0.2.0",
+ "version":"0.3.0",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/bluesky/bluesky-kafka",
@@ -308,7 +308,7 @@
   },
   "package":{
    "name":"bluesky-kafka",
-   "version":"0.2.0"
+   "version":"0.3.0"
   },
   "requirements":{
    "host":[
@@ -322,8 +322,8 @@
    ]
   },
   "source":{
-   "sha256":"1e16997240c2ca9ca7feea79810a63ff70afa35a177c777818ee65fdd2aebd9b",
-   "url":"https://pypi.io/packages/source/b/bluesky-kafka/bluesky-kafka-0.2.0.tar.gz"
+   "sha256":"4a8c3df41b39069f63f5e7aec82f098a173644b18e60213367c9091840e0f7d5",
+   "url":"https://pypi.io/packages/source/b/bluesky-kafka/bluesky-kafka-0.3.0.tar.gz"
   },
   "test":{
    "imports":[
