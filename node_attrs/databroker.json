@@ -42,11 +42,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"databroker",
-   "version":"1.0.6"
+   "version":"1.1.0"
   },
   "requirements":{
    "host":[
@@ -85,8 +85,8 @@
    ]
   },
   "source":{
-   "sha256":"39f4e12625c42d54f3fc218ffd9640490f4a5d2455289d37ae7886f6b7974851",
-   "url":"https://pypi.io/packages/source/d/databroker/databroker-1.0.6.tar.gz"
+   "sha256":"79ffb74c126e10448b2b02723a49fb93c9b7b295f9ec6395abfbc7d119b9d1c8",
+   "url":"https://pypi.io/packages/source/d/databroker/databroker-1.1.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -171,11 +171,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"databroker",
-   "version":"1.0.6"
+   "version":"1.1.0"
   },
   "requirements":{
    "host":[
@@ -274,8 +274,8 @@
    ]
   },
   "source":{
-   "sha256":"39f4e12625c42d54f3fc218ffd9640490f4a5d2455289d37ae7886f6b7974851",
-   "url":"https://pypi.io/packages/source/d/databroker/databroker-1.0.6.tar.gz"
+   "sha256":"79ffb74c126e10448b2b02723a49fb93c9b7b295f9ec6395abfbc7d119b9d1c8",
+   "url":"https://pypi.io/packages/source/d/databroker/databroker-1.1.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -338,11 +338,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"databroker",
-   "version":"1.0.6"
+   "version":"1.1.0"
   },
   "requirements":{
    "host":[
@@ -381,8 +381,8 @@
    ]
   },
   "source":{
-   "sha256":"39f4e12625c42d54f3fc218ffd9640490f4a5d2455289d37ae7886f6b7974851",
-   "url":"https://pypi.io/packages/source/d/databroker/databroker-1.0.6.tar.gz"
+   "sha256":"79ffb74c126e10448b2b02723a49fb93c9b7b295f9ec6395abfbc7d119b9d1c8",
+   "url":"https://pypi.io/packages/source/d/databroker/databroker-1.1.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -454,7 +454,7 @@
   }
  },
  "pinning_version":"2020.09.04.10.00.02",
- "raw_meta_yaml":"{% set name = \"databroker\" %}\n{% set version = \"1.0.6\" %}\n{% set sha256 = \"39f4e12625c42d54f3fc218ffd9640490f4a5d2455289d37ae7886f6b7974851\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - boltons\n    - cachetools\n    - dask\n    - doct\n    - event-model >=1.14.0\n    - humanize\n    - intake >=0.5.5\n    - jinja2\n    - jsonschema\n    - mongoquery\n    - msgpack-numpy\n    - msgpack-python\n    - numpy\n    - pandas\n    - pims\n    - pymongo\n    - pytz\n    - pyyaml\n    - requests\n    - six\n    - suitcase-mongo\n    - suitcase-msgpack\n    - tifffile !=2019.7.26.2\n    - toolz\n    - tzlocal\n    - xarray\n    - zarr\n\ntest:\n  imports:\n    - databroker\n    - databroker._drivers\n    - databroker.assets\n    - databroker.assets.readers\n    - databroker.assets.tests\n    - databroker.eventsource\n    - databroker.eventsource.tests\n    - databroker.headersource\n    - databroker.service\n    - databroker.tests\n    - databroker.tests.test_v2\n  commands:\n    - intake drivers list 2>&1 | grep bluesky  # [not win]\n\nabout:\n  home: http://blueskyproject.io\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: 'A unified interface to the various data sources at NSLS-II.'\n  description: 'A unified interface to the various data sources at NSLS-II.'\n  doc_url: http://blueskyproject.io/databroker\n  dev_url: https://github.com/bluesky/databroker\n",
+ "raw_meta_yaml":"{% set name = \"databroker\" %}\n{% set version = \"1.1.0\" %}\n{% set sha256 = \"79ffb74c126e10448b2b02723a49fb93c9b7b295f9ec6395abfbc7d119b9d1c8\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - boltons\n    - cachetools\n    - dask\n    - doct\n    - event-model >=1.14.0\n    - humanize\n    - intake >=0.5.5\n    - jinja2\n    - jsonschema\n    - mongoquery\n    - msgpack-numpy\n    - msgpack-python\n    - numpy\n    - pandas\n    - pims\n    - pymongo\n    - pytz\n    - pyyaml\n    - requests\n    - six\n    - suitcase-mongo\n    - suitcase-msgpack\n    - tifffile !=2019.7.26.2\n    - toolz\n    - tzlocal\n    - xarray\n    - zarr\n\ntest:\n  imports:\n    - databroker\n    - databroker._drivers\n    - databroker.assets\n    - databroker.assets.readers\n    - databroker.assets.tests\n    - databroker.eventsource\n    - databroker.eventsource.tests\n    - databroker.headersource\n    - databroker.service\n    - databroker.tests\n    - databroker.tests.test_v2\n  commands:\n    - intake drivers list 2>&1 | grep bluesky  # [not win]\n\nabout:\n  home: http://blueskyproject.io\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: A unified interface to the various data sources at NSLS-II.\n  description: A unified interface to the various data sources at NSLS-II.\n  doc_url: http://blueskyproject.io/databroker\n  dev_url: https://github.com/bluesky/databroker\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -592,7 +592,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/d/databroker/databroker-1.0.6.tar.gz",
- "version":"1.0.6",
+ "version":"1.1.0",
  "win_64_meta_yaml":{
   "about":{
    "description":"A unified interface to the various data sources at NSLS-II.",
@@ -607,11 +607,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"databroker",
-   "version":"1.0.6"
+   "version":"1.1.0"
   },
   "requirements":{
    "host":[
@@ -650,8 +650,8 @@
    ]
   },
   "source":{
-   "sha256":"39f4e12625c42d54f3fc218ffd9640490f4a5d2455289d37ae7886f6b7974851",
-   "url":"https://pypi.io/packages/source/d/databroker/databroker-1.0.6.tar.gz"
+   "sha256":"79ffb74c126e10448b2b02723a49fb93c9b7b295f9ec6395abfbc7d119b9d1c8",
+   "url":"https://pypi.io/packages/source/d/databroker/databroker-1.1.0.tar.gz"
   },
   "test":{
    "commands":null,
