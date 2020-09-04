@@ -16,6 +16,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/479834336.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -142,9 +159,10 @@
   }
  },
  "name":"bluesky-kafka",
- "new_version":"0.2.0",
+ "new_version":"0.3.0",
  "new_version_attempts":{
-  "0.2.0":1
+  "0.2.0":1,
+  "0.3.0":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -210,7 +228,7 @@
    "elements":[]
   }
  },
- "pinning_version":"2020.08.15.14.59.48",
+ "pinning_version":"2020.09.04.10.00.02",
  "raw_meta_yaml":"{% set version = \"0.2.0\" %}\n{% set name = \"bluesky-kafka\" %}\n{% set sha256 = \"1e16997240c2ca9ca7feea79810a63ff70afa35a177c777818ee65fdd2aebd9b\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - bluesky\n    - python-confluent-kafka\n\ntest:\n  imports:\n    - bluesky_kafka\n\nabout:\n  home: https://github.com/bluesky/bluesky-kafka\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: The bluesky-kafka module\n  dev_url: https://github.com/bluesky/bluesky-kafka\n",
  "req":{
   "__set__":true,
