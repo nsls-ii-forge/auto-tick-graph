@@ -190,6 +190,10 @@
    "target":"papermill"
   },
   {
+   "source":"bloptools",
+   "target":"collection"
+  },
+  {
    "source":"blosc",
    "target":"imagecodecs"
   },
@@ -1454,6 +1458,10 @@
    "target":"doct"
   },
   {
+   "source":"hunter",
+   "target":"collection"
+  },
+  {
    "source":"hxnfly",
    "target":"03-id-hxn-collection"
   },
@@ -1860,6 +1868,10 @@
   {
    "source":"lmfit",
    "target":"xraylarch"
+  },
+  {
+   "source":"logging_tree",
+   "target":"collection"
   },
   {
    "source":"lxml",
