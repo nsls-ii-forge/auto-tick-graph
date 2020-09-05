@@ -1019,6 +1019,10 @@
   },
   {
    "source":"doi2bib",
+   "target":"analysis"
+  },
+  {
+   "source":"doi2bib",
    "target":"nsls2-analysis"
   },
   {
