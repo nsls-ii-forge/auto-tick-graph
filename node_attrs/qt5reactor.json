@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/482999017.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -123,7 +142,11 @@
   }
  },
  "name":"qt5reactor",
- "new_version":"0.6.1",
+ "new_version":"0.6.2",
+ "new_version_attempts":{
+  "0.6.2":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/sunu/qt5reactor",
@@ -187,6 +210,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2020.09.09.10.20.41",
  "raw_meta_yaml":"{% set name = \"qt5reactor\" %}\n{% set version = \"0.6.1\" %}\n{% set sha256 = \"9f02e45ffa891eea98cfba39dccf719dcd515fa73254bb4d53ba936f3d7836f0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - pyqt >=5\n    - twisted\n\ntest:\n  imports:\n    - qt5reactor\n\nabout:\n  home: https://github.com/sunu/qt5reactor\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.txt\n  summary: Twisted Qt Integration\n",
  "req":{
   "__set__":true,
@@ -222,6 +246,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.10",
  "strong_exports":false,
  "total_requirements":{
   "build":{
