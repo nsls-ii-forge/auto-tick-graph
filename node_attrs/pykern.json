@@ -324,12 +324,12 @@
     "pykern = pykern.pykern_console:main"
    ],
    "noarch":"python",
-   "number":"0",
+   "number":0,
    "script":" -m pip install . --no-deps -vv"
   },
   "package":{
    "name":"pykern",
-   "version":"20190922.150150"
+   "version":"20190922.15015"
   },
   "requirements":{
    "build":[
