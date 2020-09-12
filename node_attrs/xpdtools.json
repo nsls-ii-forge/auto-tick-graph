@@ -23,7 +23,7 @@
     "image_to_iq = xpdtools.cli.process_tiff:run_main"
    ],
    "noarch":"python",
-   "number":0,
+   "number":"0",
    "script":" -m pip install . --no-deps -vv"
   },
   "package":{
@@ -121,7 +121,7 @@
     "image_to_iq = xpdtools.cli.process_tiff:run_main"
    ],
    "noarch":"python",
-   "number":0,
+   "number":"0",
    "script":" -m pip install . --no-deps -vv"
   },
   "package":{
