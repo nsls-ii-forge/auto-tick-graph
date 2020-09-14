@@ -43,7 +43,7 @@
   },
   "package":{
    "name":"qt5reactor",
-   "version":"0.6.2"
+   "version":"0.6.3"
   },
   "requirements":{
    "host":[
@@ -57,8 +57,8 @@
    ]
   },
   "source":{
-   "sha256":"b4533e61d883bc3e824f53bace1f91a0ae531e7eb6bf6b43e210dc9a97165e25",
-   "url":"https://pypi.io/packages/source/q/qt5reactor/qt5reactor-0.6.2.tar.gz"
+   "sha256":"c3470a8a25d9a339f9ca6243502a9b2277f181d772b7acbff551d5bc363b7572",
+   "url":"https://pypi.io/packages/source/q/qt5reactor/qt5reactor-0.6.3.tar.gz"
   },
   "test":{
    "imports":[
@@ -106,7 +106,7 @@
   },
   "package":{
    "name":"qt5reactor",
-   "version":"0.6.2"
+   "version":"0.6.3"
   },
   "requirements":{
    "host":[
@@ -130,8 +130,8 @@
    ]
   },
   "source":{
-   "sha256":"b4533e61d883bc3e824f53bace1f91a0ae531e7eb6bf6b43e210dc9a97165e25",
-   "url":"https://pypi.io/packages/source/q/qt5reactor/qt5reactor-0.6.2.tar.gz"
+   "sha256":"c3470a8a25d9a339f9ca6243502a9b2277f181d772b7acbff551d5bc363b7572",
+   "url":"https://pypi.io/packages/source/q/qt5reactor/qt5reactor-0.6.3.tar.gz"
   },
   "test":{
    "imports":[
@@ -162,7 +162,7 @@
   },
   "package":{
    "name":"qt5reactor",
-   "version":"0.6.2"
+   "version":"0.6.3"
   },
   "requirements":{
    "host":[
@@ -176,8 +176,8 @@
    ]
   },
   "source":{
-   "sha256":"b4533e61d883bc3e824f53bace1f91a0ae531e7eb6bf6b43e210dc9a97165e25",
-   "url":"https://pypi.io/packages/source/q/qt5reactor/qt5reactor-0.6.2.tar.gz"
+   "sha256":"c3470a8a25d9a339f9ca6243502a9b2277f181d772b7acbff551d5bc363b7572",
+   "url":"https://pypi.io/packages/source/q/qt5reactor/qt5reactor-0.6.3.tar.gz"
   },
   "test":{
    "imports":[
@@ -211,7 +211,7 @@
   }
  },
  "pinning_version":"2020.09.14.18.14.00",
- "raw_meta_yaml":"{% set name = \"qt5reactor\" %}\n{% set version = \"0.6.2\" %}\n{% set sha256 = \"b4533e61d883bc3e824f53bace1f91a0ae531e7eb6bf6b43e210dc9a97165e25\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - pyqt >=5\n    - twisted\n\ntest:\n  imports:\n    - qt5reactor\n\nabout:\n  home: https://github.com/sunu/qt5reactor\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Twisted Qt Integration\n",
+ "raw_meta_yaml":"{% set name = \"qt5reactor\" %}\n{% set version = \"0.6.3\" %}\n{% set sha256 = \"c3470a8a25d9a339f9ca6243502a9b2277f181d772b7acbff551d5bc363b7572\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - pyqt >=5\n    - twisted\n\ntest:\n  imports:\n    - qt5reactor\n\nabout:\n  home: https://github.com/sunu/qt5reactor\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Twisted Qt Integration\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -274,7 +274,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/q/qt5reactor/qt5reactor-0.6.2.tar.gz",
- "version":"0.6.2",
+ "version":"0.6.3",
  "win_64_meta_yaml":{
   "about":{
    "home":"https://github.com/sunu/qt5reactor",
@@ -290,7 +290,7 @@
   },
   "package":{
    "name":"qt5reactor",
-   "version":"0.6.2"
+   "version":"0.6.3"
   },
   "requirements":{
    "host":[
@@ -304,8 +304,8 @@
    ]
   },
   "source":{
-   "sha256":"b4533e61d883bc3e824f53bace1f91a0ae531e7eb6bf6b43e210dc9a97165e25",
-   "url":"https://pypi.io/packages/source/q/qt5reactor/qt5reactor-0.6.2.tar.gz"
+   "sha256":"c3470a8a25d9a339f9ca6243502a9b2277f181d772b7acbff551d5bc363b7572",
+   "url":"https://pypi.io/packages/source/q/qt5reactor/qt5reactor-0.6.3.tar.gz"
   },
   "test":{
    "imports":[
