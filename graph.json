@@ -391,6 +391,10 @@
   },
   {
    "source":"c_compiler_stub",
+   "target":"pyinstrument_cext"
+  },
+  {
+   "source":"c_compiler_stub",
    "target":"pykafka"
   },
   {
@@ -3591,6 +3595,10 @@
   },
   {
    "source":"pip",
+   "target":"pyinstrument_cext"
+  },
+  {
+   "source":"pip",
    "target":"pyisemail"
   },
   {
@@ -4912,6 +4920,10 @@
   {
    "source":"python",
    "target":"pyinstrument"
+  },
+  {
+   "source":"python",
+   "target":"pyinstrument_cext"
   },
   {
    "source":"python",
