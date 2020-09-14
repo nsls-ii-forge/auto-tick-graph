@@ -2418,6 +2418,10 @@
    "target":"analysis"
   },
   {
+   "source":"nodejs",
+   "target":"pyinstrument"
+  },
+  {
    "source":"nose",
    "target":"clang_packages"
   },

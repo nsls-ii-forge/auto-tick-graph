@@ -33,7 +33,8 @@
   "requirements":{
    "host":[
     "python",
-    "pip"
+    "pip",
+    "nodejs"
    ],
    "run":[
     "python",
@@ -63,6 +64,7 @@
   "host":{
    "__set__":true,
    "elements":[
+    "nodejs",
     "pip",
     "python"
    ]
@@ -106,10 +108,13 @@
    "host":[
     "python",
     "pip",
+    "nodejs",
     "python",
     "pip",
+    "nodejs",
     "python",
-    "pip"
+    "pip",
+    "nodejs"
    ],
    "run":[
     "python",
@@ -169,7 +174,8 @@
   "requirements":{
    "host":[
     "python",
-    "pip"
+    "pip",
+    "nodejs"
    ],
    "run":[
     "python",
@@ -199,6 +205,7 @@
   "host":{
    "__set__":true,
    "elements":[
+    "nodejs",
     "pip",
     "python"
    ]
@@ -215,10 +222,11 @@
    "elements":[]
   }
  },
- "raw_meta_yaml":"{% set name = \"pyinstrument\" %}\n{% set version = \"3.2.0\" %}\n{% set sha256 = \"ce8fef6ea88349f0060b6d974483fd64d2c061346e6b78bca6357509a5121665\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  entry_points:\n    - pyinstrument = pyinstrument.__main__:main\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - pyinstrument_cext >=0.2.2\n\ntest:\n  imports:\n    - pyinstrument\n    - pyinstrument.renderers\n    - pyinstrument.vendor\n  commands:\n    - pyinstrument --help\n\nabout:\n  home: \"https://github.com/joerick/pyinstrument\"\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: \"\ud83d\udeb4 Call stack profiler for Python. Shows you why your code is slow!\"\n  dev_url: https://github.com/joerick/pyinstrument\n",
+ "raw_meta_yaml":"{% set name = \"pyinstrument\" %}\n{% set version = \"3.2.0\" %}\n{% set sha256 = \"ce8fef6ea88349f0060b6d974483fd64d2c061346e6b78bca6357509a5121665\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  entry_points:\n    - pyinstrument = pyinstrument.__main__:main\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n    - nodejs\n  run:\n    - python\n    - pyinstrument_cext >=0.2.2\n\ntest:\n  imports:\n    - pyinstrument\n    - pyinstrument.renderers\n    - pyinstrument.vendor\n  commands:\n    - pyinstrument --help\n\nabout:\n  home: \"https://github.com/joerick/pyinstrument\"\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: \"\ud83d\udeb4 Call stack profiler for Python. Shows you why your code is slow!\"\n  dev_url: https://github.com/joerick/pyinstrument\n",
  "req":{
   "__set__":true,
   "elements":[
+   "nodejs",
    "pip",
    "pyinstrument_cext",
    "python"
@@ -232,6 +240,7 @@
   "host":{
    "__set__":true,
    "elements":[
+    "nodejs",
     "pip",
     "python"
    ]
@@ -257,6 +266,7 @@
   "host":{
    "__set__":true,
    "elements":[
+    "nodejs",
     "pip",
     "python"
    ]
@@ -299,7 +309,8 @@
   "requirements":{
    "host":[
     "python",
-    "pip"
+    "pip",
+    "nodejs"
    ],
    "run":[
     "python",
@@ -329,6 +340,7 @@
   "host":{
    "__set__":true,
    "elements":[
+    "nodejs",
     "pip",
     "python"
    ]

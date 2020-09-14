@@ -50,7 +50,7 @@
    "home":"https://github.com/sunu/qt5reactor",
    "license":"MIT",
    "license_family":"MIT",
-   "license_file":"LICENSE.txt",
+   "license_file":"LICENSE",
    "summary":"Twisted Qt Integration"
   },
   "build":{
@@ -60,7 +60,7 @@
   },
   "package":{
    "name":"qt5reactor",
-   "version":"0.6.1"
+   "version":"0.6.2"
   },
   "requirements":{
    "host":[
@@ -74,8 +74,8 @@
    ]
   },
   "source":{
-   "sha256":"9f02e45ffa891eea98cfba39dccf719dcd515fa73254bb4d53ba936f3d7836f0",
-   "url":"https://pypi.io/packages/source/q/qt5reactor/qt5reactor-0.6.1.tar.gz"
+   "sha256":"b4533e61d883bc3e824f53bace1f91a0ae531e7eb6bf6b43e210dc9a97165e25",
+   "url":"https://pypi.io/packages/source/q/qt5reactor/qt5reactor-0.6.2.tar.gz"
   },
   "test":{
    "imports":[
@@ -113,7 +113,7 @@
    "home":"https://github.com/sunu/qt5reactor",
    "license":"MIT",
    "license_family":"MIT",
-   "license_file":"LICENSE.txt",
+   "license_file":"LICENSE",
    "summary":"Twisted Qt Integration"
   },
   "build":{
@@ -123,7 +123,7 @@
   },
   "package":{
    "name":"qt5reactor",
-   "version":"0.6.1"
+   "version":"0.6.2"
   },
   "requirements":{
    "host":[
@@ -147,8 +147,8 @@
    ]
   },
   "source":{
-   "sha256":"9f02e45ffa891eea98cfba39dccf719dcd515fa73254bb4d53ba936f3d7836f0",
-   "url":"https://pypi.io/packages/source/q/qt5reactor/qt5reactor-0.6.1.tar.gz"
+   "sha256":"b4533e61d883bc3e824f53bace1f91a0ae531e7eb6bf6b43e210dc9a97165e25",
+   "url":"https://pypi.io/packages/source/q/qt5reactor/qt5reactor-0.6.2.tar.gz"
   },
   "test":{
    "imports":[
@@ -170,7 +170,7 @@
    "home":"https://github.com/sunu/qt5reactor",
    "license":"MIT",
    "license_family":"MIT",
-   "license_file":"LICENSE.txt",
+   "license_file":"LICENSE",
    "summary":"Twisted Qt Integration"
   },
   "build":{
@@ -180,7 +180,7 @@
   },
   "package":{
    "name":"qt5reactor",
-   "version":"0.6.1"
+   "version":"0.6.2"
   },
   "requirements":{
    "host":[
@@ -194,8 +194,8 @@
    ]
   },
   "source":{
-   "sha256":"9f02e45ffa891eea98cfba39dccf719dcd515fa73254bb4d53ba936f3d7836f0",
-   "url":"https://pypi.io/packages/source/q/qt5reactor/qt5reactor-0.6.1.tar.gz"
+   "sha256":"b4533e61d883bc3e824f53bace1f91a0ae531e7eb6bf6b43e210dc9a97165e25",
+   "url":"https://pypi.io/packages/source/q/qt5reactor/qt5reactor-0.6.2.tar.gz"
   },
   "test":{
    "imports":[
@@ -229,7 +229,7 @@
   }
  },
  "pinning_version":"2020.09.10.13.34.01",
- "raw_meta_yaml":"{% set name = \"qt5reactor\" %}\n{% set version = \"0.6.1\" %}\n{% set sha256 = \"9f02e45ffa891eea98cfba39dccf719dcd515fa73254bb4d53ba936f3d7836f0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - pyqt >=5\n    - twisted\n\ntest:\n  imports:\n    - qt5reactor\n\nabout:\n  home: https://github.com/sunu/qt5reactor\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.txt\n  summary: Twisted Qt Integration\n",
+ "raw_meta_yaml":"{% set name = \"qt5reactor\" %}\n{% set version = \"0.6.2\" %}\n{% set sha256 = \"b4533e61d883bc3e824f53bace1f91a0ae531e7eb6bf6b43e210dc9a97165e25\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - pyqt >=5\n    - twisted\n\ntest:\n  imports:\n    - qt5reactor\n\nabout:\n  home: https://github.com/sunu/qt5reactor\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Twisted Qt Integration\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -292,13 +292,13 @@
   }
  },
  "url":"https://pypi.io/packages/source/q/qt5reactor/qt5reactor-0.6.1.tar.gz",
- "version":"0.6.1",
+ "version":"0.6.2",
  "win_64_meta_yaml":{
   "about":{
    "home":"https://github.com/sunu/qt5reactor",
    "license":"MIT",
    "license_family":"MIT",
-   "license_file":"LICENSE.txt",
+   "license_file":"LICENSE",
    "summary":"Twisted Qt Integration"
   },
   "build":{
@@ -308,7 +308,7 @@
   },
   "package":{
    "name":"qt5reactor",
-   "version":"0.6.1"
+   "version":"0.6.2"
   },
   "requirements":{
    "host":[
@@ -322,8 +322,8 @@
    ]
   },
   "source":{
-   "sha256":"9f02e45ffa891eea98cfba39dccf719dcd515fa73254bb4d53ba936f3d7836f0",
-   "url":"https://pypi.io/packages/source/q/qt5reactor/qt5reactor-0.6.1.tar.gz"
+   "sha256":"b4533e61d883bc3e824f53bace1f91a0ae531e7eb6bf6b43e210dc9a97165e25",
+   "url":"https://pypi.io/packages/source/q/qt5reactor/qt5reactor-0.6.2.tar.gz"
   },
   "test":{
    "imports":[
