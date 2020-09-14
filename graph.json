@@ -3587,6 +3587,10 @@
   },
   {
    "source":"pip",
+   "target":"pyinstrument"
+  },
+  {
+   "source":"pip",
    "target":"pyisemail"
   },
   {
@@ -4040,6 +4044,10 @@
   {
    "source":"pygobject",
    "target":"hklpy"
+  },
+  {
+   "source":"pyinstrument_cext",
+   "target":"pyinstrument"
   },
   {
    "source":"pyjwt",
@@ -4900,6 +4908,10 @@
   {
    "source":"python",
    "target":"pygobject"
+  },
+  {
+   "source":"python",
+   "target":"pyinstrument"
   },
   {
    "source":"python",
@@ -9470,6 +9482,18 @@
    "id":"pyqtgraph",
    "payload":{
     "__lazy_json__":"node_attrs/pyqtgraph.json"
+   }
+  },
+  {
+   "id":"pyinstrument",
+   "payload":{
+    "__lazy_json__":"node_attrs/pyinstrument.json"
+   }
+  },
+  {
+   "id":"pyinstrument_cext",
+   "payload":{
+    "__lazy_json__":"node_attrs/pyinstrument_cext.json"
    }
   }
  ]
