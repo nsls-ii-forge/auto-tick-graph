@@ -1347,6 +1347,10 @@
   },
   {
    "source":"h11",
+   "target":"httpcore"
+  },
+  {
+   "source":"h11",
    "target":"overly"
   },
   {
@@ -3363,6 +3367,10 @@
   },
   {
    "source":"pip",
+   "target":"httpcore"
+  },
+  {
+   "source":"pip",
    "target":"httpx"
   },
   {
@@ -4680,6 +4688,10 @@
   {
    "source":"python",
    "target":"hklpy"
+  },
+  {
+   "source":"python",
+   "target":"httpcore"
   },
   {
    "source":"python",
@@ -6020,6 +6032,10 @@
   {
    "source":"sniffio",
    "target":"anyio"
+  },
+  {
+   "source":"sniffio",
+   "target":"httpcore"
   },
   {
    "source":"sniffio",
