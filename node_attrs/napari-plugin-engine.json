@@ -58,11 +58,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":"-m pip install . -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"napari-plugin-engine",
-   "version":"0.1.7"
+   "version":"0.1.8"
   },
   "requirements":{
    "host":[
@@ -76,8 +76,8 @@
    ]
   },
   "source":{
-   "sha256":"48239476b13a21a31bb08e4fe21cb192afba717464bdce9e21ac2fbafed20e96",
-   "url":"https://pypi.io/packages/source/n/napari-plugin-engine/napari-plugin-engine-0.1.7.tar.gz"
+   "sha256":"b285ec4cd428cdd95460fe5e3a16a96a22e7b703750279acca361a69593e7639",
+   "url":"https://pypi.io/packages/source/n/napari-plugin-engine/napari-plugin-engine-0.1.8.tar.gz"
   },
   "test":{
    "imports":[
@@ -123,11 +123,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":"-m pip install . -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"napari-plugin-engine",
-   "version":"0.1.7"
+   "version":"0.1.8"
   },
   "requirements":{
    "host":[
@@ -151,8 +151,8 @@
    ]
   },
   "source":{
-   "sha256":"48239476b13a21a31bb08e4fe21cb192afba717464bdce9e21ac2fbafed20e96",
-   "url":"https://pypi.io/packages/source/n/napari-plugin-engine/napari-plugin-engine-0.1.7.tar.gz"
+   "sha256":"b285ec4cd428cdd95460fe5e3a16a96a22e7b703750279acca361a69593e7639",
+   "url":"https://pypi.io/packages/source/n/napari-plugin-engine/napari-plugin-engine-0.1.8.tar.gz"
   },
   "test":{
    "imports":[
@@ -182,11 +182,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":"-m pip install . -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"napari-plugin-engine",
-   "version":"0.1.7"
+   "version":"0.1.8"
   },
   "requirements":{
    "host":[
@@ -200,8 +200,8 @@
    ]
   },
   "source":{
-   "sha256":"48239476b13a21a31bb08e4fe21cb192afba717464bdce9e21ac2fbafed20e96",
-   "url":"https://pypi.io/packages/source/n/napari-plugin-engine/napari-plugin-engine-0.1.7.tar.gz"
+   "sha256":"b285ec4cd428cdd95460fe5e3a16a96a22e7b703750279acca361a69593e7639",
+   "url":"https://pypi.io/packages/source/n/napari-plugin-engine/napari-plugin-engine-0.1.8.tar.gz"
   },
   "test":{
    "imports":[
@@ -235,7 +235,7 @@
   }
  },
  "pinning_version":"2020.09.14.18.14.00",
- "raw_meta_yaml":"{% set name = \"napari-plugin-engine\" %}\n{% set version = \"0.1.7\" %}\n{% set sha256 = \"48239476b13a21a31bb08e4fe21cb192afba717464bdce9e21ac2fbafed20e96\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n    - setuptools_scm\n  run:\n    - python >=3.6\n    - importlib_metadata\n\ntest:\n  imports:\n    - napari_plugin_engine\n\nabout:\n  home: https://github.com/napari/napari-plugin-engine\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: A fork of pluggy - plugin management package\n  doc_url: https://napari-plugin-engine.readthedocs.io/\n  dev_url: https://github.com/napari/napari-plugin-engine\n",
+ "raw_meta_yaml":"{% set name = \"napari-plugin-engine\" %}\n{% set version = \"0.1.8\" %}\n{% set sha256 = \"b285ec4cd428cdd95460fe5e3a16a96a22e7b703750279acca361a69593e7639\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n    - setuptools_scm\n  run:\n    - python >=3.6\n    - importlib_metadata\n\ntest:\n  imports:\n    - napari_plugin_engine\n\nabout:\n  home: https://github.com/napari/napari-plugin-engine\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: A fork of pluggy - plugin management package\n  doc_url: https://napari-plugin-engine.readthedocs.io/\n  dev_url: https://github.com/napari/napari-plugin-engine\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -298,7 +298,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/n/napari-plugin-engine/napari-plugin-engine-0.1.6.tar.gz",
- "version":"0.1.7",
+ "version":"0.1.8",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/napari/napari-plugin-engine",
@@ -312,11 +312,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":"-m pip install . -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"napari-plugin-engine",
-   "version":"0.1.7"
+   "version":"0.1.8"
   },
   "requirements":{
    "host":[
@@ -330,8 +330,8 @@
    ]
   },
   "source":{
-   "sha256":"48239476b13a21a31bb08e4fe21cb192afba717464bdce9e21ac2fbafed20e96",
-   "url":"https://pypi.io/packages/source/n/napari-plugin-engine/napari-plugin-engine-0.1.7.tar.gz"
+   "sha256":"b285ec4cd428cdd95460fe5e3a16a96a22e7b703750279acca361a69593e7639",
+   "url":"https://pypi.io/packages/source/n/napari-plugin-engine/napari-plugin-engine-0.1.8.tar.gz"
   },
   "test":{
    "imports":[

@@ -92,11 +92,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":"-m pip install . -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"httpx",
-   "version":"0.14.3"
+   "version":"0.15.0"
   },
   "requirements":{
    "host":[
@@ -106,16 +106,14 @@
    "run":[
     "python >=3.6",
     "certifi",
-    "chardet ==3.*",
-    "httpcore ==0.10.*",
-    "idna ==2.*",
+    "httpcore ==0.11.*",
     "rfc3986 >=1.3,<2",
     "sniffio"
    ]
   },
   "source":{
-   "sha256":"96bd4de4e6b742d672e2338720baf98518efaf85c86e0b48218e1bef9f272333",
-   "url":"https://pypi.io/packages/source/h/httpx/httpx-0.14.3.tar.gz"
+   "sha256":"1e94f557f4efaa75bd6677ff6502b778cd0cf10cb53acc7e10ca6c835cf8c9b0",
+   "url":"https://pypi.io/packages/source/h/httpx/httpx-0.15.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -145,9 +143,7 @@
    "__set__":true,
    "elements":[
     "certifi",
-    "chardet",
     "httpcore",
-    "idna",
     "python",
     "rfc3986",
     "sniffio"
@@ -173,11 +169,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":"-m pip install . -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"httpx",
-   "version":"0.14.3"
+   "version":"0.15.0"
   },
   "requirements":{
    "host":[
@@ -191,30 +187,24 @@
    "run":[
     "python >=3.6",
     "certifi",
-    "chardet ==3.*",
-    "httpcore ==0.10.*",
-    "idna ==2.*",
+    "httpcore ==0.11.*",
     "rfc3986 >=1.3,<2",
     "sniffio",
     "python >=3.6",
     "certifi",
-    "chardet ==3.*",
-    "httpcore ==0.10.*",
-    "idna ==2.*",
+    "httpcore ==0.11.*",
     "rfc3986 >=1.3,<2",
     "sniffio",
     "python >=3.6",
     "certifi",
-    "chardet ==3.*",
-    "httpcore ==0.10.*",
-    "idna ==2.*",
+    "httpcore ==0.11.*",
     "rfc3986 >=1.3,<2",
     "sniffio"
    ]
   },
   "source":{
-   "sha256":"96bd4de4e6b742d672e2338720baf98518efaf85c86e0b48218e1bef9f272333",
-   "url":"https://pypi.io/packages/source/h/httpx/httpx-0.14.3.tar.gz"
+   "sha256":"1e94f557f4efaa75bd6677ff6502b778cd0cf10cb53acc7e10ca6c835cf8c9b0",
+   "url":"https://pypi.io/packages/source/h/httpx/httpx-0.15.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -256,11 +246,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":"-m pip install . -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"httpx",
-   "version":"0.14.3"
+   "version":"0.15.0"
   },
   "requirements":{
    "host":[
@@ -270,16 +260,14 @@
    "run":[
     "python >=3.6",
     "certifi",
-    "chardet ==3.*",
-    "httpcore ==0.10.*",
-    "idna ==2.*",
+    "httpcore ==0.11.*",
     "rfc3986 >=1.3,<2",
     "sniffio"
    ]
   },
   "source":{
-   "sha256":"96bd4de4e6b742d672e2338720baf98518efaf85c86e0b48218e1bef9f272333",
-   "url":"https://pypi.io/packages/source/h/httpx/httpx-0.14.3.tar.gz"
+   "sha256":"1e94f557f4efaa75bd6677ff6502b778cd0cf10cb53acc7e10ca6c835cf8c9b0",
+   "url":"https://pypi.io/packages/source/h/httpx/httpx-0.15.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -309,9 +297,7 @@
    "__set__":true,
    "elements":[
     "certifi",
-    "chardet",
     "httpcore",
-    "idna",
     "python",
     "rfc3986",
     "sniffio"
@@ -325,14 +311,12 @@
   }
  },
  "pinning_version":"2020.09.19.20.20.14",
- "raw_meta_yaml":"{% set name = \"httpx\" %}\n{% set version = \"0.14.3\" %}\n{% set sha256 = \"96bd4de4e6b742d672e2338720baf98518efaf85c86e0b48218e1bef9f272333\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - certifi\n    - chardet ==3.*\n    - httpcore ==0.10.*\n    - idna ==2.*\n    - rfc3986 >=1.3,<2\n    - sniffio\n\ntest:\n  imports:\n    - httpx\n  requires:\n    - pip\n  commands:\n    - pip check\n\nabout:\n  home: https://github.com/encode/httpx\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.md\n  summary: A next-generation HTTP client for Python.\n  doc_url: https://www.encode.io/httpx/\n  dev_url: https://github.com/encode/httpx\n",
+ "raw_meta_yaml":"{% set name = \"httpx\" %}\n{% set version = \"0.15.0\" %}\n{% set sha256 = \"1e94f557f4efaa75bd6677ff6502b778cd0cf10cb53acc7e10ca6c835cf8c9b0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - certifi\n    - httpcore ==0.11.*\n    - rfc3986 >=1.3,<2\n    - sniffio\n\ntest:\n  imports:\n    - httpx\n  requires:\n    - pip\n  commands:\n    - pip check\n\nabout:\n  home: https://github.com/encode/httpx\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.md\n  summary: A next-generation HTTP client for Python.\n  doc_url: https://www.encode.io/httpx/\n  dev_url: https://github.com/encode/httpx\n",
  "req":{
   "__set__":true,
   "elements":[
    "certifi",
-   "chardet",
    "httpcore",
-   "idna",
    "pip",
    "python",
    "rfc3986",
@@ -355,9 +339,7 @@
    "__set__":true,
    "elements":[
     "certifi",
-    "chardet",
     "httpcore",
-    "idna",
     "python",
     "rfc3986",
     "sniffio"
@@ -388,9 +370,7 @@
    "__set__":true,
    "elements":[
     "certifi",
-    "chardet ==3.*",
-    "httpcore ==0.10.*",
-    "idna ==2.*",
+    "httpcore ==0.11.*",
     "python >=3.6",
     "rfc3986 >=1.3,<2",
     "sniffio"
@@ -404,7 +384,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/h/httpx/httpx-0.12.1.tar.gz",
- "version":"0.14.3",
+ "version":"0.15.0",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/encode/httpx",
@@ -418,11 +398,11 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":"-m pip install . -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"httpx",
-   "version":"0.14.3"
+   "version":"0.15.0"
   },
   "requirements":{
    "host":[
@@ -432,16 +412,14 @@
    "run":[
     "python >=3.6",
     "certifi",
-    "chardet ==3.*",
-    "httpcore ==0.10.*",
-    "idna ==2.*",
+    "httpcore ==0.11.*",
     "rfc3986 >=1.3,<2",
     "sniffio"
    ]
   },
   "source":{
-   "sha256":"96bd4de4e6b742d672e2338720baf98518efaf85c86e0b48218e1bef9f272333",
-   "url":"https://pypi.io/packages/source/h/httpx/httpx-0.14.3.tar.gz"
+   "sha256":"1e94f557f4efaa75bd6677ff6502b778cd0cf10cb53acc7e10ca6c835cf8c9b0",
+   "url":"https://pypi.io/packages/source/h/httpx/httpx-0.15.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -471,9 +449,7 @@
    "__set__":true,
    "elements":[
     "certifi",
-    "chardet",
     "httpcore",
-    "idna",
     "python",
     "rfc3986",
     "sniffio"

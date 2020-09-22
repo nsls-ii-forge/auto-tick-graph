@@ -37,30 +37,30 @@
    "summary":"High level compatibility layer for multiple asynchronous event loop implementations on Python"
   },
   "build":{
-   "noarch":"python",
    "number":"0",
-   "script":"-m pip install . -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"anyio",
-   "version":"1.4.0"
+   "version":"2.0.0"
   },
   "requirements":{
    "host":[
-    "python >=3.6",
+    "python",
     "pip",
     "setuptools_scm"
    ],
    "run":[
-    "python >=3.6",
+    "python",
     "curio",
     "sniffio",
-    "trio"
+    "trio",
+    "typing-extensions"
    ]
   },
   "source":{
-   "sha256":"95f60964fc4583f3f226f8dc275dfb02aefe7b39b85a999c6d14f4ec5323c1d8",
-   "url":"https://pypi.io/packages/source/a/anyio/anyio-1.4.0.tar.gz"
+   "sha256":"ceca4669ffa3f02bf20ef3d6c2a0c323b16cdc71d1ce0b0bc03c6f1f36054826",
+   "url":"https://pypi.io/packages/source/a/anyio/anyio-2.0.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -87,7 +87,8 @@
     "curio",
     "python",
     "sniffio",
-    "trio"
+    "trio",
+    "typing-extensions"
    ]
   },
   "test":{
@@ -104,44 +105,46 @@
    "summary":"High level compatibility layer for multiple asynchronous event loop implementations on Python"
   },
   "build":{
-   "noarch":"python",
    "number":"0",
-   "script":"-m pip install . -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"anyio",
-   "version":"1.4.0"
+   "version":"2.0.0"
   },
   "requirements":{
    "host":[
-    "python >=3.6",
+    "python",
     "pip",
     "setuptools_scm",
-    "python >=3.6",
+    "python",
     "pip",
     "setuptools_scm",
-    "python >=3.6",
+    "python",
     "pip",
     "setuptools_scm"
    ],
    "run":[
-    "python >=3.6",
+    "python",
     "curio",
     "sniffio",
     "trio",
-    "python >=3.6",
+    "typing-extensions",
+    "python",
     "curio",
     "sniffio",
     "trio",
-    "python >=3.6",
+    "typing-extensions",
+    "python",
     "curio",
     "sniffio",
-    "trio"
+    "trio",
+    "typing-extensions"
    ]
   },
   "source":{
-   "sha256":"95f60964fc4583f3f226f8dc275dfb02aefe7b39b85a999c6d14f4ec5323c1d8",
-   "url":"https://pypi.io/packages/source/a/anyio/anyio-1.4.0.tar.gz"
+   "sha256":"ceca4669ffa3f02bf20ef3d6c2a0c323b16cdc71d1ce0b0bc03c6f1f36054826",
+   "url":"https://pypi.io/packages/source/a/anyio/anyio-2.0.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -166,30 +169,30 @@
    "summary":"High level compatibility layer for multiple asynchronous event loop implementations on Python"
   },
   "build":{
-   "noarch":"python",
    "number":"0",
-   "script":"-m pip install . -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"anyio",
-   "version":"1.4.0"
+   "version":"2.0.0"
   },
   "requirements":{
    "host":[
-    "python >=3.6",
+    "python",
     "pip",
     "setuptools_scm"
    ],
    "run":[
-    "python >=3.6",
+    "python",
     "curio",
     "sniffio",
-    "trio"
+    "trio",
+    "typing-extensions"
    ]
   },
   "source":{
-   "sha256":"95f60964fc4583f3f226f8dc275dfb02aefe7b39b85a999c6d14f4ec5323c1d8",
-   "url":"https://pypi.io/packages/source/a/anyio/anyio-1.4.0.tar.gz"
+   "sha256":"ceca4669ffa3f02bf20ef3d6c2a0c323b16cdc71d1ce0b0bc03c6f1f36054826",
+   "url":"https://pypi.io/packages/source/a/anyio/anyio-2.0.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -216,7 +219,8 @@
     "curio",
     "python",
     "sniffio",
-    "trio"
+    "trio",
+    "typing-extensions"
    ]
   },
   "test":{
@@ -225,7 +229,7 @@
   }
  },
  "pinning_version":"2020.09.10.13.34.01",
- "raw_meta_yaml":"{% set name = \"anyio\" %}\n{% set version = \"1.4.0\" %}\n{% set sha256 = \"95f60964fc4583f3f226f8dc275dfb02aefe7b39b85a999c6d14f4ec5323c1d8\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n  noarch: python\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n    - setuptools_scm\n  run:\n    - python >=3.6\n    - curio\n    - sniffio\n    - trio\n\ntest:\n  imports:\n    - anyio\n\nabout:\n  home: https://github.com/agronholm/anyio\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: High level compatibility layer for multiple asynchronous event loop implementations on Python\n",
+ "raw_meta_yaml":"{% set name = \"anyio\" %}\n{% set version = \"2.0.0\" %}\n{% set sha256 = \"ceca4669ffa3f02bf20ef3d6c2a0c323b16cdc71d1ce0b0bc03c6f1f36054826\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  skip: true  # [py<36]\n\nrequirements:\n  host:\n    - python\n    - pip\n    - setuptools_scm\n  run:\n    - python\n    - curio\n    - dataclasses  # [py<37]\n    - sniffio\n    - trio\n    # CF runs the build on Python 3.8+, and the importing test imports things\n    # from \"typing\". We need a backport package \"typing-extensions\" to run the\n    # build/test successfully on 3.7 and older.\n    - typing-extensions  # [py<38]\n\ntest:\n  imports:\n    - anyio\n\nabout:\n  home: https://github.com/agronholm/anyio\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: High level compatibility layer for multiple asynchronous event loop implementations on Python\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -234,7 +238,8 @@
    "python",
    "setuptools_scm",
    "sniffio",
-   "trio"
+   "trio",
+   "typing-extensions"
   ]
  },
  "requirements":{
@@ -256,7 +261,8 @@
     "curio",
     "python",
     "sniffio",
-    "trio"
+    "trio",
+    "typing-extensions"
    ]
   },
   "test":{
@@ -275,7 +281,7 @@
    "__set__":true,
    "elements":[
     "pip",
-    "python >=3.6",
+    "python",
     "setuptools_scm"
    ]
   },
@@ -283,9 +289,10 @@
    "__set__":true,
    "elements":[
     "curio",
-    "python >=3.6",
+    "python",
     "sniffio",
-    "trio"
+    "trio",
+    "typing-extensions"
    ]
   },
   "test":{
@@ -294,7 +301,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/a/anyio/anyio-1.4.0.tar.gz",
- "version":"1.4.0",
+ "version":"2.0.0",
  "win_64_meta_yaml":{
   "about":{
    "home":"https://github.com/agronholm/anyio",
@@ -304,30 +311,30 @@
    "summary":"High level compatibility layer for multiple asynchronous event loop implementations on Python"
   },
   "build":{
-   "noarch":"python",
    "number":"0",
-   "script":"-m pip install . -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"anyio",
-   "version":"1.4.0"
+   "version":"2.0.0"
   },
   "requirements":{
    "host":[
-    "python >=3.6",
+    "python",
     "pip",
     "setuptools_scm"
    ],
    "run":[
-    "python >=3.6",
+    "python",
     "curio",
     "sniffio",
-    "trio"
+    "trio",
+    "typing-extensions"
    ]
   },
   "source":{
-   "sha256":"95f60964fc4583f3f226f8dc275dfb02aefe7b39b85a999c6d14f4ec5323c1d8",
-   "url":"https://pypi.io/packages/source/a/anyio/anyio-1.4.0.tar.gz"
+   "sha256":"ceca4669ffa3f02bf20ef3d6c2a0c323b16cdc71d1ce0b0bc03c6f1f36054826",
+   "url":"https://pypi.io/packages/source/a/anyio/anyio-2.0.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -354,7 +361,8 @@
     "curio",
     "python",
     "sniffio",
-    "trio"
+    "trio",
+    "typing-extensions"
    ]
   },
   "test":{

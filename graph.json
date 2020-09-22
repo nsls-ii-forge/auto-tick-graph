@@ -502,10 +502,6 @@
    "target":"trio"
   },
   {
-   "source":"chardet",
-   "target":"httpx"
-  },
-  {
    "source":"chxtools",
    "target":"11-id-chx-analysis"
   },
@@ -1508,10 +1504,6 @@
   {
    "source":"icu",
    "target":"uwsgi"
-  },
-  {
-   "source":"idna",
-   "target":"httpx"
   },
   {
    "source":"idna",
@@ -6346,6 +6338,10 @@
    "target":"qt5reactor"
   },
   {
+   "source":"typing-extensions",
+   "target":"anyio"
+  },
+  {
    "source":"tzlocal",
    "target":"analysis"
   },
@@ -9526,6 +9522,12 @@
    "id":"pyinstrument_cext",
    "payload":{
     "__lazy_json__":"node_attrs/pyinstrument_cext.json"
+   }
+  },
+  {
+   "id":"typing-extensions",
+   "payload":{
+    "__lazy_json__":"node_attrs/typing-extensions.json"
    }
   }
  ]
