@@ -5,6 +5,7 @@
   "xraydb",
   "nbclient",
   "nsls2forge-utils",
+  "eventlet",
   "httpx",
   "pykern"
 ]

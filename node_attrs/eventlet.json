@@ -33,6 +33,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/491948151.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.28.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -202,10 +219,11 @@
   }
  },
  "name":"eventlet",
- "new_version":"0.27.0",
+ "new_version":"0.28.0",
  "new_version_attempts":{
   "0.26.1":1,
-  "0.27.0":1
+  "0.27.0":1,
+  "0.28.0":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -284,7 +302,7 @@
    "elements":[]
   }
  },
- "pinning_version":"2020.09.02.00.32.57",
+ "pinning_version":"2020.09.23.12.58.01",
  "raw_meta_yaml":"{% set name = \"eventlet\" %}\n{% set version = \"0.27.0\" %}\n{% set sha256 = \"0fb3edef033f5ac3db5a4de187147499c9f2527daad8c4e3c3b030fa8efa74ef\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  build:\n    - python >=3.6\n    - pip\n  run:\n    - python\n    - greenlet >=0.3\n    - enum34  # [py<34]\n    - dnspython >=1.15.0\n    - monotonic >=1.4\n    - six >=1.10.0\n    - pyopenssl\n\ntest:\n  imports:\n    - eventlet\n    - eventlet.green\n    - eventlet.green.OpenSSL\n    - eventlet.green.http  # [py3k]\n    - eventlet.green.urllib\n    - eventlet.greenio\n    - eventlet.hubs\n    - eventlet.support\n\nabout:\n  home: http://eventlet.net\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Highly concurrent networking library\n\n",
  "req":{
   "__set__":true,
