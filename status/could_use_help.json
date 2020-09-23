@@ -4,6 +4,7 @@
   "reportlab",
   "xraydb",
   "nbclient",
+  "papermill",
   "nsls2forge-utils",
   "eventlet",
   "httpx",
