@@ -5,6 +5,7 @@
   "xraydb",
   "nbclient",
   "papermill",
+  "napari",
   "nsls2forge-utils",
   "eventlet",
   "httpx",
