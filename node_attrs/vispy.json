@@ -30,47 +30,49 @@
  "hash_type":"sha256",
  "linux_64_meta_yaml":{
   "about":{
+   "dev_url":"https://github.com/vispy/vispy",
+   "doc_url":"http://vispy.org/documentation.html",
    "home":"http://vispy.org",
-   "license":"BSD 3-Clause",
+   "license":"BSD-3-Clause",
    "license_family":"BSD",
    "license_file":"LICENSE.txt",
    "summary":"VisPy is a high-performance interactive 2D/3D data visualization library."
   },
   "build":{
    "number":"0",
-   "script":" -m pip install . -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"vispy",
-   "version":"0.6.4"
+   "version":"0.6.5"
   },
   "requirements":{
    "build":[
     "c_compiler_stub"
    ],
    "host":[
-    "pip",
     "python",
+    "pip",
+    "cython",
+    "fontconfig",
+    "numpy",
     "setuptools",
     "setuptools_scm",
-    "setuptools_scm_git_archive",
-    "numpy",
-    "fontconfig",
-    "cython"
+    "setuptools_scm_git_archive"
    ],
    "run":[
     "python",
-    "numpy",
     "fontconfig",
-    "freetype-py"
+    "freetype-py",
+    "numpy"
    ]
   },
   "source":{
    "patches":[
     "ctypes_fontconfig.diff"
    ],
-   "sha256":"627b6574b77c86e72a1e6b4522a5c9697c6f4cbb23678d8da9ff55c339264b1f",
-   "url":"https://pypi.io/packages/source/v/vispy/vispy-0.6.4.tar.gz"
+   "sha256":"90cc76e79ee16c839bca05753e0c5f9f1c1c57963f2d3b248e4afac0fd75df75",
+   "url":"https://pypi.io/packages/source/v/vispy/vispy-0.6.5.tar.gz"
   },
   "test":{
    "imports":[
@@ -114,19 +116,21 @@
  },
  "meta_yaml":{
   "about":{
+   "dev_url":"https://github.com/vispy/vispy",
+   "doc_url":"http://vispy.org/documentation.html",
    "home":"http://vispy.org",
-   "license":"BSD 3-Clause",
+   "license":"BSD-3-Clause",
    "license_family":"BSD",
    "license_file":"LICENSE.txt",
    "summary":"VisPy is a high-performance interactive 2D/3D data visualization library."
   },
   "build":{
    "number":"0",
-   "script":" -m pip install . -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"vispy",
-   "version":"0.6.4"
+   "version":"0.6.5"
   },
   "requirements":{
    "build":[
@@ -135,42 +139,42 @@
     "c_compiler_stub"
    ],
    "host":[
-    "pip",
     "python",
-    "setuptools",
-    "setuptools_scm",
-    "setuptools_scm_git_archive",
-    "numpy",
+    "pip",
     "cython",
-    "pip",
-    "python",
+    "numpy",
     "setuptools",
     "setuptools_scm",
     "setuptools_scm_git_archive",
-    "numpy",
-    "fontconfig",
+    "python",
+    "pip",
     "cython",
-    "pip",
-    "python",
+    "fontconfig",
+    "numpy",
     "setuptools",
     "setuptools_scm",
     "setuptools_scm_git_archive",
-    "numpy",
+    "python",
+    "pip",
+    "cython",
     "fontconfig",
-    "cython"
+    "numpy",
+    "setuptools",
+    "setuptools_scm",
+    "setuptools_scm_git_archive"
    ],
    "run":[
     "python",
-    "numpy",
     "freetype-py",
-    "python",
     "numpy",
+    "python",
     "fontconfig",
     "freetype-py",
-    "python",
     "numpy",
+    "python",
     "fontconfig",
-    "freetype-py"
+    "freetype-py",
+    "numpy"
    ]
   },
   "source":{
@@ -179,8 +183,8 @@
     "ctypes_fontconfig.diff",
     "ctypes_fontconfig.diff"
    ],
-   "sha256":"627b6574b77c86e72a1e6b4522a5c9697c6f4cbb23678d8da9ff55c339264b1f",
-   "url":"https://pypi.io/packages/source/v/vispy/vispy-0.6.4.tar.gz"
+   "sha256":"90cc76e79ee16c839bca05753e0c5f9f1c1c57963f2d3b248e4afac0fd75df75",
+   "url":"https://pypi.io/packages/source/v/vispy/vispy-0.6.5.tar.gz"
   },
   "test":{
    "imports":[
@@ -198,47 +202,49 @@
  "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
+   "dev_url":"https://github.com/vispy/vispy",
+   "doc_url":"http://vispy.org/documentation.html",
    "home":"http://vispy.org",
-   "license":"BSD 3-Clause",
+   "license":"BSD-3-Clause",
    "license_family":"BSD",
    "license_file":"LICENSE.txt",
    "summary":"VisPy is a high-performance interactive 2D/3D data visualization library."
   },
   "build":{
    "number":"0",
-   "script":" -m pip install . -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"vispy",
-   "version":"0.6.4"
+   "version":"0.6.5"
   },
   "requirements":{
    "build":[
     "c_compiler_stub"
    ],
    "host":[
-    "pip",
     "python",
+    "pip",
+    "cython",
+    "fontconfig",
+    "numpy",
     "setuptools",
     "setuptools_scm",
-    "setuptools_scm_git_archive",
-    "numpy",
-    "fontconfig",
-    "cython"
+    "setuptools_scm_git_archive"
    ],
    "run":[
     "python",
-    "numpy",
     "fontconfig",
-    "freetype-py"
+    "freetype-py",
+    "numpy"
    ]
   },
   "source":{
    "patches":[
     "ctypes_fontconfig.diff"
    ],
-   "sha256":"627b6574b77c86e72a1e6b4522a5c9697c6f4cbb23678d8da9ff55c339264b1f",
-   "url":"https://pypi.io/packages/source/v/vispy/vispy-0.6.4.tar.gz"
+   "sha256":"90cc76e79ee16c839bca05753e0c5f9f1c1c57963f2d3b248e4afac0fd75df75",
+   "url":"https://pypi.io/packages/source/v/vispy/vispy-0.6.5.tar.gz"
   },
   "test":{
    "imports":[
@@ -281,7 +287,7 @@
   }
  },
  "pinning_version":"2020.09.24.11.51.54",
- "raw_meta_yaml":"{% set name = \"vispy\" %}\n{% set version = \"0.6.4\" %}\n{% set sha256 = \"627b6574b77c86e72a1e6b4522a5c9697c6f4cbb23678d8da9ff55c339264b1f\" %}\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n  patches:\n    - ctypes_fontconfig.diff\n\nbuild:\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n  skip: True  # [py<36]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - pip\n    - python\n    - setuptools\n    - setuptools_scm\n    - setuptools_scm_git_archive\n    - numpy\n    - fontconfig  # [unix]\n    - cython\n  run:\n    - python\n    - {{ pin_compatible('numpy') }}\n    - fontconfig  # [unix]\n    - freetype-py\n\ntest:\n  imports:\n    - vispy\n\nabout:\n  home: http://vispy.org\n  license_family: BSD\n  license: BSD 3-Clause\n  license_file: LICENSE.txt\n  summary: 'VisPy is a high-performance interactive 2D/3D data visualization library.'\n",
+ "raw_meta_yaml":"{% set name = \"vispy\" %}\n{% set version = \"0.6.5\" %}\n{% set sha256 = \"90cc76e79ee16c839bca05753e0c5f9f1c1c57963f2d3b248e4afac0fd75df75\" %}\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n  patches:\n    - ctypes_fontconfig.diff\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  skip: true  # [py<36]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - python\n    - pip\n    - cython\n    - fontconfig  # [unix]\n    - numpy\n    - setuptools\n    - setuptools_scm\n    - setuptools_scm_git_archive\n  run:\n    - python\n    - fontconfig  # [unix]\n    - freetype-py\n    - {{ pin_compatible('numpy') }}\n\ntest:\n  imports:\n    - vispy\n\nabout:\n  home: http://vispy.org\n  license_family: BSD\n  license: BSD-3-Clause\n  license_file: LICENSE.txt\n  summary: VisPy is a high-performance interactive 2D/3D data visualization library.\n  dev_url: https://github.com/vispy/vispy\n  doc_url: http://vispy.org/documentation.html\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -368,48 +374,50 @@
   }
  },
  "url":"https://pypi.io/packages/source/v/vispy/vispy-0.6.4.tar.gz",
- "version":"0.6.4",
+ "version":"0.6.5",
  "win_64_meta_yaml":{
   "about":{
+   "dev_url":"https://github.com/vispy/vispy",
+   "doc_url":"http://vispy.org/documentation.html",
    "home":"http://vispy.org",
-   "license":"BSD 3-Clause",
+   "license":"BSD-3-Clause",
    "license_family":"BSD",
    "license_file":"LICENSE.txt",
    "summary":"VisPy is a high-performance interactive 2D/3D data visualization library."
   },
   "build":{
    "number":"0",
-   "script":" -m pip install . -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"vispy",
-   "version":"0.6.4"
+   "version":"0.6.5"
   },
   "requirements":{
    "build":[
     "c_compiler_stub"
    ],
    "host":[
-    "pip",
     "python",
+    "pip",
+    "cython",
+    "numpy",
     "setuptools",
     "setuptools_scm",
-    "setuptools_scm_git_archive",
-    "numpy",
-    "cython"
+    "setuptools_scm_git_archive"
    ],
    "run":[
     "python",
-    "numpy",
-    "freetype-py"
+    "freetype-py",
+    "numpy"
    ]
   },
   "source":{
    "patches":[
     "ctypes_fontconfig.diff"
    ],
-   "sha256":"627b6574b77c86e72a1e6b4522a5c9697c6f4cbb23678d8da9ff55c339264b1f",
-   "url":"https://pypi.io/packages/source/v/vispy/vispy-0.6.4.tar.gz"
+   "sha256":"90cc76e79ee16c839bca05753e0c5f9f1c1c57963f2d3b248e4afac0fd75df75",
+   "url":"https://pypi.io/packages/source/v/vispy/vispy-0.6.5.tar.gz"
   },
   "test":{
    "imports":[
