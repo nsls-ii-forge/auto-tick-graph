@@ -1138,6 +1138,10 @@
    "target":"signalslot"
   },
   {
+   "source":"extension-helpers",
+   "target":"photutils"
+  },
+  {
    "source":"fabio",
    "target":"analysis"
   },
@@ -5788,6 +5792,10 @@
   {
    "source":"setuptools_scm",
    "target":"napari-svg"
+  },
+  {
+   "source":"setuptools_scm",
+   "target":"photutils"
   },
   {
    "source":"setuptools_scm",
