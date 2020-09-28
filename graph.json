@@ -3315,6 +3315,10 @@
   },
   {
    "source":"pip",
+   "target":"extension-helpers"
+  },
+  {
+   "source":"pip",
    "target":"fabio"
   },
   {
@@ -4631,6 +4635,10 @@
   },
   {
    "source":"python",
+   "target":"extension-helpers"
+  },
+  {
+   "source":"python",
    "target":"fabio"
   },
   {
@@ -5759,6 +5767,10 @@
   },
   {
    "source":"setuptools_scm",
+   "target":"extension-helpers"
+  },
+  {
+   "source":"setuptools_scm",
    "target":"freetype-py"
   },
   {
@@ -5804,6 +5816,10 @@
   {
    "source":"setuptools",
    "target":"cupy"
+  },
+  {
+   "source":"setuptools",
+   "target":"extension-helpers"
   },
   {
    "source":"setuptools",
@@ -9528,6 +9544,12 @@
    "id":"typing-extensions",
    "payload":{
     "__lazy_json__":"node_attrs/typing-extensions.json"
+   }
+  },
+  {
+   "id":"extension-helpers",
+   "payload":{
+    "__lazy_json__":"node_attrs/extension-helpers.json"
    }
   }
  ]
