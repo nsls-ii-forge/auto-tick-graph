@@ -172,7 +172,7 @@
    "summary":"Confluent's Apache Kafka client for Python"
   },
   "build":{
-   "number":"0"
+   "number":0
   },
   "package":{
    "name":"python-confluent-kafka",
