@@ -16,6 +16,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/495459631.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -176,9 +193,10 @@
   }
  },
  "name":"kafka-python",
- "new_version":"2.0.1",
+ "new_version":"2.0.2",
  "new_version_attempts":{
-  "2.0.1":1
+  "2.0.1":1,
+  "2.0.2":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -252,7 +270,7 @@
    "elements":[]
   }
  },
- "pinning_version":"2020.08.17.20.01.55",
+ "pinning_version":"2020.09.29.16.41.07",
  "raw_meta_yaml":"{% set name = \"kafka-python\" %}\n{% set version = \"2.0.1\" %}\n{% set sha256 = \"e59ad42dec8c7d54e3fbba0c1f8b54c44d92a3392d88242962d0c29803f2f6f8\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n\ntest:\n  imports:\n    - kafka\n    - kafka.consumer\n    - kafka.coordinator\n    - kafka.coordinator.assignors\n    - kafka.metrics\n    - kafka.metrics.stats\n    - kafka.partitioner\n    - kafka.producer\n    - kafka.protocol\n    - kafka.serializer\n    - kafka.vendor\n\nabout:\n  home: https://github.com/dpkp/kafka-python\n  license_file: LICENSE\n  license: Apache 2.0\n  license_family: Apache\n  summary: Pure Python client for Apache Kafka\n  dev_url: https://github.com/dpkp/kafka-python\n  doc_url: https://kafka-python.readthedocs.io\n",
  "req":{
   "__set__":true,
