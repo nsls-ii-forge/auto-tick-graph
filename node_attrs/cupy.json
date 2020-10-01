@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/496205306.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"8.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -286,7 +305,11 @@
   }
  },
  "name":"cupy",
- "new_version":"7.8.0.post1",
+ "new_version":"8.0.0",
+ "new_version_attempts":{
+  "8.0.0":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://cupy.chainer.org/",
@@ -408,6 +431,7 @@
    ]
   }
  },
+ "pinning_version":"2020.10.01.08.48.05",
  "raw_meta_yaml":"{% set name = \"cupy\" %}\n{% set version = \"8.0.0b2\" %}\n{% set sha256 = \"6e06ccd1795b1c6f7fd82ff6f5db8306c69ca39393976ca49e9bc687646f9dd0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  - url: https://github.com/cupy/cupy/archive/v{{ version }}.tar.gz\n    sha256: {{ sha256 }}\n\n  # 1. The CUB support has been extensively tested with v1.8.0, so we should pin it here\n  # 2. This dependency should be removed once CuPy bundles CUB (cupy/cupy#2584)\n  - url: https://github.com/NVlabs/cub/archive/1.8.0.tar.gz\n    sha256: 025658f4c933cd2aa8cc88a559d013338d68de3fa639cc1f2b12cf61dc759667\n    folder: cub_v1.8.0  # so the source code is in cupy/cub_v1.8.0\n\nbuild:\n  number: 0\n  # temporarily disable PyPy build (conda-forge/cupy-feedstock#43)\n  skip: true  # [python_impl == \"pypy\"]\n  skip: true  # [cuda_compiler_version in (undefined, \"None\")]\n\n  script:\n    # The issue of some CUDA headers being moved out of /usr/local/cuda/ since 10.1+\n    # is addressed in conda-forge/docker-images#134, so we do nothing in the recipe\n    - export CUB_PATH=${PWD}/cub_v1.8.0  # TODO(leofang): remove this\n    #- export CUTENSOR_PATH=${HOME}/libcutensor  # [cuda_compiler_version in ('10.1', '10.2')]\n    - {{ PYTHON }} -m pip install . -vv\n\n    # copy activate/deactivate scripts\n    - mkdir -p \"${PREFIX}/etc/conda/activate.d\"\n    - cp \"${RECIPE_DIR}/activate.sh\" \"${PREFIX}/etc/conda/activate.d/cupy_activate.sh\"\n    - mkdir -p \"${PREFIX}/etc/conda/deactivate.d\"\n    - cp \"${RECIPE_DIR}/deactivate.sh\" \"${PREFIX}/etc/conda/deactivate.d/cupy_deactivate.sh\"\n\n    ## copy cutensor\n    #- cp $CUTENSOR_PATH/lib/{{ cuda_compiler_version }}/libcutensor.so* $PREFIX/lib/  # [cuda_compiler_version in ('10.1', '10.2')]\n  missing_dso_whitelist:\n    - '*/libcuda.*'\n\nrequirements:\n  build:\n    - {{ compiler(\"c\") }}\n    - {{ compiler(\"cxx\") }}\n    - {{ compiler(\"cuda\") }}\n\n  host:\n    - python\n    - pip\n    - setuptools\n    - cython >=0.24.0\n    - fastrlock >=0.3\n    - cudnn\n    - nccl\n\n  run:\n    - python\n    - setuptools\n    - fastrlock >=0.3\n    - numpy >=1.9.0\n    - six >=1.9.0\n    # - cudnn  <-- added via run_export\n    # - nccl   <-- added via run_export\n\ntest:\n  requires:\n    - pytest\n    - mock\n    - {{ compiler(\"c\") }}\n    - {{ compiler(\"cxx\") }}\n    - {{ compiler(\"cuda\") }}  # tests need nvcc\n    #- scipy >=1.0,<1.1  <-- cause error\n\n  source_files:\n    - tests\n\n  #commands:\n  #  # ugly hack to see the linkage\n  #  - ldd ${STDLIB_DIR}/site-packages/cupy/cuda/cutensor.cpython-${CONDA_PY}m-x86_64-linux-gnu.so  # [cuda_compiler_version in ('10.1', '10.2')]\n\nabout:\n  home: https://cupy.chainer.org/\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: CuPy is an implementation of a NumPy-compatible multi-dimensional array on CUDA.\n\nextra:\n  recipe-maintainers:\n    - leofang\n",
  "req":{
   "__set__":true,
@@ -468,6 +492,7 @@
    ]
   }
  },
+ "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.10",
  "strong_exports":false,
  "total_requirements":{
   "build":{
