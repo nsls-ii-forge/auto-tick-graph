@@ -1,5 +1,5 @@
 {
- "bad":false,
+ "bad":"make_graph: 503",
  "conda-forge.yml":{
   "provider":{
    "linux":"azure",
@@ -167,7 +167,7 @@
   }
  },
  "name":"xray-vision",
- "new_version":"0.0.9",
+ "new_version":false,
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/Nikea/xray-vision",
