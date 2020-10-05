@@ -45,7 +45,7 @@
   },
   "package":{
    "name":"unyt",
-   "version":"2.7.2"
+   "version":"2.8.0"
   },
   "requirements":{
    "host":[
@@ -59,8 +59,8 @@
    ]
   },
   "source":{
-   "sha256":"498efe0c24c3b137ab6cf79e8abb5fa5297f76e882ef0ac99cdb57d0280d0a5e",
-   "url":"https://pypi.io/packages/source/u/unyt/unyt-2.7.2.tar.gz"
+   "sha256":"6a17f849af0ec376fccb111c26b767022189d157d416f0fe5078f31b6b01a22e",
+   "url":"https://pypi.io/packages/source/u/unyt/unyt-2.8.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -110,7 +110,7 @@
   },
   "package":{
    "name":"unyt",
-   "version":"2.7.2"
+   "version":"2.8.0"
   },
   "requirements":{
    "host":[
@@ -134,8 +134,8 @@
    ]
   },
   "source":{
-   "sha256":"498efe0c24c3b137ab6cf79e8abb5fa5297f76e882ef0ac99cdb57d0280d0a5e",
-   "url":"https://pypi.io/packages/source/u/unyt/unyt-2.7.2.tar.gz"
+   "sha256":"6a17f849af0ec376fccb111c26b767022189d157d416f0fe5078f31b6b01a22e",
+   "url":"https://pypi.io/packages/source/u/unyt/unyt-2.8.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -168,7 +168,7 @@
   },
   "package":{
    "name":"unyt",
-   "version":"2.7.2"
+   "version":"2.8.0"
   },
   "requirements":{
    "host":[
@@ -182,8 +182,8 @@
    ]
   },
   "source":{
-   "sha256":"498efe0c24c3b137ab6cf79e8abb5fa5297f76e882ef0ac99cdb57d0280d0a5e",
-   "url":"https://pypi.io/packages/source/u/unyt/unyt-2.7.2.tar.gz"
+   "sha256":"6a17f849af0ec376fccb111c26b767022189d157d416f0fe5078f31b6b01a22e",
+   "url":"https://pypi.io/packages/source/u/unyt/unyt-2.8.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -217,7 +217,7 @@
   }
  },
  "pinning_version":"2020.10.05.16.30.09",
- "raw_meta_yaml":"{% set name = \"unyt\" %}\n{% set version = \"2.7.2\" %}\n{% set sha256 = \"498efe0c24c3b137ab6cf79e8abb5fa5297f76e882ef0ac99cdb57d0280d0a5e\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n  run:\n    - python >=3.5\n    - numpy >=1.13\n    - sympy\n\ntest:\n  imports:\n    - unyt\n\nabout:\n  home: http://github.com/yt-project/unyt\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Handle, manipulate, and convert data with units in Python\n  doc_url: http://unyt.readthedocs.io/\n  dev_url: https://github.com/yt-project/unyt\n",
+ "raw_meta_yaml":"{% set name = \"unyt\" %}\n{% set version = \"2.8.0\" %}\n{% set sha256 = \"6a17f849af0ec376fccb111c26b767022189d157d416f0fe5078f31b6b01a22e\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n  run:\n    - python >=3.5\n    - numpy >=1.13\n    - sympy\n\ntest:\n  imports:\n    - unyt\n\nabout:\n  home: http://github.com/yt-project/unyt\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Handle, manipulate, and convert data with units in Python\n  doc_url: http://unyt.readthedocs.io/\n  dev_url: https://github.com/yt-project/unyt\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -280,7 +280,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/u/unyt/unyt-2.7.2.tar.gz",
- "version":"2.7.2",
+ "version":"2.8.0",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/yt-project/unyt",
@@ -298,7 +298,7 @@
   },
   "package":{
    "name":"unyt",
-   "version":"2.7.2"
+   "version":"2.8.0"
   },
   "requirements":{
    "host":[
@@ -312,8 +312,8 @@
    ]
   },
   "source":{
-   "sha256":"498efe0c24c3b137ab6cf79e8abb5fa5297f76e882ef0ac99cdb57d0280d0a5e",
-   "url":"https://pypi.io/packages/source/u/unyt/unyt-2.7.2.tar.gz"
+   "sha256":"6a17f849af0ec376fccb111c26b767022189d157d416f0fe5078f31b6b01a22e",
+   "url":"https://pypi.io/packages/source/u/unyt/unyt-2.8.0.tar.gz"
   },
   "test":{
    "imports":[
