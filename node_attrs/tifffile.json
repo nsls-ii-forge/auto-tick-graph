@@ -94,11 +94,11 @@
    ],
    "noarch":"python",
    "number":"0",
-   "script":"-m pip install . -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"tifffile",
-   "version":"2020.9.22"
+   "version":"2020.10.1"
   },
   "requirements":{
    "host":[
@@ -107,13 +107,13 @@
    ],
    "run":[
     "python >=3.7",
-    "numpy >=1.15.1",
-    "imagecodecs"
+    "imagecodecs",
+    "numpy >=1.15.1"
    ]
   },
   "source":{
-   "sha256":"505a0ddf372697e8dacd3a8bc486f7143df44772b0fd72ca56486b6b46cbe494",
-   "url":"https://pypi.io/packages/source/t/tifffile/tifffile-2020.9.22.tar.gz"
+   "sha256":"799feeccc91965b69e1288c51a1d1118faec7f40b2eb89ad2979591b85324830",
+   "url":"https://pypi.io/packages/source/t/tifffile/tifffile-2020.10.1.tar.gz"
   },
   "test":{
    "imports":[
@@ -165,11 +165,11 @@
    ],
    "noarch":"python",
    "number":"0",
-   "script":"-m pip install . -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"tifffile",
-   "version":"2020.9.22"
+   "version":"2020.10.1"
   },
   "requirements":{
    "host":[
@@ -182,19 +182,19 @@
    ],
    "run":[
     "python >=3.7",
-    "numpy >=1.15.1",
     "imagecodecs",
-    "python >=3.7",
     "numpy >=1.15.1",
+    "python >=3.7",
     "imagecodecs",
-    "python >=3.7",
     "numpy >=1.15.1",
-    "imagecodecs"
+    "python >=3.7",
+    "imagecodecs",
+    "numpy >=1.15.1"
    ]
   },
   "source":{
-   "sha256":"505a0ddf372697e8dacd3a8bc486f7143df44772b0fd72ca56486b6b46cbe494",
-   "url":"https://pypi.io/packages/source/t/tifffile/tifffile-2020.9.22.tar.gz"
+   "sha256":"799feeccc91965b69e1288c51a1d1118faec7f40b2eb89ad2979591b85324830",
+   "url":"https://pypi.io/packages/source/t/tifffile/tifffile-2020.10.1.tar.gz"
   },
   "test":{
    "imports":[
@@ -228,11 +228,11 @@
    ],
    "noarch":"python",
    "number":"0",
-   "script":"-m pip install . -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"tifffile",
-   "version":"2020.9.22"
+   "version":"2020.10.1"
   },
   "requirements":{
    "host":[
@@ -241,13 +241,13 @@
    ],
    "run":[
     "python >=3.7",
-    "numpy >=1.15.1",
-    "imagecodecs"
+    "imagecodecs",
+    "numpy >=1.15.1"
    ]
   },
   "source":{
-   "sha256":"505a0ddf372697e8dacd3a8bc486f7143df44772b0fd72ca56486b6b46cbe494",
-   "url":"https://pypi.io/packages/source/t/tifffile/tifffile-2020.9.22.tar.gz"
+   "sha256":"799feeccc91965b69e1288c51a1d1118faec7f40b2eb89ad2979591b85324830",
+   "url":"https://pypi.io/packages/source/t/tifffile/tifffile-2020.10.1.tar.gz"
   },
   "test":{
    "imports":[
@@ -281,7 +281,7 @@
   }
  },
  "pinning_version":"2020.09.19.20.20.14",
- "raw_meta_yaml":"{% set name = \"tifffile\" %}\n{% set version = \"2020.9.22\" %}\n{% set sha256 = \"505a0ddf372697e8dacd3a8bc486f7143df44772b0fd72ca56486b6b46cbe494\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv\n  entry_points:\n    - tifffile = tifffile:main\n    - lsm2bin = tifffile.lsm2bin:main\n\nrequirements:\n  host:\n    - python >=3.7\n    - pip\n  run:\n    - python >=3.7\n    - numpy >=1.15.1\n    - imagecodecs\n\ntest:\n  imports:\n    - tifffile\n\nabout:\n  home: https://github.com/cgohlke/tifffile\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Read and write image data from and to TIFF files.\n",
+ "raw_meta_yaml":"{% set name = \"tifffile\" %}\n{% set version = \"2020.10.1\" %}\n{% set sha256 = \"799feeccc91965b69e1288c51a1d1118faec7f40b2eb89ad2979591b85324830\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  entry_points:\n    - tifffile = tifffile:main\n    - lsm2bin = tifffile.lsm2bin:main\n\nrequirements:\n  host:\n    - python >=3.7\n    - pip\n  run:\n    - python >=3.7\n    - imagecodecs\n    - numpy >=1.15.1\n\ntest:\n  imports:\n    - tifffile\n\nabout:\n  home: https://github.com/cgohlke/tifffile\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Read and write image data from and to TIFF files.\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -344,7 +344,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/t/tifffile/tifffile-0.15.1.tar.gz",
- "version":"2020.9.22",
+ "version":"2020.10.1",
  "win_64_meta_yaml":{
   "about":{
    "home":"https://github.com/cgohlke/tifffile",
@@ -360,11 +360,11 @@
    ],
    "noarch":"python",
    "number":"0",
-   "script":"-m pip install . -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"tifffile",
-   "version":"2020.9.22"
+   "version":"2020.10.1"
   },
   "requirements":{
    "host":[
@@ -373,13 +373,13 @@
    ],
    "run":[
     "python >=3.7",
-    "numpy >=1.15.1",
-    "imagecodecs"
+    "imagecodecs",
+    "numpy >=1.15.1"
    ]
   },
   "source":{
-   "sha256":"505a0ddf372697e8dacd3a8bc486f7143df44772b0fd72ca56486b6b46cbe494",
-   "url":"https://pypi.io/packages/source/t/tifffile/tifffile-2020.9.22.tar.gz"
+   "sha256":"799feeccc91965b69e1288c51a1d1118faec7f40b2eb89ad2979591b85324830",
+   "url":"https://pypi.io/packages/source/t/tifffile/tifffile-2020.10.1.tar.gz"
   },
   "test":{
    "imports":[

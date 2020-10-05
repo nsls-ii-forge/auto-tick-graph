@@ -5799,6 +5799,10 @@
   },
   {
    "source":"setuptools_scm",
+   "target":"prettytable"
+  },
+  {
+   "source":"setuptools_scm",
    "target":"pytest-qt"
   },
   {
@@ -5840,6 +5844,10 @@
   {
    "source":"setuptools",
    "target":"photutils"
+  },
+  {
+   "source":"setuptools",
+   "target":"prettytable"
   },
   {
    "source":"setuptools",
@@ -6412,6 +6420,10 @@
   {
    "source":"vispy",
    "target":"napari-svg"
+  },
+  {
+   "source":"wcwidth",
+   "target":"prettytable"
   },
   {
    "source":"weakrefmethod",
@@ -9558,6 +9570,12 @@
    "id":"extension-helpers",
    "payload":{
     "__lazy_json__":"node_attrs/extension-helpers.json"
+   }
+  },
+  {
+   "id":"wcwidth",
+   "payload":{
+    "__lazy_json__":"node_attrs/wcwidth.json"
    }
   }
  ]

@@ -30,8 +30,9 @@
  "hash_type":"sha256",
  "linux_64_meta_yaml":{
   "about":{
+   "dev_url":"https://github.com/jazzband/prettytable",
    "home":"http://code.google.com/p/prettytable",
-   "license":"BSD 3-Clause",
+   "license":"BSD-3-Clause",
    "license_family":"BSD",
    "license_file":"COPYING",
    "summary":"A simple Python library for easily displaying tabular data in a visually appealing ASCII table format"
@@ -39,27 +40,30 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"prettytable",
-   "version":"0.7.2"
+   "version":"1.0.0"
   },
   "requirements":{
    "host":[
     "python",
-    "pip"
+    "pip",
+    "setuptools_scm"
    ],
    "run":[
-    "python"
+    "python",
+    "setuptools",
+    "wcwidth"
    ],
    "run_constrained":[
     "ptable >=9999"
    ]
   },
   "source":{
-   "sha256":"2d5460dc9db74a32bcc8f9f67de68b2c4f4d2f01fa3bd518764c69156d9cacd9",
-   "url":"https://pypi.io/packages/source/p/prettytable/prettytable-0.7.2.tar.gz"
+   "sha256":"98a3b74b1980e6a9392498e3a2a5406f6bd836f412843c2be23d9c88671747ac",
+   "url":"https://pypi.io/packages/source/p/prettytable/prettytable-1.0.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -76,13 +80,16 @@
    "__set__":true,
    "elements":[
     "pip",
-    "python"
+    "python",
+    "setuptools_scm"
    ]
   },
   "run":{
    "__set__":true,
    "elements":[
-    "python"
+    "python",
+    "setuptools",
+    "wcwidth"
    ]
   },
   "test":{
@@ -92,8 +99,9 @@
  },
  "meta_yaml":{
   "about":{
+   "dev_url":"https://github.com/jazzband/prettytable",
    "home":"http://code.google.com/p/prettytable",
-   "license":"BSD 3-Clause",
+   "license":"BSD-3-Clause",
    "license_family":"BSD",
    "license_file":"COPYING",
    "summary":"A simple Python library for easily displaying tabular data in a visually appealing ASCII table format"
@@ -101,25 +109,34 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"prettytable",
-   "version":"0.7.2"
+   "version":"1.0.0"
   },
   "requirements":{
    "host":[
     "python",
     "pip",
+    "setuptools_scm",
     "python",
     "pip",
+    "setuptools_scm",
     "python",
-    "pip"
+    "pip",
+    "setuptools_scm"
    ],
    "run":[
     "python",
+    "setuptools",
+    "wcwidth",
     "python",
-    "python"
+    "setuptools",
+    "wcwidth",
+    "python",
+    "setuptools",
+    "wcwidth"
    ],
    "run_constrained":[
     "ptable >=9999",
@@ -128,8 +145,8 @@
    ]
   },
   "source":{
-   "sha256":"2d5460dc9db74a32bcc8f9f67de68b2c4f4d2f01fa3bd518764c69156d9cacd9",
-   "url":"https://pypi.io/packages/source/p/prettytable/prettytable-0.7.2.tar.gz"
+   "sha256":"98a3b74b1980e6a9392498e3a2a5406f6bd836f412843c2be23d9c88671747ac",
+   "url":"https://pypi.io/packages/source/p/prettytable/prettytable-1.0.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -147,8 +164,9 @@
  "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
+   "dev_url":"https://github.com/jazzband/prettytable",
    "home":"http://code.google.com/p/prettytable",
-   "license":"BSD 3-Clause",
+   "license":"BSD-3-Clause",
    "license_family":"BSD",
    "license_file":"COPYING",
    "summary":"A simple Python library for easily displaying tabular data in a visually appealing ASCII table format"
@@ -156,27 +174,30 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"prettytable",
-   "version":"0.7.2"
+   "version":"1.0.0"
   },
   "requirements":{
    "host":[
     "python",
-    "pip"
+    "pip",
+    "setuptools_scm"
    ],
    "run":[
-    "python"
+    "python",
+    "setuptools",
+    "wcwidth"
    ],
    "run_constrained":[
     "ptable >=9999"
    ]
   },
   "source":{
-   "sha256":"2d5460dc9db74a32bcc8f9f67de68b2c4f4d2f01fa3bd518764c69156d9cacd9",
-   "url":"https://pypi.io/packages/source/p/prettytable/prettytable-0.7.2.tar.gz"
+   "sha256":"98a3b74b1980e6a9392498e3a2a5406f6bd836f412843c2be23d9c88671747ac",
+   "url":"https://pypi.io/packages/source/p/prettytable/prettytable-1.0.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -193,13 +214,16 @@
    "__set__":true,
    "elements":[
     "pip",
-    "python"
+    "python",
+    "setuptools_scm"
    ]
   },
   "run":{
    "__set__":true,
    "elements":[
-    "python"
+    "python",
+    "setuptools",
+    "wcwidth"
    ]
   },
   "test":{
@@ -208,12 +232,15 @@
   }
  },
  "pinning_version":"2020.10.04.20.30.50",
- "raw_meta_yaml":"{% set name = \"prettytable\" %}\n{% set version = \"0.7.2\" %}\n{% set hash_type = \"sha256\" %}\n{% set hash = \"2d5460dc9db74a32bcc8f9f67de68b2c4f4d2f01fa3bd518764c69156d9cacd9\" %}\n{% set build = 0 %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  {{ hash_type}}: {{ hash }}\n\nbuild:\n  noarch: python\n  number: {{ build }}\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n  run_constrained:\n    - ptable >=9999\n\ntest:\n  imports:\n    - prettytable\n\nabout:\n  home: http://code.google.com/p/prettytable\n  license_file: COPYING\n  license: BSD 3-Clause\n  license_family: BSD\n  summary: A simple Python library for easily displaying tabular data in a visually appealing ASCII table format\n",
+ "raw_meta_yaml":"{% set name = \"prettytable\" %}\n{% set version = \"1.0.0\" %}\n{% set sha256 = \"98a3b74b1980e6a9392498e3a2a5406f6bd836f412843c2be23d9c88671747ac\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n    - setuptools_scm\n  run:\n    - python\n    - setuptools\n    - wcwidth\n  run_constrained:\n    - ptable >=9999\n\ntest:\n  imports:\n    - prettytable\n\nabout:\n  home: http://code.google.com/p/prettytable\n  license_file: COPYING\n  license: BSD-3-Clause\n  license_family: BSD\n  summary: A simple Python library for easily displaying tabular data in a visually appealing ASCII table format\n  dev_url: https://github.com/jazzband/prettytable\n",
  "req":{
   "__set__":true,
   "elements":[
    "pip",
-   "python"
+   "python",
+   "setuptools",
+   "setuptools_scm",
+   "wcwidth"
   ]
  },
  "requirements":{
@@ -225,13 +252,16 @@
    "__set__":true,
    "elements":[
     "pip",
-    "python"
+    "python",
+    "setuptools_scm"
    ]
   },
   "run":{
    "__set__":true,
    "elements":[
-    "python"
+    "python",
+    "setuptools",
+    "wcwidth"
    ]
   },
   "test":{
@@ -250,13 +280,16 @@
    "__set__":true,
    "elements":[
     "pip",
-    "python"
+    "python",
+    "setuptools_scm"
    ]
   },
   "run":{
    "__set__":true,
    "elements":[
-    "python"
+    "python",
+    "setuptools",
+    "wcwidth"
    ]
   },
   "test":{
@@ -265,11 +298,12 @@
   }
  },
  "url":"https://pypi.io/packages/source/p/prettytable/prettytable-0.7.2.tar.gz",
- "version":"0.7.2",
+ "version":"1.0.0",
  "win_64_meta_yaml":{
   "about":{
+   "dev_url":"https://github.com/jazzband/prettytable",
    "home":"http://code.google.com/p/prettytable",
-   "license":"BSD 3-Clause",
+   "license":"BSD-3-Clause",
    "license_family":"BSD",
    "license_file":"COPYING",
    "summary":"A simple Python library for easily displaying tabular data in a visually appealing ASCII table format"
@@ -277,27 +311,30 @@
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"prettytable",
-   "version":"0.7.2"
+   "version":"1.0.0"
   },
   "requirements":{
    "host":[
     "python",
-    "pip"
+    "pip",
+    "setuptools_scm"
    ],
    "run":[
-    "python"
+    "python",
+    "setuptools",
+    "wcwidth"
    ],
    "run_constrained":[
     "ptable >=9999"
    ]
   },
   "source":{
-   "sha256":"2d5460dc9db74a32bcc8f9f67de68b2c4f4d2f01fa3bd518764c69156d9cacd9",
-   "url":"https://pypi.io/packages/source/p/prettytable/prettytable-0.7.2.tar.gz"
+   "sha256":"98a3b74b1980e6a9392498e3a2a5406f6bd836f412843c2be23d9c88671747ac",
+   "url":"https://pypi.io/packages/source/p/prettytable/prettytable-1.0.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -314,13 +351,16 @@
    "__set__":true,
    "elements":[
     "pip",
-    "python"
+    "python",
+    "setuptools_scm"
    ]
   },
   "run":{
    "__set__":true,
    "elements":[
-    "python"
+    "python",
+    "setuptools",
+    "wcwidth"
    ]
   },
   "test":{

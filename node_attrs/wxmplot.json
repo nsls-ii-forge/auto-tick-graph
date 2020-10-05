@@ -16,6 +16,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/497804115.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.42"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -154,9 +171,10 @@
   }
  },
  "name":"wxmplot",
- "new_version":"0.9.41",
+ "new_version":"0.9.42",
  "new_version_attempts":{
-  "0.9.41":1
+  "0.9.41":1,
+  "0.9.42":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -227,7 +245,7 @@
    "elements":[]
   }
  },
- "pinning_version":"2020.08.17.20.01.55",
+ "pinning_version":"2020.10.04.20.30.50",
  "raw_meta_yaml":"{% set name = \"wxmplot\" %}\n{% set version = \"0.9.41\" %}\n{% set sha256 = \"74ec91c954a932cfa7840eb5a845a761d559e2bfe68e176352aa3674c1a25c29\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  build:\n    - python\n    - pip\n  run:\n    - python\n    - matplotlib >=2.0\n    - numpy >=1.12\n    - six >=1.10\n    - wxpython >=4.0.3\n\ntest:\n  imports:\n    - wxmplot\n\nabout:\n  home: http://newville.github.io/wxmplot\n  license: MIT\n  license_file: LICENSE\n  summary: wxPython plotting widgets using matplotlib\n  doc_url: http://newville.github.io/wxmplot\n  dev_url: https://github.com/newville/wxmplot\n",
  "req":{
   "__set__":true,
