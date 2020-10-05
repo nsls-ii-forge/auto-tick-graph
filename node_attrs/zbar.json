@@ -149,11 +149,11 @@
    "summary":"Zbar barcode reader library"
   },
   "build":{
-   "number":0
+   "number":"0"
   },
   "package":{
    "name":"zbar",
-   "version":"0.1"
+   "version":"0.10"
   },
   "requirements":{
    "build":[
