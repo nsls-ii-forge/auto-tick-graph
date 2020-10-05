@@ -2,6 +2,7 @@
   "tifffile",
   "xonsh",
   "reportlab",
+  "wxmplot",
   "xraydb",
   "nbclient",
   "papermill",
