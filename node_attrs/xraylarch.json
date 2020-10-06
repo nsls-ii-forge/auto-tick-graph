@@ -16,6 +16,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/498488140.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.48"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -264,9 +281,10 @@
   }
  },
  "name":"xraylarch",
- "new_version":"0.9.47",
+ "new_version":"0.9.48",
  "new_version_attempts":{
-  "0.9.47":1
+  "0.9.47":1,
+  "0.9.48":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -380,7 +398,7 @@
    "elements":[]
   }
  },
- "pinning_version":"2020.08.17.20.01.55",
+ "pinning_version":"2020.10.06.07.41.18",
  "raw_meta_yaml":"{% set name = \"xraylarch\" %}\n{% set version = \"0.9.47\" %}\n{% set sha256 = \"4f76db402947464a21e09ff0b1e1a442b651a7de452918de04b9c828f6071af8\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/xraypy/{{ name }}/archive/{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n  patches:\n    - 0001-MNT-remove-the-desktop-shortcut-logic.patch\n    - 0002-MNT-remove-the-feff-wrappers-and-binaries.patch\n\nbuild:\n  number: 0\n  script: |\n    # We do not have a license to distribute built FEFF binaries.\n    # We may have one to deploy it to the floor, but definitely not to make\n    # them public, so remove binaries.\n    rm -rf larch/bin  # [not win]\n    rmdir /q /s larch/bin  # [win]\n    {{ PYTHON }} -m pip install . --no-deps -vv\n  skip: true  # [py<36]\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - asteval >=0.9.18\n    - fabio\n    - h5py >=2.8\n    - lmfit >=1.0\n    - matplotlib >=3.0\n    - numpy >=1.7\n    - peakutils >=1.0.0\n    - pillow >=3.4\n    - psutil\n    - pyFAI\n    - pyyaml\n    - requests >=2.1\n    - scikit-image\n    - scikit-learn\n    - scipy >=1.2\n    - silx\n    - six >=1.10\n    - sqlalchemy >=0.9\n    - termcolor\n    - uncertainties\n    - wxmplot\n    - wxpython\n    - wxutils\n    - xraydb >=4.3\n\ntest:\n  imports:\n    - larch\n\nabout:\n  home: https://xraypy.github.io/xraylarch\n  license: BSD-2\n  license_file: LICENSE\n  summary: 'Larch: X-ray Analysis for Synchrotron Applications using Python'\n  doc_url: https://xraypy.github.io/xraylarch\n  dev_url: https://github.com/xraypy/xraylarch\n",
  "req":{
   "__set__":true,
