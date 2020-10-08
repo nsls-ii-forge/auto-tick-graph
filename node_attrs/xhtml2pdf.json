@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/500126138.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -170,7 +189,11 @@
   }
  },
  "name":"xhtml2pdf",
- "new_version":"0.2.4",
+ "new_version":"0.2.5",
+ "new_version_attempts":{
+  "0.2.5":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "home":"http://github.com/xhtml2pdf/xhtml2pdf",
@@ -250,6 +273,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2020.10.08.18.09.54",
  "raw_meta_yaml":"{% set name = \"xhtml2pdf\" %}\n{% set version = \"0.2.4\" %}\n{% set sha256 = \"6793fbbdcb6bb8a4a70132966d8d95e95ea3498cdf0e82252d2b8e9aae34fcb5\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  entry_points:\n    - pisa = xhtml2pdf.pisa:command\n    - xhtml2pdf = xhtml2pdf.pisa:command\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - html5lib >=1.0\n    - pillow\n    - pypdf2\n    - reportlab >=3.0\n    - six\n\ntest:\n  imports:\n    - xhtml2pdf\n    - xhtml2pdf.config\n    - xhtml2pdf.w3c\n  commands:\n    - pisa --help\n    - xhtml2pdf --help\n\nabout:\n  home: http://github.com/xhtml2pdf/xhtml2pdf\n  license: Apache-2.0\n  license_family: APACHE\n  license_file: LICENSE.txt\n  summary: PDF generator using HTML and CSS\n",
  "req":{
   "__set__":true,
@@ -291,6 +315,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"3.8.0",
  "strong_exports":false,
  "total_requirements":{
   "build":{
