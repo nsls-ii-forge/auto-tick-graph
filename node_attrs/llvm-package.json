@@ -761,7 +761,7 @@
   }
  },
  "name":"llvm-package",
- "new_version":"11.0.0",
+ "new_version":false,
  "new_version_attempts":{
   "10.0.1":1,
   "11.0.0":1
