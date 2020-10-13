@@ -375,7 +375,7 @@
    "summary":"Useful python tools for NSLS-II CSX (23-ID)"
   },
   "build":{
-   "number":0,
+   "number":"0",
    "script":" -m pip install . --no-deps -vv"
   },
   "package":{
