@@ -419,7 +419,7 @@
     "xonsh = xonsh.main:main",
     "xonsh-cat = xonsh.xoreutils.cat:cat_main"
    ],
-   "number":"0"
+   "number":0
   },
   "package":{
    "name":"xonsh",
