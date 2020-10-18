@@ -147,7 +147,11 @@
   }
  },
  "name":"pep517",
- "new_version":"0.8.2",
+ "new_version":"0.9.1",
+ "new_version_attempts":{
+  "0.9.1":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://pypi.org/project/pep517",
