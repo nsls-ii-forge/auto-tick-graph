@@ -181,9 +181,10 @@
   }
  },
  "name":"librdkafka",
- "new_version":"1.5.0",
+ "new_version":"1.5.2",
  "new_version_attempts":{
-  "1.2.2":1
+  "1.2.2":1,
+  "1.5.2":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
