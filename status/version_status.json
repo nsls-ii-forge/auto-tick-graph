@@ -1,19 +1,9 @@
 {
   "errored": [
-    "asks",
-    "clang_packages",
-    "eventlet",
-    "intake-xarray",
-    "pep517",
-    "nbclient"
+    "clang_packages"
   ],
   "errors": {
-    "asks": "no error information available",
-    "clang_packages": "The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '11.0.0' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/llvm/llvm-project/releases/download/llvmorg-{{ version }}/cfe-{{ version }}.src.tar.xz'\n",
-    "eventlet": "no error information available",
-    "intake-xarray": "no error information available",
-    "nbclient": "no error information available",
-    "pep517": "no error information available"
+    "clang_packages": "The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '11.0.0' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/llvm/llvm-project/releases/download/llvmorg-{{ version }}/cfe-{{ version }}.src.tar.xz'\n"
   },
   "queued": []
 }
