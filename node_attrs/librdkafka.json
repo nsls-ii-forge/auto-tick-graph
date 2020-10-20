@@ -59,7 +59,7 @@
   },
   "package":{
    "name":"librdkafka",
-   "version":"1.5.0"
+   "version":"1.5.2"
   },
   "requirements":{
    "build":[
@@ -82,8 +82,8 @@
    ]
   },
   "source":{
-   "sha256":"f7fee59fdbf1286ec23ef0b35b2dfb41031c8727c90ced6435b8cf576f23a656",
-   "url":"https://github.com/edenhill/librdkafka/archive/v1.5.0.tar.gz"
+   "sha256":"ca3db90d04ef81ca791e55e9eed67e004b547b7adedf11df6c24ac377d4840c6",
+   "url":"https://github.com/edenhill/librdkafka/archive/v1.5.2.tar.gz"
   },
   "test":{
    "commands":[
@@ -141,7 +141,7 @@
   },
   "package":{
    "name":"librdkafka",
-   "version":"1.5.0"
+   "version":"1.5.2"
   },
   "requirements":{
    "build":[
@@ -186,8 +186,8 @@
    ]
   },
   "source":{
-   "sha256":"f7fee59fdbf1286ec23ef0b35b2dfb41031c8727c90ced6435b8cf576f23a656",
-   "url":"https://github.com/edenhill/librdkafka/archive/v1.5.0.tar.gz"
+   "sha256":"ca3db90d04ef81ca791e55e9eed67e004b547b7adedf11df6c24ac377d4840c6",
+   "url":"https://github.com/edenhill/librdkafka/archive/v1.5.2.tar.gz"
   },
   "test":{
    "commands":[
@@ -218,7 +218,7 @@
   },
   "package":{
    "name":"librdkafka",
-   "version":"1.5.0"
+   "version":"1.5.2"
   },
   "requirements":{
    "build":[
@@ -239,8 +239,8 @@
    ]
   },
   "source":{
-   "sha256":"f7fee59fdbf1286ec23ef0b35b2dfb41031c8727c90ced6435b8cf576f23a656",
-   "url":"https://github.com/edenhill/librdkafka/archive/v1.5.0.tar.gz"
+   "sha256":"ca3db90d04ef81ca791e55e9eed67e004b547b7adedf11df6c24ac377d4840c6",
+   "url":"https://github.com/edenhill/librdkafka/archive/v1.5.2.tar.gz"
   },
   "test":{
    "commands":[
@@ -283,7 +283,7 @@
   }
  },
  "pinning_version":"2020.10.20.15.08.50",
- "raw_meta_yaml":"{% set name = \"librdkafka\" %}\n{% set version = \"1.5.0\" %}\n{% set sha256 = \"f7fee59fdbf1286ec23ef0b35b2dfb41031c8727c90ced6435b8cf576f23a656\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/edenhill/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  skip: true  # [win]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - cyrus-sasl\n    - libgsasl  # [not osx]\n    - lz4-c\n    - openssl\n    - zlib\n  run:\n    - cyrus-sasl\n    - libgsasl  # [not osx]\n    - lz4-c\n    - openssl\n    - zlib\n\ntest:\n  commands:\n    - test -f ${PREFIX}/lib/librdkafka${SHLIB_EXT}  # [not win]\n    - test -f ${PREFIX}/lib/librdkafka++${SHLIB_EXT}  # [not win]\n\n    - conda inspect linkages {{ name }}  # [unix]\n    - conda inspect objects {{ name }}   # [osx]\n\nabout:\n  home: https://github.com/edenhill/librdkafka\n  license: BSD-2-clause\n  license_family: BSD\n  license_file: LICENSES.txt\n  summary: The Apache Kafka C/C++ client library\n  description: |\n    librdkafka is a C library implementation of the Apache Kafka protocol,\n    containing both Producer and Consumer support. It was designed with message\n    delivery reliability and high performance in mind, current figures exceed 1\n    million msgs/second for the producer and 3 million msgs/second for the\n    consumer.\n",
+ "raw_meta_yaml":"{% set name = \"librdkafka\" %}\n{% set version = \"1.5.2\" %}\n{% set sha256 = \"ca3db90d04ef81ca791e55e9eed67e004b547b7adedf11df6c24ac377d4840c6\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/edenhill/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  skip: true  # [win]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - cyrus-sasl\n    - libgsasl  # [not osx]\n    - lz4-c\n    - openssl\n    - zlib\n  run:\n    - cyrus-sasl\n    - libgsasl  # [not osx]\n    - lz4-c\n    - openssl\n    - zlib\n\ntest:\n  commands:\n    - test -f ${PREFIX}/lib/librdkafka${SHLIB_EXT}  # [not win]\n    - test -f ${PREFIX}/lib/librdkafka++${SHLIB_EXT}  # [not win]\n\n    - conda inspect linkages {{ name }}  # [unix]\n    - conda inspect objects {{ name }}   # [osx]\n\nabout:\n  home: https://github.com/edenhill/librdkafka\n  license: BSD-2-clause\n  license_family: BSD\n  license_file: LICENSES.txt\n  summary: The Apache Kafka C/C++ client library\n  description: |\n    librdkafka is a C library implementation of the Apache Kafka protocol,\n    containing both Producer and Consumer support. It was designed with message\n    delivery reliability and high performance in mind, current figures exceed 1\n    million msgs/second for the producer and 3 million msgs/second for the\n    consumer.\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -365,7 +365,7 @@
   }
  },
  "url":"https://github.com/edenhill/librdkafka/archive/v1.1.0.tar.gz",
- "version":"1.5.0",
+ "version":"1.5.2",
  "win_64_meta_yaml":{
   "about":{
    "description":"librdkafka is a C library implementation of the Apache Kafka protocol,\ncontaining both Producer and Consumer support. It was designed with message\ndelivery reliability and high performance in mind, current figures exceed 1\nmillion msgs/second for the producer and 3 million msgs/second for the\nconsumer.\n",
@@ -381,7 +381,7 @@
   },
   "package":{
    "name":"librdkafka",
-   "version":"1.5.0"
+   "version":"1.5.2"
   },
   "requirements":{
    "build":[
@@ -404,8 +404,8 @@
    ]
   },
   "source":{
-   "sha256":"f7fee59fdbf1286ec23ef0b35b2dfb41031c8727c90ced6435b8cf576f23a656",
-   "url":"https://github.com/edenhill/librdkafka/archive/v1.5.0.tar.gz"
+   "sha256":"ca3db90d04ef81ca791e55e9eed67e004b547b7adedf11df6c24ac377d4840c6",
+   "url":"https://github.com/edenhill/librdkafka/archive/v1.5.2.tar.gz"
   },
   "test":{
    "commands":null
