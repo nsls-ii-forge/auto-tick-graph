@@ -594,6 +594,10 @@
    "target":"analysis"
   },
   {
+   "source":"configparser",
+   "target":"arabic_reshaper"
+  },
+  {
    "source":"contexter",
    "target":"signalslot"
   },
@@ -1236,6 +1240,10 @@
   {
    "source":"fsspec",
    "target":"napari"
+  },
+  {
+   "source":"future",
+   "target":"arabic_reshaper"
   },
   {
    "source":"future",
@@ -3159,6 +3167,10 @@
   },
   {
    "source":"pip",
+   "target":"arabic_reshaper"
+  },
+  {
+   "source":"pip",
    "target":"area-detector-handlers"
   },
   {
@@ -3652,6 +3664,10 @@
   {
    "source":"pip",
    "target":"pytest-qt"
+  },
+  {
+   "source":"pip",
+   "target":"python-bidi"
   },
   {
    "source":"pip",
@@ -4467,6 +4483,10 @@
   },
   {
    "source":"python",
+   "target":"arabic_reshaper"
+  },
+  {
+   "source":"python",
    "target":"area-detector-handlers"
   },
   {
@@ -4988,6 +5008,10 @@
   {
    "source":"python",
    "target":"pytest-qt"
+  },
+  {
+   "source":"python",
+   "target":"python-bidi"
   },
   {
    "source":"python",
@@ -5815,6 +5839,10 @@
   },
   {
    "source":"setuptools",
+   "target":"arabic_reshaper"
+  },
+  {
+   "source":"setuptools",
    "target":"asdf"
   },
   {
@@ -5868,6 +5896,10 @@
   {
    "source":"setuptools",
    "target":"pytest-qt"
+  },
+  {
+   "source":"setuptools",
+   "target":"python-bidi"
   },
   {
    "source":"setuptools",
@@ -5988,6 +6020,10 @@
   {
    "source":"six",
    "target":"pyolog"
+  },
+  {
+   "source":"six",
+   "target":"python-bidi"
   },
   {
    "source":"six",
@@ -9576,6 +9612,24 @@
    "id":"wcwidth",
    "payload":{
     "__lazy_json__":"node_attrs/wcwidth.json"
+   }
+  },
+  {
+   "id":"python-bidi",
+   "payload":{
+    "__lazy_json__":"node_attrs/python-bidi.json"
+   }
+  },
+  {
+   "id":"arabic_reshaper",
+   "payload":{
+    "__lazy_json__":"node_attrs/arabic_reshaper.json"
+   }
+  },
+  {
+   "id":"configparser",
+   "payload":{
+    "__lazy_json__":"node_attrs/configparser.json"
    }
   }
  ]
