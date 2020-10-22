@@ -74,6 +74,10 @@
    "target":"xicam"
   },
   {
+   "source":"arabic_reshaper",
+   "target":"xhtml2pdf"
+  },
+  {
    "source":"area-detector-handlers",
    "target":"analysis"
   },
@@ -4408,6 +4412,10 @@
   {
    "source":"pytest",
    "target":"xraydb"
+  },
+  {
+   "source":"python-bidi",
+   "target":"xhtml2pdf"
   },
   {
    "source":"python-confluent-kafka",
