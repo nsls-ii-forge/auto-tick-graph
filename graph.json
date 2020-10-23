@@ -1842,6 +1842,10 @@
    "target":"analysis"
   },
   {
+   "source":"line_profiler",
+   "target":"collection"
+  },
+  {
    "source":"llvm-openmp",
    "target":"csxtools"
   },
@@ -4090,6 +4094,10 @@
    "target":"pyinstrument"
   },
   {
+   "source":"pyinstrument",
+   "target":"collection"
+  },
+  {
    "source":"pyjwt",
    "target":"pygithub"
   },
@@ -5452,6 +5460,10 @@
   {
    "source":"readline",
    "target":"epics-base"
+  },
+  {
+   "source":"redis-py",
+   "target":"collection"
   },
   {
    "source":"reportlab",
@@ -9638,6 +9650,12 @@
    "id":"configparser",
    "payload":{
     "__lazy_json__":"node_attrs/configparser.json"
+   }
+  },
+  {
+   "id":"redis-py",
+   "payload":{
+    "__lazy_json__":"node_attrs/redis-py.json"
    }
   }
  ]
