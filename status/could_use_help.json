@@ -9,6 +9,7 @@
   "napari",
   "nsls2forge-utils",
   "eventlet",
+  "hunter",
   "httpx",
   "pykern"
 ]
