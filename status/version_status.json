@@ -5,6 +5,7 @@
     "ispyb",
     "libjpeg-turbo",
     "napari",
+    "py4xs",
     "xraydb",
     "nest-asyncio"
   ],
@@ -15,6 +16,7 @@
     "libjpeg-turbo": "The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '9d' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/{{ name }}/{{ name }}/archive/{{ version }}.tar.gz'\n",
     "napari": "no error information available",
     "nest-asyncio": "no error information available",
+    "py4xs": "no error information available",
     "xraydb": "no error information available"
   },
   "queued": []
