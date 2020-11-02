@@ -145,7 +145,7 @@
  "name":"py4xs",
  "new_version":"2020.10.29.0",
  "new_version_attempts":{
-  "2020.10.29.0":31
+  "2020.10.29.0":32
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -304,7 +304,7 @@
   },
   "build":{
    "noarch":"python",
-   "number":0,
+   "number":"0",
    "script":" -m pip install . --no-deps -vv"
   },
   "package":{
