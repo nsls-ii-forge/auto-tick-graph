@@ -319,6 +319,10 @@
   },
   {
    "source":"c_compiler_stub",
+   "target":"h5py"
+  },
+  {
+   "source":"c_compiler_stub",
    "target":"hdf5-lz4"
   },
   {
@@ -432,6 +436,10 @@
   {
    "source":"c_compiler_stub",
    "target":"scikit-build"
+  },
+  {
+   "source":"c_compiler_stub",
+   "target":"scikit-learn"
   },
   {
    "source":"c_compiler_stub",
@@ -763,6 +771,10 @@
   },
   {
    "source":"cxx_compiler_stub",
+   "target":"scikit-learn"
+  },
+  {
+   "source":"cxx_compiler_stub",
    "target":"silx"
   },
   {
@@ -815,6 +827,10 @@
   },
   {
    "source":"cython",
+   "target":"h5py"
+  },
+  {
+   "source":"cython",
    "target":"hunter"
   },
   {
@@ -840,6 +856,10 @@
   {
    "source":"cython",
    "target":"scikit-build"
+  },
+  {
+   "source":"cython",
+   "target":"scikit-learn"
   },
   {
    "source":"cython",
@@ -1443,6 +1463,10 @@
   },
   {
    "source":"hdf5",
+   "target":"h5py"
+  },
+  {
+   "source":"hdf5",
    "target":"hdf5-lz4"
   },
   {
@@ -1698,6 +1722,10 @@
    "target":"suitcase-specfile"
   },
   {
+   "source":"joblib",
+   "target":"scikit-learn"
+  },
+  {
    "source":"jom",
    "target":"libjpeg-turbo"
   },
@@ -1778,6 +1806,10 @@
    "target":"nsls2-analysis"
   },
   {
+   "source":"libcblas",
+   "target":"scikit-learn"
+  },
+  {
    "source":"libcxx",
    "target":"clang_packages"
   },
@@ -1856,6 +1888,10 @@
   {
    "source":"llvm-openmp",
    "target":"llvm-openmp"
+  },
+  {
+   "source":"llvm-openmp",
+   "target":"scikit-learn"
   },
   {
    "source":"llvm-package",
@@ -2291,6 +2327,10 @@
   },
   {
    "source":"mpi4py",
+   "target":"h5py"
+  },
+  {
+   "source":"mpi4py",
    "target":"oscars"
   },
   {
@@ -2436,6 +2476,10 @@
   {
    "source":"nodejs",
    "target":"pyinstrument"
+  },
+  {
+   "source":"nompi",
+   "target":"h5py"
   },
   {
    "source":"nose",
@@ -2607,6 +2651,10 @@
   },
   {
    "source":"numpy",
+   "target":"h5py"
+  },
+  {
+   "source":"numpy",
    "target":"hkl"
   },
   {
@@ -2760,6 +2808,10 @@
   {
    "source":"numpy",
    "target":"scikit-beam"
+  },
+  {
+   "source":"numpy",
+   "target":"scikit-learn"
   },
   {
    "source":"numpy",
@@ -3375,6 +3427,10 @@
   },
   {
    "source":"pip",
+   "target":"h5py"
+  },
+  {
+   "source":"pip",
    "target":"helpdev"
   },
   {
@@ -3739,6 +3795,10 @@
   },
   {
    "source":"pip",
+   "target":"scikit-learn"
+  },
+  {
+   "source":"pip",
    "target":"semantic_version"
   },
   {
@@ -3936,6 +3996,10 @@
   {
    "source":"pkg-config",
    "target":"lz4-c"
+  },
+  {
+   "source":"pkgconfig",
+   "target":"h5py"
   },
   {
    "source":"pluggy",
@@ -4255,6 +4319,10 @@
   },
   {
    "source":"pyreadline",
+   "target":"h5py"
+  },
+  {
+   "source":"pyreadline",
    "target":"xonsh"
   },
   {
@@ -4326,6 +4394,14 @@
    "target":"napari"
   },
   {
+   "source":"pytest-timeout",
+   "target":"scikit-learn"
+  },
+  {
+   "source":"pytest-xdist",
+   "target":"scikit-learn"
+  },
+  {
    "source":"pytest",
    "target":"arvpyf"
   },
@@ -4356,6 +4432,10 @@
   {
    "source":"pytest",
    "target":"event-model"
+  },
+  {
+   "source":"pytest",
+   "target":"h5py"
   },
   {
    "source":"pytest",
@@ -4408,6 +4488,10 @@
   {
    "source":"pytest",
    "target":"scikit-build"
+  },
+  {
+   "source":"pytest",
+   "target":"scikit-learn"
   },
   {
    "source":"pytest",
@@ -4708,6 +4792,10 @@
   {
    "source":"python",
    "target":"h11"
+  },
+  {
+   "source":"python",
+   "target":"h5py"
   },
   {
    "source":"python",
@@ -5096,6 +5184,10 @@
   {
    "source":"python",
    "target":"scikit-build"
+  },
+  {
+   "source":"python",
+   "target":"scikit-learn"
   },
   {
    "source":"python",
@@ -5739,6 +5831,10 @@
   },
   {
    "source":"scipy",
+   "target":"scikit-learn"
+  },
+  {
+   "source":"scipy",
    "target":"shed"
   },
   {
@@ -6008,6 +6104,10 @@
   {
    "source":"six",
    "target":"fire"
+  },
+  {
+   "source":"six",
+   "target":"h5py"
   },
   {
    "source":"six",
@@ -6292,6 +6392,10 @@
   {
    "source":"textwrap3",
    "target":"ansiwrap"
+  },
+  {
+   "source":"threadpoolctl",
+   "target":"scikit-learn"
   },
   {
    "source":"tifffile",
@@ -9656,6 +9760,42 @@
    "id":"redis-py",
    "payload":{
     "__lazy_json__":"node_attrs/redis-py.json"
+   }
+  },
+  {
+   "id":"nompi",
+   "payload":{
+    "__lazy_json__":"node_attrs/nompi.json"
+   }
+  },
+  {
+   "id":"pkgconfig",
+   "payload":{
+    "__lazy_json__":"node_attrs/pkgconfig.json"
+   }
+  },
+  {
+   "id":"joblib",
+   "payload":{
+    "__lazy_json__":"node_attrs/joblib.json"
+   }
+  },
+  {
+   "id":"libcblas",
+   "payload":{
+    "__lazy_json__":"node_attrs/libcblas.json"
+   }
+  },
+  {
+   "id":"pytest-xdist",
+   "payload":{
+    "__lazy_json__":"node_attrs/pytest-xdist.json"
+   }
+  },
+  {
+   "id":"threadpoolctl",
+   "payload":{
+    "__lazy_json__":"node_attrs/threadpoolctl.json"
    }
   }
  ]
