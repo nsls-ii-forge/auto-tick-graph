@@ -6,6 +6,7 @@
     "ispyb",
     "libjpeg-turbo",
     "napari",
+    "periodictable",
     "papermill",
     "py4xs",
     "xraydb",
@@ -21,6 +22,7 @@
     "napari": "no error information available",
     "nest-asyncio": "no error information available",
     "papermill": "no error information available",
+    "periodictable": "no error information available",
     "py4xs": "no error information available",
     "pylatexenc": "no error information available",
     "xraydb": "no error information available"

@@ -131,7 +131,11 @@
   }
  },
  "name":"periodictable",
- "new_version":"1.5.2",
+ "new_version":"1.5.3",
+ "new_version_attempts":{
+  "1.5.3":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "description":"The periodictable package provides an extensible periodic table\nof the elements prepopulated with data important to neutron and\nX-ray scattering experiments. With the elements pacakge you can\ncompute the scattering potential of a compound at a given wavelength.\n",
