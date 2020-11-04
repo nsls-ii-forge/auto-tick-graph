@@ -47,6 +47,10 @@
   },
   {
    "source":"ansiwrap",
+   "target":"analysis"
+  },
+  {
+   "source":"ansiwrap",
    "target":"collection"
   },
   {
@@ -1580,6 +1584,10 @@
   {
    "source":"inflection",
    "target":"06-bm-bmm-collection"
+  },
+  {
+   "source":"inflection",
+   "target":"analysis"
   },
   {
    "source":"inflection",
@@ -3147,6 +3155,10 @@
   },
   {
    "source":"photutils",
+   "target":"analysis"
+  },
+  {
+   "source":"pillow",
    "target":"analysis"
   },
   {
@@ -5558,6 +5570,10 @@
    "target":"collection"
   },
   {
+   "source":"redis",
+   "target":"analysis"
+  },
+  {
    "source":"reportlab",
    "target":"03-id-hxn-collection"
   },
@@ -5572,6 +5588,10 @@
   {
    "source":"requests",
    "target":"amostra"
+  },
+  {
+   "source":"requests",
+   "target":"analysis"
   },
   {
    "source":"requests",
@@ -6208,6 +6228,10 @@
   {
    "source":"six",
    "target":"xraylarch"
+  },
+  {
+   "source":"slackclient",
+   "target":"analysis"
   },
   {
    "source":"sniffio",
@@ -9796,6 +9820,18 @@
    "id":"threadpoolctl",
    "payload":{
     "__lazy_json__":"node_attrs/threadpoolctl.json"
+   }
+  },
+  {
+   "id":"slackclient",
+   "payload":{
+    "__lazy_json__":"node_attrs/slackclient.json"
+   }
+  },
+  {
+   "id":"redis",
+   "payload":{
+    "__lazy_json__":"node_attrs/redis.json"
    }
   }
  ]
