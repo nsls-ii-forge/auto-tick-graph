@@ -9,6 +9,7 @@
     "periodictable",
     "papermill",
     "py4xs",
+    "xraylarch",
     "xraydb",
     "nest-asyncio",
     "pylatexenc"
@@ -25,7 +26,8 @@
     "periodictable": "no error information available",
     "py4xs": "no error information available",
     "pylatexenc": "no error information available",
-    "xraydb": "no error information available"
+    "xraydb": "no error information available",
+    "xraylarch": "no error information available"
   },
   "queued": []
 }
