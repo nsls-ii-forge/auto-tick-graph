@@ -20,7 +20,7 @@
    "summary":"UNOFFICIAL pip-installable SRW! Please refer to https://github.com/ochubar/SRW for official distribution."
   },
   "build":{
-   "number":0
+   "number":"0"
   },
   "package":{
    "name":"srwpy",
@@ -102,7 +102,7 @@
    "summary":"UNOFFICIAL pip-installable SRW! Please refer to https://github.com/ochubar/SRW for official distribution."
   },
   "build":{
-   "number":0
+   "number":"0"
   },
   "package":{
    "name":"srwpy",
