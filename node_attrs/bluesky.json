@@ -63,7 +63,7 @@
   },
   "package":{
    "name":"bluesky",
-   "version":"1.6.6"
+   "version":"1.6.7"
   },
   "requirements":{
    "host":[
@@ -92,8 +92,8 @@
    ]
   },
   "source":{
-   "sha256":"4359e8b817c74917a6bb1a56b22e78cea1b1a4a2d3d019a182dc66b434c53c0d",
-   "url":"https://pypi.io/packages/source/b/bluesky/bluesky-1.6.6.tar.gz"
+   "sha256":"f42b68e5f7de0539702eb37cd9b45cb88b06415c6452c75a08023563bb3e92e9",
+   "url":"https://pypi.io/packages/source/b/bluesky/bluesky-1.6.7.tar.gz"
   },
   "test":{
    "imports":[
@@ -161,7 +161,7 @@
   },
   "package":{
    "name":"bluesky",
-   "version":"1.6.6"
+   "version":"1.6.7"
   },
   "requirements":{
    "host":[
@@ -230,8 +230,8 @@
    ]
   },
   "source":{
-   "sha256":"4359e8b817c74917a6bb1a56b22e78cea1b1a4a2d3d019a182dc66b434c53c0d",
-   "url":"https://pypi.io/packages/source/b/bluesky/bluesky-1.6.6.tar.gz"
+   "sha256":"f42b68e5f7de0539702eb37cd9b45cb88b06415c6452c75a08023563bb3e92e9",
+   "url":"https://pypi.io/packages/source/b/bluesky/bluesky-1.6.7.tar.gz"
   },
   "test":{
    "imports":[
@@ -272,7 +272,7 @@
   },
   "package":{
    "name":"bluesky",
-   "version":"1.6.6"
+   "version":"1.6.7"
   },
   "requirements":{
    "host":[
@@ -301,8 +301,8 @@
    ]
   },
   "source":{
-   "sha256":"4359e8b817c74917a6bb1a56b22e78cea1b1a4a2d3d019a182dc66b434c53c0d",
-   "url":"https://pypi.io/packages/source/b/bluesky/bluesky-1.6.6.tar.gz"
+   "sha256":"f42b68e5f7de0539702eb37cd9b45cb88b06415c6452c75a08023563bb3e92e9",
+   "url":"https://pypi.io/packages/source/b/bluesky/bluesky-1.6.7.tar.gz"
   },
   "test":{
    "imports":[
@@ -353,7 +353,7 @@
   }
  },
  "pinning_version":"2020.11.08.20.44.44",
- "raw_meta_yaml":"{% set name = \"bluesky\" %}\n{% set version = \"1.6.6\" %}\n{% set sha256 = \"4359e8b817c74917a6bb1a56b22e78cea1b1a4a2d3d019a182dc66b434c53c0d\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - cycler\n    - databroker\n    - doct\n    - event-model >=1.15.1\n    - historydict\n    - ipython\n    - lmfit\n    - matplotlib\n    - msgpack-numpy\n    - msgpack-python\n    - numpy\n    - ophyd\n    - pyzmq\n    - super_state_machine\n    - toolz\n    - tqdm\n    - zict\n\ntest:\n  imports:\n    - bluesky\n    - bluesky.plans\n    - bluesky.callbacks\n\nabout:\n  home: https://blueskyproject.io\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: A Python data collection interface for experimental science\n  description: A Python data collection interface for experimental science\n  doc_url: https://blueskyproject.io/bluesky\n  dev_url: https://github.com/bluesky/bluesky\n",
+ "raw_meta_yaml":"{% set name = \"bluesky\" %}\n{% set version = \"1.6.7\" %}\n{% set sha256 = \"f42b68e5f7de0539702eb37cd9b45cb88b06415c6452c75a08023563bb3e92e9\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - cycler\n    - databroker\n    - doct\n    - event-model >=1.15.1\n    - historydict\n    - ipython\n    - lmfit\n    - matplotlib\n    - msgpack-numpy\n    - msgpack-python\n    - numpy\n    - ophyd\n    - pyzmq\n    - super_state_machine\n    - toolz\n    - tqdm\n    - zict\n\ntest:\n  imports:\n    - bluesky\n    - bluesky.plans\n    - bluesky.callbacks\n\nabout:\n  home: https://blueskyproject.io\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: A Python data collection interface for experimental science\n  description: A Python data collection interface for experimental science\n  doc_url: https://blueskyproject.io/bluesky\n  dev_url: https://github.com/bluesky/bluesky\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -461,7 +461,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/b/bluesky/bluesky-1.6.5.tar.gz",
- "version":"1.6.6",
+ "version":"1.6.7",
  "win_64_meta_yaml":{
   "about":{
    "description":"A Python data collection interface for experimental science",
@@ -480,7 +480,7 @@
   },
   "package":{
    "name":"bluesky",
-   "version":"1.6.6"
+   "version":"1.6.7"
   },
   "requirements":{
    "host":[
@@ -509,8 +509,8 @@
    ]
   },
   "source":{
-   "sha256":"4359e8b817c74917a6bb1a56b22e78cea1b1a4a2d3d019a182dc66b434c53c0d",
-   "url":"https://pypi.io/packages/source/b/bluesky/bluesky-1.6.6.tar.gz"
+   "sha256":"f42b68e5f7de0539702eb37cd9b45cb88b06415c6452c75a08023563bb3e92e9",
+   "url":"https://pypi.io/packages/source/b/bluesky/bluesky-1.6.7.tar.gz"
   },
   "test":{
    "imports":[
