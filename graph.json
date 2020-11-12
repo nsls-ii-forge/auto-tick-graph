@@ -243,6 +243,10 @@
   },
   {
    "source":"bluesky",
+   "target":"pdfstream"
+  },
+  {
+   "source":"bluesky",
    "target":"shed"
   },
   {
@@ -959,6 +963,10 @@
   },
   {
    "source":"databroker",
+   "target":"pdfstream"
+  },
+  {
+   "source":"databroker",
    "target":"shed"
   },
   {
@@ -1212,6 +1220,10 @@
   {
    "source":"fftw",
    "target":"pyfftw"
+  },
+  {
+   "source":"fire",
+   "target":"pdfstream"
   },
   {
    "source":"fire",
@@ -2539,6 +2551,10 @@
   },
   {
    "source":"numba",
+   "target":"pdfstream"
+  },
+  {
+   "source":"numba",
    "target":"pyxrf"
   },
   {
@@ -3631,6 +3647,10 @@
   },
   {
    "source":"pip",
+   "target":"pdfstream"
+  },
+  {
+   "source":"pip",
    "target":"peakutils"
   },
   {
@@ -4108,6 +4128,10 @@
   {
    "source":"pyfai",
    "target":"analysis"
+  },
+  {
+   "source":"pyfai",
+   "target":"pdfstream"
   },
   {
    "source":"pyfai",
@@ -5015,6 +5039,10 @@
   },
   {
    "source":"python",
+   "target":"pdfstream"
+  },
+  {
+   "source":"python",
    "target":"peakutils"
   },
   {
@@ -5687,6 +5715,10 @@
   },
   {
    "source":"scikit-beam",
+   "target":"pdfstream"
+  },
+  {
+   "source":"scikit-beam",
    "target":"pyxrf"
   },
   {
@@ -6294,8 +6326,16 @@
    "target":"analysis"
   },
   {
+   "source":"suitcase-csv",
+   "target":"pdfstream"
+  },
+  {
    "source":"suitcase-json-metadata",
    "target":"analysis"
+  },
+  {
+   "source":"suitcase-json-metadata",
+   "target":"pdfstream"
   },
   {
    "source":"suitcase-jsonl",
@@ -6336,6 +6376,10 @@
   {
    "source":"suitcase-tiff",
    "target":"analysis"
+  },
+  {
+   "source":"suitcase-tiff",
+   "target":"pdfstream"
   },
   {
    "source":"suitcase-utils",
@@ -6743,6 +6787,10 @@
   },
   {
    "source":"xpdview",
+   "target":"pdfstream"
+  },
+  {
+   "source":"xpdview",
    "target":"xpdan"
   },
   {
@@ -6752,6 +6800,10 @@
   {
    "source":"xray-vision",
    "target":"hxnfly"
+  },
+  {
+   "source":"xray-vision",
+   "target":"pdfstream"
   },
   {
    "source":"xray-vision",
@@ -9832,6 +9884,12 @@
    "id":"redis",
    "payload":{
     "__lazy_json__":"node_attrs/redis.json"
+   }
+  },
+  {
+   "id":"pdfstream",
+   "payload":{
+    "__lazy_json__":"node_attrs/pdfstream.json"
    }
   }
  ]
