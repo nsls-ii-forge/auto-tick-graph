@@ -5583,11 +5583,11 @@
   },
   {
    "source":"redis-py",
-   "target":"collection"
+   "target":"analysis"
   },
   {
-   "source":"redis",
-   "target":"analysis"
+   "source":"redis-py",
+   "target":"collection"
   },
   {
    "source":"reportlab",
