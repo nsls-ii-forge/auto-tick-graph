@@ -17,7 +17,7 @@
    "summary":"Collection metapackage for NSLS-II deployments"
   },
   "build":{
-   "number":"8-1"
+   "number":"9"
   },
   "package":{
    "name":"collection",
@@ -28,13 +28,11 @@
     "python"
    ],
    "run":[
-    "nsls2-analysis ==2020C2.0=*_8",
+    "nsls2-analysis ==2020C2.0=*_9",
     "python",
-    "ansiwrap",
     "bloptools",
     "bluesky-darkframes",
     "caproto",
-    "inflection",
     "nslsii >=0.1.0",
     "pexpect",
     "pyepics >=3.4.2",
@@ -45,7 +43,7 @@
     "chxtools",
     "hklpy",
     "hxnfly",
-    "hxntools >=0.4.3",
+    "hxntools >=0.5.1",
     "ppmac",
     "sixtools",
     "hunter",
@@ -131,7 +129,6 @@
   "run":{
    "__set__":true,
    "elements":[
-    "ansiwrap",
     "bloptools",
     "bluesky-darkframes",
     "caproto",
@@ -140,7 +137,6 @@
     "hunter",
     "hxnfly",
     "hxntools",
-    "inflection",
     "line_profiler",
     "logging_tree",
     "nsls2-analysis",
@@ -173,7 +169,7 @@
    "summary":"Collection metapackage for NSLS-II deployments"
   },
   "build":{
-   "number":"8-1",
+   "number":"9",
    "skip":true
   },
   "package":{
@@ -187,13 +183,11 @@
     "python"
    ],
    "run":[
-    "nsls2-analysis ==2020C2.0=*_8",
+    "nsls2-analysis ==2020C2.0=*_9",
     "python",
-    "ansiwrap",
     "bloptools",
     "bluesky-darkframes",
     "caproto",
-    "inflection",
     "nslsii >=0.1.0",
     "pexpect",
     "pyepics >=3.4.2",
@@ -202,20 +196,18 @@
     "redis-py",
     "chxtools",
     "hxnfly",
-    "hxntools >=0.4.3",
+    "hxntools >=0.5.1",
     "ppmac",
     "sixtools",
     "hunter",
     "logging_tree",
     "line_profiler",
     "pyinstrument",
-    "nsls2-analysis ==2020C2.0=*_8",
+    "nsls2-analysis ==2020C2.0=*_9",
     "python",
-    "ansiwrap",
     "bloptools",
     "bluesky-darkframes",
     "caproto",
-    "inflection",
     "nslsii >=0.1.0",
     "pexpect",
     "pyepics >=3.4.2",
@@ -225,20 +217,18 @@
     "redis-py",
     "chxtools",
     "hxnfly",
-    "hxntools >=0.4.3",
+    "hxntools >=0.5.1",
     "ppmac",
     "sixtools",
     "hunter",
     "logging_tree",
     "line_profiler",
     "pyinstrument",
-    "nsls2-analysis ==2020C2.0=*_8",
+    "nsls2-analysis ==2020C2.0=*_9",
     "python",
-    "ansiwrap",
     "bloptools",
     "bluesky-darkframes",
     "caproto",
-    "inflection",
     "nslsii >=0.1.0",
     "pexpect",
     "pyepics >=3.4.2",
@@ -249,7 +239,7 @@
     "chxtools",
     "hklpy",
     "hxnfly",
-    "hxntools >=0.4.3",
+    "hxntools >=0.5.1",
     "ppmac",
     "sixtools",
     "hunter",
@@ -435,7 +425,7 @@
    "summary":"Collection metapackage for NSLS-II deployments"
   },
   "build":{
-   "number":"8-1",
+   "number":"9",
    "skip":true
   },
   "package":{
@@ -447,13 +437,11 @@
     "python"
    ],
    "run":[
-    "nsls2-analysis ==2020C2.0=*_8",
+    "nsls2-analysis ==2020C2.0=*_9",
     "python",
-    "ansiwrap",
     "bloptools",
     "bluesky-darkframes",
     "caproto",
-    "inflection",
     "nslsii >=0.1.0",
     "pexpect",
     "pyepics >=3.4.2",
@@ -463,7 +451,7 @@
     "redis-py",
     "chxtools",
     "hxnfly",
-    "hxntools >=0.4.3",
+    "hxntools >=0.5.1",
     "ppmac",
     "sixtools",
     "hunter",
@@ -546,7 +534,6 @@
   "run":{
    "__set__":true,
    "elements":[
-    "ansiwrap",
     "bloptools",
     "bluesky-darkframes",
     "caproto",
@@ -554,7 +541,6 @@
     "hunter",
     "hxnfly",
     "hxntools",
-    "inflection",
     "line_profiler",
     "logging_tree",
     "nsls2-analysis",
@@ -578,11 +564,10 @@
    ]
   }
  },
- "raw_meta_yaml":"{% set name = \"collection\" %}\n{% set year = \"2020\" %}\n{% set cycle = \"2\" %}\n{% set version = \"0\" %}\n{% set micro = \"\" %}\n{% set build_num = \"8\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ year }}C{{ cycle }}.{{ version }}{{ micro }}\n\nbuild:\n  skip: True  # [py<37 or not linux]\n  number: {{ build_num }}-1\n\nrequirements:\n  host:\n    - python\n  run:\n    - nsls2-analysis ==2020C2.0=*_{{ build_num }}\n    - python\n    - ansiwrap\n    - bloptools\n    - bluesky-darkframes\n    - caproto\n    - inflection\n    - nslsii >=0.1.0\n    - pexpect\n    - pyepics >=3.4.2\n    - pyolog >=4.4.0\n    - pyserial\n    - python-confluent-kafka  # [not win]\n    - redis-py\n    # Beamline-specific packages\n    - chxtools\n    - hklpy  # [linux]\n    - hxnfly\n    - hxntools >=0.4.3\n    - ppmac\n    # qastools are installed from source\n    # - qastools\n    - sixtools\n    # XPD packages are in conflict with the rest of the stack.\n    # Need to fix it on their side.\n    # - xpdacq\n    # - xpdan\n    # Debugging tools:\n    - hunter\n    - logging_tree\n    # Profiling tools:\n    - line_profiler\n    - pyinstrument\n\ntest:\n  requires:\n    - nsls2forge-utils\n  imports:\n    - area_detector_handlers\n    - bluesky\n    - caproto\n    - dask\n    - databroker\n    - event_model\n    - lmfit\n    - matplotlib\n    - napari\n    - nslsii\n    - numpy\n    - ophyd\n    - oscars\n    - peakutils\n    - photutils\n    - pymongo\n    - pyxrf\n    - redis\n    - skbeam\n    - srwlpy  # [linux]    \n    - srwpy\n    - suitcase.csv\n    - suitcase.json_metadata\n    - suitcase.jsonl\n    - suitcase.mongo_embedded\n    - suitcase.mongo_normalized\n    - suitcase.msgpack\n    - suitcase.specfile\n    - suitcase.tiff_series\n    - suitcase.tiff_stack\n    - suitcase.utils\n    - xray_vision\n    # Beamline-specific packages\n    - chxtools\n    - csxtools\n    - edrixs\n    - eiger_io\n    - hkl  # [linux]\n    - hxntools\n    - isstools\n    - py4xs\n    - sixtools\n  commands:\n    # Fail if the \"conda-forge\" channel is in the list of channels.\n    - check-results -t channels -f conda-forge  # [not osx]\n    # Fail if versions of the packages are not as expected minimum ones.\n    - check-results -t version -p bluesky     -e 1.6\n    - check-results -t version -p databroker  -e 1.1\n    - check-results -t version -p event_model -e 1.16\n    - check-results -t version -p nslsii      -e 0.1\n    - check-results -t version -p ophyd       -e 1.5\n    - python -V\n    - ipython -V\n    - conda-pack --help\n    - napari --help\n    - napari --version\n    - nexpy --help\n\nabout:\n  home: https://nsls-ii.github.io/deployment_docs.html\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: Collection metapackage for NSLS-II deployments\n  description: |\n    Collection metapackage for NSLS-II deployments. See the deployment\n    documentation at https://nsls-ii.github.io/deployment_docs.html\n",
+ "raw_meta_yaml":"{% set name = \"collection\" %}\n{% set year = \"2020\" %}\n{% set cycle = \"2\" %}\n{% set version = \"0\" %}\n{% set micro = \"\" %}\n{% set build_num = \"9\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ year }}C{{ cycle }}.{{ version }}{{ micro }}\n\nbuild:\n  skip: True  # [py<37 or not linux]\n  number: {{ build_num }}\n\nrequirements:\n  host:\n    - python\n  run:\n    - nsls2-analysis ==2020C2.0=*_{{ build_num }}\n    - python\n    - bloptools\n    - bluesky-darkframes\n    - caproto\n    - nslsii >=0.1.0\n    - pexpect\n    - pyepics >=3.4.2\n    - pyolog >=4.4.0\n    - pyserial\n    - python-confluent-kafka  # [not win]\n    - redis-py\n    # Beamline-specific packages\n    - chxtools\n    - hklpy  # [linux]\n    - hxnfly\n    - hxntools >=0.5.1\n    - ppmac\n    # qastools are installed from source\n    # - qastools\n    - sixtools\n    # XPD packages are in conflict with the rest of the stack.\n    # Need to fix it on their side.\n    # - xpdacq\n    # - xpdan\n    # Debugging tools:\n    - hunter\n    - logging_tree\n    # Profiling tools:\n    - line_profiler\n    - pyinstrument\n\ntest:\n  requires:\n    - nsls2forge-utils\n  imports:\n    - area_detector_handlers\n    - bluesky\n    - caproto\n    - dask\n    - databroker\n    - event_model\n    - lmfit\n    - matplotlib\n    - napari\n    - nslsii\n    - numpy\n    - ophyd\n    - oscars\n    - peakutils\n    - photutils\n    - pymongo\n    - pyxrf\n    - redis\n    - skbeam\n    - srwlpy  # [linux]    \n    - srwpy\n    - suitcase.csv\n    - suitcase.json_metadata\n    - suitcase.jsonl\n    - suitcase.mongo_embedded\n    - suitcase.mongo_normalized\n    - suitcase.msgpack\n    - suitcase.specfile\n    - suitcase.tiff_series\n    - suitcase.tiff_stack\n    - suitcase.utils\n    - xray_vision\n    # Beamline-specific packages\n    - chxtools\n    - csxtools\n    - edrixs\n    - eiger_io\n    - hkl  # [linux]\n    - hxntools\n    - isstools\n    - py4xs\n    - sixtools\n  commands:\n    # Fail if the \"conda-forge\" channel is in the list of channels.\n    - check-results -t channels -f conda-forge  # [not osx]\n    # Fail if versions of the packages are not as expected minimum ones.\n    - check-results -t version -p bluesky     -e 1.6\n    - check-results -t version -p databroker  -e 1.1\n    - check-results -t version -p event_model -e 1.16\n    - check-results -t version -p nslsii      -e 0.1\n    - check-results -t version -p ophyd       -e 1.5\n    - python -V\n    - ipython -V\n    - conda-pack --help\n    - napari --help\n    - napari --version\n    - nexpy --help\n\nabout:\n  home: https://nsls-ii.github.io/deployment_docs.html\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: Collection metapackage for NSLS-II deployments\n  description: |\n    Collection metapackage for NSLS-II deployments. See the deployment\n    documentation at https://nsls-ii.github.io/deployment_docs.html\n",
  "req":{
   "__set__":true,
   "elements":[
-   "ansiwrap",
    "bloptools",
    "bluesky-darkframes",
    "caproto",
@@ -591,7 +576,6 @@
    "hunter",
    "hxnfly",
    "hxntools",
-   "inflection",
    "line_profiler",
    "logging_tree",
    "nsls2-analysis",
@@ -622,7 +606,6 @@
   "run":{
    "__set__":true,
    "elements":[
-    "ansiwrap",
     "bloptools",
     "bluesky-darkframes",
     "caproto",
@@ -631,7 +614,6 @@
     "hunter",
     "hxnfly",
     "hxntools",
-    "inflection",
     "line_profiler",
     "logging_tree",
     "nsls2-analysis",
@@ -670,7 +652,6 @@
   "run":{
    "__set__":true,
    "elements":[
-    "ansiwrap",
     "bloptools",
     "bluesky-darkframes",
     "caproto",
@@ -678,11 +659,10 @@
     "hklpy",
     "hunter",
     "hxnfly",
-    "hxntools >=0.4.3",
-    "inflection",
+    "hxntools >=0.5.1",
     "line_profiler",
     "logging_tree",
-    "nsls2-analysis ==2020C2.0=*_8",
+    "nsls2-analysis ==2020C2.0=*_9",
     "nslsii >=0.1.0",
     "pexpect",
     "ppmac",
@@ -713,7 +693,7 @@
    "summary":"Collection metapackage for NSLS-II deployments"
   },
   "build":{
-   "number":"8-1",
+   "number":"9",
    "skip":true
   },
   "package":{
@@ -725,13 +705,11 @@
     "python"
    ],
    "run":[
-    "nsls2-analysis ==2020C2.0=*_8",
+    "nsls2-analysis ==2020C2.0=*_9",
     "python",
-    "ansiwrap",
     "bloptools",
     "bluesky-darkframes",
     "caproto",
-    "inflection",
     "nslsii >=0.1.0",
     "pexpect",
     "pyepics >=3.4.2",
@@ -740,7 +718,7 @@
     "redis-py",
     "chxtools",
     "hxnfly",
-    "hxntools >=0.4.3",
+    "hxntools >=0.5.1",
     "ppmac",
     "sixtools",
     "hunter",
@@ -824,7 +802,6 @@
   "run":{
    "__set__":true,
    "elements":[
-    "ansiwrap",
     "bloptools",
     "bluesky-darkframes",
     "caproto",
@@ -832,7 +809,6 @@
     "hunter",
     "hxnfly",
     "hxntools",
-    "inflection",
     "line_profiler",
     "logging_tree",
     "nsls2-analysis",

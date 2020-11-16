@@ -51,10 +51,6 @@
   },
   {
    "source":"ansiwrap",
-   "target":"collection"
-  },
-  {
-   "source":"ansiwrap",
    "target":"papermill"
   },
   {
@@ -1596,10 +1592,6 @@
   {
    "source":"inflection",
    "target":"analysis"
-  },
-  {
-   "source":"inflection",
-   "target":"collection"
   },
   {
    "source":"intake",
