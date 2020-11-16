@@ -194,10 +194,11 @@
   }
  },
  "name":"bumps",
- "new_version":"0.7.17",
+ "new_version":"0.7.18",
  "new_version_attempts":{
   "0.7.16":1,
-  "0.7.17":68
+  "0.7.17":68,
+  "0.7.18":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
