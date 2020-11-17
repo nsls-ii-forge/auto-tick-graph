@@ -174,7 +174,7 @@
  "new_version_attempts":{
   "5.7.0":1,
   "5.7.1":150,
-  "5.8.0":60
+  "5.8.0":61
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
