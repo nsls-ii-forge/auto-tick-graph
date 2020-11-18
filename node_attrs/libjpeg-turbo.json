@@ -62,7 +62,7 @@
   },
   "package":{
    "name":"libjpeg-turbo",
-   "version":"2.0.5"
+   "version":"2.0.6"
   },
   "requirements":{
    "build":[
@@ -73,8 +73,8 @@
    ]
   },
   "source":{
-   "sha256":"b3090cd37b5a8b3e4dbd30a1311b3989a894e5d3c668f14cbc6739d77c9402b7",
-   "url":"https://github.com/libjpeg-turbo/libjpeg-turbo/archive/2.0.5.tar.gz"
+   "sha256":"005aee2fcdca252cee42271f7f90574dda64ca6505d9f8b86ae61abc2b426371",
+   "url":"https://github.com/libjpeg-turbo/libjpeg-turbo/archive/2.0.6.tar.gz"
   },
   "test":{
    "commands":[
@@ -127,7 +127,7 @@
   },
   "package":{
    "name":"libjpeg-turbo",
-   "version":"2.0.5"
+   "version":"2.0.6"
   },
   "requirements":{
    "build":[
@@ -147,8 +147,8 @@
    ]
   },
   "source":{
-   "sha256":"b3090cd37b5a8b3e4dbd30a1311b3989a894e5d3c668f14cbc6739d77c9402b7",
-   "url":"https://github.com/libjpeg-turbo/libjpeg-turbo/archive/2.0.5.tar.gz"
+   "sha256":"005aee2fcdca252cee42271f7f90574dda64ca6505d9f8b86ae61abc2b426371",
+   "url":"https://github.com/libjpeg-turbo/libjpeg-turbo/archive/2.0.6.tar.gz"
   },
   "test":{
    "commands":[
@@ -164,11 +164,11 @@
   }
  },
  "name":"libjpeg-turbo",
- "new_version":"2.0.6",
+ "new_version":"9d",
  "new_version_attempts":{
   "2.0.5":1,
   "2.0.6":1,
-  "9d":210
+  "9d":211
  },
  "new_version_errors":{
   "9d":"The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '9d' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/{{ name }}/{{ name }}/archive/{{ version }}.tar.gz'\n"
@@ -190,7 +190,7 @@
   },
   "package":{
    "name":"libjpeg-turbo",
-   "version":"2.0.5"
+   "version":"2.0.6"
   },
   "requirements":{
    "build":[
@@ -201,8 +201,8 @@
    ]
   },
   "source":{
-   "sha256":"b3090cd37b5a8b3e4dbd30a1311b3989a894e5d3c668f14cbc6739d77c9402b7",
-   "url":"https://github.com/libjpeg-turbo/libjpeg-turbo/archive/2.0.5.tar.gz"
+   "sha256":"005aee2fcdca252cee42271f7f90574dda64ca6505d9f8b86ae61abc2b426371",
+   "url":"https://github.com/libjpeg-turbo/libjpeg-turbo/archive/2.0.6.tar.gz"
   },
   "test":{
    "commands":[
@@ -237,7 +237,7 @@
   }
  },
  "pinning_version":"2020.11.16.18.10.02",
- "raw_meta_yaml":"{% set name = \"libjpeg-turbo\" %}\n{% set version = \"2.0.5\" %}\n{% set sha256 = \"b3090cd37b5a8b3e4dbd30a1311b3989a894e5d3c668f14cbc6739d77c9402b7\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/{{ name }}/{{ name }}/archive/{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  run_exports:\n    - {{ pin_subpackage('libjpeg-turbo', max_pin='x') }}\n\nrequirements:\n  build:\n    - cmake\n    - jom  # [win]\n    - make\n    - msinttypes  # [win and py<35]\n    - yasm\n    - {{ compiler('c') }}\n\ntest:\n  files:\n    - testorig.jpg\n  commands:\n    - djpeg -dct int -ppm -outfile testout.ppm testorig.jpg\n\nabout:\n  home: https://libjpeg-turbo.org\n  license: IJG, modified 3-clause BSD and zlib\n  license_file: LICENSE.md\n  summary: IJG JPEG compliant runtime library with SIMD and other optimizations\n  doc_url: https://libjpeg-turbo.org\n  dev_url: https://github.com/libjpeg-turbo/libjpeg-turbo\n",
+ "raw_meta_yaml":"{% set name = \"libjpeg-turbo\" %}\n{% set version = \"2.0.6\" %}\n{% set sha256 = \"005aee2fcdca252cee42271f7f90574dda64ca6505d9f8b86ae61abc2b426371\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/{{ name }}/{{ name }}/archive/{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  run_exports:\n    - {{ pin_subpackage('libjpeg-turbo', max_pin='x') }}\n\nrequirements:\n  build:\n    - cmake\n    - jom  # [win]\n    - make\n    - msinttypes  # [win and py<35]\n    - yasm\n    - {{ compiler('c') }}\n\ntest:\n  files:\n    - testorig.jpg\n  commands:\n    - djpeg -dct int -ppm -outfile testout.ppm testorig.jpg\n\nabout:\n  home: https://libjpeg-turbo.org\n  license: IJG, modified 3-clause BSD and zlib\n  license_file: LICENSE.md\n  summary: IJG JPEG compliant runtime library with SIMD and other optimizations\n  doc_url: https://libjpeg-turbo.org\n  dev_url: https://github.com/libjpeg-turbo/libjpeg-turbo\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -299,7 +299,7 @@
   }
  },
  "url":"https://github.com/libjpeg-turbo/libjpeg-turbo/archive/2.0.4.tar.gz",
- "version":"2.0.5",
+ "version":"2.0.6",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/libjpeg-turbo/libjpeg-turbo",
@@ -317,7 +317,7 @@
   },
   "package":{
    "name":"libjpeg-turbo",
-   "version":"2.0.5"
+   "version":"2.0.6"
   },
   "requirements":{
    "build":[
@@ -329,8 +329,8 @@
    ]
   },
   "source":{
-   "sha256":"b3090cd37b5a8b3e4dbd30a1311b3989a894e5d3c668f14cbc6739d77c9402b7",
-   "url":"https://github.com/libjpeg-turbo/libjpeg-turbo/archive/2.0.5.tar.gz"
+   "sha256":"005aee2fcdca252cee42271f7f90574dda64ca6505d9f8b86ae61abc2b426371",
+   "url":"https://github.com/libjpeg-turbo/libjpeg-turbo/archive/2.0.6.tar.gz"
   },
   "test":{
    "commands":[
