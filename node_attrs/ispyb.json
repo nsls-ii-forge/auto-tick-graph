@@ -170,11 +170,12 @@
   }
  },
  "name":"ispyb",
- "new_version":"5.8.0",
+ "new_version":"5.8.1",
  "new_version_attempts":{
   "5.7.0":1,
   "5.7.1":151,
-  "5.8.0":109
+  "5.8.0":109,
+  "5.8.1":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
