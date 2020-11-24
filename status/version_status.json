@@ -1,6 +1,7 @@
 {
   "errored": [
     "asteval",
+    "bumps",
     "cupy",
     "clang_packages",
     "gwcs",
@@ -18,10 +19,12 @@
     "uncertainties",
     "xraylarch",
     "xraydb",
+    "nest-asyncio",
     "pylatexenc"
   ],
   "errors": {
     "asteval": "The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '0.9.21' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz'\n",
+    "bumps": "The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '0.7.18' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz'\n",
     "clang_packages": "The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '11.0.0' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/llvm/llvm-project/releases/download/llvmorg-{{ version }}/cfe-{{ version }}.src.tar.xz'\n",
     "cupy": "no error information available",
     "gwcs": "The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '0.15.0' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz'\n",
@@ -30,6 +33,7 @@
     "lz4-c": "no error information available",
     "mendeleev": "no error information available",
     "napari": "no error information available",
+    "nest-asyncio": "no error information available",
     "outcome": "no error information available",
     "papermill": "no error information available",
     "periodictable": "no error information available",
