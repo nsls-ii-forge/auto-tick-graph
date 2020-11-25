@@ -185,7 +185,7 @@
  "name":"xpdacq",
  "new_version":"0.11.0",
  "new_version_attempts":{
-  "0.11.0":3
+  "0.11.0":4
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
