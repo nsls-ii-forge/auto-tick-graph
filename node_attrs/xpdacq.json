@@ -183,7 +183,11 @@
   }
  },
  "name":"xpdacq",
- "new_version":"0.10.4",
+ "new_version":"0.11.0",
+ "new_version_attempts":{
+  "0.11.0":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/xpdAcq/xpdAcq",

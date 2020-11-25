@@ -17,6 +17,7 @@
     "prettytable",
     "pyresttable",
     "uncertainties",
+    "xpdacq",
     "xraylarch",
     "xraydb",
     "nest-asyncio",
@@ -42,6 +43,7 @@
     "pylatexenc": "no error information available",
     "pyresttable": "no error information available",
     "uncertainties": "no error information available",
+    "xpdacq": "no error information available",
     "xraydb": "no error information available",
     "xraylarch": "no error information available"
   },
