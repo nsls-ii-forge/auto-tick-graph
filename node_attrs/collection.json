@@ -693,7 +693,7 @@
    "summary":"Collection metapackage for NSLS-II deployments"
   },
   "build":{
-   "number":9,
+   "number":"9",
    "skip":true
   },
   "package":{
