@@ -16,6 +16,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/529021143.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.6"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -195,9 +212,10 @@
   }
  },
  "name":"vispy",
- "new_version":"0.6.5",
+ "new_version":"0.6.6",
  "new_version_attempts":{
-  "0.6.5":1
+  "0.6.5":1,
+  "0.6.6":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -286,7 +304,7 @@
    "elements":[]
   }
  },
- "pinning_version":"2020.09.24.11.51.54",
+ "pinning_version":"2020.11.27.22.34.30",
  "raw_meta_yaml":"{% set name = \"vispy\" %}\n{% set version = \"0.6.5\" %}\n{% set sha256 = \"90cc76e79ee16c839bca05753e0c5f9f1c1c57963f2d3b248e4afac0fd75df75\" %}\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n  patches:\n    - ctypes_fontconfig.diff\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  skip: true  # [py<36]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - python\n    - pip\n    - cython\n    - fontconfig  # [unix]\n    - numpy\n    - setuptools\n    - setuptools_scm\n    - setuptools_scm_git_archive\n  run:\n    - python\n    - fontconfig  # [unix]\n    - freetype-py\n    - {{ pin_compatible('numpy') }}\n\ntest:\n  imports:\n    - vispy\n\nabout:\n  home: http://vispy.org\n  license_family: BSD\n  license: BSD-3-Clause\n  license_file: LICENSE.txt\n  summary: VisPy is a high-performance interactive 2D/3D data visualization library.\n  dev_url: https://github.com/vispy/vispy\n  doc_url: http://vispy.org/documentation.html\n",
  "req":{
   "__set__":true,
@@ -337,7 +355,7 @@
    "elements":[]
   }
  },
- "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.10",
+ "smithy_version":"3.8.5",
  "strong_exports":false,
  "total_requirements":{
   "build":{
