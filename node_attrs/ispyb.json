@@ -170,11 +170,11 @@
   }
  },
  "name":"ispyb",
- "new_version":"5.8.1",
+ "new_version":"5.8.0",
  "new_version_attempts":{
   "5.7.0":1,
   "5.7.1":151,
-  "5.8.0":110,
+  "5.8.0":111,
   "5.8.1":67
  },
  "new_version_errors":{},
