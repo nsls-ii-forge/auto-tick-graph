@@ -159,9 +159,11 @@
  "new_version_attempts":{
   "1.4.1":1,
   "1.4.2":159,
-  "1.4.3":179
+  "1.4.3":180
  },
- "new_version_errors":{},
+ "new_version_errors":{
+  "1.4.3":"The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '1.4.3' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://pypi.io/packages/source/{{ nameUnderscore[0] }}/{{ nameUnderscore }}/{{ nameUnderscore }}-{{ version }}.tar.gz'\n"
+ },
  "osx_64_meta_yaml":{
   "about":{
    "description":"By design asyncio does not allow its event loop to be nested.\nThis presents a practical problem - when in an environment where the event loop is already running it's impossible to run tasks and wait for the result.\nTrying to do so will give the error RuntimeError - This event loop is already running.\nThe issue pops up in various environments, such as web servers, GUI applications and in Jupyter notebooks.\nThis module patches asyncio to allow nested use of asyncio.run and loop.run_until_complete.\n",
