@@ -459,6 +459,10 @@
   },
   {
    "source":"c_compiler_stub",
+   "target":"tomviz"
+  },
+  {
+   "source":"c_compiler_stub",
    "target":"uwsgi"
   },
   {
@@ -596,6 +600,10 @@
   {
    "source":"cmake",
    "target":"scikit-build"
+  },
+  {
+   "source":"cmake",
+   "target":"tomviz"
   },
   {
    "source":"colorama",
@@ -792,6 +800,10 @@
   {
    "source":"cxx_compiler_stub",
    "target":"tomopy"
+  },
+  {
+   "source":"cxx_compiler_stub",
+   "target":"tomviz"
   },
   {
    "source":"cxx_compiler_stub",
@@ -2863,6 +2875,10 @@
   },
   {
    "source":"numpy",
+   "target":"tomviz"
+  },
+  {
+   "source":"numpy",
    "target":"uncertainties"
   },
   {
@@ -4016,6 +4032,10 @@
   {
    "source":"pkg-config",
    "target":"lz4-c"
+  },
+  {
+   "source":"pkg-config",
+   "target":"tomviz"
   },
   {
    "source":"pkgconfig",
@@ -5308,6 +5328,10 @@
   {
    "source":"python",
    "target":"tomopy"
+  },
+  {
+   "source":"python",
+   "target":"tomviz"
   },
   {
    "source":"python",
