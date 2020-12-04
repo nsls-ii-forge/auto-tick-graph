@@ -11,5 +11,6 @@
   "eventlet",
   "hunter",
   "httpx",
-  "pykern"
+  "pykern",
+  "pdfstream"
 ]
