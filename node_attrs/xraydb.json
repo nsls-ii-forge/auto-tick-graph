@@ -216,7 +216,7 @@
   "4.4.1":1,
   "4.4.3":1,
   "4.4.4":1,
-  "4.4.5":368
+  "4.4.5":369
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -231,7 +231,7 @@
   },
   "build":{
    "noarch":"python",
-   "number":0,
+   "number":"0",
    "script":"-m pip install . --no-deps -vv"
   },
   "package":{
