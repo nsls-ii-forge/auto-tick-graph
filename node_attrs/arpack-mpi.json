@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/533657139.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.8.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -130,7 +149,11 @@
   }
  },
  "name":"arpack-mpi",
- "new_version":"3.7.0",
+ "new_version":"3.8.0",
+ "new_version_attempts":{
+  "3.8.0":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/opencollab/arpack-ng",
@@ -195,6 +218,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2020.12.06.16.40.53",
  "raw_meta_yaml":"{% set name = \"arpack-mpi\" %}\n{% set version = \"3.7.0\" %}\n{% set sha256 = \"972e3fc3cd0b9d6b5a737c9bf6fd07515c0d6549319d4ffb06970e64fa3cc2d6\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/opencollab/arpack-ng/archive/{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  skip: true  # [not linux]\n\nrequirements:\n  build:\n    - cmake\n    - openmpi\n    - {{ compiler('c') }}\n    - {{ compiler('fortran') }}\n  host:\n    - libopenblas\n\ntest:\n  commands:\n    - test -f ${PREFIX}/lib/libarpack.a\n    - test -f ${PREFIX}/lib/libparpack.a\n    - test -f ${PREFIX}/lib/libarpack${SHLIB_EXT}\n    - test -f ${PREFIX}/lib/libparpack${SHLIB_EXT}\n\nabout:\n  home: https://github.com/opencollab/arpack-ng\n  license: BSD-3-Clause\n  license_file: COPYING\n  summary: Fortran77 subroutines designed to solve large scale eigenvalue problems\n",
  "req":{
   "__set__":true,
@@ -231,6 +255,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"3.8.5",
  "strong_exports":false,
  "total_requirements":{
   "build":{
