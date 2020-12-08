@@ -174,7 +174,7 @@
  "name":"dxchange",
  "new_version":"0.1.6",
  "new_version_attempts":{
-  "0.1.6":30
+  "0.1.6":31
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
