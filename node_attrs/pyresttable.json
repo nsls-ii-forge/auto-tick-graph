@@ -18,7 +18,7 @@
   },
   "build":{
    "noarch":"python",
-   "number":0,
+   "number":"0",
    "script":"-m pip install . -vv"
   },
   "package":{
@@ -78,7 +78,7 @@
   },
   "build":{
    "noarch":"python",
-   "number":0,
+   "number":"0",
    "script":"-m pip install . -vv"
   },
   "package":{
@@ -118,7 +118,7 @@
  "name":"pyresttable",
  "new_version":"2020.0.3",
  "new_version_attempts":{
-  "2020.0.3":267
+  "2020.0.3":268
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
