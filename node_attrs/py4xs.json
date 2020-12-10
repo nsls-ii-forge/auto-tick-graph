@@ -146,7 +146,7 @@
  "new_version":"2020.12.9.0",
  "new_version_attempts":{
   "2020.10.29.0":360,
-  "2020.12.9.0":16
+  "2020.12.9.0":17
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
