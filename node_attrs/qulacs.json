@@ -225,7 +225,7 @@
    },
    {
     "build":{
-     "number":0,
+     "number":"0",
      "run_exports":[
       "qulacs-mutex"
      ],
@@ -238,14 +238,14 @@
       "echo \"qulacs-mutex metapackage is built\""
      ]
     },
-    "version":1.0
+    "version":"1.0"
    },
    {
     "build":{
      "missing_dso_whitelist":[
       "*/libcuda.*"
      ],
-     "number":103,
+     "number":"103",
      "script":[
       "export C_COMPILER=\"${GCC}\"",
       "export CXX_COMPILER=\"${GXX}\"",
@@ -388,7 +388,7 @@
  "name":"qulacs-conda",
  "new_version":"0.2.0",
  "new_version_attempts":{
-  "0.2.0":112
+  "0.2.0":113
  },
  "new_version_errors":{
   "0.2.0":"We found a problem parsing the recipe: \n\nwhile constructing a mapping\n  in \"<unicode string>\", line 40, column 3:\n      skip__###conda-selector###__pyth ... \n      ^ (line: 40)\nfound duplicate key \"skip\" with value \"True\" (original value: \"True\")\n  in \"<unicode string>\", line 49, column 3:\n      skip: true\n      ^ (line: 49)\n\nTo suppress this check see:\n    http://yaml.readthedocs.io/en/latest/api.html#duplicate-keys\n\nDuplicate keys will become an error in future releases, and are errors\nby default when using the new API.\n"
@@ -412,7 +412,7 @@
   "outputs":[
    {
     "build":{
-     "number":0,
+     "number":"0",
      "run_exports":[
       "qulacs-mutex"
      ],
@@ -425,14 +425,14 @@
       "echo \"qulacs-mutex metapackage is built\""
      ]
     },
-    "version":1.0
+    "version":"1.0"
    },
    {
     "build":{
      "missing_dso_whitelist":[
       "*/libcuda.*"
      ],
-     "number":103,
+     "number":"103",
      "script":[
       "export C_COMPILER=\"${GCC}\"",
       "export CXX_COMPILER=\"${GXX}\"",
