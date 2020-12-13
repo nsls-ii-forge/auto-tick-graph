@@ -236,7 +236,7 @@
   }
  },
  "name":"eventlet",
- "new_version":"0.29.1",
+ "new_version":"0.30.0",
  "new_version_attempts":{
   "0.26.1":1,
   "0.27.0":1,
