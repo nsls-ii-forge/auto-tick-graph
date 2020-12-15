@@ -155,7 +155,7 @@
  "new_version":"6.3.0",
  "new_version_attempts":{
   "6.2.0":1,
-  "6.3.0":2
+  "6.3.0":3
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
