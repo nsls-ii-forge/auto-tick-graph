@@ -43,7 +43,7 @@
    "entry_points":[
     "xrt = xrt.gui.xrtQookStart:main"
    ],
-   "number":0,
+   "number":"0",
    "script":"-m pip install . --no-deps -vv"
   },
   "package":{
@@ -136,7 +136,7 @@
     "xrt = xrt.gui.xrtQookStart:main",
     "xrt = xrt.gui.xrtQookStart:main"
    ],
-   "number":0,
+   "number":"0",
    "script":"-m pip install . --no-deps -vv"
   },
   "package":{
