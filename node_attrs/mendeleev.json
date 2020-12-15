@@ -176,7 +176,7 @@
  "name":"mendeleev",
  "new_version":"0.6.1",
  "new_version_attempts":{
-  "0.6.1":326
+  "0.6.1":327
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -355,7 +355,7 @@
     "element.py = mendeleev.cli:clielement"
    ],
    "noarch":"python",
-   "number":0,
+   "number":"0",
    "script":"-m pip install . -vv"
   },
   "package":{
