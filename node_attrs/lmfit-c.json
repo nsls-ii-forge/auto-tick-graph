@@ -14,7 +14,7 @@
    "license":"FreeBSD"
   },
   "build":{
-   "number":11
+   "number":"11"
   },
   "package":{
    "name":"lmfit-c",
@@ -58,7 +58,7 @@
    "license":"FreeBSD"
   },
   "build":{
-   "number":11
+   "number":"11"
   },
   "package":{
    "name":"lmfit-c",
