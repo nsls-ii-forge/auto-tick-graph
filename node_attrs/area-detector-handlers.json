@@ -147,9 +147,10 @@
   }
  },
  "name":"area-detector-handlers",
- "new_version":"0.0.7",
+ "new_version":"0.0.8",
  "new_version_attempts":{
-  "0.0.7":1
+  "0.0.7":1,
+  "0.0.8":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
