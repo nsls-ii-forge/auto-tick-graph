@@ -18,7 +18,7 @@
    ]
   }
  ],
- "bad":"make_graph: 500",
+ "bad":false,
  "conda-forge.yml":{
   "provider":{
    "linux":"azure",
@@ -150,7 +150,7 @@
   }
  },
  "name":"qtmodern",
- "new_version":false,
+ "new_version":"0.2.0",
  "new_version_attempts":{
   "0.2.0":1
  },
