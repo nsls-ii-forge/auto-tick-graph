@@ -149,7 +149,11 @@
   }
  },
  "name":"pyinstrument",
- "new_version":"3.2.0",
+ "new_version":"3.3.0",
+ "new_version_attempts":{
+  "3.3.0":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/joerick/pyinstrument",
