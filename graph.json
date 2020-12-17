@@ -911,6 +911,10 @@
   },
   {
    "source":"dask",
+   "target":"bluesky-live"
+  },
+  {
+   "source":"dask",
    "target":"databroker"
   },
   {
@@ -1103,6 +1107,10 @@
   },
   {
    "source":"entrypoints",
+   "target":"bluesky-live"
+  },
+  {
+   "source":"entrypoints",
    "target":"intake"
   },
   {
@@ -1128,6 +1136,10 @@
   {
    "source":"event-model",
    "target":"bluesky-darkframes"
+  },
+  {
+   "source":"event-model",
+   "target":"bluesky-live"
   },
   {
    "source":"event-model",
@@ -2615,6 +2627,10 @@
   },
   {
    "source":"numpy",
+   "target":"bluesky-live"
+  },
+  {
+   "source":"numpy",
    "target":"bumps"
   },
   {
@@ -3039,6 +3055,10 @@
   },
   {
    "source":"pandas",
+   "target":"bluesky-live"
+  },
+  {
+   "source":"pandas",
    "target":"databroker"
   },
   {
@@ -3308,6 +3328,10 @@
   {
    "source":"pip",
    "target":"bluesky-kafka"
+  },
+  {
+   "source":"pip",
+   "target":"bluesky-live"
   },
   {
    "source":"pip",
@@ -4463,6 +4487,10 @@
   },
   {
    "source":"pytest",
+   "target":"bluesky-live"
+  },
+  {
+   "source":"pytest",
    "target":"boltons"
   },
   {
@@ -4676,6 +4704,10 @@
   {
    "source":"python",
    "target":"bluesky-kafka"
+  },
+  {
+   "source":"python",
+   "target":"bluesky-live"
   },
   {
    "source":"python",
@@ -6708,6 +6740,10 @@
   {
    "source":"wxutils",
    "target":"xraylarch"
+  },
+  {
+   "source":"xarray",
+   "target":"bluesky-live"
   },
   {
    "source":"xarray",
@@ -9908,6 +9944,12 @@
    "id":"tomviz",
    "payload":{
     "__lazy_json__":"node_attrs/tomviz.json"
+   }
+  },
+  {
+   "id":"bluesky-live",
+   "payload":{
+    "__lazy_json__":"node_attrs/bluesky-live.json"
    }
   }
  ]
