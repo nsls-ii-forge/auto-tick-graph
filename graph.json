@@ -214,6 +214,10 @@
    "target":"nslsii"
   },
   {
+   "source":"bluesky-live",
+   "target":"databroker"
+  },
+  {
    "source":"bluesky",
    "target":"analysis"
   },
