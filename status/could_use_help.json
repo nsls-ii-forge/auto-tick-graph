@@ -6,6 +6,7 @@
   "wxmplot",
   "xraydb",
   "nbclient",
+  "openmpi-mpi",
   "papermill",
   "napari",
   "nsls2forge-utils",
