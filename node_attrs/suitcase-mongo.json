@@ -45,7 +45,7 @@
   },
   "package":{
    "name":"suitcase-mongo",
-   "version":"0.2.0"
+   "version":"0.3.0"
   },
   "requirements":{
    "host":[
@@ -59,8 +59,8 @@
    ]
   },
   "source":{
-   "sha256":"b48d6721b565c40e69202d97aa651481842dde0bc1f6476f33b4c422dfcd5aa5",
-   "url":"https://pypi.io/packages/source/s/suitcase-mongo/suitcase-mongo-0.2.0.tar.gz"
+   "sha256":"e8648a18c165da0957a96cb16e6a964cf8b4e5bb43fd42b52487e2f8edcb154e",
+   "url":"https://pypi.io/packages/source/s/suitcase-mongo/suitcase-mongo-0.3.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -113,7 +113,7 @@
   },
   "package":{
    "name":"suitcase-mongo",
-   "version":"0.2.0"
+   "version":"0.3.0"
   },
   "requirements":{
    "host":[
@@ -137,8 +137,8 @@
    ]
   },
   "source":{
-   "sha256":"b48d6721b565c40e69202d97aa651481842dde0bc1f6476f33b4c422dfcd5aa5",
-   "url":"https://pypi.io/packages/source/s/suitcase-mongo/suitcase-mongo-0.2.0.tar.gz"
+   "sha256":"e8648a18c165da0957a96cb16e6a964cf8b4e5bb43fd42b52487e2f8edcb154e",
+   "url":"https://pypi.io/packages/source/s/suitcase-mongo/suitcase-mongo-0.3.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -180,7 +180,7 @@
   },
   "package":{
    "name":"suitcase-mongo",
-   "version":"0.2.0"
+   "version":"0.3.0"
   },
   "requirements":{
    "host":[
@@ -194,8 +194,8 @@
    ]
   },
   "source":{
-   "sha256":"b48d6721b565c40e69202d97aa651481842dde0bc1f6476f33b4c422dfcd5aa5",
-   "url":"https://pypi.io/packages/source/s/suitcase-mongo/suitcase-mongo-0.2.0.tar.gz"
+   "sha256":"e8648a18c165da0957a96cb16e6a964cf8b4e5bb43fd42b52487e2f8edcb154e",
+   "url":"https://pypi.io/packages/source/s/suitcase-mongo/suitcase-mongo-0.3.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -232,7 +232,7 @@
   }
  },
  "pinning_version":"2020.12.18.18.05.13",
- "raw_meta_yaml":"{% set name = \"suitcase-mongo\" %}\n{% set version = \"0.2.0\" %}\n{% set sha256 = \"b48d6721b565c40e69202d97aa651481842dde0bc1f6476f33b4c422dfcd5aa5\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - event-model >=1.8.0\n    - pymongo\n\ntest:\n  imports:\n    - suitcase.mongo_embedded\n    - suitcase.mongo_embedded.tests\n    - suitcase.mongo_normalized\n    - suitcase.mongo_normalized.tests\n\nabout:\n  home: https://blueskyproject.io/suitcase\n  license: BSD (3-clause)\n  license_family: BSD\n  license_file: LICENSE\n  summary: A suitcase subpackage for inserting bluesky documents into MongoDB\n  doc_url: https://blueskyproject.io/suitcase\n  dev_url: https://github.com/bluesky/suitcase-mongo\n",
+ "raw_meta_yaml":"{% set name = \"suitcase-mongo\" %}\n{% set version = \"0.3.0\" %}\n{% set sha256 = \"e8648a18c165da0957a96cb16e6a964cf8b4e5bb43fd42b52487e2f8edcb154e\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - event-model >=1.8.0\n    - pymongo\n\ntest:\n  imports:\n    - suitcase.mongo_embedded\n    - suitcase.mongo_embedded.tests\n    - suitcase.mongo_normalized\n    - suitcase.mongo_normalized.tests\n\nabout:\n  home: https://blueskyproject.io/suitcase\n  license: BSD (3-clause)\n  license_family: BSD\n  license_file: LICENSE\n  summary: A suitcase subpackage for inserting bluesky documents into MongoDB\n  doc_url: https://blueskyproject.io/suitcase\n  dev_url: https://github.com/bluesky/suitcase-mongo\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -295,7 +295,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/s/suitcase-mongo/suitcase-mongo-0.2.0.tar.gz",
- "version":"0.2.0",
+ "version":"0.3.0",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/bluesky/suitcase-mongo",
@@ -313,7 +313,7 @@
   },
   "package":{
    "name":"suitcase-mongo",
-   "version":"0.2.0"
+   "version":"0.3.0"
   },
   "requirements":{
    "host":[
@@ -327,8 +327,8 @@
    ]
   },
   "source":{
-   "sha256":"b48d6721b565c40e69202d97aa651481842dde0bc1f6476f33b4c422dfcd5aa5",
-   "url":"https://pypi.io/packages/source/s/suitcase-mongo/suitcase-mongo-0.2.0.tar.gz"
+   "sha256":"e8648a18c165da0957a96cb16e6a964cf8b4e5bb43fd42b52487e2f8edcb154e",
+   "url":"https://pypi.io/packages/source/s/suitcase-mongo/suitcase-mongo-0.3.0.tar.gz"
   },
   "test":{
    "imports":[
