@@ -151,7 +151,7 @@
  "name":"pyinstrument",
  "new_version":"3.3.0",
  "new_version_attempts":{
-  "3.3.0":18
+  "3.3.0":19
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
