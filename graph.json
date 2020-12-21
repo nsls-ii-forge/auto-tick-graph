@@ -1614,6 +1614,14 @@
    "target":"napari-plugin-engine"
   },
   {
+   "source":"importlib_metadata",
+   "target":"pint"
+  },
+  {
+   "source":"importlib_resources",
+   "target":"pint"
+  },
+  {
    "source":"inflection",
    "target":"06-bm-bmm-collection"
   },
@@ -3047,6 +3055,10 @@
   },
   {
    "source":"packaging",
+   "target":"pint"
+  },
+  {
+   "source":"packaging",
    "target":"scikit-build"
   },
   {
@@ -3696,6 +3708,10 @@
   {
    "source":"pip",
    "target":"photutils"
+  },
+  {
+   "source":"pip",
+   "target":"pint"
   },
   {
    "source":"pip",
@@ -5103,6 +5119,10 @@
   },
   {
    "source":"python",
+   "target":"pint"
+  },
+  {
+   "source":"python",
    "target":"ppmac"
   },
   {
@@ -6039,6 +6059,10 @@
   },
   {
    "source":"setuptools_scm",
+   "target":"pint"
+  },
+  {
+   "source":"setuptools_scm",
    "target":"prettytable"
   },
   {
@@ -6088,6 +6112,10 @@
   {
    "source":"setuptools",
    "target":"photutils"
+  },
+  {
+   "source":"setuptools",
+   "target":"pint"
   },
   {
    "source":"setuptools",
@@ -6556,6 +6584,10 @@
   {
    "source":"toml",
    "target":"pep517"
+  },
+  {
+   "source":"toml",
+   "target":"pint"
   },
   {
    "source":"tomopy",
@@ -9954,6 +9986,18 @@
    "id":"bluesky-live",
    "payload":{
     "__lazy_json__":"node_attrs/bluesky-live.json"
+   }
+  },
+  {
+   "id":"pint",
+   "payload":{
+    "__lazy_json__":"node_attrs/pint.json"
+   }
+  },
+  {
+   "id":"importlib_resources",
+   "payload":{
+    "__lazy_json__":"node_attrs/importlib_resources.json"
    }
   }
  ]
