@@ -3282,6 +3282,10 @@
    "target":"xpdtools"
   },
   {
+   "source":"pint",
+   "target":"hklpy"
+  },
+  {
    "source":"pip",
    "target":"amostra"
   },
