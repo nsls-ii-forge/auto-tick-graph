@@ -281,12 +281,12 @@
   }
  },
  "name":"xraylarch",
- "new_version":"0.9.49",
+ "new_version":"0.9.50",
  "new_version_attempts":{
   "0.9.47":1,
   "0.9.48":1,
   "0.9.49":312,
-  "0.9.50":93
+  "0.9.50":94
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
