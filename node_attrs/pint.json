@@ -173,7 +173,7 @@
   },
   "build":{
    "noarch":"python",
-   "number":"0",
+   "number":0,
    "script":"SETUPTOOLS_SCM_PRETEND_VERSION=0.16.1  -m pip install . -v"
   },
   "package":{
