@@ -68,7 +68,7 @@
   },
   "package":{
    "name":"caproto",
-   "version":"0.6.0"
+   "version":"0.7.0"
   },
   "requirements":{
    "host":[
@@ -86,8 +86,8 @@
    ]
   },
   "source":{
-   "sha256":"957c86e1e98ef6bbd365ba6b1053f56402aa51ca6981bb90b1bafa0351cde65d",
-   "url":"https://pypi.io/packages/source/c/caproto/caproto-0.6.0.tar.gz"
+   "sha256":"19895ba202d4dc3cc2a26d93bb14d13aac6fac0f952a5cb15d77e9bdab1ee438",
+   "url":"https://pypi.io/packages/source/c/caproto/caproto-0.7.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -164,7 +164,7 @@
   },
   "package":{
    "name":"caproto",
-   "version":"0.6.0"
+   "version":"0.7.0"
   },
   "requirements":{
    "host":[
@@ -200,8 +200,8 @@
    ]
   },
   "source":{
-   "sha256":"957c86e1e98ef6bbd365ba6b1053f56402aa51ca6981bb90b1bafa0351cde65d",
-   "url":"https://pypi.io/packages/source/c/caproto/caproto-0.6.0.tar.gz"
+   "sha256":"19895ba202d4dc3cc2a26d93bb14d13aac6fac0f952a5cb15d77e9bdab1ee438",
+   "url":"https://pypi.io/packages/source/c/caproto/caproto-0.7.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -252,7 +252,7 @@
   },
   "package":{
    "name":"caproto",
-   "version":"0.6.0"
+   "version":"0.7.0"
   },
   "requirements":{
    "host":[
@@ -270,8 +270,8 @@
    ]
   },
   "source":{
-   "sha256":"957c86e1e98ef6bbd365ba6b1053f56402aa51ca6981bb90b1bafa0351cde65d",
-   "url":"https://pypi.io/packages/source/c/caproto/caproto-0.6.0.tar.gz"
+   "sha256":"19895ba202d4dc3cc2a26d93bb14d13aac6fac0f952a5cb15d77e9bdab1ee438",
+   "url":"https://pypi.io/packages/source/c/caproto/caproto-0.7.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -314,7 +314,7 @@
   }
  },
  "pinning_version":"2020.12.23.19.30.24",
- "raw_meta_yaml":"{% set name = \"caproto\" %}\n{% set version = \"0.6.0\" %}\n{% set sha256 = \"957c86e1e98ef6bbd365ba6b1053f56402aa51ca6981bb90b1bafa0351cde65d\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  entry_points:\n    - caproto-get = caproto.commandline.get:main\n    - caproto-put = caproto.commandline.put:main\n    - caproto-monitor = caproto.commandline.monitor:main\n    - caproto-repeater = caproto.commandline.repeater:main\n    - caproto-defaultdict-server = caproto.ioc_examples.defaultdict_server:main\n    - caproto-spoof-beamline = caproto.ioc_examples.spoof_beamline:main\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - asks\n    - curio\n    - dpkt\n    - netifaces\n    - numpy\n    - trio\n\ntest:\n  imports:\n    - caproto\n  commands:\n    - caproto-get -h\n    - caproto-get --help\n    - caproto-put --help\n\nabout:\n  home: http://github.com/caproto/caproto\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: a bring-your-own-IO implementation of the EPICS Channel Access protocol in pure Python\n",
+ "raw_meta_yaml":"{% set name = \"caproto\" %}\n{% set version = \"0.7.0\" %}\n{% set sha256 = \"19895ba202d4dc3cc2a26d93bb14d13aac6fac0f952a5cb15d77e9bdab1ee438\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  entry_points:\n    - caproto-get = caproto.commandline.get:main\n    - caproto-put = caproto.commandline.put:main\n    - caproto-monitor = caproto.commandline.monitor:main\n    - caproto-repeater = caproto.commandline.repeater:main\n    - caproto-defaultdict-server = caproto.ioc_examples.defaultdict_server:main\n    - caproto-spoof-beamline = caproto.ioc_examples.spoof_beamline:main\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - asks\n    - curio\n    - dpkt\n    - netifaces\n    - numpy\n    - trio\n\ntest:\n  imports:\n    - caproto\n  commands:\n    - caproto-get -h\n    - caproto-get --help\n    - caproto-put --help\n\nabout:\n  home: http://github.com/caproto/caproto\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: a bring-your-own-IO implementation of the EPICS Channel Access protocol in pure Python\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -389,7 +389,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/c/caproto/caproto-0.5.2.tar.gz",
- "version":"0.6.0",
+ "version":"0.7.0",
  "win_64_meta_yaml":{
   "about":{
    "home":"http://github.com/caproto/caproto",
@@ -413,7 +413,7 @@
   },
   "package":{
    "name":"caproto",
-   "version":"0.6.0"
+   "version":"0.7.0"
   },
   "requirements":{
    "host":[
@@ -431,8 +431,8 @@
    ]
   },
   "source":{
-   "sha256":"957c86e1e98ef6bbd365ba6b1053f56402aa51ca6981bb90b1bafa0351cde65d",
-   "url":"https://pypi.io/packages/source/c/caproto/caproto-0.6.0.tar.gz"
+   "sha256":"19895ba202d4dc3cc2a26d93bb14d13aac6fac0f952a5cb15d77e9bdab1ee438",
+   "url":"https://pypi.io/packages/source/c/caproto/caproto-0.7.0.tar.gz"
   },
   "test":{
    "commands":[

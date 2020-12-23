@@ -8,6 +8,7 @@
   "nbclient",
   "openmpi-mpi",
   "papermill",
+  "xraylarch",
   "napari",
   "nsls2forge-utils",
   "eventlet",
