@@ -1,5 +1,6 @@
 [
   "tifffile",
+  "prettytable",
   "ophyd",
   "xonsh",
   "reportlab",

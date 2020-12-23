@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/545048609.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2020.12.11.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -148,7 +167,7 @@
   "2020.10.29.0":360,
   "2020.12.11.0":3,
   "2020.12.11.1":1,
-  "2020.12.11.2":100,
+  "2020.12.11.2":101,
   "2020.12.9.0":27
  },
  "new_version_errors":{
@@ -226,6 +245,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2020.12.23.19.30.24",
  "raw_meta_yaml":"{% set name = \"py4xs\" %}\n{% set version = \"2020.5.15.0\" %}\n{% set sha256 = \"ce4f72cd7be32fc36dd152ea95f438e268ac8452830f482719e313d2c1e79d24\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - fabio\n    - h5py\n    - matplotlib\n    - numpy\n    - pillow\n    - scipy\n\ntest:\n  imports:\n    - py4xs\n\nabout:\n  home: https://pypi.org/project/py4xs\n  license: MIT\n  license_file: LICENSE.txt\n  summary: py4xs - a python package for processing x-ray scattering data\n  dev_url: https://github.com/NSLS-II-LIX/py4xs\n",
  "req":{
   "__set__":true,
@@ -269,6 +289,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"3.8.5",
  "strong_exports":false,
  "total_requirements":{
   "build":{

@@ -33,7 +33,7 @@
   },
   "package":{
    "name":"conda-forge-pinning",
-   "version":"2020.12.23.21.05.45"
+   "version":"2020.12.23.22.05.06"
   },
   "source":{
    "path":"."
@@ -96,7 +96,7 @@
   },
   "package":{
    "name":"conda-forge-pinning",
-   "version":"2020.12.23.21.05.45"
+   "version":"2020.12.23.22.05.06"
   },
   "source":{
    "path":"."
@@ -135,7 +135,7 @@
   },
   "package":{
    "name":"conda-forge-pinning",
-   "version":"2020.12.23.21.05.45"
+   "version":"2020.12.23.22.05.06"
   },
   "source":{
    "path":"."
@@ -208,7 +208,7 @@
   }
  },
  "url":null,
- "version":"2020.12.23.21.05.45",
+ "version":"2020.12.23.22.05.06",
  "win_64_meta_yaml":{
   "about":{
    "home":"https://conda-forge.org/docs/maintainer/infrastructure.html#conda-forge-pinning",
@@ -232,7 +232,7 @@
   },
   "package":{
    "name":"conda-forge-pinning",
-   "version":"2020.12.23.21.05.45"
+   "version":"2020.12.23.22.05.06"
   },
   "source":{
    "path":"."
