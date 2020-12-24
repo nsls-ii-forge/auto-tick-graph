@@ -49,7 +49,7 @@
   },
   "package":{
    "name":"mendeleev",
-   "version":"0.6.0"
+   "version":"0.6.1"
   },
   "requirements":{
    "host":[
@@ -66,8 +66,8 @@
    ]
   },
   "source":{
-   "sha256":"944d185e81f158e48dd394b011e6c14acb612c2ffbc3c32c4aa490cd5b4f65dd",
-   "url":"https://pypi.io/packages/source/m/mendeleev/mendeleev-0.6.0.tar.gz"
+   "sha256":"3374e65207babe45b7e6a21aeba346b358365d9d0b2565ad9de6ba2ce87bc121",
+   "url":"https://pypi.io/packages/source/m/mendeleev/mendeleev-0.6.1.tar.gz"
   },
   "test":{
    "commands":[
@@ -135,7 +135,7 @@
   },
   "package":{
    "name":"mendeleev",
-   "version":"0.6.0"
+   "version":"0.6.1"
   },
   "requirements":{
    "host":[
@@ -168,8 +168,8 @@
    ]
   },
   "source":{
-   "sha256":"944d185e81f158e48dd394b011e6c14acb612c2ffbc3c32c4aa490cd5b4f65dd",
-   "url":"https://pypi.io/packages/source/m/mendeleev/mendeleev-0.6.0.tar.gz"
+   "sha256":"3374e65207babe45b7e6a21aeba346b358365d9d0b2565ad9de6ba2ce87bc121",
+   "url":"https://pypi.io/packages/source/m/mendeleev/mendeleev-0.6.1.tar.gz"
   },
   "test":{
    "commands":[
@@ -219,7 +219,7 @@
   },
   "package":{
    "name":"mendeleev",
-   "version":"0.6.0"
+   "version":"0.6.1"
   },
   "requirements":{
    "host":[
@@ -236,8 +236,8 @@
    ]
   },
   "source":{
-   "sha256":"944d185e81f158e48dd394b011e6c14acb612c2ffbc3c32c4aa490cd5b4f65dd",
-   "url":"https://pypi.io/packages/source/m/mendeleev/mendeleev-0.6.0.tar.gz"
+   "sha256":"3374e65207babe45b7e6a21aeba346b358365d9d0b2565ad9de6ba2ce87bc121",
+   "url":"https://pypi.io/packages/source/m/mendeleev/mendeleev-0.6.1.tar.gz"
   },
   "test":{
    "commands":[
@@ -283,7 +283,7 @@
   }
  },
  "pinning_version":"2020.12.23.19.30.24",
- "raw_meta_yaml":"{% set name = \"mendeleev\" %}\n{% set version = \"0.6.0\" %}\n{% set sha256 = \"944d185e81f158e48dd394b011e6c14acb612c2ffbc3c32c4aa490cd5b4f65dd\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  entry_points:\n    - element.py = mendeleev.cli:clielement\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - colorama\n    - numpy\n    - pandas\n    - pyfiglet\n    - sqlalchemy\n\ntest:\n  requires:\n    - pip\n  imports:\n    - mendeleev\n  commands:\n    - element.py --help\n    - pip check\n\nabout:\n  home: https://github.com/lmmentel/mendeleev\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.txt\n  summary: A perdioc table of elements API and a database of atomic properties.\n  description: |\n    This package provides an API for accessing various properties \n    of elements from the periodic table of elements.\n  doc_url: http://mendeleev.readthedocs.org\n  dev_url: https://github.com/lmmentel/mendeleev\n",
+ "raw_meta_yaml":"{% set name = \"mendeleev\" %}\n{% set version = \"0.6.1\" %}\n{% set sha256 = \"3374e65207babe45b7e6a21aeba346b358365d9d0b2565ad9de6ba2ce87bc121\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  entry_points:\n    - element.py = mendeleev.cli:clielement\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - colorama\n    - numpy\n    - pandas\n    - pyfiglet\n    - sqlalchemy\n\ntest:\n  requires:\n    - pip\n  imports:\n    - mendeleev\n  commands:\n    - element.py --help\n    - pip check\n\nabout:\n  home: https://github.com/lmmentel/mendeleev\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.txt\n  summary: A perdioc table of elements API and a database of atomic properties.\n  description: |\n    This package provides an API for accessing various properties \n    of elements from the periodic table of elements.\n  doc_url: http://mendeleev.readthedocs.org\n  dev_url: https://github.com/lmmentel/mendeleev\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -359,7 +359,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/m/mendeleev/mendeleev-0.6.0.tar.gz",
- "version":"0.6.0",
+ "version":"0.6.1",
  "win_64_meta_yaml":{
   "about":{
    "description":"This package provides an API for accessing various properties\nof elements from the periodic table of elements.\n",
@@ -381,7 +381,7 @@
   },
   "package":{
    "name":"mendeleev",
-   "version":"0.6.0"
+   "version":"0.6.1"
   },
   "requirements":{
    "host":[
@@ -398,8 +398,8 @@
    ]
   },
   "source":{
-   "sha256":"944d185e81f158e48dd394b011e6c14acb612c2ffbc3c32c4aa490cd5b4f65dd",
-   "url":"https://pypi.io/packages/source/m/mendeleev/mendeleev-0.6.0.tar.gz"
+   "sha256":"3374e65207babe45b7e6a21aeba346b358365d9d0b2565ad9de6ba2ce87bc121",
+   "url":"https://pypi.io/packages/source/m/mendeleev/mendeleev-0.6.1.tar.gz"
   },
   "test":{
    "commands":[

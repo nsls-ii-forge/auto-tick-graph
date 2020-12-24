@@ -47,7 +47,7 @@
   },
   "package":{
    "name":"pyinstrument",
-   "version":"3.2.0"
+   "version":"3.3.0"
   },
   "requirements":{
    "host":[
@@ -61,8 +61,8 @@
    ]
   },
   "source":{
-   "sha256":"ce8fef6ea88349f0060b6d974483fd64d2c061346e6b78bca6357509a5121665",
-   "url":"https://pypi.io/packages/source/p/pyinstrument/pyinstrument-3.2.0.tar.gz"
+   "sha256":"1cb0c9900a7ce75f8a64c10b7f11c1cdce1f7ff7e02fed687d35f8e95876cb5b",
+   "url":"https://pypi.io/packages/source/p/pyinstrument/pyinstrument-3.3.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -121,7 +121,7 @@
   },
   "package":{
    "name":"pyinstrument",
-   "version":"3.2.0"
+   "version":"3.3.0"
   },
   "requirements":{
    "host":[
@@ -145,8 +145,8 @@
    ]
   },
   "source":{
-   "sha256":"ce8fef6ea88349f0060b6d974483fd64d2c061346e6b78bca6357509a5121665",
-   "url":"https://pypi.io/packages/source/p/pyinstrument/pyinstrument-3.2.0.tar.gz"
+   "sha256":"1cb0c9900a7ce75f8a64c10b7f11c1cdce1f7ff7e02fed687d35f8e95876cb5b",
+   "url":"https://pypi.io/packages/source/p/pyinstrument/pyinstrument-3.3.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -192,7 +192,7 @@
   },
   "package":{
    "name":"pyinstrument",
-   "version":"3.2.0"
+   "version":"3.3.0"
   },
   "requirements":{
    "host":[
@@ -206,8 +206,8 @@
    ]
   },
   "source":{
-   "sha256":"ce8fef6ea88349f0060b6d974483fd64d2c061346e6b78bca6357509a5121665",
-   "url":"https://pypi.io/packages/source/p/pyinstrument/pyinstrument-3.2.0.tar.gz"
+   "sha256":"1cb0c9900a7ce75f8a64c10b7f11c1cdce1f7ff7e02fed687d35f8e95876cb5b",
+   "url":"https://pypi.io/packages/source/p/pyinstrument/pyinstrument-3.3.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -246,7 +246,7 @@
   }
  },
  "pinning_version":"2020.12.23.19.30.24",
- "raw_meta_yaml":"{% set name = \"pyinstrument\" %}\n{% set version = \"3.2.0\" %}\n{% set sha256 = \"ce8fef6ea88349f0060b6d974483fd64d2c061346e6b78bca6357509a5121665\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  entry_points:\n    - pyinstrument = pyinstrument.__main__:main\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n    - nodejs\n  run:\n    - python\n    - pyinstrument_cext >=0.2.2\n\ntest:\n  imports:\n    - pyinstrument\n    - pyinstrument.renderers\n    - pyinstrument.vendor\n  commands:\n    - pyinstrument --help\n\nabout:\n  home: \"https://github.com/joerick/pyinstrument\"\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: \"\ud83d\udeb4 Call stack profiler for Python. Shows you why your code is slow!\"\n  dev_url: https://github.com/joerick/pyinstrument\n",
+ "raw_meta_yaml":"{% set name = \"pyinstrument\" %}\n{% set version = \"3.3.0\" %}\n{% set sha256 = \"1cb0c9900a7ce75f8a64c10b7f11c1cdce1f7ff7e02fed687d35f8e95876cb5b\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  entry_points:\n    - pyinstrument = pyinstrument.__main__:main\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n    - nodejs\n  run:\n    - python\n    - pyinstrument_cext >=0.2.2\n\ntest:\n  imports:\n    - pyinstrument\n    - pyinstrument.renderers\n    - pyinstrument.vendor\n  commands:\n    - pyinstrument --help\n\nabout:\n  home: https://github.com/joerick/pyinstrument\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: \ud83d\udeb4 Call stack profiler for Python. Shows you why your code is slow!\n  dev_url: https://github.com/joerick/pyinstrument\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -309,7 +309,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/p/pyinstrument/pyinstrument-3.2.0.tar.gz",
- "version":"3.2.0",
+ "version":"3.3.0",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/joerick/pyinstrument",
@@ -329,7 +329,7 @@
   },
   "package":{
    "name":"pyinstrument",
-   "version":"3.2.0"
+   "version":"3.3.0"
   },
   "requirements":{
    "host":[
@@ -343,8 +343,8 @@
    ]
   },
   "source":{
-   "sha256":"ce8fef6ea88349f0060b6d974483fd64d2c061346e6b78bca6357509a5121665",
-   "url":"https://pypi.io/packages/source/p/pyinstrument/pyinstrument-3.2.0.tar.gz"
+   "sha256":"1cb0c9900a7ce75f8a64c10b7f11c1cdce1f7ff7e02fed687d35f8e95876cb5b",
+   "url":"https://pypi.io/packages/source/p/pyinstrument/pyinstrument-3.3.0.tar.gz"
   },
   "test":{
    "commands":[

@@ -96,7 +96,7 @@
   },
   "package":{
    "name":"xraydb",
-   "version":"4.4.4"
+   "version":"4.4.5"
   },
   "requirements":{
    "host":[
@@ -111,8 +111,8 @@
    ]
   },
   "source":{
-   "sha256":"684a2ba51f19e6a9810d09d15cf0ac9bd07db0ed8f43228b2ec2aad789c418b6",
-   "url":"https://pypi.io/packages/source/x/xraydb/xraydb-4.4.4.tar.gz"
+   "sha256":"cad17d0f2a3bedc978d6e9ed07269f0befaf78b2f56203745dea5f4ed426446b",
+   "url":"https://pypi.io/packages/source/x/xraydb/xraydb-4.4.5.tar.gz"
   },
   "test":{
    "commands":[
@@ -174,7 +174,7 @@
   },
   "package":{
    "name":"xraydb",
-   "version":"4.4.4"
+   "version":"4.4.5"
   },
   "requirements":{
    "host":[
@@ -201,8 +201,8 @@
    ]
   },
   "source":{
-   "sha256":"684a2ba51f19e6a9810d09d15cf0ac9bd07db0ed8f43228b2ec2aad789c418b6",
-   "url":"https://pypi.io/packages/source/x/xraydb/xraydb-4.4.4.tar.gz"
+   "sha256":"cad17d0f2a3bedc978d6e9ed07269f0befaf78b2f56203745dea5f4ed426446b",
+   "url":"https://pypi.io/packages/source/x/xraydb/xraydb-4.4.5.tar.gz"
   },
   "test":{
    "commands":[
@@ -253,7 +253,7 @@
   },
   "package":{
    "name":"xraydb",
-   "version":"4.4.4"
+   "version":"4.4.5"
   },
   "requirements":{
    "host":[
@@ -268,8 +268,8 @@
    ]
   },
   "source":{
-   "sha256":"684a2ba51f19e6a9810d09d15cf0ac9bd07db0ed8f43228b2ec2aad789c418b6",
-   "url":"https://pypi.io/packages/source/x/xraydb/xraydb-4.4.4.tar.gz"
+   "sha256":"cad17d0f2a3bedc978d6e9ed07269f0befaf78b2f56203745dea5f4ed426446b",
+   "url":"https://pypi.io/packages/source/x/xraydb/xraydb-4.4.5.tar.gz"
   },
   "test":{
    "commands":[
@@ -315,7 +315,7 @@
   }
  },
  "pinning_version":"2020.12.23.19.30.24",
- "raw_meta_yaml":"{% set name = \"xraydb\" %}\n{% set version = \"4.4.4\" %}\n{% set sha256 = \"684a2ba51f19e6a9810d09d15cf0ac9bd07db0ed8f43228b2ec2aad789c418b6\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - python\n    - numpy\n    - scipy\n    - sqlalchemy\n\ntest:\n  imports:\n    - xraydb\n  requires:\n    - pytest\n  source_files:\n    - tests\n  commands:\n    - pytest -vvvv\n\nabout:\n  home: https://xraypy.github.io/XrayDB\n  license: PUBLIC-DOMAIN\n  license_family: PUBLIC-DOMAIN\n  license_file: LICENSE\n  summary: X-ray Reference Data for the Elements\n  doc_url: https://xraypy.github.io/XrayDB\n  dev_url: https://github.com/xraypy/XrayDB\n",
+ "raw_meta_yaml":"{% set name = \"xraydb\" %}\n{% set version = \"4.4.5\" %}\n{% set sha256 = \"cad17d0f2a3bedc978d6e9ed07269f0befaf78b2f56203745dea5f4ed426446b\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - python\n    - numpy\n    - scipy\n    - sqlalchemy\n\ntest:\n  imports:\n    - xraydb\n  requires:\n    - pytest\n  source_files:\n    - tests\n  commands:\n    - pytest -vvvv\n\nabout:\n  home: https://xraypy.github.io/XrayDB\n  license: PUBLIC-DOMAIN\n  license_family: PUBLIC-DOMAIN\n  license_file: LICENSE\n  summary: X-ray Reference Data for the Elements\n  doc_url: https://xraypy.github.io/XrayDB\n  dev_url: https://github.com/xraypy/XrayDB\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -385,7 +385,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/x/xraydb/xraydb-4.3.1.tar.gz",
- "version":"4.4.4",
+ "version":"4.4.5",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/xraypy/XrayDB",
@@ -403,7 +403,7 @@
   },
   "package":{
    "name":"xraydb",
-   "version":"4.4.4"
+   "version":"4.4.5"
   },
   "requirements":{
    "host":[
@@ -418,8 +418,8 @@
    ]
   },
   "source":{
-   "sha256":"684a2ba51f19e6a9810d09d15cf0ac9bd07db0ed8f43228b2ec2aad789c418b6",
-   "url":"https://pypi.io/packages/source/x/xraydb/xraydb-4.4.4.tar.gz"
+   "sha256":"cad17d0f2a3bedc978d6e9ed07269f0befaf78b2f56203745dea5f4ed426446b",
+   "url":"https://pypi.io/packages/source/x/xraydb/xraydb-4.4.5.tar.gz"
   },
   "test":{
    "commands":[

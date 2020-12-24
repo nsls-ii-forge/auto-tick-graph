@@ -64,7 +64,7 @@
   },
   "package":{
    "name":"bumps",
-   "version":"0.7.16"
+   "version":"0.8.0"
   },
   "requirements":{
    "host":[
@@ -83,8 +83,8 @@
    "patches":[
     "scripts.patch"
    ],
-   "sha256":"3594452487b8404f1efaace9b70aefaeb345fa44dd74349f7829a61161d2f69a",
-   "url":"https://pypi.io/packages/source/b/bumps/bumps-0.7.16.tar.gz"
+   "sha256":"9f92c05effd8175763799d19ca55592e89b053318f611148a6725159aea41d67",
+   "url":"https://pypi.io/packages/source/b/bumps/bumps-0.8.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -146,7 +146,7 @@
   },
   "package":{
    "name":"bumps",
-   "version":"0.7.16"
+   "version":"0.8.0"
   },
   "requirements":{
    "host":[
@@ -181,8 +181,8 @@
     "scripts.patch",
     "scripts.patch"
    ],
-   "sha256":"3594452487b8404f1efaace9b70aefaeb345fa44dd74349f7829a61161d2f69a",
-   "url":"https://pypi.io/packages/source/b/bumps/bumps-0.7.16.tar.gz"
+   "sha256":"9f92c05effd8175763799d19ca55592e89b053318f611148a6725159aea41d67",
+   "url":"https://pypi.io/packages/source/b/bumps/bumps-0.8.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -240,7 +240,7 @@
   },
   "package":{
    "name":"bumps",
-   "version":"0.7.16"
+   "version":"0.8.0"
   },
   "requirements":{
    "host":[
@@ -259,8 +259,8 @@
    "patches":[
     "scripts.patch"
    ],
-   "sha256":"3594452487b8404f1efaace9b70aefaeb345fa44dd74349f7829a61161d2f69a",
-   "url":"https://pypi.io/packages/source/b/bumps/bumps-0.7.16.tar.gz"
+   "sha256":"9f92c05effd8175763799d19ca55592e89b053318f611148a6725159aea41d67",
+   "url":"https://pypi.io/packages/source/b/bumps/bumps-0.8.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -302,7 +302,7 @@
   }
  },
  "pinning_version":"2020.12.23.19.30.24",
- "raw_meta_yaml":"{% set name = \"bumps\" %}\n{% set version = \"0.7.16\" %}\n{% set sha256 = \"3594452487b8404f1efaace9b70aefaeb345fa44dd74349f7829a61161d2f69a\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n  patches:\n    - scripts.patch # use entry points instead of installing scripts\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  entry_points:\n    - bumps = bumps.cli:main\n\nrequirements:\n  host:\n    - python\n    - pip\n    - six\n  run:\n    - python\n    - numpy\n    - scipy\n    - six\n\ntest:\n  imports:\n    - bumps\n    - bumps.dream\n    - bumps.gui\n    - bumps.mystic\n    - bumps.mystic.examples\n    - bumps.mystic.optimizer\n    - bumps.numdifftools\n\nabout:\n  home: http://www.reflectometry.org/danse/software.html\n  license: PUBLIC-DOMAIN\n  license_file: LICENSE.txt\n  summary: Data fitting with bayesian uncertainty analysis\n  doc_url: https://bumps.readthedocs.io\n  dev_url: https://github.com/bumps/bumps\n",
+ "raw_meta_yaml":"{% set name = \"bumps\" %}\n{% set version = \"0.8.0\" %}\n{% set sha256 = \"9f92c05effd8175763799d19ca55592e89b053318f611148a6725159aea41d67\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n  patches:\n    - scripts.patch # use entry points instead of installing scripts\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  entry_points:\n    - bumps = bumps.cli:main\n\nrequirements:\n  host:\n    - python\n    - pip\n    - six\n  run:\n    - python\n    - numpy\n    - scipy\n    - six\n\ntest:\n  imports:\n    - bumps\n    - bumps.dream\n    - bumps.gui\n    - bumps.mystic\n    - bumps.mystic.examples\n    - bumps.mystic.optimizer\n    - bumps.numdifftools\n\nabout:\n  home: http://www.reflectometry.org/danse/software.html\n  license: PUBLIC-DOMAIN\n  license_file: LICENSE.txt\n  summary: Data fitting with bayesian uncertainty analysis\n  doc_url: https://bumps.readthedocs.io\n  dev_url: https://github.com/bumps/bumps\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -370,7 +370,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/b/bumps/bumps-0.7.15.tar.gz",
- "version":"0.7.16",
+ "version":"0.8.0",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/bumps/bumps",
@@ -390,7 +390,7 @@
   },
   "package":{
    "name":"bumps",
-   "version":"0.7.16"
+   "version":"0.8.0"
   },
   "requirements":{
    "host":[
@@ -409,8 +409,8 @@
    "patches":[
     "scripts.patch"
    ],
-   "sha256":"3594452487b8404f1efaace9b70aefaeb345fa44dd74349f7829a61161d2f69a",
-   "url":"https://pypi.io/packages/source/b/bumps/bumps-0.7.16.tar.gz"
+   "sha256":"9f92c05effd8175763799d19ca55592e89b053318f611148a6725159aea41d67",
+   "url":"https://pypi.io/packages/source/b/bumps/bumps-0.8.0.tar.gz"
   },
   "test":{
    "imports":[

@@ -61,7 +61,7 @@
   },
   "package":{
    "name":"outcome",
-   "version":"1.0.1"
+   "version":"1.1.0"
   },
   "requirements":{
    "host":[
@@ -75,8 +75,8 @@
    ]
   },
   "source":{
-   "sha256":"fc7822068ba7dd0fc2532743611e8a73246708d3564e29a39f93d6ab3701b66f",
-   "url":"https://pypi.io/packages/source/o/outcome/outcome-1.0.1.tar.gz"
+   "sha256":"e862f01d4e626e63e8f92c38d1f8d5546d3f9cce989263c521b2e7990d186967",
+   "url":"https://pypi.io/packages/source/o/outcome/outcome-1.1.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -125,7 +125,7 @@
   },
   "package":{
    "name":"outcome",
-   "version":"1.0.1"
+   "version":"1.1.0"
   },
   "requirements":{
    "host":[
@@ -149,8 +149,8 @@
    ]
   },
   "source":{
-   "sha256":"fc7822068ba7dd0fc2532743611e8a73246708d3564e29a39f93d6ab3701b66f",
-   "url":"https://pypi.io/packages/source/o/outcome/outcome-1.0.1.tar.gz"
+   "sha256":"e862f01d4e626e63e8f92c38d1f8d5546d3f9cce989263c521b2e7990d186967",
+   "url":"https://pypi.io/packages/source/o/outcome/outcome-1.1.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -183,7 +183,7 @@
   },
   "package":{
    "name":"outcome",
-   "version":"1.0.1"
+   "version":"1.1.0"
   },
   "requirements":{
    "host":[
@@ -197,8 +197,8 @@
    ]
   },
   "source":{
-   "sha256":"fc7822068ba7dd0fc2532743611e8a73246708d3564e29a39f93d6ab3701b66f",
-   "url":"https://pypi.io/packages/source/o/outcome/outcome-1.0.1.tar.gz"
+   "sha256":"e862f01d4e626e63e8f92c38d1f8d5546d3f9cce989263c521b2e7990d186967",
+   "url":"https://pypi.io/packages/source/o/outcome/outcome-1.1.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -232,7 +232,7 @@
   }
  },
  "pinning_version":"2020.12.23.19.30.24",
- "raw_meta_yaml":"{% set name = \"outcome\" %}\n{% set version = \"1.0.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: fc7822068ba7dd0fc2532743611e8a73246708d3564e29a39f93d6ab3701b66f\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n    - attrs\n  run:\n    - python\n    - attrs\n\ntest:\n  imports:\n    - {{ name }}\n\nabout:\n  home: https://github.com/python-trio/outcome\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Capture the outcome of Python function calls\n  description: Capture the outcome of Python function calls.\n",
+ "raw_meta_yaml":"{% set name = \"outcome\" %}\n{% set version = \"1.1.0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: e862f01d4e626e63e8f92c38d1f8d5546d3f9cce989263c521b2e7990d186967\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n    - attrs\n  run:\n    - python\n    - attrs\n\ntest:\n  imports:\n    - {{ name }}\n\nabout:\n  home: https://github.com/python-trio/outcome\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: Capture the outcome of Python function calls\n  description: Capture the outcome of Python function calls.\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -294,7 +294,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/o/outcome/outcome-1.0.0.tar.gz",
- "version":"1.0.1",
+ "version":"1.1.0",
  "win_64_meta_yaml":{
   "about":{
    "description":"Capture the outcome of Python function calls.",
@@ -311,7 +311,7 @@
   },
   "package":{
    "name":"outcome",
-   "version":"1.0.1"
+   "version":"1.1.0"
   },
   "requirements":{
    "host":[
@@ -325,8 +325,8 @@
    ]
   },
   "source":{
-   "sha256":"fc7822068ba7dd0fc2532743611e8a73246708d3564e29a39f93d6ab3701b66f",
-   "url":"https://pypi.io/packages/source/o/outcome/outcome-1.0.1.tar.gz"
+   "sha256":"e862f01d4e626e63e8f92c38d1f8d5546d3f9cce989263c521b2e7990d186967",
+   "url":"https://pypi.io/packages/source/o/outcome/outcome-1.1.0.tar.gz"
   },
   "test":{
    "imports":[
