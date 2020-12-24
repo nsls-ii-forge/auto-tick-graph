@@ -642,6 +642,10 @@
    "target":"jwcrypto"
   },
   {
+   "source":"cryptography",
+   "target":"pygithub"
+  },
+  {
    "source":"csxtools",
    "target":"nsls2-analysis"
   },
