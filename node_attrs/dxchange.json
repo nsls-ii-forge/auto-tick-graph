@@ -39,12 +39,12 @@
   },
   "build":{
    "noarch":"python",
-   "number":"1001",
-   "script":" -m pip install . --no-deps -vv"
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"dxchange",
-   "version":"0.1.5"
+   "version":"0.1.6"
   },
   "requirements":{
    "build":[
@@ -58,6 +58,7 @@
     "h5py",
     "netcdf4",
     "numpy",
+    "pandas",
     "scipy",
     "six",
     "spefile",
@@ -65,8 +66,8 @@
    ]
   },
   "source":{
-   "sha256":"023652ac8f29cf486bbcc0112d980b255c1b7b3d5e23e555b7e4b7e373117387",
-   "url":"https://github.com/data-exchange/dxchange/archive/v0.1.5.tar.gz"
+   "sha256":"8ce7c1ce3bdb483f285ba7483657691907e93c57c85067fe7bfa5756c2fc429f",
+   "url":"https://github.com/data-exchange/dxchange/archive/v0.1.6.tar.gz"
   },
   "test":{
    "imports":[
@@ -97,6 +98,7 @@
     "h5py",
     "netcdf4",
     "numpy",
+    "pandas",
     "python",
     "scipy",
     "six",
@@ -120,12 +122,12 @@
   },
   "build":{
    "noarch":"python",
-   "number":"1001",
-   "script":" -m pip install . --no-deps -vv"
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"dxchange",
-   "version":"0.1.5"
+   "version":"0.1.6"
   },
   "requirements":{
    "build":[
@@ -143,6 +145,7 @@
     "h5py",
     "netcdf4",
     "numpy",
+    "pandas",
     "scipy",
     "six",
     "spefile",
@@ -153,6 +156,7 @@
     "h5py",
     "netcdf4",
     "numpy",
+    "pandas",
     "scipy",
     "six",
     "spefile",
@@ -163,6 +167,7 @@
     "h5py",
     "netcdf4",
     "numpy",
+    "pandas",
     "scipy",
     "six",
     "spefile",
@@ -170,8 +175,8 @@
    ]
   },
   "source":{
-   "sha256":"023652ac8f29cf486bbcc0112d980b255c1b7b3d5e23e555b7e4b7e373117387",
-   "url":"https://github.com/data-exchange/dxchange/archive/v0.1.5.tar.gz"
+   "sha256":"8ce7c1ce3bdb483f285ba7483657691907e93c57c85067fe7bfa5756c2fc429f",
+   "url":"https://github.com/data-exchange/dxchange/archive/v0.1.6.tar.gz"
   },
   "test":{
    "imports":[
@@ -207,12 +212,12 @@
   },
   "build":{
    "noarch":"python",
-   "number":"1001",
-   "script":" -m pip install . --no-deps -vv"
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"dxchange",
-   "version":"0.1.5"
+   "version":"0.1.6"
   },
   "requirements":{
    "build":[
@@ -226,6 +231,7 @@
     "h5py",
     "netcdf4",
     "numpy",
+    "pandas",
     "scipy",
     "six",
     "spefile",
@@ -233,8 +239,8 @@
    ]
   },
   "source":{
-   "sha256":"023652ac8f29cf486bbcc0112d980b255c1b7b3d5e23e555b7e4b7e373117387",
-   "url":"https://github.com/data-exchange/dxchange/archive/v0.1.5.tar.gz"
+   "sha256":"8ce7c1ce3bdb483f285ba7483657691907e93c57c85067fe7bfa5756c2fc429f",
+   "url":"https://github.com/data-exchange/dxchange/archive/v0.1.6.tar.gz"
   },
   "test":{
    "imports":[
@@ -265,6 +271,7 @@
     "h5py",
     "netcdf4",
     "numpy",
+    "pandas",
     "python",
     "scipy",
     "six",
@@ -278,7 +285,7 @@
   }
  },
  "pinning_version":"2020.12.23.19.30.24",
- "raw_meta_yaml":"{% set name = \"dxchange\" %}\n{% set version = \"0.1.5\" %}\n{% set sha256 = \"023652ac8f29cf486bbcc0112d980b255c1b7b3d5e23e555b7e4b7e373117387\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/data-exchange/dxchange/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 1001\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  build:\n    - python\n    - pip\n  run:\n    - python\n    - dxfile\n    - edffile\n    - h5py\n    - netcdf4\n    - numpy\n    - scipy\n    - six\n    - spefile\n    - tifffile\n\ntest:\n  imports:\n    - dxchange\n    - dxchange.reader\n    - dxchange.writer\n    - dxchange.exchange\n\nabout:\n  home: http://dxchange.readthedocs.org\n  license: BSD-3-Clause\n  license_file: LICENSE.txt\n  summary: Data I/O for tomography\n  dev_url: https://github.com/data-exchange/dxchange\n  doc_url: http://dxchange.readthedocs.org\n",
+ "raw_meta_yaml":"{% set name = \"dxchange\" %}\n{% set version = \"0.1.6\" %}\n{% set sha256 = \"8ce7c1ce3bdb483f285ba7483657691907e93c57c85067fe7bfa5756c2fc429f\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/data-exchange/dxchange/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  build:\n    - python\n    - pip\n  run:\n    - python\n    - dxfile\n    - edffile\n    - h5py\n    - netcdf4\n    - numpy\n    - pandas\n    - scipy\n    - six\n    - spefile\n    - tifffile\n\ntest:\n  imports:\n    - dxchange\n    - dxchange.reader\n    - dxchange.writer\n    - dxchange.exchange\n\nabout:\n  home: http://dxchange.readthedocs.org\n  license: BSD-3-Clause\n  license_file: LICENSE.txt\n  summary: Data I/O for tomography\n  dev_url: https://github.com/data-exchange/dxchange\n  doc_url: http://dxchange.readthedocs.org\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -287,6 +294,7 @@
    "h5py",
    "netcdf4",
    "numpy",
+   "pandas",
    "pip",
    "python",
    "scipy",
@@ -315,6 +323,7 @@
     "h5py",
     "netcdf4",
     "numpy",
+    "pandas",
     "python",
     "scipy",
     "six",
@@ -349,6 +358,7 @@
     "h5py",
     "netcdf4",
     "numpy",
+    "pandas",
     "python",
     "scipy",
     "six",
@@ -362,7 +372,7 @@
   }
  },
  "url":"https://github.com/data-exchange/dxchange/archive/v0.1.5.tar.gz",
- "version":"0.1.5",
+ "version":"0.1.6",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/data-exchange/dxchange",
@@ -374,12 +384,12 @@
   },
   "build":{
    "noarch":"python",
-   "number":"1001",
-   "script":" -m pip install . --no-deps -vv"
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"dxchange",
-   "version":"0.1.5"
+   "version":"0.1.6"
   },
   "requirements":{
    "build":[
@@ -393,6 +403,7 @@
     "h5py",
     "netcdf4",
     "numpy",
+    "pandas",
     "scipy",
     "six",
     "spefile",
@@ -400,8 +411,8 @@
    ]
   },
   "source":{
-   "sha256":"023652ac8f29cf486bbcc0112d980b255c1b7b3d5e23e555b7e4b7e373117387",
-   "url":"https://github.com/data-exchange/dxchange/archive/v0.1.5.tar.gz"
+   "sha256":"8ce7c1ce3bdb483f285ba7483657691907e93c57c85067fe7bfa5756c2fc429f",
+   "url":"https://github.com/data-exchange/dxchange/archive/v0.1.6.tar.gz"
   },
   "test":{
    "imports":[
@@ -432,6 +443,7 @@
     "h5py",
     "netcdf4",
     "numpy",
+    "pandas",
     "python",
     "scipy",
     "six",
