@@ -215,6 +215,10 @@
   },
   {
    "source":"bluesky-live",
+   "target":"analysis"
+  },
+  {
+   "source":"bluesky-live",
    "target":"databroker"
   },
   {
