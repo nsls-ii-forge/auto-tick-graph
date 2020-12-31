@@ -30,6 +30,22 @@
  },
  "links":[
   {
+   "source":"aiodns",
+   "target":"slack-sdk"
+  },
+  {
+   "source":"aiohttp",
+   "target":"slack-sdk"
+  },
+  {
+   "source":"aiomysql",
+   "target":"databases"
+  },
+  {
+   "source":"aiosqlite",
+   "target":"databases"
+  },
+  {
    "source":"amostra",
    "target":"analysis"
   },
@@ -136,6 +152,10 @@
   {
    "source":"async_generator",
    "target":"trio"
+  },
+  {
+   "source":"asyncpg",
+   "target":"databases"
   },
   {
    "source":"atom",
@@ -288,6 +308,10 @@
   {
    "source":"boto3",
    "target":"analysis"
+  },
+  {
+   "source":"boto3",
+   "target":"slack-sdk"
   },
   {
    "source":"bumps",
@@ -634,6 +658,10 @@
    "target":"signalslot"
   },
   {
+   "source":"contextvars",
+   "target":"aiocontextvars"
+  },
+  {
    "source":"cpplint",
    "target":"pycentroids"
   },
@@ -944,6 +972,10 @@
   {
    "source":"dask",
    "target":"pyxrf"
+  },
+  {
+   "source":"databases",
+   "target":"slack-sdk"
   },
   {
    "source":"databroker-pack",
@@ -1260,6 +1292,10 @@
   {
    "source":"flake8",
    "target":"analysis"
+  },
+  {
+   "source":"flit-core",
+   "target":"aiosqlite"
   },
   {
    "source":"flit-core",
@@ -3299,6 +3335,18 @@
   },
   {
    "source":"pip",
+   "target":"aiocontextvars"
+  },
+  {
+   "source":"pip",
+   "target":"aiomysql"
+  },
+  {
+   "source":"pip",
+   "target":"aiosqlite"
+  },
+  {
+   "source":"pip",
    "target":"amostra"
   },
   {
@@ -3412,6 +3460,10 @@
   {
    "source":"pip",
    "target":"dask-jobqueue"
+  },
+  {
+   "source":"pip",
+   "target":"databases"
   },
   {
    "source":"pip",
@@ -3919,6 +3971,10 @@
   },
   {
    "source":"pip",
+   "target":"slack-sdk"
+  },
+  {
+   "source":"pip",
    "target":"sniffio"
   },
   {
@@ -4298,6 +4354,10 @@
    "target":"suitcase-mongo"
   },
   {
+   "source":"pymysql",
+   "target":"aiomysql"
+  },
+  {
    "source":"pyolog",
    "target":"collection"
   },
@@ -4476,6 +4536,10 @@
   {
    "source":"pytest-qt",
    "target":"napari"
+  },
+  {
+   "source":"pytest-runner",
+   "target":"aiocontextvars"
   },
   {
    "source":"pytest-runner",
@@ -4675,6 +4739,18 @@
   },
   {
    "source":"python",
+   "target":"aiocontextvars"
+  },
+  {
+   "source":"python",
+   "target":"aiomysql"
+  },
+  {
+   "source":"python",
+   "target":"aiosqlite"
+  },
+  {
+   "source":"python",
    "target":"amostra"
   },
   {
@@ -4800,6 +4876,10 @@
   {
    "source":"python",
    "target":"dask-jobqueue"
+  },
+  {
+   "source":"python",
+   "target":"databases"
   },
   {
    "source":"python",
@@ -5332,6 +5412,10 @@
   {
    "source":"python",
    "target":"sixtools"
+  },
+  {
+   "source":"python",
+   "target":"slack-sdk"
   },
   {
    "source":"python",
@@ -6354,6 +6438,10 @@
    "target":"xraylarch"
   },
   {
+   "source":"slack-sdk",
+   "target":"collection"
+  },
+  {
    "source":"slackclient",
    "target":"analysis"
   },
@@ -6391,7 +6479,15 @@
   },
   {
    "source":"sqlalchemy",
+   "target":"databases"
+  },
+  {
+   "source":"sqlalchemy",
    "target":"mendeleev"
+  },
+  {
+   "source":"sqlalchemy",
+   "target":"slack-sdk"
   },
   {
    "source":"sqlalchemy",
@@ -6692,6 +6788,10 @@
   {
    "source":"twisted",
    "target":"qt5reactor"
+  },
+  {
+   "source":"typing-extensions",
+   "target":"aiosqlite"
   },
   {
    "source":"typing-extensions",
@@ -10014,6 +10114,66 @@
    "id":"importlib_resources",
    "payload":{
     "__lazy_json__":"node_attrs/importlib_resources.json"
+   }
+  },
+  {
+   "id":"aiomysql",
+   "payload":{
+    "__lazy_json__":"node_attrs/aiomysql.json"
+   }
+  },
+  {
+   "id":"aiocontextvars",
+   "payload":{
+    "__lazy_json__":"node_attrs/aiocontextvars.json"
+   }
+  },
+  {
+   "id":"slack-sdk",
+   "payload":{
+    "__lazy_json__":"node_attrs/slack-sdk.json"
+   }
+  },
+  {
+   "id":"databases",
+   "payload":{
+    "__lazy_json__":"node_attrs/databases.json"
+   }
+  },
+  {
+   "id":"aiosqlite",
+   "payload":{
+    "__lazy_json__":"node_attrs/aiosqlite.json"
+   }
+  },
+  {
+   "id":"pymysql",
+   "payload":{
+    "__lazy_json__":"node_attrs/pymysql.json"
+   }
+  },
+  {
+   "id":"contextvars",
+   "payload":{
+    "__lazy_json__":"node_attrs/contextvars.json"
+   }
+  },
+  {
+   "id":"aiohttp",
+   "payload":{
+    "__lazy_json__":"node_attrs/aiohttp.json"
+   }
+  },
+  {
+   "id":"aiodns",
+   "payload":{
+    "__lazy_json__":"node_attrs/aiodns.json"
+   }
+  },
+  {
+   "id":"asyncpg",
+   "payload":{
+    "__lazy_json__":"node_attrs/asyncpg.json"
    }
   }
  ]

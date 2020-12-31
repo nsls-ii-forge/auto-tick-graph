@@ -59,7 +59,7 @@
   },
   "package":{
    "name":"nslsii",
-   "version":"0.1.0"
+   "version":"0.1.1"
   },
   "requirements":{
    "host":[
@@ -83,8 +83,8 @@
    ]
   },
   "source":{
-   "sha256":"6cca2625b306af14a8a04459fd14fc4130cffca90297fb5cee31336946a4d74b",
-   "url":"https://pypi.io/packages/source/n/nslsii/nslsii-0.1.0.tar.gz"
+   "sha256":"adc4a3cf4f59bb109e0294141386cf3e5ebed4d6041880c301837079f7544438",
+   "url":"https://pypi.io/packages/source/n/nslsii/nslsii-0.1.1.tar.gz"
   },
   "test":{
    "imports":[
@@ -141,7 +141,7 @@
   },
   "package":{
    "name":"nslsii",
-   "version":"0.1.0"
+   "version":"0.1.1"
   },
   "requirements":{
    "host":[
@@ -195,8 +195,8 @@
    ]
   },
   "source":{
-   "sha256":"6cca2625b306af14a8a04459fd14fc4130cffca90297fb5cee31336946a4d74b",
-   "url":"https://pypi.io/packages/source/n/nslsii/nslsii-0.1.0.tar.gz"
+   "sha256":"adc4a3cf4f59bb109e0294141386cf3e5ebed4d6041880c301837079f7544438",
+   "url":"https://pypi.io/packages/source/n/nslsii/nslsii-0.1.1.tar.gz"
   },
   "test":{
    "imports":[
@@ -227,7 +227,7 @@
   },
   "package":{
    "name":"nslsii",
-   "version":"0.1.0"
+   "version":"0.1.1"
   },
   "requirements":{
    "host":[
@@ -251,8 +251,8 @@
    ]
   },
   "source":{
-   "sha256":"6cca2625b306af14a8a04459fd14fc4130cffca90297fb5cee31336946a4d74b",
-   "url":"https://pypi.io/packages/source/n/nslsii/nslsii-0.1.0.tar.gz"
+   "sha256":"adc4a3cf4f59bb109e0294141386cf3e5ebed4d6041880c301837079f7544438",
+   "url":"https://pypi.io/packages/source/n/nslsii/nslsii-0.1.1.tar.gz"
   },
   "test":{
    "imports":[
@@ -296,7 +296,7 @@
   }
  },
  "pinning_version":"2020.12.31.00.10.22",
- "raw_meta_yaml":"{% set name = \"nslsii\" %}\n{% set version = \"0.1.0\" %}\n{% set sha256 = \"6cca2625b306af14a8a04459fd14fc4130cffca90297fb5cee31336946a4d74b\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - appdirs\n    - bluesky\n    - bluesky-kafka\n    - caproto\n    - databroker\n    - ipython\n    - ipywidgets\n    - matplotlib\n    - numpy\n    - ophyd\n    - psutil\n    - pyolog\n\ntest:\n  imports:\n    - nslsii\n\nabout:\n  home: https://github.com/NSLS-II/nslsii\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: Repository of tools used for both data collection and analysis at NSLS-II.\n",
+ "raw_meta_yaml":"{% set name = \"nslsii\" %}\n{% set version = \"0.1.1\" %}\n{% set sha256 = \"adc4a3cf4f59bb109e0294141386cf3e5ebed4d6041880c301837079f7544438\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - appdirs\n    - bluesky\n    - bluesky-kafka\n    - caproto\n    - databroker\n    - ipython\n    - ipywidgets\n    - matplotlib\n    - numpy\n    - ophyd\n    - psutil\n    - pyolog\n\ntest:\n  imports:\n    - nslsii\n\nabout:\n  home: https://github.com/NSLS-II/nslsii\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: Repository of tools used for both data collection and analysis at NSLS-II.\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -389,7 +389,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/n/nslsii/nslsii-0.0.17.tar.gz",
- "version":"0.1.0",
+ "version":"0.1.1",
  "win_64_meta_yaml":{
   "about":{
    "home":"https://github.com/NSLS-II/nslsii",
@@ -404,7 +404,7 @@
   },
   "package":{
    "name":"nslsii",
-   "version":"0.1.0"
+   "version":"0.1.1"
   },
   "requirements":{
    "host":[
@@ -428,8 +428,8 @@
    ]
   },
   "source":{
-   "sha256":"6cca2625b306af14a8a04459fd14fc4130cffca90297fb5cee31336946a4d74b",
-   "url":"https://pypi.io/packages/source/n/nslsii/nslsii-0.1.0.tar.gz"
+   "sha256":"adc4a3cf4f59bb109e0294141386cf3e5ebed4d6041880c301837079f7544438",
+   "url":"https://pypi.io/packages/source/n/nslsii/nslsii-0.1.1.tar.gz"
   },
   "test":{
    "imports":[
