@@ -17,7 +17,7 @@
    "summary":"EPICS Base Library"
   },
   "build":{
-   "number":"0",
+   "number":0,
    "run_exports":[
     "epics-base"
    ]
@@ -160,7 +160,7 @@
    "summary":"EPICS Base Library"
   },
   "build":{
-   "number":"0",
+   "number":0,
    "run_exports":[
     "epics-base",
     "epics-base",
