@@ -141,7 +141,13 @@
   }
  },
  "name":"pystackreg",
- "new_version":"0.2.2",
+ "new_version":"0.2.3",
+ "new_version_attempts":{
+  "0.2.3":1
+ },
+ "new_version_errors":{
+  "0.2.3":"The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '0.2.3' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz'\n"
+ },
  "osx_64_meta_yaml":{
   "about":{
    "description":"C++ Port of the TurboReg/StackReg ImageJ Plugin.\nOriginal code by Philippe Thevenaz (see below).\nPorting by Gregor Lichtner.\n\nThis work is based on the following paper:\n\nP. Thevenaz, U.E. Ruttimann, M. Unser\nA Pyramid Approach to Subpixel Registration Based on Intensity\nIEEE Transactions on Image Processing\nvol. 7, no. 1, pp. 27-41, January 1998.\n\nThis paper is available on-line at\nhttp://bigwww.epfl.ch/publications/thevenaz9801.html\n\nOther relevant on-line publications are available at\nhttp://bigwww.epfl.ch/publications/\n",
