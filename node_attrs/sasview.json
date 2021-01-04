@@ -40,7 +40,7 @@
    "entry_points":[
     "sasview = sas.qtgui.MainWindow.MainWindow:run_sasview"
    ],
-   "number":0
+   "number":"0"
   },
   "package":{
    "name":"sasview",
@@ -140,7 +140,7 @@
     "sasview = sas.qtgui.MainWindow.MainWindow:run_sasview",
     "sasview = sas.qtgui.MainWindow.MainWindow:run_sasview"
    ],
-   "number":0
+   "number":"0"
   },
   "package":{
    "name":"sasview",
