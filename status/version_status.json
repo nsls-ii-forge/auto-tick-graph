@@ -4,6 +4,7 @@
     "clang_packages",
     "gwcs",
     "h11",
+    "ipympl",
     "libjpeg-turbo",
     "lz4-c",
     "qulacs"
@@ -13,6 +14,7 @@
     "cupy": "no error information available",
     "gwcs": "no error information available",
     "h11": "no error information available",
+    "ipympl": "no error information available",
     "libjpeg-turbo": "The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '9d' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/{{ name }}/{{ name }}/archive/{{ version }}.tar.gz'\n",
     "lz4-c": "no error information available",
     "qulacs": "We found a problem parsing the recipe: \n\nwhile constructing a mapping\n  in \"<unicode string>\", line 40, column 3:\n      skip__###conda-selector###__pyth ... \n      ^ (line: 40)\nfound duplicate key \"skip\" with value \"True\" (original value: \"True\")\n  in \"<unicode string>\", line 49, column 3:\n      skip: true\n      ^ (line: 49)\n\nTo suppress this check see:\n    http://yaml.readthedocs.io/en/latest/api.html#duplicate-keys\n\nDuplicate keys will become an error in future releases, and are errors\nby default when using the new API.\n"
