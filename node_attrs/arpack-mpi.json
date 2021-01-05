@@ -162,7 +162,7 @@
    "summary":"Fortran77 subroutines designed to solve large scale eigenvalue problems"
   },
   "build":{
-   "number":"0",
+   "number":0,
    "skip":true
   },
   "package":{
