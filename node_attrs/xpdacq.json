@@ -39,12 +39,12 @@
   },
   "build":{
    "noarch":"python",
-   "number":"1",
-   "script":" -m pip install . --no-deps -vv"
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"xpdacq",
-   "version":"0.10.4"
+   "version":"0.11.0"
   },
   "requirements":{
    "host":[
@@ -68,8 +68,8 @@
    ]
   },
   "source":{
-   "sha256":"d338bbd18c4c628c65874db587f24c9ae664373c18d11b8c6985ea61b365c582",
-   "url":"https://github.com/xpdAcq/xpdAcq/releases/download/0.10.4/xpdAcq-0.10.4.tar.gz"
+   "sha256":"540da95204e34b46ec392e21195a876c3fa478988f816022170f1bcc877b19ad",
+   "url":"https://github.com/xpdAcq/xpdAcq/releases/download/0.11.0/xpdAcq-0.11.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -125,12 +125,12 @@
   },
   "build":{
    "noarch":"python",
-   "number":"1",
-   "script":" -m pip install . --no-deps -vv"
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"xpdacq",
-   "version":"0.10.4"
+   "version":"0.11.0"
   },
   "requirements":{
    "host":[
@@ -184,8 +184,8 @@
    ]
   },
   "source":{
-   "sha256":"d338bbd18c4c628c65874db587f24c9ae664373c18d11b8c6985ea61b365c582",
-   "url":"https://github.com/xpdAcq/xpdAcq/releases/download/0.10.4/xpdAcq-0.10.4.tar.gz"
+   "sha256":"540da95204e34b46ec392e21195a876c3fa478988f816022170f1bcc877b19ad",
+   "url":"https://github.com/xpdAcq/xpdAcq/releases/download/0.11.0/xpdAcq-0.11.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -220,12 +220,12 @@
   },
   "build":{
    "noarch":"python",
-   "number":"1",
-   "script":" -m pip install . --no-deps -vv"
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"xpdacq",
-   "version":"0.10.4"
+   "version":"0.11.0"
   },
   "requirements":{
    "host":[
@@ -249,8 +249,8 @@
    ]
   },
   "source":{
-   "sha256":"d338bbd18c4c628c65874db587f24c9ae664373c18d11b8c6985ea61b365c582",
-   "url":"https://github.com/xpdAcq/xpdAcq/releases/download/0.10.4/xpdAcq-0.10.4.tar.gz"
+   "sha256":"540da95204e34b46ec392e21195a876c3fa478988f816022170f1bcc877b19ad",
+   "url":"https://github.com/xpdAcq/xpdAcq/releases/download/0.11.0/xpdAcq-0.11.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -296,7 +296,7 @@
   }
  },
  "pinning_version":"2020.12.23.19.30.24",
- "raw_meta_yaml":"{% set name = \"xpdAcq\" %}\n{% set version = \"0.10.4\" %}\n{% set sha256 = \"d338bbd18c4c628c65874db587f24c9ae664373c18d11b8c6985ea61b365c582\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/{{ name }}/{{ name }}/releases/download/{{ version  }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 1\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - bluesky\n    - databroker\n    - ipython\n    - numpy\n    - ophyd\n    - pandas\n    - pyfai\n    - pyyaml\n    - xlrd\n    - xpdan\n    - xpdconf\n    - xpdsim\n\ntest:\n  imports:\n    - xpdacq\n    - xpdacq.xpdacq\n    - xpdacq.beamtimeSetup\n\nabout:\n  home: http://xpdacq.github.io\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: Python package that aids data acquisition at the NSLS-II XPD and PDF Beamline.\n  dev_url: https://github.com/xpdAcq/xpdAcq\n  doc_url: http://xpdacq.github.io/xpdAcq\n",
+ "raw_meta_yaml":"{% set name = \"xpdAcq\" %}\n{% set version = \"0.11.0\" %}\n{% set sha256 = \"540da95204e34b46ec392e21195a876c3fa478988f816022170f1bcc877b19ad\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/{{ name }}/{{ name }}/releases/download/{{ version }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - bluesky\n    - databroker\n    - ipython\n    - numpy\n    - ophyd\n    - pandas\n    - pyfai\n    - pyyaml\n    - xlrd\n    - xpdan\n    - xpdconf\n    - xpdsim\n\ntest:\n  imports:\n    - xpdacq\n    - xpdacq.xpdacq\n    - xpdacq.beamtimeSetup\n\nabout:\n  home: http://xpdacq.github.io\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: Python package that aids data acquisition at the NSLS-II XPD and PDF Beamline.\n  dev_url: https://github.com/xpdAcq/xpdAcq\n  doc_url: http://xpdacq.github.io/xpdAcq\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -389,7 +389,7 @@
   }
  },
  "url":"https://github.com/xpdAcq/xpdAcq/releases/download/0.10.4/xpdAcq-0.10.4.tar.gz",
- "version":"0.10.4",
+ "version":"0.11.0",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/xpdAcq/xpdAcq",
@@ -401,12 +401,12 @@
   },
   "build":{
    "noarch":"python",
-   "number":"1",
-   "script":" -m pip install . --no-deps -vv"
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"xpdacq",
-   "version":"0.10.4"
+   "version":"0.11.0"
   },
   "requirements":{
    "host":[
@@ -430,8 +430,8 @@
    ]
   },
   "source":{
-   "sha256":"d338bbd18c4c628c65874db587f24c9ae664373c18d11b8c6985ea61b365c582",
-   "url":"https://github.com/xpdAcq/xpdAcq/releases/download/0.10.4/xpdAcq-0.10.4.tar.gz"
+   "sha256":"540da95204e34b46ec392e21195a876c3fa478988f816022170f1bcc877b19ad",
+   "url":"https://github.com/xpdAcq/xpdAcq/releases/download/0.11.0/xpdAcq-0.11.0.tar.gz"
   },
   "test":{
    "imports":[
