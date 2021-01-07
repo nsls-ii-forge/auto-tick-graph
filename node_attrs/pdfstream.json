@@ -94,7 +94,7 @@
   },
   "package":{
    "name":"pdfstream",
-   "version":"0.4.1"
+   "version":"0.4.2"
   },
   "requirements":{
    "build":[
@@ -117,8 +117,8 @@
    ]
   },
   "source":{
-   "sha256":"610c17a2ef20f833ed213f257c2181df3fc747096ac9da25aba07e41cf322627",
-   "url":"https://github.com/xpdAcq/PDFstream/releases/download/0.4.1/PDFstream-0.4.1.tar.gz"
+   "sha256":"c02bef55c57e191c01572f22db8e488cf1c14b74e4a584ff9a4e608e23b200e6",
+   "url":"https://github.com/xpdAcq/PDFstream/releases/download/0.4.2/PDFstream-0.4.2.tar.gz"
   },
   "test":{
    "commands":[
@@ -183,7 +183,7 @@
   },
   "package":{
    "name":"pdfstream",
-   "version":"0.4.1"
+   "version":"0.4.2"
   },
   "requirements":{
    "build":[
@@ -234,8 +234,8 @@
    ]
   },
   "source":{
-   "sha256":"610c17a2ef20f833ed213f257c2181df3fc747096ac9da25aba07e41cf322627",
-   "url":"https://github.com/xpdAcq/PDFstream/releases/download/0.4.1/PDFstream-0.4.1.tar.gz"
+   "sha256":"c02bef55c57e191c01572f22db8e488cf1c14b74e4a584ff9a4e608e23b200e6",
+   "url":"https://github.com/xpdAcq/PDFstream/releases/download/0.4.2/PDFstream-0.4.2.tar.gz"
   },
   "test":{
    "commands":[
@@ -289,7 +289,7 @@
   },
   "package":{
    "name":"pdfstream",
-   "version":"0.4.1"
+   "version":"0.4.2"
   },
   "requirements":{
    "build":[
@@ -312,8 +312,8 @@
    ]
   },
   "source":{
-   "sha256":"610c17a2ef20f833ed213f257c2181df3fc747096ac9da25aba07e41cf322627",
-   "url":"https://github.com/xpdAcq/PDFstream/releases/download/0.4.1/PDFstream-0.4.1.tar.gz"
+   "sha256":"c02bef55c57e191c01572f22db8e488cf1c14b74e4a584ff9a4e608e23b200e6",
+   "url":"https://github.com/xpdAcq/PDFstream/releases/download/0.4.2/PDFstream-0.4.2.tar.gz"
   },
   "test":{
    "commands":[
@@ -364,7 +364,7 @@
   }
  },
  "pinning_version":"2020.12.07.18.58.57",
- "raw_meta_yaml":"{% set name = \"PDFstream\" %}\n{% set version = \"0.4.1\" %}\n{% set sha256 = \"610c17a2ef20f833ed213f257c2181df3fc747096ac9da25aba07e41cf322627\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/xpdAcq/{{ name }}/releases/download/{{ version }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  build:\n    - python >=3.7\n    - pip\n  run:\n    - python >=3.7\n    - bluesky\n    - databroker\n    - fire\n    - numba\n    - pyfai\n    - scikit-beam\n    - suitcase-csv\n    - suitcase-json-metadata\n    - suitcase-tiff\n    - xpdview\n    - xray-vision\n\ntest:\n  imports:\n    - pdfstream\n    - pdfstream.integration\n    - pdfstream.transformation\n    - pdfstream.utils\n    - pdfstream.vend\n    - pdfstream.visualization\n  commands:\n    - pdfstream -- --help\n\nabout:\n  home: https://github.com/xpdAcq/pdfstream\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: The data analysis toolbox for the study on pair distribution function (PDF).\n",
+ "raw_meta_yaml":"{% set name = \"PDFstream\" %}\n{% set version = \"0.4.2\" %}\n{% set sha256 = \"c02bef55c57e191c01572f22db8e488cf1c14b74e4a584ff9a4e608e23b200e6\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/xpdAcq/{{ name }}/releases/download/{{ version }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  build:\n    - python >=3.7\n    - pip\n  run:\n    - python >=3.7\n    - bluesky\n    - databroker\n    - fire\n    - numba\n    - pyfai\n    - scikit-beam\n    - suitcase-csv\n    - suitcase-json-metadata\n    - suitcase-tiff\n    - xpdview\n    - xray-vision\n\ntest:\n  imports:\n    - pdfstream\n    - pdfstream.integration\n    - pdfstream.transformation\n    - pdfstream.utils\n    - pdfstream.vend\n    - pdfstream.visualization\n  commands:\n    - pdfstream -- --help\n\nabout:\n  home: https://github.com/xpdAcq/pdfstream\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: The data analysis toolbox for the study on pair distribution function (PDF).\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -454,7 +454,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/p/pdfstream/pdfstream-0.2.2.tar.gz",
- "version":"0.4.1",
+ "version":"0.4.2",
  "win_64_meta_yaml":{
   "about":{
    "home":"https://github.com/xpdAcq/pdfstream",
@@ -470,7 +470,7 @@
   },
   "package":{
    "name":"pdfstream",
-   "version":"0.4.1"
+   "version":"0.4.2"
   },
   "requirements":{
    "build":[
@@ -493,8 +493,8 @@
    ]
   },
   "source":{
-   "sha256":"610c17a2ef20f833ed213f257c2181df3fc747096ac9da25aba07e41cf322627",
-   "url":"https://github.com/xpdAcq/PDFstream/releases/download/0.4.1/PDFstream-0.4.1.tar.gz"
+   "sha256":"c02bef55c57e191c01572f22db8e488cf1c14b74e4a584ff9a4e608e23b200e6",
+   "url":"https://github.com/xpdAcq/PDFstream/releases/download/0.4.2/PDFstream-0.4.2.tar.gz"
   },
   "test":{
    "commands":[
