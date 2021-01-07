@@ -144,7 +144,7 @@
  "name":"fabio",
  "new_version":"0.11.0",
  "new_version_attempts":{
-  "0.11.0":24
+  "0.11.0":25
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
