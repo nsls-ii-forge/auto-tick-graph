@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/551332622.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.11.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -144,7 +163,7 @@
  "name":"fabio",
  "new_version":"0.11.0",
  "new_version_attempts":{
-  "0.11.0":30
+  "0.11.0":31
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -217,6 +236,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2021.01.07.14.45.49",
  "raw_meta_yaml":"{% set name = \"fabio\" %}\n{% set version = \"0.10.2\" %}\n{% set sha256 = \"fb4dcd0645cbaabbe1d3db59b729cebd72be9b2e3c410e5cdc3b2aa94cc16713\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  skip: True  # [py<36]\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - python\n    - cython\n    - numpy\n    - pip\n    # could use opencl, but need the package on conda-forge first\n    # - opencl\n  run:\n    - python\n    - {{ pin_compatible('numpy') }}\n\ntest:\n  imports:\n    - fabio\n    - fabio.test\n    - fabio.third_party\n\nabout:\n  home: https://github.com/silx-kit/fabio\n  license: GPL v3.0, GPL v2.0, MIT, GPL, LGPL v3.0, BSD 3-Clause, Apache 2.0\n  license_file: copyright\n  summary: I/O library for images produced by 2D X-ray detector\n",
  "req":{
   "__set__":true,
@@ -256,6 +276,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"3.8.6",
  "strong_exports":false,
  "total_requirements":{
   "build":{

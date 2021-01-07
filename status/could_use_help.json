@@ -10,6 +10,7 @@
   "openmpi-mpi",
   "papermill",
   "xraylarch",
+  "ipympl",
   "napari",
   "nsls2forge-utils",
   "eventlet",
