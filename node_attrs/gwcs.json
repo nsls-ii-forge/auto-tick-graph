@@ -63,7 +63,7 @@
   },
   "package":{
    "name":"gwcs",
-   "version":"0.14.0"
+   "version":"0.16.1"
   },
   "requirements":{
    "host":[
@@ -75,12 +75,13 @@
     "python >=3",
     "asdf",
     "astropy >=4.0",
-    "numpy"
+    "numpy",
+    "scipy"
    ]
   },
   "source":{
-   "sha256":"fa787835b7549b94115c1b9c9e617da11164df701fd6e4e0fd27c90184beeed1",
-   "url":"https://pypi.io/packages/source/g/gwcs/gwcs-0.14.0.tar.gz"
+   "sha256":"5333f4f2fc01e89781ad4fdc8d74df6cdd13fa32e7ee170cbef0b78536d85576",
+   "url":"https://pypi.io/packages/source/g/gwcs/gwcs-0.16.1.tar.gz"
   },
   "test":{
    "imports":[
@@ -108,7 +109,8 @@
     "asdf",
     "astropy",
     "numpy",
-    "python"
+    "python",
+    "scipy"
    ]
   },
   "test":{
@@ -134,7 +136,7 @@
   },
   "package":{
    "name":"gwcs",
-   "version":"0.14.0"
+   "version":"0.16.1"
   },
   "requirements":{
    "host":[
@@ -153,19 +155,22 @@
     "asdf",
     "astropy >=4.0",
     "numpy",
+    "scipy",
     "python >=3",
     "asdf",
     "astropy >=4.0",
     "numpy",
+    "scipy",
     "python >=3",
     "asdf",
     "astropy >=4.0",
-    "numpy"
+    "numpy",
+    "scipy"
    ]
   },
   "source":{
-   "sha256":"fa787835b7549b94115c1b9c9e617da11164df701fd6e4e0fd27c90184beeed1",
-   "url":"https://pypi.io/packages/source/g/gwcs/gwcs-0.14.0.tar.gz"
+   "sha256":"5333f4f2fc01e89781ad4fdc8d74df6cdd13fa32e7ee170cbef0b78536d85576",
+   "url":"https://pypi.io/packages/source/g/gwcs/gwcs-0.16.1.tar.gz"
   },
   "test":{
    "imports":[
@@ -207,7 +212,7 @@
   },
   "package":{
    "name":"gwcs",
-   "version":"0.14.0"
+   "version":"0.16.1"
   },
   "requirements":{
    "host":[
@@ -219,12 +224,13 @@
     "python >=3",
     "asdf",
     "astropy >=4.0",
-    "numpy"
+    "numpy",
+    "scipy"
    ]
   },
   "source":{
-   "sha256":"fa787835b7549b94115c1b9c9e617da11164df701fd6e4e0fd27c90184beeed1",
-   "url":"https://pypi.io/packages/source/g/gwcs/gwcs-0.14.0.tar.gz"
+   "sha256":"5333f4f2fc01e89781ad4fdc8d74df6cdd13fa32e7ee170cbef0b78536d85576",
+   "url":"https://pypi.io/packages/source/g/gwcs/gwcs-0.16.1.tar.gz"
   },
   "test":{
    "imports":[
@@ -252,7 +258,8 @@
     "asdf",
     "astropy",
     "numpy",
-    "python"
+    "python",
+    "scipy"
    ]
   },
   "test":{
@@ -261,7 +268,7 @@
   }
  },
  "pinning_version":"2021.01.07.14.45.49",
- "raw_meta_yaml":"{% set name = \"gwcs\" %}\n{% set version = \"0.14.0\" %}\n{% set sha256 = \"fa787835b7549b94115c1b9c9e617da11164df701fd6e4e0fd27c90184beeed1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python >=3\n    - pip\n    - setuptools_scm\n  run:\n    - python >=3\n    - asdf\n    - astropy >=4.0\n    - numpy\n\ntest:\n  imports:\n    - gwcs\n    - gwcs.tags\n\nabout:\n  home: https://gwcs.readthedocs.io/en/latest/\n  license: BSD 3-clause\n  license_family: BSD\n  license_file: licenses/LICENSE.rst\n  summary: Generalized World Coordinate System\n  description: |\n    GWCS takes a general approach to WCS. It supports a data model which\n    includes the entire transformation pipeline from input coordinates\n    (detector by default) to world coordinates. Transformations can be\n    chained, joined or combined with arithmetic operators using the flexible\n    framework of compound models in astropy modeling. In the case of a\n    celestial output frame coordinates provides further transformations\n    between standard coordinate frames. Spectral output coordinates are\n    instances of astropy Quantity and are transformed to other units with the\n    tools in that package.\n  doc_url: https://gwcs.readthedocs.io\n  dev_url: https://github.com/spacetelescope/gwcs\n",
+ "raw_meta_yaml":"{% set name = \"gwcs\" %}\n{% set version = \"0.16.1\" %}\n{% set sha256 = \"5333f4f2fc01e89781ad4fdc8d74df6cdd13fa32e7ee170cbef0b78536d85576\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python >=3\n    - pip\n    - setuptools_scm\n  run:\n    - python >=3\n    - asdf\n    - astropy >=4.0\n    - numpy\n    - scipy\n\ntest:\n  imports:\n    - gwcs\n    - gwcs.tags\n\nabout:\n  home: https://gwcs.readthedocs.io/en/latest/\n  license: BSD 3-clause\n  license_family: BSD\n  license_file: licenses/LICENSE.rst\n  summary: Generalized World Coordinate System\n  description: |\n    GWCS takes a general approach to WCS. It supports a data model which\n    includes the entire transformation pipeline from input coordinates\n    (detector by default) to world coordinates. Transformations can be\n    chained, joined or combined with arithmetic operators using the flexible\n    framework of compound models in astropy modeling. In the case of a\n    celestial output frame coordinates provides further transformations\n    between standard coordinate frames. Spectral output coordinates are\n    instances of astropy Quantity and are transformed to other units with the\n    tools in that package.\n  doc_url: https://gwcs.readthedocs.io\n  dev_url: https://github.com/spacetelescope/gwcs\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -270,6 +277,7 @@
    "numpy",
    "pip",
    "python",
+   "scipy",
    "setuptools_scm"
   ]
  },
@@ -292,7 +300,8 @@
     "asdf",
     "astropy",
     "numpy",
-    "python"
+    "python",
+    "scipy"
    ]
   },
   "test":{
@@ -321,7 +330,8 @@
     "asdf",
     "astropy >=4.0",
     "numpy",
-    "python >=3"
+    "python >=3",
+    "scipy"
    ]
   },
   "test":{
@@ -330,7 +340,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/g/gwcs/gwcs-0.13.0.tar.gz",
- "version":"0.14.0",
+ "version":"0.16.1",
  "win_64_meta_yaml":{
   "about":{
    "description":"GWCS takes a general approach to WCS. It supports a data model which\nincludes the entire transformation pipeline from input coordinates\n(detector by default) to world coordinates. Transformations can be\nchained, joined or combined with arithmetic operators using the flexible\nframework of compound models in astropy modeling. In the case of a\ncelestial output frame coordinates provides further transformations\nbetween standard coordinate frames. Spectral output coordinates are\ninstances of astropy Quantity and are transformed to other units with the\ntools in that package.\n",
@@ -349,7 +359,7 @@
   },
   "package":{
    "name":"gwcs",
-   "version":"0.14.0"
+   "version":"0.16.1"
   },
   "requirements":{
    "host":[
@@ -361,12 +371,13 @@
     "python >=3",
     "asdf",
     "astropy >=4.0",
-    "numpy"
+    "numpy",
+    "scipy"
    ]
   },
   "source":{
-   "sha256":"fa787835b7549b94115c1b9c9e617da11164df701fd6e4e0fd27c90184beeed1",
-   "url":"https://pypi.io/packages/source/g/gwcs/gwcs-0.14.0.tar.gz"
+   "sha256":"5333f4f2fc01e89781ad4fdc8d74df6cdd13fa32e7ee170cbef0b78536d85576",
+   "url":"https://pypi.io/packages/source/g/gwcs/gwcs-0.16.1.tar.gz"
   },
   "test":{
    "imports":[
@@ -394,7 +405,8 @@
     "asdf",
     "astropy",
     "numpy",
-    "python"
+    "python",
+    "scipy"
    ]
   },
   "test":{

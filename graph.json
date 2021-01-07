@@ -5983,6 +5983,10 @@
   },
   {
    "source":"scipy",
+   "target":"gwcs"
+  },
+  {
+   "source":"scipy",
    "target":"hxntools"
   },
   {
