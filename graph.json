@@ -3555,6 +3555,10 @@
   },
   {
    "source":"pip",
+   "target":"globus-sdk"
+  },
+  {
+   "source":"pip",
    "target":"grid-strategy"
   },
   {
@@ -4323,6 +4327,10 @@
   },
   {
    "source":"pyjwt",
+   "target":"globus-sdk"
+  },
+  {
+   "source":"pyjwt",
    "target":"pygithub"
   },
   {
@@ -4972,6 +4980,10 @@
   {
    "source":"python",
    "target":"github3.py"
+  },
+  {
+   "source":"python",
+   "target":"globus-sdk"
   },
   {
    "source":"python",
@@ -5811,6 +5823,10 @@
   },
   {
    "source":"requests",
+   "target":"globus-sdk"
+  },
+  {
+   "source":"requests",
    "target":"intake"
   },
   {
@@ -6336,6 +6352,10 @@
   {
    "source":"six",
    "target":"fire"
+  },
+  {
+   "source":"six",
+   "target":"globus-sdk"
   },
   {
    "source":"six",
@@ -10178,6 +10198,12 @@
    "id":"asyncpg",
    "payload":{
     "__lazy_json__":"node_attrs/asyncpg.json"
+   }
+  },
+  {
+   "id":"globus-sdk",
+   "payload":{
+    "__lazy_json__":"node_attrs/globus-sdk.json"
    }
   }
  ]
