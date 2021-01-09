@@ -1414,6 +1414,10 @@
    "target":"pygobject"
   },
   {
+   "source":"globus-sdk",
+   "target":"analysis"
+  },
+  {
    "source":"gmp",
    "target":"gfortran_impl_osx-64"
   },
@@ -1792,6 +1796,10 @@
   {
    "source":"jansson",
    "target":"uwsgi"
+  },
+  {
+   "source":"jedi",
+   "target":"analysis"
   },
   {
    "source":"jinja2",
@@ -10204,6 +10212,12 @@
    "id":"globus-sdk",
    "payload":{
     "__lazy_json__":"node_attrs/globus-sdk.json"
+   }
+  },
+  {
+   "id":"jedi",
+   "payload":{
+    "__lazy_json__":"node_attrs/jedi.json"
    }
   }
  ]
