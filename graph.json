@@ -3042,6 +3042,10 @@
    "target":"analysis"
   },
   {
+   "source":"openpyxl",
+   "target":"xpdacq"
+  },
+  {
    "source":"openssl",
    "target":"librdkafka"
   },
@@ -6972,10 +6976,6 @@
   {
    "source":"xlrd",
    "target":"analysis"
-  },
-  {
-   "source":"xlrd",
-   "target":"xpdacq"
   },
   {
    "source":"xlwt",

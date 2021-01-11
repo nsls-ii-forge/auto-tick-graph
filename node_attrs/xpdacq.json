@@ -61,7 +61,7 @@
   },
   "package":{
    "name":"xpdacq",
-   "version":"0.11.0"
+   "version":"0.12.0"
   },
   "requirements":{
    "host":[
@@ -74,19 +74,19 @@
     "databroker",
     "ipython",
     "numpy",
+    "openpyxl",
     "ophyd",
     "pandas",
     "pyfai",
     "pyyaml",
-    "xlrd",
     "xpdan",
     "xpdconf",
     "xpdsim"
    ]
   },
   "source":{
-   "sha256":"540da95204e34b46ec392e21195a876c3fa478988f816022170f1bcc877b19ad",
-   "url":"https://github.com/xpdAcq/xpdAcq/releases/download/0.11.0/xpdAcq-0.11.0.tar.gz"
+   "sha256":"f4e7beb7109a87426025009b0c5ec4667fdb7a46f199d7432b1e7d4bf028faa8",
+   "url":"https://github.com/xpdAcq/xpdAcq/releases/download/0.12.0/xpdAcq-0.12.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -115,12 +115,12 @@
     "databroker",
     "ipython",
     "numpy",
+    "openpyxl",
     "ophyd",
     "pandas",
     "pyfai",
     "python",
     "pyyaml",
-    "xlrd",
     "xpdan",
     "xpdconf",
     "xpdsim"
@@ -147,7 +147,7 @@
   },
   "package":{
    "name":"xpdacq",
-   "version":"0.11.0"
+   "version":"0.12.0"
   },
   "requirements":{
    "host":[
@@ -164,11 +164,11 @@
     "databroker",
     "ipython",
     "numpy",
+    "openpyxl",
     "ophyd",
     "pandas",
     "pyfai",
     "pyyaml",
-    "xlrd",
     "xpdan",
     "xpdconf",
     "xpdsim",
@@ -177,11 +177,11 @@
     "databroker",
     "ipython",
     "numpy",
+    "openpyxl",
     "ophyd",
     "pandas",
     "pyfai",
     "pyyaml",
-    "xlrd",
     "xpdan",
     "xpdconf",
     "xpdsim",
@@ -190,19 +190,19 @@
     "databroker",
     "ipython",
     "numpy",
+    "openpyxl",
     "ophyd",
     "pandas",
     "pyfai",
     "pyyaml",
-    "xlrd",
     "xpdan",
     "xpdconf",
     "xpdsim"
    ]
   },
   "source":{
-   "sha256":"540da95204e34b46ec392e21195a876c3fa478988f816022170f1bcc877b19ad",
-   "url":"https://github.com/xpdAcq/xpdAcq/releases/download/0.11.0/xpdAcq-0.11.0.tar.gz"
+   "sha256":"f4e7beb7109a87426025009b0c5ec4667fdb7a46f199d7432b1e7d4bf028faa8",
+   "url":"https://github.com/xpdAcq/xpdAcq/releases/download/0.12.0/xpdAcq-0.12.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -243,7 +243,7 @@
   },
   "package":{
    "name":"xpdacq",
-   "version":"0.11.0"
+   "version":"0.12.0"
   },
   "requirements":{
    "host":[
@@ -256,19 +256,19 @@
     "databroker",
     "ipython",
     "numpy",
+    "openpyxl",
     "ophyd",
     "pandas",
     "pyfai",
     "pyyaml",
-    "xlrd",
     "xpdan",
     "xpdconf",
     "xpdsim"
    ]
   },
   "source":{
-   "sha256":"540da95204e34b46ec392e21195a876c3fa478988f816022170f1bcc877b19ad",
-   "url":"https://github.com/xpdAcq/xpdAcq/releases/download/0.11.0/xpdAcq-0.11.0.tar.gz"
+   "sha256":"f4e7beb7109a87426025009b0c5ec4667fdb7a46f199d7432b1e7d4bf028faa8",
+   "url":"https://github.com/xpdAcq/xpdAcq/releases/download/0.12.0/xpdAcq-0.12.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -297,12 +297,12 @@
     "databroker",
     "ipython",
     "numpy",
+    "openpyxl",
     "ophyd",
     "pandas",
     "pyfai",
     "python",
     "pyyaml",
-    "xlrd",
     "xpdan",
     "xpdconf",
     "xpdsim"
@@ -314,7 +314,7 @@
   }
  },
  "pinning_version":"2021.01.10.01.07.36",
- "raw_meta_yaml":"{% set name = \"xpdAcq\" %}\n{% set version = \"0.11.0\" %}\n{% set sha256 = \"540da95204e34b46ec392e21195a876c3fa478988f816022170f1bcc877b19ad\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/{{ name }}/{{ name }}/releases/download/{{ version }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - bluesky\n    - databroker\n    - ipython\n    - numpy\n    - ophyd\n    - pandas\n    - pyfai\n    - pyyaml\n    - xlrd\n    - xpdan\n    - xpdconf\n    - xpdsim\n\ntest:\n  imports:\n    - xpdacq\n    - xpdacq.xpdacq\n    - xpdacq.beamtimeSetup\n\nabout:\n  home: http://xpdacq.github.io\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: Python package that aids data acquisition at the NSLS-II XPD and PDF Beamline.\n  dev_url: https://github.com/xpdAcq/xpdAcq\n  doc_url: http://xpdacq.github.io/xpdAcq\n",
+ "raw_meta_yaml":"{% set name = \"xpdAcq\" %}\n{% set version = \"0.12.0\" %}\n{% set sha256 = \"f4e7beb7109a87426025009b0c5ec4667fdb7a46f199d7432b1e7d4bf028faa8\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/{{ name }}/{{ name }}/releases/download/{{ version }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - bluesky\n    - databroker\n    - ipython\n    - numpy\n    - openpyxl\n    - ophyd\n    - pandas\n    - pyfai\n    - pyyaml\n    - xpdan\n    - xpdconf\n    - xpdsim\n\ntest:\n  imports:\n    - xpdacq\n    - xpdacq.xpdacq\n    - xpdacq.beamtimeSetup\n\nabout:\n  home: http://xpdacq.github.io\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: Python package that aids data acquisition at the NSLS-II XPD and PDF Beamline.\n  dev_url: https://github.com/xpdAcq/xpdAcq\n  doc_url: http://xpdacq.github.io/xpdAcq\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -322,13 +322,13 @@
    "databroker",
    "ipython",
    "numpy",
+   "openpyxl",
    "ophyd",
    "pandas",
    "pip",
    "pyfai",
    "python",
    "pyyaml",
-   "xlrd",
    "xpdan",
    "xpdconf",
    "xpdsim"
@@ -353,12 +353,12 @@
     "databroker",
     "ipython",
     "numpy",
+    "openpyxl",
     "ophyd",
     "pandas",
     "pyfai",
     "python",
     "pyyaml",
-    "xlrd",
     "xpdan",
     "xpdconf",
     "xpdsim"
@@ -390,12 +390,12 @@
     "databroker",
     "ipython",
     "numpy",
+    "openpyxl",
     "ophyd",
     "pandas",
     "pyfai",
     "python >=3.6",
     "pyyaml",
-    "xlrd",
     "xpdan",
     "xpdconf",
     "xpdsim"
@@ -407,7 +407,7 @@
   }
  },
  "url":"https://github.com/xpdAcq/xpdAcq/releases/download/0.10.4/xpdAcq-0.10.4.tar.gz",
- "version":"0.11.0",
+ "version":"0.12.0",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/xpdAcq/xpdAcq",
@@ -424,7 +424,7 @@
   },
   "package":{
    "name":"xpdacq",
-   "version":"0.11.0"
+   "version":"0.12.0"
   },
   "requirements":{
    "host":[
@@ -437,19 +437,19 @@
     "databroker",
     "ipython",
     "numpy",
+    "openpyxl",
     "ophyd",
     "pandas",
     "pyfai",
     "pyyaml",
-    "xlrd",
     "xpdan",
     "xpdconf",
     "xpdsim"
    ]
   },
   "source":{
-   "sha256":"540da95204e34b46ec392e21195a876c3fa478988f816022170f1bcc877b19ad",
-   "url":"https://github.com/xpdAcq/xpdAcq/releases/download/0.11.0/xpdAcq-0.11.0.tar.gz"
+   "sha256":"f4e7beb7109a87426025009b0c5ec4667fdb7a46f199d7432b1e7d4bf028faa8",
+   "url":"https://github.com/xpdAcq/xpdAcq/releases/download/0.12.0/xpdAcq-0.12.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -478,12 +478,12 @@
     "databroker",
     "ipython",
     "numpy",
+    "openpyxl",
     "ophyd",
     "pandas",
     "pyfai",
     "python",
     "pyyaml",
-    "xlrd",
     "xpdan",
     "xpdconf",
     "xpdsim"
