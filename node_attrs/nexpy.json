@@ -264,10 +264,11 @@
   }
  },
  "name":"nexpy",
- "new_version":"0.13.0",
+ "new_version":"0.13.1",
  "new_version_attempts":{
   "0.12.7":1,
-  "0.13.0":7
+  "0.13.0":7,
+  "0.13.1":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
