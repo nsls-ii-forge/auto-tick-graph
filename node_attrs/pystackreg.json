@@ -37,12 +37,12 @@
    "summary":"Python implementation of the ImageJ/FIJI Plugin TurboReg/StackReg"
   },
   "build":{
-   "number":"1",
+   "number":"0",
    "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"pystackreg",
-   "version":"0.2.2"
+   "version":"0.2.5"
   },
   "requirements":{
    "build":[
@@ -61,8 +61,8 @@
    ]
   },
   "source":{
-   "sha256":"2bc8bdac892bb827cd2725b8ee45bbcdb8835f2fb1d41863f6d50c77f7e36ccc",
-   "url":"https://pypi.io/packages/source/p/pystackreg/pystackreg-0.2.2.tar.gz"
+   "sha256":"5b38fb9059d2c5c59a69eb4c74c14bdd5e064552b37babacd239ede1d04b6258",
+   "url":"https://pypi.io/packages/source/p/pystackreg/pystackreg-0.2.5.tar.gz"
   },
   "test":{
    "imports":[
@@ -108,12 +108,12 @@
    "summary":"Python implementation of the ImageJ/FIJI Plugin TurboReg/StackReg"
   },
   "build":{
-   "number":"1",
+   "number":"0",
    "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"pystackreg",
-   "version":"0.2.2"
+   "version":"0.2.5"
   },
   "requirements":{
    "build":[
@@ -148,8 +148,8 @@
    ]
   },
   "source":{
-   "sha256":"2bc8bdac892bb827cd2725b8ee45bbcdb8835f2fb1d41863f6d50c77f7e36ccc",
-   "url":"https://pypi.io/packages/source/p/pystackreg/pystackreg-0.2.2.tar.gz"
+   "sha256":"5b38fb9059d2c5c59a69eb4c74c14bdd5e064552b37babacd239ede1d04b6258",
+   "url":"https://pypi.io/packages/source/p/pystackreg/pystackreg-0.2.5.tar.gz"
   },
   "test":{
    "imports":[
@@ -177,12 +177,12 @@
    "summary":"Python implementation of the ImageJ/FIJI Plugin TurboReg/StackReg"
   },
   "build":{
-   "number":"1",
+   "number":"0",
    "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"pystackreg",
-   "version":"0.2.2"
+   "version":"0.2.5"
   },
   "requirements":{
    "build":[
@@ -201,8 +201,8 @@
    ]
   },
   "source":{
-   "sha256":"2bc8bdac892bb827cd2725b8ee45bbcdb8835f2fb1d41863f6d50c77f7e36ccc",
-   "url":"https://pypi.io/packages/source/p/pystackreg/pystackreg-0.2.2.tar.gz"
+   "sha256":"5b38fb9059d2c5c59a69eb4c74c14bdd5e064552b37babacd239ede1d04b6258",
+   "url":"https://pypi.io/packages/source/p/pystackreg/pystackreg-0.2.5.tar.gz"
   },
   "test":{
    "imports":[
@@ -240,7 +240,7 @@
   }
  },
  "pinning_version":"2021.01.12.15.04.08",
- "raw_meta_yaml":"{% set name = \"pystackreg\" %}\n{% set version = \"0.2.2\" %}\n{% set sha256 = \"2bc8bdac892bb827cd2725b8ee45bbcdb8835f2fb1d41863f6d50c77f7e36ccc\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 1\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - python\n    - numpy\n    - pip\n  run:\n    - python\n    - {{ pin_compatible('numpy') }}\n    - tqdm\n\ntest:\n  imports:\n    - pystackreg\n\nabout:\n  home: https://github.com/glichtner/pystackreg\n  license: LicenseRef-TurboReg-StackReg\n  license_file: LICENSE.txt\n  summary: Python implementation of the ImageJ/FIJI Plugin TurboReg/StackReg\n  description: |\n    C++ Port of the TurboReg/StackReg ImageJ Plugin.\n    Original code by Philippe Thevenaz (see below).\n    Porting by Gregor Lichtner.\n\n    This work is based on the following paper:\n\n    P. Thevenaz, U.E. Ruttimann, M. Unser\n    A Pyramid Approach to Subpixel Registration Based on Intensity\n    IEEE Transactions on Image Processing\n    vol. 7, no. 1, pp. 27-41, January 1998.\n\n    This paper is available on-line at\n    http://bigwww.epfl.ch/publications/thevenaz9801.html\n\n    Other relevant on-line publications are available at\n    http://bigwww.epfl.ch/publications/\n",
+ "raw_meta_yaml":"{% set name = \"pystackreg\" %}\n{% set version = \"0.2.5\" %}\n{% set sha256 = \"5b38fb9059d2c5c59a69eb4c74c14bdd5e064552b37babacd239ede1d04b6258\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - python\n    - numpy\n    - pip\n  run:\n    - python\n    - {{ pin_compatible('numpy') }}\n    - tqdm\n\ntest:\n  imports:\n    - pystackreg\n\nabout:\n  home: https://github.com/glichtner/pystackreg\n  license: LicenseRef-TurboReg-StackReg\n  license_file: LICENSE.txt\n  summary: Python implementation of the ImageJ/FIJI Plugin TurboReg/StackReg\n  description: |\n    C++ Port of the TurboReg/StackReg ImageJ Plugin.\n    Original code by Philippe Thevenaz (see below).\n    Porting by Gregor Lichtner.\n\n    This work is based on the following paper:\n\n    P. Thevenaz, U.E. Ruttimann, M. Unser\n    A Pyramid Approach to Subpixel Registration Based on Intensity\n    IEEE Transactions on Image Processing\n    vol. 7, no. 1, pp. 27-41, January 1998.\n\n    This paper is available on-line at\n    http://bigwww.epfl.ch/publications/thevenaz9801.html\n\n    Other relevant on-line publications are available at\n    http://bigwww.epfl.ch/publications/\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -313,7 +313,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/p/pystackreg/pystackreg-0.2.2.tar.gz",
- "version":"0.2.2",
+ "version":"0.2.5",
  "win_64_meta_yaml":{
   "about":{
    "description":"C++ Port of the TurboReg/StackReg ImageJ Plugin.\nOriginal code by Philippe Thevenaz (see below).\nPorting by Gregor Lichtner.\n\nThis work is based on the following paper:\n\nP. Thevenaz, U.E. Ruttimann, M. Unser\nA Pyramid Approach to Subpixel Registration Based on Intensity\nIEEE Transactions on Image Processing\nvol. 7, no. 1, pp. 27-41, January 1998.\n\nThis paper is available on-line at\nhttp://bigwww.epfl.ch/publications/thevenaz9801.html\n\nOther relevant on-line publications are available at\nhttp://bigwww.epfl.ch/publications/\n",
@@ -323,12 +323,12 @@
    "summary":"Python implementation of the ImageJ/FIJI Plugin TurboReg/StackReg"
   },
   "build":{
-   "number":"1",
+   "number":"0",
    "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"pystackreg",
-   "version":"0.2.2"
+   "version":"0.2.5"
   },
   "requirements":{
    "build":[
@@ -347,8 +347,8 @@
    ]
   },
   "source":{
-   "sha256":"2bc8bdac892bb827cd2725b8ee45bbcdb8835f2fb1d41863f6d50c77f7e36ccc",
-   "url":"https://pypi.io/packages/source/p/pystackreg/pystackreg-0.2.2.tar.gz"
+   "sha256":"5b38fb9059d2c5c59a69eb4c74c14bdd5e064552b37babacd239ede1d04b6258",
+   "url":"https://pypi.io/packages/source/p/pystackreg/pystackreg-0.2.5.tar.gz"
   },
   "test":{
    "imports":[
