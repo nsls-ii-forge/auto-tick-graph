@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/553835640.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -141,9 +160,10 @@
   }
  },
  "name":"pystackreg",
- "new_version":"0.2.3",
+ "new_version":"0.2.5",
  "new_version_attempts":{
-  "0.2.3":77
+  "0.2.3":77,
+  "0.2.5":1
  },
  "new_version_errors":{
   "0.2.3":"The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '0.2.3' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz'\n"
@@ -219,6 +239,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2021.01.12.15.04.08",
  "raw_meta_yaml":"{% set name = \"pystackreg\" %}\n{% set version = \"0.2.2\" %}\n{% set sha256 = \"2bc8bdac892bb827cd2725b8ee45bbcdb8835f2fb1d41863f6d50c77f7e36ccc\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 1\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - python\n    - numpy\n    - pip\n  run:\n    - python\n    - {{ pin_compatible('numpy') }}\n    - tqdm\n\ntest:\n  imports:\n    - pystackreg\n\nabout:\n  home: https://github.com/glichtner/pystackreg\n  license: LicenseRef-TurboReg-StackReg\n  license_file: LICENSE.txt\n  summary: Python implementation of the ImageJ/FIJI Plugin TurboReg/StackReg\n  description: |\n    C++ Port of the TurboReg/StackReg ImageJ Plugin.\n    Original code by Philippe Thevenaz (see below).\n    Porting by Gregor Lichtner.\n\n    This work is based on the following paper:\n\n    P. Thevenaz, U.E. Ruttimann, M. Unser\n    A Pyramid Approach to Subpixel Registration Based on Intensity\n    IEEE Transactions on Image Processing\n    vol. 7, no. 1, pp. 27-41, January 1998.\n\n    This paper is available on-line at\n    http://bigwww.epfl.ch/publications/thevenaz9801.html\n\n    Other relevant on-line publications are available at\n    http://bigwww.epfl.ch/publications/\n",
  "req":{
   "__set__":true,
@@ -260,6 +281,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"3.8.6",
  "strong_exports":false,
  "total_requirements":{
   "build":{
