@@ -77,7 +77,7 @@
   },
   "package":{
    "name":"py4xs",
-   "version":"2021.1.11.0"
+   "version":"2021.1.13.0"
   },
   "requirements":{
    "host":[
@@ -95,8 +95,8 @@
    ]
   },
   "source":{
-   "sha256":"016155d3932e3966e8a33f690c9a7efe788527edd7de992e12225229a72e01c7",
-   "url":"https://pypi.io/packages/source/p/py4xs/py4xs-2021.1.11.0.tar.gz"
+   "sha256":"453b635993923b7b7e885de5d708082683a66afa96cb859060cec84549e93889",
+   "url":"https://pypi.io/packages/source/p/py4xs/py4xs-2021.1.13.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -148,7 +148,7 @@
   },
   "package":{
    "name":"py4xs",
-   "version":"2021.1.11.0"
+   "version":"2021.1.13.0"
   },
   "requirements":{
    "host":[
@@ -184,8 +184,8 @@
    ]
   },
   "source":{
-   "sha256":"016155d3932e3966e8a33f690c9a7efe788527edd7de992e12225229a72e01c7",
-   "url":"https://pypi.io/packages/source/p/py4xs/py4xs-2021.1.11.0.tar.gz"
+   "sha256":"453b635993923b7b7e885de5d708082683a66afa96cb859060cec84549e93889",
+   "url":"https://pypi.io/packages/source/p/py4xs/py4xs-2021.1.13.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -225,7 +225,7 @@
   },
   "package":{
    "name":"py4xs",
-   "version":"2021.1.11.0"
+   "version":"2021.1.13.0"
   },
   "requirements":{
    "host":[
@@ -243,8 +243,8 @@
    ]
   },
   "source":{
-   "sha256":"016155d3932e3966e8a33f690c9a7efe788527edd7de992e12225229a72e01c7",
-   "url":"https://pypi.io/packages/source/p/py4xs/py4xs-2021.1.11.0.tar.gz"
+   "sha256":"453b635993923b7b7e885de5d708082683a66afa96cb859060cec84549e93889",
+   "url":"https://pypi.io/packages/source/p/py4xs/py4xs-2021.1.13.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -282,7 +282,7 @@
   }
  },
  "pinning_version":"2021.01.13.15.26.02",
- "raw_meta_yaml":"{% set name = \"py4xs\" %}\n{% set version = \"2021.1.11.0\" %}\n{% set sha256 = \"016155d3932e3966e8a33f690c9a7efe788527edd7de992e12225229a72e01c7\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - fabio\n    - h5py\n    - matplotlib\n    - numpy\n    - pillow\n    - scipy\n\ntest:\n  imports:\n    - py4xs\n\nabout:\n  home: https://pypi.org/project/py4xs\n  license: MIT\n  license_file: LICENSE.txt\n  summary: py4xs - a python package for processing x-ray scattering data\n  dev_url: https://github.com/NSLS-II-LIX/py4xs\n",
+ "raw_meta_yaml":"{% set name = \"py4xs\" %}\n{% set version = \"2021.1.13.0\" %}\n{% set sha256 = \"453b635993923b7b7e885de5d708082683a66afa96cb859060cec84549e93889\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - fabio\n    - h5py\n    - matplotlib\n    - numpy\n    - pillow\n    - scipy\n\ntest:\n  imports:\n    - py4xs\n\nabout:\n  home: https://pypi.org/project/py4xs\n  license: MIT\n  license_file: LICENSE.txt\n  summary: py4xs - a python package for processing x-ray scattering data\n  dev_url: https://github.com/NSLS-II-LIX/py4xs\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -357,7 +357,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/p/py4xs/py4xs-2020.5.15.0.tar.gz",
- "version":"2021.1.11.0",
+ "version":"2021.1.13.0",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/NSLS-II-LIX/py4xs",
@@ -373,7 +373,7 @@
   },
   "package":{
    "name":"py4xs",
-   "version":"2021.1.11.0"
+   "version":"2021.1.13.0"
   },
   "requirements":{
    "host":[
@@ -391,8 +391,8 @@
    ]
   },
   "source":{
-   "sha256":"016155d3932e3966e8a33f690c9a7efe788527edd7de992e12225229a72e01c7",
-   "url":"https://pypi.io/packages/source/p/py4xs/py4xs-2021.1.11.0.tar.gz"
+   "sha256":"453b635993923b7b7e885de5d708082683a66afa96cb859060cec84549e93889",
+   "url":"https://pypi.io/packages/source/p/py4xs/py4xs-2021.1.13.0.tar.gz"
   },
   "test":{
    "imports":[
