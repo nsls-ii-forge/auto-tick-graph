@@ -6910,24 +6910,12 @@
    "target":"napari"
   },
   {
-   "source":"wxmplot",
-   "target":"xraylarch"
-  },
-  {
    "source":"wxpython",
    "target":"wxmplot"
   },
   {
    "source":"wxpython",
    "target":"wxutils"
-  },
-  {
-   "source":"wxpython",
-   "target":"xraylarch"
-  },
-  {
-   "source":"wxutils",
-   "target":"xraylarch"
   },
   {
    "source":"xarray",

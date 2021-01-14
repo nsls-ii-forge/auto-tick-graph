@@ -4,7 +4,6 @@
   "ophyd",
   "xonsh",
   "reportlab",
-  "wxmplot",
   "xraydb",
   "nbclient",
   "openmpi-mpi",
@@ -18,5 +17,6 @@
   "hunter",
   "httpx",
   "pykern",
+  "wxmplot",
   "pdfstream"
 ]
