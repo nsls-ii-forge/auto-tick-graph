@@ -2,6 +2,7 @@
   "errored": [
     "cupy",
     "clang_packages",
+    "intake-xarray",
     "libjpeg-turbo",
     "lz4-c",
     "nexpy",
@@ -10,6 +11,7 @@
   "errors": {
     "clang_packages": "The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '11.0.1' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/llvm/llvm-project/releases/download/llvmorg-{{ version }}/cfe-{{ version }}.src.tar.xz'\n",
     "cupy": "no error information available",
+    "intake-xarray": "no error information available",
     "libjpeg-turbo": "The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '9d' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/{{ name }}/{{ name }}/archive/{{ version }}.tar.gz'\n",
     "lz4-c": "no error information available",
     "nexpy": "no error information available",
