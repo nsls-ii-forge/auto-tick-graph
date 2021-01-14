@@ -33,6 +33,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/555107573.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -251,10 +268,11 @@
   }
  },
  "name":"caproto",
- "new_version":"0.7.0",
+ "new_version":"0.7.1",
  "new_version_attempts":{
   "0.6.0":1,
-  "0.7.0":139
+  "0.7.0":139,
+  "0.7.1":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -348,7 +366,7 @@
    "elements":[]
   }
  },
- "pinning_version":"2020.12.23.19.30.24",
+ "pinning_version":"2021.01.14.14.58.32",
  "raw_meta_yaml":"{% set name = \"caproto\" %}\n{% set version = \"0.7.0\" %}\n{% set sha256 = \"19895ba202d4dc3cc2a26d93bb14d13aac6fac0f952a5cb15d77e9bdab1ee438\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 1\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  entry_points:\n    - caproto-get = caproto.commandline.get:main\n    - caproto-put = caproto.commandline.put:main\n    - caproto-monitor = caproto.commandline.monitor:main\n    - caproto-repeater = caproto.commandline.repeater:main\n    - caproto-shark = caproto.commandline.shark:main\n    - caproto-defaultdict-server = caproto.ioc_examples.pathological.defaultdict_server:main\n    - caproto-spoof-beamline = caproto.ioc_examples.pathological.spoof_beamline:main\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - asks\n    - curio\n    - dpkt\n    - netifaces\n    - numpy\n    - trio\n\ntest:\n  imports:\n    - caproto\n  commands:\n    - caproto-get -h\n    - caproto-get --help\n    - caproto-put --help\n    - caproto-monitor --help\n    - caproto-repeater --help\n    - caproto-shark --help\n    - which caproto-defaultdict-server\n    - which caproto-spoof-beamline\n    - echo -e \"\\n\" | caproto-spoof-beamline & (pid=$! ; sleep 5 ; kill -SIGINT $pid)\n\nabout:\n  home: http://github.com/caproto/caproto\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: a bring-your-own-IO implementation of the EPICS Channel Access protocol in pure Python\n",
  "req":{
   "__set__":true,
@@ -392,7 +410,7 @@
    "elements":[]
   }
  },
- "smithy_version":"3.8.5",
+ "smithy_version":"3.8.6",
  "strong_exports":false,
  "total_requirements":{
   "build":{
