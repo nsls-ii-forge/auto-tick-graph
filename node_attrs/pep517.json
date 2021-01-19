@@ -179,7 +179,7 @@
    "summary":"Wrappers to build Python packages using PEP 517 hooks"
   },
   "build":{
-   "number":0,
+   "number":"0",
    "script":"-m pip install . -vv"
   },
   "package":{
