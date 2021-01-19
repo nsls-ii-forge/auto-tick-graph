@@ -338,7 +338,7 @@
    "summary":"Apache Kafka client for Python; high-level & low-level consumer/producer, with great performance"
   },
   "build":{
-   "number":"0",
+   "number":0,
    "script":" -m pip install . --no-deps -vv"
   },
   "package":{
