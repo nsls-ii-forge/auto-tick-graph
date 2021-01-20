@@ -12,6 +12,7 @@
   "ipympl",
   "napari",
   "nsls2forge-utils",
+  "photutils",
   "eventlet",
   "ispyb",
   "py4xs",
