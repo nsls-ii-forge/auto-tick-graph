@@ -6663,6 +6663,10 @@
   },
   {
    "source":"tabulate",
+   "target":"ispyb"
+  },
+  {
+   "source":"tabulate",
    "target":"nsls2forge-utils"
   },
   {
