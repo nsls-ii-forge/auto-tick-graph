@@ -743,7 +743,7 @@
    "summary":"Analysis metapackage for NSLS-II deployments"
   },
   "build":{
-   "number":0
+   "number":"0"
   },
   "package":{
    "name":"analysis",
