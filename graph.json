@@ -455,6 +455,10 @@
   },
   {
    "source":"c_compiler_stub",
+   "target":"python-gssapi"
+  },
+  {
+   "source":"c_compiler_stub",
    "target":"pyxdameraulevenshtein"
   },
   {
@@ -903,6 +907,10 @@
   },
   {
    "source":"cython",
+   "target":"python-gssapi"
+  },
+  {
+   "source":"cython",
    "target":"pyxdameraulevenshtein"
   },
   {
@@ -1060,6 +1068,10 @@
   {
    "source":"databroker",
    "target":"xpdsim"
+  },
+  {
+   "source":"decorator",
+   "target":"python-gssapi"
   },
   {
    "source":"deprecated",
@@ -1892,6 +1904,10 @@
   {
    "source":"keyring",
    "target":"pyolog"
+  },
+  {
+   "source":"krb5",
+   "target":"python-gssapi"
   },
   {
    "source":"ld64",
@@ -3903,6 +3919,10 @@
   },
   {
    "source":"pip",
+   "target":"python-gssapi"
+  },
+  {
+   "source":"pip",
    "target":"pyxdameraulevenshtein"
   },
   {
@@ -5344,6 +5364,10 @@
   {
    "source":"python",
    "target":"python-confluent-kafka"
+  },
+  {
+   "source":"python",
+   "target":"python-gssapi"
   },
   {
    "source":"python",
@@ -10210,6 +10234,24 @@
    "id":"jedi",
    "payload":{
     "__lazy_json__":"node_attrs/jedi.json"
+   }
+  },
+  {
+   "id":"python-gssapi",
+   "payload":{
+    "__lazy_json__":"node_attrs/python-gssapi.json"
+   }
+  },
+  {
+   "id":"krb5",
+   "payload":{
+    "__lazy_json__":"node_attrs/krb5.json"
+   }
+  },
+  {
+   "id":"decorator",
+   "payload":{
+    "__lazy_json__":"node_attrs/decorator.json"
    }
   }
  ]
