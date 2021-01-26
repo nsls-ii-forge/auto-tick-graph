@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/562056573.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -165,7 +184,11 @@
   }
  },
  "name":"bluesky-live",
- "new_version":"0.0.6",
+ "new_version":"0.0.7",
+ "new_version_attempts":{
+  "0.0.7":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/bluesky/bluesky-live",
@@ -246,6 +269,7 @@
    ]
   }
  },
+ "pinning_version":"2021.01.26.08.41.30",
  "raw_meta_yaml":"{% set name = \"bluesky-live\" %}\n{% set version = \"0.0.6\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: 97722f90e851b8a173ab8d4098646c56be0d362a7c767c788bdb8ab0a1a889d2\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . -vv\"\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - dask[array] >=2\n    - entrypoints\n    - event-model >=1.16.0\n    - numpy\n    - pandas\n    - python\n    - xarray\n\ntest:\n  requires:\n    - pytest\n  imports:\n    - bluesky_live\n    - bluesky_live.tests\n  commands:\n    - pytest --pyargs bluesky_live.tests\n\nabout:\n  home: \"https://github.com/bluesky/bluesky-live\"\n  license: \"BSD (3-clause)\"\n  license_family: BSD\n  license_file: LICENSE\n  summary: \"Prototype building blocks for working with streaming data in bluesky\"\n",
  "req":{
   "__set__":true,
@@ -291,6 +315,7 @@
    ]
   }
  },
+ "smithy_version":"3.8.6",
  "strong_exports":false,
  "total_requirements":{
   "build":{
