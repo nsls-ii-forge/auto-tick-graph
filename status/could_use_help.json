@@ -5,6 +5,7 @@
   "nslsii",
   "xonsh",
   "reportlab",
+  "nest-asyncio",
   "xraydb",
   "nbclient",
   "openmpi-mpi",
