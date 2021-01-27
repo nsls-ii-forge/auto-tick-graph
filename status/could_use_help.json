@@ -18,6 +18,7 @@
   "ispyb",
   "py4xs",
   "hunter",
+  "slack-sdk",
   "httpx",
   "pykern",
   "wxmplot",
