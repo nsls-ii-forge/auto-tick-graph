@@ -50,6 +50,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/563243873.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.9.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -209,13 +226,14 @@
   }
  },
  "name":"ispyb",
- "new_version":"5.9.0",
+ "new_version":"5.9.1",
  "new_version_attempts":{
   "5.7.0":1,
   "5.7.1":154,
   "5.8.0":112,
   "5.8.1":277,
-  "5.9.0":1
+  "5.9.0":1,
+  "5.9.1":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -291,7 +309,7 @@
    "elements":[]
   }
  },
- "pinning_version":"2021.01.15.13.32.18",
+ "pinning_version":"2021.01.27.21.31.49",
  "raw_meta_yaml":"{% set name = \"ispyb\" %}\n{% set version = \"5.9.0\" %}\n{% set sha256 = \"4e6e4fa2199f77f6c58e400171bc5233610473667af25ec2806f855f982c1f16\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/DiamondLightSource/{{ name }}-api/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 1\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n    - pytest-runner\n  run:\n    - python\n    - mysql-connector-python\n    - tabulate\n\ntest:\n  imports:\n    - ispyb\n    - ispyb.connector\n    - ispyb.connector.mysqlsp\n    - ispyb.connector.ws\n    - ispyb.interface\n    - ispyb.sp\n    - ispyb.ws\n\nabout:\n  home: https://github.com/DiamondLightSource/ispyb-api\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE.md\n  summary: Python package to access ISPyB database\n  description: |\n    This package provides a python interface to ISPyB.\n    It can access the ISPyB database directly or (in\n    future versions) run on top of the official ISPyB\n    webservices API.\n  dev_url: https://github.com/DiamondLightSource/ispyb-api\n",
  "req":{
   "__set__":true,
