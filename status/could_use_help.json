@@ -1,4 +1,5 @@
 [
+  "event-model",
   "tifffile",
   "prettytable",
   "ophyd",
