@@ -658,6 +658,10 @@
    "target":"arabic_reshaper"
   },
   {
+   "source":"configparser",
+   "target":"n2snusertools"
+  },
+  {
    "source":"contexter",
    "target":"signalslot"
   },
@@ -1912,6 +1916,10 @@
   {
    "source":"ld64",
    "target":"gfortran_osx-64"
+  },
+  {
+   "source":"ldap3",
+   "target":"n2snusertools"
   },
   {
    "source":"legacy-suitcase",
@@ -3719,6 +3727,10 @@
   },
   {
    "source":"pip",
+   "target":"n2snusertools"
+  },
+  {
+   "source":"pip",
    "target":"napari"
   },
   {
@@ -4212,6 +4224,10 @@
   {
    "source":"prettytable",
    "target":"doct"
+  },
+  {
+   "source":"prettytable",
+   "target":"n2snusertools"
   },
   {
    "source":"progress",
@@ -4746,6 +4762,10 @@
    "target":"analysis"
   },
   {
+   "source":"python-gssapi",
+   "target":"n2snusertools"
+  },
+  {
    "source":"python-lzf",
    "target":"imagecodecs"
   },
@@ -5156,6 +5176,10 @@
   {
    "source":"python",
    "target":"multio"
+  },
+  {
+   "source":"python",
+   "target":"n2snusertools"
   },
   {
    "source":"python",
@@ -10252,6 +10276,18 @@
    "id":"decorator",
    "payload":{
     "__lazy_json__":"node_attrs/decorator.json"
+   }
+  },
+  {
+   "id":"n2snusertools",
+   "payload":{
+    "__lazy_json__":"node_attrs/n2snusertools.json"
+   }
+  },
+  {
+   "id":"ldap3",
+   "payload":{
+    "__lazy_json__":"node_attrs/ldap3.json"
    }
   }
  ]
