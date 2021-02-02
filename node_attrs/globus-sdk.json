@@ -16,6 +16,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/566020220.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -173,9 +190,10 @@
   }
  },
  "name":"globus-sdk",
- "new_version":"1.11.0",
+ "new_version":"2.0.1",
  "new_version_attempts":{
-  "1.11.0":1
+  "1.11.0":1,
+  "2.0.1":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -251,7 +269,7 @@
    "elements":[]
   }
  },
- "pinning_version":"2021.01.27.21.31.49",
+ "pinning_version":"2021.02.02.13.42.52",
  "raw_meta_yaml":"{% set name = \"globus-sdk\" %}\n{% set version = \"1.11.0\" %}\n{% set sha256 = \"b210b00da6ba733f88569f02db1857a63422d8b81517b48e1edfaa4b36615dfa\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - pip\n    - python >=3.6\n  run:\n    - python >=3.6\n    - requests >=2.9.2,<3.0.0\n    - six >=1.10.0,<2.0.0\n    - pyjwt[crypto] >=1.5.3,<2.0.0\n\ntest:\n  imports:\n    - globus_sdk\n    - globus_sdk.auth\n    - globus_sdk.auth.client_types\n    - globus_sdk.authorizers\n    - globus_sdk.transfer\n    - globus_sdk.transfer.response\n\nabout:\n  home: https://github.com/globus/globus-sdk-python\n  license: Apache-2.0\n  license_family: APACHE\n  license_file: LICENSE\n  summary: Globus SDK for Python\n  description: This SDK provides a convenient Pythonic interface to Globus APIs.\n  doc_url: http://globus-sdk-python.readthedocs.io/\n  dev_url: https://github.com/globus/globus-sdk-python\n",
  "req":{
   "__set__":true,
