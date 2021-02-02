@@ -7014,14 +7014,6 @@
    "target":"xicam.xpcs"
   },
   {
-   "source":"xlrd",
-   "target":"analysis"
-  },
-  {
-   "source":"xlwt",
-   "target":"analysis"
-  },
-  {
    "source":"xonsh",
    "target":"nsls2forge-utils"
   },
