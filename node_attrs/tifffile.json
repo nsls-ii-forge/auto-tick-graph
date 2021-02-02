@@ -205,7 +205,7 @@
   }
  },
  "name":"tifffile",
- "new_version":"2021.1.14",
+ "new_version":"2021.2.1",
  "new_version_attempts":{
   "2020.8.13":1,
   "2020.8.25":1,
