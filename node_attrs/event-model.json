@@ -76,7 +76,7 @@
   },
   "package":{
    "name":"event-model",
-   "version":"1.17.0"
+   "version":"1.17.1"
   },
   "requirements":{
    "host":[
@@ -90,8 +90,8 @@
    ]
   },
   "source":{
-   "sha256":"fb8a1c1fb591b135f50ff204cf7ea68ebad81f150cc26016728d480746c00a4a",
-   "url":"https://pypi.io/packages/source/e/event-model/event-model-1.17.0.tar.gz"
+   "sha256":"6a21de06b4f63ac4882bfa70f6ef39ac987f1cc537489944209c59b5202a87b3",
+   "url":"https://pypi.io/packages/source/e/event-model/event-model-1.17.1.tar.gz"
   },
   "test":{
    "commands":[
@@ -146,7 +146,7 @@
   },
   "package":{
    "name":"event-model",
-   "version":"1.17.0"
+   "version":"1.17.1"
   },
   "requirements":{
    "host":[
@@ -170,8 +170,8 @@
    ]
   },
   "source":{
-   "sha256":"fb8a1c1fb591b135f50ff204cf7ea68ebad81f150cc26016728d480746c00a4a",
-   "url":"https://pypi.io/packages/source/e/event-model/event-model-1.17.0.tar.gz"
+   "sha256":"6a21de06b4f63ac4882bfa70f6ef39ac987f1cc537489944209c59b5202a87b3",
+   "url":"https://pypi.io/packages/source/e/event-model/event-model-1.17.1.tar.gz"
   },
   "test":{
    "commands":[
@@ -213,7 +213,7 @@
   },
   "package":{
    "name":"event-model",
-   "version":"1.17.0"
+   "version":"1.17.1"
   },
   "requirements":{
    "host":[
@@ -227,8 +227,8 @@
    ]
   },
   "source":{
-   "sha256":"fb8a1c1fb591b135f50ff204cf7ea68ebad81f150cc26016728d480746c00a4a",
-   "url":"https://pypi.io/packages/source/e/event-model/event-model-1.17.0.tar.gz"
+   "sha256":"6a21de06b4f63ac4882bfa70f6ef39ac987f1cc537489944209c59b5202a87b3",
+   "url":"https://pypi.io/packages/source/e/event-model/event-model-1.17.1.tar.gz"
   },
   "test":{
    "commands":[
@@ -270,7 +270,7 @@
   }
  },
  "pinning_version":"2021.01.29.20.41.28",
- "raw_meta_yaml":"{% set name = \"event-model\" %}\n{% set version = \"1.17.0\" %}\n{% set sha256 = \"fb8a1c1fb591b135f50ff204cf7ea68ebad81f150cc26016728d480746c00a4a\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - jsonschema\n    - numpy\n\ntest:\n  requires:\n    - pytest\n  imports:\n    - event_model\n  commands:\n    - pytest --pyargs event_model.tests\n\nabout:\n  home: https://github.com/bluesky/event-model\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: Data model for event-based data collection and analysis\n",
+ "raw_meta_yaml":"{% set name = \"event-model\" %}\n{% set version = \"1.17.1\" %}\n{% set sha256 = \"6a21de06b4f63ac4882bfa70f6ef39ac987f1cc537489944209c59b5202a87b3\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - jsonschema\n    - numpy\n\ntest:\n  requires:\n    - pytest\n  imports:\n    - event_model\n  commands:\n    - pytest --pyargs event_model.tests\n\nabout:\n  home: https://github.com/bluesky/event-model\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: Data model for event-based data collection and analysis\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -337,7 +337,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/e/event-model/event-model-1.15.2.tar.gz",
- "version":"1.17.0",
+ "version":"1.17.1",
  "win_64_meta_yaml":{
   "about":{
    "home":"https://github.com/bluesky/event-model",
@@ -352,7 +352,7 @@
   },
   "package":{
    "name":"event-model",
-   "version":"1.17.0"
+   "version":"1.17.1"
   },
   "requirements":{
    "host":[
@@ -366,8 +366,8 @@
    ]
   },
   "source":{
-   "sha256":"fb8a1c1fb591b135f50ff204cf7ea68ebad81f150cc26016728d480746c00a4a",
-   "url":"https://pypi.io/packages/source/e/event-model/event-model-1.17.0.tar.gz"
+   "sha256":"6a21de06b4f63ac4882bfa70f6ef39ac987f1cc537489944209c59b5202a87b3",
+   "url":"https://pypi.io/packages/source/e/event-model/event-model-1.17.1.tar.gz"
   },
   "test":{
    "commands":[
