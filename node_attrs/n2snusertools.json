@@ -16,6 +16,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/568866575.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -186,9 +203,10 @@
   }
  },
  "name":"n2snusertools",
- "new_version":"0.2.2",
+ "new_version":"0.2.4",
  "new_version_attempts":{
-  "0.2.2":1
+  "0.2.2":1,
+  "0.2.4":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -267,7 +285,7 @@
    "elements":[]
   }
  },
- "pinning_version":"2021.02.04.12.49.47",
+ "pinning_version":"2021.02.06.20.05.27",
  "raw_meta_yaml":"{% set name = \"N2SNUserTools\" %}\n{% set version = \"0.2.2\" %}\n{% set sha256 = \"552556c1faf2e3975db79e528b6ace8b7ccc035a8674eeb736953edb56c617b9\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  entry_points:\n    - n2sn_add_offline_user = N2SNUserTools.cli:n2sn_add_offline_user\n    - n2sn_add_user = N2SNUserTools.cli:n2sn_add_user\n    - n2sn_list_offline_users = N2SNUserTools.cli:n2sn_list_offline_users\n    - n2sn_list_staff = N2SNUserTools.cli:n2sn_list_staff\n    - n2sn_list_users = N2SNUserTools.cli:n2sn_list_users\n    - n2sn_remove_offline_user = N2SNUserTools.cli:n2sn_remove_offline_user\n    - n2sn_remove_user = N2SNUserTools.cli:n2sn_remove_user\n    - n2sn_search_user = N2SNUserTools.cli:n2sn_search_user\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - ldap3\n    - prettytable\n    - configparser\n    - python-gssapi\n\ntest:\n  imports:\n    - N2SNUserTools\n\nabout:\n  home: https://github.com/nsls-ii/N2SNUserTools\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: User tools for the NSLS-II Science Network\n",
  "req":{
   "__set__":true,
