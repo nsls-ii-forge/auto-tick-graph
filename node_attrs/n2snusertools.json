@@ -69,7 +69,7 @@
   },
   "package":{
    "name":"n2snusertools",
-   "version":"0.2.2"
+   "version":"0.2.4"
   },
   "requirements":{
    "host":[
@@ -85,8 +85,8 @@
    ]
   },
   "source":{
-   "sha256":"552556c1faf2e3975db79e528b6ace8b7ccc035a8674eeb736953edb56c617b9",
-   "url":"https://pypi.io/packages/source/N/N2SNUserTools/N2SNUserTools-0.2.2.tar.gz"
+   "sha256":"a96547f1547ed19f6daba369d51f965c7d5078ba14082cf3d5ae8ddc2974b79d",
+   "url":"https://pypi.io/packages/source/N/N2SNUserTools/N2SNUserTools-0.2.4.tar.gz"
   },
   "test":{
    "imports":[
@@ -161,7 +161,7 @@
   },
   "package":{
    "name":"n2snusertools",
-   "version":"0.2.2"
+   "version":"0.2.4"
   },
   "requirements":{
    "host":[
@@ -191,8 +191,8 @@
    ]
   },
   "source":{
-   "sha256":"552556c1faf2e3975db79e528b6ace8b7ccc035a8674eeb736953edb56c617b9",
-   "url":"https://pypi.io/packages/source/N/N2SNUserTools/N2SNUserTools-0.2.2.tar.gz"
+   "sha256":"a96547f1547ed19f6daba369d51f965c7d5078ba14082cf3d5ae8ddc2974b79d",
+   "url":"https://pypi.io/packages/source/N/N2SNUserTools/N2SNUserTools-0.2.4.tar.gz"
   },
   "test":{
    "imports":[
@@ -233,7 +233,7 @@
   },
   "package":{
    "name":"n2snusertools",
-   "version":"0.2.2"
+   "version":"0.2.4"
   },
   "requirements":{
    "host":[
@@ -249,8 +249,8 @@
    ]
   },
   "source":{
-   "sha256":"552556c1faf2e3975db79e528b6ace8b7ccc035a8674eeb736953edb56c617b9",
-   "url":"https://pypi.io/packages/source/N/N2SNUserTools/N2SNUserTools-0.2.2.tar.gz"
+   "sha256":"a96547f1547ed19f6daba369d51f965c7d5078ba14082cf3d5ae8ddc2974b79d",
+   "url":"https://pypi.io/packages/source/N/N2SNUserTools/N2SNUserTools-0.2.4.tar.gz"
   },
   "test":{
    "imports":[
@@ -286,7 +286,7 @@
   }
  },
  "pinning_version":"2021.02.06.20.05.27",
- "raw_meta_yaml":"{% set name = \"N2SNUserTools\" %}\n{% set version = \"0.2.2\" %}\n{% set sha256 = \"552556c1faf2e3975db79e528b6ace8b7ccc035a8674eeb736953edb56c617b9\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  entry_points:\n    - n2sn_add_offline_user = N2SNUserTools.cli:n2sn_add_offline_user\n    - n2sn_add_user = N2SNUserTools.cli:n2sn_add_user\n    - n2sn_list_offline_users = N2SNUserTools.cli:n2sn_list_offline_users\n    - n2sn_list_staff = N2SNUserTools.cli:n2sn_list_staff\n    - n2sn_list_users = N2SNUserTools.cli:n2sn_list_users\n    - n2sn_remove_offline_user = N2SNUserTools.cli:n2sn_remove_offline_user\n    - n2sn_remove_user = N2SNUserTools.cli:n2sn_remove_user\n    - n2sn_search_user = N2SNUserTools.cli:n2sn_search_user\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - ldap3\n    - prettytable\n    - configparser\n    - python-gssapi\n\ntest:\n  imports:\n    - N2SNUserTools\n\nabout:\n  home: https://github.com/nsls-ii/N2SNUserTools\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: User tools for the NSLS-II Science Network\n",
+ "raw_meta_yaml":"{% set name = \"N2SNUserTools\" %}\n{% set version = \"0.2.4\" %}\n{% set sha256 = \"a96547f1547ed19f6daba369d51f965c7d5078ba14082cf3d5ae8ddc2974b79d\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  entry_points:\n    - n2sn_add_offline_user = N2SNUserTools.cli:n2sn_add_offline_user\n    - n2sn_add_user = N2SNUserTools.cli:n2sn_add_user\n    - n2sn_list_offline_users = N2SNUserTools.cli:n2sn_list_offline_users\n    - n2sn_list_staff = N2SNUserTools.cli:n2sn_list_staff\n    - n2sn_list_users = N2SNUserTools.cli:n2sn_list_users\n    - n2sn_remove_offline_user = N2SNUserTools.cli:n2sn_remove_offline_user\n    - n2sn_remove_user = N2SNUserTools.cli:n2sn_remove_user\n    - n2sn_search_user = N2SNUserTools.cli:n2sn_search_user\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - ldap3\n    - prettytable\n    - configparser\n    - python-gssapi\n\ntest:\n  imports:\n    - N2SNUserTools\n\nabout:\n  home: https://github.com/nsls-ii/N2SNUserTools\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: User tools for the NSLS-II Science Network\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -355,7 +355,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/N/N2SNUserTools/N2SNUserTools-0.2.1.tar.gz",
- "version":"0.2.2",
+ "version":"0.2.4",
  "win_64_meta_yaml":{
   "about":{
    "home":"https://github.com/nsls-ii/N2SNUserTools",
@@ -380,7 +380,7 @@
   },
   "package":{
    "name":"n2snusertools",
-   "version":"0.2.2"
+   "version":"0.2.4"
   },
   "requirements":{
    "host":[
@@ -396,8 +396,8 @@
    ]
   },
   "source":{
-   "sha256":"552556c1faf2e3975db79e528b6ace8b7ccc035a8674eeb736953edb56c617b9",
-   "url":"https://pypi.io/packages/source/N/N2SNUserTools/N2SNUserTools-0.2.2.tar.gz"
+   "sha256":"a96547f1547ed19f6daba369d51f965c7d5078ba14082cf3d5ae8ddc2974b79d",
+   "url":"https://pypi.io/packages/source/N/N2SNUserTools/N2SNUserTools-0.2.4.tar.gz"
   },
   "test":{
    "imports":[

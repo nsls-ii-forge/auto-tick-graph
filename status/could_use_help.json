@@ -3,6 +3,7 @@
   "tifffile",
   "prettytable",
   "ophyd",
+  "anyio",
   "nslsii",
   "xonsh",
   "reportlab",
