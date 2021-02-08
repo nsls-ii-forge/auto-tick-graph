@@ -575,6 +575,10 @@
   },
   {
    "source":"clang_packages",
+   "target":"autotools_clang_conda"
+  },
+  {
+   "source":"clang_packages",
    "target":"clang_packages"
   },
   {
@@ -596,6 +600,10 @@
   {
    "source":"cmake",
    "target":"arpack-mpi"
+  },
+  {
+   "source":"cmake",
+   "target":"autotools_clang_conda"
   },
   {
    "source":"cmake",
@@ -1998,6 +2006,10 @@
    "target":"collection"
   },
   {
+   "source":"lld",
+   "target":"autotools_clang_conda"
+  },
+  {
    "source":"llvm-openmp",
    "target":"csxtools"
   },
@@ -2012,6 +2024,10 @@
   {
    "source":"llvm-openmp",
    "target":"scikit-learn"
+  },
+  {
+   "source":"llvm-package",
+   "target":"autotools_clang_conda"
   },
   {
    "source":"llvm-package",
@@ -2082,6 +2098,14 @@
    "target":"imagecodecs"
   },
   {
+   "source":"m2-autoconf",
+   "target":"autotools_clang_conda"
+  },
+  {
+   "source":"m2-automake-wrapper",
+   "target":"autotools_clang_conda"
+  },
+  {
    "source":"m2-base",
    "target":"icu"
   },
@@ -2099,6 +2123,10 @@
   },
   {
    "source":"m2-findutils",
+   "target":"autotools_clang_conda"
+  },
+  {
+   "source":"m2-findutils",
    "target":"xraylib"
   },
   {
@@ -2108,6 +2136,18 @@
   {
    "source":"m2-grep",
    "target":"xraylib"
+  },
+  {
+   "source":"m2-libtool",
+   "target":"autotools_clang_conda"
+  },
+  {
+   "source":"m2-m4",
+   "target":"autotools_clang_conda"
+  },
+  {
+   "source":"m2-make",
+   "target":"autotools_clang_conda"
   },
   {
    "source":"m2-make",
@@ -4208,6 +4248,10 @@
   {
    "source":"pluggy",
    "target":"napari"
+  },
+  {
+   "source":"posix",
+   "target":"autotools_clang_conda"
   },
   {
    "source":"ppmac",
@@ -10280,6 +10324,48 @@
    "id":"ldap3",
    "payload":{
     "__lazy_json__":"node_attrs/ldap3.json"
+   }
+  },
+  {
+   "id":"autotools_clang_conda",
+   "payload":{
+    "__lazy_json__":"node_attrs/autotools_clang_conda.json"
+   }
+  },
+  {
+   "id":"posix",
+   "payload":{
+    "__lazy_json__":"node_attrs/posix.json"
+   }
+  },
+  {
+   "id":"lld",
+   "payload":{
+    "__lazy_json__":"node_attrs/lld.json"
+   }
+  },
+  {
+   "id":"m2-automake-wrapper",
+   "payload":{
+    "__lazy_json__":"node_attrs/m2-automake-wrapper.json"
+   }
+  },
+  {
+   "id":"m2-autoconf",
+   "payload":{
+    "__lazy_json__":"node_attrs/m2-autoconf.json"
+   }
+  },
+  {
+   "id":"m2-m4",
+   "payload":{
+    "__lazy_json__":"node_attrs/m2-m4.json"
+   }
+  },
+  {
+   "id":"m2-libtool",
+   "payload":{
+    "__lazy_json__":"node_attrs/m2-libtool.json"
    }
   }
  ]
