@@ -159,10 +159,11 @@
   }
  },
  "name":"pyxdameraulevenshtein",
- "new_version":"1.6.2",
+ "new_version":"1.7.0",
  "new_version_attempts":{
   "1.6.1":1,
-  "1.6.2":2
+  "1.6.2":2,
+  "1.7.0":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
