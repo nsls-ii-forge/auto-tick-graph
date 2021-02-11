@@ -215,12 +215,12 @@
   }
  },
  "name":"librdkafka",
- "new_version":"1.6.1-E4444",
+ "new_version":"1.6.0",
  "new_version_attempts":{
   "1.2.2":1,
   "1.5.2":5,
   "1.5.3":1,
-  "1.6.0":145,
+  "1.6.0":146,
   "1.6.1-E4444":1
  },
  "new_version_errors":{},
