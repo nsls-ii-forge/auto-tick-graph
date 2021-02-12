@@ -666,10 +666,6 @@
    "target":"arabic_reshaper"
   },
   {
-   "source":"configparser",
-   "target":"n2snusertools"
-  },
-  {
    "source":"contexter",
    "target":"signalslot"
   },

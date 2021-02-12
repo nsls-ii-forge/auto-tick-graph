@@ -26,5 +26,6 @@
   "httpx",
   "pykern",
   "wxmplot",
-  "pdfstream"
+  "pdfstream",
+  "n2snusertools"
 ]
