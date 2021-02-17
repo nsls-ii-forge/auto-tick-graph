@@ -251,7 +251,11 @@
   }
  },
  "name":"intake",
- "new_version":"0.6.0",
+ "new_version":"0.6.1",
+ "new_version_attempts":{
+  "0.6.1":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/intake/intake",
