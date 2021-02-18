@@ -48,7 +48,7 @@
   },
   "package":{
    "name":"pyxrf",
-   "version":"1.0.2"
+   "version":"1.0.3"
   },
   "requirements":{
    "host":[
@@ -84,8 +84,8 @@
    ]
   },
   "source":{
-   "sha256":"0e4c000392e70ec04aa38492f8a4868532eae4dfc09e965d1eb5f389f48c94c9",
-   "url":"https://pypi.io/packages/source/p/pyxrf/pyxrf-1.0.2.tar.gz"
+   "sha256":"5a9cf5204cec4acce4345ac0a6b859c56b1098e7daf09c4547939144ba113883",
+   "url":"https://pypi.io/packages/source/p/pyxrf/pyxrf-1.0.3.tar.gz"
   },
   "test":{
    "imports":[
@@ -185,7 +185,7 @@
   },
   "package":{
    "name":"pyxrf",
-   "version":"1.0.2"
+   "version":"1.0.3"
   },
   "requirements":{
    "host":[
@@ -275,8 +275,8 @@
    ]
   },
   "source":{
-   "sha256":"0e4c000392e70ec04aa38492f8a4868532eae4dfc09e965d1eb5f389f48c94c9",
-   "url":"https://pypi.io/packages/source/p/pyxrf/pyxrf-1.0.2.tar.gz"
+   "sha256":"5a9cf5204cec4acce4345ac0a6b859c56b1098e7daf09c4547939144ba113883",
+   "url":"https://pypi.io/packages/source/p/pyxrf/pyxrf-1.0.3.tar.gz"
   },
   "test":{
    "imports":[
@@ -356,7 +356,7 @@
   }
  },
  "name":"pyxrf",
- "new_version":"1.0.2",
+ "new_version":"1.0.3",
  "new_version_attempts":{
   "1.0.0":1,
   "1.0.2":3
@@ -382,7 +382,7 @@
   },
   "package":{
    "name":"pyxrf",
-   "version":"1.0.2"
+   "version":"1.0.3"
   },
   "requirements":{
    "host":[
@@ -418,8 +418,8 @@
    ]
   },
   "source":{
-   "sha256":"0e4c000392e70ec04aa38492f8a4868532eae4dfc09e965d1eb5f389f48c94c9",
-   "url":"https://pypi.io/packages/source/p/pyxrf/pyxrf-1.0.2.tar.gz"
+   "sha256":"5a9cf5204cec4acce4345ac0a6b859c56b1098e7daf09c4547939144ba113883",
+   "url":"https://pypi.io/packages/source/p/pyxrf/pyxrf-1.0.3.tar.gz"
   },
   "test":{
    "imports":[
@@ -498,7 +498,7 @@
   }
  },
  "pinning_version":"2020.08.29.21.09.48",
- "raw_meta_yaml":"{% set name = \"pyxrf\" %}\n{% set version = \"1.0.2\" %}\n{% set sha256 = \"0e4c000392e70ec04aa38492f8a4868532eae4dfc09e965d1eb5f389f48c94c9\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  entry_points:\n    - pyxrf = pyxrf.pyxrf_run:run\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - atom ==0.4.3\n    - dask\n    - distributed\n    - h5py >=2.9.0\n    - ipywidgets\n    - jsonschema\n    - jupyter\n    - lmfit >=0.8.3\n    - matplotlib <=3.2.2\n    - numba\n    - numpy\n    - pandas\n    - pillow\n    - progress\n    - pyqt >=5.9.2\n    - qtpy >=1.9.0\n    - pystackreg\n    - pyyaml\n    - requests\n    - scikit-beam >=0.0.24\n    - scikit-image\n    - scipy\n    - six\n    - tifffile\n\ntest:\n  imports:\n    - pyxrf\n    # - pyxrf.api\n    - pyxrf.api_dev\n    - pyxrf.core.fitting\n    - pyxrf.core.quant_analysis\n    - pyxrf.core.utils\n    - pyxrf.core.xrf_utils\n    - pyxrf.core.yaml_param_files\n    - pyxrf.gui_module\n    - pyxrf.gui_support\n    - pyxrf.model\n    - pyxrf.model.command_tools\n    - pyxrf.model.data_to_analysis_store\n    - pyxrf.model.draw_image\n    - pyxrf.model.draw_image_rgb\n    - pyxrf.model.fileio\n    - pyxrf.model.fit_spectrum\n    - pyxrf.model.lineplot\n    - pyxrf.model.load_data_from_db\n    - pyxrf.model.param_data\n    - pyxrf.model.parameters\n    - pyxrf.model.roi_model\n    - pyxrf.model.scan_metadata\n    - pyxrf.simulation.sim_xrf_scan_data\n    - pyxrf.xanes_maps.xanes_maps_api\n\nabout:\n  home: https://github.com/NSLS-II/PyXRF\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Python-based sophisticated fluorescence analysis package for fitting and visualizing X-ray fluorescence data\n  dev_url: https://github.com/NSLS-II/PyXRF\n  doc_url: http://nsls-ii.github.io/PyXRF\n",
+ "raw_meta_yaml":"{% set name = \"pyxrf\" %}\n{% set version = \"1.0.3\" %}\n{% set sha256 = \"5a9cf5204cec4acce4345ac0a6b859c56b1098e7daf09c4547939144ba113883\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  entry_points:\n    - pyxrf = pyxrf.pyxrf_run:run\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - atom ==0.4.3\n    - dask\n    - distributed\n    - h5py >=2.9.0\n    - ipywidgets\n    - jsonschema\n    - jupyter\n    - lmfit >=0.8.3\n    - matplotlib <=3.2.2\n    - numba\n    - numpy\n    - pandas\n    - pillow\n    - progress\n    - pyqt >=5.9.2\n    - qtpy >=1.9.0\n    - pystackreg\n    - pyyaml\n    - requests\n    - scikit-beam >=0.0.24\n    - scikit-image\n    - scipy\n    - six\n    - tifffile\n\ntest:\n  imports:\n    - pyxrf\n    # - pyxrf.api\n    - pyxrf.api_dev\n    - pyxrf.core.fitting\n    - pyxrf.core.quant_analysis\n    - pyxrf.core.utils\n    - pyxrf.core.xrf_utils\n    - pyxrf.core.yaml_param_files\n    - pyxrf.gui_module\n    - pyxrf.gui_support\n    - pyxrf.model\n    - pyxrf.model.command_tools\n    - pyxrf.model.data_to_analysis_store\n    - pyxrf.model.draw_image\n    - pyxrf.model.draw_image_rgb\n    - pyxrf.model.fileio\n    - pyxrf.model.fit_spectrum\n    - pyxrf.model.lineplot\n    - pyxrf.model.load_data_from_db\n    - pyxrf.model.param_data\n    - pyxrf.model.parameters\n    - pyxrf.model.roi_model\n    - pyxrf.model.scan_metadata\n    - pyxrf.simulation.sim_xrf_scan_data\n    - pyxrf.xanes_maps.xanes_maps_api\n\nabout:\n  home: https://github.com/NSLS-II/PyXRF\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Python-based sophisticated fluorescence analysis package for fitting and visualizing X-ray fluorescence data\n  dev_url: https://github.com/NSLS-II/PyXRF\n  doc_url: http://nsls-ii.github.io/PyXRF\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -627,7 +627,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/p/pyxrf/pyxrf-0.0.31.tar.gz",
- "version":"1.0.2",
+ "version":"1.0.3",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/NSLS-II/PyXRF",
@@ -648,7 +648,7 @@
   },
   "package":{
    "name":"pyxrf",
-   "version":"1.0.2"
+   "version":"1.0.3"
   },
   "requirements":{
    "host":[
@@ -684,8 +684,8 @@
    ]
   },
   "source":{
-   "sha256":"0e4c000392e70ec04aa38492f8a4868532eae4dfc09e965d1eb5f389f48c94c9",
-   "url":"https://pypi.io/packages/source/p/pyxrf/pyxrf-1.0.2.tar.gz"
+   "sha256":"5a9cf5204cec4acce4345ac0a6b859c56b1098e7daf09c4547939144ba113883",
+   "url":"https://pypi.io/packages/source/p/pyxrf/pyxrf-1.0.3.tar.gz"
   },
   "test":{
    "imports":[
