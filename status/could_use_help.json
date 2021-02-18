@@ -2,6 +2,7 @@
   "event-model",
   "tifffile",
   "prettytable",
+  "databroker",
   "asteval",
   "ophyd",
   "anyio",
