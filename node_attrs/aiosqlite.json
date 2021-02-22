@@ -61,7 +61,7 @@
   },
   "package":{
    "name":"aiosqlite",
-   "version":"0.16.1"
+   "version":"0.17.0"
   },
   "requirements":{
    "host":[
@@ -76,8 +76,8 @@
    ]
   },
   "source":{
-   "sha256":"2e915463164efa65b60fd1901aceca829b6090082f03082618afca6fb9c8fdf7",
-   "url":"https://pypi.io/packages/source/a/aiosqlite/aiosqlite-0.16.1.tar.gz"
+   "sha256":"f0e6acc24bc4864149267ac82fb46dfb3be4455f99fe21df82609cc6e6baee51",
+   "url":"https://pypi.io/packages/source/a/aiosqlite/aiosqlite-0.17.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -135,7 +135,7 @@
   },
   "package":{
    "name":"aiosqlite",
-   "version":"0.16.1"
+   "version":"0.17.0"
   },
   "requirements":{
    "host":[
@@ -162,8 +162,8 @@
    ]
   },
   "source":{
-   "sha256":"2e915463164efa65b60fd1901aceca829b6090082f03082618afca6fb9c8fdf7",
-   "url":"https://pypi.io/packages/source/a/aiosqlite/aiosqlite-0.16.1.tar.gz"
+   "sha256":"f0e6acc24bc4864149267ac82fb46dfb3be4455f99fe21df82609cc6e6baee51",
+   "url":"https://pypi.io/packages/source/a/aiosqlite/aiosqlite-0.17.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -206,7 +206,7 @@
   },
   "package":{
    "name":"aiosqlite",
-   "version":"0.16.1"
+   "version":"0.17.0"
   },
   "requirements":{
    "host":[
@@ -221,8 +221,8 @@
    ]
   },
   "source":{
-   "sha256":"2e915463164efa65b60fd1901aceca829b6090082f03082618afca6fb9c8fdf7",
-   "url":"https://pypi.io/packages/source/a/aiosqlite/aiosqlite-0.16.1.tar.gz"
+   "sha256":"f0e6acc24bc4864149267ac82fb46dfb3be4455f99fe21df82609cc6e6baee51",
+   "url":"https://pypi.io/packages/source/a/aiosqlite/aiosqlite-0.17.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -265,7 +265,7 @@
   }
  },
  "pinning_version":"2021.02.21.18.29.10",
- "raw_meta_yaml":"{% set name = \"aiosqlite\" %}\n{% set version = \"0.16.1\" %}\n{% set sha256 = \"2e915463164efa65b60fd1901aceca829b6090082f03082618afca6fb9c8fdf7\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n    - flit-core >=2,<4\n    - typing-extensions >=3.7.2\n  run:\n    - python >=3.6\n    - typing-extensions >=3.7.2\n\ntest:\n  requires:\n    - pip\n  commands:\n    - pip check\n  imports:\n    - aiosqlite\n\nabout:\n  home: https://github.com/omnilib/aiosqlite\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: asyncio bridge to the standard sqlite3 module\n  dev_url: https://github.com/omnilib/aiosqlite\n",
+ "raw_meta_yaml":"{% set name = \"aiosqlite\" %}\n{% set version = \"0.17.0\" %}\n{% set sha256 = \"f0e6acc24bc4864149267ac82fb46dfb3be4455f99fe21df82609cc6e6baee51\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n    - flit-core >=2,<4\n    - typing-extensions >=3.7.2\n  run:\n    - python >=3.6\n    - typing-extensions >=3.7.2\n\ntest:\n  requires:\n    - pip\n  commands:\n    - pip check\n  imports:\n    - aiosqlite\n\nabout:\n  home: https://github.com/omnilib/aiosqlite\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: asyncio bridge to the standard sqlite3 module\n  dev_url: https://github.com/omnilib/aiosqlite\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -334,7 +334,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/a/aiosqlite/aiosqlite-0.16.0.tar.gz",
- "version":"0.16.1",
+ "version":"0.17.0",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/omnilib/aiosqlite",
@@ -351,7 +351,7 @@
   },
   "package":{
    "name":"aiosqlite",
-   "version":"0.16.1"
+   "version":"0.17.0"
   },
   "requirements":{
    "host":[
@@ -366,8 +366,8 @@
    ]
   },
   "source":{
-   "sha256":"2e915463164efa65b60fd1901aceca829b6090082f03082618afca6fb9c8fdf7",
-   "url":"https://pypi.io/packages/source/a/aiosqlite/aiosqlite-0.16.1.tar.gz"
+   "sha256":"f0e6acc24bc4864149267ac82fb46dfb3be4455f99fe21df82609cc6e6baee51",
+   "url":"https://pypi.io/packages/source/a/aiosqlite/aiosqlite-0.17.0.tar.gz"
   },
   "test":{
    "commands":[
