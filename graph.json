@@ -2343,6 +2343,10 @@
   },
   {
    "source":"matplotlib",
+   "target":"lixtools"
+  },
+  {
+   "source":"matplotlib",
    "target":"modestimage"
   },
   {
@@ -2859,6 +2863,10 @@
   },
   {
    "source":"numpy",
+   "target":"lixtools"
+  },
+  {
+   "source":"numpy",
    "target":"lmfit"
   },
   {
@@ -3107,6 +3115,10 @@
   },
   {
    "source":"openpyxl",
+   "target":"lixtools"
+  },
+  {
+   "source":"openpyxl",
    "target":"xpdacq"
   },
   {
@@ -3204,6 +3216,10 @@
   {
    "source":"pandas",
    "target":"hxntools"
+  },
+  {
+   "source":"pandas",
+   "target":"lixtools"
   },
   {
    "source":"pandas",
@@ -3340,6 +3356,10 @@
   {
    "source":"pillow",
    "target":"analysis"
+  },
+  {
+   "source":"pillow",
+   "target":"lixtools"
   },
   {
    "source":"pillow",
@@ -3732,6 +3752,10 @@
   {
    "source":"pip",
    "target":"legacy-suitcase"
+  },
+  {
+   "source":"pip",
+   "target":"lixtools"
   },
   {
    "source":"pip",
@@ -4311,6 +4335,10 @@
   },
   {
    "source":"py4xs",
+   "target":"lixtools"
+  },
+  {
+   "source":"py4xs",
    "target":"nsls2-analysis"
   },
   {
@@ -4790,6 +4818,10 @@
    "target":"xraydb"
   },
   {
+   "source":"python-barcode",
+   "target":"lixtools"
+  },
+  {
    "source":"python-bidi",
    "target":"xhtml2pdf"
   },
@@ -5196,6 +5228,10 @@
   {
    "source":"python",
    "target":"legacy-suitcase"
+  },
+  {
+   "source":"python",
+   "target":"lixtools"
   },
   {
    "source":"python",
@@ -5828,6 +5864,10 @@
   {
    "source":"qdarkstyle",
    "target":"xicam"
+  },
+  {
+   "source":"qrcode",
+   "target":"lixtools"
   },
   {
    "source":"qt5reactor",
@@ -7092,6 +7132,10 @@
   {
    "source":"xicam.saxs",
    "target":"xicam.xpcs"
+  },
+  {
+   "source":"xlrd",
+   "target":"lixtools"
   },
   {
    "source":"xonsh",
@@ -10414,6 +10458,12 @@
    "id":"qrcode",
    "payload":{
     "__lazy_json__":"node_attrs/qrcode.json"
+   }
+  },
+  {
+   "id":"lixtools",
+   "payload":{
+    "__lazy_json__":"node_attrs/lixtools.json"
    }
   }
  ]
