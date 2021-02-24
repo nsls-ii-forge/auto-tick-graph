@@ -20,7 +20,7 @@
     "dpkt": "no error information available",
     "fire": "no error information available",
     "intake": "no error information available",
-    "intake-xarray": "no error information available",
+    "intake-xarray": "The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '0.4.1' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://pypi.io/packages/source/i/intake-xarray/intake-xarray-{{ version }}.tar.gz'\n",
     "libjpeg-turbo": "The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '9d' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/{{ name }}/{{ name }}/archive/{{ version }}.tar.gz'\n",
     "librdkafka": "no error information available",
     "lmfit": "no error information available",
