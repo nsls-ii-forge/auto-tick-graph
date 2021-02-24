@@ -658,6 +658,10 @@
    "target":"mendeleev"
   },
   {
+   "source":"colorama",
+   "target":"qrcode"
+  },
+  {
    "source":"conda-pack",
    "target":"analysis"
   },
@@ -3995,6 +3999,10 @@
   },
   {
    "source":"pip",
+   "target":"qrcode"
+  },
+  {
+   "source":"pip",
    "target":"qt5reactor"
   },
   {
@@ -5463,6 +5471,10 @@
   },
   {
    "source":"python",
+   "target":"qrcode"
+  },
+  {
+   "source":"python",
    "target":"qt5reactor"
   },
   {
@@ -6387,6 +6399,10 @@
   },
   {
    "source":"setuptools",
+   "target":"qrcode"
+  },
+  {
+   "source":"setuptools",
    "target":"qulacs"
   },
   {
@@ -6520,6 +6536,10 @@
   {
    "source":"six",
    "target":"pyxrf"
+  },
+  {
+   "source":"six",
+   "target":"qrcode"
   },
   {
    "source":"six",
@@ -10388,6 +10408,12 @@
    "id":"python-barcode",
    "payload":{
     "__lazy_json__":"node_attrs/python-barcode.json"
+   }
+  },
+  {
+   "id":"qrcode",
+   "payload":{
+    "__lazy_json__":"node_attrs/qrcode.json"
    }
   }
  ]
