@@ -137,7 +137,7 @@
    "summary":"Fine Free File Command"
   },
   "build":{
-   "number":"0"
+   "number":0
   },
   "package":{
    "name":"file",
