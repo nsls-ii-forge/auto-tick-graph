@@ -3351,6 +3351,10 @@
   },
   {
    "source":"pillow",
+   "target":"python-barcode"
+  },
+  {
+   "source":"pillow",
    "target":"pyxrf"
   },
   {
@@ -3956,6 +3960,10 @@
   {
    "source":"pip",
    "target":"pytest-qt"
+  },
+  {
+   "source":"pip",
+   "target":"python-barcode"
   },
   {
    "source":"pip",
@@ -5423,6 +5431,10 @@
   },
   {
    "source":"python",
+   "target":"python-barcode"
+  },
+  {
+   "source":"python",
    "target":"python-bidi"
   },
   {
@@ -6292,6 +6304,10 @@
   {
    "source":"setuptools_scm",
    "target":"pytest-qt"
+  },
+  {
+   "source":"setuptools_scm",
+   "target":"python-barcode"
   },
   {
    "source":"setuptools_scm",
@@ -10366,6 +10382,12 @@
    "id":"m2-libtool",
    "payload":{
     "__lazy_json__":"node_attrs/m2-libtool.json"
+   }
+  },
+  {
+   "id":"python-barcode",
+   "payload":{
+    "__lazy_json__":"node_attrs/python-barcode.json"
    }
   }
  ]
