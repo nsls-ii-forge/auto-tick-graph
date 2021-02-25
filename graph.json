@@ -4087,6 +4087,10 @@
   },
   {
    "source":"pip",
+   "target":"simple-pid"
+  },
+  {
+   "source":"pip",
    "target":"sirepo-bluesky"
   },
   {
@@ -5576,6 +5580,10 @@
   {
    "source":"python",
    "target":"silx"
+  },
+  {
+   "source":"python",
+   "target":"simple-pid"
   },
   {
    "source":"python",
@@ -10464,6 +10472,12 @@
    "id":"lixtools",
    "payload":{
     "__lazy_json__":"node_attrs/lixtools.json"
+   }
+  },
+  {
+   "id":"simple-pid",
+   "payload":{
+    "__lazy_json__":"node_attrs/simple-pid.json"
    }
   }
  ]
