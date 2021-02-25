@@ -44,10 +44,17 @@
    ]
   },
   "source":{
+   "patches":[
+    "0001-missing-files.patch"
+   ],
    "sha256":"068ea68fbfe1b3e1134ba544046974ee7426a8305574b7c250e526598385b9df",
    "url":"https://pypi.io/packages/source/l/lixtools/lixtools-2021.2.21.1.tar.gz"
   },
   "test":{
+   "commands":[
+    "python -c 'import os, pkg_resources; assert os.path.isfile(pkg_resources.resource_filename(\"lixtools\", \"plate_label_template.html\"))'",
+    "python -c 'import os, pkg_resources; assert os.path.isfile(pkg_resources.resource_filename(\"lixtools\", \"template_report.ipynb\"))'"
+   ],
    "imports":[
     "lixtools"
    ]
@@ -144,10 +151,23 @@
    ]
   },
   "source":{
+   "patches":[
+    "0001-missing-files.patch",
+    "0001-missing-files.patch",
+    "0001-missing-files.patch"
+   ],
    "sha256":"068ea68fbfe1b3e1134ba544046974ee7426a8305574b7c250e526598385b9df",
    "url":"https://pypi.io/packages/source/l/lixtools/lixtools-2021.2.21.1.tar.gz"
   },
   "test":{
+   "commands":[
+    "python -c 'import os, pkg_resources; assert os.path.isfile(pkg_resources.resource_filename(\"lixtools\", \"plate_label_template.html\"))'",
+    "python -c 'import os, pkg_resources; assert os.path.isfile(pkg_resources.resource_filename(\"lixtools\", \"template_report.ipynb\"))'",
+    "python -c 'import os, pkg_resources; assert os.path.isfile(pkg_resources.resource_filename(\"lixtools\", \"plate_label_template.html\"))'",
+    "python -c 'import os, pkg_resources; assert os.path.isfile(pkg_resources.resource_filename(\"lixtools\", \"template_report.ipynb\"))'",
+    "python -c 'import os, pkg_resources; assert os.path.isfile(pkg_resources.resource_filename(\"lixtools\", \"plate_label_template.html\"))'",
+    "python -c 'import os, pkg_resources; assert os.path.isfile(pkg_resources.resource_filename(\"lixtools\", \"template_report.ipynb\"))'"
+   ],
    "imports":[
     "lixtools",
     "lixtools",
@@ -192,10 +212,17 @@
    ]
   },
   "source":{
+   "patches":[
+    "0001-missing-files.patch"
+   ],
    "sha256":"068ea68fbfe1b3e1134ba544046974ee7426a8305574b7c250e526598385b9df",
    "url":"https://pypi.io/packages/source/l/lixtools/lixtools-2021.2.21.1.tar.gz"
   },
   "test":{
+   "commands":[
+    "python -c 'import os, pkg_resources; assert os.path.isfile(pkg_resources.resource_filename(\"lixtools\", \"plate_label_template.html\"))'",
+    "python -c 'import os, pkg_resources; assert os.path.isfile(pkg_resources.resource_filename(\"lixtools\", \"template_report.ipynb\"))'"
+   ],
    "imports":[
     "lixtools"
    ]
@@ -233,7 +260,7 @@
    "elements":[]
   }
  },
- "raw_meta_yaml":"{% set name = \"lixtools\" %}\n{% set version = \"2021.2.21.1\" %}\n{% set sha256 = \"068ea68fbfe1b3e1134ba544046974ee7426a8305574b7c250e526598385b9df\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv --no-deps\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - matplotlib\n    - numpy\n    - openpyxl >=3\n    - pandas\n    - pillow\n    - py4xs\n    - python-barcode\n    - qrcode\n    - xlrd\n\ntest:\n  imports:\n    - lixtools\n\nabout:\n  home: https://github.com/NSLS-II-LIX/lixtools\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: \"Software tools for data collection/processing at NSLS-II LiX\"\n",
+ "raw_meta_yaml":"{% set name = \"lixtools\" %}\n{% set version = \"2021.2.21.1\" %}\n{% set sha256 = \"068ea68fbfe1b3e1134ba544046974ee7426a8305574b7c250e526598385b9df\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n  patches:\n    # TODO: remove this patch once https://github.com/NSLS-II-LIX/lixtools/pull/1 is merged and released.\n    - 0001-missing-files.patch\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv --no-deps\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - matplotlib\n    - numpy\n    - openpyxl >=3\n    - pandas\n    - pillow\n    - py4xs\n    - python-barcode\n    - qrcode\n    - xlrd\n\ntest:\n  imports:\n    - lixtools\n  commands:\n    - python -c 'import os, pkg_resources; assert os.path.isfile(pkg_resources.resource_filename(\"lixtools\", \"plate_label_template.html\"))'\n    - python -c 'import os, pkg_resources; assert os.path.isfile(pkg_resources.resource_filename(\"lixtools\", \"template_report.ipynb\"))'\n\nabout:\n  home: https://github.com/NSLS-II-LIX/lixtools\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: \"Software tools for data collection/processing at NSLS-II LiX\"\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -352,10 +379,17 @@
    ]
   },
   "source":{
+   "patches":[
+    "0001-missing-files.patch"
+   ],
    "sha256":"068ea68fbfe1b3e1134ba544046974ee7426a8305574b7c250e526598385b9df",
    "url":"https://pypi.io/packages/source/l/lixtools/lixtools-2021.2.21.1.tar.gz"
   },
   "test":{
+   "commands":[
+    "python -c 'import os, pkg_resources; assert os.path.isfile(pkg_resources.resource_filename(\"lixtools\", \"plate_label_template.html\"))'",
+    "python -c 'import os, pkg_resources; assert os.path.isfile(pkg_resources.resource_filename(\"lixtools\", \"template_report.ipynb\"))'"
+   ],
    "imports":[
     "lixtools"
    ]
