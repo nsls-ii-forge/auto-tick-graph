@@ -10,6 +10,7 @@
     "libjpeg-turbo",
     "lmfit",
     "lz4-c",
+    "ophyd",
     "python-confluent-kafka",
     "pyxdameraulevenshtein",
     "qulacs"
@@ -25,6 +26,7 @@
     "librdkafka": "no error information available",
     "lmfit": "no error information available",
     "lz4-c": "no error information available",
+    "ophyd": "no error information available",
     "python-confluent-kafka": "no error information available",
     "pyxdameraulevenshtein": "no error information available",
     "qulacs": "We found a problem parsing the recipe: \n\nwhile constructing a mapping\n  in \"<unicode string>\", line 40, column 3:\n      skip__###conda-selector###__pyth ... \n      ^ (line: 40)\nfound duplicate key \"skip\" with value \"True\" (original value: \"True\")\n  in \"<unicode string>\", line 49, column 3:\n      skip: true\n      ^ (line: 49)\n\nTo suppress this check see:\n    http://yaml.readthedocs.io/en/latest/api.html#duplicate-keys\n\nDuplicate keys will become an error in future releases, and are errors\nby default when using the new API.\n"
