@@ -97,7 +97,7 @@
   },
   "package":{
    "name":"ophyd",
-   "version":"1.6.0"
+   "version":"1.6.1"
   },
   "requirements":{
    "host":[
@@ -112,8 +112,8 @@
    ]
   },
   "source":{
-   "sha256":"0332e61930232baa7bcdc2cefb6de2ed15cb737e20221eb69750a5e3f61f0b5d",
-   "url":"https://pypi.io/packages/source/o/ophyd/ophyd-1.6.0.tar.gz"
+   "sha256":"b9c742489510171ec051aa903dc02d5992726a449bd5c50944434101e70ab497",
+   "url":"https://pypi.io/packages/source/o/ophyd/ophyd-1.6.1.tar.gz"
   },
   "test":{
    "imports":[
@@ -168,7 +168,7 @@
   },
   "package":{
    "name":"ophyd",
-   "version":"1.6.0"
+   "version":"1.6.1"
   },
   "requirements":{
    "host":[
@@ -195,8 +195,8 @@
    ]
   },
   "source":{
-   "sha256":"0332e61930232baa7bcdc2cefb6de2ed15cb737e20221eb69750a5e3f61f0b5d",
-   "url":"https://pypi.io/packages/source/o/ophyd/ophyd-1.6.0.tar.gz"
+   "sha256":"b9c742489510171ec051aa903dc02d5992726a449bd5c50944434101e70ab497",
+   "url":"https://pypi.io/packages/source/o/ophyd/ophyd-1.6.1.tar.gz"
   },
   "test":{
    "imports":[
@@ -242,7 +242,7 @@
   },
   "package":{
    "name":"ophyd",
-   "version":"1.6.0"
+   "version":"1.6.1"
   },
   "requirements":{
    "host":[
@@ -257,8 +257,8 @@
    ]
   },
   "source":{
-   "sha256":"0332e61930232baa7bcdc2cefb6de2ed15cb737e20221eb69750a5e3f61f0b5d",
-   "url":"https://pypi.io/packages/source/o/ophyd/ophyd-1.6.0.tar.gz"
+   "sha256":"b9c742489510171ec051aa903dc02d5992726a449bd5c50944434101e70ab497",
+   "url":"https://pypi.io/packages/source/o/ophyd/ophyd-1.6.1.tar.gz"
   },
   "test":{
    "imports":[
@@ -296,7 +296,7 @@
   }
  },
  "pinning_version":"2021.02.26.15.36.03",
- "raw_meta_yaml":"{% set name = \"ophyd\" %}\n{% set version = \"1.6.0\" %}\n{% set sha256 = \"0332e61930232baa7bcdc2cefb6de2ed15cb737e20221eb69750a5e3f61f0b5d\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - networkx\n    - numpy\n    - pyepics\n\ntest:\n  imports:\n    - {{ name }}\n    - {{ name }}.utils\n    - {{ name }}.areadetector\n    - {{ name }}.sim\n\nabout:\n  home: https://blueskyproject.io\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Ophyd - EPICS Client Abstractions\n  description: Ophyd - EPICS Client Abstractions\n  doc_url: https://blueskyproject.io/ophyd\n  dev_url: https://github.com/bluesky/ophyd\n",
+ "raw_meta_yaml":"{% set name = \"ophyd\" %}\n{% set version = \"1.6.1\" %}\n{% set sha256 = \"b9c742489510171ec051aa903dc02d5992726a449bd5c50944434101e70ab497\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - networkx\n    - numpy\n    - pyepics\n\ntest:\n  imports:\n    - {{ name }}\n    - {{ name }}.utils\n    - {{ name }}.areadetector\n    - {{ name }}.sim\n\nabout:\n  home: https://blueskyproject.io\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Ophyd - EPICS Client Abstractions\n  description: Ophyd - EPICS Client Abstractions\n  doc_url: https://blueskyproject.io/ophyd\n  dev_url: https://github.com/bluesky/ophyd\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -362,7 +362,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/o/ophyd/ophyd-1.5.2.tar.gz",
- "version":"1.6.0",
+ "version":"1.6.1",
  "win_64_meta_yaml":{
   "about":{
    "description":"Ophyd - EPICS Client Abstractions",
@@ -381,7 +381,7 @@
   },
   "package":{
    "name":"ophyd",
-   "version":"1.6.0"
+   "version":"1.6.1"
   },
   "requirements":{
    "host":[
@@ -396,8 +396,8 @@
    ]
   },
   "source":{
-   "sha256":"0332e61930232baa7bcdc2cefb6de2ed15cb737e20221eb69750a5e3f61f0b5d",
-   "url":"https://pypi.io/packages/source/o/ophyd/ophyd-1.6.0.tar.gz"
+   "sha256":"b9c742489510171ec051aa903dc02d5992726a449bd5c50944434101e70ab497",
+   "url":"https://pypi.io/packages/source/o/ophyd/ophyd-1.6.1.tar.gz"
   },
   "test":{
    "imports":[
