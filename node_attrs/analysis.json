@@ -17,7 +17,7 @@
    "summary":"Analysis metapackage for NSLS-II deployments"
   },
   "build":{
-   "number":"0"
+   "number":"1"
   },
   "package":{
    "name":"analysis",
@@ -57,10 +57,10 @@
     "inflection",
     "ipykernel",
     "ipympl ==0.1.1",
-    "ipython",
+    "ipython >=7.20.0",
     "ipywidgets ==7.2.1",
     "isort",
-    "jedi <0.18",
+    "jedi",
     "jupyter",
     "jupyterlab",
     "line_profiler",
@@ -305,7 +305,7 @@
    "summary":"Analysis metapackage for NSLS-II deployments"
   },
   "build":{
-   "number":"0"
+   "number":"1"
   },
   "package":{
    "name":"analysis",
@@ -345,10 +345,10 @@
     "inflection",
     "ipykernel",
     "ipympl ==0.1.1",
-    "ipython",
+    "ipython >=7.20.0",
     "ipywidgets ==7.2.1",
     "isort",
-    "jedi <0.18",
+    "jedi",
     "jupyter",
     "jupyterlab",
     "line_profiler",
@@ -437,10 +437,10 @@
     "inflection",
     "ipykernel",
     "ipympl ==0.1.1",
-    "ipython",
+    "ipython >=7.20.0",
     "ipywidgets ==7.2.1",
     "isort",
-    "jedi <0.18",
+    "jedi",
     "jupyter",
     "jupyterlab",
     "line_profiler",
@@ -531,10 +531,10 @@
     "inflection",
     "ipykernel",
     "ipympl ==0.1.1",
-    "ipython",
+    "ipython >=7.20.0",
     "ipywidgets ==7.2.1",
     "isort",
-    "jedi <0.18",
+    "jedi",
     "jupyter",
     "jupyterlab",
     "line_profiler",
@@ -744,7 +744,7 @@
    "summary":"Analysis metapackage for NSLS-II deployments"
   },
   "build":{
-   "number":"0"
+   "number":"1"
   },
   "package":{
    "name":"analysis",
@@ -784,10 +784,10 @@
     "inflection",
     "ipykernel",
     "ipympl ==0.1.1",
-    "ipython",
+    "ipython >=7.20.0",
     "ipywidgets ==7.2.1",
     "isort",
-    "jedi <0.18",
+    "jedi",
     "jupyter",
     "jupyterlab",
     "line_profiler",
@@ -1019,7 +1019,7 @@
    ]
   }
  },
- "raw_meta_yaml":"{% set name = \"analysis\" %}\n{% set year = \"2021\" %}\n{% set cycle = \"1\" %}\n{% set version = \"2\" %}\n{% set micro = \"\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ year }}C{{ cycle }}.{{ version }}{{ micro }}\n\nbuild:\n  skip: True  # [py<36]\n  number: 0\n\nrequirements:\n  host:\n    - python\n  run:\n    - python\n    - amostra <=1.0\n    - ansiwrap\n    - area-detector-handlers\n    - arvpyf\n    - attrs >=18.0\n    - black\n    - bluesky >=1.6.7\n    - bluesky-kafka  # [not win]\n    - bluesky-live\n    - boto3\n    - conda-pack\n    - dask\n    - databroker >=1.2.0\n    - databroker-pack\n    - distributed\n    - doi2bib\n    - event-model >=1.17.0\n    - fabio\n    - ffmpeg >=4.0\n    - flake8\n    - globus-sdk\n    - graphviz\n    - grid-strategy\n    - h5py >=2.9.0\n    - hdf5-lz4  # [not win]\n    - inflection\n    - ipykernel\n    - ipympl ==0.1.1\n    - ipython\n    - ipywidgets ==7.2.1\n    - isort\n    - jedi <0.18  # TODO: unpin it once ipython 7.20 is in defaults (released on 2021-02-01)\n    - jupyter\n    - jupyterlab\n    - line_profiler\n    - lmfit\n    - lxml\n    - matplotlib >=3.1.0\n    - memory_profiler\n    - mendeleev\n    - modestimage\n    - napari >=0.3.7\n    - natsort\n    - netcdf4\n    - nexpy >=0.12.7\n    - nodejs\n    - numexpr\n    - numpy >=1.14.0\n    - openpyxl\n    - ophyd >=1.6.0\n    - oscars\n    - papermill\n    - peakutils\n    - periodictable\n    - photutils\n    - pillow\n    - pycentroids  # [not win]\n    - pyepics >=3.4.2\n    - pyfai\n    - pyfftw\n    - pymongo >=3.7\n    - pypdf2\n    - pyqt >=5.9.0\n    - pystackreg\n    - python-graphviz\n    - pyxrf >=1.0.0\n    - pyzbar  # [not win]\n    - qt >=5.9.0\n    - redis-py\n    - reportlab\n    - requests\n    - sasview\n    - scikit-beam >=0.0.23\n    - scikit-learn\n    - scipy\n    - slackclient\n    - srw  # [linux]\n    - srwpy\n    - suitcase-csv\n    - suitcase-json-metadata\n    - suitcase-jsonl\n    - suitcase-mongo >=0.3.0\n    - suitcase-msgpack\n    - suitcase-specfile\n    - suitcase-tiff\n    - suitcase-utils\n    - sympy\n    - toml\n    - tomopy\n    - tornado\n    - tqdm\n    - tzlocal >=1.5\n    - xray-vision\n    - xraylarch\n\ntest:\n  requires:\n    - nsls2forge-utils\n  imports:\n    - area_detector_handlers\n    - bluesky\n    - dask\n    - databroker\n    - event_model\n    - lmfit\n    - matplotlib\n    - napari\n    - numpy\n    - ophyd\n    - oscars\n    - peakutils\n    - photutils\n    - pymongo\n    - pyxrf\n    - redis\n    - skbeam\n    - srwlpy  # [linux]\n    - srwpy\n    - suitcase.csv\n    - suitcase.json_metadata\n    - suitcase.jsonl\n    - suitcase.mongo_embedded\n    - suitcase.mongo_normalized\n    - suitcase.msgpack\n    - suitcase.specfile\n    - suitcase.tiff_series\n    - suitcase.tiff_stack\n    - suitcase.utils\n    - xray_vision\n  files:\n    - test.xlsx\n  commands:\n    # Fail if the \"conda-forge\" channel is in the list of channels.\n    - check-results -t channels -f conda-forge  # [not osx]\n    # Fail if versions of the packages are not as expected minimum ones.\n    - check-results -t version -p bluesky    -e 1.6\n    - check-results -t version -p databroker -e 1.2\n    - check-results -t version -p ophyd      -e 1.6\n    - python -V\n    - ipython -V\n    - napari --help\n    - napari --version\n    - nexpy --help\n    - python -c \"import pandas; print(pandas.read_excel('test.xlsx'))\"\n\nabout:\n  home: https://nsls-ii.github.io/deployment_docs.html\n  license: BSD 3-Clause\n  license_file: LICENSE\n  summary: Analysis metapackage for NSLS-II deployments\n  description: |\n    Analysis metapackage for NSLS-II deployments. See the deployment\n    documentation at https://nsls-ii.github.io/deployment_docs.html.\n",
+ "raw_meta_yaml":"{% set name = \"analysis\" %}\n{% set year = \"2021\" %}\n{% set cycle = \"1\" %}\n{% set version = \"2\" %}\n{% set micro = \"\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ year }}C{{ cycle }}.{{ version }}{{ micro }}\n\nbuild:\n  skip: True  # [py<36]\n  number: 1\n\nrequirements:\n  host:\n    - python\n  run:\n    - python\n    - amostra <=1.0\n    - ansiwrap\n    - area-detector-handlers\n    - arvpyf\n    - attrs >=18.0\n    - black\n    - bluesky >=1.6.7\n    - bluesky-kafka  # [not win]\n    - bluesky-live\n    - boto3\n    - conda-pack\n    - dask\n    - databroker >=1.2.0\n    - databroker-pack\n    - distributed\n    - doi2bib\n    - event-model >=1.17.0\n    - fabio\n    - ffmpeg >=4.0\n    - flake8\n    - globus-sdk\n    - graphviz\n    - grid-strategy\n    - h5py >=2.9.0\n    - hdf5-lz4  # [not win]\n    - inflection\n    - ipykernel\n    - ipympl ==0.1.1\n    - ipython >=7.20.0\n    - ipywidgets ==7.2.1\n    - isort\n    - jedi\n    - jupyter\n    - jupyterlab\n    - line_profiler\n    - lmfit\n    - lxml\n    - matplotlib >=3.1.0\n    - memory_profiler\n    - mendeleev\n    - modestimage\n    - napari >=0.3.7\n    - natsort\n    - netcdf4\n    - nexpy >=0.12.7\n    - nodejs\n    - numexpr\n    - numpy >=1.14.0\n    - openpyxl\n    - ophyd >=1.6.0\n    - oscars\n    - papermill\n    - peakutils\n    - periodictable\n    - photutils\n    - pillow\n    - pycentroids  # [not win]\n    - pyepics >=3.4.2\n    - pyfai\n    - pyfftw\n    - pymongo >=3.7\n    - pypdf2\n    - pyqt >=5.9.0\n    - pystackreg\n    - python-graphviz\n    - pyxrf >=1.0.0\n    - pyzbar  # [not win]\n    - qt >=5.9.0\n    - redis-py\n    - reportlab\n    - requests\n    - sasview\n    - scikit-beam >=0.0.23\n    - scikit-learn\n    - scipy\n    - slackclient\n    - srw  # [linux]\n    - srwpy\n    - suitcase-csv\n    - suitcase-json-metadata\n    - suitcase-jsonl\n    - suitcase-mongo >=0.3.0\n    - suitcase-msgpack\n    - suitcase-specfile\n    - suitcase-tiff\n    - suitcase-utils\n    - sympy\n    - toml\n    - tomopy\n    - tornado\n    - tqdm\n    - tzlocal >=1.5\n    - xray-vision\n    - xraylarch\n\ntest:\n  requires:\n    - nsls2forge-utils\n  imports:\n    - area_detector_handlers\n    - bluesky\n    - dask\n    - databroker\n    - event_model\n    - lmfit\n    - matplotlib\n    - napari\n    - numpy\n    - ophyd\n    - oscars\n    - peakutils\n    - photutils\n    - pymongo\n    - pyxrf\n    - redis\n    - skbeam\n    - srwlpy  # [linux]\n    - srwpy\n    - suitcase.csv\n    - suitcase.json_metadata\n    - suitcase.jsonl\n    - suitcase.mongo_embedded\n    - suitcase.mongo_normalized\n    - suitcase.msgpack\n    - suitcase.specfile\n    - suitcase.tiff_series\n    - suitcase.tiff_stack\n    - suitcase.utils\n    - xray_vision\n  files:\n    - test.xlsx\n  commands:\n    # Fail if the \"conda-forge\" channel is in the list of channels.\n    - check-results -t channels -f conda-forge  # [not osx]\n    # Fail if versions of the packages are not as expected minimum ones.\n    - check-results -t version -p bluesky    -e 1.6\n    - check-results -t version -p databroker -e 1.2\n    - check-results -t version -p ophyd      -e 1.6\n    - python -V\n    - ipython -V\n    - napari --help\n    - napari --version\n    - nexpy --help\n    - python -c \"import pandas; print(pandas.read_excel('test.xlsx'))\"\n\nabout:\n  home: https://nsls-ii.github.io/deployment_docs.html\n  license: BSD 3-Clause\n  license_file: LICENSE\n  summary: Analysis metapackage for NSLS-II deployments\n  description: |\n    Analysis metapackage for NSLS-II deployments. See the deployment\n    documentation at https://nsls-ii.github.io/deployment_docs.html.\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -1281,10 +1281,10 @@
     "inflection",
     "ipykernel",
     "ipympl ==0.1.1",
-    "ipython",
+    "ipython >=7.20.0",
     "ipywidgets ==7.2.1",
     "isort",
-    "jedi <0.18",
+    "jedi",
     "jupyter",
     "jupyterlab",
     "line_profiler",
@@ -1367,7 +1367,7 @@
    "summary":"Analysis metapackage for NSLS-II deployments"
   },
   "build":{
-   "number":"0"
+   "number":"1"
   },
   "package":{
    "name":"analysis",
@@ -1405,10 +1405,10 @@
     "inflection",
     "ipykernel",
     "ipympl ==0.1.1",
-    "ipython",
+    "ipython >=7.20.0",
     "ipywidgets ==7.2.1",
     "isort",
-    "jedi <0.18",
+    "jedi",
     "jupyter",
     "jupyterlab",
     "line_profiler",
