@@ -2006,6 +2006,10 @@
    "target":"collection"
   },
   {
+   "source":"lixtools",
+   "target":"nsls2-analysis"
+  },
+  {
    "source":"lld",
    "target":"autotools_clang_conda"
   },
@@ -3308,6 +3312,10 @@
   {
    "source":"pcre",
    "target":"uwsgi"
+  },
+  {
+   "source":"pdfstream",
+   "target":"nsls2-analysis"
   },
   {
    "source":"peakutils",
@@ -7148,6 +7156,10 @@
   {
    "source":"xonsh",
    "target":"shed"
+  },
+  {
+   "source":"xpdan",
+   "target":"nsls2-analysis"
   },
   {
    "source":"xpdan",

@@ -23,11 +23,11 @@
   "photutils",
   "eventlet",
   "ispyb",
+  "pdfstream",
   "hunter",
   "slack-sdk",
   "httpx",
   "pykern",
   "wxmplot",
-  "pdfstream",
   "n2snusertools"
 ]
