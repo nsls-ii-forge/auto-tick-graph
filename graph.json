@@ -6506,6 +6506,10 @@
    "target":"xraylarch"
   },
   {
+   "source":"simple-pid",
+   "target":"collection"
+  },
+  {
    "source":"sirepo-bluesky",
    "target":"bloptools"
   },
@@ -7156,6 +7160,10 @@
   {
    "source":"xonsh",
    "target":"shed"
+  },
+  {
+   "source":"xpdacq",
+   "target":"collection"
   },
   {
    "source":"xpdan",
