@@ -334,7 +334,7 @@
     "pyFAI-saxs = pyFAI.app.saxs:main",
     "pyFAI-waxs = pyFAI.app.waxs:main"
    ],
-   "number":"0",
+   "number":0,
    "script":"-m pip install . --no-deps --ignore-installed -vv"
   },
   "package":{
