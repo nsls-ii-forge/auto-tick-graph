@@ -95,7 +95,7 @@
   },
   "package":{
    "name":"prettytable",
-   "version":"2.0.0"
+   "version":"2.1.0"
   },
   "requirements":{
    "host":[
@@ -113,8 +113,8 @@
    ]
   },
   "source":{
-   "sha256":"e37acd91976fe6119172771520e58d1742c8479703489321dc1d9c85e7259922",
-   "url":"https://pypi.io/packages/source/p/prettytable/prettytable-2.0.0.tar.gz"
+   "sha256":"5882ed9092b391bb8f6e91f59bcdbd748924ff556bb7c634089d5519be87baa0",
+   "url":"https://pypi.io/packages/source/p/prettytable/prettytable-2.1.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -164,7 +164,7 @@
   },
   "package":{
    "name":"prettytable",
-   "version":"2.0.0"
+   "version":"2.1.0"
   },
   "requirements":{
    "host":[
@@ -196,8 +196,8 @@
    ]
   },
   "source":{
-   "sha256":"e37acd91976fe6119172771520e58d1742c8479703489321dc1d9c85e7259922",
-   "url":"https://pypi.io/packages/source/p/prettytable/prettytable-2.0.0.tar.gz"
+   "sha256":"5882ed9092b391bb8f6e91f59bcdbd748924ff556bb7c634089d5519be87baa0",
+   "url":"https://pypi.io/packages/source/p/prettytable/prettytable-2.1.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -232,7 +232,7 @@
   },
   "package":{
    "name":"prettytable",
-   "version":"2.0.0"
+   "version":"2.1.0"
   },
   "requirements":{
    "host":[
@@ -250,8 +250,8 @@
    ]
   },
   "source":{
-   "sha256":"e37acd91976fe6119172771520e58d1742c8479703489321dc1d9c85e7259922",
-   "url":"https://pypi.io/packages/source/p/prettytable/prettytable-2.0.0.tar.gz"
+   "sha256":"5882ed9092b391bb8f6e91f59bcdbd748924ff556bb7c634089d5519be87baa0",
+   "url":"https://pypi.io/packages/source/p/prettytable/prettytable-2.1.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -286,7 +286,7 @@
   }
  },
  "pinning_version":"2021.03.02.16.48.17",
- "raw_meta_yaml":"{% set name = \"prettytable\" %}\n{% set version = \"2.0.0\" %}\n{% set sha256 = \"e37acd91976fe6119172771520e58d1742c8479703489321dc1d9c85e7259922\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n    - setuptools_scm\n  run:\n    - python\n    - setuptools\n    - wcwidth\n  run_constrained:\n    - ptable >=9999\n\ntest:\n  imports:\n    - prettytable\n\nabout:\n  home: http://code.google.com/p/prettytable\n  license_file: COPYING\n  license: BSD-3-Clause\n  license_family: BSD\n  summary: A simple Python library for easily displaying tabular data in a visually appealing ASCII table format\n  dev_url: https://github.com/jazzband/prettytable\n",
+ "raw_meta_yaml":"{% set name = \"prettytable\" %}\n{% set version = \"2.1.0\" %}\n{% set sha256 = \"5882ed9092b391bb8f6e91f59bcdbd748924ff556bb7c634089d5519be87baa0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n    - setuptools_scm\n  run:\n    - python\n    - setuptools\n    - wcwidth\n  run_constrained:\n    - ptable >=9999\n\ntest:\n  imports:\n    - prettytable\n\nabout:\n  home: http://code.google.com/p/prettytable\n  license_file: COPYING\n  license: BSD-3-Clause\n  license_family: BSD\n  summary: A simple Python library for easily displaying tabular data in a visually appealing ASCII table format\n  dev_url: https://github.com/jazzband/prettytable\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -352,7 +352,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/p/prettytable/prettytable-0.7.2.tar.gz",
- "version":"2.0.0",
+ "version":"2.1.0",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/jazzband/prettytable",
@@ -369,7 +369,7 @@
   },
   "package":{
    "name":"prettytable",
-   "version":"2.0.0"
+   "version":"2.1.0"
   },
   "requirements":{
    "host":[
@@ -387,8 +387,8 @@
    ]
   },
   "source":{
-   "sha256":"e37acd91976fe6119172771520e58d1742c8479703489321dc1d9c85e7259922",
-   "url":"https://pypi.io/packages/source/p/prettytable/prettytable-2.0.0.tar.gz"
+   "sha256":"5882ed9092b391bb8f6e91f59bcdbd748924ff556bb7c634089d5519be87baa0",
+   "url":"https://pypi.io/packages/source/p/prettytable/prettytable-2.1.0.tar.gz"
   },
   "test":{
    "imports":[
