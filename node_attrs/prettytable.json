@@ -50,6 +50,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/583302986.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -191,11 +208,12 @@
   }
  },
  "name":"prettytable",
- "new_version":"2.0.0",
+ "new_version":"2.1.0",
  "new_version_attempts":{
   "1.0.0":1,
   "1.0.1":1,
-  "2.0.0":346
+  "2.0.0":346,
+  "2.1.0":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -267,7 +285,7 @@
    "elements":[]
   }
  },
- "pinning_version":"2020.12.23.19.30.24",
+ "pinning_version":"2021.03.02.16.48.17",
  "raw_meta_yaml":"{% set name = \"prettytable\" %}\n{% set version = \"2.0.0\" %}\n{% set sha256 = \"e37acd91976fe6119172771520e58d1742c8479703489321dc1d9c85e7259922\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n    - setuptools_scm\n  run:\n    - python\n    - setuptools\n    - wcwidth\n  run_constrained:\n    - ptable >=9999\n\ntest:\n  imports:\n    - prettytable\n\nabout:\n  home: http://code.google.com/p/prettytable\n  license_file: COPYING\n  license: BSD-3-Clause\n  license_family: BSD\n  summary: A simple Python library for easily displaying tabular data in a visually appealing ASCII table format\n  dev_url: https://github.com/jazzband/prettytable\n",
  "req":{
   "__set__":true,
@@ -305,7 +323,7 @@
    "elements":[]
   }
  },
- "smithy_version":"3.8.5",
+ "smithy_version":"3.9.0",
  "strong_exports":false,
  "total_requirements":{
   "build":{

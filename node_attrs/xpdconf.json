@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/583302883.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -117,7 +136,11 @@
   }
  },
  "name":"xpdconf",
- "new_version":"0.4.2",
+ "new_version":"0.4.3",
+ "new_version_attempts":{
+  "0.4.3":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "license_file":"LICENSE",
@@ -178,6 +201,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2021.03.02.16.48.17",
  "raw_meta_yaml":"{% set version = \"0.4.2\" %}\n{% set sha256 = \"a634d766eda524e3110c78a40de251e0420253394eab456aa843210f124710e8\" %}\n\npackage:\n  name: xpdconf\n  version: {{ version }}\n\nsource:\n  url: https://github.com/xpdAcq/xpdConf/releases/download/{{ version }}/xpdConf-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - pyyaml\n    - databroker\n\ntest:\n  imports:\n    - xpdconf\n\nabout:\n  license_file: LICENSE\n  summary: Configuration manager for XPD beamlines\n",
  "req":{
   "__set__":true,
@@ -213,6 +237,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"3.9.0",
  "strong_exports":false,
  "total_requirements":{
   "build":{
