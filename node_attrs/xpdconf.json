@@ -30,17 +30,22 @@
  "hash_type":"sha256",
  "linux_64_meta_yaml":{
   "about":{
+   "dev_url":"https://github.com/xpdAcq/xpdConf",
+   "doc_url":"http://xpdacq.github.io",
+   "home":"https://github.com/xpdAcq/xpdConf",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
    "license_file":"LICENSE",
    "summary":"Configuration manager for XPD beamlines"
   },
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"xpdconf",
-   "version":"0.4.2"
+   "version":"0.4.5"
   },
   "requirements":{
    "host":[
@@ -49,17 +54,24 @@
    ],
    "run":[
     "python >=3.6",
-    "pyyaml",
-    "databroker"
+    "databroker",
+    "pyyaml"
    ]
   },
   "source":{
-   "sha256":"a634d766eda524e3110c78a40de251e0420253394eab456aa843210f124710e8",
-   "url":"https://github.com/xpdAcq/xpdConf/releases/download/0.4.2/xpdConf-0.4.2.tar.gz"
+   "sha256":"63d50b8cce841eb47a45aa92376db48843a3e1db4e014eead7ad22399ce33e9f",
+   "url":"https://pypi.io/packages/source/x/xpdconf/xpdconf-0.4.5.tar.gz"
   },
   "test":{
+   "commands":[
+    "pytest -vvv --pyargs xpdconf.tests",
+    "python -c 'import os, pkg_resources; assert os.path.isfile(pkg_resources.resource_filename(\"xpdconf\", \"examples/sim.yaml\"))'"
+   ],
    "imports":[
     "xpdconf"
+   ],
+   "requires":[
+    "pytest"
    ]
   }
  },
@@ -85,22 +97,29 @@
   },
   "test":{
    "__set__":true,
-   "elements":[]
+   "elements":[
+    "pytest"
+   ]
   }
  },
  "meta_yaml":{
   "about":{
+   "dev_url":"https://github.com/xpdAcq/xpdConf",
+   "doc_url":"http://xpdacq.github.io",
+   "home":"https://github.com/xpdAcq/xpdConf",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
    "license_file":"LICENSE",
    "summary":"Configuration manager for XPD beamlines"
   },
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"xpdconf",
-   "version":"0.4.2"
+   "version":"0.4.5"
   },
   "requirements":{
    "host":[
@@ -113,47 +132,65 @@
    ],
    "run":[
     "python >=3.6",
-    "pyyaml",
     "databroker",
-    "python >=3.6",
     "pyyaml",
+    "python >=3.6",
     "databroker",
-    "python >=3.6",
     "pyyaml",
-    "databroker"
+    "python >=3.6",
+    "databroker",
+    "pyyaml"
    ]
   },
   "source":{
-   "sha256":"a634d766eda524e3110c78a40de251e0420253394eab456aa843210f124710e8",
-   "url":"https://github.com/xpdAcq/xpdConf/releases/download/0.4.2/xpdConf-0.4.2.tar.gz"
+   "sha256":"63d50b8cce841eb47a45aa92376db48843a3e1db4e014eead7ad22399ce33e9f",
+   "url":"https://pypi.io/packages/source/x/xpdconf/xpdconf-0.4.5.tar.gz"
   },
   "test":{
+   "commands":[
+    "pytest -vvv --pyargs xpdconf.tests",
+    "python -c 'import os, pkg_resources; assert os.path.isfile(pkg_resources.resource_filename(\"xpdconf\", \"examples/sim.yaml\"))'",
+    "pytest -vvv --pyargs xpdconf.tests",
+    "python -c 'import os, pkg_resources; assert os.path.isfile(pkg_resources.resource_filename(\"xpdconf\", \"examples/sim.yaml\"))'",
+    "pytest -vvv --pyargs xpdconf.tests",
+    "python -c 'import os, pkg_resources; assert os.path.isfile(pkg_resources.resource_filename(\"xpdconf\", \"examples/sim.yaml\"))'"
+   ],
    "imports":[
     "xpdconf",
     "xpdconf",
     "xpdconf"
+   ],
+   "requires":[
+    "pytest",
+    "pytest",
+    "pytest"
    ]
   }
  },
  "name":"xpdconf",
- "new_version":"0.4.3",
+ "new_version":"0.4.5",
  "new_version_attempts":{
   "0.4.3":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
+   "dev_url":"https://github.com/xpdAcq/xpdConf",
+   "doc_url":"http://xpdacq.github.io",
+   "home":"https://github.com/xpdAcq/xpdConf",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
    "license_file":"LICENSE",
    "summary":"Configuration manager for XPD beamlines"
   },
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"xpdconf",
-   "version":"0.4.2"
+   "version":"0.4.5"
   },
   "requirements":{
    "host":[
@@ -162,17 +199,24 @@
    ],
    "run":[
     "python >=3.6",
-    "pyyaml",
-    "databroker"
+    "databroker",
+    "pyyaml"
    ]
   },
   "source":{
-   "sha256":"a634d766eda524e3110c78a40de251e0420253394eab456aa843210f124710e8",
-   "url":"https://github.com/xpdAcq/xpdConf/releases/download/0.4.2/xpdConf-0.4.2.tar.gz"
+   "sha256":"63d50b8cce841eb47a45aa92376db48843a3e1db4e014eead7ad22399ce33e9f",
+   "url":"https://pypi.io/packages/source/x/xpdconf/xpdconf-0.4.5.tar.gz"
   },
   "test":{
+   "commands":[
+    "pytest -vvv --pyargs xpdconf.tests",
+    "python -c 'import os, pkg_resources; assert os.path.isfile(pkg_resources.resource_filename(\"xpdconf\", \"examples/sim.yaml\"))'"
+   ],
    "imports":[
     "xpdconf"
+   ],
+   "requires":[
+    "pytest"
    ]
   }
  },
@@ -198,11 +242,13 @@
   },
   "test":{
    "__set__":true,
-   "elements":[]
+   "elements":[
+    "pytest"
+   ]
   }
  },
  "pinning_version":"2021.03.02.16.48.17",
- "raw_meta_yaml":"{% set version = \"0.4.2\" %}\n{% set sha256 = \"a634d766eda524e3110c78a40de251e0420253394eab456aa843210f124710e8\" %}\n\npackage:\n  name: xpdconf\n  version: {{ version }}\n\nsource:\n  url: https://github.com/xpdAcq/xpdConf/releases/download/{{ version }}/xpdConf-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - pyyaml\n    - databroker\n\ntest:\n  imports:\n    - xpdconf\n\nabout:\n  license_file: LICENSE\n  summary: Configuration manager for XPD beamlines\n",
+ "raw_meta_yaml":"{% set name = \"xpdconf\" %}\n{% set version = \"0.4.5\" %}\n{% set sha256 = \"63d50b8cce841eb47a45aa92376db48843a3e1db4e014eead7ad22399ce33e9f\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  # url: https://github.com/xpdAcq/{{ name }}/releases/download/{{ version }}/{{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - databroker\n    - pyyaml\n\ntest:\n  imports:\n    - xpdconf\n  requires:\n    - pytest\n  commands:\n    - pytest -vvv --pyargs xpdconf.tests\n    - python -c 'import os, pkg_resources; assert os.path.isfile(pkg_resources.resource_filename(\"xpdconf\", \"examples/sim.yaml\"))'\n\nabout:\n  home: https://github.com/xpdAcq/xpdConf\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Configuration manager for XPD beamlines\n  dev_url: https://github.com/xpdAcq/xpdConf\n  doc_url: http://xpdacq.github.io\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -234,7 +280,9 @@
   },
   "test":{
    "__set__":true,
-   "elements":[]
+   "elements":[
+    "pytest"
+   ]
   }
  },
  "smithy_version":"3.9.0",
@@ -261,24 +309,31 @@
   },
   "test":{
    "__set__":true,
-   "elements":[]
+   "elements":[
+    "pytest"
+   ]
   }
  },
  "url":"https://github.com/xpdAcq/xpdConf/releases/download/0.4.1/xpdConf-0.4.1.tar.gz",
- "version":"0.4.2",
+ "version":"0.4.5",
  "win_64_meta_yaml":{
   "about":{
+   "dev_url":"https://github.com/xpdAcq/xpdConf",
+   "doc_url":"http://xpdacq.github.io",
+   "home":"https://github.com/xpdAcq/xpdConf",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
    "license_file":"LICENSE",
    "summary":"Configuration manager for XPD beamlines"
   },
   "build":{
    "noarch":"python",
    "number":"0",
-   "script":" -m pip install . --no-deps -vv"
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"xpdconf",
-   "version":"0.4.2"
+   "version":"0.4.5"
   },
   "requirements":{
    "host":[
@@ -287,17 +342,24 @@
    ],
    "run":[
     "python >=3.6",
-    "pyyaml",
-    "databroker"
+    "databroker",
+    "pyyaml"
    ]
   },
   "source":{
-   "sha256":"a634d766eda524e3110c78a40de251e0420253394eab456aa843210f124710e8",
-   "url":"https://github.com/xpdAcq/xpdConf/releases/download/0.4.2/xpdConf-0.4.2.tar.gz"
+   "sha256":"63d50b8cce841eb47a45aa92376db48843a3e1db4e014eead7ad22399ce33e9f",
+   "url":"https://pypi.io/packages/source/x/xpdconf/xpdconf-0.4.5.tar.gz"
   },
   "test":{
+   "commands":[
+    "pytest -vvv --pyargs xpdconf.tests",
+    "python -c 'import os, pkg_resources; assert os.path.isfile(pkg_resources.resource_filename(\"xpdconf\", \"examples/sim.yaml\"))'"
+   ],
    "imports":[
     "xpdconf"
+   ],
+   "requires":[
+    "pytest"
    ]
   }
  },
@@ -323,7 +385,9 @@
   },
   "test":{
    "__set__":true,
-   "elements":[]
+   "elements":[
+    "pytest"
+   ]
   }
  }
 }

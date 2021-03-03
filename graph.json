@@ -4827,6 +4827,10 @@
   },
   {
    "source":"pytest",
+   "target":"xpdconf"
+  },
+  {
+   "source":"pytest",
    "target":"xraydb"
   },
   {
