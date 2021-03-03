@@ -16,6 +16,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/583944004.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.9"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -168,9 +185,10 @@
   }
  },
  "name":"pylatexenc",
- "new_version":"2.8",
+ "new_version":"2.9",
  "new_version_attempts":{
-  "2.8":470
+  "2.8":470,
+  "2.9":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -244,7 +262,7 @@
    "elements":[]
   }
  },
- "pinning_version":"2020.12.23.19.30.24",
+ "pinning_version":"2021.03.03.10.54.47",
  "raw_meta_yaml":"{% set name = \"pylatexenc\" %}\n{% set version = \"2.8\" %}\n{% set sha256 = \"1dd4ea53fe63afc960f92558c2b034c61d369ad58cb8f6cd4bf362fee1784fd8\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/phfaist/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  noarch: python\n  entry_points:\n    - latexwalker = pylatexenc.latexwalker.__main__:main\n    - latex2text = pylatexenc.latex2text.__main__:main\n    - latexencode = pylatexenc.latexencode.__main__:main\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n\ntest:\n  imports:\n    - pylatexenc\n  commands:\n    - latexwalker --help\n    - latex2text --help\n    - latexencode --help\n\nabout:\n  home: https://github.com/phfaist/pylatexenc\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.txt\n  summary: Simple LaTeX parser providing latex-to-unicode and unicode-to-latex conversion\n  doc_url: https://pylatexenc.readthedocs.io\n  dev_url: https://github.com/phfaist/pylatexenc\n",
  "req":{
   "__set__":true,
@@ -276,7 +294,7 @@
    "elements":[]
   }
  },
- "smithy_version":"3.8.5",
+ "smithy_version":"3.9.0",
  "strong_exports":false,
  "total_requirements":{
   "build":{
