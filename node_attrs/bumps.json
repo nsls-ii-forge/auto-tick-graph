@@ -35,7 +35,7 @@
    ]
   }
  ],
- "bad":"make_graph: 502",
+ "bad":false,
  "conda-forge.yml":{
   "provider":{
    "linux":"azure",
@@ -211,7 +211,7 @@
   }
  },
  "name":"bumps",
- "new_version":false,
+ "new_version":"0.8.0",
  "new_version_attempts":{
   "0.7.16":1,
   "0.7.17":68,
