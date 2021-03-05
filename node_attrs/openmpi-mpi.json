@@ -52,7 +52,7 @@
    ]
   }
  ],
- "bad":false,
+ "bad":"make_graph: 502",
  "conda-forge.yml":{
   "provider":{
    "linux":"azure",
@@ -554,7 +554,7 @@
   }
  },
  "name":"openmpi-mpi",
- "new_version":"4.1.0",
+ "new_version":false,
  "new_version_attempts":{
   "4.0.4":1,
   "4.0.5":1,

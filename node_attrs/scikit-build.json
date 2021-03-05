@@ -1,5 +1,5 @@
 {
- "bad":false,
+ "bad":"make_graph: 502",
  "conda-forge.yml":{
   "provider":{
    "linux":"azure",
@@ -275,7 +275,7 @@
   }
  },
  "name":"scikit-build",
- "new_version":"0.11.1",
+ "new_version":false,
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"http://github.com/scikit-build/scikit-build",

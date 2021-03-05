@@ -1,5 +1,5 @@
 {
- "bad":false,
+ "bad":"make_graph: 502",
  "conda-forge.yml":{
   "provider":{
    "linux":"azure",
@@ -156,7 +156,7 @@
   }
  },
  "name":"chxtools",
- "new_version":"3.0.2",
+ "new_version":false,
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/NSLS-II-CHX/chxtools",
