@@ -1,5 +1,5 @@
 {
- "bad":false,
+ "bad":"make_graph: 502",
  "conda-forge.yml":{
   "provider":{
    "linux":"azure",
@@ -113,7 +113,7 @@
   }
  },
  "name":"yapsy",
- "new_version":"1.12.2",
+ "new_version":false,
  "osx_64_meta_yaml":{
   "about":{
    "home":"http://yapsy.sourceforge.net",
