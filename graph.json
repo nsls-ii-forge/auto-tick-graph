@@ -9,6 +9,9 @@
    "epics-base":"epics-base",
    "epics-base-static-libs":"epics-base",
    "gfortran_impl_osx-64":"gfortran_impl_osx-64",
+   "hdf5-external-filter-plugins-bitshuffle":"hdf5-external-filter-plugins",
+   "hdf5-external-filter-plugins-bzip2":"hdf5-external-filter-plugins",
+   "hdf5-external-filter-plugins-lz4":"hdf5-external-filter-plugins",
    "libclang":"clang_packages",
    "libgfortran":"gfortran_impl_osx-64",
    "libllvm8":"llvm-package",
@@ -322,6 +325,10 @@
    "target":"sasview"
   },
   {
+   "source":"bzip2",
+   "target":"hdf5-external-filter-plugins"
+  },
+  {
    "source":"c_compiler_stub",
    "target":"arpack-mpi"
   },
@@ -356,6 +363,10 @@
   {
    "source":"c_compiler_stub",
    "target":"h5py"
+  },
+  {
+   "source":"c_compiler_stub",
+   "target":"hdf5-external-filter-plugins"
   },
   {
    "source":"c_compiler_stub",
@@ -611,6 +622,10 @@
   },
   {
    "source":"cmake",
+   "target":"hdf5-external-filter-plugins"
+  },
+  {
+   "source":"cmake",
    "target":"jansson"
   },
   {
@@ -664,6 +679,10 @@
   {
    "source":"conda-pack",
    "target":"analysis"
+  },
+  {
+   "source":"conda-verify",
+   "target":"hdf5-external-filter-plugins"
   },
   {
    "source":"configparser",
@@ -760,6 +779,10 @@
   {
    "source":"cxx_compiler_stub",
    "target":"gfortran_impl_osx-64"
+  },
+  {
+   "source":"cxx_compiler_stub",
+   "target":"hdf5-external-filter-plugins"
   },
   {
    "source":"cxx_compiler_stub",
@@ -1562,6 +1585,10 @@
    "target":"xraylarch"
   },
   {
+   "source":"hdf5-external-filter-plugins",
+   "target":"hdf5-external-filter-plugins"
+  },
+  {
    "source":"hdf5-lz4",
    "target":"analysis"
   },
@@ -1572,6 +1599,10 @@
   {
    "source":"hdf5",
    "target":"h5py"
+  },
+  {
+   "source":"hdf5",
+   "target":"hdf5-external-filter-plugins"
   },
   {
    "source":"hdf5",
@@ -2095,6 +2126,10 @@
   },
   {
    "source":"lz4-c",
+   "target":"hdf5-external-filter-plugins"
+  },
+  {
+   "source":"lz4-c",
    "target":"librdkafka"
   },
   {
@@ -2228,6 +2263,10 @@
   {
    "source":"make",
    "target":"gfortran_impl_osx-64"
+  },
+  {
+   "source":"make",
+   "target":"hdf5-external-filter-plugins"
   },
   {
    "source":"make",
@@ -10498,6 +10537,24 @@
    "id":"simple-pid",
    "payload":{
     "__lazy_json__":"node_attrs/simple-pid.json"
+   }
+  },
+  {
+   "id":"hdf5-external-filter-plugins",
+   "payload":{
+    "__lazy_json__":"node_attrs/hdf5-external-filter-plugins.json"
+   }
+  },
+  {
+   "id":"conda-verify",
+   "payload":{
+    "__lazy_json__":"node_attrs/conda-verify.json"
+   }
+  },
+  {
+   "id":"bzip2",
+   "payload":{
+    "__lazy_json__":"node_attrs/bzip2.json"
    }
   }
  ]
