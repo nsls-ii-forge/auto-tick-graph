@@ -168,7 +168,7 @@
  "name":"pep517",
  "new_version":"0.10.0",
  "new_version_attempts":{
-  "0.10.0":7,
+  "0.10.0":8,
   "0.9.1":15
  },
  "new_version_errors":{},
