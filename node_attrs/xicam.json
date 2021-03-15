@@ -401,7 +401,7 @@
    "entry_points":[
     "xicam=run_xicam:main"
    ],
-   "number":"0",
+   "number":0,
    "script":" -m pip install . --no-deps -vv"
   },
   "package":{

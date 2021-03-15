@@ -189,7 +189,7 @@
  "new_version_attempts":{
   "1.2":1,
   "1.4":1,
-  "1.5":23
+  "1.5":24
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
