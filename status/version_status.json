@@ -22,7 +22,7 @@
     "curio": "no error information available",
     "dpkt": "The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '1.9.5' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz'\n",
     "fire": "no error information available",
-    "intake": "The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '0.6.1' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://pypi.io/packages/source/i/intake/intake-{{ version }}.tar.gz'\n",
+    "intake": "no error information available",
     "intake-xarray": "The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '0.4.1' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://pypi.io/packages/source/i/intake-xarray/intake-xarray-{{ version }}.tar.gz'\n",
     "libjpeg-turbo": "The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '9d' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/{{ name }}/{{ name }}/archive/{{ version }}.tar.gz'\n",
     "librdkafka": "no error information available",
