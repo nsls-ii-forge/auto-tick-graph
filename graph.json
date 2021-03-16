@@ -1586,11 +1586,11 @@
   },
   {
    "source":"hdf5-external-filter-plugins",
-   "target":"hdf5-external-filter-plugins"
+   "target":"analysis"
   },
   {
-   "source":"hdf5-lz4",
-   "target":"analysis"
+   "source":"hdf5-external-filter-plugins",
+   "target":"hdf5-external-filter-plugins"
   },
   {
    "source":"hdf5-lz4",
