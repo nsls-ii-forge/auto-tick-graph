@@ -16,6 +16,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/593842626.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2021.3.15.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -190,9 +207,10 @@
   }
  },
  "name":"lixtools",
- "new_version":"2021.2.25.0",
+ "new_version":"2021.3.15.0",
  "new_version_attempts":{
-  "2021.2.25.0":1
+  "2021.2.25.0":1,
+  "2021.3.15.0":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -276,7 +294,7 @@
    "elements":[]
   }
  },
- "pinning_version":"2021.02.26.11.24.58",
+ "pinning_version":"2021.03.15.13.17.50",
  "raw_meta_yaml":"{% set name = \"lixtools\" %}\n{% set version = \"2021.2.21.1\" %}\n{% set sha256 = \"068ea68fbfe1b3e1134ba544046974ee7426a8305574b7c250e526598385b9df\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n  patches:\n    # TODO: remove this patch once https://github.com/NSLS-II-LIX/lixtools/pull/1 is merged and released.\n    - 0001-missing-files.patch\n\nbuild:\n  number: 1\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv --no-deps\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - matplotlib\n    - numpy\n    - openpyxl >=3\n    - pandas\n    - pillow\n    - py4xs\n    - python-barcode\n    - qrcode\n\ntest:\n  imports:\n    - lixtools\n  commands:\n    - python -c 'import os, pkg_resources; assert os.path.isfile(pkg_resources.resource_filename(\"lixtools\", \"plate_label_template.html\"))'\n    - python -c 'import os, pkg_resources; assert os.path.isfile(pkg_resources.resource_filename(\"lixtools\", \"template_report.ipynb\"))'\n\nabout:\n  home: https://github.com/NSLS-II-LIX/lixtools\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: \"Software tools for data collection/processing at NSLS-II LiX\"\n",
  "req":{
   "__set__":true,
