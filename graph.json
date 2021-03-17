@@ -1590,11 +1590,11 @@
   },
   {
    "source":"hdf5-external-filter-plugins",
-   "target":"hdf5-external-filter-plugins"
+   "target":"eiger-io"
   },
   {
-   "source":"hdf5-lz4",
-   "target":"eiger-io"
+   "source":"hdf5-external-filter-plugins",
+   "target":"hdf5-external-filter-plugins"
   },
   {
    "source":"hdf5",
