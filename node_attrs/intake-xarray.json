@@ -178,7 +178,7 @@
   "0.4.0":40,
   "0.4.1":542,
   "0.4.2":8,
-  "0.5.0":8
+  "0.5.0":9
  },
  "new_version_errors":{
   "0.4.1":"The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '0.4.1' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://pypi.io/packages/source/i/intake-xarray/intake-xarray-{{ version }}.tar.gz'\n"
