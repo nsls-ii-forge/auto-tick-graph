@@ -5,6 +5,7 @@
   "databroker",
   "asteval",
   "ophyd",
+  "silx",
   "anyio",
   "nslsii",
   "xonsh",
