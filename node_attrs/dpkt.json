@@ -80,7 +80,7 @@
   },
   "package":{
    "name":"dpkt",
-   "version":"1.9.4"
+   "version":"1.9.5"
   },
   "requirements":{
    "host":[
@@ -92,8 +92,8 @@
    ]
   },
   "source":{
-   "sha256":"f4e579cbaf6e2285ebf3a9e84019459b4367636bac079ba169527e582fca48b4",
-   "url":"https://pypi.io/packages/source/d/dpkt/dpkt-1.9.4.tar.gz"
+   "sha256":"141cab4defcb4ead83e664765ebb045f55dbe73e17d617acafd6eaf368d7c55e",
+   "url":"https://pypi.io/packages/source/d/dpkt/dpkt-1.9.5.tar.gz"
   },
   "test":{
    "imports":[
@@ -142,7 +142,7 @@
   },
   "package":{
    "name":"dpkt",
-   "version":"1.9.4"
+   "version":"1.9.5"
   },
   "requirements":{
    "host":[
@@ -160,8 +160,8 @@
    ]
   },
   "source":{
-   "sha256":"f4e579cbaf6e2285ebf3a9e84019459b4367636bac079ba169527e582fca48b4",
-   "url":"https://pypi.io/packages/source/d/dpkt/dpkt-1.9.4.tar.gz"
+   "sha256":"141cab4defcb4ead83e664765ebb045f55dbe73e17d617acafd6eaf368d7c55e",
+   "url":"https://pypi.io/packages/source/d/dpkt/dpkt-1.9.5.tar.gz"
   },
   "test":{
    "imports":[
@@ -199,7 +199,7 @@
   },
   "package":{
    "name":"dpkt",
-   "version":"1.9.4"
+   "version":"1.9.5"
   },
   "requirements":{
    "host":[
@@ -211,8 +211,8 @@
    ]
   },
   "source":{
-   "sha256":"f4e579cbaf6e2285ebf3a9e84019459b4367636bac079ba169527e582fca48b4",
-   "url":"https://pypi.io/packages/source/d/dpkt/dpkt-1.9.4.tar.gz"
+   "sha256":"141cab4defcb4ead83e664765ebb045f55dbe73e17d617acafd6eaf368d7c55e",
+   "url":"https://pypi.io/packages/source/d/dpkt/dpkt-1.9.5.tar.gz"
   },
   "test":{
    "imports":[
@@ -244,7 +244,7 @@
   }
  },
  "pinning_version":"2021.03.18.08.08.13",
- "raw_meta_yaml":"{% set name = \"dpkt\" %}\n{% set version = \"1.9.4\" %}\n{% set sha256 = \"f4e579cbaf6e2285ebf3a9e84019459b4367636bac079ba169527e582fca48b4\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n\ntest:\n  imports:\n    - dpkt\n\nabout:\n  home: http://github.com/kbandla/dpkt\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: fast, simple packet creation / parsing, with definitions for the basic TCP/IP protocols\n  description: |\n    dpkt is a simple packet creation / parsing, with definitions for the basic TCP/IP protocols\n    and is implemented in pure python\n  doc_url: https://dpkt.readthedocs.io\n  dev_url: http://github.com/kbandla/dpkt\n",
+ "raw_meta_yaml":"{% set name = \"dpkt\" %}\n{% set version = \"1.9.5\" %}\n{% set sha256 = \"141cab4defcb4ead83e664765ebb045f55dbe73e17d617acafd6eaf368d7c55e\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n\ntest:\n  imports:\n    - dpkt\n\nabout:\n  home: http://github.com/kbandla/dpkt\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: fast, simple packet creation / parsing, with definitions for the basic TCP/IP protocols\n  description: |\n    dpkt is a simple packet creation / parsing, with definitions for the basic TCP/IP protocols\n    and is implemented in pure python\n  doc_url: https://dpkt.readthedocs.io\n  dev_url: http://github.com/kbandla/dpkt\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -301,7 +301,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/d/dpkt/dpkt-1.9.2.tar.gz",
- "version":"1.9.4",
+ "version":"1.9.5",
  "win_64_meta_yaml":{
   "about":{
    "description":"dpkt is a simple packet creation / parsing, with definitions for the basic TCP/IP protocols\nand is implemented in pure python\n",
@@ -320,7 +320,7 @@
   },
   "package":{
    "name":"dpkt",
-   "version":"1.9.4"
+   "version":"1.9.5"
   },
   "requirements":{
    "host":[
@@ -332,8 +332,8 @@
    ]
   },
   "source":{
-   "sha256":"f4e579cbaf6e2285ebf3a9e84019459b4367636bac079ba169527e582fca48b4",
-   "url":"https://pypi.io/packages/source/d/dpkt/dpkt-1.9.4.tar.gz"
+   "sha256":"141cab4defcb4ead83e664765ebb045f55dbe73e17d617acafd6eaf368d7c55e",
+   "url":"https://pypi.io/packages/source/d/dpkt/dpkt-1.9.5.tar.gz"
   },
   "test":{
    "imports":[

@@ -4790,10 +4790,6 @@
   },
   {
    "source":"pytest",
-   "target":"curio"
-  },
-  {
-   "source":"pytest",
    "target":"event-model"
   },
   {
