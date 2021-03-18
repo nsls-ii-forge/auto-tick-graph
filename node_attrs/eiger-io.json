@@ -54,7 +54,7 @@
   },
   "build":{
    "noarch":"python",
-   "number":"0",
+   "number":"1",
    "script":"-m pip install . --no-deps -vv"
   },
   "package":{
@@ -124,7 +124,7 @@
   },
   "build":{
    "noarch":"python",
-   "number":"0",
+   "number":"1",
    "script":"-m pip install . --no-deps -vv"
   },
   "package":{
@@ -192,7 +192,7 @@
   },
   "build":{
    "noarch":"python",
-   "number":"0",
+   "number":"1",
    "script":"-m pip install . --no-deps -vv"
   },
   "package":{
@@ -254,7 +254,7 @@
   }
  },
  "pinning_version":"2020.08.21.04.46.41",
- "raw_meta_yaml":"{% set name = \"eiger-io\" %}\n{% set name_ = name.replace('-', '_') %}\n{% set version = \"2.0.4\" %}\n{% set sha256 = \"40f79e360c300a71dd358f5881c3e361ce08a0ce2780e953e0531bef27c65ad6\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/NSLS-II/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - h5py\n    - hdf5-external-filter-plugins-bitshuffle\n    - hdf5-external-filter-plugins-lz4\n    - numpy\n    - pims\n    - six\n\ntest:\n  imports:\n    - {{ name_ }}\n\nabout:\n  home: https://github.com/NSLS-II/eiger-io\n  license: BSD  # TODO: add a license file in the repo and feedstock\n  license_file: LICENSE\n  summary: I/O tools for the Eiger detector\n",
+ "raw_meta_yaml":"{% set name = \"eiger-io\" %}\n{% set name_ = name.replace('-', '_') %}\n{% set version = \"2.0.4\" %}\n{% set sha256 = \"40f79e360c300a71dd358f5881c3e361ce08a0ce2780e953e0531bef27c65ad6\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/NSLS-II/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 1\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - h5py\n    - hdf5-external-filter-plugins-bitshuffle\n    - hdf5-external-filter-plugins-lz4\n    - numpy\n    - pims\n    - six\n\ntest:\n  imports:\n    - {{ name_ }}\n\nabout:\n  home: https://github.com/NSLS-II/eiger-io\n  license: BSD  # TODO: add a license file in the repo and feedstock\n  license_file: LICENSE\n  summary: I/O tools for the Eiger detector\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -339,7 +339,7 @@
   },
   "build":{
    "noarch":"python",
-   "number":"0",
+   "number":"1",
    "script":"-m pip install . --no-deps -vv"
   },
   "package":{
