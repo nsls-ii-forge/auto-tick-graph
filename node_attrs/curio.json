@@ -33,6 +33,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/595896533.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -189,7 +206,7 @@
  "new_version_attempts":{
   "1.2":1,
   "1.4":1,
-  "1.5":66
+  "1.5":67
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -266,7 +283,7 @@
    ]
   }
  },
- "pinning_version":"2020.08.25.14.55.21",
+ "pinning_version":"2021.03.18.08.08.13",
  "raw_meta_yaml":"{% set name = \"curio\" %}\n{% set version = \"1.4\" %}\n{% set sha256 = \"57edce81c837f3c2cf42fbb346dee26e537d1659e6605269fb13bd179e068744\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  build:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n\ntest:\n  source_files:\n    - tests\n    - examples\n  requires:\n    - pytest\n  imports:\n    - curio\n  commands:\n    - pytest\n\nabout:\n  home: https://curio.readthedocs.org/\n  license: BSD 3-clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: The coroutine concurrency library.\n  description: |\n    Curio is a library for performing concurrent I/O and common system programming\n    tasks such as launching subprocesses and farming work out to thread and process\n    pools. It uses Python coroutines and the explicit async/await syntax introduced\n    in Python 3.5. Its programming model is based on cooperative multitasking and\n    existing programming abstractions such as threads, sockets, files, subprocesses,\n    locks, and queues. You'll find it to be small and fast.\n  doc_url: https://curio.readthedocs.org/\n  dev_url: https://github.com/dabeaz/curio\n",
  "req":{
   "__set__":true,
@@ -300,7 +317,7 @@
    ]
   }
  },
- "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.10",
+ "smithy_version":"3.9.0",
  "strong_exports":false,
  "total_requirements":{
   "build":{
