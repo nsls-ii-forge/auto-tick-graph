@@ -16,6 +16,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/597367280.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -193,9 +210,10 @@
   }
  },
  "name":"mendeleev",
- "new_version":"0.6.1",
+ "new_version":"0.7.0",
  "new_version_attempts":{
-  "0.6.1":409
+  "0.6.1":409,
+  "0.7.0":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -282,7 +300,7 @@
    ]
   }
  },
- "pinning_version":"2020.12.23.19.30.24",
+ "pinning_version":"2021.03.20.17.14.24",
  "raw_meta_yaml":"{% set name = \"mendeleev\" %}\n{% set version = \"0.6.1\" %}\n{% set sha256 = \"3374e65207babe45b7e6a21aeba346b358365d9d0b2565ad9de6ba2ce87bc121\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  entry_points:\n    - element.py = mendeleev.cli:clielement\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - colorama\n    - numpy\n    - pandas\n    - pyfiglet\n    - sqlalchemy\n\ntest:\n  requires:\n    - pip\n  imports:\n    - mendeleev\n  commands:\n    - element.py --help\n    - pip check\n\nabout:\n  home: https://github.com/lmmentel/mendeleev\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.txt\n  summary: A perdioc table of elements API and a database of atomic properties.\n  description: |\n    This package provides an API for accessing various properties \n    of elements from the periodic table of elements.\n  doc_url: http://mendeleev.readthedocs.org\n  dev_url: https://github.com/lmmentel/mendeleev\n",
  "req":{
   "__set__":true,
@@ -326,7 +344,7 @@
    ]
   }
  },
- "smithy_version":"3.8.5",
+ "smithy_version":"3.9.0",
  "strong_exports":false,
  "total_requirements":{
   "build":{
