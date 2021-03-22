@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/597957164.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.17"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -160,7 +179,11 @@
   }
  },
  "name":"pint",
- "new_version":"0.16.1",
+ "new_version":"0.17",
+ "new_version_attempts":{
+  "0.17":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/hgrecco/pint",
@@ -239,6 +262,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2021.03.22.11.12.50",
  "raw_meta_yaml":"{% set name = \"Pint\" %}\n{% set version = \"0.16.1\" %}\n{% set sha256 = \"d43a2e9ae003164978b60fdf8cd920d8581e1a5991df8dded29b00f4850ec83a\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  script: SETUPTOOLS_SCM_PRETEND_VERSION={{ version }} {{ PYTHON }} -m pip install . -v\n  number: 0\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n    - setuptools >=45\n    - setuptools_scm >=3.4\n    - toml\n  run:\n    - python >=3.6\n    - importlib_metadata\n    - importlib_resources\n    - packaging\n    - setuptools\n\ntest:\n  imports:\n    - pint\n  commands:\n    - python -c \"import pint; ver = pint.__version__; assert ver != '0.0.0'\"\n\nabout:\n  home: https://github.com/hgrecco/pint\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Operate and manipulate physical quantities in Python\n  doc_url: http://pint.readthedocs.org/\n  dev_url: https://github.com/hgrecco/pint\n",
  "req":{
   "__set__":true,
@@ -283,6 +307,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"3.9.0",
  "strong_exports":false,
  "total_requirements":{
   "build":{
