@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/598132923.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -254,7 +273,7 @@
  "new_version":"0.6.2",
  "new_version_attempts":{
   "0.6.1":242,
-  "0.6.2":46
+  "0.6.2":47
  },
  "new_version_errors":{
   "0.6.1":"The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '0.6.1' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://pypi.io/packages/source/i/intake/intake-{{ version }}.tar.gz'\n"
@@ -367,6 +386,7 @@
    ]
   }
  },
+ "pinning_version":"2021.03.22.11.12.50",
  "raw_meta_yaml":"{% set name = \"intake\" %}\n{% set version = \"0.6.0\" %}\n{% set sha256 = \"0c284abeb74927a7366dcab6cefc010c4d050365b8af61c37326a2473a490a4e\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/i/intake/intake-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  entry_points:\n    - intake-server = intake.cli.server.__main__:main\n    - intake = intake.cli.client.__main__:main\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - appdirs\n    - entrypoints\n    - jinja2\n    - msgpack-python\n    - numpy\n    - pyyaml\n    - requests\n    - dask >=1.0\n    # dask[bag]\n    - cloudpickle >=0.2.2\n    - fsspec >=0.6.0\n    - toolz >=0.8.2\n    - partd >=0.3.10\n\ntest:\n  source_files:\n    - intake\n  imports:\n    - intake\n    - intake.auth\n    - intake.catalog\n    - intake.cli\n    - intake.cli.client\n    - intake.cli.server\n    - intake.container\n    - intake.gui\n    - intake.source\n  commands:\n    - pip check\n    - intake list --help\n    - intake-server --help\n  requires:\n    - pip\n\nabout:\n  home: https://github.com/intake/intake\n  license: BSD-2-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Data load and catalog system\n",
  "req":{
   "__set__":true,
@@ -424,6 +444,7 @@
    ]
   }
  },
+ "smithy_version":"3.9.0",
  "strong_exports":false,
  "total_requirements":{
   "build":{

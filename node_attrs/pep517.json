@@ -16,6 +16,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/598133851.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.10.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -168,7 +185,7 @@
  "name":"pep517",
  "new_version":"0.10.0",
  "new_version_attempts":{
-  "0.10.0":87,
+  "0.10.0":88,
   "0.9.1":15
  },
  "new_version_errors":{},
@@ -245,7 +262,7 @@
    ]
   }
  },
- "pinning_version":"2020.10.20.01.27.37",
+ "pinning_version":"2021.03.22.11.12.50",
  "raw_meta_yaml":"{% set name = \"pep517\" %}\n{% set version = \"0.9.1\" %}\n{% set sha256 = \"aeb78601f2d1aa461960b43add204cc7955667687fbcf9cdb5170f00556f117f\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n    - flit-core >=2,<3\n  run:\n    - python\n    - importlib-metadata  # [py<38]\n    - toml\n    - zipp  # [py<38]\n\ntest:\n  imports:\n    - pep517\n  commands:\n    - pip check\n  requires:\n    - pip\n\nabout:\n  home: https://pypi.org/project/pep517\n  license: MIT\n  license_file: LICENSE\n  summary: Wrappers to build Python packages using PEP 517 hooks\n",
  "req":{
   "__set__":true,
@@ -287,7 +304,7 @@
    ]
   }
  },
- "smithy_version":"3.8.2",
+ "smithy_version":"3.9.0",
  "strong_exports":false,
  "total_requirements":{
   "build":{
