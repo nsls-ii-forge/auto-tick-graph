@@ -58,7 +58,7 @@
   },
   "package":{
    "name":"pep517",
-   "version":"0.9.1"
+   "version":"0.10.0"
   },
   "requirements":{
    "host":[
@@ -74,8 +74,8 @@
    ]
   },
   "source":{
-   "sha256":"aeb78601f2d1aa461960b43add204cc7955667687fbcf9cdb5170f00556f117f",
-   "url":"https://pypi.io/packages/source/p/pep517/pep517-0.9.1.tar.gz"
+   "sha256":"ac59f3f6b9726a49e15a649474539442cf76e0697e39df4869d25e68e880931b",
+   "url":"https://pypi.io/packages/source/p/pep517/pep517-0.10.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -131,7 +131,7 @@
   },
   "package":{
    "name":"pep517",
-   "version":"0.9.1"
+   "version":"0.10.0"
   },
   "requirements":{
    "host":[
@@ -161,8 +161,8 @@
    ]
   },
   "source":{
-   "sha256":"aeb78601f2d1aa461960b43add204cc7955667687fbcf9cdb5170f00556f117f",
-   "url":"https://pypi.io/packages/source/p/pep517/pep517-0.9.1.tar.gz"
+   "sha256":"ac59f3f6b9726a49e15a649474539442cf76e0697e39df4869d25e68e880931b",
+   "url":"https://pypi.io/packages/source/p/pep517/pep517-0.10.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -202,7 +202,7 @@
   },
   "package":{
    "name":"pep517",
-   "version":"0.9.1"
+   "version":"0.10.0"
   },
   "requirements":{
    "host":[
@@ -218,8 +218,8 @@
    ]
   },
   "source":{
-   "sha256":"aeb78601f2d1aa461960b43add204cc7955667687fbcf9cdb5170f00556f117f",
-   "url":"https://pypi.io/packages/source/p/pep517/pep517-0.9.1.tar.gz"
+   "sha256":"ac59f3f6b9726a49e15a649474539442cf76e0697e39df4869d25e68e880931b",
+   "url":"https://pypi.io/packages/source/p/pep517/pep517-0.10.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -263,7 +263,7 @@
   }
  },
  "pinning_version":"2021.03.22.11.12.50",
- "raw_meta_yaml":"{% set name = \"pep517\" %}\n{% set version = \"0.9.1\" %}\n{% set sha256 = \"aeb78601f2d1aa461960b43add204cc7955667687fbcf9cdb5170f00556f117f\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n    - flit-core >=2,<3\n  run:\n    - python\n    - importlib-metadata  # [py<38]\n    - toml\n    - zipp  # [py<38]\n\ntest:\n  imports:\n    - pep517\n  commands:\n    - pip check\n  requires:\n    - pip\n\nabout:\n  home: https://pypi.org/project/pep517\n  license: MIT\n  license_file: LICENSE\n  summary: Wrappers to build Python packages using PEP 517 hooks\n",
+ "raw_meta_yaml":"{% set name = \"pep517\" %}\n{% set version = \"0.10.0\" %}\n{% set sha256 = \"ac59f3f6b9726a49e15a649474539442cf76e0697e39df4869d25e68e880931b\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n    - flit-core >=2,<3\n  run:\n    - python\n    - importlib-metadata  # [py<38]\n    - toml\n    - zipp  # [py<38]\n\ntest:\n  imports:\n    - pep517\n  commands:\n    - pip check\n  requires:\n    - pip\n\nabout:\n  home: https://pypi.org/project/pep517\n  license: MIT\n  license_file: LICENSE\n  summary: Wrappers to build Python packages using PEP 517 hooks\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -336,7 +336,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/p/pep517/pep517-0.8.2.tar.gz",
- "version":"0.9.1",
+ "version":"0.10.0",
  "win_64_meta_yaml":{
   "about":{
    "home":"https://pypi.org/project/pep517",
@@ -350,7 +350,7 @@
   },
   "package":{
    "name":"pep517",
-   "version":"0.9.1"
+   "version":"0.10.0"
   },
   "requirements":{
    "host":[
@@ -366,8 +366,8 @@
    ]
   },
   "source":{
-   "sha256":"aeb78601f2d1aa461960b43add204cc7955667687fbcf9cdb5170f00556f117f",
-   "url":"https://pypi.io/packages/source/p/pep517/pep517-0.9.1.tar.gz"
+   "sha256":"ac59f3f6b9726a49e15a649474539442cf76e0697e39df4869d25e68e880931b",
+   "url":"https://pypi.io/packages/source/p/pep517/pep517-0.10.0.tar.gz"
   },
   "test":{
    "commands":[
