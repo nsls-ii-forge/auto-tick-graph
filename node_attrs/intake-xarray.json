@@ -76,7 +76,7 @@
   },
   "package":{
    "name":"intake-xarray",
-   "version":"0.4.0"
+   "version":"0.5.0"
   },
   "requirements":{
    "host":[
@@ -93,8 +93,8 @@
    ]
   },
   "source":{
-   "sha256":"319d62a8854ad8de6e3d5db245f9d1441f9a8b08549351d367ff7d98a7e8535a",
-   "url":"https://pypi.io/packages/source/i/intake-xarray/intake-xarray-0.4.0.tar.gz"
+   "sha256":"fa8166e7ef3e665d9b78e48ef74e9cb78e1bf2b2edc9c65278796336b07e8a24",
+   "url":"https://pypi.io/packages/source/i/intake-xarray/intake-xarray-0.5.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -144,7 +144,7 @@
   },
   "package":{
    "name":"intake-xarray",
-   "version":"0.4.0"
+   "version":"0.5.0"
   },
   "requirements":{
    "host":[
@@ -177,8 +177,8 @@
    ]
   },
   "source":{
-   "sha256":"319d62a8854ad8de6e3d5db245f9d1441f9a8b08549351d367ff7d98a7e8535a",
-   "url":"https://pypi.io/packages/source/i/intake-xarray/intake-xarray-0.4.0.tar.gz"
+   "sha256":"fa8166e7ef3e665d9b78e48ef74e9cb78e1bf2b2edc9c65278796336b07e8a24",
+   "url":"https://pypi.io/packages/source/i/intake-xarray/intake-xarray-0.5.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -214,7 +214,7 @@
   },
   "package":{
    "name":"intake-xarray",
-   "version":"0.4.0"
+   "version":"0.5.0"
   },
   "requirements":{
    "host":[
@@ -231,8 +231,8 @@
    ]
   },
   "source":{
-   "sha256":"319d62a8854ad8de6e3d5db245f9d1441f9a8b08549351d367ff7d98a7e8535a",
-   "url":"https://pypi.io/packages/source/i/intake-xarray/intake-xarray-0.4.0.tar.gz"
+   "sha256":"fa8166e7ef3e665d9b78e48ef74e9cb78e1bf2b2edc9c65278796336b07e8a24",
+   "url":"https://pypi.io/packages/source/i/intake-xarray/intake-xarray-0.5.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -269,7 +269,7 @@
   }
  },
  "pinning_version":"2021.03.22.11.12.50",
- "raw_meta_yaml":"{% set name = \"intake-xarray\" %}\n{% set version = \"0.4.0\" %}\n{% set sha256 = \"319d62a8854ad8de6e3d5db245f9d1441f9a8b08549351d367ff7d98a7e8535a\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/i/intake-xarray/intake-xarray-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - dask >=2.2\n    - intake >=0.5.2\n    - netcdf4\n    - xarray >=0.12.0\n    - zarr\n\ntest:\n  imports:\n    - intake_xarray\n\nabout:\n  home: https://github.com/ContinuumIO/intake-xarray\n  license: BSD-2-Clause\n  license_file: {{ environ[\"RECIPE_DIR\"] }}/LICENSE\n  summary: xarray plugins for Intake\n",
+ "raw_meta_yaml":"{% set name = \"intake-xarray\" %}\n{% set version = \"0.5.0\" %}\n{% set sha256 = \"fa8166e7ef3e665d9b78e48ef74e9cb78e1bf2b2edc9c65278796336b07e8a24\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/i/intake-xarray/intake-xarray-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - dask >=2.2\n    - intake >=0.5.2\n    - netcdf4\n    - xarray >=0.12.0\n    - zarr\n\ntest:\n  imports:\n    - intake_xarray\n\nabout:\n  home: https://github.com/ContinuumIO/intake-xarray\n  license: BSD-2-Clause\n  license_file: {{ environ[\"RECIPE_DIR\"] }}/LICENSE\n  summary: xarray plugins for Intake\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -341,7 +341,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/i/intake-xarray/intake-xarray-0.3.1.tar.gz",
- "version":"0.4.0",
+ "version":"0.5.0",
  "win_64_meta_yaml":{
   "about":{
    "home":"https://github.com/ContinuumIO/intake-xarray",
@@ -356,7 +356,7 @@
   },
   "package":{
    "name":"intake-xarray",
-   "version":"0.4.0"
+   "version":"0.5.0"
   },
   "requirements":{
    "host":[
@@ -373,8 +373,8 @@
    ]
   },
   "source":{
-   "sha256":"319d62a8854ad8de6e3d5db245f9d1441f9a8b08549351d367ff7d98a7e8535a",
-   "url":"https://pypi.io/packages/source/i/intake-xarray/intake-xarray-0.4.0.tar.gz"
+   "sha256":"fa8166e7ef3e665d9b78e48ef74e9cb78e1bf2b2edc9c65278796336b07e8a24",
+   "url":"https://pypi.io/packages/source/i/intake-xarray/intake-xarray-0.5.0.tar.gz"
   },
   "test":{
    "imports":[
