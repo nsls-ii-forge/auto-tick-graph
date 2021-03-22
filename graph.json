@@ -4337,6 +4337,10 @@
    "target":"napari"
   },
   {
+   "source":"poetry",
+   "target":"mendeleev"
+  },
+  {
    "source":"posix",
    "target":"autotools_clang_conda"
   },
@@ -4487,6 +4491,10 @@
   {
    "source":"pygithub",
    "target":"punx"
+  },
+  {
+   "source":"pygments",
+   "target":"mendeleev"
   },
   {
    "source":"pygments",
@@ -10551,6 +10559,12 @@
    "id":"bzip2",
    "payload":{
     "__lazy_json__":"node_attrs/bzip2.json"
+   }
+  },
+  {
+   "id":"poetry",
+   "payload":{
+    "__lazy_json__":"node_attrs/poetry.json"
    }
   }
  ]
