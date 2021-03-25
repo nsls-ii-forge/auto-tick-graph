@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/600913662.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -131,7 +150,7 @@
  "name":"manhole",
  "new_version":"1.7.0",
  "new_version_attempts":{
-  "1.7.0":31
+  "1.7.0":32
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -199,6 +218,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2021.03.25.14.57.03",
  "raw_meta_yaml":"{% set name = \"manhole\" %}\n{% set version = \"1.6.0\" %}\n{% set sha256 = \"d4ab98198481ed54a5b95c0439f41131f56d7d3755eedaedce5a45ca7ff4aa42\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 1\n  noarch: python\n  entry_points:\n    - manhole-cli = manhole.cli:main\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  build:\n    - python\n    - pip\n  run:\n    - python\n\ntest:\n  imports:\n    - manhole\n  commands:\n    - manhole-cli --help\n\nabout:\n  home: https://github.com/ionelmc/python-manhole\n  license: BSD-2-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Debugging manhole for python applications\n",
  "req":{
   "__set__":true,
@@ -230,6 +250,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"3.9.0",
  "strong_exports":false,
  "total_requirements":{
   "build":{
