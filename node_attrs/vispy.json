@@ -61,7 +61,7 @@
   },
   "package":{
    "name":"vispy",
-   "version":"0.6.5"
+   "version":"0.6.6"
   },
   "requirements":{
    "build":[
@@ -88,8 +88,8 @@
    "patches":[
     "ctypes_fontconfig.diff"
    ],
-   "sha256":"90cc76e79ee16c839bca05753e0c5f9f1c1c57963f2d3b248e4afac0fd75df75",
-   "url":"https://pypi.io/packages/source/v/vispy/vispy-0.6.5.tar.gz"
+   "sha256":"6f3c4d00be9e6761c046d520a86693d78a0925d47eeb2fc095e95dac776f74ee",
+   "url":"https://pypi.io/packages/source/v/vispy/vispy-0.6.6.tar.gz"
   },
   "test":{
    "imports":[
@@ -147,7 +147,7 @@
   },
   "package":{
    "name":"vispy",
-   "version":"0.6.5"
+   "version":"0.6.6"
   },
   "requirements":{
    "build":[
@@ -200,8 +200,8 @@
     "ctypes_fontconfig.diff",
     "ctypes_fontconfig.diff"
    ],
-   "sha256":"90cc76e79ee16c839bca05753e0c5f9f1c1c57963f2d3b248e4afac0fd75df75",
-   "url":"https://pypi.io/packages/source/v/vispy/vispy-0.6.5.tar.gz"
+   "sha256":"6f3c4d00be9e6761c046d520a86693d78a0925d47eeb2fc095e95dac776f74ee",
+   "url":"https://pypi.io/packages/source/v/vispy/vispy-0.6.6.tar.gz"
   },
   "test":{
    "imports":[
@@ -234,7 +234,7 @@
   },
   "package":{
    "name":"vispy",
-   "version":"0.6.5"
+   "version":"0.6.6"
   },
   "requirements":{
    "build":[
@@ -261,8 +261,8 @@
    "patches":[
     "ctypes_fontconfig.diff"
    ],
-   "sha256":"90cc76e79ee16c839bca05753e0c5f9f1c1c57963f2d3b248e4afac0fd75df75",
-   "url":"https://pypi.io/packages/source/v/vispy/vispy-0.6.5.tar.gz"
+   "sha256":"6f3c4d00be9e6761c046d520a86693d78a0925d47eeb2fc095e95dac776f74ee",
+   "url":"https://pypi.io/packages/source/v/vispy/vispy-0.6.6.tar.gz"
   },
   "test":{
    "imports":[
@@ -305,7 +305,7 @@
   }
  },
  "pinning_version":"2020.11.27.22.34.30",
- "raw_meta_yaml":"{% set name = \"vispy\" %}\n{% set version = \"0.6.5\" %}\n{% set sha256 = \"90cc76e79ee16c839bca05753e0c5f9f1c1c57963f2d3b248e4afac0fd75df75\" %}\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n  patches:\n    - ctypes_fontconfig.diff\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  skip: true  # [py<36]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - python\n    - pip\n    - cython\n    - fontconfig  # [unix]\n    - numpy\n    - setuptools\n    - setuptools_scm\n    - setuptools_scm_git_archive\n  run:\n    - python\n    - fontconfig  # [unix]\n    - freetype-py\n    - {{ pin_compatible('numpy') }}\n\ntest:\n  imports:\n    - vispy\n\nabout:\n  home: http://vispy.org\n  license_family: BSD\n  license: BSD-3-Clause\n  license_file: LICENSE.txt\n  summary: VisPy is a high-performance interactive 2D/3D data visualization library.\n  dev_url: https://github.com/vispy/vispy\n  doc_url: http://vispy.org/documentation.html\n",
+ "raw_meta_yaml":"{% set name = \"vispy\" %}\n{% set version = \"0.6.6\" %}\n{% set sha256 = \"6f3c4d00be9e6761c046d520a86693d78a0925d47eeb2fc095e95dac776f74ee\" %}\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n  patches:\n    - ctypes_fontconfig.diff\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  skip: true  # [py<36]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - python\n    - pip\n    - cython\n    - fontconfig  # [unix]\n    - numpy\n    - setuptools\n    - setuptools_scm\n    - setuptools_scm_git_archive\n  run:\n    - python\n    - fontconfig  # [unix]\n    - freetype-py\n    - {{ pin_compatible('numpy') }}\n\ntest:\n  imports:\n    - vispy\n\nabout:\n  home: http://vispy.org\n  license_family: BSD\n  license: BSD-3-Clause\n  license_file: LICENSE.txt\n  summary: VisPy is a high-performance interactive 2D/3D data visualization library.\n  dev_url: https://github.com/vispy/vispy\n  doc_url: http://vispy.org/documentation.html\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -392,7 +392,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/v/vispy/vispy-0.6.4.tar.gz",
- "version":"0.6.5",
+ "version":"0.6.6",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/vispy/vispy",
@@ -409,7 +409,7 @@
   },
   "package":{
    "name":"vispy",
-   "version":"0.6.5"
+   "version":"0.6.6"
   },
   "requirements":{
    "build":[
@@ -434,8 +434,8 @@
    "patches":[
     "ctypes_fontconfig.diff"
    ],
-   "sha256":"90cc76e79ee16c839bca05753e0c5f9f1c1c57963f2d3b248e4afac0fd75df75",
-   "url":"https://pypi.io/packages/source/v/vispy/vispy-0.6.5.tar.gz"
+   "sha256":"6f3c4d00be9e6761c046d520a86693d78a0925d47eeb2fc095e95dac776f74ee",
+   "url":"https://pypi.io/packages/source/v/vispy/vispy-0.6.6.tar.gz"
   },
   "test":{
    "imports":[
