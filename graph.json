@@ -4010,6 +4010,10 @@
   },
   {
    "source":"pip",
+   "target":"pymysql"
+  },
+  {
+   "source":"pip",
    "target":"pyolog"
   },
   {
@@ -5503,6 +5507,10 @@
   {
    "source":"python",
    "target":"pylatexenc"
+  },
+  {
+   "source":"python",
+   "target":"pymysql"
   },
   {
    "source":"python",
