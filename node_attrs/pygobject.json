@@ -30,46 +30,48 @@
  "hash_type":"sha256",
  "linux_64_meta_yaml":{
   "about":{
-   "home":"http://www.gtk.org",
-   "license":"LGPL",
+   "description":"PyGObject is a Python package which provides bindings for GObject based libraries\nsuch as GTK+, GStreamer, WebKitGTK+, GLib, GIO and many more.\n",
+   "dev_url":"https://git.gnome.org/browse/pygobject",
+   "doc_url":"https://pygobject.readthedocs.io",
+   "home":"https://pygobject.readthedocs.io",
+   "license":"LGPL-2.1-or-later",
+   "license_family":"LGPL",
    "license_file":"COPYING",
-   "summary":"Access to GObject-based libraries in Python."
+   "summary":"Python bindings for GObject Introspection"
   },
   "build":{
-   "number":"0",
-   "script":"-m pip install . --no-deps -vv"
+   "number":"0"
   },
   "package":{
    "name":"pygobject",
-   "version":"3.32.2"
+   "version":"3.40.0"
   },
   "requirements":{
    "build":[
     "c_compiler_stub",
-    "cxx_compiler_stub"
+    "meson",
+    "ninja",
+    "pkg-config"
    ],
    "host":[
     "python",
-    "pip",
-    "cairo",
     "glib",
     "gobject-introspection",
     "libffi",
-    "pycairo",
-    "pytest"
+    "pycairo"
    ],
    "run":[
     "python",
-    "cairo",
-    "pycairo",
     "glib",
     "gobject-introspection",
-    "libffi"
+    "libffi",
+    "libiconv",
+    "pycairo"
    ]
   },
   "source":{
-   "sha256":"c39ca2a28364b57fa00549c6e836346031e6b886c3ceabfd8ab4b4fed0a83611",
-   "url":"http://ftp.gnome.org/pub/GNOME/sources/pygobject/3.32/pygobject-3.32.2.tar.xz"
+   "sha256":"67d61fac9f5aa83bf2edccbc286802ce0f1c3dde8f83103b7c765b91a6ed905f",
+   "url":"https://download.gnome.org/sources/pygobject/3.40/pygobject-3.40.0.tar.xz"
   },
   "test":{
    "imports":[
@@ -82,29 +84,28 @@
    "__set__":true,
    "elements":[
     "c_compiler_stub",
-    "cxx_compiler_stub"
+    "meson",
+    "ninja",
+    "pkg-config"
    ]
   },
   "host":{
    "__set__":true,
    "elements":[
-    "cairo",
     "glib",
     "gobject-introspection",
     "libffi",
-    "pip",
     "pycairo",
-    "pytest",
     "python"
    ]
   },
   "run":{
    "__set__":true,
    "elements":[
-    "cairo",
     "glib",
     "gobject-introspection",
     "libffi",
+    "libiconv",
     "pycairo",
     "python"
    ]
@@ -116,79 +117,79 @@
  },
  "meta_yaml":{
   "about":{
-   "home":"http://www.gtk.org",
-   "license":"LGPL",
+   "description":"PyGObject is a Python package which provides bindings for GObject based libraries\nsuch as GTK+, GStreamer, WebKitGTK+, GLib, GIO and many more.\n",
+   "dev_url":"https://git.gnome.org/browse/pygobject",
+   "doc_url":"https://pygobject.readthedocs.io",
+   "home":"https://pygobject.readthedocs.io",
+   "license":"LGPL-2.1-or-later",
+   "license_family":"LGPL",
    "license_file":"COPYING",
-   "summary":"Access to GObject-based libraries in Python."
+   "summary":"Python bindings for GObject Introspection"
   },
   "build":{
    "number":"0",
-   "script":"-m pip install . --no-deps -vv",
    "skip":true
   },
   "package":{
    "name":"pygobject",
-   "version":"3.32.2"
+   "version":"3.40.0"
   },
   "requirements":{
    "build":[
     "c_compiler_stub",
-    "cxx_compiler_stub",
+    "meson",
+    "ninja",
+    "pkg-config",
     "c_compiler_stub",
-    "cxx_compiler_stub",
+    "meson",
+    "ninja",
+    "pkg-config",
     "c_compiler_stub",
-    "cxx_compiler_stub"
+    "meson",
+    "ninja",
+    "pkg-config"
    ],
    "host":[
     "python",
-    "pip",
-    "cairo",
     "glib",
     "gobject-introspection",
     "libffi",
     "pycairo",
-    "pytest",
     "python",
-    "pip",
-    "cairo",
     "glib",
     "gobject-introspection",
     "libffi",
     "pycairo",
-    "pytest",
     "python",
-    "pip",
-    "cairo",
     "glib",
     "gobject-introspection",
     "libffi",
-    "pycairo",
-    "pytest"
+    "pycairo"
    ],
    "run":[
     "python",
-    "cairo",
-    "pycairo",
     "glib",
     "gobject-introspection",
     "libffi",
-    "python",
-    "cairo",
+    "libiconv",
     "pycairo",
+    "python",
     "glib",
     "gobject-introspection",
     "libffi",
-    "python",
-    "cairo",
+    "libiconv",
     "pycairo",
+    "python",
     "glib",
     "gobject-introspection",
-    "libffi"
+    "libffi",
+    "libiconv",
+    "pycairo"
    ]
   },
   "source":{
-   "sha256":"c39ca2a28364b57fa00549c6e836346031e6b886c3ceabfd8ab4b4fed0a83611",
-   "url":"http://ftp.gnome.org/pub/GNOME/sources/pygobject/3.32/pygobject-3.32.2.tar.xz"
+   "sha256":"67d61fac9f5aa83bf2edccbc286802ce0f1c3dde8f83103b7c765b91a6ed905f",
+   "url":"https://download.gnome.org/sources/pygobject/3.40/pygobject-3.40.0.tar.xz"
   },
   "test":{
    "imports":[
@@ -206,47 +207,49 @@
  "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
-   "home":"http://www.gtk.org",
-   "license":"LGPL",
+   "description":"PyGObject is a Python package which provides bindings for GObject based libraries\nsuch as GTK+, GStreamer, WebKitGTK+, GLib, GIO and many more.\n",
+   "dev_url":"https://git.gnome.org/browse/pygobject",
+   "doc_url":"https://pygobject.readthedocs.io",
+   "home":"https://pygobject.readthedocs.io",
+   "license":"LGPL-2.1-or-later",
+   "license_family":"LGPL",
    "license_file":"COPYING",
-   "summary":"Access to GObject-based libraries in Python."
+   "summary":"Python bindings for GObject Introspection"
   },
   "build":{
    "number":"0",
-   "script":"-m pip install . --no-deps -vv",
    "skip":true
   },
   "package":{
    "name":"pygobject",
-   "version":"3.32.2"
+   "version":"3.40.0"
   },
   "requirements":{
    "build":[
     "c_compiler_stub",
-    "cxx_compiler_stub"
+    "meson",
+    "ninja",
+    "pkg-config"
    ],
    "host":[
     "python",
-    "pip",
-    "cairo",
     "glib",
     "gobject-introspection",
     "libffi",
-    "pycairo",
-    "pytest"
+    "pycairo"
    ],
    "run":[
     "python",
-    "cairo",
-    "pycairo",
     "glib",
     "gobject-introspection",
-    "libffi"
+    "libffi",
+    "libiconv",
+    "pycairo"
    ]
   },
   "source":{
-   "sha256":"c39ca2a28364b57fa00549c6e836346031e6b886c3ceabfd8ab4b4fed0a83611",
-   "url":"http://ftp.gnome.org/pub/GNOME/sources/pygobject/3.32/pygobject-3.32.2.tar.xz"
+   "sha256":"67d61fac9f5aa83bf2edccbc286802ce0f1c3dde8f83103b7c765b91a6ed905f",
+   "url":"https://download.gnome.org/sources/pygobject/3.40/pygobject-3.40.0.tar.xz"
   },
   "test":{
    "imports":[
@@ -259,29 +262,28 @@
    "__set__":true,
    "elements":[
     "c_compiler_stub",
-    "cxx_compiler_stub"
+    "meson",
+    "ninja",
+    "pkg-config"
    ]
   },
   "host":{
    "__set__":true,
    "elements":[
-    "cairo",
     "glib",
     "gobject-introspection",
     "libffi",
-    "pip",
     "pycairo",
-    "pytest",
     "python"
    ]
   },
   "run":{
    "__set__":true,
    "elements":[
-    "cairo",
     "glib",
     "gobject-introspection",
     "libffi",
+    "libiconv",
     "pycairo",
     "python"
    ]
@@ -292,19 +294,19 @@
   }
  },
  "pinning_version":"2020.08.21.04.46.41",
- "raw_meta_yaml":"{% set name = \"pygobject\" %}\n{% set version = \"3.32.2\" %}\n{% set majmin = '.'.join(version.split('.', 2)[:2]) %}\n{% set sha256 = \"c39ca2a28364b57fa00549c6e836346031e6b886c3ceabfd8ab4b4fed0a83611\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: http://ftp.gnome.org/pub/GNOME/sources/{{ name }}/{{ majmin }}/{{ name }}-{{ version }}.tar.xz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  skip: true  # [py<36 or not linux]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - python\n    - pip\n    - cairo\n    - glib\n    - gobject-introspection\n    - libffi\n    - pycairo\n    - pytest\n  run:\n    - python\n    - {{ pin_compatible('cairo') }}\n    - {{ pin_compatible('pycairo') }}\n    - glib\n    - gobject-introspection\n    - libffi\n\ntest:\n  imports:\n    - gi\n\nabout:\n  home: http://www.gtk.org\n  license: LGPL\n  license_file: COPYING\n  summary: Access to GObject-based libraries in Python.\n",
+ "raw_meta_yaml":"{% set name = \"pygobject\" %}\n{% set version = \"3.40.0\" %}\n{% set majmin = '.'.join(version.split('.', 2)[:2]) %}\n{% set sha256 = \"67d61fac9f5aa83bf2edccbc286802ce0f1c3dde8f83103b7c765b91a6ed905f\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://download.gnome.org/sources/{{ name }}/{{ majmin }}/{{ name }}-{{ version }}.tar.xz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  skip: true  # [not linux or py<35]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - meson\n    - ninja\n    - pkg-config\n  host:\n    - python\n    - glib\n    - gobject-introspection\n    - libffi\n    - pycairo\n  run:\n    - python\n    - glib\n    - gobject-introspection\n    - libffi\n    - libiconv  # on Windows we seem to need the conda-forge version here (see #15)\n    - pycairo\n\ntest:\n  imports:\n    - gi\n\nabout:\n  home: https://pygobject.readthedocs.io\n  license: LGPL-2.1-or-later\n  license_family: LGPL\n  license_file: COPYING\n  summary: 'Python bindings for GObject Introspection'\n\n  description: |\n    PyGObject is a Python package which provides bindings for GObject based libraries\n    such as GTK+, GStreamer, WebKitGTK+, GLib, GIO and many more.\n\n  doc_url: https://pygobject.readthedocs.io\n  dev_url: https://git.gnome.org/browse/pygobject\n",
  "req":{
   "__set__":true,
   "elements":[
    "c_compiler_stub",
-   "cairo",
-   "cxx_compiler_stub",
    "glib",
    "gobject-introspection",
    "libffi",
-   "pip",
+   "libiconv",
+   "meson",
+   "ninja",
+   "pkg-config",
    "pycairo",
-   "pytest",
    "python"
   ]
  },
@@ -313,29 +315,28 @@
    "__set__":true,
    "elements":[
     "c_compiler_stub",
-    "cxx_compiler_stub"
+    "meson",
+    "ninja",
+    "pkg-config"
    ]
   },
   "host":{
    "__set__":true,
    "elements":[
-    "cairo",
     "glib",
     "gobject-introspection",
     "libffi",
-    "pip",
     "pycairo",
-    "pytest",
     "python"
    ]
   },
   "run":{
    "__set__":true,
    "elements":[
-    "cairo",
     "glib",
     "gobject-introspection",
     "libffi",
+    "libiconv",
     "pycairo",
     "python"
    ]
@@ -352,29 +353,28 @@
    "__set__":true,
    "elements":[
     "c_compiler_stub",
-    "cxx_compiler_stub"
+    "meson",
+    "ninja",
+    "pkg-config"
    ]
   },
   "host":{
    "__set__":true,
    "elements":[
-    "cairo",
     "glib",
     "gobject-introspection",
     "libffi",
-    "pip",
     "pycairo",
-    "pytest",
     "python"
    ]
   },
   "run":{
    "__set__":true,
    "elements":[
-    "cairo",
     "glib",
     "gobject-introspection",
     "libffi",
+    "libiconv",
     "pycairo",
     "python"
    ]
@@ -385,50 +385,52 @@
   }
  },
  "url":"http://ftp.gnome.org/pub/GNOME/sources/pygobject/3.31/pygobject-3.31.1.tar.xz",
- "version":"3.32.2",
+ "version":"3.40.0",
  "win_64_meta_yaml":{
   "about":{
-   "home":"http://www.gtk.org",
-   "license":"LGPL",
+   "description":"PyGObject is a Python package which provides bindings for GObject based libraries\nsuch as GTK+, GStreamer, WebKitGTK+, GLib, GIO and many more.\n",
+   "dev_url":"https://git.gnome.org/browse/pygobject",
+   "doc_url":"https://pygobject.readthedocs.io",
+   "home":"https://pygobject.readthedocs.io",
+   "license":"LGPL-2.1-or-later",
+   "license_family":"LGPL",
    "license_file":"COPYING",
-   "summary":"Access to GObject-based libraries in Python."
+   "summary":"Python bindings for GObject Introspection"
   },
   "build":{
    "number":"0",
-   "script":"-m pip install . --no-deps -vv",
    "skip":true
   },
   "package":{
    "name":"pygobject",
-   "version":"3.32.2"
+   "version":"3.40.0"
   },
   "requirements":{
    "build":[
     "c_compiler_stub",
-    "cxx_compiler_stub"
+    "meson",
+    "ninja",
+    "pkg-config"
    ],
    "host":[
     "python",
-    "pip",
-    "cairo",
     "glib",
     "gobject-introspection",
     "libffi",
-    "pycairo",
-    "pytest"
+    "pycairo"
    ],
    "run":[
     "python",
-    "cairo",
-    "pycairo",
     "glib",
     "gobject-introspection",
-    "libffi"
+    "libffi",
+    "libiconv",
+    "pycairo"
    ]
   },
   "source":{
-   "sha256":"c39ca2a28364b57fa00549c6e836346031e6b886c3ceabfd8ab4b4fed0a83611",
-   "url":"http://ftp.gnome.org/pub/GNOME/sources/pygobject/3.32/pygobject-3.32.2.tar.xz"
+   "sha256":"67d61fac9f5aa83bf2edccbc286802ce0f1c3dde8f83103b7c765b91a6ed905f",
+   "url":"https://download.gnome.org/sources/pygobject/3.40/pygobject-3.40.0.tar.xz"
   },
   "test":{
    "imports":[
@@ -441,29 +443,28 @@
    "__set__":true,
    "elements":[
     "c_compiler_stub",
-    "cxx_compiler_stub"
+    "meson",
+    "ninja",
+    "pkg-config"
    ]
   },
   "host":{
    "__set__":true,
    "elements":[
-    "cairo",
     "glib",
     "gobject-introspection",
     "libffi",
-    "pip",
     "pycairo",
-    "pytest",
     "python"
    ]
   },
   "run":{
    "__set__":true,
    "elements":[
-    "cairo",
     "glib",
     "gobject-introspection",
     "libffi",
+    "libiconv",
     "pycairo",
     "python"
    ]

@@ -541,10 +541,6 @@
    "target":"openbabel"
   },
   {
-   "source":"cairo",
-   "target":"pygobject"
-  },
-  {
    "source":"caproto",
    "target":"bluesky-darkframes"
   },
@@ -835,10 +831,6 @@
   {
    "source":"cxx_compiler_stub",
    "target":"pyfai"
-  },
-  {
-   "source":"cxx_compiler_stub",
-   "target":"pygobject"
   },
   {
    "source":"cxx_compiler_stub",
@@ -1993,6 +1985,10 @@
    "target":"hkl"
   },
   {
+   "source":"libiconv",
+   "target":"pygobject"
+  },
+  {
    "source":"libopenblas",
    "target":"arpack-mpi"
   },
@@ -2481,6 +2477,10 @@
    "target":"analysis"
   },
   {
+   "source":"meson",
+   "target":"pygobject"
+  },
+  {
    "source":"mkl-devel",
    "target":"tomopy"
   },
@@ -2671,6 +2671,10 @@
   {
    "source":"ninja",
    "target":"llvm-package"
+  },
+  {
+   "source":"ninja",
+   "target":"pygobject"
   },
   {
    "source":"ninja",
@@ -3982,10 +3986,6 @@
   },
   {
    "source":"pip",
-   "target":"pygobject"
-  },
-  {
-   "source":"pip",
    "target":"pyinstrument"
   },
   {
@@ -4327,6 +4327,10 @@
   {
    "source":"pkg-config",
    "target":"lz4-c"
+  },
+  {
+   "source":"pkg-config",
+   "target":"pygobject"
   },
   {
    "source":"pkg-config",
@@ -4827,10 +4831,6 @@
   {
    "source":"pytest",
    "target":"pycentroids"
-  },
-  {
-   "source":"pytest",
-   "target":"pygobject"
   },
   {
    "source":"pytest",
@@ -10573,6 +10573,12 @@
    "id":"poetry",
    "payload":{
     "__lazy_json__":"node_attrs/poetry.json"
+   }
+  },
+  {
+   "id":"meson",
+   "payload":{
+    "__lazy_json__":"node_attrs/meson.json"
    }
   }
  ]
