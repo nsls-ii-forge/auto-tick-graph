@@ -16,6 +16,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/601744717.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -154,9 +171,10 @@
   }
  },
  "name":"databases",
- "new_version":"0.4.2",
+ "new_version":"0.4.3",
  "new_version_attempts":{
-  "0.4.2":1
+  "0.4.2":1,
+  "0.4.3":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -227,7 +245,7 @@
    "elements":[]
   }
  },
- "pinning_version":"2021.03.13.19.08.27",
+ "pinning_version":"2021.03.26.15.18.50",
  "raw_meta_yaml":"{% set name = \"databases\" %}\n{% set version = \"0.4.2\" %}\n{% set sha256 = \"2ca1b72f0209744e25fababc44c183e5fb6f7dd7af4274379f2ec6f14c00432a\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  skip: true  # [py<36]\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - aiocontextvars  # [py<37]\n    - aiomysql\n    - aiosqlite\n    - asyncpg\n    - sqlalchemy\n\ntest:\n  imports:\n    - databases\n\nabout:\n  home: https://github.com/encode/databases\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.md\n  summary: Async database support for Python\n  doc_url: https://github.com/encode/databases/\n  dev_url: https://github.com/encode/databases/\n",
  "req":{
   "__set__":true,
