@@ -144,7 +144,11 @@
   }
  },
  "name":"suitcase-tiff",
- "new_version":"0.2.1",
+ "new_version":"0.3.0",
+ "new_version_attempts":{
+  "0.3.0":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/bluesky/suitcase-tiff",
