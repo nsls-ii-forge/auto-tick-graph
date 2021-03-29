@@ -1,6 +1,5 @@
 [
   "event-model",
-  "tifffile",
   "prettytable",
   "databroker",
   "asteval",
