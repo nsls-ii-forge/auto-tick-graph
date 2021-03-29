@@ -45,7 +45,7 @@
   },
   "package":{
    "name":"suitcase-tiff",
-   "version":"0.2.1"
+   "version":"0.3.0"
   },
   "requirements":{
    "host":[
@@ -60,8 +60,8 @@
    ]
   },
   "source":{
-   "sha256":"44d8f760711ac751f0141f1dd9394c524f7aaf42fdfb30bb873dc6a7a8934c33",
-   "url":"https://pypi.io/packages/source/s/suitcase-tiff/suitcase-tiff-0.2.1.tar.gz"
+   "sha256":"51a67fc394a460557bbdcd68de8c2c2a43c3f328191130c631168347544c5fa4",
+   "url":"https://pypi.io/packages/source/s/suitcase-tiff/suitcase-tiff-0.3.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -115,7 +115,7 @@
   },
   "package":{
    "name":"suitcase-tiff",
-   "version":"0.2.1"
+   "version":"0.3.0"
   },
   "requirements":{
    "host":[
@@ -142,8 +142,8 @@
    ]
   },
   "source":{
-   "sha256":"44d8f760711ac751f0141f1dd9394c524f7aaf42fdfb30bb873dc6a7a8934c33",
-   "url":"https://pypi.io/packages/source/s/suitcase-tiff/suitcase-tiff-0.2.1.tar.gz"
+   "sha256":"51a67fc394a460557bbdcd68de8c2c2a43c3f328191130c631168347544c5fa4",
+   "url":"https://pypi.io/packages/source/s/suitcase-tiff/suitcase-tiff-0.3.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -185,7 +185,7 @@
   },
   "package":{
    "name":"suitcase-tiff",
-   "version":"0.2.1"
+   "version":"0.3.0"
   },
   "requirements":{
    "host":[
@@ -200,8 +200,8 @@
    ]
   },
   "source":{
-   "sha256":"44d8f760711ac751f0141f1dd9394c524f7aaf42fdfb30bb873dc6a7a8934c33",
-   "url":"https://pypi.io/packages/source/s/suitcase-tiff/suitcase-tiff-0.2.1.tar.gz"
+   "sha256":"51a67fc394a460557bbdcd68de8c2c2a43c3f328191130c631168347544c5fa4",
+   "url":"https://pypi.io/packages/source/s/suitcase-tiff/suitcase-tiff-0.3.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -239,7 +239,7 @@
   }
  },
  "pinning_version":"2021.03.29.15.45.30",
- "raw_meta_yaml":"{% set name = \"suitcase-tiff\" %}\n{% set version = \"0.2.1\" %}\n{% set sha256 = \"44d8f760711ac751f0141f1dd9394c524f7aaf42fdfb30bb873dc6a7a8934c33\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - event-model >=1.8.0\n    - suitcase-utils\n    - tifffile\n\ntest:\n  imports:\n    - suitcase.tiff_series\n    - suitcase.tiff_series.tests\n    - suitcase.tiff_stack\n    - suitcase.tiff_stack.tests\n\nabout:\n  home: https://blueskyproject.io/suitcase\n  license: BSD (3-clause)\n  license_family: BSD\n  license_file: LICENSE\n  summary: Export bluesky documents to TIFF\n  doc_url: https://blueskyproject.io/suitcase\n  dev_url: https://github.com/bluesky/suitcase-tiff\n",
+ "raw_meta_yaml":"{% set name = \"suitcase-tiff\" %}\n{% set version = \"0.3.0\" %}\n{% set sha256 = \"51a67fc394a460557bbdcd68de8c2c2a43c3f328191130c631168347544c5fa4\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - event-model >=1.8.0\n    - suitcase-utils\n    - tifffile\n\ntest:\n  imports:\n    - suitcase.tiff_series\n    - suitcase.tiff_series.tests\n    - suitcase.tiff_stack\n    - suitcase.tiff_stack.tests\n\nabout:\n  home: https://blueskyproject.io/suitcase\n  license: BSD (3-clause)\n  license_family: BSD\n  license_file: LICENSE\n  summary: Export bluesky documents to TIFF\n  doc_url: https://blueskyproject.io/suitcase\n  dev_url: https://github.com/bluesky/suitcase-tiff\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -305,7 +305,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/s/suitcase-tiff/suitcase-tiff-0.2.1.tar.gz",
- "version":"0.2.1",
+ "version":"0.3.0",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/bluesky/suitcase-tiff",
@@ -323,7 +323,7 @@
   },
   "package":{
    "name":"suitcase-tiff",
-   "version":"0.2.1"
+   "version":"0.3.0"
   },
   "requirements":{
    "host":[
@@ -338,8 +338,8 @@
    ]
   },
   "source":{
-   "sha256":"44d8f760711ac751f0141f1dd9394c524f7aaf42fdfb30bb873dc6a7a8934c33",
-   "url":"https://pypi.io/packages/source/s/suitcase-tiff/suitcase-tiff-0.2.1.tar.gz"
+   "sha256":"51a67fc394a460557bbdcd68de8c2c2a43c3f328191130c631168347544c5fa4",
+   "url":"https://pypi.io/packages/source/s/suitcase-tiff/suitcase-tiff-0.3.0.tar.gz"
   },
   "test":{
    "imports":[

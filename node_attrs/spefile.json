@@ -27,7 +27,7 @@
    "version":"1.6"
   },
   "requirements":{
-   "build":[
+   "host":[
     "python",
     "pip"
    ],
@@ -48,14 +48,14 @@
  "linux_64_requirements":{
   "build":{
    "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
    "elements":[
     "pip",
     "python"
    ]
-  },
-  "host":{
-   "__set__":true,
-   "elements":[]
   },
   "run":{
    "__set__":true,
@@ -88,7 +88,7 @@
    "version":"1.6"
   },
   "requirements":{
-   "build":[
+   "host":[
     "python",
     "pip",
     "python",
@@ -137,7 +137,7 @@
    "version":"1.6"
   },
   "requirements":{
-   "build":[
+   "host":[
     "python",
     "pip"
    ],
@@ -158,14 +158,14 @@
  "osx_64_requirements":{
   "build":{
    "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
    "elements":[
     "pip",
     "python"
    ]
-  },
-  "host":{
-   "__set__":true,
-   "elements":[]
   },
   "run":{
    "__set__":true,
@@ -179,7 +179,7 @@
    "elements":[]
   }
  },
- "raw_meta_yaml":"{% set name = \"spefile\" %}\n{% set version = \"1.6\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  path: src\n\nbuild:\n  number: 1\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  build:\n    - python\n    - pip\n  run:\n    - python\n    - numpy\n\ntest:\n  imports:\n    - spefile\n\nabout:\n  # Long term goal is to have the src/ folder in this recipe as a stand-alone\n  # project on github.\n  home: https://github.com/stuwilkins/pyspec\n  license: GPL v3.0\n  license_file: LICENSE.txt\n  summary: >\n    Reader for SPE files part of pyspec a set of python routines for data\n    analysis of x-ray scattering experiments\n  dev_url: https://github.com/stuwilkins/pyspec\n  doc_url: https://pythonhosted.org/pyspec\n",
+ "raw_meta_yaml":"{% set name = \"spefile\" %}\n{% set version = \"1.6\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  path: src\n\nbuild:\n  number: 1\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - numpy\n\ntest:\n  imports:\n    - spefile\n\nabout:\n  # Long term goal is to have the src/ folder in this recipe as a stand-alone\n  # project on github.\n  home: https://github.com/stuwilkins/pyspec\n  license: GPL v3.0\n  license_file: LICENSE.txt\n  summary: >\n    Reader for SPE files part of pyspec a set of python routines for data\n    analysis of x-ray scattering experiments\n  dev_url: https://github.com/stuwilkins/pyspec\n  doc_url: https://pythonhosted.org/pyspec\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -191,14 +191,14 @@
  "requirements":{
   "build":{
    "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
    "elements":[
     "pip",
     "python"
    ]
-  },
-  "host":{
-   "__set__":true,
-   "elements":[]
   },
   "run":{
    "__set__":true,
@@ -216,14 +216,14 @@
  "total_requirements":{
   "build":{
    "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
    "elements":[
     "pip",
     "python"
    ]
-  },
-  "host":{
-   "__set__":true,
-   "elements":[]
   },
   "run":{
    "__set__":true,
@@ -258,7 +258,7 @@
    "version":"1.6"
   },
   "requirements":{
-   "build":[
+   "host":[
     "python",
     "pip"
    ],
@@ -279,14 +279,14 @@
  "win_64_requirements":{
   "build":{
    "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
    "elements":[
     "pip",
     "python"
    ]
-  },
-  "host":{
-   "__set__":true,
-   "elements":[]
   },
   "run":{
    "__set__":true,

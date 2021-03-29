@@ -62,7 +62,7 @@
   },
   "package":{
    "name":"suitcase-utils",
-   "version":"0.5.3"
+   "version":"0.5.4"
   },
   "requirements":{
    "host":[
@@ -74,8 +74,8 @@
    ]
   },
   "source":{
-   "sha256":"dfef82994c3e73b6cbd59d249a0c66afe056246956cfb1e931db4ca99631c6b7",
-   "url":"https://pypi.io/packages/source/s/suitcase-utils/suitcase-utils-0.5.3.tar.gz"
+   "sha256":"5c3fee0896d1ebf89d1a7b41198a14a09866065c62fe17adbb1cf1c15d636d89",
+   "url":"https://pypi.io/packages/source/s/suitcase-utils/suitcase-utils-0.5.4.tar.gz"
   },
   "test":{
    "imports":[
@@ -123,7 +123,7 @@
   },
   "package":{
    "name":"suitcase-utils",
-   "version":"0.5.3"
+   "version":"0.5.4"
   },
   "requirements":{
    "host":[
@@ -141,8 +141,8 @@
    ]
   },
   "source":{
-   "sha256":"dfef82994c3e73b6cbd59d249a0c66afe056246956cfb1e931db4ca99631c6b7",
-   "url":"https://pypi.io/packages/source/s/suitcase-utils/suitcase-utils-0.5.3.tar.gz"
+   "sha256":"5c3fee0896d1ebf89d1a7b41198a14a09866065c62fe17adbb1cf1c15d636d89",
+   "url":"https://pypi.io/packages/source/s/suitcase-utils/suitcase-utils-0.5.4.tar.gz"
   },
   "test":{
    "imports":[
@@ -176,7 +176,7 @@
   },
   "package":{
    "name":"suitcase-utils",
-   "version":"0.5.3"
+   "version":"0.5.4"
   },
   "requirements":{
    "host":[
@@ -188,8 +188,8 @@
    ]
   },
   "source":{
-   "sha256":"dfef82994c3e73b6cbd59d249a0c66afe056246956cfb1e931db4ca99631c6b7",
-   "url":"https://pypi.io/packages/source/s/suitcase-utils/suitcase-utils-0.5.3.tar.gz"
+   "sha256":"5c3fee0896d1ebf89d1a7b41198a14a09866065c62fe17adbb1cf1c15d636d89",
+   "url":"https://pypi.io/packages/source/s/suitcase-utils/suitcase-utils-0.5.4.tar.gz"
   },
   "test":{
    "imports":[
@@ -221,7 +221,7 @@
   }
  },
  "pinning_version":"2021.03.29.15.45.30",
- "raw_meta_yaml":"{% set name = \"suitcase-utils\" %}\n{% set version = \"0.5.3\" %}\n{% set sha256 = \"dfef82994c3e73b6cbd59d249a0c66afe056246956cfb1e931db4ca99631c6b7\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n\ntest:\n  imports:\n    - suitcase.utils\n\nabout:\n  home: https://blueskyproject.io/suitcase\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Utility functions and test fixtures for suitcase-* packages\n  doc_url: https://blueskyproject.io/suitcase\n  dev_url: https://github.com/bluesky/suitcase-utils\n",
+ "raw_meta_yaml":"{% set name = \"suitcase-utils\" %}\n{% set version = \"0.5.4\" %}\n{% set sha256 = \"5c3fee0896d1ebf89d1a7b41198a14a09866065c62fe17adbb1cf1c15d636d89\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n\ntest:\n  imports:\n    - suitcase.utils\n\nabout:\n  home: https://blueskyproject.io/suitcase\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Utility functions and test fixtures for suitcase-* packages\n  doc_url: https://blueskyproject.io/suitcase\n  dev_url: https://github.com/bluesky/suitcase-utils\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -278,7 +278,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/s/suitcase-utils/suitcase-utils-0.5.0.tar.gz",
- "version":"0.5.3",
+ "version":"0.5.4",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/bluesky/suitcase-utils",
@@ -296,7 +296,7 @@
   },
   "package":{
    "name":"suitcase-utils",
-   "version":"0.5.3"
+   "version":"0.5.4"
   },
   "requirements":{
    "host":[
@@ -308,8 +308,8 @@
    ]
   },
   "source":{
-   "sha256":"dfef82994c3e73b6cbd59d249a0c66afe056246956cfb1e931db4ca99631c6b7",
-   "url":"https://pypi.io/packages/source/s/suitcase-utils/suitcase-utils-0.5.3.tar.gz"
+   "sha256":"5c3fee0896d1ebf89d1a7b41198a14a09866065c62fe17adbb1cf1c15d636d89",
+   "url":"https://pypi.io/packages/source/s/suitcase-utils/suitcase-utils-0.5.4.tar.gz"
   },
   "test":{
    "imports":[
