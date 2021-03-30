@@ -24,6 +24,7 @@
   "xraylarch",
   "ipympl",
   "napari",
+  "nexpy",
   "nsls2forge-utils",
   "py4xs",
   "photutils",
