@@ -16,6 +16,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/603686633.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.40.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -200,9 +217,10 @@
   }
  },
  "name":"pygobject",
- "new_version":"3.32.2",
+ "new_version":"3.40.1",
  "new_version_attempts":{
-  "3.32.2":1
+  "3.32.2":1,
+  "3.40.1":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -293,7 +311,7 @@
    "elements":[]
   }
  },
- "pinning_version":"2020.08.21.04.46.41",
+ "pinning_version":"2021.03.29.15.45.30",
  "raw_meta_yaml":"{% set name = \"pygobject\" %}\n{% set version = \"3.40.0\" %}\n{% set majmin = '.'.join(version.split('.', 2)[:2]) %}\n{% set sha256 = \"67d61fac9f5aa83bf2edccbc286802ce0f1c3dde8f83103b7c765b91a6ed905f\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://download.gnome.org/sources/{{ name }}/{{ majmin }}/{{ name }}-{{ version }}.tar.xz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  skip: true  # [not linux or py<35]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - meson\n    - ninja\n    - pkg-config\n  host:\n    - python\n    - glib\n    - gobject-introspection\n    - libffi\n    - pycairo\n  run:\n    - python\n    - glib\n    - gobject-introspection\n    - libffi\n    - libiconv  # on Windows we seem to need the conda-forge version here (see #15)\n    - pycairo\n\ntest:\n  imports:\n    - gi\n\nabout:\n  home: https://pygobject.readthedocs.io\n  license: LGPL-2.1-or-later\n  license_family: LGPL\n  license_file: COPYING\n  summary: 'Python bindings for GObject Introspection'\n\n  description: |\n    PyGObject is a Python package which provides bindings for GObject based libraries\n    such as GTK+, GStreamer, WebKitGTK+, GLib, GIO and many more.\n\n  doc_url: https://pygobject.readthedocs.io\n  dev_url: https://git.gnome.org/browse/pygobject\n",
  "req":{
   "__set__":true,
@@ -346,7 +364,7 @@
    "elements":[]
   }
  },
- "smithy_version":"No azure token. Create a token and\nput it in ~/.conda-smithy/azure.token\n3.7.10",
+ "smithy_version":"3.9.0",
  "strong_exports":false,
  "total_requirements":{
   "build":{

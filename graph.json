@@ -197,6 +197,10 @@
    "target":"napari"
   },
   {
+   "source":"bash",
+   "target":"make"
+  },
+  {
    "source":"beautifulsoup4",
    "target":"nsls2forge-utils"
   },
@@ -2013,6 +2017,10 @@
    "target":"hkl"
   },
   {
+   "source":"libtool",
+   "target":"make"
+  },
+  {
    "source":"libxml2",
    "target":"openbabel"
   },
@@ -2287,6 +2295,10 @@
   {
    "source":"make",
    "target":"lz4-c"
+  },
+  {
+   "source":"make",
+   "target":"make"
   },
   {
    "source":"make",
@@ -10579,6 +10591,12 @@
    "id":"meson",
    "payload":{
     "__lazy_json__":"node_attrs/meson.json"
+   }
+  },
+  {
+   "id":"bash",
+   "payload":{
+    "__lazy_json__":"node_attrs/bash.json"
    }
   }
  ]
