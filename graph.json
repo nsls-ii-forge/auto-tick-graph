@@ -1449,10 +1449,6 @@
    "target":"scikit-build"
   },
   {
-   "source":"git",
-   "target":"tomopy"
-  },
-  {
    "source":"glib",
    "target":"hkl"
   },
@@ -2009,10 +2005,6 @@
    "target":"edrixs"
   },
   {
-   "source":"libopencv",
-   "target":"tomopy"
-  },
-  {
    "source":"librdkafka",
    "target":"pykafka"
   },
@@ -2501,18 +2493,6 @@
    "target":"pygobject"
   },
   {
-   "source":"mkl-devel",
-   "target":"tomopy"
-  },
-  {
-   "source":"mkl_fft",
-   "target":"tomopy"
-  },
-  {
-   "source":"mkl",
-   "target":"tomopy"
-  },
-  {
    "source":"mock",
    "target":"cupy"
   },
@@ -2713,6 +2693,10 @@
    "target":"pyinstrument"
   },
   {
+   "source":"nomkl",
+   "target":"tomopy"
+  },
+  {
    "source":"nompi",
    "target":"h5py"
   },
@@ -2727,10 +2711,6 @@
   {
    "source":"nose",
    "target":"scikit-beam"
-  },
-  {
-   "source":"nose",
-   "target":"tomopy"
   },
   {
    "source":"nsls2-analysis",
@@ -4898,6 +4878,10 @@
   },
   {
    "source":"pytest",
+   "target":"tomopy"
+  },
+  {
+   "source":"pytest",
    "target":"xonsh"
   },
   {
@@ -6566,6 +6550,10 @@
   },
   {
    "source":"setuptools",
+   "target":"tomopy"
+  },
+  {
+   "source":"setuptools",
    "target":"vispy"
   },
   {
@@ -6715,10 +6703,6 @@
   {
    "source":"six",
    "target":"tenacity"
-  },
-  {
-   "source":"six",
-   "target":"tomopy"
   },
   {
    "source":"sixtools",
@@ -10637,6 +10621,12 @@
    "id":"widgetsnbextension",
    "payload":{
     "__lazy_json__":"node_attrs/widgetsnbextension.json"
+   }
+  },
+  {
+   "id":"nomkl",
+   "payload":{
+    "__lazy_json__":"node_attrs/nomkl.json"
    }
   }
  ]
