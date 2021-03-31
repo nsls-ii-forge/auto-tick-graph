@@ -16,7 +16,7 @@
    "license_file":"LICENSE/LICENSE"
   },
   "build":{
-   "number":"0",
+   "number":"1",
    "script":" -m pip install . --no-deps -vv"
   },
   "package":{
@@ -25,8 +25,6 @@
   },
   "requirements":{
    "build":[
-    "python",
-    "pip",
     "cmake",
     "cpplint",
     "pybind11",
@@ -40,9 +38,8 @@
    ],
    "run":[
     "python",
-    "pandas",
-    "scipy",
-    "numpy"
+    "numpy",
+    "pandas"
    ]
   },
   "source":{
@@ -57,7 +54,8 @@
     "pycentroids"
    ],
    "requires":[
-    "pytest"
+    "pytest",
+    "scipy"
    ]
   }
  },
@@ -69,9 +67,7 @@
     "cmake",
     "cpplint",
     "cxx_compiler_stub",
-    "pip",
-    "pybind11",
-    "python"
+    "pybind11"
    ]
   },
   "host":{
@@ -87,14 +83,14 @@
    "elements":[
     "numpy",
     "pandas",
-    "python",
-    "scipy"
+    "python"
    ]
   },
   "test":{
    "__set__":true,
    "elements":[
-    "pytest"
+    "pytest",
+    "scipy"
    ]
   }
  },
@@ -105,7 +101,7 @@
    "license_file":"LICENSE/LICENSE"
   },
   "build":{
-   "number":"0",
+   "number":"1",
    "script":" -m pip install . --no-deps -vv",
    "skip":true
   },
@@ -115,22 +111,16 @@
   },
   "requirements":{
    "build":[
-    "python",
-    "pip",
     "cmake",
     "cpplint",
     "pybind11",
     "c_compiler_stub",
     "cxx_compiler_stub",
-    "python",
-    "pip",
     "cmake",
     "cpplint",
     "pybind11",
     "c_compiler_stub",
     "cxx_compiler_stub",
-    "python",
-    "pip",
     "cmake",
     "cpplint",
     "pybind11",
@@ -150,17 +140,14 @@
    ],
    "run":[
     "python",
-    "pandas",
-    "scipy",
     "numpy",
-    "python",
     "pandas",
-    "scipy",
+    "python",
     "numpy",
-    "python",
     "pandas",
-    "scipy",
-    "numpy"
+    "python",
+    "numpy",
+    "pandas"
    ]
   },
   "source":{
@@ -180,8 +167,11 @@
    ],
    "requires":[
     "pytest",
+    "scipy",
     "pytest",
-    "pytest"
+    "scipy",
+    "pytest",
+    "scipy"
    ]
   }
  },
@@ -194,7 +184,7 @@
    "license_file":"LICENSE/LICENSE"
   },
   "build":{
-   "number":"0",
+   "number":"1",
    "script":" -m pip install . --no-deps -vv"
   },
   "package":{
@@ -203,8 +193,6 @@
   },
   "requirements":{
    "build":[
-    "python",
-    "pip",
     "cmake",
     "cpplint",
     "pybind11",
@@ -218,9 +206,8 @@
    ],
    "run":[
     "python",
-    "pandas",
-    "scipy",
-    "numpy"
+    "numpy",
+    "pandas"
    ]
   },
   "source":{
@@ -235,7 +222,8 @@
     "pycentroids"
    ],
    "requires":[
-    "pytest"
+    "pytest",
+    "scipy"
    ]
   }
  },
@@ -247,9 +235,7 @@
     "cmake",
     "cpplint",
     "cxx_compiler_stub",
-    "pip",
-    "pybind11",
-    "python"
+    "pybind11"
    ]
   },
   "host":{
@@ -265,18 +251,18 @@
    "elements":[
     "numpy",
     "pandas",
-    "python",
-    "scipy"
+    "python"
    ]
   },
   "test":{
    "__set__":true,
    "elements":[
-    "pytest"
+    "pytest",
+    "scipy"
    ]
   }
  },
- "raw_meta_yaml":"{% set name = \"pycentroids\" %}\n{% set version = \"0.2.0rc2\" %}\n{% set sha256 = \"642109bffe3c2733c06e897b91bc999ea0e960981fea8ba74ddce25e90faf5fe\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  skip: true  # [win]\n\nrequirements:\n  host:\n    - python\n    - pip\n    - pytest-runner\n  build:\n    - python\n    - pip\n    - cmake\n    - cpplint\n    - pybind11\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  run:\n    - python\n    - pandas\n    - scipy\n    - {{ pin_compatible('numpy')  }}\n\ntest:\n  requires:\n    - pytest\n  imports:\n    - pycentroids\n  commands:\n    - pytest --pyargs pycentroids.tests\n\nabout:\n  home: https://github.com/NSLS-II/centroids\n  license: BSD 3-clause\n  license_file: LICENSE/LICENSE\n",
+ "raw_meta_yaml":"{% set name = \"pycentroids\" %}\n{% set version = \"0.2.0rc2\" %}\n{% set sha256 = \"642109bffe3c2733c06e897b91bc999ea0e960981fea8ba74ddce25e90faf5fe\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 1\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n  skip: true  # [win]\n\nrequirements:\n  host:\n    - python\n    - pip\n    - pytest-runner\n  build:\n    - cmake\n    - cpplint\n    - pybind11\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  run:\n    - python\n    - numpy\n    - pandas\n\ntest:\n  requires:\n    - pytest\n    - scipy\n  imports:\n    - pycentroids\n  commands:\n    - pytest --pyargs pycentroids.tests\n\nabout:\n  home: https://github.com/NSLS-II/centroids\n  license: BSD 3-clause\n  license_file: LICENSE/LICENSE\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -289,8 +275,7 @@
    "pip",
    "pybind11",
    "pytest-runner",
-   "python",
-   "scipy"
+   "python"
   ]
  },
  "requirements":{
@@ -301,9 +286,7 @@
     "cmake",
     "cpplint",
     "cxx_compiler_stub",
-    "pip",
-    "pybind11",
-    "python"
+    "pybind11"
    ]
   },
   "host":{
@@ -319,14 +302,14 @@
    "elements":[
     "numpy",
     "pandas",
-    "python",
-    "scipy"
+    "python"
    ]
   },
   "test":{
    "__set__":true,
    "elements":[
-    "pytest"
+    "pytest",
+    "scipy"
    ]
   }
  },
@@ -339,9 +322,7 @@
     "cmake",
     "cpplint",
     "cxx_compiler_stub",
-    "pip",
-    "pybind11",
-    "python"
+    "pybind11"
    ]
   },
   "host":{
@@ -357,14 +338,14 @@
    "elements":[
     "numpy",
     "pandas",
-    "python",
-    "scipy"
+    "python"
    ]
   },
   "test":{
    "__set__":true,
    "elements":[
-    "pytest"
+    "pytest",
+    "scipy"
    ]
   }
  },
@@ -377,7 +358,7 @@
    "license_file":"LICENSE/LICENSE"
   },
   "build":{
-   "number":"0",
+   "number":"1",
    "script":" -m pip install . --no-deps -vv",
    "skip":true
   },
@@ -387,8 +368,6 @@
   },
   "requirements":{
    "build":[
-    "python",
-    "pip",
     "cmake",
     "cpplint",
     "pybind11",
@@ -402,9 +381,8 @@
    ],
    "run":[
     "python",
-    "pandas",
-    "scipy",
-    "numpy"
+    "numpy",
+    "pandas"
    ]
   },
   "source":{
@@ -419,7 +397,8 @@
     "pycentroids"
    ],
    "requires":[
-    "pytest"
+    "pytest",
+    "scipy"
    ]
   }
  },
@@ -431,9 +410,7 @@
     "cmake",
     "cpplint",
     "cxx_compiler_stub",
-    "pip",
-    "pybind11",
-    "python"
+    "pybind11"
    ]
   },
   "host":{
@@ -449,14 +426,14 @@
    "elements":[
     "numpy",
     "pandas",
-    "python",
-    "scipy"
+    "python"
    ]
   },
   "test":{
    "__set__":true,
    "elements":[
-    "pytest"
+    "pytest",
+    "scipy"
    ]
   }
  }
