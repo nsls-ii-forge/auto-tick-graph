@@ -31,6 +31,7 @@
   "eventlet",
   "ispyb",
   "pdfstream",
+  "lixtools",
   "hunter",
   "slack-sdk",
   "httpx",
