@@ -701,6 +701,10 @@
    "target":"pycentroids"
   },
   {
+   "source":"cross-python_",
+   "target":"reportlab"
+  },
+  {
    "source":"cryptography",
    "target":"doctr"
   },
@@ -10597,6 +10601,12 @@
    "id":"bash",
    "payload":{
     "__lazy_json__":"node_attrs/bash.json"
+   }
+  },
+  {
+   "id":"cross-python_",
+   "payload":{
+    "__lazy_json__":"node_attrs/cross-python_.json"
    }
   }
  ]

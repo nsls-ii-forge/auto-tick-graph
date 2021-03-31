@@ -81,8 +81,9 @@
  "hash_type":"sha256",
  "linux_64_meta_yaml":{
   "about":{
-   "doc_url":"https://www.reportlab.com/dev/docs",
-   "home":"https://www.reportlab.com",
+   "dev_url":"https://hg.reportlab.com/hg-public/reportlab/",
+   "doc_url":"https://www.reportlab.com/dev/docs/",
+   "home":"https://www.reportlab.com/opensource/",
    "license":"BSD-3-Clause",
    "license_family":"BSD",
    "license_file":"LICENSE.txt",
@@ -93,16 +94,19 @@
   },
   "package":{
    "name":"reportlab",
-   "version":"3.5.50"
+   "version":"3.5.66"
   },
   "requirements":{
    "build":[
+    "python",
+    "cross-python_",
     "c_compiler_stub"
    ],
    "host":[
     "python",
     "pip",
-    "freetype"
+    "freetype",
+    "pillow >=2.4.0"
    ],
    "run":[
     "python",
@@ -111,29 +115,21 @@
    ]
   },
   "source":{
-   "sha256":"876ce59164245f62bf67b8502e127b0a3ffd40f37c7177d1b4d9da24e42a77b0",
-   "url":"https://pypi.io/packages/source/r/reportlab/reportlab-3.5.50.tar.gz"
+   "sha256":"63fba51babad0047def4ffaa41d0065248ca39d680e98dc9e3010de5425539b4",
+   "url":"https://pypi.io/packages/source/r/reportlab/reportlab-3.5.66.tar.gz"
   },
   "test":{
-   "commands":[
-    "cd tests && $PYTHON runAll.py"
-   ],
    "imports":[
     "reportlab",
+    "reportlab.graphics",
+    "reportlab.graphics.barcode",
     "reportlab.graphics.charts",
     "reportlab.graphics.samples",
     "reportlab.graphics.widgets",
-    "reportlab.graphics.barcode",
-    "reportlab.graphics",
     "reportlab.lib",
     "reportlab.pdfbase",
     "reportlab.pdfgen",
     "reportlab.platypus"
-   ],
-   "source_files":[
-    "docs/",
-    "tests/",
-    "tools/"
    ]
   }
  },
@@ -141,13 +137,16 @@
   "build":{
    "__set__":true,
    "elements":[
-    "c_compiler_stub"
+    "c_compiler_stub",
+    "cross-python_",
+    "python"
    ]
   },
   "host":{
    "__set__":true,
    "elements":[
     "freetype",
+    "pillow",
     "pip",
     "python"
    ]
@@ -167,8 +166,9 @@
  },
  "meta_yaml":{
   "about":{
-   "doc_url":"https://www.reportlab.com/dev/docs",
-   "home":"https://www.reportlab.com",
+   "dev_url":"https://hg.reportlab.com/hg-public/reportlab/",
+   "doc_url":"https://www.reportlab.com/dev/docs/",
+   "home":"https://www.reportlab.com/opensource/",
    "license":"BSD-3-Clause",
    "license_family":"BSD",
    "license_file":"LICENSE.txt",
@@ -179,24 +179,33 @@
   },
   "package":{
    "name":"reportlab",
-   "version":"3.5.50"
+   "version":"3.5.66"
   },
   "requirements":{
    "build":[
+    "python",
+    "cross-python_",
     "c_compiler_stub",
+    "python",
+    "cross-python_",
     "c_compiler_stub",
+    "python",
+    "cross-python_",
     "c_compiler_stub"
    ],
    "host":[
     "python",
     "pip",
     "freetype",
+    "pillow >=2.4.0",
     "python",
     "pip",
     "freetype",
+    "pillow >=2.4.0",
     "python",
     "pip",
-    "freetype"
+    "freetype",
+    "pillow >=2.4.0"
    ],
    "run":[
     "python",
@@ -211,55 +220,41 @@
    ]
   },
   "source":{
-   "sha256":"876ce59164245f62bf67b8502e127b0a3ffd40f37c7177d1b4d9da24e42a77b0",
-   "url":"https://pypi.io/packages/source/r/reportlab/reportlab-3.5.50.tar.gz"
+   "sha256":"63fba51babad0047def4ffaa41d0065248ca39d680e98dc9e3010de5425539b4",
+   "url":"https://pypi.io/packages/source/r/reportlab/reportlab-3.5.66.tar.gz"
   },
   "test":{
-   "commands":[
-    "cd tests && $PYTHON runAll.py"
-   ],
    "imports":[
     "reportlab",
+    "reportlab.graphics",
+    "reportlab.graphics.barcode",
     "reportlab.graphics.charts",
     "reportlab.graphics.samples",
     "reportlab.graphics.widgets",
-    "reportlab.graphics.barcode",
-    "reportlab.graphics",
     "reportlab.lib",
     "reportlab.pdfbase",
     "reportlab.pdfgen",
     "reportlab.platypus",
     "reportlab",
+    "reportlab.graphics",
+    "reportlab.graphics.barcode",
     "reportlab.graphics.charts",
     "reportlab.graphics.samples",
     "reportlab.graphics.widgets",
-    "reportlab.graphics.barcode",
-    "reportlab.graphics",
     "reportlab.lib",
     "reportlab.pdfbase",
     "reportlab.pdfgen",
     "reportlab.platypus",
     "reportlab",
+    "reportlab.graphics",
+    "reportlab.graphics.barcode",
     "reportlab.graphics.charts",
     "reportlab.graphics.samples",
     "reportlab.graphics.widgets",
-    "reportlab.graphics.barcode",
-    "reportlab.graphics",
     "reportlab.lib",
     "reportlab.pdfbase",
     "reportlab.pdfgen",
     "reportlab.platypus"
-   ],
-   "source_files":[
-    "docs/",
-    "tests/",
-    "tools/",
-    "docs/",
-    "tests/",
-    "tools/",
-    "docs/",
-    "tests/",
-    "tools/"
    ]
   }
  },
@@ -274,8 +269,9 @@
  "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
-   "doc_url":"https://www.reportlab.com/dev/docs",
-   "home":"https://www.reportlab.com",
+   "dev_url":"https://hg.reportlab.com/hg-public/reportlab/",
+   "doc_url":"https://www.reportlab.com/dev/docs/",
+   "home":"https://www.reportlab.com/opensource/",
    "license":"BSD-3-Clause",
    "license_family":"BSD",
    "license_file":"LICENSE.txt",
@@ -286,16 +282,19 @@
   },
   "package":{
    "name":"reportlab",
-   "version":"3.5.50"
+   "version":"3.5.66"
   },
   "requirements":{
    "build":[
+    "python",
+    "cross-python_",
     "c_compiler_stub"
    ],
    "host":[
     "python",
     "pip",
-    "freetype"
+    "freetype",
+    "pillow >=2.4.0"
    ],
    "run":[
     "python",
@@ -304,29 +303,21 @@
    ]
   },
   "source":{
-   "sha256":"876ce59164245f62bf67b8502e127b0a3ffd40f37c7177d1b4d9da24e42a77b0",
-   "url":"https://pypi.io/packages/source/r/reportlab/reportlab-3.5.50.tar.gz"
+   "sha256":"63fba51babad0047def4ffaa41d0065248ca39d680e98dc9e3010de5425539b4",
+   "url":"https://pypi.io/packages/source/r/reportlab/reportlab-3.5.66.tar.gz"
   },
   "test":{
-   "commands":[
-    "cd tests && $PYTHON runAll.py"
-   ],
    "imports":[
     "reportlab",
+    "reportlab.graphics",
+    "reportlab.graphics.barcode",
     "reportlab.graphics.charts",
     "reportlab.graphics.samples",
     "reportlab.graphics.widgets",
-    "reportlab.graphics.barcode",
-    "reportlab.graphics",
     "reportlab.lib",
     "reportlab.pdfbase",
     "reportlab.pdfgen",
     "reportlab.platypus"
-   ],
-   "source_files":[
-    "docs/",
-    "tests/",
-    "tools/"
    ]
   }
  },
@@ -334,13 +325,16 @@
   "build":{
    "__set__":true,
    "elements":[
-    "c_compiler_stub"
+    "c_compiler_stub",
+    "cross-python_",
+    "python"
    ]
   },
   "host":{
    "__set__":true,
    "elements":[
     "freetype",
+    "pillow",
     "pip",
     "python"
    ]
@@ -359,11 +353,12 @@
   }
  },
  "pinning_version":"2020.09.18.08.23.49",
- "raw_meta_yaml":"{% set name = \"reportlab\" %}\n{% set version = \"3.5.50\" %}\n{% set sha256 = \"876ce59164245f62bf67b8502e127b0a3ffd40f37c7177d1b4d9da24e42a77b0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  skip: true  # [py<36]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - python\n    - pip\n    - freetype\n  run:\n    - python\n    - freetype  # it is a dependency of pillow, but putting it here explicitly\n    - pillow >=2.4.0\n\ntest:\n  imports:\n    - reportlab\n    - reportlab.graphics.charts\n    - reportlab.graphics.samples\n    - reportlab.graphics.widgets\n    - reportlab.graphics.barcode\n    - reportlab.graphics\n    - reportlab.lib\n    - reportlab.pdfbase\n    - reportlab.pdfgen\n    - reportlab.platypus\n  source_files:\n    - docs/\n    - tests/\n    - tools/\n  commands:\n    - cd tests && $PYTHON runAll.py    # [not win]\n    # Skip full Windows tests for now. See\n    # https://github.com/nsls-ii-forge/reportlab-feedstock/pull/4 for details.\n    # - \"cd tests && %PYTHON% runAll.py\"  # [win]\n\nabout:\n  home: https://www.reportlab.com\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: Open-source engine for creating complex, data-driven PDF documents and custom vector graphics\n  doc_url: https://www.reportlab.com/dev/docs\n",
+ "raw_meta_yaml":"{% set name = \"reportlab\" %}\n{% set version = \"3.5.66\" %}\n{% set sha256 = \"63fba51babad0047def4ffaa41d0065248ca39d680e98dc9e3010de5425539b4\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n\nrequirements:\n  build:\n    - python                                 # [build_platform != target_platform]\n    - cross-python_{{ target_platform }}     # [build_platform != target_platform]\n    - {{ compiler('c') }}\n  host:\n    - python\n    - pip\n    - freetype\n    - pillow >=2.4.0\n  run:\n    - python\n    - freetype\n    - pillow >=2.4.0\n\ntest:\n  imports:\n    - reportlab\n    - reportlab.graphics\n    - reportlab.graphics.barcode\n    - reportlab.graphics.charts\n    - reportlab.graphics.samples\n    - reportlab.graphics.widgets\n    - reportlab.lib\n    - reportlab.pdfbase\n    - reportlab.pdfgen\n    - reportlab.platypus\n\nabout:\n  home: https://www.reportlab.com/opensource/\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: Open-source engine for creating complex, data-driven PDF documents and custom vector graphics\n  dev_url: https://hg.reportlab.com/hg-public/reportlab/\n  doc_url: https://www.reportlab.com/dev/docs/\n",
  "req":{
   "__set__":true,
   "elements":[
    "c_compiler_stub",
+   "cross-python_",
    "freetype",
    "pillow",
    "pip",
@@ -374,13 +369,16 @@
   "build":{
    "__set__":true,
    "elements":[
-    "c_compiler_stub"
+    "c_compiler_stub",
+    "cross-python_",
+    "python"
    ]
   },
   "host":{
    "__set__":true,
    "elements":[
     "freetype",
+    "pillow",
     "pip",
     "python"
    ]
@@ -404,13 +402,16 @@
   "build":{
    "__set__":true,
    "elements":[
-    "c_compiler_stub"
+    "c_compiler_stub",
+    "cross-python_",
+    "python"
    ]
   },
   "host":{
    "__set__":true,
    "elements":[
     "freetype",
+    "pillow >=2.4.0",
     "pip",
     "python"
    ]
@@ -429,11 +430,12 @@
   }
  },
  "url":"https://pypi.io/packages/source/r/reportlab/reportlab-3.5.44.tar.gz",
- "version":"3.5.50",
+ "version":"3.5.66",
  "win_64_meta_yaml":{
   "about":{
-   "doc_url":"https://www.reportlab.com/dev/docs",
-   "home":"https://www.reportlab.com",
+   "dev_url":"https://hg.reportlab.com/hg-public/reportlab/",
+   "doc_url":"https://www.reportlab.com/dev/docs/",
+   "home":"https://www.reportlab.com/opensource/",
    "license":"BSD-3-Clause",
    "license_family":"BSD",
    "license_file":"LICENSE.txt",
@@ -444,16 +446,19 @@
   },
   "package":{
    "name":"reportlab",
-   "version":"3.5.50"
+   "version":"3.5.66"
   },
   "requirements":{
    "build":[
+    "python",
+    "cross-python_",
     "c_compiler_stub"
    ],
    "host":[
     "python",
     "pip",
-    "freetype"
+    "freetype",
+    "pillow >=2.4.0"
    ],
    "run":[
     "python",
@@ -462,27 +467,21 @@
    ]
   },
   "source":{
-   "sha256":"876ce59164245f62bf67b8502e127b0a3ffd40f37c7177d1b4d9da24e42a77b0",
-   "url":"https://pypi.io/packages/source/r/reportlab/reportlab-3.5.50.tar.gz"
+   "sha256":"63fba51babad0047def4ffaa41d0065248ca39d680e98dc9e3010de5425539b4",
+   "url":"https://pypi.io/packages/source/r/reportlab/reportlab-3.5.66.tar.gz"
   },
   "test":{
-   "commands":null,
    "imports":[
     "reportlab",
+    "reportlab.graphics",
+    "reportlab.graphics.barcode",
     "reportlab.graphics.charts",
     "reportlab.graphics.samples",
     "reportlab.graphics.widgets",
-    "reportlab.graphics.barcode",
-    "reportlab.graphics",
     "reportlab.lib",
     "reportlab.pdfbase",
     "reportlab.pdfgen",
     "reportlab.platypus"
-   ],
-   "source_files":[
-    "docs/",
-    "tests/",
-    "tools/"
    ]
   }
  },
@@ -490,13 +489,16 @@
   "build":{
    "__set__":true,
    "elements":[
-    "c_compiler_stub"
+    "c_compiler_stub",
+    "cross-python_",
+    "python"
    ]
   },
   "host":{
    "__set__":true,
    "elements":[
     "freetype",
+    "pillow",
     "pip",
     "python"
    ]
