@@ -1,6 +1,355 @@
 {
  "archived":true,
  "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "linux":"azure",
+   "osx":"azure",
+   "win":"azure"
+  }
+ },
  "feedstock_name":"ipywidgets",
- "new_version":false
+ "hash_type":"sha256",
+ "linux_64_meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/jupyter-widgets/ipywidgets/releases/tag/7.2.1",
+   "doc_url":"https://ipywidgets.readthedocs.io/",
+   "home":"http://ipython.org",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"COPYING.md",
+   "summary":"IPython HTML widgets for Jupyter"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv --no-deps"
+  },
+  "package":{
+   "name":"ipywidgets",
+   "version":"7.2.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "ipykernel >=4.5.1",
+    "nbformat >=4.2.0",
+    "traitlets >=4.3.1",
+    "widgetsnbextension"
+   ]
+  },
+  "source":{
+   "sha256":"ab9869cda5af7ba449d8f707b29b7e97a7db97d6366805d6b733338f51096f54",
+   "url":"https://pypi.io/packages/source/i/ipywidgets/ipywidgets-7.2.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "ipywidgets",
+    "ipywidgets.widgets"
+   ]
+  }
+ },
+ "linux_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ipykernel",
+    "nbformat",
+    "python",
+    "traitlets",
+    "widgetsnbextension"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/jupyter-widgets/ipywidgets/releases/tag/7.2.1",
+   "doc_url":"https://ipywidgets.readthedocs.io/",
+   "home":"http://ipython.org",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"COPYING.md",
+   "summary":"IPython HTML widgets for Jupyter"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv --no-deps"
+  },
+  "package":{
+   "name":"ipywidgets",
+   "version":"7.2.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "ipykernel >=4.5.1",
+    "nbformat >=4.2.0",
+    "traitlets >=4.3.1",
+    "widgetsnbextension",
+    "python >=3.6",
+    "ipykernel >=4.5.1",
+    "nbformat >=4.2.0",
+    "traitlets >=4.3.1",
+    "widgetsnbextension",
+    "python >=3.6",
+    "ipykernel >=4.5.1",
+    "nbformat >=4.2.0",
+    "traitlets >=4.3.1",
+    "widgetsnbextension"
+   ]
+  },
+  "source":{
+   "sha256":"ab9869cda5af7ba449d8f707b29b7e97a7db97d6366805d6b733338f51096f54",
+   "url":"https://pypi.io/packages/source/i/ipywidgets/ipywidgets-7.2.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "ipywidgets",
+    "ipywidgets.widgets",
+    "ipywidgets",
+    "ipywidgets.widgets",
+    "ipywidgets",
+    "ipywidgets.widgets"
+   ]
+  }
+ },
+ "name":"ipywidgets",
+ "new_version":false,
+ "osx_64_meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/jupyter-widgets/ipywidgets/releases/tag/7.2.1",
+   "doc_url":"https://ipywidgets.readthedocs.io/",
+   "home":"http://ipython.org",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"COPYING.md",
+   "summary":"IPython HTML widgets for Jupyter"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv --no-deps"
+  },
+  "package":{
+   "name":"ipywidgets",
+   "version":"7.2.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "ipykernel >=4.5.1",
+    "nbformat >=4.2.0",
+    "traitlets >=4.3.1",
+    "widgetsnbextension"
+   ]
+  },
+  "source":{
+   "sha256":"ab9869cda5af7ba449d8f707b29b7e97a7db97d6366805d6b733338f51096f54",
+   "url":"https://pypi.io/packages/source/i/ipywidgets/ipywidgets-7.2.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "ipywidgets",
+    "ipywidgets.widgets"
+   ]
+  }
+ },
+ "osx_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ipykernel",
+    "nbformat",
+    "python",
+    "traitlets",
+    "widgetsnbextension"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "raw_meta_yaml":"{% set name = \"ipywidgets\" %}\n{% set version = \"7.2.1\" %}\n{% set sha256 = \"ab9869cda5af7ba449d8f707b29b7e97a7db97d6366805d6b733338f51096f54\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv --no-deps\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - ipykernel >=4.5.1\n    - nbformat >=4.2.0\n    - traitlets >=4.3.1\n    - widgetsnbextension\n\ntest:\n  imports:\n    - ipywidgets\n    - ipywidgets.widgets\n\nabout:\n  home: http://ipython.org\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: COPYING.md\n  summary: IPython HTML widgets for Jupyter\n  doc_url: https://ipywidgets.readthedocs.io/\n  dev_url: https://github.com/jupyter-widgets/ipywidgets/releases/tag/7.2.1\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "ipykernel",
+   "nbformat",
+   "pip",
+   "python",
+   "traitlets",
+   "widgetsnbextension"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ipykernel",
+    "nbformat",
+    "python",
+    "traitlets",
+    "widgetsnbextension"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ipykernel >=4.5.1",
+    "nbformat >=4.2.0",
+    "python >=3.6",
+    "traitlets >=4.3.1",
+    "widgetsnbextension"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/i/ipywidgets/ipywidgets-7.2.1.tar.gz",
+ "version":"7.2.1",
+ "win_64_meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/jupyter-widgets/ipywidgets/releases/tag/7.2.1",
+   "doc_url":"https://ipywidgets.readthedocs.io/",
+   "home":"http://ipython.org",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"COPYING.md",
+   "summary":"IPython HTML widgets for Jupyter"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . -vv --no-deps"
+  },
+  "package":{
+   "name":"ipywidgets",
+   "version":"7.2.1"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "ipykernel >=4.5.1",
+    "nbformat >=4.2.0",
+    "traitlets >=4.3.1",
+    "widgetsnbextension"
+   ]
+  },
+  "source":{
+   "sha256":"ab9869cda5af7ba449d8f707b29b7e97a7db97d6366805d6b733338f51096f54",
+   "url":"https://pypi.io/packages/source/i/ipywidgets/ipywidgets-7.2.1.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "ipywidgets",
+    "ipywidgets.widgets"
+   ]
+  }
+ },
+ "win_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "ipykernel",
+    "nbformat",
+    "python",
+    "traitlets",
+    "widgetsnbextension"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ }
 }

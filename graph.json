@@ -1754,6 +1754,10 @@
   },
   {
    "source":"ipykernel",
+   "target":"ipywidgets"
+  },
+  {
+   "source":"ipykernel",
    "target":"napari"
   },
   {
@@ -2615,6 +2619,10 @@
   {
    "source":"nbclient",
    "target":"papermill"
+  },
+  {
+   "source":"nbformat",
+   "target":"ipywidgets"
   },
   {
    "source":"nbformat",
@@ -3791,6 +3799,10 @@
   {
    "source":"pip",
    "target":"ipympl"
+  },
+  {
+   "source":"pip",
+   "target":"ipywidgets"
   },
   {
    "source":"pip",
@@ -5279,6 +5291,10 @@
   {
    "source":"python",
    "target":"ipympl"
+  },
+  {
+   "source":"python",
+   "target":"ipywidgets"
   },
   {
    "source":"python",
@@ -7070,6 +7086,10 @@
   },
   {
    "source":"traitlets",
+   "target":"ipywidgets"
+  },
+  {
+   "source":"traitlets",
    "target":"nbclient"
   },
   {
@@ -7167,6 +7187,10 @@
   {
    "source":"wheel",
    "target":"scikit-build"
+  },
+  {
+   "source":"widgetsnbextension",
+   "target":"ipywidgets"
   },
   {
    "source":"wrapt",
@@ -10607,6 +10631,12 @@
    "id":"cross-python_",
    "payload":{
     "__lazy_json__":"node_attrs/cross-python_.json"
+   }
+  },
+  {
+   "id":"widgetsnbextension",
+   "payload":{
+    "__lazy_json__":"node_attrs/widgetsnbextension.json"
    }
   }
  ]
