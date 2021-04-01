@@ -46,7 +46,7 @@
   },
   "package":{
    "name":"databroker",
-   "version":"1.2.2"
+   "version":"1.2.3"
   },
   "requirements":{
    "host":[
@@ -86,8 +86,8 @@
    ]
   },
   "source":{
-   "sha256":"29b3cf700df4437977b4920d459302946d2956d79512cfa7b1fe736318254c80",
-   "url":"https://pypi.io/packages/source/d/databroker/databroker-1.2.2.tar.gz"
+   "sha256":"0120fd3d9737752e396fa571d644f786d0068d8919df4ad783c63e73aa9e2418",
+   "url":"https://pypi.io/packages/source/d/databroker/databroker-1.2.3.tar.gz"
   },
   "test":{
    "commands":[
@@ -177,7 +177,7 @@
   },
   "package":{
    "name":"databroker",
-   "version":"1.2.2"
+   "version":"1.2.3"
   },
   "requirements":{
    "host":[
@@ -279,8 +279,8 @@
    ]
   },
   "source":{
-   "sha256":"29b3cf700df4437977b4920d459302946d2956d79512cfa7b1fe736318254c80",
-   "url":"https://pypi.io/packages/source/d/databroker/databroker-1.2.2.tar.gz"
+   "sha256":"0120fd3d9737752e396fa571d644f786d0068d8919df4ad783c63e73aa9e2418",
+   "url":"https://pypi.io/packages/source/d/databroker/databroker-1.2.3.tar.gz"
   },
   "test":{
    "commands":[
@@ -347,7 +347,7 @@
   },
   "package":{
    "name":"databroker",
-   "version":"1.2.2"
+   "version":"1.2.3"
   },
   "requirements":{
    "host":[
@@ -387,8 +387,8 @@
    ]
   },
   "source":{
-   "sha256":"29b3cf700df4437977b4920d459302946d2956d79512cfa7b1fe736318254c80",
-   "url":"https://pypi.io/packages/source/d/databroker/databroker-1.2.2.tar.gz"
+   "sha256":"0120fd3d9737752e396fa571d644f786d0068d8919df4ad783c63e73aa9e2418",
+   "url":"https://pypi.io/packages/source/d/databroker/databroker-1.2.3.tar.gz"
   },
   "test":{
    "commands":[
@@ -461,7 +461,7 @@
   }
  },
  "pinning_version":"2021.04.01.12.45.45",
- "raw_meta_yaml":"{% set name = \"databroker\" %}\n{% set version = \"1.2.2\" %}\n{% set sha256 = \"29b3cf700df4437977b4920d459302946d2956d79512cfa7b1fe736318254c80\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - bluesky-live >=0.0.6\n    - boltons\n    - cachetools\n    - dask\n    - doct\n    - event-model >=1.16.0\n    - humanize\n    - intake >=0.5.5\n    - jinja2\n    - jsonschema\n    - mongoquery\n    - msgpack-numpy\n    - msgpack-python\n    - numpy\n    - pandas\n    - pims\n    - pymongo\n    - pytz\n    - pyyaml\n    - requests\n    - six\n    - suitcase-mongo\n    - suitcase-msgpack\n    - tifffile !=2019.7.26.2\n    - toolz\n    - tzlocal\n    - xarray\n    - zarr\n\ntest:\n  imports:\n    - databroker\n    - databroker._drivers\n    - databroker.assets\n    - databroker.assets.readers\n    - databroker.assets.tests\n    - databroker.eventsource\n    - databroker.eventsource.tests\n    - databroker.headersource\n    - databroker.service\n    - databroker.tests\n    - databroker.tests.test_v2\n  commands:\n    - intake drivers list 2>&1 | grep bluesky  # [not win]\n\nabout:\n  home: http://blueskyproject.io\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: A unified interface to the various data sources at NSLS-II.\n  description: A unified interface to the various data sources at NSLS-II.\n  doc_url: http://blueskyproject.io/databroker\n  dev_url: https://github.com/bluesky/databroker\n",
+ "raw_meta_yaml":"{% set name = \"databroker\" %}\n{% set version = \"1.2.3\" %}\n{% set sha256 = \"0120fd3d9737752e396fa571d644f786d0068d8919df4ad783c63e73aa9e2418\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - bluesky-live >=0.0.6\n    - boltons\n    - cachetools\n    - dask\n    - doct\n    - event-model >=1.16.0\n    - humanize\n    - intake >=0.5.5\n    - jinja2\n    - jsonschema\n    - mongoquery\n    - msgpack-numpy\n    - msgpack-python\n    - numpy\n    - pandas\n    - pims\n    - pymongo\n    - pytz\n    - pyyaml\n    - requests\n    - six\n    - suitcase-mongo\n    - suitcase-msgpack\n    - tifffile !=2019.7.26.2\n    - toolz\n    - tzlocal\n    - xarray\n    - zarr\n\ntest:\n  imports:\n    - databroker\n    - databroker._drivers\n    - databroker.assets\n    - databroker.assets.readers\n    - databroker.assets.tests\n    - databroker.eventsource\n    - databroker.eventsource.tests\n    - databroker.headersource\n    - databroker.service\n    - databroker.tests\n    - databroker.tests.test_v2\n  commands:\n    - intake drivers list 2>&1 | grep bluesky  # [not win]\n\nabout:\n  home: http://blueskyproject.io\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: A unified interface to the various data sources at NSLS-II.\n  description: A unified interface to the various data sources at NSLS-II.\n  doc_url: http://blueskyproject.io/databroker\n  dev_url: https://github.com/bluesky/databroker\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -602,7 +602,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/d/databroker/databroker-1.2.2.tar.gz",
- "version":"1.2.2",
+ "version":"1.2.3",
  "win_64_meta_yaml":{
   "about":{
    "description":"A unified interface to the various data sources at NSLS-II.",
@@ -621,7 +621,7 @@
   },
   "package":{
    "name":"databroker",
-   "version":"1.2.2"
+   "version":"1.2.3"
   },
   "requirements":{
    "host":[
@@ -661,8 +661,8 @@
    ]
   },
   "source":{
-   "sha256":"29b3cf700df4437977b4920d459302946d2956d79512cfa7b1fe736318254c80",
-   "url":"https://pypi.io/packages/source/d/databroker/databroker-1.2.2.tar.gz"
+   "sha256":"0120fd3d9737752e396fa571d644f786d0068d8919df4ad783c63e73aa9e2418",
+   "url":"https://pypi.io/packages/source/d/databroker/databroker-1.2.3.tar.gz"
   },
   "test":{
    "commands":null,

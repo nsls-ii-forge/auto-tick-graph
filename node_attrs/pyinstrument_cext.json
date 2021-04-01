@@ -43,7 +43,7 @@
   },
   "package":{
    "name":"pyinstrument_cext",
-   "version":"0.2.2"
+   "version":"0.2.4"
   },
   "requirements":{
    "build":[
@@ -58,8 +58,8 @@
    ]
   },
   "source":{
-   "sha256":"f29e25f71d74c0415ca9310e5567fff0f5d29f4240a09a885abf8b0eed71cc5b",
-   "url":"https://pypi.io/packages/source/p/pyinstrument_cext/pyinstrument_cext-0.2.2.tar.gz"
+   "sha256":"79b29797209eebd441a8596accfa8b617445d9252fbf7ce75d3a4a0eb46cb877",
+   "url":"https://pypi.io/packages/source/p/pyinstrument_cext/pyinstrument_cext-0.2.4.tar.gz"
   },
   "test":{
    "imports":[
@@ -107,7 +107,7 @@
   },
   "package":{
    "name":"pyinstrument_cext",
-   "version":"0.2.2"
+   "version":"0.2.4"
   },
   "requirements":{
    "build":[
@@ -130,8 +130,8 @@
    ]
   },
   "source":{
-   "sha256":"f29e25f71d74c0415ca9310e5567fff0f5d29f4240a09a885abf8b0eed71cc5b",
-   "url":"https://pypi.io/packages/source/p/pyinstrument_cext/pyinstrument_cext-0.2.2.tar.gz"
+   "sha256":"79b29797209eebd441a8596accfa8b617445d9252fbf7ce75d3a4a0eb46cb877",
+   "url":"https://pypi.io/packages/source/p/pyinstrument_cext/pyinstrument_cext-0.2.4.tar.gz"
   },
   "test":{
    "imports":[
@@ -162,7 +162,7 @@
   },
   "package":{
    "name":"pyinstrument_cext",
-   "version":"0.2.2"
+   "version":"0.2.4"
   },
   "requirements":{
    "build":[
@@ -177,8 +177,8 @@
    ]
   },
   "source":{
-   "sha256":"f29e25f71d74c0415ca9310e5567fff0f5d29f4240a09a885abf8b0eed71cc5b",
-   "url":"https://pypi.io/packages/source/p/pyinstrument_cext/pyinstrument_cext-0.2.2.tar.gz"
+   "sha256":"79b29797209eebd441a8596accfa8b617445d9252fbf7ce75d3a4a0eb46cb877",
+   "url":"https://pypi.io/packages/source/p/pyinstrument_cext/pyinstrument_cext-0.2.4.tar.gz"
   },
   "test":{
    "imports":[
@@ -212,7 +212,7 @@
   }
  },
  "pinning_version":"2021.04.01.12.45.45",
- "raw_meta_yaml":"{% set name = \"pyinstrument_cext\" %}\n{% set version = \"0.2.2\" %}\n{% set sha256 = \"f29e25f71d74c0415ca9310e5567fff0f5d29f4240a09a885abf8b0eed71cc5b\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - python\n    - pip\n  run:\n    - python\n\ntest:\n  imports:\n    - pyinstrument_cext\n\nabout:\n  home: https://github.com/joerick/pyinstrument_cext\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: A CPython extension supporting pyinstrument\n  dev_url: https://github.com/joerick/pyinstrument_cext\n",
+ "raw_meta_yaml":"{% set name = \"pyinstrument_cext\" %}\n{% set version = \"0.2.4\" %}\n{% set sha256 = \"79b29797209eebd441a8596accfa8b617445d9252fbf7ce75d3a4a0eb46cb877\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - python\n    - pip\n  run:\n    - python\n\ntest:\n  imports:\n    - pyinstrument_cext\n\nabout:\n  home: https://github.com/joerick/pyinstrument_cext\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: A CPython extension supporting pyinstrument\n  dev_url: https://github.com/joerick/pyinstrument_cext\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -274,7 +274,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/p/pyinstrument_cext/pyinstrument_cext-0.2.2.tar.gz",
- "version":"0.2.2",
+ "version":"0.2.4",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/joerick/pyinstrument_cext",
@@ -290,7 +290,7 @@
   },
   "package":{
    "name":"pyinstrument_cext",
-   "version":"0.2.2"
+   "version":"0.2.4"
   },
   "requirements":{
    "build":[
@@ -305,8 +305,8 @@
    ]
   },
   "source":{
-   "sha256":"f29e25f71d74c0415ca9310e5567fff0f5d29f4240a09a885abf8b0eed71cc5b",
-   "url":"https://pypi.io/packages/source/p/pyinstrument_cext/pyinstrument_cext-0.2.2.tar.gz"
+   "sha256":"79b29797209eebd441a8596accfa8b617445d9252fbf7ce75d3a4a0eb46cb877",
+   "url":"https://pypi.io/packages/source/p/pyinstrument_cext/pyinstrument_cext-0.2.4.tar.gz"
   },
   "test":{
    "imports":[

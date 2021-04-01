@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/607705621.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.4.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -271,6 +290,10 @@
  },
  "name":"slack-sdk",
  "new_version":"3.4.2",
+ "new_version_attempts":{
+  "3.4.2":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/slackapi/python-slack-sdk",
@@ -374,6 +397,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2021.04.01.12.45.45",
  "raw_meta_yaml":"{% set name = \"slack-sdk\" %}\n{% set name_ = name.replace('-', '_') %}\n{% set version = \"3.3.0\" %}\n{% set sha256 = \"536a8f208aae016693e0e703ec18d09f0e6a061119db807b7769976152cfdb68\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name_ }}/{{ name_ }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  build:\n    - python\n    - pip\n  run:\n    - python\n    - aiodns\n    - aiohttp >=3,<4\n    - boto3 <=2\n    - databases >=0.3\n    - sqlalchemy\n\ntest:\n  imports:\n    - slack\n    - slack.rtm\n    - slack.signature\n    - slack.web\n    - slack.web.classes\n    - slack.webhook\n    - slack_sdk\n    - slack_sdk.errors\n    - slack_sdk.models\n    - slack_sdk.models.attachments\n    - slack_sdk.models.blocks\n    - slack_sdk.models.dialoags\n    - slack_sdk.models.messages\n    - slack_sdk.models.views\n    - slack_sdk.oauth\n    - slack_sdk.oauth.authorize_url_generator\n    - slack_sdk.oauth.installation_store\n    - slack_sdk.oauth.installation_store.amazon_s3\n    - slack_sdk.oauth.installation_store.file\n    - slack_sdk.oauth.installation_store.models\n    - slack_sdk.oauth.installation_store.sqlalchemy\n    - slack_sdk.oauth.installation_store.sqlite3\n    - slack_sdk.oauth.redirect_uri_page_renderer\n    - slack_sdk.oauth.state_store\n    - slack_sdk.oauth.state_store.amazon_s3\n    - slack_sdk.oauth.state_store.file\n    - slack_sdk.oauth.state_store.sqlalchemy\n    - slack_sdk.oauth.state_store.sqlite3\n    - slack_sdk.oauth.state_utils\n    - slack_sdk.rtm\n    - slack_sdk.signature\n    - slack_sdk.web\n    - slack_sdk.webhook\n    # requires:\n    #   - black ==19.10b0\n    #   - codecov >=2,<3\n    #   - flake8 >=3,<4\n    #   - psutil >=5,<6\n    #   - pytest >=5.4,<6\n    #   - pytest-asyncio <1\n    #   - pytest-cov >=2,<3\n\nabout:\n  home: https://github.com/slackapi/python-slack-sdk\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: The Slack API Platform SDK for Python\n  doc_url: https://slack.dev/python-slack-sdk\n  dev_url: https://github.com/slackapi/python-slack-sdk\n",
  "req":{
   "__set__":true,
@@ -415,6 +439,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"3.9.0",
  "strong_exports":false,
  "total_requirements":{
   "build":{

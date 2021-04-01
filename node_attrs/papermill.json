@@ -48,7 +48,7 @@
   },
   "package":{
    "name":"papermill",
-   "version":"2.2.2"
+   "version":"2.3.3"
   },
   "requirements":{
    "host":[
@@ -71,8 +71,8 @@
    ]
   },
   "source":{
-   "sha256":"1c452b1c5a9ab52b94c99d8b7705ae7173f6aa88a3d28a5d30cffba48a46f5b6",
-   "url":"https://pypi.io/packages/source/p/papermill/papermill-2.2.2.tar.gz"
+   "sha256":"349aecd526c15c39f73a08df836467e2fead877c474d82c7df349f27ad272525",
+   "url":"https://pypi.io/packages/source/p/papermill/papermill-2.3.3.tar.gz"
   },
   "test":{
    "commands":[
@@ -139,7 +139,7 @@
   },
   "package":{
    "name":"papermill",
-   "version":"2.2.2"
+   "version":"2.3.3"
   },
   "requirements":{
    "host":[
@@ -190,8 +190,8 @@
    ]
   },
   "source":{
-   "sha256":"1c452b1c5a9ab52b94c99d8b7705ae7173f6aa88a3d28a5d30cffba48a46f5b6",
-   "url":"https://pypi.io/packages/source/p/papermill/papermill-2.2.2.tar.gz"
+   "sha256":"349aecd526c15c39f73a08df836467e2fead877c474d82c7df349f27ad272525",
+   "url":"https://pypi.io/packages/source/p/papermill/papermill-2.3.3.tar.gz"
   },
   "test":{
    "commands":[
@@ -232,7 +232,7 @@
   },
   "package":{
    "name":"papermill",
-   "version":"2.2.2"
+   "version":"2.3.3"
   },
   "requirements":{
    "host":[
@@ -255,8 +255,8 @@
    ]
   },
   "source":{
-   "sha256":"1c452b1c5a9ab52b94c99d8b7705ae7173f6aa88a3d28a5d30cffba48a46f5b6",
-   "url":"https://pypi.io/packages/source/p/papermill/papermill-2.2.2.tar.gz"
+   "sha256":"349aecd526c15c39f73a08df836467e2fead877c474d82c7df349f27ad272525",
+   "url":"https://pypi.io/packages/source/p/papermill/papermill-2.3.3.tar.gz"
   },
   "test":{
    "commands":[
@@ -302,7 +302,7 @@
   }
  },
  "pinning_version":"2021.04.01.12.45.45",
- "raw_meta_yaml":"{% set name = \"papermill\" %}\n{% set version = \"2.2.2\" %}\n{% set sha256 = \"1c452b1c5a9ab52b94c99d8b7705ae7173f6aa88a3d28a5d30cffba48a46f5b6\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  entry_points:\n    - papermill = papermill.cli:papermill\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - ansiwrap\n    - black\n    - click\n    - entrypoints\n    - jupyter_client\n    - nbclient >=0.2.0\n    - nbformat\n    - pyyaml\n    - requests\n    - tenacity\n    - tqdm >=4.32.2\n\ntest:\n  imports:\n    - papermill\n  commands:\n    - papermill --help\n\nabout:\n  home: http://github.com/nteract/papermill\n  license: BSD 3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Papermill parameterizes, executes, and analyzes Jupyter Notebooks\n  doc_url: http://papermill.readthedocs.io\n  dev_url: https://github.com/nteract/papermill\n",
+ "raw_meta_yaml":"{% set name = \"papermill\" %}\n{% set version = \"2.3.3\" %}\n{% set sha256 = \"349aecd526c15c39f73a08df836467e2fead877c474d82c7df349f27ad272525\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  entry_points:\n    - papermill = papermill.cli:papermill\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - ansiwrap\n    - black\n    - click\n    - entrypoints\n    - jupyter_client\n    - nbclient >=0.2.0\n    - nbformat\n    - pyyaml\n    - requests\n    - tenacity\n    - tqdm >=4.32.2\n\ntest:\n  imports:\n    - papermill\n  commands:\n    - papermill --help\n\nabout:\n  home: http://github.com/nteract/papermill\n  license: BSD 3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Papermill parameterizes, executes, and analyzes Jupyter Notebooks\n  doc_url: http://papermill.readthedocs.io\n  dev_url: https://github.com/nteract/papermill\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -392,7 +392,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/p/papermill/papermill-2.2.2.tar.gz",
- "version":"2.2.2",
+ "version":"2.3.3",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/nteract/papermill",
@@ -413,7 +413,7 @@
   },
   "package":{
    "name":"papermill",
-   "version":"2.2.2"
+   "version":"2.3.3"
   },
   "requirements":{
    "host":[
@@ -436,8 +436,8 @@
    ]
   },
   "source":{
-   "sha256":"1c452b1c5a9ab52b94c99d8b7705ae7173f6aa88a3d28a5d30cffba48a46f5b6",
-   "url":"https://pypi.io/packages/source/p/papermill/papermill-2.2.2.tar.gz"
+   "sha256":"349aecd526c15c39f73a08df836467e2fead877c474d82c7df349f27ad272525",
+   "url":"https://pypi.io/packages/source/p/papermill/papermill-2.3.3.tar.gz"
   },
   "test":{
    "commands":[
