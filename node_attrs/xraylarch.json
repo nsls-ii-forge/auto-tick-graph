@@ -528,7 +528,7 @@
    "summary":"Larch: X-ray Analysis for Synchrotron Applications using Python"
   },
   "build":{
-   "number":"1",
+   "number":1,
    "script":"rmdir /q /s larch/bin\n -m pip install . --no-deps -vv\n"
   },
   "package":{

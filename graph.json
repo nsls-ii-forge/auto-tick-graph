@@ -610,6 +610,10 @@
   },
   {
    "source":"cloudpickle",
+   "target":"bluesky-live"
+  },
+  {
+   "source":"cloudpickle",
    "target":"intake"
   },
   {
@@ -986,6 +990,10 @@
   },
   {
    "source":"dask-core",
+   "target":"bluesky-live"
+  },
+  {
+   "source":"dask-core",
    "target":"dask-jobqueue"
   },
   {
@@ -999,10 +1007,6 @@
   {
    "source":"dask",
    "target":"area-detector-handlers"
-  },
-  {
-   "source":"dask",
-   "target":"bluesky-live"
   },
   {
    "source":"dask",
@@ -1391,6 +1395,10 @@
   {
    "source":"frozendict",
    "target":"bluesky-darkframes"
+  },
+  {
+   "source":"fsspec",
+   "target":"bluesky-live"
   },
   {
    "source":"fsspec",
@@ -3347,6 +3355,10 @@
   {
    "source":"parsimonious",
    "target":"recordwhat"
+  },
+  {
+   "source":"partd",
+   "target":"bluesky-live"
   },
   {
    "source":"partd",
@@ -7051,6 +7063,10 @@
   {
    "source":"toolz",
    "target":"bluesky"
+  },
+  {
+   "source":"toolz",
+   "target":"bluesky-live"
   },
   {
    "source":"toolz",

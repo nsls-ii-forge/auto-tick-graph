@@ -97,7 +97,7 @@
   },
   "package":{
    "name":"qdarkstyle",
-   "version":"3.0.1"
+   "version":"3.0.2"
   },
   "requirements":{
    "host":[
@@ -113,8 +113,8 @@
    ]
   },
   "source":{
-   "sha256":"03d169ad6f3b96efa32568d941a3c3e0bbf5ae4041c3cd695a736d5f7477a439",
-   "url":"https://pypi.io/packages/source/Q/QDarkStyle/QDarkStyle-3.0.1.tar.gz"
+   "sha256":"55d149cf5f40ee297397f1818e091118cefb855a4a9c5c38566c47acd2d8c7ae",
+   "url":"https://pypi.io/packages/source/Q/QDarkStyle/QDarkStyle-3.0.2.tar.gz"
   },
   "test":{
    "imports":[
@@ -170,7 +170,7 @@
   },
   "package":{
    "name":"qdarkstyle",
-   "version":"3.0.1"
+   "version":"3.0.2"
   },
   "requirements":{
    "host":[
@@ -200,8 +200,8 @@
    ]
   },
   "source":{
-   "sha256":"03d169ad6f3b96efa32568d941a3c3e0bbf5ae4041c3cd695a736d5f7477a439",
-   "url":"https://pypi.io/packages/source/Q/QDarkStyle/QDarkStyle-3.0.1.tar.gz"
+   "sha256":"55d149cf5f40ee297397f1818e091118cefb855a4a9c5c38566c47acd2d8c7ae",
+   "url":"https://pypi.io/packages/source/Q/QDarkStyle/QDarkStyle-3.0.2.tar.gz"
   },
   "test":{
    "imports":[
@@ -241,7 +241,7 @@
   },
   "package":{
    "name":"qdarkstyle",
-   "version":"3.0.1"
+   "version":"3.0.2"
   },
   "requirements":{
    "host":[
@@ -257,8 +257,8 @@
    ]
   },
   "source":{
-   "sha256":"03d169ad6f3b96efa32568d941a3c3e0bbf5ae4041c3cd695a736d5f7477a439",
-   "url":"https://pypi.io/packages/source/Q/QDarkStyle/QDarkStyle-3.0.1.tar.gz"
+   "sha256":"55d149cf5f40ee297397f1818e091118cefb855a4a9c5c38566c47acd2d8c7ae",
+   "url":"https://pypi.io/packages/source/Q/QDarkStyle/QDarkStyle-3.0.2.tar.gz"
   },
   "test":{
    "imports":[
@@ -295,7 +295,7 @@
   }
  },
  "pinning_version":"2021.04.01.12.45.45",
- "raw_meta_yaml":"{% set name = \"QDarkStyle\" %}\n{% set version = \"3.0.1\" %}\n{% set sha256 = \"03d169ad6f3b96efa32568d941a3c3e0bbf5ae4041c3cd695a736d5f7477a439\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  entry_points:\n    - qdarkstyle=qdarkstyle.__main__:main\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - helpdev >=0.6.2\n    - pyqt >=5\n    - qtpy\n    - qtsass\n\ntest:\n  imports:\n    - qdarkstyle\n    - qdarkstyle.utils\n\nabout:\n  home: https://github.com/ColinDuquesnoy/QDarkStyleSheet\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.rst\n  summary: A dark stylesheet for Python and Qt applications\n",
+ "raw_meta_yaml":"{% set name = \"QDarkStyle\" %}\n{% set version = \"3.0.2\" %}\n{% set sha256 = \"55d149cf5f40ee297397f1818e091118cefb855a4a9c5c38566c47acd2d8c7ae\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  entry_points:\n    - qdarkstyle=qdarkstyle.__main__:main\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - helpdev >=0.6.2\n    - pyqt >=5\n    - qtpy\n    - qtsass\n\ntest:\n  imports:\n    - qdarkstyle\n    - qdarkstyle.utils\n\nabout:\n  home: https://github.com/ColinDuquesnoy/QDarkStyleSheet\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.rst\n  summary: A dark stylesheet for Python and Qt applications\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -364,7 +364,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/Q/QDarkStyle/QDarkStyle-2.7.tar.gz",
- "version":"3.0.1",
+ "version":"3.0.2",
  "win_64_meta_yaml":{
   "about":{
    "home":"https://github.com/ColinDuquesnoy/QDarkStyleSheet",
@@ -383,7 +383,7 @@
   },
   "package":{
    "name":"qdarkstyle",
-   "version":"3.0.1"
+   "version":"3.0.2"
   },
   "requirements":{
    "host":[
@@ -399,8 +399,8 @@
    ]
   },
   "source":{
-   "sha256":"03d169ad6f3b96efa32568d941a3c3e0bbf5ae4041c3cd695a736d5f7477a439",
-   "url":"https://pypi.io/packages/source/Q/QDarkStyle/QDarkStyle-3.0.1.tar.gz"
+   "sha256":"55d149cf5f40ee297397f1818e091118cefb855a4a9c5c38566c47acd2d8c7ae",
+   "url":"https://pypi.io/packages/source/Q/QDarkStyle/QDarkStyle-3.0.2.tar.gz"
   },
   "test":{
    "imports":[
