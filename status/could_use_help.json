@@ -33,6 +33,7 @@
   "pdfstream",
   "lixtools",
   "hunter",
+  "qdarkstyle",
   "slack-sdk",
   "httpx",
   "intake-xarray",
