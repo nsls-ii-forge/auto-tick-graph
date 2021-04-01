@@ -1,0 +1,328 @@
+{
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "linux":"azure",
+   "osx":"azure",
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"dask-jobqueue",
+ "hash_type":"sha256",
+ "linux_64_meta_yaml":{
+  "about":{
+   "description":"Easy deployment of Dask Distributed on job queuing systems such as PBS,\nSlurm, LSF or SGE.\n",
+   "dev_url":"https://github.com/dask/dask-jobqueue",
+   "doc_url":"https://jobqueue.dask.org",
+   "home":"https://github.com/dask/dask-jobqueue",
+   "license":"BSD 3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.txt",
+   "summary":"Easy deployment of Dask Distributed on job queuing systems like PBS, Slurm, LSF and SGE."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "package":{
+   "name":"dask-jobqueue",
+   "version":"0.7.2"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip"
+   ],
+   "run":[
+    "python >=3.5",
+    "dask-core >=2.5.2",
+    "distributed >=2.5.2"
+   ]
+  },
+  "source":{
+   "sha256":"1767f4146b2663d9d2eaef62b882a86e1df0bccdb8ae68ae3e5e546aa6796d35",
+   "url":"https://pypi.io/packages/source/d/dask-jobqueue/dask-jobqueue-0.7.2.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "dask_jobqueue"
+   ]
+  }
+ },
+ "linux_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dask-core",
+    "distributed",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "meta_yaml":{
+  "about":{
+   "description":"Easy deployment of Dask Distributed on job queuing systems such as PBS,\nSlurm, LSF or SGE.\n",
+   "dev_url":"https://github.com/dask/dask-jobqueue",
+   "doc_url":"https://jobqueue.dask.org",
+   "home":"https://github.com/dask/dask-jobqueue",
+   "license":"BSD 3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.txt",
+   "summary":"Easy deployment of Dask Distributed on job queuing systems like PBS, Slurm, LSF and SGE."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "package":{
+   "name":"dask-jobqueue",
+   "version":"0.7.2"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip"
+   ],
+   "run":[
+    "python >=3.5",
+    "dask-core >=2.5.2",
+    "distributed >=2.5.2",
+    "python >=3.5",
+    "dask-core >=2.5.2",
+    "distributed >=2.5.2",
+    "python >=3.5",
+    "dask-core >=2.5.2",
+    "distributed >=2.5.2"
+   ]
+  },
+  "source":{
+   "sha256":"1767f4146b2663d9d2eaef62b882a86e1df0bccdb8ae68ae3e5e546aa6796d35",
+   "url":"https://pypi.io/packages/source/d/dask-jobqueue/dask-jobqueue-0.7.2.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "dask_jobqueue",
+    "dask_jobqueue",
+    "dask_jobqueue"
+   ]
+  }
+ },
+ "name":"dask-jobqueue",
+ "new_version":"0.7.2",
+ "osx_64_meta_yaml":{
+  "about":{
+   "description":"Easy deployment of Dask Distributed on job queuing systems such as PBS,\nSlurm, LSF or SGE.\n",
+   "dev_url":"https://github.com/dask/dask-jobqueue",
+   "doc_url":"https://jobqueue.dask.org",
+   "home":"https://github.com/dask/dask-jobqueue",
+   "license":"BSD 3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.txt",
+   "summary":"Easy deployment of Dask Distributed on job queuing systems like PBS, Slurm, LSF and SGE."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "package":{
+   "name":"dask-jobqueue",
+   "version":"0.7.2"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip"
+   ],
+   "run":[
+    "python >=3.5",
+    "dask-core >=2.5.2",
+    "distributed >=2.5.2"
+   ]
+  },
+  "source":{
+   "sha256":"1767f4146b2663d9d2eaef62b882a86e1df0bccdb8ae68ae3e5e546aa6796d35",
+   "url":"https://pypi.io/packages/source/d/dask-jobqueue/dask-jobqueue-0.7.2.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "dask_jobqueue"
+   ]
+  }
+ },
+ "osx_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dask-core",
+    "distributed",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "raw_meta_yaml":"{% set name = \"dask-jobqueue\" %}\n{% set version = \"0.7.2\" %}\n{% set sha256 = \"1767f4146b2663d9d2eaef62b882a86e1df0bccdb8ae68ae3e5e546aa6796d35\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n  run:\n    - python >=3.5\n    - dask-core >=2.5.2\n    - distributed >=2.5.2\n\ntest:\n  imports:\n    - dask_jobqueue\n\nabout:\n  home: https://github.com/dask/dask-jobqueue\n  license: BSD 3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: Easy deployment of Dask Distributed on job queuing systems like PBS, Slurm, LSF and SGE.\n  description: |\n    Easy deployment of Dask Distributed on job queuing systems such as PBS,\n    Slurm, LSF or SGE.\n  doc_url: https://jobqueue.dask.org\n  dev_url: https://github.com/dask/dask-jobqueue\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "dask-core",
+   "distributed",
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dask-core",
+    "distributed",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dask-core >=2.5.2",
+    "distributed >=2.5.2",
+    "python >=3.5"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/d/dask-jobqueue/dask-jobqueue-0.7.2.tar.gz",
+ "version":"0.7.2",
+ "win_64_meta_yaml":{
+  "about":{
+   "description":"Easy deployment of Dask Distributed on job queuing systems such as PBS,\nSlurm, LSF or SGE.\n",
+   "dev_url":"https://github.com/dask/dask-jobqueue",
+   "doc_url":"https://jobqueue.dask.org",
+   "home":"https://github.com/dask/dask-jobqueue",
+   "license":"BSD 3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.txt",
+   "summary":"Easy deployment of Dask Distributed on job queuing systems like PBS, Slurm, LSF and SGE."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "package":{
+   "name":"dask-jobqueue",
+   "version":"0.7.2"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip"
+   ],
+   "run":[
+    "python >=3.5",
+    "dask-core >=2.5.2",
+    "distributed >=2.5.2"
+   ]
+  },
+  "source":{
+   "sha256":"1767f4146b2663d9d2eaef62b882a86e1df0bccdb8ae68ae3e5e546aa6796d35",
+   "url":"https://pypi.io/packages/source/d/dask-jobqueue/dask-jobqueue-0.7.2.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "dask_jobqueue"
+   ]
+  }
+ },
+ "win_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dask-core",
+    "distributed",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ }
+}

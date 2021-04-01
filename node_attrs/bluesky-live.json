@@ -1,0 +1,473 @@
+{
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "linux":"azure",
+   "osx":"azure",
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"bluesky-live",
+ "hash_type":"sha256",
+ "linux_64_meta_yaml":{
+  "about":{
+   "home":"https://github.com/bluesky/bluesky-live",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Prototype building blocks for working with streaming data in bluesky"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":"-m pip install . -vv --no-deps"
+  },
+  "package":{
+   "name":"bluesky-live",
+   "version":"0.0.7"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "dask-core >=2",
+    "entrypoints",
+    "event-model >=1.16.0",
+    "numpy",
+    "pandas",
+    "xarray",
+    "cloudpickle >=1.1.1",
+    "fsspec >=0.6.0",
+    "partd >=0.3.10",
+    "toolz >=0.8.2"
+   ]
+  },
+  "source":{
+   "sha256":"2cfefc97ca2ca6bdfdf3be67a6c28a1811549a72aa919d3f84e4dedb4e526f9c",
+   "url":"https://pypi.io/packages/source/b/bluesky-live/bluesky-live-0.0.7.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pytest --pyargs bluesky_live.tests",
+    "pip check"
+   ],
+   "imports":[
+    "bluesky_live",
+    "bluesky_live.tests"
+   ],
+   "requires":[
+    "pip",
+    "pytest"
+   ]
+  }
+ },
+ "linux_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cloudpickle",
+    "dask-core",
+    "entrypoints",
+    "event-model",
+    "fsspec",
+    "numpy",
+    "pandas",
+    "partd",
+    "python",
+    "toolz",
+    "xarray"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest"
+   ]
+  }
+ },
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/bluesky/bluesky-live",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Prototype building blocks for working with streaming data in bluesky"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":"-m pip install . -vv --no-deps"
+  },
+  "package":{
+   "name":"bluesky-live",
+   "version":"0.0.7"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "dask-core >=2",
+    "entrypoints",
+    "event-model >=1.16.0",
+    "numpy",
+    "pandas",
+    "xarray",
+    "cloudpickle >=1.1.1",
+    "fsspec >=0.6.0",
+    "partd >=0.3.10",
+    "toolz >=0.8.2",
+    "python >=3.6",
+    "dask-core >=2",
+    "entrypoints",
+    "event-model >=1.16.0",
+    "numpy",
+    "pandas",
+    "xarray",
+    "cloudpickle >=1.1.1",
+    "fsspec >=0.6.0",
+    "partd >=0.3.10",
+    "toolz >=0.8.2",
+    "python >=3.6",
+    "dask-core >=2",
+    "entrypoints",
+    "event-model >=1.16.0",
+    "numpy",
+    "pandas",
+    "xarray",
+    "cloudpickle >=1.1.1",
+    "fsspec >=0.6.0",
+    "partd >=0.3.10",
+    "toolz >=0.8.2"
+   ]
+  },
+  "source":{
+   "sha256":"2cfefc97ca2ca6bdfdf3be67a6c28a1811549a72aa919d3f84e4dedb4e526f9c",
+   "url":"https://pypi.io/packages/source/b/bluesky-live/bluesky-live-0.0.7.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pytest --pyargs bluesky_live.tests",
+    "pip check",
+    "pytest --pyargs bluesky_live.tests",
+    "pip check",
+    "pytest --pyargs bluesky_live.tests",
+    "pip check"
+   ],
+   "imports":[
+    "bluesky_live",
+    "bluesky_live.tests",
+    "bluesky_live",
+    "bluesky_live.tests",
+    "bluesky_live",
+    "bluesky_live.tests"
+   ],
+   "requires":[
+    "pip",
+    "pytest",
+    "pip",
+    "pytest",
+    "pip",
+    "pytest"
+   ]
+  }
+ },
+ "name":"bluesky-live",
+ "new_version":"0.0.7",
+ "osx_64_meta_yaml":{
+  "about":{
+   "home":"https://github.com/bluesky/bluesky-live",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Prototype building blocks for working with streaming data in bluesky"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":"-m pip install . -vv --no-deps"
+  },
+  "package":{
+   "name":"bluesky-live",
+   "version":"0.0.7"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "dask-core >=2",
+    "entrypoints",
+    "event-model >=1.16.0",
+    "numpy",
+    "pandas",
+    "xarray",
+    "cloudpickle >=1.1.1",
+    "fsspec >=0.6.0",
+    "partd >=0.3.10",
+    "toolz >=0.8.2"
+   ]
+  },
+  "source":{
+   "sha256":"2cfefc97ca2ca6bdfdf3be67a6c28a1811549a72aa919d3f84e4dedb4e526f9c",
+   "url":"https://pypi.io/packages/source/b/bluesky-live/bluesky-live-0.0.7.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pytest --pyargs bluesky_live.tests",
+    "pip check"
+   ],
+   "imports":[
+    "bluesky_live",
+    "bluesky_live.tests"
+   ],
+   "requires":[
+    "pip",
+    "pytest"
+   ]
+  }
+ },
+ "osx_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cloudpickle",
+    "dask-core",
+    "entrypoints",
+    "event-model",
+    "fsspec",
+    "numpy",
+    "pandas",
+    "partd",
+    "python",
+    "toolz",
+    "xarray"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest"
+   ]
+  }
+ },
+ "raw_meta_yaml":"{% set name = \"bluesky-live\" %}\n{% set version = \"0.0.7\" %}\n{% set sha256 = \"2cfefc97ca2ca6bdfdf3be67a6c28a1811549a72aa919d3f84e4dedb4e526f9c\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 1\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv --no-deps\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - dask-core >=2\n    - entrypoints\n    - event-model >=1.16.0\n    - numpy\n    - pandas\n    - xarray\n    # TODO: remove these dependencies once they are fixed in\n    # https://anaconda.org/anaconda/dask-core/files.  See\n    # https://github.com/conda-forge/dask-core-feedstock/pull/93/files for more\n    # details.\n    - cloudpickle >=1.1.1\n    - fsspec >=0.6.0\n    - partd >=0.3.10\n    - toolz >=0.8.2\n\ntest:\n  requires:\n    - pip\n    - pytest\n  imports:\n    - bluesky_live\n    - bluesky_live.tests\n  commands:\n    - pytest --pyargs bluesky_live.tests\n    - pip check\n\nabout:\n  home: https://github.com/bluesky/bluesky-live\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Prototype building blocks for working with streaming data in bluesky\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "cloudpickle",
+   "dask-core",
+   "entrypoints",
+   "event-model",
+   "fsspec",
+   "numpy",
+   "pandas",
+   "partd",
+   "pip",
+   "python",
+   "toolz",
+   "xarray"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cloudpickle",
+    "dask-core",
+    "entrypoints",
+    "event-model",
+    "fsspec",
+    "numpy",
+    "pandas",
+    "partd",
+    "python",
+    "toolz",
+    "xarray"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest"
+   ]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cloudpickle >=1.1.1",
+    "dask-core >=2",
+    "entrypoints",
+    "event-model >=1.16.0",
+    "fsspec >=0.6.0",
+    "numpy",
+    "pandas",
+    "partd >=0.3.10",
+    "python >=3.6",
+    "toolz >=0.8.2",
+    "xarray"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/b/bluesky-live/bluesky-live-0.0.7.tar.gz",
+ "version":"0.0.7",
+ "win_64_meta_yaml":{
+  "about":{
+   "home":"https://github.com/bluesky/bluesky-live",
+   "license":"BSD-3-Clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE",
+   "summary":"Prototype building blocks for working with streaming data in bluesky"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":"-m pip install . -vv --no-deps"
+  },
+  "package":{
+   "name":"bluesky-live",
+   "version":"0.0.7"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "dask-core >=2",
+    "entrypoints",
+    "event-model >=1.16.0",
+    "numpy",
+    "pandas",
+    "xarray",
+    "cloudpickle >=1.1.1",
+    "fsspec >=0.6.0",
+    "partd >=0.3.10",
+    "toolz >=0.8.2"
+   ]
+  },
+  "source":{
+   "sha256":"2cfefc97ca2ca6bdfdf3be67a6c28a1811549a72aa919d3f84e4dedb4e526f9c",
+   "url":"https://pypi.io/packages/source/b/bluesky-live/bluesky-live-0.0.7.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pytest --pyargs bluesky_live.tests",
+    "pip check"
+   ],
+   "imports":[
+    "bluesky_live",
+    "bluesky_live.tests"
+   ],
+   "requires":[
+    "pip",
+    "pytest"
+   ]
+  }
+ },
+ "win_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "cloudpickle",
+    "dask-core",
+    "entrypoints",
+    "event-model",
+    "fsspec",
+    "numpy",
+    "pandas",
+    "partd",
+    "python",
+    "toolz",
+    "xarray"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "pytest"
+   ]
+  }
+ }
+}

@@ -8,20 +8,10 @@
    "clangxx":"clang_packages",
    "epics-base":"epics-base",
    "epics-base-static-libs":"epics-base",
-   "gfortran_impl_osx-64":"gfortran_impl_osx-64",
    "hdf5-external-filter-plugins-bitshuffle":"hdf5-external-filter-plugins",
    "hdf5-external-filter-plugins-bzip2":"hdf5-external-filter-plugins",
    "hdf5-external-filter-plugins-lz4":"hdf5-external-filter-plugins",
    "libclang":"clang_packages",
-   "libgfortran":"gfortran_impl_osx-64",
-   "libllvm8":"llvm-package",
-   "lit":"llvm-package",
-   "llvm":"llvm-package",
-   "llvm-openmp":"llvm-openmp",
-   "llvm-tools":"llvm-package",
-   "llvm-utils":"llvm-package",
-   "llvmdev":"llvm-package",
-   "openmp":"llvm-openmp",
    "openmpi":"openmpi-mpi",
    "openmpi-mpicc":"openmpi-mpi",
    "openmpi-mpicxx":"openmpi-mpi",
@@ -59,10 +49,6 @@
   {
    "source":"ansi2html",
    "target":"nexpy"
-  },
-  {
-   "source":"ansiwrap",
-   "target":"06-bm-bmm-collection"
   },
   {
    "source":"ansiwrap",
@@ -209,10 +195,6 @@
    "target":"doi2bib"
   },
   {
-   "source":"bitshuffle",
-   "target":"imagecodecs"
-  },
-  {
    "source":"black",
    "target":"analysis"
   },
@@ -223,10 +205,6 @@
   {
    "source":"bloptools",
    "target":"collection"
-  },
-  {
-   "source":"blosc",
-   "target":"imagecodecs"
   },
   {
    "source":"bluesky-darkframes",
@@ -310,10 +288,6 @@
   },
   {
    "source":"boto3",
-   "target":"11-id-chx-analysis"
-  },
-  {
-   "source":"boto3",
    "target":"analysis"
   },
   {
@@ -346,10 +320,6 @@
   },
   {
    "source":"c_compiler_stub",
-   "target":"cupy"
-  },
-  {
-   "source":"c_compiler_stub",
    "target":"epics-base"
   },
   {
@@ -359,14 +329,6 @@
   {
    "source":"c_compiler_stub",
    "target":"file"
-  },
-  {
-   "source":"c_compiler_stub",
-   "target":"gfortran_impl_osx-64"
-  },
-  {
-   "source":"c_compiler_stub",
-   "target":"h5py"
   },
   {
    "source":"c_compiler_stub",
@@ -407,10 +369,6 @@
   {
    "source":"c_compiler_stub",
    "target":"lmfit-c"
-  },
-  {
-   "source":"c_compiler_stub",
-   "target":"lz4-c"
   },
   {
    "source":"c_compiler_stub",
@@ -458,10 +416,6 @@
   },
   {
    "source":"c_compiler_stub",
-   "target":"pykafka"
-  },
-  {
-   "source":"c_compiler_stub",
    "target":"pysmbc"
   },
   {
@@ -495,10 +449,6 @@
   {
    "source":"c_compiler_stub",
    "target":"scikit-build"
-  },
-  {
-   "source":"c_compiler_stub",
-   "target":"scikit-learn"
   },
   {
    "source":"c_compiler_stub",
@@ -561,24 +511,12 @@
    "target":"nslsii"
   },
   {
-   "source":"cctools",
-   "target":"gfortran_osx-64"
-  },
-  {
    "source":"certifi",
    "target":"httpx"
   },
   {
    "source":"cffi",
    "target":"trio"
-  },
-  {
-   "source":"chxtools",
-   "target":"11-id-chx-analysis"
-  },
-  {
-   "source":"chxtools",
-   "target":"11-id-chx-collection"
   },
   {
    "source":"chxtools",
@@ -590,19 +528,7 @@
   },
   {
    "source":"clang_packages",
-   "target":"autotools_clang_conda"
-  },
-  {
-   "source":"clang_packages",
    "target":"clang_packages"
-  },
-  {
-   "source":"clang_packages",
-   "target":"gfortran_osx-64"
-  },
-  {
-   "source":"clang_packages",
-   "target":"llvm-openmp"
   },
   {
    "source":"click",
@@ -622,10 +548,6 @@
   },
   {
    "source":"cmake",
-   "target":"autotools_clang_conda"
-  },
-  {
-   "source":"cmake",
    "target":"clang_packages"
   },
   {
@@ -639,14 +561,6 @@
   {
    "source":"cmake",
    "target":"libjpeg-turbo"
-  },
-  {
-   "source":"cmake",
-   "target":"llvm-openmp"
-  },
-  {
-   "source":"cmake",
-   "target":"llvm-package"
   },
   {
    "source":"cmake",
@@ -734,10 +648,6 @@
   },
   {
    "source":"cuda_compiler_stub",
-   "target":"cupy"
-  },
-  {
-   "source":"cuda_compiler_stub",
    "target":"openmpi-mpi"
   },
   {
@@ -747,10 +657,6 @@
   {
    "source":"cuda_compiler_stub",
    "target":"tomopy"
-  },
-  {
-   "source":"cudnn",
-   "target":"cupy"
   },
   {
    "source":"curio",
@@ -778,19 +684,11 @@
   },
   {
    "source":"cxx_compiler_stub",
-   "target":"cupy"
-  },
-  {
-   "source":"cxx_compiler_stub",
    "target":"epics-base"
   },
   {
    "source":"cxx_compiler_stub",
    "target":"file"
-  },
-  {
-   "source":"cxx_compiler_stub",
-   "target":"gfortran_impl_osx-64"
   },
   {
    "source":"cxx_compiler_stub",
@@ -819,18 +717,6 @@
   {
    "source":"cxx_compiler_stub",
    "target":"libsass"
-  },
-  {
-   "source":"cxx_compiler_stub",
-   "target":"llvm-openmp"
-  },
-  {
-   "source":"cxx_compiler_stub",
-   "target":"llvm-package"
-  },
-  {
-   "source":"cxx_compiler_stub",
-   "target":"lz4-c"
   },
   {
    "source":"cxx_compiler_stub",
@@ -871,10 +757,6 @@
   {
    "source":"cxx_compiler_stub",
    "target":"scikit-build"
-  },
-  {
-   "source":"cxx_compiler_stub",
-   "target":"scikit-learn"
   },
   {
    "source":"cxx_compiler_stub",
@@ -926,15 +808,7 @@
   },
   {
    "source":"cython",
-   "target":"cupy"
-  },
-  {
-   "source":"cython",
    "target":"fabio"
-  },
-  {
-   "source":"cython",
-   "target":"h5py"
   },
   {
    "source":"cython",
@@ -970,10 +844,6 @@
   },
   {
    "source":"cython",
-   "target":"scikit-learn"
-  },
-  {
-   "source":"cython",
    "target":"silx"
   },
   {
@@ -983,10 +853,6 @@
   {
    "source":"cython",
    "target":"xraylib"
-  },
-  {
-   "source":"czifile",
-   "target":"imagecodecs"
   },
   {
    "source":"dask-core",
@@ -1329,10 +1195,6 @@
    "target":"xraylarch"
   },
   {
-   "source":"fastrlock",
-   "target":"cupy"
-  },
-  {
    "source":"ffmpeg",
    "target":"analysis"
   },
@@ -1433,18 +1295,6 @@
    "target":"libgfortran"
   },
   {
-   "source":"gevent",
-   "target":"pykafka"
-  },
-  {
-   "source":"gfortran_impl_osx-64",
-   "target":"gfortran_impl_osx-64"
-  },
-  {
-   "source":"gfortran_impl_osx-64",
-   "target":"gfortran_osx-64"
-  },
-  {
    "source":"github3.py",
    "target":"nsls2forge-utils"
   },
@@ -1477,20 +1327,12 @@
    "target":"analysis"
   },
   {
-   "source":"gmp",
-   "target":"gfortran_impl_osx-64"
-  },
-  {
    "source":"gobject-introspection",
    "target":"hkl"
   },
   {
    "source":"gobject-introspection",
    "target":"pygobject"
-  },
-  {
-   "source":"graphviz",
-   "target":"11-id-chx-analysis"
   },
   {
    "source":"graphviz",
@@ -1610,10 +1452,6 @@
   },
   {
    "source":"hdf5",
-   "target":"h5py"
-  },
-  {
-   "source":"hdf5",
    "target":"hdf5-external-filter-plugins"
   },
   {
@@ -1662,23 +1500,7 @@
   },
   {
    "source":"hxnfly",
-   "target":"03-id-hxn-collection"
-  },
-  {
-   "source":"hxnfly",
    "target":"collection"
-  },
-  {
-   "source":"hxntools",
-   "target":"03-id-hxn-collection"
-  },
-  {
-   "source":"hxntools",
-   "target":"04-bm-xfm-collection"
-  },
-  {
-   "source":"hxntools",
-   "target":"05-id-srx-collection"
   },
   {
    "source":"hxntools",
@@ -1703,10 +1525,6 @@
   {
    "source":"igor",
    "target":"nsls2-analysis"
-  },
-  {
-   "source":"imagecodecs",
-   "target":"tifffile"
   },
   {
    "source":"imageio",
@@ -1735,10 +1553,6 @@
   {
    "source":"importlib_resources",
    "target":"pint"
-  },
-  {
-   "source":"inflection",
-   "target":"06-bm-bmm-collection"
   },
   {
    "source":"inflection",
@@ -1849,10 +1663,6 @@
    "target":"sixtools"
   },
   {
-   "source":"isl",
-   "target":"gfortran_impl_osx-64"
-  },
-  {
    "source":"isort",
    "target":"analysis"
   },
@@ -1887,10 +1697,6 @@
   {
    "source":"jinja2",
    "target":"suitcase-specfile"
-  },
-  {
-   "source":"joblib",
-   "target":"scikit-learn"
   },
   {
    "source":"jom",
@@ -1957,20 +1763,12 @@
    "target":"github3.py"
   },
   {
-   "source":"kazoo",
-   "target":"pykafka"
-  },
-  {
    "source":"keyring",
    "target":"pyolog"
   },
   {
    "source":"krb5",
    "target":"python-gssapi"
-  },
-  {
-   "source":"ld64",
-   "target":"gfortran_osx-64"
   },
   {
    "source":"ldap3",
@@ -1981,16 +1779,8 @@
    "target":"nsls2-analysis"
   },
   {
-   "source":"libcblas",
-   "target":"scikit-learn"
-  },
-  {
    "source":"libcxx",
    "target":"clang_packages"
-  },
-  {
-   "source":"libcxx",
-   "target":"llvm-package"
   },
   {
    "source":"libffi",
@@ -1999,10 +1789,6 @@
   {
    "source":"libgsasl",
    "target":"librdkafka"
-  },
-  {
-   "source":"libiconv",
-   "target":"gfortran_impl_osx-64"
   },
   {
    "source":"libiconv",
@@ -2019,10 +1805,6 @@
   {
    "source":"libopenblas",
    "target":"edrixs"
-  },
-  {
-   "source":"librdkafka",
-   "target":"pykafka"
   },
   {
    "source":"librdkafka",
@@ -2050,10 +1832,6 @@
   },
   {
    "source":"line_profiler",
-   "target":"11-id-chx-analysis"
-  },
-  {
-   "source":"line_profiler",
    "target":"analysis"
   },
   {
@@ -2065,40 +1843,16 @@
    "target":"nsls2-analysis"
   },
   {
-   "source":"lld",
-   "target":"autotools_clang_conda"
-  },
-  {
    "source":"llvm-openmp",
    "target":"csxtools"
   },
   {
-   "source":"llvm-openmp",
-   "target":"gfortran_impl_osx-64"
-  },
-  {
-   "source":"llvm-openmp",
-   "target":"llvm-openmp"
-  },
-  {
-   "source":"llvm-openmp",
-   "target":"scikit-learn"
-  },
-  {
-   "source":"llvm-package",
-   "target":"autotools_clang_conda"
-  },
-  {
-   "source":"llvm-package",
+   "source":"llvm",
    "target":"clang_packages"
   },
   {
-   "source":"llvm-package",
-   "target":"llvm-openmp"
-  },
-  {
-   "source":"llvm-package",
-   "target":"llvm-package"
+   "source":"llvmdev",
+   "target":"clang_packages"
   },
   {
    "source":"lmfit",
@@ -2157,18 +1911,6 @@
    "target":"librdkafka"
   },
   {
-   "source":"lz4",
-   "target":"imagecodecs"
-  },
-  {
-   "source":"m2-autoconf",
-   "target":"autotools_clang_conda"
-  },
-  {
-   "source":"m2-automake-wrapper",
-   "target":"autotools_clang_conda"
-  },
-  {
    "source":"m2-base",
    "target":"icu"
   },
@@ -2186,10 +1928,6 @@
   },
   {
    "source":"m2-findutils",
-   "target":"autotools_clang_conda"
-  },
-  {
-   "source":"m2-findutils",
    "target":"xraylib"
   },
   {
@@ -2199,18 +1937,6 @@
   {
    "source":"m2-grep",
    "target":"xraylib"
-  },
-  {
-   "source":"m2-libtool",
-   "target":"autotools_clang_conda"
-  },
-  {
-   "source":"m2-m4",
-   "target":"autotools_clang_conda"
-  },
-  {
-   "source":"m2-make",
-   "target":"autotools_clang_conda"
   },
   {
    "source":"m2-make",
@@ -2286,10 +2012,6 @@
   },
   {
    "source":"make",
-   "target":"gfortran_impl_osx-64"
-  },
-  {
-   "source":"make",
    "target":"hdf5-external-filter-plugins"
   },
   {
@@ -2307,14 +2029,6 @@
   {
    "source":"make",
    "target":"libjpeg-turbo"
-  },
-  {
-   "source":"make",
-   "target":"llvm-package"
-  },
-  {
-   "source":"make",
-   "target":"lz4-c"
   },
   {
    "source":"make",
@@ -2387,10 +2101,6 @@
   {
    "source":"matplotlib",
    "target":"csxtools"
-  },
-  {
-   "source":"matplotlib",
-   "target":"databroker-browser"
   },
   {
    "source":"matplotlib",
@@ -2498,10 +2208,6 @@
   },
   {
    "source":"memory_profiler",
-   "target":"11-id-chx-analysis"
-  },
-  {
-   "source":"memory_profiler",
    "target":"analysis"
   },
   {
@@ -2514,15 +2220,7 @@
   },
   {
    "source":"mock",
-   "target":"cupy"
-  },
-  {
-   "source":"mock",
    "target":"scikit-build"
-  },
-  {
-   "source":"modestimage",
-   "target":"11-id-chx-analysis"
   },
   {
    "source":"modestimage",
@@ -2541,20 +2239,8 @@
    "target":"eventlet"
   },
   {
-   "source":"mpc",
-   "target":"gfortran_impl_osx-64"
-  },
-  {
-   "source":"mpfr",
-   "target":"gfortran_impl_osx-64"
-  },
-  {
    "source":"mpi4py",
    "target":"edrixs"
-  },
-  {
-   "source":"mpi4py",
-   "target":"h5py"
   },
   {
    "source":"mpi4py",
@@ -2633,10 +2319,6 @@
    "target":"papermill"
   },
   {
-   "source":"nccl",
-   "target":"cupy"
-  },
-  {
    "source":"ndg-httpsclient",
    "target":"github3.py"
   },
@@ -2690,14 +2372,6 @@
   },
   {
    "source":"ninja",
-   "target":"llvm-openmp"
-  },
-  {
-   "source":"ninja",
-   "target":"llvm-package"
-  },
-  {
-   "source":"ninja",
    "target":"pygobject"
   },
   {
@@ -2715,10 +2389,6 @@
   {
    "source":"nomkl",
    "target":"tomopy"
-  },
-  {
-   "source":"nompi",
-   "target":"h5py"
   },
   {
    "source":"nose",
@@ -2850,10 +2520,6 @@
   },
   {
    "source":"numpy",
-   "target":"cupy"
-  },
-  {
-   "source":"numpy",
    "target":"databroker"
   },
   {
@@ -2894,10 +2560,6 @@
   },
   {
    "source":"numpy",
-   "target":"h5py"
-  },
-  {
-   "source":"numpy",
    "target":"hkl"
   },
   {
@@ -2911,10 +2573,6 @@
   {
    "source":"numpy",
    "target":"igor"
-  },
-  {
-   "source":"numpy",
-   "target":"imagecodecs"
   },
   {
    "source":"numpy",
@@ -3058,10 +2716,6 @@
   },
   {
    "source":"numpy",
-   "target":"scikit-learn"
-  },
-  {
-   "source":"numpy",
    "target":"shed"
   },
   {
@@ -3087,10 +2741,6 @@
   {
    "source":"numpy",
    "target":"srwpy"
-  },
-  {
-   "source":"numpy",
-   "target":"tifffile"
   },
   {
    "source":"numpy",
@@ -3342,10 +2992,6 @@
   },
   {
    "source":"papermill",
-   "target":"11-id-chx-analysis"
-  },
-  {
-   "source":"papermill",
    "target":"analysis"
   },
   {
@@ -3411,10 +3057,6 @@
   {
    "source":"perl",
    "target":"epics-base"
-  },
-  {
-   "source":"perl",
-   "target":"llvm-openmp"
   },
   {
    "source":"perl",
@@ -3630,10 +3272,6 @@
   },
   {
    "source":"pip",
-   "target":"cupy"
-  },
-  {
-   "source":"pip",
    "target":"curio"
   },
   {
@@ -3647,10 +3285,6 @@
   {
    "source":"pip",
    "target":"databroker"
-  },
-  {
-   "source":"pip",
-   "target":"databroker-browser"
   },
   {
    "source":"pip",
@@ -3750,10 +3384,6 @@
   },
   {
    "source":"pip",
-   "target":"h5py"
-  },
-  {
-   "source":"pip",
    "target":"helpdev"
   },
   {
@@ -3787,10 +3417,6 @@
   {
    "source":"pip",
    "target":"igor"
-  },
-  {
-   "source":"pip",
-   "target":"imagecodecs"
   },
   {
    "source":"pip",
@@ -3843,10 +3469,6 @@
   {
    "source":"pip",
    "target":"lixtools"
-  },
-  {
-   "source":"pip",
-   "target":"llvm-package"
   },
   {
    "source":"pip",
@@ -4034,10 +3656,6 @@
   },
   {
    "source":"pip",
-   "target":"pykafka"
-  },
-  {
-   "source":"pip",
    "target":"pykern"
   },
   {
@@ -4158,10 +3776,6 @@
   },
   {
    "source":"pip",
-   "target":"scikit-learn"
-  },
-  {
-   "source":"pip",
    "target":"semantic_version"
   },
   {
@@ -4247,10 +3861,6 @@
   {
    "source":"pip",
    "target":"textwrap3"
-  },
-  {
-   "source":"pip",
-   "target":"tifffile"
   },
   {
    "source":"pip",
@@ -4366,19 +3976,11 @@
   },
   {
    "source":"pkg-config",
-   "target":"lz4-c"
-  },
-  {
-   "source":"pkg-config",
    "target":"pygobject"
   },
   {
    "source":"pkg-config",
    "target":"tomviz"
-  },
-  {
-   "source":"pkgconfig",
-   "target":"h5py"
   },
   {
    "source":"pluggy",
@@ -4387,14 +3989,6 @@
   {
    "source":"poetry",
    "target":"mendeleev"
-  },
-  {
-   "source":"posix",
-   "target":"autotools_clang_conda"
-  },
-  {
-   "source":"ppmac",
-   "target":"03-id-hxn-collection"
   },
   {
    "source":"ppmac",
@@ -4642,10 +4236,6 @@
   },
   {
    "source":"pypdf2",
-   "target":"03-id-hxn-collection"
-  },
-  {
-   "source":"pypdf2",
    "target":"analysis"
   },
   {
@@ -4730,10 +4320,6 @@
   },
   {
    "source":"pyreadline",
-   "target":"h5py"
-  },
-  {
-   "source":"pyreadline",
    "target":"xonsh"
   },
   {
@@ -4809,14 +4395,6 @@
    "target":"napari"
   },
   {
-   "source":"pytest-timeout",
-   "target":"scikit-learn"
-  },
-  {
-   "source":"pytest-xdist",
-   "target":"scikit-learn"
-  },
-  {
    "source":"pytest",
    "target":"arvpyf"
   },
@@ -4842,15 +4420,7 @@
   },
   {
    "source":"pytest",
-   "target":"cupy"
-  },
-  {
-   "source":"pytest",
    "target":"event-model"
-  },
-  {
-   "source":"pytest",
-   "target":"h5py"
   },
   {
    "source":"pytest",
@@ -4859,10 +4429,6 @@
   {
    "source":"pytest",
    "target":"historydict"
-  },
-  {
-   "source":"pytest",
-   "target":"imagecodecs"
   },
   {
    "source":"pytest",
@@ -4899,10 +4465,6 @@
   {
    "source":"pytest",
    "target":"scikit-build"
-  },
-  {
-   "source":"pytest",
-   "target":"scikit-learn"
   },
   {
    "source":"pytest",
@@ -4959,38 +4521,6 @@
   {
    "source":"python-gssapi",
    "target":"n2snusertools"
-  },
-  {
-   "source":"python-lzf",
-   "target":"imagecodecs"
-  },
-  {
-   "source":"python",
-   "target":"02-id-six-collection"
-  },
-  {
-   "source":"python",
-   "target":"03-id-hxn-collection"
-  },
-  {
-   "source":"python",
-   "target":"04-bm-xfm-collection"
-  },
-  {
-   "source":"python",
-   "target":"05-id-srx-collection"
-  },
-  {
-   "source":"python",
-   "target":"06-bm-bmm-collection"
-  },
-  {
-   "source":"python",
-   "target":"11-id-chx-analysis"
-  },
-  {
-   "source":"python",
-   "target":"11-id-chx-collection"
   },
   {
    "source":"python",
@@ -5122,10 +4652,6 @@
   },
   {
    "source":"python",
-   "target":"cupy"
-  },
-  {
-   "source":"python",
    "target":"curio"
   },
   {
@@ -5139,10 +4665,6 @@
   {
    "source":"python",
    "target":"databroker"
-  },
-  {
-   "source":"python",
-   "target":"databroker-browser"
   },
   {
    "source":"python",
@@ -5246,10 +4768,6 @@
   },
   {
    "source":"python",
-   "target":"h5py"
-  },
-  {
-   "source":"python",
    "target":"hdf5-lz4"
   },
   {
@@ -5291,10 +4809,6 @@
   {
    "source":"python",
    "target":"igor"
-  },
-  {
-   "source":"python",
-   "target":"imagecodecs"
   },
   {
    "source":"python",
@@ -5347,10 +4861,6 @@
   {
    "source":"python",
    "target":"lixtools"
-  },
-  {
-   "source":"python",
-   "target":"llvm-package"
   },
   {
    "source":"python",
@@ -5550,10 +5060,6 @@
   },
   {
    "source":"python",
-   "target":"pykafka"
-  },
-  {
-   "source":"python",
    "target":"pykern"
   },
   {
@@ -5682,10 +5188,6 @@
   },
   {
    "source":"python",
-   "target":"scikit-learn"
-  },
-  {
-   "source":"python",
    "target":"semantic_version"
   },
   {
@@ -5775,10 +5277,6 @@
   {
    "source":"python",
    "target":"textwrap3"
-  },
-  {
-   "source":"python",
-   "target":"tifffile"
   },
   {
    "source":"python",
@@ -6086,10 +5584,6 @@
   },
   {
    "source":"reportlab",
-   "target":"03-id-hxn-collection"
-  },
-  {
-   "source":"reportlab",
    "target":"analysis"
   },
   {
@@ -6374,10 +5868,6 @@
   },
   {
    "source":"scipy",
-   "target":"scikit-learn"
-  },
-  {
-   "source":"scipy",
    "target":"shed"
   },
   {
@@ -6522,10 +6012,6 @@
   },
   {
    "source":"setuptools",
-   "target":"cupy"
-  },
-  {
-   "source":"setuptools",
    "target":"extension-helpers"
   },
   {
@@ -6646,15 +6132,7 @@
   },
   {
    "source":"six",
-   "target":"cupy"
-  },
-  {
-   "source":"six",
    "target":"databroker"
-  },
-  {
-   "source":"six",
-   "target":"databroker-browser"
   },
   {
    "source":"six",
@@ -6675,10 +6153,6 @@
   {
    "source":"six",
    "target":"globus-sdk"
-  },
-  {
-   "source":"six",
-   "target":"h5py"
   },
   {
    "source":"six",
@@ -6703,10 +6177,6 @@
   {
    "source":"six",
    "target":"parsimonious"
-  },
-  {
-   "source":"six",
-   "target":"pykafka"
   },
   {
    "source":"six",
@@ -6755,10 +6225,6 @@
   {
    "source":"six",
    "target":"tenacity"
-  },
-  {
-   "source":"sixtools",
-   "target":"02-id-six-collection"
   },
   {
    "source":"sixtools",
@@ -6902,10 +6368,6 @@
   },
   {
    "source":"suitcase-specfile",
-   "target":"11-id-chx-collection"
-  },
-  {
-   "source":"suitcase-specfile",
    "target":"analysis"
   },
   {
@@ -6981,10 +6443,6 @@
    "target":"nsls2forge-utils"
   },
   {
-   "source":"tabulate",
-   "target":"pykafka"
-  },
-  {
    "source":"tenacity",
    "target":"papermill"
   },
@@ -7001,10 +6459,6 @@
    "target":"ansiwrap"
   },
   {
-   "source":"threadpoolctl",
-   "target":"scikit-learn"
-  },
-  {
    "source":"tifffile",
    "target":"area-detector-handlers"
   },
@@ -7015,10 +6469,6 @@
   {
    "source":"tifffile",
    "target":"dxchange"
-  },
-  {
-   "source":"tifffile",
-   "target":"imagecodecs"
   },
   {
    "source":"tifffile",
@@ -7035,10 +6485,6 @@
   {
    "source":"tifffile",
    "target":"tomopy"
-  },
-  {
-   "source":"toml",
-   "target":"06-bm-bmm-collection"
   },
   {
    "source":"toml",
@@ -7095,10 +6541,6 @@
   {
    "source":"tox",
    "target":"pykern"
-  },
-  {
-   "source":"tqdm",
-   "target":"03-id-hxn-collection"
   },
   {
    "source":"tqdm",
@@ -7370,10 +6812,6 @@
   },
   {
    "source":"xraylarch",
-   "target":"06-bm-bmm-collection"
-  },
-  {
-   "source":"xraylarch",
    "target":"analysis"
   },
   {
@@ -7426,10 +6864,6 @@
   },
   {
    "source":"zlib",
-   "target":"gfortran_impl_osx-64"
-  },
-  {
-   "source":"zlib",
    "target":"librdkafka"
   },
   {
@@ -7443,14 +6877,6 @@
   {
    "source":"zlib",
    "target":"uwsgi"
-  },
-  {
-   "source":"zopflipy",
-   "target":"imagecodecs"
-  },
-  {
-   "source":"zstd",
-   "target":"imagecodecs"
   }
  ],
  "multigraph":false,
@@ -10705,6 +10131,18 @@
    "id":"watchdog",
    "payload":{
     "__lazy_json__":"node_attrs/watchdog.json"
+   }
+  },
+  {
+   "id":"llvm",
+   "payload":{
+    "__lazy_json__":"node_attrs/llvm.json"
+   }
+  },
+  {
+   "id":"llvmdev",
+   "payload":{
+    "__lazy_json__":"node_attrs/llvmdev.json"
    }
   }
  ]

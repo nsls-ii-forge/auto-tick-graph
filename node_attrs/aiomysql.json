@@ -1,0 +1,300 @@
+{
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "linux":"azure",
+   "osx":"azure",
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"aiomysql",
+ "hash_type":"sha256",
+ "linux_64_meta_yaml":{
+  "about":{
+   "home":"https://github.com/aio-libs/aiomysql",
+   "license":"MIT",
+   "license_file":"LICENSE",
+   "summary":"aiomysql is a library for accessing a MySQL database from the asyncio"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "package":{
+   "name":"aiomysql",
+   "version":"0.0.21"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip"
+   ],
+   "run":[
+    "python >=3.5",
+    "pymysql >=0.9.0,<=0.9.3"
+   ]
+  },
+  "source":{
+   "sha256":"811569c0db118dd2685f0878f5cebf17a11e89a995fa14261d5fa0254113842c",
+   "url":"https://pypi.io/packages/source/a/aiomysql/aiomysql-0.0.21.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "aiomysql"
+   ]
+  }
+ },
+ "linux_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pymysql",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/aio-libs/aiomysql",
+   "license":"MIT",
+   "license_file":"LICENSE",
+   "summary":"aiomysql is a library for accessing a MySQL database from the asyncio"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "package":{
+   "name":"aiomysql",
+   "version":"0.0.21"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip",
+    "python >=3.5",
+    "pip"
+   ],
+   "run":[
+    "python >=3.5",
+    "pymysql >=0.9.0,<=0.9.3",
+    "python >=3.5",
+    "pymysql >=0.9.0,<=0.9.3",
+    "python >=3.5",
+    "pymysql >=0.9.0,<=0.9.3"
+   ]
+  },
+  "source":{
+   "sha256":"811569c0db118dd2685f0878f5cebf17a11e89a995fa14261d5fa0254113842c",
+   "url":"https://pypi.io/packages/source/a/aiomysql/aiomysql-0.0.21.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "aiomysql",
+    "aiomysql",
+    "aiomysql"
+   ]
+  }
+ },
+ "name":"aiomysql",
+ "new_version":"0.0.21",
+ "osx_64_meta_yaml":{
+  "about":{
+   "home":"https://github.com/aio-libs/aiomysql",
+   "license":"MIT",
+   "license_file":"LICENSE",
+   "summary":"aiomysql is a library for accessing a MySQL database from the asyncio"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "package":{
+   "name":"aiomysql",
+   "version":"0.0.21"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip"
+   ],
+   "run":[
+    "python >=3.5",
+    "pymysql >=0.9.0,<=0.9.3"
+   ]
+  },
+  "source":{
+   "sha256":"811569c0db118dd2685f0878f5cebf17a11e89a995fa14261d5fa0254113842c",
+   "url":"https://pypi.io/packages/source/a/aiomysql/aiomysql-0.0.21.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "aiomysql"
+   ]
+  }
+ },
+ "osx_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pymysql",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "raw_meta_yaml":"{% set name = \"aiomysql\" %}\n{% set version = \"0.0.21\" %}\n{% set sha256 = \"811569c0db118dd2685f0878f5cebf17a11e89a995fa14261d5fa0254113842c\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 1\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.5\n    - pip\n  run:\n    - python >=3.5\n    - pymysql >=0.9.0,<=0.9.3\n\ntest:\n  imports:\n    - aiomysql\n\nabout:\n  home: https://github.com/aio-libs/aiomysql\n  summary: aiomysql is a library for accessing a MySQL database from the asyncio\n  license: MIT\n  license_file: LICENSE\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "pymysql",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pymysql",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.5"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pymysql >=0.9.0,<=0.9.3",
+    "python >=3.5"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/a/aiomysql/aiomysql-0.0.21.tar.gz",
+ "version":"0.0.21",
+ "win_64_meta_yaml":{
+  "about":{
+   "home":"https://github.com/aio-libs/aiomysql",
+   "license":"MIT",
+   "license_file":"LICENSE",
+   "summary":"aiomysql is a library for accessing a MySQL database from the asyncio"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"1",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "package":{
+   "name":"aiomysql",
+   "version":"0.0.21"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.5",
+    "pip"
+   ],
+   "run":[
+    "python >=3.5",
+    "pymysql >=0.9.0,<=0.9.3"
+   ]
+  },
+  "source":{
+   "sha256":"811569c0db118dd2685f0878f5cebf17a11e89a995fa14261d5fa0254113842c",
+   "url":"https://pypi.io/packages/source/a/aiomysql/aiomysql-0.0.21.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "aiomysql"
+   ]
+  }
+ },
+ "win_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "pymysql",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ }
+}

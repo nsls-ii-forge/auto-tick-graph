@@ -1,0 +1,274 @@
+{
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "linux":"azure",
+   "osx":"azure",
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"contexter",
+ "hash_type":"sha256",
+ "linux_64_meta_yaml":{
+  "about":{
+   "description":"Contexter is a full replacement of the contextlib standard library module.\nIt comes with more features, a nicer API and full support for Python 2.5 up\nto 3.x from a single source file.\n",
+   "home":"https://bitbucket.org/defnull/contexter",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.txt",
+   "summary":"Contexter: A better contextlib"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "package":{
+   "name":"contexter",
+   "version":"0.1.4"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6"
+   ]
+  },
+  "source":{
+   "sha256":"c730890b1a915051414a6350d8ea1cddca7d01d8f756badedb30b9bf305ea0a8",
+   "url":"https://pypi.io/packages/source/c/contexter/contexter-0.1.4.tar.gz"
+  }
+ },
+ "linux_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "meta_yaml":{
+  "about":{
+   "description":"Contexter is a full replacement of the contextlib standard library module.\nIt comes with more features, a nicer API and full support for Python 2.5 up\nto 3.x from a single source file.\n",
+   "home":"https://bitbucket.org/defnull/contexter",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.txt",
+   "summary":"Contexter: A better contextlib"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "package":{
+   "name":"contexter",
+   "version":"0.1.4"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "python >=3.6",
+    "python >=3.6"
+   ]
+  },
+  "source":{
+   "sha256":"c730890b1a915051414a6350d8ea1cddca7d01d8f756badedb30b9bf305ea0a8",
+   "url":"https://pypi.io/packages/source/c/contexter/contexter-0.1.4.tar.gz"
+  }
+ },
+ "name":"contexter",
+ "new_version":"0.1.4",
+ "osx_64_meta_yaml":{
+  "about":{
+   "description":"Contexter is a full replacement of the contextlib standard library module.\nIt comes with more features, a nicer API and full support for Python 2.5 up\nto 3.x from a single source file.\n",
+   "home":"https://bitbucket.org/defnull/contexter",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.txt",
+   "summary":"Contexter: A better contextlib"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "package":{
+   "name":"contexter",
+   "version":"0.1.4"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6"
+   ]
+  },
+  "source":{
+   "sha256":"c730890b1a915051414a6350d8ea1cddca7d01d8f756badedb30b9bf305ea0a8",
+   "url":"https://pypi.io/packages/source/c/contexter/contexter-0.1.4.tar.gz"
+  }
+ },
+ "osx_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "raw_meta_yaml":"{% set name = \"contexter\" %}\n{% set version = \"0.1.4\" %}\n{% set sha256 = \"c730890b1a915051414a6350d8ea1cddca7d01d8f756badedb30b9bf305ea0a8\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: \"https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\"\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: \"python\"\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n\nabout:\n  home: \"https://bitbucket.org/defnull/contexter\"\n  license: \"MIT\"\n  license_family: \"MIT\"\n  license_file: LICENSE.txt\n  summary: \"Contexter: A better contextlib\"\n  description: |\n    Contexter is a full replacement of the contextlib standard library module.\n    It comes with more features, a nicer API and full support for Python 2.5 up\n    to 3.x from a single source file.\n\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "pip",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python >=3.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/c/contexter/contexter-0.1.4.tar.gz",
+ "version":"0.1.4",
+ "win_64_meta_yaml":{
+  "about":{
+   "description":"Contexter is a full replacement of the contextlib standard library module.\nIt comes with more features, a nicer API and full support for Python 2.5 up\nto 3.x from a single source file.\n",
+   "home":"https://bitbucket.org/defnull/contexter",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE.txt",
+   "summary":"Contexter: A better contextlib"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps --ignore-installed -vv "
+  },
+  "package":{
+   "name":"contexter",
+   "version":"0.1.4"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6"
+   ]
+  },
+  "source":{
+   "sha256":"c730890b1a915051414a6350d8ea1cddca7d01d8f756badedb30b9bf305ea0a8",
+   "url":"https://pypi.io/packages/source/c/contexter/contexter-0.1.4.tar.gz"
+  }
+ },
+ "win_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ }
+}

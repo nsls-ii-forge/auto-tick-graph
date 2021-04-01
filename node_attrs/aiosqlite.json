@@ -1,0 +1,369 @@
+{
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "linux":"azure",
+   "osx":"azure",
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"aiosqlite",
+ "hash_type":"sha256",
+ "linux_64_meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/omnilib/aiosqlite",
+   "home":"https://github.com/omnilib/aiosqlite",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"asyncio bridge to the standard sqlite3 module"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "package":{
+   "name":"aiosqlite",
+   "version":"0.17.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "flit-core >=2,<4",
+    "typing-extensions >=3.7.2"
+   ],
+   "run":[
+    "python >=3.6",
+    "typing-extensions >=3.7.2"
+   ]
+  },
+  "source":{
+   "sha256":"f0e6acc24bc4864149267ac82fb46dfb3be4455f99fe21df82609cc6e6baee51",
+   "url":"https://pypi.io/packages/source/a/aiosqlite/aiosqlite-0.17.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pip check"
+   ],
+   "imports":[
+    "aiosqlite"
+   ],
+   "requires":[
+    "pip"
+   ]
+  }
+ },
+ "linux_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "flit-core",
+    "pip",
+    "python",
+    "typing-extensions"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "typing-extensions"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/omnilib/aiosqlite",
+   "home":"https://github.com/omnilib/aiosqlite",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"asyncio bridge to the standard sqlite3 module"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "package":{
+   "name":"aiosqlite",
+   "version":"0.17.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "flit-core >=2,<4",
+    "typing-extensions >=3.7.2",
+    "python >=3.6",
+    "pip",
+    "flit-core >=2,<4",
+    "typing-extensions >=3.7.2",
+    "python >=3.6",
+    "pip",
+    "flit-core >=2,<4",
+    "typing-extensions >=3.7.2"
+   ],
+   "run":[
+    "python >=3.6",
+    "typing-extensions >=3.7.2",
+    "python >=3.6",
+    "typing-extensions >=3.7.2",
+    "python >=3.6",
+    "typing-extensions >=3.7.2"
+   ]
+  },
+  "source":{
+   "sha256":"f0e6acc24bc4864149267ac82fb46dfb3be4455f99fe21df82609cc6e6baee51",
+   "url":"https://pypi.io/packages/source/a/aiosqlite/aiosqlite-0.17.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pip check",
+    "pip check",
+    "pip check"
+   ],
+   "imports":[
+    "aiosqlite",
+    "aiosqlite",
+    "aiosqlite"
+   ],
+   "requires":[
+    "pip",
+    "pip",
+    "pip"
+   ]
+  }
+ },
+ "name":"aiosqlite",
+ "new_version":"0.17.0",
+ "osx_64_meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/omnilib/aiosqlite",
+   "home":"https://github.com/omnilib/aiosqlite",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"asyncio bridge to the standard sqlite3 module"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "package":{
+   "name":"aiosqlite",
+   "version":"0.17.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "flit-core >=2,<4",
+    "typing-extensions >=3.7.2"
+   ],
+   "run":[
+    "python >=3.6",
+    "typing-extensions >=3.7.2"
+   ]
+  },
+  "source":{
+   "sha256":"f0e6acc24bc4864149267ac82fb46dfb3be4455f99fe21df82609cc6e6baee51",
+   "url":"https://pypi.io/packages/source/a/aiosqlite/aiosqlite-0.17.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pip check"
+   ],
+   "imports":[
+    "aiosqlite"
+   ],
+   "requires":[
+    "pip"
+   ]
+  }
+ },
+ "osx_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "flit-core",
+    "pip",
+    "python",
+    "typing-extensions"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "typing-extensions"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "raw_meta_yaml":"{% set name = \"aiosqlite\" %}\n{% set version = \"0.17.0\" %}\n{% set sha256 = \"f0e6acc24bc4864149267ac82fb46dfb3be4455f99fe21df82609cc6e6baee51\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n    - flit-core >=2,<4\n    - typing-extensions >=3.7.2\n  run:\n    - python >=3.6\n    - typing-extensions >=3.7.2\n\ntest:\n  requires:\n    - pip\n  commands:\n    - pip check\n  imports:\n    - aiosqlite\n\nabout:\n  home: https://github.com/omnilib/aiosqlite\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: asyncio bridge to the standard sqlite3 module\n  dev_url: https://github.com/omnilib/aiosqlite\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "flit-core",
+   "pip",
+   "python",
+   "typing-extensions"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "flit-core",
+    "pip",
+    "python",
+    "typing-extensions"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "typing-extensions"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "flit-core >=2,<4",
+    "pip",
+    "python >=3.6",
+    "typing-extensions >=3.7.2"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python >=3.6",
+    "typing-extensions >=3.7.2"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ },
+ "url":"https://pypi.io/packages/source/a/aiosqlite/aiosqlite-0.17.0.tar.gz",
+ "version":"0.17.0",
+ "win_64_meta_yaml":{
+  "about":{
+   "dev_url":"https://github.com/omnilib/aiosqlite",
+   "home":"https://github.com/omnilib/aiosqlite",
+   "license":"MIT",
+   "license_family":"MIT",
+   "license_file":"LICENSE",
+   "summary":"asyncio bridge to the standard sqlite3 module"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "package":{
+   "name":"aiosqlite",
+   "version":"0.17.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "flit-core >=2,<4",
+    "typing-extensions >=3.7.2"
+   ],
+   "run":[
+    "python >=3.6",
+    "typing-extensions >=3.7.2"
+   ]
+  },
+  "source":{
+   "sha256":"f0e6acc24bc4864149267ac82fb46dfb3be4455f99fe21df82609cc6e6baee51",
+   "url":"https://pypi.io/packages/source/a/aiosqlite/aiosqlite-0.17.0.tar.gz"
+  },
+  "test":{
+   "commands":[
+    "pip check"
+   ],
+   "imports":[
+    "aiosqlite"
+   ],
+   "requires":[
+    "pip"
+   ]
+  }
+ },
+ "win_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "flit-core",
+    "pip",
+    "python",
+    "typing-extensions"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "python",
+    "typing-extensions"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[
+    "pip"
+   ]
+  }
+ }
+}

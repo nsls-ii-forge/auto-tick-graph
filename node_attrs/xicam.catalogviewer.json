@@ -1,0 +1,298 @@
+{
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "linux":"azure",
+   "osx":"azure",
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"xicam.catalogviewer",
+ "hash_type":"sha256",
+ "linux_64_meta_yaml":{
+  "about":{
+   "description":"A light plugin for a simple view of catalog contents independent of technique.\n",
+   "home":"https://github.com/synchrotrons/Xi-cam.CatalogViewer",
+   "license":"BSD 3-clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.md",
+   "summary":"The CAMERA platform for synchrotron data management, visualization, and reduction."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv "
+  },
+  "package":{
+   "name":"xicam.catalogviewer",
+   "version":"1.0.3"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "databroker",
+    "pyqt >=5"
+   ]
+  },
+  "source":{
+   "sha256":"75fa707c943f0c03d1be99efd27509348b98d1c0ff29dbe9f1dd896cef169ddd",
+   "url":"https://github.com/synchrotrons/Xi-cam.CatalogViewer/archive/1.0.3.tar.gz"
+  }
+ },
+ "linux_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "databroker",
+    "pyqt",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "meta_yaml":{
+  "about":{
+   "description":"A light plugin for a simple view of catalog contents independent of technique.\n",
+   "home":"https://github.com/synchrotrons/Xi-cam.CatalogViewer",
+   "license":"BSD 3-clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.md",
+   "summary":"The CAMERA platform for synchrotron data management, visualization, and reduction."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv "
+  },
+  "package":{
+   "name":"xicam.catalogviewer",
+   "version":"1.0.3"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "databroker",
+    "pyqt >=5",
+    "python >=3.6",
+    "databroker",
+    "pyqt >=5",
+    "python >=3.6",
+    "databroker",
+    "pyqt >=5"
+   ]
+  },
+  "source":{
+   "sha256":"75fa707c943f0c03d1be99efd27509348b98d1c0ff29dbe9f1dd896cef169ddd",
+   "url":"https://github.com/synchrotrons/Xi-cam.CatalogViewer/archive/1.0.3.tar.gz"
+  }
+ },
+ "name":"xicam.catalogviewer",
+ "new_version":"1.0.3",
+ "osx_64_meta_yaml":{
+  "about":{
+   "description":"A light plugin for a simple view of catalog contents independent of technique.\n",
+   "home":"https://github.com/synchrotrons/Xi-cam.CatalogViewer",
+   "license":"BSD 3-clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.md",
+   "summary":"The CAMERA platform for synchrotron data management, visualization, and reduction."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv "
+  },
+  "package":{
+   "name":"xicam.catalogviewer",
+   "version":"1.0.3"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "databroker",
+    "pyqt >=5"
+   ]
+  },
+  "source":{
+   "sha256":"75fa707c943f0c03d1be99efd27509348b98d1c0ff29dbe9f1dd896cef169ddd",
+   "url":"https://github.com/synchrotrons/Xi-cam.CatalogViewer/archive/1.0.3.tar.gz"
+  }
+ },
+ "osx_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "databroker",
+    "pyqt",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "raw_meta_yaml":"{% set name = \"xicam.catalogviewer\" %}\n{% set version = \"1.0.3\" %}\n{% set sha256 = \"75fa707c943f0c03d1be99efd27509348b98d1c0ff29dbe9f1dd896cef169ddd\" %}\n\npackage:\n  name: \"{{ name|lower }}\"\n  version: \"{{ version }}\"\n\nsource:\n  url: https://github.com/synchrotrons/Xi-cam.CatalogViewer/archive/{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: \"python\"\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv \"\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - databroker\n    - pyqt >=5\n\nabout:\n  home: \"https://github.com/synchrotrons/Xi-cam.CatalogViewer\"\n  license: BSD 3-clause\n  license_family: BSD\n  license_file: LICENSE.md\n  summary: The CAMERA platform for synchrotron data management, visualization, and reduction.\n  description: |\n    A light plugin for a simple view of catalog contents independent of technique.\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "databroker",
+   "pip",
+   "pyqt",
+   "python"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "databroker",
+    "pyqt",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "databroker",
+    "pyqt >=5",
+    "python >=3.6"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://github.com/synchrotrons/Xi-cam.CatalogViewer/archive/1.0.3.tar.gz",
+ "version":"1.0.3",
+ "win_64_meta_yaml":{
+  "about":{
+   "description":"A light plugin for a simple view of catalog contents independent of technique.\n",
+   "home":"https://github.com/synchrotrons/Xi-cam.CatalogViewer",
+   "license":"BSD 3-clause",
+   "license_family":"BSD",
+   "license_file":"LICENSE.md",
+   "summary":"The CAMERA platform for synchrotron data management, visualization, and reduction."
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":" -m pip install . --no-deps -vv "
+  },
+  "package":{
+   "name":"xicam.catalogviewer",
+   "version":"1.0.3"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "databroker",
+    "pyqt >=5"
+   ]
+  },
+  "source":{
+   "sha256":"75fa707c943f0c03d1be99efd27509348b98d1c0ff29dbe9f1dd896cef169ddd",
+   "url":"https://github.com/synchrotrons/Xi-cam.CatalogViewer/archive/1.0.3.tar.gz"
+  }
+ },
+ "win_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "databroker",
+    "pyqt",
+    "python"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ }
+}

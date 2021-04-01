@@ -1,0 +1,348 @@
+{
+ "bad":false,
+ "conda-forge.yml":{
+  "provider":{
+   "linux":"azure",
+   "osx":"azure",
+   "win":"azure"
+  }
+ },
+ "feedstock_name":"intake-xarray",
+ "hash_type":"sha256",
+ "linux_64_meta_yaml":{
+  "about":{
+   "home":"https://github.com/ContinuumIO/intake-xarray",
+   "license":"BSD-2-Clause",
+   "license_file":"/LICENSE",
+   "summary":"xarray plugins for Intake"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "package":{
+   "name":"intake-xarray",
+   "version":"0.5.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "dask >=2.2",
+    "intake >=0.5.2",
+    "netcdf4",
+    "xarray >=0.12.0",
+    "zarr"
+   ]
+  },
+  "source":{
+   "sha256":"fa8166e7ef3e665d9b78e48ef74e9cb78e1bf2b2edc9c65278796336b07e8a24",
+   "url":"https://pypi.io/packages/source/i/intake-xarray/intake-xarray-0.5.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "intake_xarray"
+   ]
+  }
+ },
+ "linux_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dask",
+    "intake",
+    "netcdf4",
+    "python",
+    "xarray",
+    "zarr"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "meta_yaml":{
+  "about":{
+   "home":"https://github.com/ContinuumIO/intake-xarray",
+   "license":"BSD-2-Clause",
+   "license_file":"/LICENSE",
+   "summary":"xarray plugins for Intake"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "package":{
+   "name":"intake-xarray",
+   "version":"0.5.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip",
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "dask >=2.2",
+    "intake >=0.5.2",
+    "netcdf4",
+    "xarray >=0.12.0",
+    "zarr",
+    "python >=3.6",
+    "dask >=2.2",
+    "intake >=0.5.2",
+    "netcdf4",
+    "xarray >=0.12.0",
+    "zarr",
+    "python >=3.6",
+    "dask >=2.2",
+    "intake >=0.5.2",
+    "netcdf4",
+    "xarray >=0.12.0",
+    "zarr"
+   ]
+  },
+  "source":{
+   "sha256":"fa8166e7ef3e665d9b78e48ef74e9cb78e1bf2b2edc9c65278796336b07e8a24",
+   "url":"https://pypi.io/packages/source/i/intake-xarray/intake-xarray-0.5.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "intake_xarray",
+    "intake_xarray",
+    "intake_xarray"
+   ]
+  }
+ },
+ "name":"intake-xarray",
+ "new_version":"0.5.0",
+ "osx_64_meta_yaml":{
+  "about":{
+   "home":"https://github.com/ContinuumIO/intake-xarray",
+   "license":"BSD-2-Clause",
+   "license_file":"/LICENSE",
+   "summary":"xarray plugins for Intake"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "package":{
+   "name":"intake-xarray",
+   "version":"0.5.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "dask >=2.2",
+    "intake >=0.5.2",
+    "netcdf4",
+    "xarray >=0.12.0",
+    "zarr"
+   ]
+  },
+  "source":{
+   "sha256":"fa8166e7ef3e665d9b78e48ef74e9cb78e1bf2b2edc9c65278796336b07e8a24",
+   "url":"https://pypi.io/packages/source/i/intake-xarray/intake-xarray-0.5.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "intake_xarray"
+   ]
+  }
+ },
+ "osx_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dask",
+    "intake",
+    "netcdf4",
+    "python",
+    "xarray",
+    "zarr"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "raw_meta_yaml":"{% set name = \"intake-xarray\" %}\n{% set version = \"0.5.0\" %}\n{% set sha256 = \"fa8166e7ef3e665d9b78e48ef74e9cb78e1bf2b2edc9c65278796336b07e8a24\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/i/intake-xarray/intake-xarray-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - dask >=2.2\n    - intake >=0.5.2\n    - netcdf4\n    - xarray >=0.12.0\n    - zarr\n\ntest:\n  imports:\n    - intake_xarray\n\nabout:\n  home: https://github.com/ContinuumIO/intake-xarray\n  license: BSD-2-Clause\n  license_file: {{ environ[\"RECIPE_DIR\"] }}/LICENSE\n  summary: xarray plugins for Intake\n",
+ "req":{
+  "__set__":true,
+  "elements":[
+   "dask",
+   "intake",
+   "netcdf4",
+   "pip",
+   "python",
+   "xarray",
+   "zarr"
+  ]
+ },
+ "requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dask",
+    "intake",
+    "netcdf4",
+    "python",
+    "xarray",
+    "zarr"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "strong_exports":false,
+ "total_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python >=3.6"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dask >=2.2",
+    "intake >=0.5.2",
+    "netcdf4",
+    "python >=3.6",
+    "xarray >=0.12.0",
+    "zarr"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ },
+ "url":"https://pypi.io/packages/source/i/intake-xarray/intake-xarray-0.5.0.tar.gz",
+ "version":"0.5.0",
+ "win_64_meta_yaml":{
+  "about":{
+   "home":"https://github.com/ContinuumIO/intake-xarray",
+   "license":"BSD-2-Clause",
+   "license_file":"/LICENSE",
+   "summary":"xarray plugins for Intake"
+  },
+  "build":{
+   "noarch":"python",
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
+  },
+  "package":{
+   "name":"intake-xarray",
+   "version":"0.5.0"
+  },
+  "requirements":{
+   "host":[
+    "python >=3.6",
+    "pip"
+   ],
+   "run":[
+    "python >=3.6",
+    "dask >=2.2",
+    "intake >=0.5.2",
+    "netcdf4",
+    "xarray >=0.12.0",
+    "zarr"
+   ]
+  },
+  "source":{
+   "sha256":"fa8166e7ef3e665d9b78e48ef74e9cb78e1bf2b2edc9c65278796336b07e8a24",
+   "url":"https://pypi.io/packages/source/i/intake-xarray/intake-xarray-0.5.0.tar.gz"
+  },
+  "test":{
+   "imports":[
+    "intake_xarray"
+   ]
+  }
+ },
+ "win_64_requirements":{
+  "build":{
+   "__set__":true,
+   "elements":[]
+  },
+  "host":{
+   "__set__":true,
+   "elements":[
+    "pip",
+    "python"
+   ]
+  },
+  "run":{
+   "__set__":true,
+   "elements":[
+    "dask",
+    "intake",
+    "netcdf4",
+    "python",
+    "xarray",
+    "zarr"
+   ]
+  },
+  "test":{
+   "__set__":true,
+   "elements":[]
+  }
+ }
+}
