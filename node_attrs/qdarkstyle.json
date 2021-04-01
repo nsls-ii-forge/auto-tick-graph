@@ -33,6 +33,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/607349774.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -63,7 +80,7 @@
   },
   "package":{
    "name":"qdarkstyle",
-   "version":"2.8.1"
+   "version":"3.0.0"
   },
   "requirements":{
    "host":[
@@ -73,12 +90,14 @@
    "run":[
     "python >=3.6",
     "helpdev >=0.6.2",
-    "pyqt >=5"
+    "pyqt >=5",
+    "qtpy",
+    "qtsass"
    ]
   },
   "source":{
-   "sha256":"d53b0120bddd9e3efba9801731e22ef86ed798bb5fc6a802f5f7bb32dedf0321",
-   "url":"https://pypi.io/packages/source/Q/QDarkStyle/QDarkStyle-2.8.1.tar.gz"
+   "sha256":"6f139de44a7ce7ca0bcc29aad547b87e9195caa84d4cc770e7f52901675e7c76",
+   "url":"https://pypi.io/packages/source/Q/QDarkStyle/QDarkStyle-3.0.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -104,7 +123,9 @@
    "elements":[
     "helpdev",
     "pyqt",
-    "python"
+    "python",
+    "qtpy",
+    "qtsass"
    ]
   },
   "test":{
@@ -132,7 +153,7 @@
   },
   "package":{
    "name":"qdarkstyle",
-   "version":"2.8.1"
+   "version":"3.0.0"
   },
   "requirements":{
    "host":[
@@ -147,17 +168,23 @@
     "python >=3.6",
     "helpdev >=0.6.2",
     "pyqt >=5",
+    "qtpy",
+    "qtsass",
     "python >=3.6",
     "helpdev >=0.6.2",
     "pyqt >=5",
+    "qtpy",
+    "qtsass",
     "python >=3.6",
     "helpdev >=0.6.2",
-    "pyqt >=5"
+    "pyqt >=5",
+    "qtpy",
+    "qtsass"
    ]
   },
   "source":{
-   "sha256":"d53b0120bddd9e3efba9801731e22ef86ed798bb5fc6a802f5f7bb32dedf0321",
-   "url":"https://pypi.io/packages/source/Q/QDarkStyle/QDarkStyle-2.8.1.tar.gz"
+   "sha256":"6f139de44a7ce7ca0bcc29aad547b87e9195caa84d4cc770e7f52901675e7c76",
+   "url":"https://pypi.io/packages/source/Q/QDarkStyle/QDarkStyle-3.0.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -171,10 +198,11 @@
   }
  },
  "name":"qdarkstyle",
- "new_version":"3.0.0",
+ "new_version":"3.0.1",
  "new_version_attempts":{
   "2.8.1":1,
-  "3.0.0":1
+  "3.0.0":1,
+  "3.0.1":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -195,7 +223,7 @@
   },
   "package":{
    "name":"qdarkstyle",
-   "version":"2.8.1"
+   "version":"3.0.0"
   },
   "requirements":{
    "host":[
@@ -205,12 +233,14 @@
    "run":[
     "python >=3.6",
     "helpdev >=0.6.2",
-    "pyqt >=5"
+    "pyqt >=5",
+    "qtpy",
+    "qtsass"
    ]
   },
   "source":{
-   "sha256":"d53b0120bddd9e3efba9801731e22ef86ed798bb5fc6a802f5f7bb32dedf0321",
-   "url":"https://pypi.io/packages/source/Q/QDarkStyle/QDarkStyle-2.8.1.tar.gz"
+   "sha256":"6f139de44a7ce7ca0bcc29aad547b87e9195caa84d4cc770e7f52901675e7c76",
+   "url":"https://pypi.io/packages/source/Q/QDarkStyle/QDarkStyle-3.0.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -236,7 +266,9 @@
    "elements":[
     "helpdev",
     "pyqt",
-    "python"
+    "python",
+    "qtpy",
+    "qtsass"
    ]
   },
   "test":{
@@ -244,15 +276,17 @@
    "elements":[]
   }
  },
- "pinning_version":"2021.03.31.16.02.06",
- "raw_meta_yaml":"{% set name = \"QDarkStyle\" %}\n{% set version = \"2.8.1\" %}\n{% set sha256 = \"d53b0120bddd9e3efba9801731e22ef86ed798bb5fc6a802f5f7bb32dedf0321\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  entry_points:\n    - qdarkstyle=qdarkstyle.__main__:main\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - helpdev >=0.6.2\n    - pyqt >=5\n\ntest:\n  imports:\n    - qdarkstyle\n    - qdarkstyle.utils\n\nabout:\n  home: https://github.com/ColinDuquesnoy/QDarkStyleSheet\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.rst\n  summary: A dark stylesheet for Python and Qt applications\n",
+ "pinning_version":"2021.04.01.09.17.11",
+ "raw_meta_yaml":"{% set name = \"QDarkStyle\" %}\n{% set version = \"3.0.0\" %}\n{% set sha256 = \"6f139de44a7ce7ca0bcc29aad547b87e9195caa84d4cc770e7f52901675e7c76\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  entry_points:\n    - qdarkstyle=qdarkstyle.__main__:main\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - helpdev >=0.6.2\n    - pyqt >=5\n    - qtpy\n    - qtsass\n\ntest:\n  imports:\n    - qdarkstyle\n    - qdarkstyle.utils\n\nabout:\n  home: https://github.com/ColinDuquesnoy/QDarkStyleSheet\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.rst\n  summary: A dark stylesheet for Python and Qt applications\n",
  "req":{
   "__set__":true,
   "elements":[
    "helpdev",
    "pip",
    "pyqt",
-   "python"
+   "python",
+   "qtpy",
+   "qtsass"
   ]
  },
  "requirements":{
@@ -272,7 +306,9 @@
    "elements":[
     "helpdev",
     "pyqt",
-    "python"
+    "python",
+    "qtpy",
+    "qtsass"
    ]
   },
   "test":{
@@ -299,7 +335,9 @@
    "elements":[
     "helpdev >=0.6.2",
     "pyqt >=5",
-    "python >=3.6"
+    "python >=3.6",
+    "qtpy",
+    "qtsass"
    ]
   },
   "test":{
@@ -308,7 +346,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/Q/QDarkStyle/QDarkStyle-2.7.tar.gz",
- "version":"2.8.1",
+ "version":"3.0.0",
  "win_64_meta_yaml":{
   "about":{
    "home":"https://github.com/ColinDuquesnoy/QDarkStyleSheet",
@@ -327,7 +365,7 @@
   },
   "package":{
    "name":"qdarkstyle",
-   "version":"2.8.1"
+   "version":"3.0.0"
   },
   "requirements":{
    "host":[
@@ -337,12 +375,14 @@
    "run":[
     "python >=3.6",
     "helpdev >=0.6.2",
-    "pyqt >=5"
+    "pyqt >=5",
+    "qtpy",
+    "qtsass"
    ]
   },
   "source":{
-   "sha256":"d53b0120bddd9e3efba9801731e22ef86ed798bb5fc6a802f5f7bb32dedf0321",
-   "url":"https://pypi.io/packages/source/Q/QDarkStyle/QDarkStyle-2.8.1.tar.gz"
+   "sha256":"6f139de44a7ce7ca0bcc29aad547b87e9195caa84d4cc770e7f52901675e7c76",
+   "url":"https://pypi.io/packages/source/Q/QDarkStyle/QDarkStyle-3.0.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -368,7 +408,9 @@
    "elements":[
     "helpdev",
     "pyqt",
-    "python"
+    "python",
+    "qtpy",
+    "qtsass"
    ]
   },
   "test":{

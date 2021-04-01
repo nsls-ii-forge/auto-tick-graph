@@ -402,6 +402,10 @@
   },
   {
    "source":"c_compiler_stub",
+   "target":"libsass"
+  },
+  {
+   "source":"c_compiler_stub",
    "target":"lmfit-c"
   },
   {
@@ -807,6 +811,10 @@
   {
    "source":"cxx_compiler_stub",
    "target":"librdkafka"
+  },
+  {
+   "source":"cxx_compiler_stub",
+   "target":"libsass"
   },
   {
    "source":"cxx_compiler_stub",
@@ -2011,6 +2019,10 @@
   {
    "source":"librdkafka",
    "target":"python-confluent-kafka"
+  },
+  {
+   "source":"libsass",
+   "target":"qtsass"
   },
   {
    "source":"libtool",
@@ -3814,6 +3826,10 @@
   },
   {
    "source":"pip",
+   "target":"libsass"
+  },
+  {
+   "source":"pip",
    "target":"lixtools"
   },
   {
@@ -4091,6 +4107,10 @@
   {
    "source":"pip",
    "target":"qtmodern"
+  },
+  {
+   "source":"pip",
+   "target":"qtsass"
   },
   {
    "source":"pip",
@@ -5310,6 +5330,10 @@
   },
   {
    "source":"python",
+   "target":"libsass"
+  },
+  {
+   "source":"python",
    "target":"lixtools"
   },
   {
@@ -5599,6 +5623,10 @@
   {
    "source":"python",
    "target":"qtmodern"
+  },
+  {
+   "source":"python",
+   "target":"qtsass"
   },
   {
    "source":"python",
@@ -5994,6 +6022,10 @@
   },
   {
    "source":"qtpy",
+   "target":"qdarkstyle"
+  },
+  {
+   "source":"qtpy",
    "target":"qtmodern"
   },
   {
@@ -6003,6 +6035,10 @@
   {
    "source":"qtpy",
    "target":"xicam.saxs"
+  },
+  {
+   "source":"qtsass",
+   "target":"qdarkstyle"
   },
   {
    "source":"qulacs",
@@ -6642,6 +6678,10 @@
   },
   {
    "source":"six",
+   "target":"libsass"
+  },
+  {
+   "source":"six",
    "target":"lmfit"
   },
   {
@@ -7147,6 +7187,10 @@
   {
    "source":"vispy",
    "target":"napari-svg"
+  },
+  {
+   "source":"watchdog",
+   "target":"qtsass"
   },
   {
    "source":"wcwidth",
@@ -10627,6 +10671,24 @@
    "id":"nomkl",
    "payload":{
     "__lazy_json__":"node_attrs/nomkl.json"
+   }
+  },
+  {
+   "id":"qtsass",
+   "payload":{
+    "__lazy_json__":"node_attrs/qtsass.json"
+   }
+  },
+  {
+   "id":"libsass",
+   "payload":{
+    "__lazy_json__":"node_attrs/libsass.json"
+   }
+  },
+  {
+   "id":"watchdog",
+   "payload":{
+    "__lazy_json__":"node_attrs/watchdog.json"
    }
   }
  ]
