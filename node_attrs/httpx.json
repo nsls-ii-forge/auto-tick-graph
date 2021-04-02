@@ -45,7 +45,7 @@
   },
   "package":{
    "name":"httpx",
-   "version":"0.15.0"
+   "version":"0.17.1"
   },
   "requirements":{
    "host":[
@@ -55,14 +55,15 @@
    "run":[
     "python >=3.6",
     "certifi",
-    "httpcore ==0.11.*",
+    "httpcore ==0.12.*",
+    "idna ==2.*",
     "rfc3986 >=1.3,<2",
     "sniffio"
    ]
   },
   "source":{
-   "sha256":"1e94f557f4efaa75bd6677ff6502b778cd0cf10cb53acc7e10ca6c835cf8c9b0",
-   "url":"https://pypi.io/packages/source/h/httpx/httpx-0.15.0.tar.gz"
+   "sha256":"cc2a55188e4b25272d2bcd46379d300f632045de4377682aa98a8a6069d55967",
+   "url":"https://pypi.io/packages/source/h/httpx/httpx-0.17.1.tar.gz"
   },
   "test":{
    "commands":[
@@ -93,6 +94,7 @@
    "elements":[
     "certifi",
     "httpcore",
+    "idna",
     "python",
     "rfc3986",
     "sniffio"
@@ -122,7 +124,7 @@
   },
   "package":{
    "name":"httpx",
-   "version":"0.15.0"
+   "version":"0.17.1"
   },
   "requirements":{
    "host":[
@@ -136,24 +138,27 @@
    "run":[
     "python >=3.6",
     "certifi",
-    "httpcore ==0.11.*",
+    "httpcore ==0.12.*",
+    "idna ==2.*",
     "rfc3986 >=1.3,<2",
     "sniffio",
     "python >=3.6",
     "certifi",
-    "httpcore ==0.11.*",
+    "httpcore ==0.12.*",
+    "idna ==2.*",
     "rfc3986 >=1.3,<2",
     "sniffio",
     "python >=3.6",
     "certifi",
-    "httpcore ==0.11.*",
+    "httpcore ==0.12.*",
+    "idna ==2.*",
     "rfc3986 >=1.3,<2",
     "sniffio"
    ]
   },
   "source":{
-   "sha256":"1e94f557f4efaa75bd6677ff6502b778cd0cf10cb53acc7e10ca6c835cf8c9b0",
-   "url":"https://pypi.io/packages/source/h/httpx/httpx-0.15.0.tar.gz"
+   "sha256":"cc2a55188e4b25272d2bcd46379d300f632045de4377682aa98a8a6069d55967",
+   "url":"https://pypi.io/packages/source/h/httpx/httpx-0.17.1.tar.gz"
   },
   "test":{
    "commands":[
@@ -196,7 +201,7 @@
   },
   "package":{
    "name":"httpx",
-   "version":"0.15.0"
+   "version":"0.17.1"
   },
   "requirements":{
    "host":[
@@ -206,14 +211,15 @@
    "run":[
     "python >=3.6",
     "certifi",
-    "httpcore ==0.11.*",
+    "httpcore ==0.12.*",
+    "idna ==2.*",
     "rfc3986 >=1.3,<2",
     "sniffio"
    ]
   },
   "source":{
-   "sha256":"1e94f557f4efaa75bd6677ff6502b778cd0cf10cb53acc7e10ca6c835cf8c9b0",
-   "url":"https://pypi.io/packages/source/h/httpx/httpx-0.15.0.tar.gz"
+   "sha256":"cc2a55188e4b25272d2bcd46379d300f632045de4377682aa98a8a6069d55967",
+   "url":"https://pypi.io/packages/source/h/httpx/httpx-0.17.1.tar.gz"
   },
   "test":{
    "commands":[
@@ -244,6 +250,7 @@
    "elements":[
     "certifi",
     "httpcore",
+    "idna",
     "python",
     "rfc3986",
     "sniffio"
@@ -257,12 +264,13 @@
   }
  },
  "pinning_version":"2021.04.01.12.45.45",
- "raw_meta_yaml":"{% set name = \"httpx\" %}\n{% set version = \"0.15.0\" %}\n{% set sha256 = \"1e94f557f4efaa75bd6677ff6502b778cd0cf10cb53acc7e10ca6c835cf8c9b0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - certifi\n    - httpcore ==0.11.*\n    - rfc3986 >=1.3,<2\n    - sniffio\n\ntest:\n  imports:\n    - httpx\n  requires:\n    - pip\n  commands:\n    - pip check\n\nabout:\n  home: https://github.com/encode/httpx\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.md\n  summary: A next-generation HTTP client for Python.\n  doc_url: https://www.encode.io/httpx/\n  dev_url: https://github.com/encode/httpx\n",
+ "raw_meta_yaml":"{% set name = \"httpx\" %}\n{% set version = \"0.17.1\" %}\n{% set sha256 = \"cc2a55188e4b25272d2bcd46379d300f632045de4377682aa98a8a6069d55967\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - certifi\n    - httpcore ==0.12.*\n    - idna ==2.*\n    - rfc3986 >=1.3,<2\n    - sniffio\n\ntest:\n  imports:\n    - httpx\n  requires:\n    - pip\n  commands:\n    - pip check\n\nabout:\n  home: https://github.com/encode/httpx\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.md\n  summary: A next-generation HTTP client for Python.\n  doc_url: https://www.encode.io/httpx/\n  dev_url: https://github.com/encode/httpx\n",
  "req":{
   "__set__":true,
   "elements":[
    "certifi",
    "httpcore",
+   "idna",
    "pip",
    "python",
    "rfc3986",
@@ -286,6 +294,7 @@
    "elements":[
     "certifi",
     "httpcore",
+    "idna",
     "python",
     "rfc3986",
     "sniffio"
@@ -316,7 +325,8 @@
    "__set__":true,
    "elements":[
     "certifi",
-    "httpcore ==0.11.*",
+    "httpcore ==0.12.*",
+    "idna ==2.*",
     "python >=3.6",
     "rfc3986 >=1.3,<2",
     "sniffio"
@@ -330,7 +340,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/h/httpx/httpx-0.15.0.tar.gz",
- "version":"0.15.0",
+ "version":"0.17.1",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/encode/httpx",
@@ -348,7 +358,7 @@
   },
   "package":{
    "name":"httpx",
-   "version":"0.15.0"
+   "version":"0.17.1"
   },
   "requirements":{
    "host":[
@@ -358,14 +368,15 @@
    "run":[
     "python >=3.6",
     "certifi",
-    "httpcore ==0.11.*",
+    "httpcore ==0.12.*",
+    "idna ==2.*",
     "rfc3986 >=1.3,<2",
     "sniffio"
    ]
   },
   "source":{
-   "sha256":"1e94f557f4efaa75bd6677ff6502b778cd0cf10cb53acc7e10ca6c835cf8c9b0",
-   "url":"https://pypi.io/packages/source/h/httpx/httpx-0.15.0.tar.gz"
+   "sha256":"cc2a55188e4b25272d2bcd46379d300f632045de4377682aa98a8a6069d55967",
+   "url":"https://pypi.io/packages/source/h/httpx/httpx-0.17.1.tar.gz"
   },
   "test":{
    "commands":[
@@ -396,6 +407,7 @@
    "elements":[
     "certifi",
     "httpcore",
+    "idna",
     "python",
     "rfc3986",
     "sniffio"

@@ -1520,6 +1520,10 @@
   },
   {
    "source":"idna",
+   "target":"httpx"
+  },
+  {
+   "source":"idna",
    "target":"trio"
   },
   {

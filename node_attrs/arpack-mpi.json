@@ -40,7 +40,7 @@
   },
   "package":{
    "name":"arpack-mpi",
-   "version":"3.7.0"
+   "version":"3.8.0"
   },
   "requirements":{
    "build":[
@@ -54,8 +54,8 @@
    ]
   },
   "source":{
-   "sha256":"972e3fc3cd0b9d6b5a737c9bf6fd07515c0d6549319d4ffb06970e64fa3cc2d6",
-   "url":"https://github.com/opencollab/arpack-ng/archive/3.7.0.tar.gz"
+   "sha256":"ada5aeb3878874383307239c9235b716a8a170c6d096a6625bfd529844df003d",
+   "url":"https://github.com/opencollab/arpack-ng/archive/3.8.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -104,7 +104,7 @@
   },
   "package":{
    "name":"arpack-mpi",
-   "version":"3.7.0"
+   "version":"3.8.0"
   },
   "requirements":{
    "build":[
@@ -128,8 +128,8 @@
    ]
   },
   "source":{
-   "sha256":"972e3fc3cd0b9d6b5a737c9bf6fd07515c0d6549319d4ffb06970e64fa3cc2d6",
-   "url":"https://github.com/opencollab/arpack-ng/archive/3.7.0.tar.gz"
+   "sha256":"ada5aeb3878874383307239c9235b716a8a170c6d096a6625bfd529844df003d",
+   "url":"https://github.com/opencollab/arpack-ng/archive/3.8.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -167,7 +167,7 @@
   },
   "package":{
    "name":"arpack-mpi",
-   "version":"3.7.0"
+   "version":"3.8.0"
   },
   "requirements":{
    "build":[
@@ -181,8 +181,8 @@
    ]
   },
   "source":{
-   "sha256":"972e3fc3cd0b9d6b5a737c9bf6fd07515c0d6549319d4ffb06970e64fa3cc2d6",
-   "url":"https://github.com/opencollab/arpack-ng/archive/3.7.0.tar.gz"
+   "sha256":"ada5aeb3878874383307239c9235b716a8a170c6d096a6625bfd529844df003d",
+   "url":"https://github.com/opencollab/arpack-ng/archive/3.8.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -219,7 +219,7 @@
   }
  },
  "pinning_version":"2021.04.01.12.45.45",
- "raw_meta_yaml":"{% set name = \"arpack-mpi\" %}\n{% set version = \"3.7.0\" %}\n{% set sha256 = \"972e3fc3cd0b9d6b5a737c9bf6fd07515c0d6549319d4ffb06970e64fa3cc2d6\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/opencollab/arpack-ng/archive/{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  skip: true  # [not linux]\n\nrequirements:\n  build:\n    - cmake\n    - openmpi\n    - {{ compiler('c') }}\n    - {{ compiler('fortran') }}\n  host:\n    - libopenblas\n\ntest:\n  commands:\n    - test -f ${PREFIX}/lib/libarpack.a\n    - test -f ${PREFIX}/lib/libparpack.a\n    - test -f ${PREFIX}/lib/libarpack${SHLIB_EXT}\n    - test -f ${PREFIX}/lib/libparpack${SHLIB_EXT}\n\nabout:\n  home: https://github.com/opencollab/arpack-ng\n  license: BSD-3-Clause\n  license_file: COPYING\n  summary: Fortran77 subroutines designed to solve large scale eigenvalue problems\n",
+ "raw_meta_yaml":"{% set name = \"arpack-mpi\" %}\n{% set version = \"3.8.0\" %}\n{% set sha256 = \"ada5aeb3878874383307239c9235b716a8a170c6d096a6625bfd529844df003d\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/opencollab/arpack-ng/archive/{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  skip: true  # [not linux]\n\nrequirements:\n  build:\n    - cmake\n    - openmpi\n    - {{ compiler('c') }}\n    - {{ compiler('fortran') }}\n  host:\n    - libopenblas\n\ntest:\n  commands:\n    - test -f ${PREFIX}/lib/libarpack.a\n    - test -f ${PREFIX}/lib/libparpack.a\n    - test -f ${PREFIX}/lib/libarpack${SHLIB_EXT}\n    - test -f ${PREFIX}/lib/libparpack${SHLIB_EXT}\n\nabout:\n  home: https://github.com/opencollab/arpack-ng\n  license: BSD-3-Clause\n  license_file: COPYING\n  summary: Fortran77 subroutines designed to solve large scale eigenvalue problems\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -283,7 +283,7 @@
   }
  },
  "url":"https://github.com/opencollab/arpack-ng/archive/3.7.0.tar.gz",
- "version":"3.7.0",
+ "version":"3.8.0",
  "win_64_meta_yaml":{
   "about":{
    "home":"https://github.com/opencollab/arpack-ng",
@@ -297,7 +297,7 @@
   },
   "package":{
    "name":"arpack-mpi",
-   "version":"3.7.0"
+   "version":"3.8.0"
   },
   "requirements":{
    "build":[
@@ -311,8 +311,8 @@
    ]
   },
   "source":{
-   "sha256":"972e3fc3cd0b9d6b5a737c9bf6fd07515c0d6549319d4ffb06970e64fa3cc2d6",
-   "url":"https://github.com/opencollab/arpack-ng/archive/3.7.0.tar.gz"
+   "sha256":"ada5aeb3878874383307239c9235b716a8a170c6d096a6625bfd529844df003d",
+   "url":"https://github.com/opencollab/arpack-ng/archive/3.8.0.tar.gz"
   },
   "test":{
    "commands":[
