@@ -45,7 +45,7 @@
   },
   "package":{
    "name":"hunter",
-   "version":"3.3.1"
+   "version":"3.3.2"
   },
   "requirements":{
    "build":[
@@ -64,8 +64,8 @@
    ]
   },
   "source":{
-   "sha256":"5b31f368e713b70182f26b8501e8767c786b8ee133f5f9c09ca55b59e11e2633",
-   "url":"https://pypi.io/packages/source/h/hunter/hunter-3.3.1.tar.gz"
+   "sha256":"a91c30047ef6fe4f3189ab2a46655cbb40c7fa25abad0a881f87452eebc238cf",
+   "url":"https://pypi.io/packages/source/h/hunter/hunter-3.3.2.tar.gz"
   },
   "test":{
    "commands":[
@@ -125,7 +125,7 @@
   },
   "package":{
    "name":"hunter",
-   "version":"3.3.1"
+   "version":"3.3.2"
   },
   "requirements":{
    "build":[
@@ -159,8 +159,8 @@
    ]
   },
   "source":{
-   "sha256":"5b31f368e713b70182f26b8501e8767c786b8ee133f5f9c09ca55b59e11e2633",
-   "url":"https://pypi.io/packages/source/h/hunter/hunter-3.3.1.tar.gz"
+   "sha256":"a91c30047ef6fe4f3189ab2a46655cbb40c7fa25abad0a881f87452eebc238cf",
+   "url":"https://pypi.io/packages/source/h/hunter/hunter-3.3.2.tar.gz"
   },
   "test":{
    "commands":[
@@ -199,7 +199,7 @@
   },
   "package":{
    "name":"hunter",
-   "version":"3.3.1"
+   "version":"3.3.2"
   },
   "requirements":{
    "build":[
@@ -218,8 +218,8 @@
    ]
   },
   "source":{
-   "sha256":"5b31f368e713b70182f26b8501e8767c786b8ee133f5f9c09ca55b59e11e2633",
-   "url":"https://pypi.io/packages/source/h/hunter/hunter-3.3.1.tar.gz"
+   "sha256":"a91c30047ef6fe4f3189ab2a46655cbb40c7fa25abad0a881f87452eebc238cf",
+   "url":"https://pypi.io/packages/source/h/hunter/hunter-3.3.2.tar.gz"
   },
   "test":{
    "commands":[
@@ -261,7 +261,7 @@
   }
  },
  "pinning_version":"2021.04.01.12.45.45",
- "raw_meta_yaml":"{% set name = \"hunter\" %}\n{% set version = \"3.3.1\" %}\n{% set sha256 = \"5b31f368e713b70182f26b8501e8767c786b8ee133f5f9c09ca55b59e11e2633\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  entry_points:\n    - hunter-trace = hunter.remote:main\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  skip: true  # [py<36]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - python\n    - cython\n    - pip\n  run:\n    - python\n    - colorama\n    - manhole  # [not win]\n\ntest:\n  imports:\n    - hunter\n    - hunter.backports\n  commands:\n    - hunter-trace --help  # [not win]\n\nabout:\n  home: https://github.com/ionelmc/python-hunter\n  license: BSD-2-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Hunter is a flexible code tracing toolkit\n",
+ "raw_meta_yaml":"{% set name = \"hunter\" %}\n{% set version = \"3.3.2\" %}\n{% set sha256 = \"a91c30047ef6fe4f3189ab2a46655cbb40c7fa25abad0a881f87452eebc238cf\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  entry_points:\n    - hunter-trace = hunter.remote:main\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  skip: true  # [py<36]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - python\n    - cython\n    - pip\n  run:\n    - python\n    - colorama\n    - manhole  # [not win]\n\ntest:\n  imports:\n    - hunter\n    - hunter.backports\n  commands:\n    - hunter-trace --help  # [not win]\n\nabout:\n  home: https://github.com/ionelmc/python-hunter\n  license: BSD-2-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Hunter is a flexible code tracing toolkit\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -335,7 +335,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/h/hunter/hunter-3.3.1.tar.gz",
- "version":"3.3.1",
+ "version":"3.3.2",
  "win_64_meta_yaml":{
   "about":{
    "home":"https://github.com/ionelmc/python-hunter",
@@ -353,7 +353,7 @@
   },
   "package":{
    "name":"hunter",
-   "version":"3.3.1"
+   "version":"3.3.2"
   },
   "requirements":{
    "build":[
@@ -371,8 +371,8 @@
    ]
   },
   "source":{
-   "sha256":"5b31f368e713b70182f26b8501e8767c786b8ee133f5f9c09ca55b59e11e2633",
-   "url":"https://pypi.io/packages/source/h/hunter/hunter-3.3.1.tar.gz"
+   "sha256":"a91c30047ef6fe4f3189ab2a46655cbb40c7fa25abad0a881f87452eebc238cf",
+   "url":"https://pypi.io/packages/source/h/hunter/hunter-3.3.2.tar.gz"
   },
   "test":{
    "commands":null,

@@ -172,11 +172,19 @@
   },
   {
    "source":"autoconf",
+   "target":"jansson"
+  },
+  {
+   "source":"autoconf",
    "target":"scikit-beam"
   },
   {
    "source":"automake",
    "target":"hkl"
+  },
+  {
+   "source":"automake",
+   "target":"jansson"
   },
   {
    "source":"backcall",
@@ -1824,6 +1832,10 @@
   },
   {
    "source":"libtool",
+   "target":"jansson"
+  },
+  {
+   "source":"libtool",
    "target":"make"
   },
   {
@@ -2373,6 +2385,10 @@
   {
    "source":"ninja",
    "target":"clang_packages"
+  },
+  {
+   "source":"ninja",
+   "target":"jansson"
   },
   {
    "source":"ninja",

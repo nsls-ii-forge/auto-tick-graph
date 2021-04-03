@@ -33,30 +33,36 @@
    "home":"https://github.com/akheron/jansson",
    "license":"MIT",
    "license_file":"LICENSE",
-   "summary":"Jansson is a C library for encoding, decoding and manipulating JSON data"
+   "summary":"Jansson is a C library for encoding, decoding and manipulating JSON data."
   },
   "build":{
-   "number":"0"
+   "number":"0",
+   "run_exports":[
+    "jansson"
+   ]
   },
   "package":{
    "name":"jansson",
-   "version":"2.12"
+   "version":"2.13.1"
   },
   "requirements":{
    "build":[
+    "autoconf",
+    "automake",
+    "libtool",
     "make",
-    "cmake",
     "c_compiler_stub"
    ],
    "host":null
   },
   "source":{
-   "sha256":"5f8dec765048efac5d919aded51b26a32a05397ea207aa769ff6b53c7027d2c9",
-   "url":"http://www.digip.org/jansson/releases/jansson-2.12.tar.gz"
+   "sha256":"f22901582138e3203959c9257cf83eba9929ac41d7be4a42557213a22ebcc7a0",
+   "url":"https://github.com/akheron/jansson/archive/v2.13.1.tar.gz"
   },
   "test":{
    "commands":[
-    "test -f ${PREFIX}/lib/libjansson.a"
+    "test ! -f ${PREFIX}/lib/libjansson.a",
+    "test -f ${PREFIX}/lib/libjansson${SHLIB_EXT}"
    ]
   }
  },
@@ -64,8 +70,10 @@
   "build":{
    "__set__":true,
    "elements":[
+    "autoconf",
+    "automake",
     "c_compiler_stub",
-    "cmake",
+    "libtool",
     "make"
    ]
   },
@@ -87,36 +95,46 @@
    "home":"https://github.com/akheron/jansson",
    "license":"MIT",
    "license_file":"LICENSE",
-   "summary":"Jansson is a C library for encoding, decoding and manipulating JSON data"
+   "summary":"Jansson is a C library for encoding, decoding and manipulating JSON data."
   },
   "build":{
-   "number":"0"
+   "number":"0",
+   "run_exports":[
+    "jansson",
+    "jansson",
+    "jansson"
+   ]
   },
   "package":{
    "name":"jansson",
-   "version":"2.12"
+   "version":"2.13.1"
   },
   "requirements":{
    "build":[
-    "make",
     "cmake",
+    "ninja",
     "c_compiler_stub",
+    "autoconf",
+    "automake",
+    "libtool",
     "make",
-    "cmake",
     "c_compiler_stub",
+    "autoconf",
+    "automake",
+    "libtool",
     "make",
-    "cmake",
     "c_compiler_stub"
    ],
    "host":null
   },
   "source":{
-   "sha256":"5f8dec765048efac5d919aded51b26a32a05397ea207aa769ff6b53c7027d2c9",
-   "url":"http://www.digip.org/jansson/releases/jansson-2.12.tar.gz"
+   "sha256":"f22901582138e3203959c9257cf83eba9929ac41d7be4a42557213a22ebcc7a0",
+   "url":"https://github.com/akheron/jansson/archive/v2.13.1.tar.gz"
   },
   "test":{
    "commands":[
-    "test -f ${PREFIX}/lib/libjansson.a"
+    "test ! -f ${PREFIX}/lib/libjansson.a",
+    "test -f ${PREFIX}/lib/libjansson${SHLIB_EXT}"
    ]
   }
  },
@@ -131,30 +149,36 @@
    "home":"https://github.com/akheron/jansson",
    "license":"MIT",
    "license_file":"LICENSE",
-   "summary":"Jansson is a C library for encoding, decoding and manipulating JSON data"
+   "summary":"Jansson is a C library for encoding, decoding and manipulating JSON data."
   },
   "build":{
-   "number":"0"
+   "number":"0",
+   "run_exports":[
+    "jansson"
+   ]
   },
   "package":{
    "name":"jansson",
-   "version":"2.12"
+   "version":"2.13.1"
   },
   "requirements":{
    "build":[
+    "autoconf",
+    "automake",
+    "libtool",
     "make",
-    "cmake",
     "c_compiler_stub"
    ],
    "host":null
   },
   "source":{
-   "sha256":"5f8dec765048efac5d919aded51b26a32a05397ea207aa769ff6b53c7027d2c9",
-   "url":"http://www.digip.org/jansson/releases/jansson-2.12.tar.gz"
+   "sha256":"f22901582138e3203959c9257cf83eba9929ac41d7be4a42557213a22ebcc7a0",
+   "url":"https://github.com/akheron/jansson/archive/v2.13.1.tar.gz"
   },
   "test":{
    "commands":[
-    "test -f ${PREFIX}/lib/libjansson.a"
+    "test ! -f ${PREFIX}/lib/libjansson.a",
+    "test -f ${PREFIX}/lib/libjansson${SHLIB_EXT}"
    ]
   }
  },
@@ -162,8 +186,10 @@
   "build":{
    "__set__":true,
    "elements":[
+    "autoconf",
+    "automake",
     "c_compiler_stub",
-    "cmake",
+    "libtool",
     "make"
    ]
   },
@@ -181,22 +207,30 @@
   }
  },
  "pinning_version":"2021.04.02.15.43.00",
- "raw_meta_yaml":"{% set name = \"jansson\" %}\n{% set version = \"2.12\" %}\n{% set sha256 = \"5f8dec765048efac5d919aded51b26a32a05397ea207aa769ff6b53c7027d2c9\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: http://www.digip.org/{{ name }}/releases/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n\nrequirements:\n  build:\n    - make\n    - cmake\n    - {{ compiler('c') }}\n  host:\n\ntest:\n  commands:\n    - test -f ${PREFIX}/lib/libjansson.a  # [unix]\n\nabout:\n  home: https://github.com/akheron/jansson\n  license: MIT\n  license_file: LICENSE\n  summary: Jansson is a C library for encoding, decoding and manipulating JSON data\n",
+ "raw_meta_yaml":"{% set name = \"jansson\" %}\n{% set version = \"2.13.1\" %}\n{% set sha256 = \"f22901582138e3203959c9257cf83eba9929ac41d7be4a42557213a22ebcc7a0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/akheron/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  run_exports:\n    - {{ pin_subpackage('jansson', max_pin='x') }}\n\nrequirements:\n  build:\n    - autoconf  # [not win]\n    - automake  # [not win]\n    - libtool   # [not win]\n    - make      # [not win]\n    - cmake     # [win]\n    - ninja     # [win]\n    - {{ compiler('c') }}\n  host:\n\ntest:\n  commands:\n    - test ! -f ${PREFIX}/lib/libjansson.a  # [unix]\n    - test -f ${PREFIX}/lib/libjansson${SHLIB_EXT}  # [unix]\n\nabout:\n  home: https://github.com/akheron/jansson\n  license: MIT\n  license_file: LICENSE\n  summary: Jansson is a C library for encoding, decoding and manipulating JSON data.\n",
  "req":{
   "__set__":true,
   "elements":[
+   "autoconf",
+   "automake",
    "c_compiler_stub",
    "cmake",
-   "make"
+   "libtool",
+   "make",
+   "ninja"
   ]
  },
  "requirements":{
   "build":{
    "__set__":true,
    "elements":[
+    "autoconf",
+    "automake",
     "c_compiler_stub",
     "cmake",
-    "make"
+    "libtool",
+    "make",
+    "ninja"
    ]
   },
   "host":{
@@ -218,9 +252,13 @@
   "build":{
    "__set__":true,
    "elements":[
+    "autoconf",
+    "automake",
     "c_compiler_stub",
     "cmake",
-    "make"
+    "libtool",
+    "make",
+    "ninja"
    ]
   },
   "host":{
@@ -237,32 +275,35 @@
   }
  },
  "url":"http://www.digip.org/jansson/releases/jansson-2.12.tar.gz",
- "version":"2.12",
+ "version":"2.13.1",
  "win_64_meta_yaml":{
   "about":{
    "home":"https://github.com/akheron/jansson",
    "license":"MIT",
    "license_file":"LICENSE",
-   "summary":"Jansson is a C library for encoding, decoding and manipulating JSON data"
+   "summary":"Jansson is a C library for encoding, decoding and manipulating JSON data."
   },
   "build":{
-   "number":"0"
+   "number":"0",
+   "run_exports":[
+    "jansson"
+   ]
   },
   "package":{
    "name":"jansson",
-   "version":"2.12"
+   "version":"2.13.1"
   },
   "requirements":{
    "build":[
-    "make",
     "cmake",
+    "ninja",
     "c_compiler_stub"
    ],
    "host":null
   },
   "source":{
-   "sha256":"5f8dec765048efac5d919aded51b26a32a05397ea207aa769ff6b53c7027d2c9",
-   "url":"http://www.digip.org/jansson/releases/jansson-2.12.tar.gz"
+   "sha256":"f22901582138e3203959c9257cf83eba9929ac41d7be4a42557213a22ebcc7a0",
+   "url":"https://github.com/akheron/jansson/archive/v2.13.1.tar.gz"
   },
   "test":{
    "commands":null
@@ -274,7 +315,7 @@
    "elements":[
     "c_compiler_stub",
     "cmake",
-    "make"
+    "ninja"
    ]
   },
   "host":{
