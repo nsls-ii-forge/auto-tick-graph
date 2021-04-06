@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/609796120.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.10"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -149,7 +168,11 @@
   }
  },
  "name":"pylatexenc",
- "new_version":"2.9",
+ "new_version":"2.10",
+ "new_version_attempts":{
+  "2.10":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/phfaist/pylatexenc",
@@ -221,6 +244,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2021.04.05.17.37.43",
  "raw_meta_yaml":"{% set name = \"pylatexenc\" %}\n{% set version = \"2.9\" %}\n{% set sha256 = \"4e6b70e5f1a0bff9cd73829f78a17f5126b6e5a7cf1eadf6e4be33ff0434ba4c\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/phfaist/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  noarch: python\n  entry_points:\n    - latexwalker = pylatexenc.latexwalker.__main__:main\n    - latex2text = pylatexenc.latex2text.__main__:main\n    - latexencode = pylatexenc.latexencode.__main__:main\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n\ntest:\n  imports:\n    - pylatexenc\n  commands:\n    - latexwalker --help\n    - latex2text --help\n    - latexencode --help\n\nabout:\n  home: https://github.com/phfaist/pylatexenc\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.txt\n  summary: Simple LaTeX parser providing latex-to-unicode and unicode-to-latex conversion\n  doc_url: https://pylatexenc.readthedocs.io\n  dev_url: https://github.com/phfaist/pylatexenc\n",
  "req":{
   "__set__":true,
@@ -252,6 +276,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"3.9.0",
  "strong_exports":false,
  "total_requirements":{
   "build":{
