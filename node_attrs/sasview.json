@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/610609429.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"5.0.4"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -213,7 +232,11 @@
   }
  },
  "name":"sasview",
- "new_version":"5.0.3",
+ "new_version":"5.0.4",
+ "new_version_attempts":{
+  "5.0.4":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/SasView/sasview",
@@ -312,6 +335,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2021.04.06.19.11.00",
  "raw_meta_yaml":"{% set name = \"sasview\" %}\n{% set version = \"5.0.3\" %}\n{% set sha256 = \"f1ff482d29e80984dd4837cbb0c4fe8496f25567d9faa78f4f0fa52737ef10b9\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/SasView/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  skip: true  # [py<36]\n  entry_points:\n    - sasview = sas.qtgui.MainWindow.MainWindow:run_sasview\n\nrequirements:\n  build:\n    - {{ compiler('cxx') }}\n  host:\n    - python\n    - pip\n    - numpy\n  run:\n    - python\n    - bumps\n    - h5py >=2.5\n    - lxml\n    - matplotlib-base\n    - periodictable >=1.5.0\n    - pillow\n    - pyparsing >=2.0.0\n    - pyqt >=5\n    - qt5reactor\n    - sasmodels\n    - scipy\n    - xhtml2pdf\n    - {{ pin_compatible('numpy') }}\n\ntest:\n  imports:\n    - sas.sasview\n    - sas.qtgui\n    - sas.qtgui.MainWindow\n  commands:\n    - which sasview  # [not win]\n    - where sasview  # [win]\n\nabout:\n  home: https://github.com/SasView/sasview\n  license: BSD 3-Clause\n  license_family: BSD\n  license_file: LICENSE.TXT\n  summary: SasView is a Small Angle Scattering (SAS) analysis package\n",
  "req":{
   "__set__":true,
@@ -373,6 +397,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"3.9.0",
  "strong_exports":false,
  "total_requirements":{
   "build":{
