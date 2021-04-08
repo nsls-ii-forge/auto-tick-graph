@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/611997199.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.9.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -154,7 +173,11 @@
   }
  },
  "name":"doctr",
- "new_version":"1.8.0",
+ "new_version":"1.9.0",
+ "new_version_attempts":{
+  "1.9.0":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "description":"A tool for automatically building docs on Travis CI, and deploying\nthem to GitHub pages.\n",
@@ -229,6 +252,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2021.04.08.13.14.59",
  "raw_meta_yaml":"{% set name = \"doctr\" %}\n{% set version = \"1.8.0\" %}\n{% set sha256 = \"b84495ee7357916364dc3752b5b930d7b534df1ada33d197b5e467ec8e22a360\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  entry_points:\n    - doctr = doctr.__main__:main\n\nrequirements:\n  build:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - cryptography\n    - pyyaml\n    - requests\n\ntest:\n  imports:\n    - doctr\n\n  commands:\n    - doctr --help\n    - doctr configure --help\n    - doctr deploy --help\n\nabout:\n  home: https://drdoctr.github.io\n  license: MIT\n  summary: Deploy docs from Travis to GitHub pages.\n  description: |\n    A tool for automatically building docs on Travis CI, and deploying\n    them to GitHub pages.\n  doc_url: https://drdoctr.github.io\n  dev_url: https://github.com/drdoctr/doctr\n",
  "req":{
   "__set__":true,
@@ -266,6 +290,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"3.10.0",
  "strong_exports":false,
  "total_requirements":{
   "build":{

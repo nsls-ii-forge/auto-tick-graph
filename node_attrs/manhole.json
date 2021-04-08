@@ -46,7 +46,7 @@
   },
   "package":{
    "name":"manhole",
-   "version":"1.7.0"
+   "version":"1.8.0"
   },
   "requirements":{
    "build":[
@@ -58,8 +58,8 @@
    ]
   },
   "source":{
-   "sha256":"224985bf1dd032f2dc0ca4107f727835b6f50e1df6d78781d6c9f4cae8b585e2",
-   "url":"https://pypi.io/packages/source/m/manhole/manhole-1.7.0.tar.gz"
+   "sha256":"bada20a25b547b395d472e2e08928f0437df26bbdbda4797c55863198e29a21f",
+   "url":"https://pypi.io/packages/source/m/manhole/manhole-1.8.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -113,7 +113,7 @@
   },
   "package":{
    "name":"manhole",
-   "version":"1.7.0"
+   "version":"1.8.0"
   },
   "requirements":{
    "build":[
@@ -131,8 +131,8 @@
    ]
   },
   "source":{
-   "sha256":"224985bf1dd032f2dc0ca4107f727835b6f50e1df6d78781d6c9f4cae8b585e2",
-   "url":"https://pypi.io/packages/source/m/manhole/manhole-1.7.0.tar.gz"
+   "sha256":"bada20a25b547b395d472e2e08928f0437df26bbdbda4797c55863198e29a21f",
+   "url":"https://pypi.io/packages/source/m/manhole/manhole-1.8.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -171,7 +171,7 @@
   },
   "package":{
    "name":"manhole",
-   "version":"1.7.0"
+   "version":"1.8.0"
   },
   "requirements":{
    "build":[
@@ -183,8 +183,8 @@
    ]
   },
   "source":{
-   "sha256":"224985bf1dd032f2dc0ca4107f727835b6f50e1df6d78781d6c9f4cae8b585e2",
-   "url":"https://pypi.io/packages/source/m/manhole/manhole-1.7.0.tar.gz"
+   "sha256":"bada20a25b547b395d472e2e08928f0437df26bbdbda4797c55863198e29a21f",
+   "url":"https://pypi.io/packages/source/m/manhole/manhole-1.8.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -219,7 +219,7 @@
   }
  },
  "pinning_version":"2021.04.08.13.14.59",
- "raw_meta_yaml":"{% set name = \"manhole\" %}\n{% set version = \"1.7.0\" %}\n{% set sha256 = \"224985bf1dd032f2dc0ca4107f727835b6f50e1df6d78781d6c9f4cae8b585e2\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  entry_points:\n    - manhole-cli = manhole.cli:main\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  build:\n    - python\n    - pip\n  run:\n    - python\n\ntest:\n  imports:\n    - manhole\n  commands:\n    - manhole-cli --help\n\nabout:\n  home: https://github.com/ionelmc/python-manhole\n  license: BSD-2-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Debugging manhole for python applications\n",
+ "raw_meta_yaml":"{% set name = \"manhole\" %}\n{% set version = \"1.8.0\" %}\n{% set sha256 = \"bada20a25b547b395d472e2e08928f0437df26bbdbda4797c55863198e29a21f\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  entry_points:\n    - manhole-cli = manhole.cli:main\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  build:\n    - python\n    - pip\n  run:\n    - python\n\ntest:\n  imports:\n    - manhole\n  commands:\n    - manhole-cli --help\n\nabout:\n  home: https://github.com/ionelmc/python-manhole\n  license: BSD-2-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Debugging manhole for python applications\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -276,7 +276,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/m/manhole/manhole-1.7.0.tar.gz",
- "version":"1.7.0",
+ "version":"1.8.0",
  "win_64_meta_yaml":{
   "about":{
    "home":"https://github.com/ionelmc/python-manhole",
@@ -295,7 +295,7 @@
   },
   "package":{
    "name":"manhole",
-   "version":"1.7.0"
+   "version":"1.8.0"
   },
   "requirements":{
    "build":[
@@ -307,8 +307,8 @@
    ]
   },
   "source":{
-   "sha256":"224985bf1dd032f2dc0ca4107f727835b6f50e1df6d78781d6c9f4cae8b585e2",
-   "url":"https://pypi.io/packages/source/m/manhole/manhole-1.7.0.tar.gz"
+   "sha256":"bada20a25b547b395d472e2e08928f0437df26bbdbda4797c55863198e29a21f",
+   "url":"https://pypi.io/packages/source/m/manhole/manhole-1.8.0.tar.gz"
   },
   "test":{
    "commands":[
