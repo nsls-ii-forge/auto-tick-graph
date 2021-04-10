@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/612970792.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.9"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -111,7 +130,11 @@
   }
  },
  "name":"logging_tree",
- "new_version":"1.8.1",
+ "new_version":"1.9",
+ "new_version_attempts":{
+  "1.9":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/brandon-rhodes/logging_tree",
@@ -170,6 +193,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2021.04.10.19.49.31",
  "raw_meta_yaml":"{% set name = \"logging_tree\" %}\n{% set version = \"1.8.1\" %}\n{% set sha256 = \"c2201ab13be5060bf6f0cf29d18516d9f1d9186c75913ffda2165a01d1c63f81\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}  \n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n\ntest:\n  imports:\n    - logging_tree\n\nabout:\n  home: https://github.com/brandon-rhodes/logging_tree\n  license: BSD License\n  license_file: COPYRIGHT\n  summary: Introspect and display the logger tree inside \"logging\"\n",
  "req":{
   "__set__":true,
@@ -201,6 +225,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"3.10.0",
  "strong_exports":false,
  "total_requirements":{
   "build":{
