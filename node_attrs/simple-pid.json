@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/613157241.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -117,7 +136,11 @@
   }
  },
  "name":"simple-pid",
- "new_version":"1.0.0",
+ "new_version":"1.0.1",
+ "new_version_attempts":{
+  "1.0.1":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/m-lundberg/simple-pid",
@@ -179,6 +202,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2021.04.10.19.49.31",
  "raw_meta_yaml":"{% set name = \"simple-pid\" %}\n{% set version = \"1.0.0\" %}\n{% set sha256 = \"f101661e3ae6596342f2fe6d8e56a0ec96525fae335f91c7b59cf1660f97a7ef\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv --no-deps\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n\ntest:\n  imports:\n    - simple_pid\n  # TODO: Uncomments these lines to test the resource files are included in the\n  # PyPI sdist (https://github.com/m-lundberg/simple-pid/pull/31).\n  # commands:\n  #   - python -c 'import os, pkg_resources; assert os.path.isfile(pkg_resources.resource_filename(\"simple_pid\", \"PID.pyi\"))'\n  #   - python -c 'import os, pkg_resources; assert os.path.isfile(pkg_resources.resource_filename(\"simple_pid\", \"py.typed\"))'\n\nabout:\n  home: https://github.com/m-lundberg/simple-pid\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.md\n  summary: A simple, easy to use PID controller\n  dev_url: https://github.com/m-lundberg/simple-pid\n  doc_url: https://simple-pid.readthedocs.io\n",
  "req":{
   "__set__":true,
@@ -210,6 +234,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"3.10.0",
  "strong_exports":false,
  "total_requirements":{
   "build":{
