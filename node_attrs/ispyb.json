@@ -33,6 +33,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/613571020.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"6.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -192,10 +209,11 @@
   }
  },
  "name":"ispyb",
- "new_version":"6.0.2",
+ "new_version":"6.1.0",
  "new_version_attempts":{
   "6.0.1":1,
-  "6.0.2":1
+  "6.0.2":1,
+  "6.1.0":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -271,7 +289,7 @@
    "elements":[]
   }
  },
- "pinning_version":"2021.04.05.17.37.43",
+ "pinning_version":"2021.04.12.07.49.20",
  "raw_meta_yaml":"{% set name = \"ispyb\" %}\n{% set version = \"6.0.2\" %}\n{% set sha256 = \"c857287ddcfc0550b684a2d31f01409dedb5cd12090acbe06c1f3cbfee7cf891\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/DiamondLightSource/{{ name }}-api/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n    - pytest-runner\n  run:\n    - python\n    - mysql-connector-python\n    - tabulate\n\ntest:\n  imports:\n    - ispyb\n    - ispyb.connector\n    - ispyb.connector.mysqlsp\n    - ispyb.connector.ws\n    - ispyb.interface\n    - ispyb.sp\n    - ispyb.ws\n\nabout:\n  home: https://github.com/DiamondLightSource/ispyb-api\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE.md\n  summary: Python package to access ISPyB database\n  description: |\n    This package provides a python interface to ISPyB.\n    It can access the ISPyB database directly or (in\n    future versions) run on top of the official ISPyB\n    webservices API.\n  dev_url: https://github.com/DiamondLightSource/ispyb-api\n",
  "req":{
   "__set__":true,
@@ -309,7 +327,7 @@
    "elements":[]
   }
  },
- "smithy_version":"3.9.0",
+ "smithy_version":"3.10.0",
  "strong_exports":false,
  "total_requirements":{
   "build":{
