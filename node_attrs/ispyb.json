@@ -96,7 +96,7 @@
   },
   "package":{
    "name":"ispyb",
-   "version":"6.1.0"
+   "version":"6.1.1"
   },
   "requirements":{
    "host":[
@@ -111,8 +111,8 @@
    ]
   },
   "source":{
-   "sha256":"75f37ddab5ed7171c0749c72baa1122bcae4c593183453b16f1fe3f77bc4e9f5",
-   "url":"https://github.com/DiamondLightSource/ispyb-api/archive/v6.1.0.tar.gz"
+   "sha256":"7fc8f14550435d90688a9e9ed2c8b4d296eb2506f6ddc2028aea83261fec4f0c",
+   "url":"https://github.com/DiamondLightSource/ispyb-api/archive/v6.1.1.tar.gz"
   },
   "test":{
    "imports":[
@@ -169,7 +169,7 @@
   },
   "package":{
    "name":"ispyb",
-   "version":"6.1.0"
+   "version":"6.1.1"
   },
   "requirements":{
    "host":[
@@ -196,8 +196,8 @@
    ]
   },
   "source":{
-   "sha256":"75f37ddab5ed7171c0749c72baa1122bcae4c593183453b16f1fe3f77bc4e9f5",
-   "url":"https://github.com/DiamondLightSource/ispyb-api/archive/v6.1.0.tar.gz"
+   "sha256":"7fc8f14550435d90688a9e9ed2c8b4d296eb2506f6ddc2028aea83261fec4f0c",
+   "url":"https://github.com/DiamondLightSource/ispyb-api/archive/v6.1.1.tar.gz"
   },
   "test":{
    "imports":[
@@ -251,7 +251,7 @@
   },
   "package":{
    "name":"ispyb",
-   "version":"6.1.0"
+   "version":"6.1.1"
   },
   "requirements":{
    "host":[
@@ -266,8 +266,8 @@
    ]
   },
   "source":{
-   "sha256":"75f37ddab5ed7171c0749c72baa1122bcae4c593183453b16f1fe3f77bc4e9f5",
-   "url":"https://github.com/DiamondLightSource/ispyb-api/archive/v6.1.0.tar.gz"
+   "sha256":"7fc8f14550435d90688a9e9ed2c8b4d296eb2506f6ddc2028aea83261fec4f0c",
+   "url":"https://github.com/DiamondLightSource/ispyb-api/archive/v6.1.1.tar.gz"
   },
   "test":{
    "imports":[
@@ -308,7 +308,7 @@
   }
  },
  "pinning_version":"2021.04.12.21.54.14",
- "raw_meta_yaml":"{% set name = \"ispyb\" %}\n{% set version = \"6.1.0\" %}\n{% set sha256 = \"75f37ddab5ed7171c0749c72baa1122bcae4c593183453b16f1fe3f77bc4e9f5\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/DiamondLightSource/{{ name }}-api/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n    - pytest-runner\n  run:\n    - python\n    - mysql-connector-python\n    - tabulate\n\ntest:\n  imports:\n    - ispyb\n    - ispyb.connector\n    - ispyb.connector.mysqlsp\n    - ispyb.connector.ws\n    - ispyb.interface\n    - ispyb.sp\n    - ispyb.ws\n\nabout:\n  home: https://github.com/DiamondLightSource/ispyb-api\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE.md\n  summary: Python package to access ISPyB database\n  description: |\n    This package provides a python interface to ISPyB.\n    It can access the ISPyB database directly or (in\n    future versions) run on top of the official ISPyB\n    webservices API.\n  dev_url: https://github.com/DiamondLightSource/ispyb-api\n",
+ "raw_meta_yaml":"{% set name = \"ispyb\" %}\n{% set version = \"6.1.1\" %}\n{% set sha256 = \"7fc8f14550435d90688a9e9ed2c8b4d296eb2506f6ddc2028aea83261fec4f0c\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/DiamondLightSource/{{ name }}-api/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n    - pytest-runner\n  run:\n    - python\n    - mysql-connector-python\n    - tabulate\n\ntest:\n  imports:\n    - ispyb\n    - ispyb.connector\n    - ispyb.connector.mysqlsp\n    - ispyb.connector.ws\n    - ispyb.interface\n    - ispyb.sp\n    - ispyb.ws\n\nabout:\n  home: https://github.com/DiamondLightSource/ispyb-api\n  license: Apache-2.0\n  license_family: Apache\n  license_file: LICENSE.md\n  summary: Python package to access ISPyB database\n  description: |\n    This package provides a python interface to ISPyB.\n    It can access the ISPyB database directly or (in\n    future versions) run on top of the official ISPyB\n    webservices API.\n  dev_url: https://github.com/DiamondLightSource/ispyb-api\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -374,7 +374,7 @@
   }
  },
  "url":"https://github.com/DiamondLightSource/ispyb-api/archive/v5.9.1.tar.gz",
- "version":"6.1.0",
+ "version":"6.1.1",
  "win_64_meta_yaml":{
   "about":{
    "description":"This package provides a python interface to ISPyB.\nIt can access the ISPyB database directly or (in\nfuture versions) run on top of the official ISPyB\nwebservices API.\n",
@@ -392,7 +392,7 @@
   },
   "package":{
    "name":"ispyb",
-   "version":"6.1.0"
+   "version":"6.1.1"
   },
   "requirements":{
    "host":[
@@ -407,8 +407,8 @@
    ]
   },
   "source":{
-   "sha256":"75f37ddab5ed7171c0749c72baa1122bcae4c593183453b16f1fe3f77bc4e9f5",
-   "url":"https://github.com/DiamondLightSource/ispyb-api/archive/v6.1.0.tar.gz"
+   "sha256":"7fc8f14550435d90688a9e9ed2c8b4d296eb2506f6ddc2028aea83261fec4f0c",
+   "url":"https://github.com/DiamondLightSource/ispyb-api/archive/v6.1.1.tar.gz"
   },
   "test":{
    "imports":[
