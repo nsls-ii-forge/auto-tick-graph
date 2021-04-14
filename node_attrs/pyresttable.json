@@ -1,5 +1,5 @@
 {
- "bad":false,
+ "bad":"make_graph: 503",
  "conda-forge.yml":{
   "provider":{
    "linux":"azure",
@@ -116,7 +116,7 @@
   }
  },
  "name":"pyresttable",
- "new_version":"2020.0.3",
+ "new_version":false,
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/prjemian/pyRestTable",
