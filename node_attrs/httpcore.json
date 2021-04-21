@@ -16,6 +16,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/620197701.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.13.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -158,9 +175,10 @@
   }
  },
  "name":"httpcore",
- "new_version":"0.12.3",
+ "new_version":"0.13.0",
  "new_version_attempts":{
-  "0.12.3":1
+  "0.12.3":1,
+  "0.13.0":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -231,7 +249,7 @@
    "elements":[]
   }
  },
- "pinning_version":"2021.04.01.12.45.45",
+ "pinning_version":"2021.04.20.18.36.07",
  "raw_meta_yaml":"{% set name = \"httpcore\" %}\n{% set version = \"0.12.3\" %}\n{% set sha256 = \"37ae835fb370049b2030c3290e12ed298bf1473c41bb72ca4aa78681eba9b7c9\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - h11 >=0.8,<0.10\n    - sniffio ==1.*\n\ntest:\n  imports:\n    - httpcore\n    - httpcore._async\n    - httpcore._backends\n    - httpcore._sync\n\nabout:\n  home: https://github.com/encode/httpcore\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.md\n  summary: A minimal low-level HTTP client.\n  doc_url: https://www.encode.io/httpcore\n  dev_url: https://github.com/encode/httpcore\n",
  "req":{
   "__set__":true,
@@ -267,7 +285,7 @@
    "elements":[]
   }
  },
- "smithy_version":"3.9.0",
+ "smithy_version":"3.10.0",
  "strong_exports":false,
  "total_requirements":{
   "build":{
