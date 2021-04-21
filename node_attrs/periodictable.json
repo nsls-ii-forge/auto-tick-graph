@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/620346355.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -131,7 +150,11 @@
   }
  },
  "name":"periodictable",
- "new_version":"1.5.3",
+ "new_version":"1.6.0",
+ "new_version_attempts":{
+  "1.6.0":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "description":"The periodictable package provides an extensible periodic table\nof the elements prepopulated with data important to neutron and\nX-ray scattering experiments. With the elements pacakge you can\ncompute the scattering potential of a compound at a given wavelength.\n",
@@ -198,6 +221,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2021.04.20.18.36.07",
  "raw_meta_yaml":"{% set name = \"periodictable\" %}\n{% set version = \"1.5.3\" %}\n{% set sha256 = \"1d09c359468e2de74b43fc3a7dcb0d3d71e0ff53adb85995215d8d7796451af6\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - python\n    - numpy\n    - pyparsing\n\ntest:\n  imports:\n    - periodictable\n    - periodictable.density\n\nabout:\n  home: http://www.reflectometry.org/danse/elements.html\n  license: Public domain\n  license_file: LICENSE.txt\n  summary: Extensible periodic table for python\n  description: |\n    The periodictable package provides an extensible periodic table\n    of the elements prepopulated with data important to neutron and\n    X-ray scattering experiments. With the elements pacakge you can\n    compute the scattering potential of a compound at a given wavelength.\n  doc_url: http://www.reflectometry.org/danse/docs/elements/\n  dev_url: https://github.com/pkienzle/periodictable\n",
  "req":{
   "__set__":true,
@@ -233,6 +257,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"3.10.0",
  "strong_exports":false,
  "total_requirements":{
   "build":{
