@@ -49,7 +49,7 @@
   },
   "package":{
    "name":"conda-pack",
-   "version":"0.5.0"
+   "version":"0.6.0"
   },
   "requirements":{
    "host":[
@@ -62,8 +62,8 @@
    ]
   },
   "source":{
-   "sha256":"9da49f1aa1b1472bf859ca7f25f69f4f89a4c0d0ba0adef39f33f240b68990cf",
-   "url":"https://pypi.io/packages/source/c/conda-pack/conda-pack-0.5.0.tar.gz"
+   "sha256":"615f41353fdc8793b0edb55702212273f17e40b43cc2c17493430e9c66d9f0b3",
+   "url":"https://pypi.io/packages/source/c/conda-pack/conda-pack-0.6.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -121,7 +121,7 @@
   },
   "package":{
    "name":"conda-pack",
-   "version":"0.5.0"
+   "version":"0.6.0"
   },
   "requirements":{
    "host":[
@@ -142,8 +142,8 @@
    ]
   },
   "source":{
-   "sha256":"9da49f1aa1b1472bf859ca7f25f69f4f89a4c0d0ba0adef39f33f240b68990cf",
-   "url":"https://pypi.io/packages/source/c/conda-pack/conda-pack-0.5.0.tar.gz"
+   "sha256":"615f41353fdc8793b0edb55702212273f17e40b43cc2c17493430e9c66d9f0b3",
+   "url":"https://pypi.io/packages/source/c/conda-pack/conda-pack-0.6.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -185,7 +185,7 @@
   },
   "package":{
    "name":"conda-pack",
-   "version":"0.5.0"
+   "version":"0.6.0"
   },
   "requirements":{
    "host":[
@@ -198,8 +198,8 @@
    ]
   },
   "source":{
-   "sha256":"9da49f1aa1b1472bf859ca7f25f69f4f89a4c0d0ba0adef39f33f240b68990cf",
-   "url":"https://pypi.io/packages/source/c/conda-pack/conda-pack-0.5.0.tar.gz"
+   "sha256":"615f41353fdc8793b0edb55702212273f17e40b43cc2c17493430e9c66d9f0b3",
+   "url":"https://pypi.io/packages/source/c/conda-pack/conda-pack-0.6.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -235,7 +235,7 @@
   }
  },
  "pinning_version":"2021.04.22.19.34.35",
- "raw_meta_yaml":"{% set name = \"conda-pack\" %}\n{% set version = \"0.5.0\" %}\n{% set sha256 = \"9da49f1aa1b1472bf859ca7f25f69f4f89a4c0d0ba0adef39f33f240b68990cf\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  entry_points:\n    - conda-pack = conda_pack.cli:main\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - setuptools\n\ntest:\n  commands:\n    - conda-pack --help\n  imports:\n    - conda_pack\n\nabout:\n  home: https://conda.github.io/conda-pack\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: Package conda environments for redistribution\n  description: |\n    ``conda-pack`` is a command line tool for creating relocatable conda\n    environments. This is useful for deploying code in a consistent environment,\n    potentially in a location where python/conda isn't already installed.\n  doc_url: https://conda.github.io/conda-pack\n  dev_url: https://github.com/conda/conda-pack\n",
+ "raw_meta_yaml":"{% set name = \"conda-pack\" %}\n{% set version = \"0.6.0\" %}\n{% set sha256 = \"615f41353fdc8793b0edb55702212273f17e40b43cc2c17493430e9c66d9f0b3\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  entry_points:\n    - conda-pack = conda_pack.cli:main\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - setuptools\n\ntest:\n  commands:\n    - conda-pack --help\n  imports:\n    - conda_pack\n\nabout:\n  home: https://conda.github.io/conda-pack\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: Package conda environments for redistribution\n  description: |\n    ``conda-pack`` is a command line tool for creating relocatable conda\n    environments. This is useful for deploying code in a consistent environment,\n    potentially in a location where python/conda isn't already installed.\n  doc_url: https://conda.github.io/conda-pack\n  dev_url: https://github.com/conda/conda-pack\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -295,7 +295,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/c/conda-pack/conda-pack-0.5.0.tar.gz",
- "version":"0.5.0",
+ "version":"0.6.0",
  "win_64_meta_yaml":{
   "about":{
    "description":"``conda-pack`` is a command line tool for creating relocatable conda\nenvironments. This is useful for deploying code in a consistent environment,\npotentially in a location where python/conda isn't already installed.\n",
@@ -317,7 +317,7 @@
   },
   "package":{
    "name":"conda-pack",
-   "version":"0.5.0"
+   "version":"0.6.0"
   },
   "requirements":{
    "host":[
@@ -330,8 +330,8 @@
    ]
   },
   "source":{
-   "sha256":"9da49f1aa1b1472bf859ca7f25f69f4f89a4c0d0ba0adef39f33f240b68990cf",
-   "url":"https://pypi.io/packages/source/c/conda-pack/conda-pack-0.5.0.tar.gz"
+   "sha256":"615f41353fdc8793b0edb55702212273f17e40b43cc2c17493430e9c66d9f0b3",
+   "url":"https://pypi.io/packages/source/c/conda-pack/conda-pack-0.6.0.tar.gz"
   },
   "test":{
    "commands":[
