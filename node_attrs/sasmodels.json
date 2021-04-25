@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/622848817.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -138,7 +157,11 @@
   }
  },
  "name":"sasmodels",
- "new_version":"1.0.4",
+ "new_version":"1.0.5",
+ "new_version_attempts":{
+  "1.0.5":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/SasView/sasmodels",
@@ -207,6 +230,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2021.04.24.06.28.24",
  "raw_meta_yaml":"{% set name = \"sasmodels\" %}\n{% set version = \"1.0.4\" %}\n{% set sha256 = \"1e66c431a8992302975006fef047d3935510ffc9c6b448a98d491a0c414e74f7\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - bumps\n    - numpy\n    # May not need this heavy dependency in nsls2forge\n    # - pyopencl\n    - scipy\n\ntest:\n  imports:\n    - sasmodels\n    - sasmodels.custom\n    - sasmodels.models\n\nabout:\n  home: http://www.sasview.org\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: Package for calculation of small angle scattering models using OpenCL\n  dev_url: https://github.com/SasView/sasmodels\n",
  "req":{
   "__set__":true,
@@ -244,6 +268,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"3.10.1",
  "strong_exports":false,
  "total_requirements":{
   "build":{
