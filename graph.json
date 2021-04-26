@@ -424,6 +424,10 @@
   },
   {
    "source":"c_compiler_stub",
+   "target":"pynacl"
+  },
+  {
+   "source":"c_compiler_stub",
    "target":"pysmbc"
   },
   {
@@ -521,6 +525,10 @@
   {
    "source":"certifi",
    "target":"httpx"
+  },
+  {
+   "source":"cffi",
+   "target":"pynacl"
   },
   {
    "source":"cffi",
@@ -629,6 +637,10 @@
   {
    "source":"cpplint",
    "target":"pycentroids"
+  },
+  {
+   "source":"cross-python_",
+   "target":"pynacl"
   },
   {
    "source":"cross-python_",
@@ -1335,6 +1347,10 @@
    "target":"analysis"
   },
   {
+   "source":"gnuconfig",
+   "target":"pynacl"
+  },
+  {
    "source":"gobject-introspection",
    "target":"hkl"
   },
@@ -1521,6 +1537,10 @@
   {
    "source":"hxntools",
    "target":"nsls2-analysis"
+  },
+  {
+   "source":"hypothesis",
+   "target":"pynacl"
   },
   {
    "source":"icu",
@@ -1827,6 +1847,10 @@
    "target":"qtsass"
   },
   {
+   "source":"libsodium",
+   "target":"pynacl"
+  },
+  {
    "source":"libtool",
    "target":"hkl"
   },
@@ -1965,6 +1989,10 @@
   {
    "source":"m2-patch",
    "target":"epics-base"
+  },
+  {
+   "source":"m2-patch",
+   "target":"pynacl"
   },
   {
    "source":"m2-sed",
@@ -2293,6 +2321,10 @@
   {
    "source":"msgpack-python",
    "target":"suitcase-msgpack"
+  },
+  {
+   "source":"msinttypes",
+   "target":"pynacl"
   },
   {
    "source":"mysql-connector-python",
@@ -3688,6 +3720,10 @@
   },
   {
    "source":"pip",
+   "target":"pynacl"
+  },
+  {
+   "source":"pip",
    "target":"pyolog"
   },
   {
@@ -4464,6 +4500,10 @@
   },
   {
    "source":"pytest",
+   "target":"pynacl"
+  },
+  {
+   "source":"pytest",
    "target":"pytest-faulthandler"
   },
   {
@@ -5089,6 +5129,10 @@
   {
    "source":"python",
    "target":"pymysql"
+  },
+  {
+   "source":"python",
+   "target":"pynacl"
   },
   {
    "source":"python",
@@ -6068,6 +6112,10 @@
   },
   {
    "source":"setuptools",
+   "target":"pynacl"
+  },
+  {
+   "source":"setuptools",
    "target":"pytest-faulthandler"
   },
   {
@@ -6201,6 +6249,10 @@
   {
    "source":"six",
    "target":"pykern"
+  },
+  {
+   "source":"six",
+   "target":"pynacl"
   },
   {
    "source":"six",
@@ -6689,6 +6741,10 @@
   {
    "source":"wheel",
    "target":"itk"
+  },
+  {
+   "source":"wheel",
+   "target":"pynacl"
   },
   {
    "source":"wheel",
@@ -10163,6 +10219,36 @@
    "id":"llvmdev",
    "payload":{
     "__lazy_json__":"node_attrs/llvmdev.json"
+   }
+  },
+  {
+   "id":"pynacl",
+   "payload":{
+    "__lazy_json__":"node_attrs/pynacl.json"
+   }
+  },
+  {
+   "id":"gnuconfig",
+   "payload":{
+    "__lazy_json__":"node_attrs/gnuconfig.json"
+   }
+  },
+  {
+   "id":"libsodium",
+   "payload":{
+    "__lazy_json__":"node_attrs/libsodium.json"
+   }
+  },
+  {
+   "id":"hypothesis",
+   "payload":{
+    "__lazy_json__":"node_attrs/hypothesis.json"
+   }
+  },
+  {
+   "id":"msinttypes",
+   "payload":{
+    "__lazy_json__":"node_attrs/msinttypes.json"
    }
   }
  ]
