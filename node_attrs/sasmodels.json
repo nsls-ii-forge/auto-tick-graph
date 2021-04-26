@@ -44,7 +44,7 @@
   },
   "package":{
    "name":"sasmodels",
-   "version":"1.0.4"
+   "version":"1.0.5"
   },
   "requirements":{
    "host":[
@@ -59,8 +59,8 @@
    ]
   },
   "source":{
-   "sha256":"1e66c431a8992302975006fef047d3935510ffc9c6b448a98d491a0c414e74f7",
-   "url":"https://pypi.io/packages/source/s/sasmodels/sasmodels-1.0.4.tar.gz"
+   "sha256":"359d87801615dca96a665439c1b48f89afd4a7e2dcb58b1c92be45331c40ce11",
+   "url":"https://pypi.io/packages/source/s/sasmodels/sasmodels-1.0.5.tar.gz"
   },
   "test":{
    "imports":[
@@ -112,7 +112,7 @@
   },
   "package":{
    "name":"sasmodels",
-   "version":"1.0.4"
+   "version":"1.0.5"
   },
   "requirements":{
    "host":[
@@ -139,8 +139,8 @@
    ]
   },
   "source":{
-   "sha256":"1e66c431a8992302975006fef047d3935510ffc9c6b448a98d491a0c414e74f7",
-   "url":"https://pypi.io/packages/source/s/sasmodels/sasmodels-1.0.4.tar.gz"
+   "sha256":"359d87801615dca96a665439c1b48f89afd4a7e2dcb58b1c92be45331c40ce11",
+   "url":"https://pypi.io/packages/source/s/sasmodels/sasmodels-1.0.5.tar.gz"
   },
   "test":{
    "imports":[
@@ -178,7 +178,7 @@
   },
   "package":{
    "name":"sasmodels",
-   "version":"1.0.4"
+   "version":"1.0.5"
   },
   "requirements":{
    "host":[
@@ -193,8 +193,8 @@
    ]
   },
   "source":{
-   "sha256":"1e66c431a8992302975006fef047d3935510ffc9c6b448a98d491a0c414e74f7",
-   "url":"https://pypi.io/packages/source/s/sasmodels/sasmodels-1.0.4.tar.gz"
+   "sha256":"359d87801615dca96a665439c1b48f89afd4a7e2dcb58b1c92be45331c40ce11",
+   "url":"https://pypi.io/packages/source/s/sasmodels/sasmodels-1.0.5.tar.gz"
   },
   "test":{
    "imports":[
@@ -231,7 +231,7 @@
   }
  },
  "pinning_version":"2021.04.24.06.28.24",
- "raw_meta_yaml":"{% set name = \"sasmodels\" %}\n{% set version = \"1.0.4\" %}\n{% set sha256 = \"1e66c431a8992302975006fef047d3935510ffc9c6b448a98d491a0c414e74f7\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - bumps\n    - numpy\n    # May not need this heavy dependency in nsls2forge\n    # - pyopencl\n    - scipy\n\ntest:\n  imports:\n    - sasmodels\n    - sasmodels.custom\n    - sasmodels.models\n\nabout:\n  home: http://www.sasview.org\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: Package for calculation of small angle scattering models using OpenCL\n  dev_url: https://github.com/SasView/sasmodels\n",
+ "raw_meta_yaml":"{% set name = \"sasmodels\" %}\n{% set version = \"1.0.5\" %}\n{% set sha256 = \"359d87801615dca96a665439c1b48f89afd4a7e2dcb58b1c92be45331c40ce11\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - bumps\n    - numpy\n    # May not need this heavy dependency in nsls2forge\n    # - pyopencl\n    - scipy\n\ntest:\n  imports:\n    - sasmodels\n    - sasmodels.custom\n    - sasmodels.models\n\nabout:\n  home: http://www.sasview.org\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.txt\n  summary: Package for calculation of small angle scattering models using OpenCL\n  dev_url: https://github.com/SasView/sasmodels\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -297,7 +297,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/s/sasmodels/sasmodels-1.0.4.tar.gz",
- "version":"1.0.4",
+ "version":"1.0.5",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/SasView/sasmodels",
@@ -314,7 +314,7 @@
   },
   "package":{
    "name":"sasmodels",
-   "version":"1.0.4"
+   "version":"1.0.5"
   },
   "requirements":{
    "host":[
@@ -329,8 +329,8 @@
    ]
   },
   "source":{
-   "sha256":"1e66c431a8992302975006fef047d3935510ffc9c6b448a98d491a0c414e74f7",
-   "url":"https://pypi.io/packages/source/s/sasmodels/sasmodels-1.0.4.tar.gz"
+   "sha256":"359d87801615dca96a665439c1b48f89afd4a7e2dcb58b1c92be45331c40ce11",
+   "url":"https://pypi.io/packages/source/s/sasmodels/sasmodels-1.0.5.tar.gz"
   },
   "test":{
    "imports":[
