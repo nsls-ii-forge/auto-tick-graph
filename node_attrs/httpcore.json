@@ -79,7 +79,7 @@
   },
   "package":{
    "name":"httpcore",
-   "version":"0.13.0"
+   "version":"0.13.1"
   },
   "requirements":{
    "host":[
@@ -93,8 +93,8 @@
    ]
   },
   "source":{
-   "sha256":"d5602a0a9a5aa29937be6060acb2ac31461217d33e3e5e993038e51c841e0dec",
-   "url":"https://pypi.io/packages/source/h/httpcore/httpcore-0.13.0.tar.gz"
+   "sha256":"04afd180f35cd576085d45901a39920fb0d5bd93f570525335e3e7e440231f44",
+   "url":"https://pypi.io/packages/source/h/httpcore/httpcore-0.13.1.tar.gz"
   },
   "test":{
    "imports":[
@@ -147,7 +147,7 @@
   },
   "package":{
    "name":"httpcore",
-   "version":"0.13.0"
+   "version":"0.13.1"
   },
   "requirements":{
    "host":[
@@ -171,8 +171,8 @@
    ]
   },
   "source":{
-   "sha256":"d5602a0a9a5aa29937be6060acb2ac31461217d33e3e5e993038e51c841e0dec",
-   "url":"https://pypi.io/packages/source/h/httpcore/httpcore-0.13.0.tar.gz"
+   "sha256":"04afd180f35cd576085d45901a39920fb0d5bd93f570525335e3e7e440231f44",
+   "url":"https://pypi.io/packages/source/h/httpcore/httpcore-0.13.1.tar.gz"
   },
   "test":{
    "imports":[
@@ -216,7 +216,7 @@
   },
   "package":{
    "name":"httpcore",
-   "version":"0.13.0"
+   "version":"0.13.1"
   },
   "requirements":{
    "host":[
@@ -230,8 +230,8 @@
    ]
   },
   "source":{
-   "sha256":"d5602a0a9a5aa29937be6060acb2ac31461217d33e3e5e993038e51c841e0dec",
-   "url":"https://pypi.io/packages/source/h/httpcore/httpcore-0.13.0.tar.gz"
+   "sha256":"04afd180f35cd576085d45901a39920fb0d5bd93f570525335e3e7e440231f44",
+   "url":"https://pypi.io/packages/source/h/httpcore/httpcore-0.13.1.tar.gz"
   },
   "test":{
    "imports":[
@@ -268,7 +268,7 @@
   }
  },
  "pinning_version":"2021.04.28.12.37.37",
- "raw_meta_yaml":"{% set name = \"httpcore\" %}\n{% set version = \"0.13.0\" %}\n{% set sha256 = \"d5602a0a9a5aa29937be6060acb2ac31461217d33e3e5e993038e51c841e0dec\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - h11 >=0.8,<0.10\n    - sniffio ==1.*\n\ntest:\n  imports:\n    - httpcore\n    - httpcore._async\n    - httpcore._backends\n    - httpcore._sync\n\nabout:\n  home: https://github.com/encode/httpcore\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.md\n  summary: A minimal low-level HTTP client.\n  doc_url: https://www.encode.io/httpcore\n  dev_url: https://github.com/encode/httpcore\n",
+ "raw_meta_yaml":"{% set name = \"httpcore\" %}\n{% set version = \"0.13.1\" %}\n{% set sha256 = \"04afd180f35cd576085d45901a39920fb0d5bd93f570525335e3e7e440231f44\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - h11 >=0.8,<0.10\n    - sniffio ==1.*\n\ntest:\n  imports:\n    - httpcore\n    - httpcore._async\n    - httpcore._backends\n    - httpcore._sync\n\nabout:\n  home: https://github.com/encode/httpcore\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.md\n  summary: A minimal low-level HTTP client.\n  doc_url: https://www.encode.io/httpcore\n  dev_url: https://github.com/encode/httpcore\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -331,7 +331,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/h/httpcore/httpcore-0.11.0.tar.gz",
- "version":"0.13.0",
+ "version":"0.13.1",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/encode/httpcore",
@@ -349,7 +349,7 @@
   },
   "package":{
    "name":"httpcore",
-   "version":"0.13.0"
+   "version":"0.13.1"
   },
   "requirements":{
    "host":[
@@ -363,8 +363,8 @@
    ]
   },
   "source":{
-   "sha256":"d5602a0a9a5aa29937be6060acb2ac31461217d33e3e5e993038e51c841e0dec",
-   "url":"https://pypi.io/packages/source/h/httpcore/httpcore-0.13.0.tar.gz"
+   "sha256":"04afd180f35cd576085d45901a39920fb0d5bd93f570525335e3e7e440231f44",
+   "url":"https://pypi.io/packages/source/h/httpcore/httpcore-0.13.1.tar.gz"
   },
   "test":{
    "imports":[
