@@ -41,7 +41,7 @@
   },
   "package":{
    "name":"hklpy",
-   "version":"0.3.15"
+   "version":"0.3.16"
   },
   "requirements":{
    "host":[
@@ -54,12 +54,13 @@
     "numpy",
     "ophyd",
     "pint",
-    "pygobject"
+    "pygobject",
+    "pyresttable"
    ]
   },
   "source":{
-   "sha256":"7d752d7ac04e58a00ebf71acd66733c88442a2833843611181b1da4d271c427f",
-   "url":"https://pypi.io/packages/source/h/hklpy/hklpy-0.3.15.tar.gz"
+   "sha256":"bf3d0488bbe7f71d1d75ae791b871715dd311c3c3791510e5cc0a8cb063c6777",
+   "url":"https://pypi.io/packages/source/h/hklpy/hklpy-0.3.16.tar.gz"
   },
   "test":{
    "imports":[
@@ -93,6 +94,7 @@
     "ophyd",
     "pint",
     "pygobject",
+    "pyresttable",
     "python"
    ]
   },
@@ -115,7 +117,7 @@
   },
   "package":{
    "name":"hklpy",
-   "version":"0.3.15"
+   "version":"0.3.16"
   },
   "requirements":{
    "host":[
@@ -133,23 +135,26 @@
     "ophyd",
     "pint",
     "pygobject",
+    "pyresttable",
     "python",
     "hkl",
     "numpy",
     "ophyd",
     "pint",
     "pygobject",
+    "pyresttable",
     "python",
     "hkl",
     "numpy",
     "ophyd",
     "pint",
-    "pygobject"
+    "pygobject",
+    "pyresttable"
    ]
   },
   "source":{
-   "sha256":"7d752d7ac04e58a00ebf71acd66733c88442a2833843611181b1da4d271c427f",
-   "url":"https://pypi.io/packages/source/h/hklpy/hklpy-0.3.15.tar.gz"
+   "sha256":"bf3d0488bbe7f71d1d75ae791b871715dd311c3c3791510e5cc0a8cb063c6777",
+   "url":"https://pypi.io/packages/source/h/hklpy/hklpy-0.3.16.tar.gz"
   },
   "test":{
    "imports":[
@@ -197,7 +202,7 @@
   },
   "package":{
    "name":"hklpy",
-   "version":"0.3.15"
+   "version":"0.3.16"
   },
   "requirements":{
    "host":[
@@ -210,12 +215,13 @@
     "numpy",
     "ophyd",
     "pint",
-    "pygobject"
+    "pygobject",
+    "pyresttable"
    ]
   },
   "source":{
-   "sha256":"7d752d7ac04e58a00ebf71acd66733c88442a2833843611181b1da4d271c427f",
-   "url":"https://pypi.io/packages/source/h/hklpy/hklpy-0.3.15.tar.gz"
+   "sha256":"bf3d0488bbe7f71d1d75ae791b871715dd311c3c3791510e5cc0a8cb063c6777",
+   "url":"https://pypi.io/packages/source/h/hklpy/hklpy-0.3.16.tar.gz"
   },
   "test":{
    "imports":[
@@ -249,6 +255,7 @@
     "ophyd",
     "pint",
     "pygobject",
+    "pyresttable",
     "python"
    ]
   },
@@ -258,7 +265,7 @@
   }
  },
  "pinning_version":"2021.04.28.12.37.37",
- "raw_meta_yaml":"{% set name = \"hklpy\" %}\n{% set version = \"0.3.15\" %}\n{% set sha256 = \"7d752d7ac04e58a00ebf71acd66733c88442a2833843611181b1da4d271c427f\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  skip: True  # [py<36 or win or osx]\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - hkl\n    - numpy\n    - ophyd\n    - pint\n    - pygobject\n\ntest:\n  imports:\n    - hkl\n    - hkl.calc\n    - hkl.context\n    - hkl.diffract\n    - hkl.engine\n    - hkl.sample\n    - hkl.util\n\nabout:\n  home: https://github.com/bluesky/hklpy\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: Diffractometer computation library with ophyd pseudopositioner support\n",
+ "raw_meta_yaml":"{% set name = \"hklpy\" %}\n{% set version = \"0.3.16\" %}\n{% set sha256 = \"bf3d0488bbe7f71d1d75ae791b871715dd311c3c3791510e5cc0a8cb063c6777\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  skip: true  # [py<36 or win or osx]\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - hkl\n    - numpy\n    - ophyd\n    - pint\n    - pygobject\n    - pyresttable\n\ntest:\n  imports:\n    - hkl\n    - hkl.calc\n    - hkl.context\n    - hkl.diffract\n    - hkl.engine\n    - hkl.sample\n    - hkl.util\n\nabout:\n  home: https://github.com/bluesky/hklpy\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: Diffractometer computation library with ophyd pseudopositioner support\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -268,6 +275,7 @@
    "pint",
    "pip",
    "pygobject",
+   "pyresttable",
    "python"
   ]
  },
@@ -291,6 +299,7 @@
     "ophyd",
     "pint",
     "pygobject",
+    "pyresttable",
     "python"
    ]
   },
@@ -321,6 +330,7 @@
     "ophyd",
     "pint",
     "pygobject",
+    "pyresttable",
     "python"
    ]
   },
@@ -330,7 +340,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/h/hklpy/hklpy-0.3.15.tar.gz",
- "version":"0.3.15",
+ "version":"0.3.16",
  "win_64_meta_yaml":{
   "about":{
    "home":"https://github.com/bluesky/hklpy",
@@ -345,7 +355,7 @@
   },
   "package":{
    "name":"hklpy",
-   "version":"0.3.15"
+   "version":"0.3.16"
   },
   "requirements":{
    "host":[
@@ -358,12 +368,13 @@
     "numpy",
     "ophyd",
     "pint",
-    "pygobject"
+    "pygobject",
+    "pyresttable"
    ]
   },
   "source":{
-   "sha256":"7d752d7ac04e58a00ebf71acd66733c88442a2833843611181b1da4d271c427f",
-   "url":"https://pypi.io/packages/source/h/hklpy/hklpy-0.3.15.tar.gz"
+   "sha256":"bf3d0488bbe7f71d1d75ae791b871715dd311c3c3791510e5cc0a8cb063c6777",
+   "url":"https://pypi.io/packages/source/h/hklpy/hklpy-0.3.16.tar.gz"
   },
   "test":{
    "imports":[
@@ -397,6 +408,7 @@
     "ophyd",
     "pint",
     "pygobject",
+    "pyresttable",
     "python"
    ]
   },

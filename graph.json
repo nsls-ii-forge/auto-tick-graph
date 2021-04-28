@@ -4380,6 +4380,10 @@
   },
   {
    "source":"pyresttable",
+   "target":"hklpy"
+  },
+  {
+   "source":"pyresttable",
    "target":"punx"
   },
   {
