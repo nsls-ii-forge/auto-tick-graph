@@ -1,4 +1,5 @@
 [
   "ispyb",
-  "httpcore"
+  "httpcore",
+  "httpx"
 ]
