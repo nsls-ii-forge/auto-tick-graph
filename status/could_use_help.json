@@ -1,5 +1,6 @@
 [
   "ispyb",
   "httpcore",
-  "httpx"
+  "httpx",
+  "xicam.xpcs"
 ]
