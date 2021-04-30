@@ -1,6 +1,7 @@
 [
   "ispyb",
   "httpcore",
+  "slack-sdk",
   "httpx",
   "xicam.xpcs"
 ]
