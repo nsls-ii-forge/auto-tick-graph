@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/628501505.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.1.5"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -142,7 +161,11 @@
   }
  },
  "name":"napari-svg",
- "new_version":"0.1.4",
+ "new_version":"0.1.5",
+ "new_version_attempts":{
+  "0.1.5":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/napari/napari-svg",
@@ -214,6 +237,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2021.05.01.06.26.24",
  "raw_meta_yaml":"{% set name = \"napari-svg\" %}\n{% set version = \"0.1.4\" %}\n{% set sha256 = \"7e0cb5af0e98948cdc9719becec6c0641159444adf33b8b9ba538d0faee75b55\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n    - setuptools_scm\n  run:\n    - python >=3.6\n    - imageio\n    - napari-plugin-engine\n    - numpy\n    - vispy\n\ntest:\n  imports:\n    - napari_svg\n\nabout:\n  home: https://github.com/napari/napari-svg\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: An io plugin for reading and writing svg files with napari\n  doc_url: https://github.com/napari/napari-svg\n  dev_url: https://github.com/napari/napari-svg\n",
  "req":{
   "__set__":true,
@@ -255,6 +279,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"3.10.1",
  "strong_exports":false,
  "total_requirements":{
   "build":{
