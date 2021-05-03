@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/629059609.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"3.4.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -149,7 +168,11 @@
   }
  },
  "name":"pyinstrument",
- "new_version":"3.4.1",
+ "new_version":"3.4.2",
+ "new_version_attempts":{
+  "3.4.2":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/joerick/pyinstrument",
@@ -222,6 +245,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2021.05.01.06.26.24",
  "raw_meta_yaml":"{% set name = \"pyinstrument\" %}\n{% set version = \"3.4.1\" %}\n{% set sha256 = \"d421fcf458f10926fbbaff701d11ffc42b06240294a3d0ee96299af7aca9b5fe\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  entry_points:\n    - pyinstrument = pyinstrument.__main__:main\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n    - nodejs\n  run:\n    - python\n    - pyinstrument_cext >=0.2.2\n\ntest:\n  imports:\n    - pyinstrument\n    - pyinstrument.renderers\n    - pyinstrument.vendor\n  commands:\n    - pyinstrument --help\n\nabout:\n  home: https://github.com/joerick/pyinstrument\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: \ud83d\udeb4 Call stack profiler for Python. Shows you why your code is slow!\n  dev_url: https://github.com/joerick/pyinstrument\n",
  "req":{
   "__set__":true,
@@ -257,6 +281,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"3.10.1",
  "strong_exports":false,
  "total_requirements":{
   "build":{
