@@ -1603,6 +1603,10 @@
    "target":"intake-xarray"
   },
   {
+   "source":"intel-openmp",
+   "target":"analysis"
+  },
+  {
    "source":"ipykernel",
    "target":"analysis"
   },
@@ -2261,6 +2265,10 @@
   {
    "source":"meson",
    "target":"pygobject"
+  },
+  {
+   "source":"mkl",
+   "target":"analysis"
   },
   {
    "source":"mock",
@@ -6815,6 +6823,14 @@
    "target":"xicam.xpcs"
   },
   {
+   "source":"xlrd",
+   "target":"analysis"
+  },
+  {
+   "source":"xlwt",
+   "target":"analysis"
+  },
+  {
    "source":"xonsh",
    "target":"nsls2forge-utils"
   },
@@ -10253,6 +10269,12 @@
    "id":"msinttypes",
    "payload":{
     "__lazy_json__":"node_attrs/msinttypes.json"
+   }
+  },
+  {
+   "id":"intel-openmp",
+   "payload":{
+    "__lazy_json__":"node_attrs/intel-openmp.json"
    }
   }
  ]
