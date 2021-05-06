@@ -504,7 +504,7 @@
  "new_version":"4.1.1",
  "new_version_attempts":{
   "4.1.0":200,
-  "4.1.1":111
+  "4.1.1":112
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
