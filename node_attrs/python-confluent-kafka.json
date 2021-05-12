@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/643388732.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -138,7 +157,11 @@
   }
  },
  "name":"python-confluent-kafka",
- "new_version":"1.6.1",
+ "new_version":"1.7.0",
+ "new_version_attempts":{
+  "1.7.0":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "description":"Confluent's Kafka client for Python wraps the librdkafka C library,\nproviding full Kafka protocol support with great performance and\nreliability.\n",
@@ -210,6 +233,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2021.05.12.13.31.46",
  "raw_meta_yaml":"{% set pkgname = \"python-confluent-kafka\" %}\n{% set name = \"confluent-kafka\" %}\n{% set version = \"1.6.1\" %}\n{% set sha256 = \"800f9cf5ec421dab82c01355bfa9ed819b70d70b01ca1e41c0f8526e5f340ddf\" %}\n\npackage:\n  name: {{ pkgname|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  # There is no win build for librdkafka at this time.\n  skip: true  # [win or py<36]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - python\n    - pip\n    - librdkafka >={{ version }}\n  run:\n    - python\n    - librdkafka >={{ version }}\n\ntest:\n  imports:\n    - confluent_kafka\n  commands:\n    - conda inspect linkages {{ pkgname }}  # [unix]\n    - conda inspect objects {{ pkgname }}   # [osx]\n\nabout:\n  home: https://github.com/confluentinc/confluent-kafka-python\n  license: Apache 2.0\n  license_file: LICENSE.txt\n  summary: Confluent's Apache Kafka client for Python\n  description: |\n    Confluent's Kafka client for Python wraps the librdkafka C library,\n    providing full Kafka protocol support with great performance and\n    reliability.\n  doc_url: http://docs.confluent.io/current/clients/confluent-kafka-python/index.html\n",
  "req":{
   "__set__":true,
@@ -247,6 +271,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"3.10.1",
  "strong_exports":false,
  "total_requirements":{
   "build":{
