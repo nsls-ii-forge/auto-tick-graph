@@ -1,5 +1,30 @@
 {
- "bad":false,
+ "bad":{
+  "exception":"Command '['git', 'checkout', 'master']' returned non-zero exit status 1.",
+  "traceback":[
+   "Traceback (most recent call last):",
+   "  File \"/home/vsts/mc/envs/botenv/lib/python3.7/site-packages/nsls2forge_utils/auto_tick.py\", line 539, in auto_tick",
+   "    organization=organization",
+   "  File \"/home/vsts/mc/envs/botenv/lib/python3.7/site-packages/nsls2forge_utils/auto_tick.py\", line 215, in run",
+   "    fork=fork,",
+   "  File \"/home/vsts/mc/envs/botenv/lib/python3.7/site-packages/nsls2forge_utils/git_utils.py\", line 135, in get_repo",
+   "    feedstock_dir=feedstock_dir, origin=origin, upstream=upstream, branch=branch,",
+   "  File \"/home/vsts/mc/envs/botenv/lib/python3.7/site-packages/conda_forge_tick/git_xonsh_utils.xsh\", line 19, in fetch_repo",
+   "    git checkout master",
+   "  File \"/home/vsts/mc/envs/botenv/lib/python3.7/site-packages/xonsh/__amalgam__.py\", line 23342, in subproc_captured_hiddenobject",
+   "    return run_subproc(cmds, captured=\"hiddenobject\", envs=envs)",
+   "  File \"/home/vsts/mc/envs/botenv/lib/python3.7/site-packages/xonsh/__amalgam__.py\", line 23301, in run_subproc",
+   "    command.end()",
+   "  File \"/home/vsts/mc/envs/botenv/lib/python3.7/site-packages/xonsh/__amalgam__.py\", line 14772, in end",
+   "    self._end(tee_output=tee_output)",
+   "  File \"/home/vsts/mc/envs/botenv/lib/python3.7/site-packages/xonsh/__amalgam__.py\", line 14791, in _end",
+   "    self._raise_subproc_error()",
+   "  File \"/home/vsts/mc/envs/botenv/lib/python3.7/site-packages/xonsh/__amalgam__.py\", line 14917, in _raise_subproc_error",
+   "    raise subprocess.CalledProcessError(rtn, spec.args, output=self.output)",
+   "subprocess.CalledProcessError: Command '['git', 'checkout', 'master']' returned non-zero exit status 1.",
+   ""
+  ]
+ },
  "conda-forge.yml":{
   "provider":{
    "linux":"azure",
@@ -132,7 +157,7 @@
   }
  },
  "name":"tomviz",
- "new_version":"1.9.0",
+ "new_version":"1.10.0",
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/OpenChemistry/tomviz",
