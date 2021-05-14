@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/645036045.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -143,7 +162,11 @@
   }
  },
  "name":"bloptools",
- "new_version":"0.0.1",
+ "new_version":"0.0.2",
+ "new_version_attempts":{
+  "0.0.2":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/NSLS-II/bloptools",
@@ -215,6 +238,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2021.05.14.18.59.58",
  "raw_meta_yaml":"{% set name = \"bloptools\" %}\n{% set version = \"0.0.1\" %}\n{% set sha256 = \"d8eb122b3eaacfacb06978deaf084acd552958fdc9dea6b786d981d81d67cf57\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - bluesky >=1.6.1\n    - databroker\n    - matplotlib\n    - numpy\n    - ophyd\n    - sirepo-bluesky\n\ntest:\n  imports:\n    - bloptools\n\nabout:\n  home: https://github.com/NSLS-II/bloptools\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Beamline Optimization Tools\n",
  "req":{
   "__set__":true,
@@ -258,6 +282,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"3.10.1",
  "strong_exports":false,
  "total_requirements":{
   "build":{
