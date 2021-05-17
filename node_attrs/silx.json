@@ -45,7 +45,7 @@
   },
   "package":{
    "name":"silx",
-   "version":"0.15.0"
+   "version":"0.15.1"
   },
   "requirements":{
    "build":[
@@ -72,8 +72,8 @@
    ]
   },
   "source":{
-   "sha256":"edd086844f2da01cf18799a5689b88329dc605218eb55de16de3cfa5e211dfdf",
-   "url":"https://pypi.io/packages/source/s/silx/silx-0.15.0.tar.gz"
+   "sha256":"c23c90976ad035f36506f2fb8bad2f11a00eb5cf65839344e88a46499a9ce8fd",
+   "url":"https://pypi.io/packages/source/s/silx/silx-0.15.1.tar.gz"
   },
   "test":{
    "imports":[
@@ -136,7 +136,7 @@
   },
   "package":{
    "name":"silx",
-   "version":"0.15.0"
+   "version":"0.15.1"
   },
   "requirements":{
    "build":[
@@ -195,8 +195,8 @@
    ]
   },
   "source":{
-   "sha256":"edd086844f2da01cf18799a5689b88329dc605218eb55de16de3cfa5e211dfdf",
-   "url":"https://pypi.io/packages/source/s/silx/silx-0.15.0.tar.gz"
+   "sha256":"c23c90976ad035f36506f2fb8bad2f11a00eb5cf65839344e88a46499a9ce8fd",
+   "url":"https://pypi.io/packages/source/s/silx/silx-0.15.1.tar.gz"
   },
   "test":{
    "imports":[
@@ -232,7 +232,7 @@
   },
   "package":{
    "name":"silx",
-   "version":"0.15.0"
+   "version":"0.15.1"
   },
   "requirements":{
    "build":[
@@ -259,8 +259,8 @@
    ]
   },
   "source":{
-   "sha256":"edd086844f2da01cf18799a5689b88329dc605218eb55de16de3cfa5e211dfdf",
-   "url":"https://pypi.io/packages/source/s/silx/silx-0.15.0.tar.gz"
+   "sha256":"c23c90976ad035f36506f2fb8bad2f11a00eb5cf65839344e88a46499a9ce8fd",
+   "url":"https://pypi.io/packages/source/s/silx/silx-0.15.1.tar.gz"
   },
   "test":{
    "imports":[
@@ -307,7 +307,7 @@
   }
  },
  "pinning_version":"2021.05.17.04.31.24",
- "raw_meta_yaml":"{% set name = \"silx\" %}\n{% set version = \"0.15.0\" %}\n{% set sha256 = \"edd086844f2da01cf18799a5689b88329dc605218eb55de16de3cfa5e211dfdf\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv\n  skip: true  # [py<36]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - python\n    - cython\n    - numpy\n    - pip\n  run:\n    - python\n    - fabio >=0.7\n    - h5py\n    - ipython\n    - mako\n    - matplotlib >=1.2.0\n    - python-dateutil\n    - qtconsole\n    - six\n    - {{ pin_compatible('numpy') }}\n    # optional dep causing lots of problems\n    #- pyopengl\n\ntest:\n  imports:\n    - silx\n    - silx.test\n\nabout:\n  home: https://github.com/silx-kit/silx\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: The silx project aims at providing a collection of Python packages to support the development of data assessment, reduction and analysis applications at synchrotron radiation facilities.\n  description: |\n    The silx project aims at providing a collection of Python packages to\n    support the development of data assessment, reduction and analysis\n    applications at synchrotron radiation facilities. It aims at providing\n    reading/writing different file formats, data reduction routines and a set\n    of Qt widgets to browse and visualize data.\n  doc_url: https://pythonhosted.org/silx/\n  dev_url: https://github.com/silx-kit/silx\n",
+ "raw_meta_yaml":"{% set name = \"silx\" %}\n{% set version = \"0.15.1\" %}\n{% set sha256 = \"c23c90976ad035f36506f2fb8bad2f11a00eb5cf65839344e88a46499a9ce8fd\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv\n  skip: true  # [py<36]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - python\n    - cython\n    - numpy\n    - pip\n  run:\n    - python\n    - fabio >=0.7\n    - h5py\n    - ipython\n    - mako\n    - matplotlib >=1.2.0\n    - python-dateutil\n    - qtconsole\n    - six\n    - {{ pin_compatible('numpy') }}\n    # optional dep causing lots of problems\n    #- pyopengl\n\ntest:\n  imports:\n    - silx\n    - silx.test\n\nabout:\n  home: https://github.com/silx-kit/silx\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: The silx project aims at providing a collection of Python packages to support the development of data assessment, reduction and analysis applications at synchrotron radiation facilities.\n  description: |\n    The silx project aims at providing a collection of Python packages to\n    support the development of data assessment, reduction and analysis\n    applications at synchrotron radiation facilities. It aims at providing\n    reading/writing different file formats, data reduction routines and a set\n    of Qt widgets to browse and visualize data.\n  doc_url: https://pythonhosted.org/silx/\n  dev_url: https://github.com/silx-kit/silx\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -404,7 +404,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/s/silx/silx-0.15.0.tar.gz",
- "version":"0.15.0",
+ "version":"0.15.1",
  "win_64_meta_yaml":{
   "about":{
    "description":"The silx project aims at providing a collection of Python packages to\nsupport the development of data assessment, reduction and analysis\napplications at synchrotron radiation facilities. It aims at providing\nreading/writing different file formats, data reduction routines and a set\nof Qt widgets to browse and visualize data.\n",
@@ -422,7 +422,7 @@
   },
   "package":{
    "name":"silx",
-   "version":"0.15.0"
+   "version":"0.15.1"
   },
   "requirements":{
    "build":[
@@ -449,8 +449,8 @@
    ]
   },
   "source":{
-   "sha256":"edd086844f2da01cf18799a5689b88329dc605218eb55de16de3cfa5e211dfdf",
-   "url":"https://pypi.io/packages/source/s/silx/silx-0.15.0.tar.gz"
+   "sha256":"c23c90976ad035f36506f2fb8bad2f11a00eb5cf65839344e88a46499a9ce8fd",
+   "url":"https://pypi.io/packages/source/s/silx/silx-0.15.1.tar.gz"
   },
   "test":{
    "imports":[

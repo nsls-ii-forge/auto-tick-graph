@@ -504,7 +504,7 @@
  "new_version":"4.1.1",
  "new_version_attempts":{
   "4.1.0":201,
-  "4.1.1":194
+  "4.1.1":195
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -770,7 +770,7 @@
    "summary":"An open source Message Passing Interface implementation."
   },
   "build":{
-   "number":"0",
+   "number":0,
    "skip":true
   },
   "outputs":[
