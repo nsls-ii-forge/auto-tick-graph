@@ -19,7 +19,7 @@
    "summary":"Portable network interface information"
   },
   "build":{
-   "number":0,
+   "number":"0",
    "script":"-m pip install . --no-deps -vv"
   },
   "package":{
@@ -83,7 +83,7 @@
    "summary":"Portable network interface information"
   },
   "build":{
-   "number":0,
+   "number":"0",
    "script":"-m pip install . --no-deps -vv"
   },
   "package":{
