@@ -16,11 +16,11 @@
    "summary":"Bluesky analysis metapackage for NSLS-II beamlines"
   },
   "build":{
-   "number":"1"
+   "number":"0"
   },
   "package":{
    "name":"nsls2-analysis",
-   "version":"2021C1.2"
+   "version":"2021C2.0"
   },
   "requirements":{
    "host":[
@@ -28,7 +28,7 @@
    ],
    "run":[
     "python",
-    "analysis ==2021C1.2=*_2",
+    "analysis ==2021C1.2=*_3",
     "chxtools",
     "csxtools",
     "edrixs",
@@ -41,6 +41,7 @@
     "lixtools",
     "nsls2-detector-handlers >=0.0.2",
     "nslsii >=0.1.1",
+    "oct2py",
     "pdfstream",
     "py4xs",
     "pyqtgraph",
@@ -62,10 +63,12 @@
     "napari --help",
     "napari --version",
     "nexpy --help",
-    "python -c \"import pandas; print(pandas.read_excel('test.xlsx'))\""
+    "python -c \"import pandas; print(pandas.read_excel('test.xlsx'))\"",
+    "python -c \"import pandas; print(pandas.read_excel('test.xls'))\""
    ],
    "files":[
-    "test.xlsx"
+    "test.xlsx",
+    "test.xls"
    ],
    "imports":[
     "area_detector_handlers",
@@ -138,6 +141,7 @@
     "lixtools",
     "nsls2-detector-handlers",
     "nslsii",
+    "oct2py",
     "pdfstream",
     "py4xs",
     "pyqtgraph",
@@ -161,12 +165,12 @@
    "summary":"Bluesky analysis metapackage for NSLS-II beamlines"
   },
   "build":{
-   "number":"1",
+   "number":"0",
    "skip":true
   },
   "package":{
    "name":"nsls2-analysis",
-   "version":"2021C1.2"
+   "version":"2021C2.0"
   },
   "requirements":{
    "host":[
@@ -176,7 +180,7 @@
    ],
    "run":[
     "python",
-    "analysis ==2021C1.2=*_2",
+    "analysis ==2021C1.2=*_3",
     "chxtools",
     "csxtools",
     "edrixs",
@@ -189,13 +193,14 @@
     "lixtools",
     "nsls2-detector-handlers >=0.0.2",
     "nslsii >=0.1.1",
+    "oct2py",
     "pdfstream",
     "py4xs",
     "pyqtgraph",
     "sixtools",
     "xpdan",
     "python",
-    "analysis ==2021C1.2=*_2",
+    "analysis ==2021C1.2=*_3",
     "chxtools",
     "csxtools",
     "edrixs",
@@ -208,13 +213,14 @@
     "lixtools",
     "nsls2-detector-handlers >=0.0.2",
     "nslsii >=0.1.1",
+    "oct2py",
     "pdfstream",
     "py4xs",
     "pyqtgraph",
     "sixtools",
     "xpdan",
     "python",
-    "analysis ==2021C1.2=*_2",
+    "analysis ==2021C1.2=*_3",
     "chxtools",
     "csxtools",
     "edrixs",
@@ -227,6 +233,7 @@
     "lixtools",
     "nsls2-detector-handlers >=0.0.2",
     "nslsii >=0.1.1",
+    "oct2py",
     "pdfstream",
     "py4xs",
     "pyqtgraph",
@@ -249,6 +256,7 @@
     "napari --version",
     "nexpy --help",
     "python -c \"import pandas; print(pandas.read_excel('test.xlsx'))\"",
+    "python -c \"import pandas; print(pandas.read_excel('test.xls'))\"",
     "check-results -t channels -f conda-forge",
     "check-results -t version -p bluesky     -e 1.6",
     "check-results -t version -p databroker  -e 1.2",
@@ -262,6 +270,7 @@
     "napari --version",
     "nexpy --help",
     "python -c \"import pandas; print(pandas.read_excel('test.xlsx'))\"",
+    "python -c \"import pandas; print(pandas.read_excel('test.xls'))\"",
     "check-results -t channels -f conda-forge",
     "check-results -t version -p bluesky     -e 1.6",
     "check-results -t version -p databroker  -e 1.2",
@@ -274,12 +283,16 @@
     "napari --help",
     "napari --version",
     "nexpy --help",
-    "python -c \"import pandas; print(pandas.read_excel('test.xlsx'))\""
+    "python -c \"import pandas; print(pandas.read_excel('test.xlsx'))\"",
+    "python -c \"import pandas; print(pandas.read_excel('test.xls'))\""
    ],
    "files":[
     "test.xlsx",
+    "test.xls",
     "test.xlsx",
-    "test.xlsx"
+    "test.xls",
+    "test.xlsx",
+    "test.xls"
    ],
    "imports":[
     "area_detector_handlers",
@@ -410,12 +423,12 @@
    "summary":"Bluesky analysis metapackage for NSLS-II beamlines"
   },
   "build":{
-   "number":"1",
+   "number":"0",
    "skip":true
   },
   "package":{
    "name":"nsls2-analysis",
-   "version":"2021C1.2"
+   "version":"2021C2.0"
   },
   "requirements":{
    "host":[
@@ -423,7 +436,7 @@
    ],
    "run":[
     "python",
-    "analysis ==2021C1.2=*_2",
+    "analysis ==2021C1.2=*_3",
     "chxtools",
     "csxtools",
     "edrixs",
@@ -436,6 +449,7 @@
     "lixtools",
     "nsls2-detector-handlers >=0.0.2",
     "nslsii >=0.1.1",
+    "oct2py",
     "pdfstream",
     "py4xs",
     "pyqtgraph",
@@ -457,10 +471,12 @@
     "napari --help",
     "napari --version",
     "nexpy --help",
-    "python -c \"import pandas; print(pandas.read_excel('test.xlsx'))\""
+    "python -c \"import pandas; print(pandas.read_excel('test.xlsx'))\"",
+    "python -c \"import pandas; print(pandas.read_excel('test.xls'))\""
    ],
    "files":[
-    "test.xlsx"
+    "test.xlsx",
+    "test.xls"
    ],
    "imports":[
     "area_detector_handlers",
@@ -533,6 +549,7 @@
     "lixtools",
     "nsls2-detector-handlers",
     "nslsii",
+    "oct2py",
     "pdfstream",
     "py4xs",
     "pyqtgraph",
@@ -548,7 +565,7 @@
    ]
   }
  },
- "raw_meta_yaml":"{% set name = \"nsls2-analysis\" %}\n{% set year = \"2021\" %}\n{% set cycle = \"1\" %}\n{% set version = \"2\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ year }}C{{ cycle }}.{{ version }}\n\nbuild:\n  number: 1\n  skip: true  # [py<37 or not linux]\n\nrequirements:\n  host:\n    - python\n  run:\n    - python\n    - analysis ==2021C1.2=*_2\n    - chxtools\n    - csxtools\n    - edrixs\n    - eiger-io\n    - hxntools >=0.5\n    - igor\n    - ispyb\n    - isstools\n    - legacy-suitcase\n    - lixtools\n    - nsls2-detector-handlers >=0.0.2\n    - nslsii >=0.1.1  # needed for transforms at csx\n    - pdfstream\n    - py4xs\n    - pyqtgraph\n    - sixtools\n    - xpdan\n\ntest:\n  requires:\n    - nsls2forge-utils\n  imports:\n    - area_detector_handlers\n    - bluesky\n    - dask\n    - databroker\n    - event_model\n    - lmfit\n    - matplotlib\n    - napari\n    - numpy\n    - ophyd\n    - oscars\n    - peakutils\n    - pymongo\n    - pyxrf\n    - skbeam\n    - suitcase.csv\n    - suitcase.json_metadata\n    - suitcase.jsonl\n    - suitcase.mongo_embedded\n    - suitcase.mongo_normalized\n    - suitcase.msgpack\n    - suitcase.specfile\n    - suitcase.tiff_series\n    - suitcase.tiff_stack\n    - suitcase.utils\n    - xray_vision\n    # Beamline-specific packages\n    - chxtools\n    - csxtools\n    - edrixs\n    - eiger_io\n    - hxntools\n    - ispyb\n    - isstools\n    - lixtools\n    - nslsii\n    - py4xs\n    - sixtools\n  files:\n    - test.xlsx\n  commands:\n    # Fail if the \"conda-forge\" channel is in the list of channels.\n    - check-results -t channels -f conda-forge\n    # Fail if versions of the packages are not as expected minimum ones.\n    - check-results -t version -p bluesky     -e 1.6\n    - check-results -t version -p databroker  -e 1.2\n    - check-results -t version -p event_model -e 1.17\n    - check-results -t version -p nslsii      -e 0.1.1\n    - check-results -t version -p ophyd       -e 1.6\n    - python -V\n    - ipython -V\n    - conda-pack --help\n    - napari --help\n    - napari --version\n    - nexpy --help\n    - python -c \"import pandas; print(pandas.read_excel('test.xlsx'))\"\n\nabout:\n  home: https://github.com/NSLS-II\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: Bluesky analysis metapackage for NSLS-II beamlines\n",
+ "raw_meta_yaml":"{% set name = \"nsls2-analysis\" %}\n{% set year = \"2021\" %}\n{% set cycle = \"2\" %}\n{% set version = \"0\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ year }}C{{ cycle }}.{{ version }}\n\nbuild:\n  number: 0\n  skip: true  # [py<37 or not linux]\n\nrequirements:\n  host:\n    - python\n  run:\n    - python\n    - analysis ==2021C1.2=*_3\n    - chxtools\n    - csxtools\n    - edrixs\n    - eiger-io\n    - hxntools >=0.5\n    - igor\n    - ispyb\n    - isstools\n    - legacy-suitcase\n    - lixtools\n    - nsls2-detector-handlers >=0.0.2\n    - nslsii >=0.1.1  # needed for transforms at csx\n    - oct2py\n    - pdfstream\n    - py4xs\n    - pyqtgraph\n    - sixtools\n    - xpdan\n\ntest:\n  requires:\n    - nsls2forge-utils\n  imports:\n    - area_detector_handlers\n    - bluesky\n    - dask\n    - databroker\n    - event_model\n    - lmfit\n    - matplotlib\n    - napari\n    - numpy\n    - ophyd\n    - oscars\n    - peakutils\n    - pymongo\n    - pyxrf\n    - skbeam\n    - suitcase.csv\n    - suitcase.json_metadata\n    - suitcase.jsonl\n    - suitcase.mongo_embedded\n    - suitcase.mongo_normalized\n    - suitcase.msgpack\n    - suitcase.specfile\n    - suitcase.tiff_series\n    - suitcase.tiff_stack\n    - suitcase.utils\n    - xray_vision\n    # Beamline-specific packages\n    - chxtools\n    - csxtools\n    - edrixs\n    - eiger_io\n    - hxntools\n    - ispyb\n    - isstools\n    - lixtools\n    - nslsii\n    - py4xs\n    - sixtools\n  files:\n    - test.xlsx\n    - test.xls\n  commands:\n    # Fail if the \"conda-forge\" channel is in the list of channels.\n    - check-results -t channels -f conda-forge\n    # Fail if versions of the packages are not as expected minimum ones.\n    - check-results -t version -p bluesky     -e 1.6\n    - check-results -t version -p databroker  -e 1.2\n    - check-results -t version -p event_model -e 1.17\n    - check-results -t version -p nslsii      -e 0.1.1\n    - check-results -t version -p ophyd       -e 1.6\n    - python -V\n    - ipython -V\n    - conda-pack --help\n    - napari --help\n    - napari --version\n    - nexpy --help\n    # Test reading the newer format .xlsx with pandas/openpyxl:\n    - python -c \"import pandas; print(pandas.read_excel('test.xlsx'))\"\n    # Test reading the old format .xls with pandas/xlrd:\n    - python -c \"import pandas; print(pandas.read_excel('test.xls'))\"\n\nabout:\n  home: https://github.com/NSLS-II\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: Bluesky analysis metapackage for NSLS-II beamlines\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -565,6 +582,7 @@
    "lixtools",
    "nsls2-detector-handlers",
    "nslsii",
+   "oct2py",
    "pdfstream",
    "py4xs",
    "pyqtgraph",
@@ -600,6 +618,7 @@
     "lixtools",
     "nsls2-detector-handlers",
     "nslsii",
+    "oct2py",
     "pdfstream",
     "py4xs",
     "pyqtgraph",
@@ -630,7 +649,7 @@
   "run":{
    "__set__":true,
    "elements":[
-    "analysis ==2021C1.2=*_2",
+    "analysis ==2021C1.2=*_3",
     "chxtools",
     "csxtools",
     "edrixs",
@@ -643,6 +662,7 @@
     "lixtools",
     "nsls2-detector-handlers >=0.0.2",
     "nslsii >=0.1.1",
+    "oct2py",
     "pdfstream",
     "py4xs",
     "pyqtgraph",
@@ -658,7 +678,7 @@
    ]
   }
  },
- "version":"2021C1.2",
+ "version":"2021C2.0",
  "win_64_meta_yaml":{
   "about":{
    "home":"https://github.com/NSLS-II",
@@ -667,12 +687,12 @@
    "summary":"Bluesky analysis metapackage for NSLS-II beamlines"
   },
   "build":{
-   "number":"1",
+   "number":"0",
    "skip":true
   },
   "package":{
    "name":"nsls2-analysis",
-   "version":"2021C1.2"
+   "version":"2021C2.0"
   },
   "requirements":{
    "host":[
@@ -680,7 +700,7 @@
    ],
    "run":[
     "python",
-    "analysis ==2021C1.2=*_2",
+    "analysis ==2021C1.2=*_3",
     "chxtools",
     "csxtools",
     "edrixs",
@@ -693,6 +713,7 @@
     "lixtools",
     "nsls2-detector-handlers >=0.0.2",
     "nslsii >=0.1.1",
+    "oct2py",
     "pdfstream",
     "py4xs",
     "pyqtgraph",
@@ -714,10 +735,12 @@
     "napari --help",
     "napari --version",
     "nexpy --help",
-    "python -c \"import pandas; print(pandas.read_excel('test.xlsx'))\""
+    "python -c \"import pandas; print(pandas.read_excel('test.xlsx'))\"",
+    "python -c \"import pandas; print(pandas.read_excel('test.xls'))\""
    ],
    "files":[
-    "test.xlsx"
+    "test.xlsx",
+    "test.xls"
    ],
    "imports":[
     "area_detector_handlers",
@@ -790,6 +813,7 @@
     "lixtools",
     "nsls2-detector-handlers",
     "nslsii",
+    "oct2py",
     "pdfstream",
     "py4xs",
     "pyqtgraph",

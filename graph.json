@@ -2895,6 +2895,10 @@
    "target":"xrt"
   },
   {
+   "source":"oct2py",
+   "target":"nsls2-analysis"
+  },
+  {
    "source":"octave_kernel",
    "target":"oct2py"
   },
