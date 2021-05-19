@@ -1627,6 +1627,10 @@
    "target":"nexpy"
   },
   {
+   "source":"ipykernel",
+   "target":"octave_kernel"
+  },
+  {
    "source":"ipympl",
    "target":"analysis"
   },
@@ -1657,6 +1661,10 @@
   {
    "source":"ipython",
    "target":"nslsii"
+  },
+  {
+   "source":"ipython",
+   "target":"oct2py"
   },
   {
    "source":"ipython",
@@ -1769,6 +1777,10 @@
   {
    "source":"jupyter_client",
    "target":"nbclient"
+  },
+  {
+   "source":"jupyter_client",
+   "target":"octave_kernel"
   },
   {
    "source":"jupyter_client",
@@ -2267,6 +2279,10 @@
    "target":"pygobject"
   },
   {
+   "source":"metakernel",
+   "target":"octave_kernel"
+  },
+  {
    "source":"mkl",
    "target":"analysis"
   },
@@ -2692,6 +2708,10 @@
   },
   {
    "source":"numpy",
+   "target":"oct2py"
+  },
+  {
+   "source":"numpy",
    "target":"ophyd"
   },
   {
@@ -2873,6 +2893,10 @@
   {
    "source":"numpy",
    "target":"xrt"
+  },
+  {
+   "source":"octave_kernel",
+   "target":"oct2py"
   },
   {
    "source":"openblas",
@@ -3613,6 +3637,14 @@
   {
    "source":"pip",
    "target":"numconv"
+  },
+  {
+   "source":"pip",
+   "target":"oct2py"
+  },
+  {
+   "source":"pip",
+   "target":"octave_kernel"
   },
   {
    "source":"pip",
@@ -5024,6 +5056,14 @@
   },
   {
    "source":"python",
+   "target":"oct2py"
+  },
+  {
+   "source":"python",
+   "target":"octave_kernel"
+  },
+  {
+   "source":"python",
    "target":"openbabel"
   },
   {
@@ -5897,6 +5937,10 @@
   {
    "source":"scipy",
    "target":"nexusformat"
+  },
+  {
+   "source":"scipy",
+   "target":"oct2py"
   },
   {
    "source":"scipy",
@@ -10275,6 +10319,24 @@
    "id":"intel-openmp",
    "payload":{
     "__lazy_json__":"node_attrs/intel-openmp.json"
+   }
+  },
+  {
+   "id":"oct2py",
+   "payload":{
+    "__lazy_json__":"node_attrs/oct2py.json"
+   }
+  },
+  {
+   "id":"octave_kernel",
+   "payload":{
+    "__lazy_json__":"node_attrs/octave_kernel.json"
+   }
+  },
+  {
+   "id":"metakernel",
+   "payload":{
+    "__lazy_json__":"node_attrs/metakernel.json"
    }
   }
  ]

@@ -43,7 +43,7 @@
   },
   "package":{
    "name":"pdfstream",
-   "version":"0.4.6"
+   "version":"0.4.7"
   },
   "requirements":{
    "build":[
@@ -66,8 +66,8 @@
    ]
   },
   "source":{
-   "sha256":"5b553cc5606be61aacd1d26a6231d3f65ec20d4b095a7559f9ad559dd61c1787",
-   "url":"https://pypi.io/packages/source/p/pdfstream/pdfstream-0.4.6.tar.gz"
+   "sha256":"af44fb6185f37677c413c50bac970f854a572af4621160b13dc0248a308bbe9f",
+   "url":"https://pypi.io/packages/source/p/pdfstream/pdfstream-0.4.7.tar.gz"
   },
   "test":{
    "commands":[
@@ -132,7 +132,7 @@
   },
   "package":{
    "name":"pdfstream",
-   "version":"0.4.6"
+   "version":"0.4.7"
   },
   "requirements":{
    "build":[
@@ -183,8 +183,8 @@
    ]
   },
   "source":{
-   "sha256":"5b553cc5606be61aacd1d26a6231d3f65ec20d4b095a7559f9ad559dd61c1787",
-   "url":"https://pypi.io/packages/source/p/pdfstream/pdfstream-0.4.6.tar.gz"
+   "sha256":"af44fb6185f37677c413c50bac970f854a572af4621160b13dc0248a308bbe9f",
+   "url":"https://pypi.io/packages/source/p/pdfstream/pdfstream-0.4.7.tar.gz"
   },
   "test":{
    "commands":[
@@ -215,7 +215,7 @@
   }
  },
  "name":"pdfstream",
- "new_version":"0.4.6",
+ "new_version":"0.4.7",
  "new_version_attempts":{
   "0.4.6":1
  },
@@ -235,7 +235,7 @@
   },
   "package":{
    "name":"pdfstream",
-   "version":"0.4.6"
+   "version":"0.4.7"
   },
   "requirements":{
    "build":[
@@ -258,8 +258,8 @@
    ]
   },
   "source":{
-   "sha256":"5b553cc5606be61aacd1d26a6231d3f65ec20d4b095a7559f9ad559dd61c1787",
-   "url":"https://pypi.io/packages/source/p/pdfstream/pdfstream-0.4.6.tar.gz"
+   "sha256":"af44fb6185f37677c413c50bac970f854a572af4621160b13dc0248a308bbe9f",
+   "url":"https://pypi.io/packages/source/p/pdfstream/pdfstream-0.4.7.tar.gz"
   },
   "test":{
    "commands":[
@@ -310,7 +310,7 @@
   }
  },
  "pinning_version":"2021.04.09.16.03.53",
- "raw_meta_yaml":"{% set name = \"pdfstream\" %}\n{% set version = \"0.4.6\" %}\n{% set sha256 = \"5b553cc5606be61aacd1d26a6231d3f65ec20d4b095a7559f9ad559dd61c1787\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  build:\n    - python >=3.7\n    - pip\n  run:\n    - python >=3.7\n    - bluesky\n    - databroker\n    - fire\n    - numba\n    - pyfai\n    - scikit-beam\n    - suitcase-csv\n    - suitcase-json-metadata\n    - suitcase-tiff\n    - xpdview\n    - xray-vision\n\ntest:\n  imports:\n    - pdfstream\n    - pdfstream.integration\n    - pdfstream.transformation\n    - pdfstream.utils\n    - pdfstream.vend\n    - pdfstream.visualization\n  commands:\n    - pdfstream -- --help\n\nabout:\n  home: https://github.com/xpdAcq/pdfstream\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: The data analysis toolbox for the study on pair distribution function (PDF).\n",
+ "raw_meta_yaml":"{% set name = \"pdfstream\" %}\n{% set version = \"0.4.7\" %}\n{% set sha256 = \"af44fb6185f37677c413c50bac970f854a572af4621160b13dc0248a308bbe9f\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  build:\n    - python >=3.7\n    - pip\n  run:\n    - python >=3.7\n    - bluesky\n    - databroker\n    - fire\n    - numba\n    - pyfai\n    - scikit-beam\n    - suitcase-csv\n    - suitcase-json-metadata\n    - suitcase-tiff\n    - xpdview\n    - xray-vision\n\ntest:\n  imports:\n    - pdfstream\n    - pdfstream.integration\n    - pdfstream.transformation\n    - pdfstream.utils\n    - pdfstream.vend\n    - pdfstream.visualization\n  commands:\n    - pdfstream -- --help\n\nabout:\n  home: https://github.com/xpdAcq/pdfstream\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: The data analysis toolbox for the study on pair distribution function (PDF).\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -400,7 +400,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/p/pdfstream/pdfstream-0.4.5.tar.gz",
- "version":"0.4.6",
+ "version":"0.4.7",
  "win_64_meta_yaml":{
   "about":{
    "home":"https://github.com/xpdAcq/pdfstream",
@@ -416,7 +416,7 @@
   },
   "package":{
    "name":"pdfstream",
-   "version":"0.4.6"
+   "version":"0.4.7"
   },
   "requirements":{
    "build":[
@@ -439,8 +439,8 @@
    ]
   },
   "source":{
-   "sha256":"5b553cc5606be61aacd1d26a6231d3f65ec20d4b095a7559f9ad559dd61c1787",
-   "url":"https://pypi.io/packages/source/p/pdfstream/pdfstream-0.4.6.tar.gz"
+   "sha256":"af44fb6185f37677c413c50bac970f854a572af4621160b13dc0248a308bbe9f",
+   "url":"https://pypi.io/packages/source/p/pdfstream/pdfstream-0.4.7.tar.gz"
   },
   "test":{
    "commands":[
