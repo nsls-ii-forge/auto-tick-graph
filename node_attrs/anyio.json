@@ -76,7 +76,7 @@
   },
   "package":{
    "name":"anyio",
-   "version":"3.0.1"
+   "version":"3.1.0"
   },
   "requirements":{
    "host":[
@@ -93,8 +93,8 @@
    ]
   },
   "source":{
-   "sha256":"1ef7622396ab55829d4236a6f75e2199df6d26a4ba79bea0cb942a5fd2f79a23",
-   "url":"https://pypi.io/packages/source/a/anyio/anyio-3.0.1.tar.gz"
+   "sha256":"43e20711a9d003d858d694c12356dc44ab82c03ccc5290313c3392fa349dad0e",
+   "url":"https://pypi.io/packages/source/a/anyio/anyio-3.1.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -144,7 +144,7 @@
   },
   "package":{
    "name":"anyio",
-   "version":"3.0.1"
+   "version":"3.1.0"
   },
   "requirements":{
    "host":[
@@ -177,8 +177,8 @@
    ]
   },
   "source":{
-   "sha256":"1ef7622396ab55829d4236a6f75e2199df6d26a4ba79bea0cb942a5fd2f79a23",
-   "url":"https://pypi.io/packages/source/a/anyio/anyio-3.0.1.tar.gz"
+   "sha256":"43e20711a9d003d858d694c12356dc44ab82c03ccc5290313c3392fa349dad0e",
+   "url":"https://pypi.io/packages/source/a/anyio/anyio-3.1.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -210,7 +210,7 @@
   },
   "package":{
    "name":"anyio",
-   "version":"3.0.1"
+   "version":"3.1.0"
   },
   "requirements":{
    "host":[
@@ -227,8 +227,8 @@
    ]
   },
   "source":{
-   "sha256":"1ef7622396ab55829d4236a6f75e2199df6d26a4ba79bea0cb942a5fd2f79a23",
-   "url":"https://pypi.io/packages/source/a/anyio/anyio-3.0.1.tar.gz"
+   "sha256":"43e20711a9d003d858d694c12356dc44ab82c03ccc5290313c3392fa349dad0e",
+   "url":"https://pypi.io/packages/source/a/anyio/anyio-3.1.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -265,7 +265,7 @@
   }
  },
  "pinning_version":"2021.05.18.06.34.34",
- "raw_meta_yaml":"{% set name = \"anyio\" %}\n{% set version = \"3.0.1\" %}\n{% set sha256 = \"1ef7622396ab55829d4236a6f75e2199df6d26a4ba79bea0cb942a5fd2f79a23\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  skip: true  # [py<36]\n\nrequirements:\n  host:\n    - python\n    - pip\n    - setuptools_scm\n  run:\n    - python\n    - curio\n    - dataclasses  # [py<37]\n    - sniffio\n    - trio\n    # CF runs the build on Python 3.8+, and the importing test imports things\n    # from \"typing\". We need a backport package \"typing-extensions\" to run the\n    # build/test successfully on 3.7 and older.\n    - typing-extensions  # [py<38]\n\ntest:\n  imports:\n    - anyio\n\nabout:\n  home: https://github.com/agronholm/anyio\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: High level compatibility layer for multiple asynchronous event loop implementations on Python\n",
+ "raw_meta_yaml":"{% set name = \"anyio\" %}\n{% set version = \"3.1.0\" %}\n{% set sha256 = \"43e20711a9d003d858d694c12356dc44ab82c03ccc5290313c3392fa349dad0e\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  skip: true  # [py<36]\n\nrequirements:\n  host:\n    - python\n    - pip\n    - setuptools_scm\n  run:\n    - python\n    - curio\n    - dataclasses  # [py<37]\n    - sniffio\n    - trio\n    # CF runs the build on Python 3.8+, and the importing test imports things\n    # from \"typing\". We need a backport package \"typing-extensions\" to run the\n    # build/test successfully on 3.7 and older.\n    - typing-extensions  # [py<38]\n\ntest:\n  imports:\n    - anyio\n\nabout:\n  home: https://github.com/agronholm/anyio\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: High level compatibility layer for multiple asynchronous event loop implementations on Python\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -337,7 +337,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/a/anyio/anyio-2.2.0.tar.gz",
- "version":"3.0.1",
+ "version":"3.1.0",
  "win_64_meta_yaml":{
   "about":{
    "home":"https://github.com/agronholm/anyio",
@@ -352,7 +352,7 @@
   },
   "package":{
    "name":"anyio",
-   "version":"3.0.1"
+   "version":"3.1.0"
   },
   "requirements":{
    "host":[
@@ -369,8 +369,8 @@
    ]
   },
   "source":{
-   "sha256":"1ef7622396ab55829d4236a6f75e2199df6d26a4ba79bea0cb942a5fd2f79a23",
-   "url":"https://pypi.io/packages/source/a/anyio/anyio-3.0.1.tar.gz"
+   "sha256":"43e20711a9d003d858d694c12356dc44ab82c03ccc5290313c3392fa349dad0e",
+   "url":"https://pypi.io/packages/source/a/anyio/anyio-3.1.0.tar.gz"
   },
   "test":{
    "imports":[
