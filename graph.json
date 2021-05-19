@@ -1607,6 +1607,10 @@
    "target":"analysis"
   },
   {
+   "source":"intel-openmp",
+   "target":"pyxrf"
+  },
+  {
    "source":"ipykernel",
    "target":"analysis"
   },
@@ -2285,6 +2289,10 @@
   {
    "source":"mkl",
    "target":"analysis"
+  },
+  {
+   "source":"mkl",
+   "target":"pyxrf"
   },
   {
    "source":"mock",

@@ -48,7 +48,7 @@
   },
   "package":{
    "name":"pyxrf",
-   "version":"1.0.4"
+   "version":"1.0.5"
   },
   "requirements":{
    "host":[
@@ -61,11 +61,13 @@
     "dask",
     "distributed",
     "h5py >=2.9.0",
+    "intel-openmp =2019.4",
     "ipywidgets",
     "jsonschema",
     "jupyter",
     "lmfit >=0.8.3",
-    "matplotlib <=3.2.2",
+    "matplotlib !=3.3.*",
+    "mkl =2019.4",
     "numba",
     "numpy",
     "pandas",
@@ -84,8 +86,8 @@
    ]
   },
   "source":{
-   "sha256":"ce83f6d5aa80a8c81ad4b1a398f08a4221cf9627be6b089f2148502621dbbfa8",
-   "url":"https://pypi.io/packages/source/p/pyxrf/pyxrf-1.0.4.tar.gz"
+   "sha256":"8a17bde2136e0bca0ee22e787a4e2773bad0007f78edde6eed52f71c1db31642",
+   "url":"https://pypi.io/packages/source/p/pyxrf/pyxrf-1.0.5.tar.gz"
   },
   "test":{
    "imports":[
@@ -135,11 +137,13 @@
     "dask",
     "distributed",
     "h5py",
+    "intel-openmp",
     "ipywidgets",
     "jsonschema",
     "jupyter",
     "lmfit",
     "matplotlib",
+    "mkl",
     "numba",
     "numpy",
     "pandas",
@@ -185,7 +189,7 @@
   },
   "package":{
    "name":"pyxrf",
-   "version":"1.0.4"
+   "version":"1.0.5"
   },
   "requirements":{
    "host":[
@@ -202,11 +206,13 @@
     "dask",
     "distributed",
     "h5py >=2.9.0",
+    "intel-openmp =2019.4",
     "ipywidgets",
     "jsonschema",
     "jupyter",
     "lmfit >=0.8.3",
-    "matplotlib <=3.2.2",
+    "matplotlib !=3.3.*",
+    "mkl =2019.4",
     "numba",
     "numpy",
     "pandas",
@@ -227,11 +233,13 @@
     "dask",
     "distributed",
     "h5py >=2.9.0",
+    "intel-openmp =2019.4",
     "ipywidgets",
     "jsonschema",
     "jupyter",
     "lmfit >=0.8.3",
-    "matplotlib <=3.2.2",
+    "matplotlib !=3.3.*",
+    "mkl =2019.4",
     "numba",
     "numpy",
     "pandas",
@@ -252,11 +260,13 @@
     "dask",
     "distributed",
     "h5py >=2.9.0",
+    "intel-openmp =2019.4",
     "ipywidgets",
     "jsonschema",
     "jupyter",
     "lmfit >=0.8.3",
-    "matplotlib <=3.2.2",
+    "matplotlib !=3.3.*",
+    "mkl =2019.4",
     "numba",
     "numpy",
     "pandas",
@@ -275,8 +285,8 @@
    ]
   },
   "source":{
-   "sha256":"ce83f6d5aa80a8c81ad4b1a398f08a4221cf9627be6b089f2148502621dbbfa8",
-   "url":"https://pypi.io/packages/source/p/pyxrf/pyxrf-1.0.4.tar.gz"
+   "sha256":"8a17bde2136e0bca0ee22e787a4e2773bad0007f78edde6eed52f71c1db31642",
+   "url":"https://pypi.io/packages/source/p/pyxrf/pyxrf-1.0.5.tar.gz"
   },
   "test":{
    "imports":[
@@ -381,7 +391,7 @@
   },
   "package":{
    "name":"pyxrf",
-   "version":"1.0.4"
+   "version":"1.0.5"
   },
   "requirements":{
    "host":[
@@ -394,11 +404,13 @@
     "dask",
     "distributed",
     "h5py >=2.9.0",
+    "intel-openmp =2019.4",
     "ipywidgets",
     "jsonschema",
     "jupyter",
     "lmfit >=0.8.3",
-    "matplotlib <=3.2.2",
+    "matplotlib !=3.3.*",
+    "mkl =2019.4",
     "numba",
     "numpy",
     "pandas",
@@ -417,8 +429,8 @@
    ]
   },
   "source":{
-   "sha256":"ce83f6d5aa80a8c81ad4b1a398f08a4221cf9627be6b089f2148502621dbbfa8",
-   "url":"https://pypi.io/packages/source/p/pyxrf/pyxrf-1.0.4.tar.gz"
+   "sha256":"8a17bde2136e0bca0ee22e787a4e2773bad0007f78edde6eed52f71c1db31642",
+   "url":"https://pypi.io/packages/source/p/pyxrf/pyxrf-1.0.5.tar.gz"
   },
   "test":{
    "imports":[
@@ -468,11 +480,13 @@
     "dask",
     "distributed",
     "h5py",
+    "intel-openmp",
     "ipywidgets",
     "jsonschema",
     "jupyter",
     "lmfit",
     "matplotlib",
+    "mkl",
     "numba",
     "numpy",
     "pandas",
@@ -497,7 +511,7 @@
   }
  },
  "pinning_version":"2021.05.18.06.34.34",
- "raw_meta_yaml":"{% set name = \"pyxrf\" %}\n{% set version = \"1.0.4\" %}\n{% set sha256 = \"ce83f6d5aa80a8c81ad4b1a398f08a4221cf9627be6b089f2148502621dbbfa8\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  entry_points:\n    - pyxrf = pyxrf.pyxrf_run:run\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - atom\n    - dask\n    - distributed\n    - h5py >=2.9.0\n    - ipywidgets\n    - jsonschema\n    - jupyter\n    - lmfit >=0.8.3\n    - matplotlib <=3.2.2\n    - numba\n    - numpy\n    - pandas\n    - pillow\n    - progress\n    - pyqt >=5.9.2\n    - qtpy >=1.9.0\n    - pystackreg\n    - pyyaml\n    - requests\n    - scikit-beam >=0.0.24\n    - scikit-image\n    - scipy\n    - six\n    - tifffile\n\ntest:\n  imports:\n    - pyxrf\n    # - pyxrf.api\n    - pyxrf.api_dev\n    - pyxrf.core.fitting\n    - pyxrf.core.quant_analysis\n    - pyxrf.core.utils\n    - pyxrf.core.xrf_utils\n    - pyxrf.core.yaml_param_files\n    - pyxrf.gui_module\n    - pyxrf.gui_support\n    - pyxrf.model\n    - pyxrf.model.command_tools\n    - pyxrf.model.data_to_analysis_store\n    - pyxrf.model.draw_image\n    - pyxrf.model.draw_image_rgb\n    - pyxrf.model.fileio\n    - pyxrf.model.fit_spectrum\n    - pyxrf.model.lineplot\n    - pyxrf.model.load_data_from_db\n    - pyxrf.model.param_data\n    - pyxrf.model.parameters\n    - pyxrf.model.roi_model\n    - pyxrf.model.scan_metadata\n    - pyxrf.simulation.sim_xrf_scan_data\n    - pyxrf.xanes_maps.xanes_maps_api\n\nabout:\n  home: https://github.com/NSLS-II/PyXRF\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Python-based sophisticated fluorescence analysis package for fitting and visualizing X-ray fluorescence data\n  dev_url: https://github.com/NSLS-II/PyXRF\n  doc_url: http://nsls-ii.github.io/PyXRF\n",
+ "raw_meta_yaml":"{% set name = \"pyxrf\" %}\n{% set version = \"1.0.5\" %}\n{% set sha256 = \"8a17bde2136e0bca0ee22e787a4e2773bad0007f78edde6eed52f71c1db31642\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  entry_points:\n    - pyxrf = pyxrf.pyxrf_run:run\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - atom\n    - dask\n    - distributed\n    - h5py >=2.9.0\n    - intel-openmp =2019.4\n    - ipywidgets\n    - jsonschema\n    - jupyter\n    - lmfit >=0.8.3\n    - matplotlib !=3.3.*\n    - mkl =2019.4\n    - numba\n    - numpy\n    - pandas\n    - pillow\n    - progress\n    - pyqt >=5.9.2\n    - qtpy >=1.9.0\n    - pystackreg\n    - pyyaml\n    - requests\n    - scikit-beam >=0.0.24\n    - scikit-image\n    - scipy\n    - six\n    - tifffile\n\ntest:\n  imports:\n    - pyxrf\n    # - pyxrf.api\n    - pyxrf.api_dev\n    - pyxrf.core.fitting\n    - pyxrf.core.quant_analysis\n    - pyxrf.core.utils\n    - pyxrf.core.xrf_utils\n    - pyxrf.core.yaml_param_files\n    - pyxrf.gui_module\n    - pyxrf.gui_support\n    - pyxrf.model\n    - pyxrf.model.command_tools\n    - pyxrf.model.data_to_analysis_store\n    - pyxrf.model.draw_image\n    - pyxrf.model.draw_image_rgb\n    - pyxrf.model.fileio\n    - pyxrf.model.fit_spectrum\n    - pyxrf.model.lineplot\n    - pyxrf.model.load_data_from_db\n    - pyxrf.model.param_data\n    - pyxrf.model.parameters\n    - pyxrf.model.roi_model\n    - pyxrf.model.scan_metadata\n    - pyxrf.simulation.sim_xrf_scan_data\n    - pyxrf.xanes_maps.xanes_maps_api\n\nabout:\n  home: https://github.com/NSLS-II/PyXRF\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Python-based sophisticated fluorescence analysis package for fitting and visualizing X-ray fluorescence data\n  dev_url: https://github.com/NSLS-II/PyXRF\n  doc_url: http://nsls-ii.github.io/PyXRF\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -505,11 +519,13 @@
    "dask",
    "distributed",
    "h5py",
+   "intel-openmp",
    "ipywidgets",
    "jsonschema",
    "jupyter",
    "lmfit",
    "matplotlib",
+   "mkl",
    "numba",
    "numpy",
    "pandas",
@@ -548,11 +564,13 @@
     "dask",
     "distributed",
     "h5py",
+    "intel-openmp",
     "ipywidgets",
     "jsonschema",
     "jupyter",
     "lmfit",
     "matplotlib",
+    "mkl",
     "numba",
     "numpy",
     "pandas",
@@ -597,11 +615,13 @@
     "dask",
     "distributed",
     "h5py >=2.9.0",
+    "intel-openmp =2019.4",
     "ipywidgets",
     "jsonschema",
     "jupyter",
     "lmfit >=0.8.3",
-    "matplotlib <=3.2.2",
+    "matplotlib !=3.3.*",
+    "mkl =2019.4",
     "numba",
     "numpy",
     "pandas",
@@ -626,7 +646,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/p/pyxrf/pyxrf-1.0.4.tar.gz",
- "version":"1.0.4",
+ "version":"1.0.5",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/NSLS-II/PyXRF",
@@ -647,7 +667,7 @@
   },
   "package":{
    "name":"pyxrf",
-   "version":"1.0.4"
+   "version":"1.0.5"
   },
   "requirements":{
    "host":[
@@ -660,11 +680,13 @@
     "dask",
     "distributed",
     "h5py >=2.9.0",
+    "intel-openmp =2019.4",
     "ipywidgets",
     "jsonschema",
     "jupyter",
     "lmfit >=0.8.3",
-    "matplotlib <=3.2.2",
+    "matplotlib !=3.3.*",
+    "mkl =2019.4",
     "numba",
     "numpy",
     "pandas",
@@ -683,8 +705,8 @@
    ]
   },
   "source":{
-   "sha256":"ce83f6d5aa80a8c81ad4b1a398f08a4221cf9627be6b089f2148502621dbbfa8",
-   "url":"https://pypi.io/packages/source/p/pyxrf/pyxrf-1.0.4.tar.gz"
+   "sha256":"8a17bde2136e0bca0ee22e787a4e2773bad0007f78edde6eed52f71c1db31642",
+   "url":"https://pypi.io/packages/source/p/pyxrf/pyxrf-1.0.5.tar.gz"
   },
   "test":{
    "imports":[
@@ -734,11 +756,13 @@
     "dask",
     "distributed",
     "h5py",
+    "intel-openmp",
     "ipywidgets",
     "jsonschema",
     "jupyter",
     "lmfit",
     "matplotlib",
+    "mkl",
     "numba",
     "numpy",
     "pandas",
