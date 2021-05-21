@@ -44,12 +44,12 @@
     "pysassc = pysassc:main",
     "sassc = sassc:main"
    ],
-   "number":"2",
+   "number":"0",
    "script":"-m pip install . -vv --no-deps"
   },
   "package":{
    "name":"libsass",
-   "version":"0.20.1"
+   "version":"0.21.0"
   },
   "requirements":{
    "build":[
@@ -67,8 +67,8 @@
    ]
   },
   "source":{
-   "sha256":"e0e60836eccbf2d9e24ec978a805cd6642fa92515fbd95e3493fee276af76f8a",
-   "url":"https://pypi.io/packages/source/l/libsass/libsass-0.20.1.tar.gz"
+   "sha256":"d5ba529d9ce668be9380563279f3ffe988f27bc5b299c5a28453df2e0b0fbaf2",
+   "url":"https://pypi.io/packages/source/l/libsass/libsass-0.21.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -128,12 +128,12 @@
     "pysassc = pysassc:main",
     "sassc = sassc:main"
    ],
-   "number":"2",
+   "number":"0",
    "script":"-m pip install . -vv --no-deps"
   },
   "package":{
    "name":"libsass",
-   "version":"0.20.1"
+   "version":"0.21.0"
   },
   "requirements":{
    "build":[
@@ -165,8 +165,8 @@
    ]
   },
   "source":{
-   "sha256":"e0e60836eccbf2d9e24ec978a805cd6642fa92515fbd95e3493fee276af76f8a",
-   "url":"https://pypi.io/packages/source/l/libsass/libsass-0.20.1.tar.gz"
+   "sha256":"d5ba529d9ce668be9380563279f3ffe988f27bc5b299c5a28453df2e0b0fbaf2",
+   "url":"https://pypi.io/packages/source/l/libsass/libsass-0.21.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -206,12 +206,12 @@
     "pysassc = pysassc:main",
     "sassc = sassc:main"
    ],
-   "number":"2",
+   "number":"0",
    "script":"-m pip install . -vv --no-deps"
   },
   "package":{
    "name":"libsass",
-   "version":"0.20.1"
+   "version":"0.21.0"
   },
   "requirements":{
    "build":[
@@ -229,8 +229,8 @@
    ]
   },
   "source":{
-   "sha256":"e0e60836eccbf2d9e24ec978a805cd6642fa92515fbd95e3493fee276af76f8a",
-   "url":"https://pypi.io/packages/source/l/libsass/libsass-0.20.1.tar.gz"
+   "sha256":"d5ba529d9ce668be9380563279f3ffe988f27bc5b299c5a28453df2e0b0fbaf2",
+   "url":"https://pypi.io/packages/source/l/libsass/libsass-0.21.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -271,7 +271,7 @@
   }
  },
  "pinning_version":"2021.05.21.11.17.06",
- "raw_meta_yaml":"{% set name = \"libsass\" %}\n{% set version = \"0.20.1\" %}\n{% set sha256 = \"e0e60836eccbf2d9e24ec978a805cd6642fa92515fbd95e3493fee276af76f8a\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  # Original URL from the conda-forge feedstock\n  # https://github.com/conda-forge/libsass-feedstock is from GitHub. Keeping it\n  # for the future reference here.\n  # url: https://github.com/sass/{{ name }}-python/releases/download/{{ version }}/{{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 2\n  entry_points:\n    - pysassc = pysassc:main\n    - sassc = sassc:main\n  script: {{ PYTHON }} -m pip install . -vv --no-deps\n  skip: true  # [win and py2k]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - python\n    - pip\n    - six\n  run:\n    - python\n    - six\n\ntest:\n  imports:\n    - sass\n  commands:\n    - sassc --help\n    - pysassc --help\n\nabout:\n  home: https://github.com/dahlia/libsass-python\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: A straightforward binding of libsass for Python. Compile Sass/SCSS in Python with no Ruby stack at all!\n  description: |\n    This package provides a simple Python extension module sass which is binding \n    Libsass (written in C/C++ by Hampton Catlin and Aaron Leung). It's very \n    straightforward and there isn't any headache related Python distribution/deployment.\n  doc_url: https://hongminhee.org/libsass-python/\n  dev_url: https://github.com/dahlia/libsass-python\n",
+ "raw_meta_yaml":"{% set name = \"libsass\" %}\n{% set version = \"0.21.0\" %}\n{% set sha256 = \"d5ba529d9ce668be9380563279f3ffe988f27bc5b299c5a28453df2e0b0fbaf2\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  # Original URL from the conda-forge feedstock\n  # https://github.com/conda-forge/libsass-feedstock is from GitHub. Keeping it\n  # for the future reference here.\n  # url: https://github.com/sass/{{ name }}-python/releases/download/{{ version }}/{{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  entry_points:\n    - pysassc = pysassc:main\n    - sassc = sassc:main\n  script: {{ PYTHON }} -m pip install . -vv --no-deps\n  skip: true  # [win and py2k]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - python\n    - pip\n    - six\n  run:\n    - python\n    - six\n\ntest:\n  imports:\n    - sass\n  commands:\n    - sassc --help\n    - pysassc --help\n\nabout:\n  home: https://github.com/dahlia/libsass-python\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: A straightforward binding of libsass for Python. Compile Sass/SCSS in Python with no Ruby stack at all!\n  description: |\n    This package provides a simple Python extension module sass which is binding \n    Libsass (written in C/C++ by Hampton Catlin and Aaron Leung). It's very \n    straightforward and there isn't any headache related Python distribution/deployment.\n  doc_url: https://hongminhee.org/libsass-python/\n  dev_url: https://github.com/dahlia/libsass-python\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -341,7 +341,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/l/libsass/libsass-0.20.1.tar.gz",
- "version":"0.20.1",
+ "version":"0.21.0",
  "win_64_meta_yaml":{
   "about":{
    "description":"This package provides a simple Python extension module sass which is binding\nLibsass (written in C/C++ by Hampton Catlin and Aaron Leung). It's very\nstraightforward and there isn't any headache related Python distribution/deployment.\n",
@@ -358,12 +358,12 @@
     "pysassc = pysassc:main",
     "sassc = sassc:main"
    ],
-   "number":"2",
+   "number":"0",
    "script":"-m pip install . -vv --no-deps"
   },
   "package":{
    "name":"libsass",
-   "version":"0.20.1"
+   "version":"0.21.0"
   },
   "requirements":{
    "build":[
@@ -381,8 +381,8 @@
    ]
   },
   "source":{
-   "sha256":"e0e60836eccbf2d9e24ec978a805cd6642fa92515fbd95e3493fee276af76f8a",
-   "url":"https://pypi.io/packages/source/l/libsass/libsass-0.20.1.tar.gz"
+   "sha256":"d5ba529d9ce668be9380563279f3ffe988f27bc5b299c5a28453df2e0b0fbaf2",
+   "url":"https://pypi.io/packages/source/l/libsass/libsass-0.21.0.tar.gz"
   },
   "test":{
    "commands":[
