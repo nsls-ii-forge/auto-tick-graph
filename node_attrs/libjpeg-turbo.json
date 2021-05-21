@@ -18,32 +18,7 @@
    ]
   }
  ],
- "bad":{
-  "exception":"Command '['git', 'clone', '-q', 'https://github.com/nsls-ii-forge/libjpeg-turbo-feedstock.git', './feedstocks/libjpeg-turbo-feedstock']' returned non-zero exit status 128.",
-  "traceback":[
-   "Traceback (most recent call last):",
-   "  File \"/home/vsts/mc/envs/botenv/lib/python3.7/site-packages/nsls2forge_utils/auto_tick.py\", line 539, in auto_tick",
-   "    organization=organization",
-   "  File \"/home/vsts/mc/envs/botenv/lib/python3.7/site-packages/nsls2forge_utils/auto_tick.py\", line 215, in run",
-   "    fork=fork,",
-   "  File \"/home/vsts/mc/envs/botenv/lib/python3.7/site-packages/nsls2forge_utils/git_utils.py\", line 135, in get_repo",
-   "    feedstock_dir=feedstock_dir, origin=origin, upstream=upstream, branch=branch,",
-   "  File \"/home/vsts/mc/envs/botenv/lib/python3.7/site-packages/conda_forge_tick/git_xonsh_utils.xsh\", line 10, in fetch_repo",
-   "    p = ![git clone -q @(origin) @(feedstock_dir)]",
-   "  File \"/home/vsts/mc/envs/botenv/lib/python3.7/site-packages/xonsh/__amalgam__.py\", line 23342, in subproc_captured_hiddenobject",
-   "    return run_subproc(cmds, captured=\"hiddenobject\", envs=envs)",
-   "  File \"/home/vsts/mc/envs/botenv/lib/python3.7/site-packages/xonsh/__amalgam__.py\", line 23301, in run_subproc",
-   "    command.end()",
-   "  File \"/home/vsts/mc/envs/botenv/lib/python3.7/site-packages/xonsh/__amalgam__.py\", line 14772, in end",
-   "    self._end(tee_output=tee_output)",
-   "  File \"/home/vsts/mc/envs/botenv/lib/python3.7/site-packages/xonsh/__amalgam__.py\", line 14791, in _end",
-   "    self._raise_subproc_error()",
-   "  File \"/home/vsts/mc/envs/botenv/lib/python3.7/site-packages/xonsh/__amalgam__.py\", line 14917, in _raise_subproc_error",
-   "    raise subprocess.CalledProcessError(rtn, spec.args, output=self.output)",
-   "subprocess.CalledProcessError: Command '['git', 'clone', '-q', 'https://github.com/nsls-ii-forge/libjpeg-turbo-feedstock.git', './feedstocks/libjpeg-turbo-feedstock']' returned non-zero exit status 128.",
-   ""
-  ]
- },
+ "bad":false,
  "conda-forge.yml":{
   "provider":{
    "linux":"azure",
@@ -175,7 +150,7 @@
  "new_version":"9d",
  "new_version_attempts":{
   "2.1.0":1,
-  "9d":443
+  "9d":444
  },
  "new_version_errors":{
   "9d":"The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '9d' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/{{ name }}/{{ name }}/archive/{{ version }}.tar.gz'\n"
