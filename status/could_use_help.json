@@ -1,5 +1,6 @@
 [
   "anyio",
+  "py4xs",
   "eventlet",
   "ispyb",
   "httpcore",
