@@ -16,6 +16,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/653673501.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.4.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -177,9 +194,10 @@
   }
  },
  "name":"xraydb",
- "new_version":"4.4.6",
+ "new_version":"4.4.7",
  "new_version_attempts":{
-  "4.4.6":1
+  "4.4.6":1,
+  "4.4.7":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -260,7 +278,7 @@
    ]
   }
  },
- "pinning_version":"2021.05.04.09.34.47",
+ "pinning_version":"2021.05.25.06.47.12",
  "raw_meta_yaml":"{% set name = \"xraydb\" %}\n{% set version = \"4.4.6\" %}\n{% set sha256 = \"395243c2bb0e2086d57b46ede863daec2d9ab90a08dc9363e6b149513e4af344\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - pip\n    - python\n  run:\n    - python\n    - numpy\n    - scipy\n    - sqlalchemy\n\ntest:\n  imports:\n    - xraydb\n  requires:\n    - pytest\n  source_files:\n    - tests\n  commands:\n    - pytest -vvvv\n\nabout:\n  home: https://xraypy.github.io/XrayDB\n  license: PUBLIC-DOMAIN\n  license_family: PUBLIC-DOMAIN\n  license_file: LICENSE\n  summary: X-ray Reference Data for the Elements\n  doc_url: https://xraypy.github.io/XrayDB\n  dev_url: https://github.com/xraypy/XrayDB\n",
  "req":{
   "__set__":true,
