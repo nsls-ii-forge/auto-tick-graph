@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/654275231.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -183,7 +202,11 @@
   }
  },
  "name":"xpdacq",
- "new_version":"0.12.0",
+ "new_version":"1.0.0",
+ "new_version_attempts":{
+  "1.0.0":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/xpdAcq/xpdAcq",
@@ -270,6 +293,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2021.05.25.06.47.12",
  "raw_meta_yaml":"{% set name = \"xpdAcq\" %}\n{% set version = \"0.12.0\" %}\n{% set sha256 = \"f4e7beb7109a87426025009b0c5ec4667fdb7a46f199d7432b1e7d4bf028faa8\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/{{ name }}/{{ name }}/releases/download/{{ version }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - bluesky\n    - databroker\n    - ipython\n    - numpy\n    - openpyxl\n    - ophyd\n    - pandas\n    - pyfai\n    - pyyaml\n    - xpdan\n    - xpdconf\n    - xpdsim\n\ntest:\n  imports:\n    - xpdacq\n    - xpdacq.xpdacq\n    - xpdacq.beamtimeSetup\n\nabout:\n  home: http://xpdacq.github.io\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: Python package that aids data acquisition at the NSLS-II XPD and PDF Beamline.\n  dev_url: https://github.com/xpdAcq/xpdAcq\n  doc_url: http://xpdacq.github.io/xpdAcq\n",
  "req":{
   "__set__":true,
@@ -325,6 +349,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"3.10.1",
  "strong_exports":false,
  "total_requirements":{
   "build":{
