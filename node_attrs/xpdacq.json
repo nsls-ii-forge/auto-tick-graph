@@ -44,7 +44,7 @@
   },
   "package":{
    "name":"xpdacq",
-   "version":"0.12.0"
+   "version":"1.0.0"
   },
   "requirements":{
    "host":[
@@ -62,14 +62,13 @@
     "pandas",
     "pyfai",
     "pyyaml",
-    "xpdan",
     "xpdconf",
     "xpdsim"
    ]
   },
   "source":{
-   "sha256":"f4e7beb7109a87426025009b0c5ec4667fdb7a46f199d7432b1e7d4bf028faa8",
-   "url":"https://github.com/xpdAcq/xpdAcq/releases/download/0.12.0/xpdAcq-0.12.0.tar.gz"
+   "sha256":"a020d7a409364fed269809554896b725b56a02608362af8f5e4ebb4dce85e707",
+   "url":"https://github.com/xpdAcq/xpdAcq/releases/download/1.0.0/xpdAcq-1.0.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -104,7 +103,6 @@
     "pyfai",
     "python",
     "pyyaml",
-    "xpdan",
     "xpdconf",
     "xpdsim"
    ]
@@ -130,7 +128,7 @@
   },
   "package":{
    "name":"xpdacq",
-   "version":"0.12.0"
+   "version":"1.0.0"
   },
   "requirements":{
    "host":[
@@ -152,7 +150,6 @@
     "pandas",
     "pyfai",
     "pyyaml",
-    "xpdan",
     "xpdconf",
     "xpdsim",
     "python >=3.6",
@@ -165,7 +162,6 @@
     "pandas",
     "pyfai",
     "pyyaml",
-    "xpdan",
     "xpdconf",
     "xpdsim",
     "python >=3.6",
@@ -178,14 +174,13 @@
     "pandas",
     "pyfai",
     "pyyaml",
-    "xpdan",
     "xpdconf",
     "xpdsim"
    ]
   },
   "source":{
-   "sha256":"f4e7beb7109a87426025009b0c5ec4667fdb7a46f199d7432b1e7d4bf028faa8",
-   "url":"https://github.com/xpdAcq/xpdAcq/releases/download/0.12.0/xpdAcq-0.12.0.tar.gz"
+   "sha256":"a020d7a409364fed269809554896b725b56a02608362af8f5e4ebb4dce85e707",
+   "url":"https://github.com/xpdAcq/xpdAcq/releases/download/1.0.0/xpdAcq-1.0.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -223,7 +218,7 @@
   },
   "package":{
    "name":"xpdacq",
-   "version":"0.12.0"
+   "version":"1.0.0"
   },
   "requirements":{
    "host":[
@@ -241,14 +236,13 @@
     "pandas",
     "pyfai",
     "pyyaml",
-    "xpdan",
     "xpdconf",
     "xpdsim"
    ]
   },
   "source":{
-   "sha256":"f4e7beb7109a87426025009b0c5ec4667fdb7a46f199d7432b1e7d4bf028faa8",
-   "url":"https://github.com/xpdAcq/xpdAcq/releases/download/0.12.0/xpdAcq-0.12.0.tar.gz"
+   "sha256":"a020d7a409364fed269809554896b725b56a02608362af8f5e4ebb4dce85e707",
+   "url":"https://github.com/xpdAcq/xpdAcq/releases/download/1.0.0/xpdAcq-1.0.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -283,7 +277,6 @@
     "pyfai",
     "python",
     "pyyaml",
-    "xpdan",
     "xpdconf",
     "xpdsim"
    ]
@@ -294,7 +287,7 @@
   }
  },
  "pinning_version":"2021.05.25.06.47.12",
- "raw_meta_yaml":"{% set name = \"xpdAcq\" %}\n{% set version = \"0.12.0\" %}\n{% set sha256 = \"f4e7beb7109a87426025009b0c5ec4667fdb7a46f199d7432b1e7d4bf028faa8\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/{{ name }}/{{ name }}/releases/download/{{ version }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - bluesky\n    - databroker\n    - ipython\n    - numpy\n    - openpyxl\n    - ophyd\n    - pandas\n    - pyfai\n    - pyyaml\n    - xpdan\n    - xpdconf\n    - xpdsim\n\ntest:\n  imports:\n    - xpdacq\n    - xpdacq.xpdacq\n    - xpdacq.beamtimeSetup\n\nabout:\n  home: http://xpdacq.github.io\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: Python package that aids data acquisition at the NSLS-II XPD and PDF Beamline.\n  dev_url: https://github.com/xpdAcq/xpdAcq\n  doc_url: http://xpdacq.github.io/xpdAcq\n",
+ "raw_meta_yaml":"{% set name = \"xpdAcq\" %}\n{% set version = \"1.0.0\" %}\n{% set sha256 = \"a020d7a409364fed269809554896b725b56a02608362af8f5e4ebb4dce85e707\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/{{ name }}/{{ name }}/releases/download/{{ version }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - bluesky\n    - databroker\n    - ipython\n    - numpy\n    - openpyxl\n    - ophyd\n    - pandas\n    - pyfai\n    - pyyaml\n    - xpdconf\n    - xpdsim\n\ntest:\n  imports:\n    - xpdacq\n    - xpdacq.xpdacq\n    - xpdacq.beamtimeSetup\n\nabout:\n  home: http://xpdacq.github.io\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: Python package that aids data acquisition at the NSLS-II XPD and PDF Beamline.\n  dev_url: https://github.com/xpdAcq/xpdAcq\n  doc_url: http://xpdacq.github.io/xpdAcq\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -309,7 +302,6 @@
    "pyfai",
    "python",
    "pyyaml",
-   "xpdan",
    "xpdconf",
    "xpdsim"
   ]
@@ -339,7 +331,6 @@
     "pyfai",
     "python",
     "pyyaml",
-    "xpdan",
     "xpdconf",
     "xpdsim"
    ]
@@ -376,7 +367,6 @@
     "pyfai",
     "python >=3.6",
     "pyyaml",
-    "xpdan",
     "xpdconf",
     "xpdsim"
    ]
@@ -387,7 +377,7 @@
   }
  },
  "url":"https://github.com/xpdAcq/xpdAcq/releases/download/0.12.0/xpdAcq-0.12.0.tar.gz",
- "version":"0.12.0",
+ "version":"1.0.0",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/xpdAcq/xpdAcq",
@@ -404,7 +394,7 @@
   },
   "package":{
    "name":"xpdacq",
-   "version":"0.12.0"
+   "version":"1.0.0"
   },
   "requirements":{
    "host":[
@@ -422,14 +412,13 @@
     "pandas",
     "pyfai",
     "pyyaml",
-    "xpdan",
     "xpdconf",
     "xpdsim"
    ]
   },
   "source":{
-   "sha256":"f4e7beb7109a87426025009b0c5ec4667fdb7a46f199d7432b1e7d4bf028faa8",
-   "url":"https://github.com/xpdAcq/xpdAcq/releases/download/0.12.0/xpdAcq-0.12.0.tar.gz"
+   "sha256":"a020d7a409364fed269809554896b725b56a02608362af8f5e4ebb4dce85e707",
+   "url":"https://github.com/xpdAcq/xpdAcq/releases/download/1.0.0/xpdAcq-1.0.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -464,7 +453,6 @@
     "pyfai",
     "python",
     "pyyaml",
-    "xpdan",
     "xpdconf",
     "xpdsim"
    ]

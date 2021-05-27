@@ -6903,10 +6903,6 @@
    "target":"nsls2-analysis"
   },
   {
-   "source":"xpdan",
-   "target":"xpdacq"
-  },
-  {
    "source":"xpdconf",
    "target":"xpdacq"
   },
