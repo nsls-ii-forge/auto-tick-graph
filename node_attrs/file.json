@@ -125,6 +125,7 @@
   }
  },
  "name":"file",
+ "new_version":false,
  "osx_64_meta_yaml":{
   "about":{
    "description":"The file command is \"a file type guesser\", that is, a command-line tool\nthat tells you in words what kind of data a file contains. Unlike most GUI\nsystems, command-line UNIX systems - with this program leading the charge -\ndon't rely on filename extentions to tell you the type of a file, but look\nat the file's actual contents. This is, of course, more reliable, but\nrequires a bit of I/O.\n",
