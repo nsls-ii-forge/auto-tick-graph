@@ -43,7 +43,7 @@
   },
   "package":{
    "name":"netifaces",
-   "version":"0.10.9"
+   "version":"0.11.0"
   },
   "requirements":{
    "build":[
@@ -58,8 +58,8 @@
    ]
   },
   "source":{
-   "sha256":"2dee9ffdd16292878336a58d04a20f0ffe95555465fee7c9bd23b3490ef2abf3",
-   "url":"https://pypi.org/packages/source/n/netifaces/netifaces-0.10.9.tar.gz"
+   "sha256":"043a79146eb2907edf439899f262b3dfe41717d34124298ed281139a8b93ca32",
+   "url":"https://pypi.org/packages/source/n/netifaces/netifaces-0.11.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -107,7 +107,7 @@
   },
   "package":{
    "name":"netifaces",
-   "version":"0.10.9"
+   "version":"0.11.0"
   },
   "requirements":{
    "build":[
@@ -130,8 +130,8 @@
    ]
   },
   "source":{
-   "sha256":"2dee9ffdd16292878336a58d04a20f0ffe95555465fee7c9bd23b3490ef2abf3",
-   "url":"https://pypi.org/packages/source/n/netifaces/netifaces-0.10.9.tar.gz"
+   "sha256":"043a79146eb2907edf439899f262b3dfe41717d34124298ed281139a8b93ca32",
+   "url":"https://pypi.org/packages/source/n/netifaces/netifaces-0.11.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -162,7 +162,7 @@
   },
   "package":{
    "name":"netifaces",
-   "version":"0.10.9"
+   "version":"0.11.0"
   },
   "requirements":{
    "build":[
@@ -177,8 +177,8 @@
    ]
   },
   "source":{
-   "sha256":"2dee9ffdd16292878336a58d04a20f0ffe95555465fee7c9bd23b3490ef2abf3",
-   "url":"https://pypi.org/packages/source/n/netifaces/netifaces-0.10.9.tar.gz"
+   "sha256":"043a79146eb2907edf439899f262b3dfe41717d34124298ed281139a8b93ca32",
+   "url":"https://pypi.org/packages/source/n/netifaces/netifaces-0.11.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -212,7 +212,7 @@
   }
  },
  "pinning_version":"2021.05.30.21.14.06",
- "raw_meta_yaml":"{% set name = \"netifaces\" %}\n{% set version = \"0.10.9\" %}\n{% set sha256 = \"2dee9ffdd16292878336a58d04a20f0ffe95555465fee7c9bd23b3490ef2abf3\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  skip: true  # [py<36]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - python\n    - pip\n  run:\n    - python\n\ntest:\n  imports:\n    - {{ name }}\n\nabout:\n  home: https://github.com/al45tair/netifaces\n  license: MIT\n  license_file: LICENSE\n  license_family: MIT\n  summary: Portable network interface information\n  dev_url: https://github.com/al45tair/netifaces\n",
+ "raw_meta_yaml":"{% set name = \"netifaces\" %}\n{% set version = \"0.11.0\" %}\n{% set sha256 = \"043a79146eb2907edf439899f262b3dfe41717d34124298ed281139a8b93ca32\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  skip: true  # [py<36]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - python\n    - pip\n  run:\n    - python\n\ntest:\n  imports:\n    - {{ name }}\n\nabout:\n  home: https://github.com/al45tair/netifaces\n  license: MIT\n  license_file: LICENSE\n  license_family: MIT\n  summary: Portable network interface information\n  dev_url: https://github.com/al45tair/netifaces\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -274,7 +274,7 @@
   }
  },
  "url":"https://pypi.org/packages/source/n/netifaces/netifaces-0.10.9.tar.gz",
- "version":"0.10.9",
+ "version":"0.11.0",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/al45tair/netifaces",
@@ -290,7 +290,7 @@
   },
   "package":{
    "name":"netifaces",
-   "version":"0.10.9"
+   "version":"0.11.0"
   },
   "requirements":{
    "build":[
@@ -305,8 +305,8 @@
    ]
   },
   "source":{
-   "sha256":"2dee9ffdd16292878336a58d04a20f0ffe95555465fee7c9bd23b3490ef2abf3",
-   "url":"https://pypi.org/packages/source/n/netifaces/netifaces-0.10.9.tar.gz"
+   "sha256":"043a79146eb2907edf439899f262b3dfe41717d34124298ed281139a8b93ca32",
+   "url":"https://pypi.org/packages/source/n/netifaces/netifaces-0.11.0.tar.gz"
   },
   "test":{
    "imports":[
