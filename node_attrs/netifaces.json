@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/658263492.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.11.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -123,7 +142,11 @@
   }
  },
  "name":"netifaces",
- "new_version":"0.10.9",
+ "new_version":"0.11.0",
+ "new_version_attempts":{
+  "0.11.0":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/al45tair/netifaces",
@@ -188,6 +211,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2021.05.30.21.14.06",
  "raw_meta_yaml":"{% set name = \"netifaces\" %}\n{% set version = \"0.10.9\" %}\n{% set sha256 = \"2dee9ffdd16292878336a58d04a20f0ffe95555465fee7c9bd23b3490ef2abf3\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  skip: true  # [py<36]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - python\n    - pip\n  run:\n    - python\n\ntest:\n  imports:\n    - {{ name }}\n\nabout:\n  home: https://github.com/al45tair/netifaces\n  license: MIT\n  license_file: LICENSE\n  license_family: MIT\n  summary: Portable network interface information\n  dev_url: https://github.com/al45tair/netifaces\n",
  "req":{
   "__set__":true,
@@ -222,6 +246,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"3.10.1",
  "strong_exports":false,
  "total_requirements":{
   "build":{
