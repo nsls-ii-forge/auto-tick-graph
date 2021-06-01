@@ -18,7 +18,7 @@
    "summary":"AutoDock is a suite of automated docking tools. It is designed to predict how small molecules, such as substrates or drug candidates, bind to a receptor of known 3D structure."
   },
   "build":{
-   "number":"4"
+   "number":4
   },
   "package":{
    "name":"autodock",
@@ -79,7 +79,7 @@
    "summary":"AutoDock is a suite of automated docking tools. It is designed to predict how small molecules, such as substrates or drug candidates, bind to a receptor of known 3D structure."
   },
   "build":{
-   "number":"4",
+   "number":4,
    "skip":true
   },
   "package":{
