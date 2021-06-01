@@ -21,7 +21,7 @@
    "summary":"Open Source Code for Advanced Radiation Simulation"
   },
   "build":{
-   "number":"0",
+   "number":0,
    "script":" -m pip install . --no-deps -vv"
   },
   "package":{
@@ -96,7 +96,7 @@
    "summary":"Open Source Code for Advanced Radiation Simulation"
   },
   "build":{
-   "number":"0",
+   "number":0,
    "script":" -m pip install . --no-deps -vv"
   },
   "package":{
