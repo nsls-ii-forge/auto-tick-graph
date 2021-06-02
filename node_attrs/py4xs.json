@@ -50,6 +50,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/660242335.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2021.6.2.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -196,11 +213,12 @@
   }
  },
  "name":"py4xs",
- "new_version":"2021.5.25.0",
+ "new_version":"2021.6.2.1",
  "new_version_attempts":{
   "2021.2.22.0":1,
   "2021.5.13.0":1,
-  "2021.5.25.0":1
+  "2021.5.25.0":1,
+  "2021.6.2.1":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -274,7 +292,7 @@
    "elements":[]
   }
  },
- "pinning_version":"2021.05.25.06.47.12",
+ "pinning_version":"2021.06.02.13.20.38",
  "raw_meta_yaml":"{% set name = \"py4xs\" %}\n{% set version = \"2021.5.25.0\" %}\n{% set sha256 = \"75fcc0438bfb47721f066bdaf63aa28128265e17e42caee6c782cdee4bd66ca8\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - fabio\n    - h5py\n    - matplotlib\n    - numpy\n    - pillow\n    - scipy\n\ntest:\n  imports:\n    - py4xs\n\nabout:\n  home: https://pypi.org/project/py4xs\n  license: MIT\n  license_file: LICENSE.txt\n  summary: py4xs - a python package for processing x-ray scattering data\n  dev_url: https://github.com/NSLS-II-LIX/py4xs\n",
  "req":{
   "__set__":true,
