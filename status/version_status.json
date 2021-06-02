@@ -4,12 +4,14 @@
     "frozendict",
     "libjpeg-turbo",
     "openmpi-mpi",
-    "qulacs"
+    "qulacs",
+    "lixtools"
   ],
   "errors": {
     "clang_packages": "The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '12.0.0' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/llvm/llvm-project/releases/download/llvmorg-{{ version }}/cfe-{{ version }}.src.tar.xz'\n",
     "frozendict": "The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '2.0.2' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz'\n",
     "libjpeg-turbo": "The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '9d' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/{{ name }}/{{ name }}/archive/{{ version }}.tar.gz'\n",
+    "lixtools": "The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '2021.6.2.0' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz'\n",
     "openmpi-mpi": "no error information available",
     "qulacs": "We found a problem parsing the recipe: \n\nwhile constructing a mapping\n  in \"<unicode string>\", line 40, column 3:\n      skip__###conda-selector###__pyth ... \n      ^ (line: 40)\nfound duplicate key \"skip\" with value \"True\" (original value: \"True\")\n  in \"<unicode string>\", line 49, column 3:\n      skip: true\n      ^ (line: 49)\n\nTo suppress this check see:\n    http://yaml.readthedocs.io/en/latest/api.html#duplicate-keys\n\nDuplicate keys will become an error in future releases, and are errors\nby default when using the new API.\n"
   },
