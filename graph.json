@@ -464,6 +464,10 @@
   },
   {
    "source":"c_compiler_stub",
+   "target":"shadow3"
+  },
+  {
+   "source":"c_compiler_stub",
    "target":"silx"
   },
   {
@@ -777,6 +781,10 @@
   {
    "source":"cxx_compiler_stub",
    "target":"scikit-build"
+  },
+  {
+   "source":"cxx_compiler_stub",
+   "target":"shadow3"
   },
   {
    "source":"cxx_compiler_stub",
@@ -1257,6 +1265,10 @@
   {
    "source":"fortran_compiler_stub",
    "target":"openmpi-mpi"
+  },
+  {
+   "source":"fortran_compiler_stub",
+   "target":"shadow3"
   },
   {
    "source":"fortran_compiler_stub",
@@ -2048,11 +2060,23 @@
   },
   {
    "source":"m2w64_c_compiler_stub",
+   "target":"shadow3"
+  },
+  {
+   "source":"m2w64_c_compiler_stub",
    "target":"xraylib"
   },
   {
    "source":"m2w64_cxx_compiler_stub",
+   "target":"shadow3"
+  },
+  {
+   "source":"m2w64_cxx_compiler_stub",
    "target":"xraylib"
+  },
+  {
+   "source":"m2w64_fortran_compiler_stub",
+   "target":"shadow3"
   },
   {
    "source":"m2w64_fortran_compiler_stub",
@@ -2221,6 +2245,10 @@
   {
    "source":"matplotlib",
    "target":"rixs"
+  },
+  {
+   "source":"matplotlib",
+   "target":"shadow3"
   },
   {
    "source":"matplotlib",
@@ -2801,6 +2829,10 @@
   {
    "source":"numpy",
    "target":"scikit-beam"
+  },
+  {
+   "source":"numpy",
+   "target":"shadow3"
   },
   {
    "source":"numpy",
@@ -3888,6 +3920,10 @@
   },
   {
    "source":"pip",
+   "target":"shadow3"
+  },
+  {
+   "source":"pip",
    "target":"shed"
   },
   {
@@ -4401,6 +4437,10 @@
   {
    "source":"pyqt",
    "target":"sasview"
+  },
+  {
+   "source":"pyqt",
+   "target":"shadow3"
   },
   {
    "source":"pyqt",
@@ -5320,6 +5360,10 @@
   },
   {
    "source":"python",
+   "target":"shadow3"
+  },
+  {
+   "source":"python",
    "target":"shed"
   },
   {
@@ -5997,6 +6041,10 @@
   {
    "source":"scipy",
    "target":"scikit-beam"
+  },
+  {
+   "source":"scipy",
+   "target":"shadow3"
   },
   {
    "source":"scipy",
@@ -6965,6 +7013,10 @@
   {
    "source":"xraylib",
    "target":"scikit-beam"
+  },
+  {
+   "source":"xraylib",
+   "target":"shadow3"
   },
   {
    "source":"yaml",
@@ -10345,6 +10397,12 @@
    "id":"metakernel",
    "payload":{
     "__lazy_json__":"node_attrs/metakernel.json"
+   }
+  },
+  {
+   "id":"shadow3",
+   "payload":{
+    "__lazy_json__":"node_attrs/shadow3.json"
    }
   }
  ]
