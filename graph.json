@@ -2060,23 +2060,11 @@
   },
   {
    "source":"m2w64_c_compiler_stub",
-   "target":"shadow3"
-  },
-  {
-   "source":"m2w64_c_compiler_stub",
    "target":"xraylib"
   },
   {
    "source":"m2w64_cxx_compiler_stub",
-   "target":"shadow3"
-  },
-  {
-   "source":"m2w64_cxx_compiler_stub",
    "target":"xraylib"
-  },
-  {
-   "source":"m2w64_fortran_compiler_stub",
-   "target":"shadow3"
   },
   {
    "source":"m2w64_fortran_compiler_stub",

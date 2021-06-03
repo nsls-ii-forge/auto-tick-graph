@@ -16,7 +16,8 @@
    "summary":"SHADOW is an open source ray tracing code for modeling optical systems"
   },
   "build":{
-   "number":"0"
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"shadow3",
@@ -94,7 +95,9 @@
    "summary":"SHADOW is an open source ray tracing code for modeling optical systems"
   },
   "build":{
-   "number":"0"
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv",
+   "skip":true
   },
   "package":{
    "name":"shadow3",
@@ -102,9 +105,9 @@
   },
   "requirements":{
    "build":[
-    "m2w64_fortran_compiler_stub",
-    "m2w64_c_compiler_stub",
-    "m2w64_cxx_compiler_stub",
+    "fortran_compiler_stub",
+    "c_compiler_stub",
+    "cxx_compiler_stub",
     "fortran_compiler_stub",
     "c_compiler_stub",
     "cxx_compiler_stub",
@@ -171,7 +174,8 @@
    "summary":"SHADOW is an open source ray tracing code for modeling optical systems"
   },
   "build":{
-   "number":"0"
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv"
   },
   "package":{
    "name":"shadow3",
@@ -242,16 +246,13 @@
    "elements":[]
   }
  },
- "raw_meta_yaml":"{% set name = \"shadow3\" %}\n{% set version = \"18.5.30\" %}\n{% set sha256 = \"29289eb7710bdf51ee9603ccf4a0cc760ca15858d299a692a42c651b59c2b154\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n\nrequirements:\n  build:\n    - {{ compiler('fortran') }}        # [unix]\n    - {{ compiler('m2w64_fortran') }}  # [win]\n    - {{ compiler('c') }}              # [unix]\n    - {{ compiler('m2w64_c') }}        # [win]\n    - {{ compiler('cxx') }}            # [unix]\n    - {{ compiler('m2w64_cxx') }}      # [win]\n  host:\n    - python\n    - pip\n    - numpy\n  run:\n    - python\n    - matplotlib\n    - numpy\n    - pyqt\n    - scipy\n    - xraylib\n\ntest:\n  imports:\n    - Shadow\n    - Shadow.ShadowLib\n    - Shadow.ShadowTools\n\nabout:\n  home: https://github.com/oasys-kit/shadow3\n  license: UNKNOWN\n  summary: SHADOW is an open source ray tracing code for modeling optical systems\n",
+ "raw_meta_yaml":"{% set name = \"shadow3\" %}\n{% set version = \"18.5.30\" %}\n{% set sha256 = \"29289eb7710bdf51ee9603ccf4a0cc760ca15858d299a692a42c651b59c2b154\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  skip: true  # [win]\n\nrequirements:\n  build:\n    - {{ compiler('fortran') }}\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - python\n    - pip\n    - numpy\n  run:\n    - python\n    - matplotlib\n    - numpy\n    - pyqt\n    - scipy\n    - xraylib\n\ntest:\n  imports:\n    - Shadow\n    - Shadow.ShadowLib\n    - Shadow.ShadowTools\n\nabout:\n  home: https://github.com/oasys-kit/shadow3\n  license: UNKNOWN\n  summary: SHADOW is an open source ray tracing code for modeling optical systems\n",
  "req":{
   "__set__":true,
   "elements":[
    "c_compiler_stub",
    "cxx_compiler_stub",
    "fortran_compiler_stub",
-   "m2w64_c_compiler_stub",
-   "m2w64_cxx_compiler_stub",
-   "m2w64_fortran_compiler_stub",
    "matplotlib",
    "numpy",
    "pip",
@@ -267,10 +268,7 @@
    "elements":[
     "c_compiler_stub",
     "cxx_compiler_stub",
-    "fortran_compiler_stub",
-    "m2w64_c_compiler_stub",
-    "m2w64_cxx_compiler_stub",
-    "m2w64_fortran_compiler_stub"
+    "fortran_compiler_stub"
    ]
   },
   "host":{
@@ -304,10 +302,7 @@
    "elements":[
     "c_compiler_stub",
     "cxx_compiler_stub",
-    "fortran_compiler_stub",
-    "m2w64_c_compiler_stub",
-    "m2w64_cxx_compiler_stub",
-    "m2w64_fortran_compiler_stub"
+    "fortran_compiler_stub"
    ]
   },
   "host":{
@@ -343,7 +338,9 @@
    "summary":"SHADOW is an open source ray tracing code for modeling optical systems"
   },
   "build":{
-   "number":"0"
+   "number":"0",
+   "script":"-m pip install . --no-deps -vv",
+   "skip":true
   },
   "package":{
    "name":"shadow3",
@@ -351,9 +348,9 @@
   },
   "requirements":{
    "build":[
-    "m2w64_fortran_compiler_stub",
-    "m2w64_c_compiler_stub",
-    "m2w64_cxx_compiler_stub"
+    "fortran_compiler_stub",
+    "c_compiler_stub",
+    "cxx_compiler_stub"
    ],
    "host":[
     "python",
@@ -385,9 +382,9 @@
   "build":{
    "__set__":true,
    "elements":[
-    "m2w64_c_compiler_stub",
-    "m2w64_cxx_compiler_stub",
-    "m2w64_fortran_compiler_stub"
+    "c_compiler_stub",
+    "cxx_compiler_stub",
+    "fortran_compiler_stub"
    ]
   },
   "host":{
