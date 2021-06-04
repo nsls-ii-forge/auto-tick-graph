@@ -12,11 +12,12 @@
  "linux_64_meta_yaml":{
   "about":{
    "home":"https://github.com/oasys-kit/shadow3",
-   "license":"UNKNOWN",
+   "license":"MIT",
+   "license_file":"LICENSE",
    "summary":"SHADOW is an open source ray tracing code for modeling optical systems"
   },
   "build":{
-   "number":"0",
+   "number":"1",
    "script":"-m pip install . --no-deps -vv"
   },
   "package":{
@@ -91,11 +92,12 @@
  "meta_yaml":{
   "about":{
    "home":"https://github.com/oasys-kit/shadow3",
-   "license":"UNKNOWN",
+   "license":"MIT",
+   "license_file":"LICENSE",
    "summary":"SHADOW is an open source ray tracing code for modeling optical systems"
   },
   "build":{
-   "number":"0",
+   "number":"1",
    "script":"-m pip install . --no-deps -vv",
    "skip":true
   },
@@ -170,11 +172,12 @@
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/oasys-kit/shadow3",
-   "license":"UNKNOWN",
+   "license":"MIT",
+   "license_file":"LICENSE",
    "summary":"SHADOW is an open source ray tracing code for modeling optical systems"
   },
   "build":{
-   "number":"0",
+   "number":"1",
    "script":"-m pip install . --no-deps -vv"
   },
   "package":{
@@ -246,7 +249,7 @@
    "elements":[]
   }
  },
- "raw_meta_yaml":"{% set name = \"shadow3\" %}\n{% set version = \"18.5.30\" %}\n{% set sha256 = \"29289eb7710bdf51ee9603ccf4a0cc760ca15858d299a692a42c651b59c2b154\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  skip: true  # [win]\n\nrequirements:\n  build:\n    - {{ compiler('fortran') }}\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - python\n    - pip\n    - numpy\n  run:\n    - python\n    - matplotlib\n    - numpy\n    - pyqt\n    - scipy\n    - xraylib\n\ntest:\n  imports:\n    - Shadow\n    - Shadow.ShadowLib\n    - Shadow.ShadowTools\n\nabout:\n  home: https://github.com/oasys-kit/shadow3\n  license: UNKNOWN\n  summary: SHADOW is an open source ray tracing code for modeling optical systems\n",
+ "raw_meta_yaml":"{% set name = \"shadow3\" %}\n{% set version = \"18.5.30\" %}\n{% set sha256 = \"29289eb7710bdf51ee9603ccf4a0cc760ca15858d299a692a42c651b59c2b154\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 1\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  skip: true  # [win]\n\nrequirements:\n  build:\n    - {{ compiler('fortran') }}\n    - {{ compiler('c') }}\n    - {{ compiler('cxx') }}\n  host:\n    - python\n    - pip\n    - numpy\n  run:\n    - python\n    - matplotlib\n    - numpy\n    - pyqt\n    - scipy\n    - xraylib\n\ntest:\n  imports:\n    - Shadow\n    - Shadow.ShadowLib\n    - Shadow.ShadowTools\n\nabout:\n  home: https://github.com/oasys-kit/shadow3\n  license: MIT\n  license_file: LICENSE\n  summary: SHADOW is an open source ray tracing code for modeling optical systems\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -334,11 +337,12 @@
  "win_64_meta_yaml":{
   "about":{
    "home":"https://github.com/oasys-kit/shadow3",
-   "license":"UNKNOWN",
+   "license":"MIT",
+   "license_file":"LICENSE",
    "summary":"SHADOW is an open source ray tracing code for modeling optical systems"
   },
   "build":{
-   "number":"0",
+   "number":"1",
    "script":"-m pip install . --no-deps -vv",
    "skip":true
   },
