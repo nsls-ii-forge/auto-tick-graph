@@ -1,5 +1,24 @@
 {
- "bad":"Upstream: Error getting upstream version",
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/662626037.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
+ "bad":false,
  "conda-forge.yml":{
   "provider":{
    "linux":"azure",
@@ -171,6 +190,11 @@
   }
  },
  "name":"xraylib",
+ "new_version":"4.1.0",
+ "new_version_attempts":{
+  "4.1.0":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/tschoonj/xraylib/wiki",
@@ -250,6 +274,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2021.06.04.18.58.43",
  "raw_meta_yaml":"{% set name = \"xraylib\" %}\n{% set version = \"4.0.0\" %}\n{% set sha256 = \"578dfd69610b7274fc79e9e5ebe6a42faca5adeef50a12f87c038a29e9a8674d\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: http://lvserver.ugent.be/{{ name }}/{{ name }}-{{version}}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  skip: True  # [py<36]\n\nrequirements:\n  build:\n    - m2-bash  # [win]\n    - m2-curl  # [win]\n    - m2-findutils  # [win]\n    - m2-diffutils  # [win]\n    - m2-gawk  # [win]\n    - m2-grep  # [win]\n    - m2-make  # [win]\n    - m2-sed  # [win]\n    - m2-which  # [win]\n    - m2-tar  # [win]\n    - {{ compiler('fortran') }}        # [unix]\n    - {{ compiler('m2w64_fortran') }}  # [win]\n    - {{ compiler('c') }}        # [unix]\n    - {{ compiler('m2w64_c') }}  # [win]\n    - {{ compiler('cxx') }}        # [unix]\n    - {{ compiler('m2w64_cxx') }}  # [win]\n  host:\n    - python\n    - setuptools\n    - cython\n    - numpy\n    - swig  # [not win]\n    - m2w64-binutils  # [win]\n    - m2w64-gcc  # [win]\n    - m2w64-tools-git  # [win]\n\n  run:\n    - python\n    - {{ pin_compatible('numpy') }}   # [not (win and (py35 or py36))]\n    - {{ pin_compatible('numpy') }}   # [win and py35]\n    - {{ pin_compatible('numpy') }}   # [win and py36]\n\ntest:\n  commands:\n    - conda inspect linkages -p $PREFIX $PKG_NAME  # [not win]\n    - conda inspect objects -p $PREFIX $PKG_NAME  # [osx]\n  imports:\n    - xraylib\n    - xraylib_np\n\nabout:\n  license: BSD 3-Clause\n  license_family: BSD\n  license_file: license_all.txt\n  home: https://github.com/tschoonj/xraylib/wiki\n  summary: A library for X-ray matter interaction cross sections for X-ray fluorescence applications\n",
  "req":{
   "__set__":true,
@@ -327,6 +352,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"3.10.1",
  "strong_exports":false,
  "total_requirements":{
   "build":{
