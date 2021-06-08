@@ -3728,6 +3728,10 @@
   },
   {
    "source":"pip",
+   "target":"pip-tools"
+  },
+  {
+   "source":"pip",
    "target":"ppmac"
   },
   {
@@ -5153,6 +5157,10 @@
   {
    "source":"python",
    "target":"pint"
+  },
+  {
+   "source":"python",
+   "target":"pip-tools"
   },
   {
    "source":"python",
@@ -10391,6 +10399,12 @@
    "id":"shadow3",
    "payload":{
     "__lazy_json__":"node_attrs/shadow3.json"
+   }
+  },
+  {
+   "id":"pip-tools",
+   "payload":{
+    "__lazy_json__":"node_attrs/pip-tools.json"
    }
   }
  ]
