@@ -555,6 +555,10 @@
    "target":"papermill"
   },
   {
+   "source":"click",
+   "target":"pip-tools"
+  },
+  {
    "source":"cloudpickle",
    "target":"bluesky-live"
   },
@@ -3161,6 +3165,10 @@
   {
    "source":"pep517",
    "target":"napari"
+  },
+  {
+   "source":"pep517",
+   "target":"pip-tools"
   },
   {
    "source":"periodictable",
@@ -6149,6 +6157,10 @@
   {
    "source":"setuptools_scm",
    "target":"pint"
+  },
+  {
+   "source":"setuptools_scm",
+   "target":"pip-tools"
   },
   {
    "source":"setuptools_scm",

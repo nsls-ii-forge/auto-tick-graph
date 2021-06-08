@@ -18,6 +18,10 @@
    "summary":"pip-tools keeps your pinned dependencies fresh."
   },
   "build":{
+   "entry_points":[
+    "pip-compile = piptools.scripts.compile:cli",
+    "pip-sync = piptools.scripts.sync:cli"
+   ],
    "noarch":"python",
    "number":"0",
    "script":"-m pip install . -vv --no-deps"
@@ -29,10 +33,13 @@
   "requirements":{
    "host":[
     "python",
-    "pip"
+    "pip",
+    "setuptools_scm"
    ],
    "run":[
-    "python"
+    "python",
+    "click",
+    "pep517"
    ]
   },
   "source":{
@@ -62,12 +69,15 @@
    "__set__":true,
    "elements":[
     "pip",
-    "python"
+    "python",
+    "setuptools_scm"
    ]
   },
   "run":{
    "__set__":true,
    "elements":[
+    "click",
+    "pep517",
     "python"
    ]
   },
@@ -87,6 +97,14 @@
    "summary":"pip-tools keeps your pinned dependencies fresh."
   },
   "build":{
+   "entry_points":[
+    "pip-compile = piptools.scripts.compile:cli",
+    "pip-sync = piptools.scripts.sync:cli",
+    "pip-compile = piptools.scripts.compile:cli",
+    "pip-sync = piptools.scripts.sync:cli",
+    "pip-compile = piptools.scripts.compile:cli",
+    "pip-sync = piptools.scripts.sync:cli"
+   ],
    "noarch":"python",
    "number":"0",
    "script":"-m pip install . -vv --no-deps"
@@ -99,15 +117,24 @@
    "host":[
     "python",
     "pip",
+    "setuptools_scm",
     "python",
     "pip",
+    "setuptools_scm",
     "python",
-    "pip"
+    "pip",
+    "setuptools_scm"
    ],
    "run":[
     "python",
+    "click",
+    "pep517",
     "python",
-    "python"
+    "click",
+    "pep517",
+    "python",
+    "click",
+    "pep517"
    ]
   },
   "source":{
@@ -149,6 +176,10 @@
    "summary":"pip-tools keeps your pinned dependencies fresh."
   },
   "build":{
+   "entry_points":[
+    "pip-compile = piptools.scripts.compile:cli",
+    "pip-sync = piptools.scripts.sync:cli"
+   ],
    "noarch":"python",
    "number":"0",
    "script":"-m pip install . -vv --no-deps"
@@ -160,10 +191,13 @@
   "requirements":{
    "host":[
     "python",
-    "pip"
+    "pip",
+    "setuptools_scm"
    ],
    "run":[
-    "python"
+    "python",
+    "click",
+    "pep517"
    ]
   },
   "source":{
@@ -193,12 +227,15 @@
    "__set__":true,
    "elements":[
     "pip",
-    "python"
+    "python",
+    "setuptools_scm"
    ]
   },
   "run":{
    "__set__":true,
    "elements":[
+    "click",
+    "pep517",
     "python"
    ]
   },
@@ -209,12 +246,15 @@
    ]
   }
  },
- "raw_meta_yaml":"{% set name = \"pip-tools\" %}\n{% set version = \"6.1.0\" %}\n{% set sha256 = \"400bf77e29cca48c31abc210042932bb52dcc138ef4ea4d52c5db429aa8ae6ee\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv --no-deps\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n\ntest:\n  requires:\n    - pip\n  imports:\n    - piptools\n  commands:\n    - pip check\n    - pip-compile --help\n    - pip-sync --help\n\nabout:\n  home: https://github.com/jazzband/pip-tools\n  license_family: BSD\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: pip-tools keeps your pinned dependencies fresh.\n",
+ "raw_meta_yaml":"{% set name = \"pip-tools\" %}\n{% set version = \"6.1.0\" %}\n{% set sha256 = \"400bf77e29cca48c31abc210042932bb52dcc138ef4ea4d52c5db429aa8ae6ee\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  entry_points:\n    - pip-compile = piptools.scripts.compile:cli\n    - pip-sync = piptools.scripts.sync:cli\n  script: {{ PYTHON }} -m pip install . -vv --no-deps\n\nrequirements:\n  host:\n    - python\n    - pip\n    - setuptools_scm\n  run:\n    - python\n    - click\n    - pep517\n\ntest:\n  requires:\n    - pip\n  imports:\n    - piptools\n  commands:\n    - pip check\n    - pip-compile --help\n    - pip-sync --help\n\nabout:\n  home: https://github.com/jazzband/pip-tools\n  license_family: BSD\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: pip-tools keeps your pinned dependencies fresh.\n",
  "req":{
   "__set__":true,
   "elements":[
+   "click",
+   "pep517",
    "pip",
-   "python"
+   "python",
+   "setuptools_scm"
   ]
  },
  "requirements":{
@@ -226,12 +266,15 @@
    "__set__":true,
    "elements":[
     "pip",
-    "python"
+    "python",
+    "setuptools_scm"
    ]
   },
   "run":{
    "__set__":true,
    "elements":[
+    "click",
+    "pep517",
     "python"
    ]
   },
@@ -252,12 +295,15 @@
    "__set__":true,
    "elements":[
     "pip",
-    "python"
+    "python",
+    "setuptools_scm"
    ]
   },
   "run":{
    "__set__":true,
    "elements":[
+    "click",
+    "pep517",
     "python"
    ]
   },
@@ -279,6 +325,10 @@
    "summary":"pip-tools keeps your pinned dependencies fresh."
   },
   "build":{
+   "entry_points":[
+    "pip-compile = piptools.scripts.compile:cli",
+    "pip-sync = piptools.scripts.sync:cli"
+   ],
    "noarch":"python",
    "number":"0",
    "script":"-m pip install . -vv --no-deps"
@@ -290,10 +340,13 @@
   "requirements":{
    "host":[
     "python",
-    "pip"
+    "pip",
+    "setuptools_scm"
    ],
    "run":[
-    "python"
+    "python",
+    "click",
+    "pep517"
    ]
   },
   "source":{
@@ -323,12 +376,15 @@
    "__set__":true,
    "elements":[
     "pip",
-    "python"
+    "python",
+    "setuptools_scm"
    ]
   },
   "run":{
    "__set__":true,
    "elements":[
+    "click",
+    "pep517",
     "python"
    ]
   },
