@@ -17,7 +17,7 @@
    "summary":"Collection metapackage for NSLS-II deployments"
   },
   "build":{
-   "number":"0"
+   "number":0
   },
   "package":{
    "name":"collection",
@@ -185,7 +185,7 @@
    "summary":"Collection metapackage for NSLS-II deployments"
   },
   "build":{
-   "number":"0",
+   "number":0,
    "skip":true
   },
   "package":{
