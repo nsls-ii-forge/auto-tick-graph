@@ -1,5 +1,6 @@
 [
   "anyio",
+  "asdf",
   "py4xs",
   "eventlet",
   "ispyb",
