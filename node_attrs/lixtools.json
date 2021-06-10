@@ -16,6 +16,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/666826062.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2021.6.9.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -182,10 +199,11 @@
   }
  },
  "name":"lixtools",
- "new_version":"2021.6.2.1",
+ "new_version":"2021.6.9.0",
  "new_version_attempts":{
   "2021.6.2.0":1,
-  "2021.6.2.1":1
+  "2021.6.2.1":1,
+  "2021.6.9.0":1
  },
  "new_version_errors":{
   "2021.6.2.0":"The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '2021.6.2.0' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz'\n"
@@ -268,7 +286,7 @@
    "elements":[]
   }
  },
- "pinning_version":"2021.06.02.13.20.38",
+ "pinning_version":"2021.06.10.08.18.57",
  "raw_meta_yaml":"{% set name = \"lixtools\" %}\n{% set version = \"2021.6.2.1\" %}\n{% set sha256 = \"d75647e6652a8828b6ffcd27682930f05fea985ed34f66d0dbc93c42b060a37a\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv --no-deps\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - matplotlib\n    - numpy\n    - openpyxl >=3\n    - pandas\n    - pillow\n    - py4xs\n    - python-barcode\n    - qrcode\n\ntest:\n  imports:\n    - lixtools\n  commands:\n    - python -c 'import os, pkg_resources; assert os.path.isfile(pkg_resources.resource_filename(\"lixtools\", \"plate_label_template.html\"))'\n    - python -c 'import os, pkg_resources; assert os.path.isfile(pkg_resources.resource_filename(\"lixtools\", \"template_report.ipynb\"))'\n\nabout:\n  home: https://github.com/NSLS-II-LIX/lixtools\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: Software tools for data collection/processing at NSLS-II LiX\n",
  "req":{
   "__set__":true,
