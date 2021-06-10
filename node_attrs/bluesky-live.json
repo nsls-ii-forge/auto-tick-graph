@@ -38,20 +38,20 @@
   },
   "build":{
    "noarch":"python",
-   "number":"1",
+   "number":"0",
    "script":"-m pip install . -vv --no-deps"
   },
   "package":{
    "name":"bluesky-live",
-   "version":"0.0.7"
+   "version":"0.0.8"
   },
   "requirements":{
    "host":[
-    "python >=3.6",
+    "python >=3.6,!=3.9.5",
     "pip"
    ],
    "run":[
-    "python >=3.6",
+    "python >=3.6,!=3.9.5",
     "dask-core >=2",
     "entrypoints",
     "event-model >=1.16.0",
@@ -65,12 +65,11 @@
    ]
   },
   "source":{
-   "sha256":"2cfefc97ca2ca6bdfdf3be67a6c28a1811549a72aa919d3f84e4dedb4e526f9c",
-   "url":"https://pypi.io/packages/source/b/bluesky-live/bluesky-live-0.0.7.tar.gz"
+   "sha256":"94f2b71016e9e87f08a901a57145df0bfae5234641c086a001ca463483ae8940",
+   "url":"https://pypi.io/packages/source/b/bluesky-live/bluesky-live-0.0.8.tar.gz"
   },
   "test":{
    "commands":[
-    "pytest --pyargs bluesky_live.tests",
     "pip check"
    ],
    "imports":[
@@ -78,8 +77,7 @@
     "bluesky_live.tests"
    ],
    "requires":[
-    "pip",
-    "pytest"
+    "pip"
    ]
   }
  },
@@ -114,8 +112,7 @@
   "test":{
    "__set__":true,
    "elements":[
-    "pip",
-    "pytest"
+    "pip"
    ]
   }
  },
@@ -129,24 +126,24 @@
   },
   "build":{
    "noarch":"python",
-   "number":"1",
+   "number":"0",
    "script":"-m pip install . -vv --no-deps"
   },
   "package":{
    "name":"bluesky-live",
-   "version":"0.0.7"
+   "version":"0.0.8"
   },
   "requirements":{
    "host":[
-    "python >=3.6",
+    "python >=3.6,!=3.9.5",
     "pip",
-    "python >=3.6",
+    "python >=3.6,!=3.9.5",
     "pip",
-    "python >=3.6",
+    "python >=3.6,!=3.9.5",
     "pip"
    ],
    "run":[
-    "python >=3.6",
+    "python >=3.6,!=3.9.5",
     "dask-core >=2",
     "entrypoints",
     "event-model >=1.16.0",
@@ -157,7 +154,7 @@
     "fsspec >=0.6.0",
     "partd >=0.3.10",
     "toolz >=0.8.2",
-    "python >=3.6",
+    "python >=3.6,!=3.9.5",
     "dask-core >=2",
     "entrypoints",
     "event-model >=1.16.0",
@@ -168,7 +165,7 @@
     "fsspec >=0.6.0",
     "partd >=0.3.10",
     "toolz >=0.8.2",
-    "python >=3.6",
+    "python >=3.6,!=3.9.5",
     "dask-core >=2",
     "entrypoints",
     "event-model >=1.16.0",
@@ -182,16 +179,13 @@
    ]
   },
   "source":{
-   "sha256":"2cfefc97ca2ca6bdfdf3be67a6c28a1811549a72aa919d3f84e4dedb4e526f9c",
-   "url":"https://pypi.io/packages/source/b/bluesky-live/bluesky-live-0.0.7.tar.gz"
+   "sha256":"94f2b71016e9e87f08a901a57145df0bfae5234641c086a001ca463483ae8940",
+   "url":"https://pypi.io/packages/source/b/bluesky-live/bluesky-live-0.0.8.tar.gz"
   },
   "test":{
    "commands":[
-    "pytest --pyargs bluesky_live.tests",
     "pip check",
-    "pytest --pyargs bluesky_live.tests",
     "pip check",
-    "pytest --pyargs bluesky_live.tests",
     "pip check"
    ],
    "imports":[
@@ -204,11 +198,8 @@
    ],
    "requires":[
     "pip",
-    "pytest",
     "pip",
-    "pytest",
-    "pip",
-    "pytest"
+    "pip"
    ]
   }
  },
@@ -228,20 +219,20 @@
   },
   "build":{
    "noarch":"python",
-   "number":"1",
+   "number":"0",
    "script":"-m pip install . -vv --no-deps"
   },
   "package":{
    "name":"bluesky-live",
-   "version":"0.0.7"
+   "version":"0.0.8"
   },
   "requirements":{
    "host":[
-    "python >=3.6",
+    "python >=3.6,!=3.9.5",
     "pip"
    ],
    "run":[
-    "python >=3.6",
+    "python >=3.6,!=3.9.5",
     "dask-core >=2",
     "entrypoints",
     "event-model >=1.16.0",
@@ -255,12 +246,11 @@
    ]
   },
   "source":{
-   "sha256":"2cfefc97ca2ca6bdfdf3be67a6c28a1811549a72aa919d3f84e4dedb4e526f9c",
-   "url":"https://pypi.io/packages/source/b/bluesky-live/bluesky-live-0.0.7.tar.gz"
+   "sha256":"94f2b71016e9e87f08a901a57145df0bfae5234641c086a001ca463483ae8940",
+   "url":"https://pypi.io/packages/source/b/bluesky-live/bluesky-live-0.0.8.tar.gz"
   },
   "test":{
    "commands":[
-    "pytest --pyargs bluesky_live.tests",
     "pip check"
    ],
    "imports":[
@@ -268,8 +258,7 @@
     "bluesky_live.tests"
    ],
    "requires":[
-    "pip",
-    "pytest"
+    "pip"
    ]
   }
  },
@@ -304,13 +293,12 @@
   "test":{
    "__set__":true,
    "elements":[
-    "pip",
-    "pytest"
+    "pip"
    ]
   }
  },
  "pinning_version":"2021.06.07.07.55.19",
- "raw_meta_yaml":"{% set name = \"bluesky-live\" %}\n{% set version = \"0.0.7\" %}\n{% set sha256 = \"2cfefc97ca2ca6bdfdf3be67a6c28a1811549a72aa919d3f84e4dedb4e526f9c\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 1\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv --no-deps\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - dask-core >=2\n    - entrypoints\n    - event-model >=1.16.0\n    - numpy\n    - pandas\n    - xarray\n    # TODO: remove these dependencies once they are fixed in\n    # https://anaconda.org/anaconda/dask-core/files.  See\n    # https://github.com/conda-forge/dask-core-feedstock/pull/93/files for more\n    # details.\n    - cloudpickle >=1.1.1\n    - fsspec >=0.6.0\n    - partd >=0.3.10\n    - toolz >=0.8.2\n\ntest:\n  requires:\n    - pip\n    - pytest\n  imports:\n    - bluesky_live\n    - bluesky_live.tests\n  commands:\n    - pytest --pyargs bluesky_live.tests\n    - pip check\n\nabout:\n  home: https://github.com/bluesky/bluesky-live\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Prototype building blocks for working with streaming data in bluesky\n",
+ "raw_meta_yaml":"{% set name = \"bluesky-live\" %}\n{% set version = \"0.0.8\" %}\n{% set sha256 = \"94f2b71016e9e87f08a901a57145df0bfae5234641c086a001ca463483ae8940\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv --no-deps\n\nrequirements:\n  host:\n    - python >=3.6,!=3.9.5\n    - pip\n  run:\n    - python >=3.6,!=3.9.5\n    - dask-core >=2\n    - entrypoints\n    - event-model >=1.16.0\n    - numpy\n    - pandas\n    - xarray\n    # TODO: remove these dependencies once they are fixed in\n    # https://anaconda.org/anaconda/dask-core/files.  See\n    # https://github.com/conda-forge/dask-core-feedstock/pull/93/files for more\n    # details.\n    - cloudpickle >=1.1.1\n    - fsspec >=0.6.0\n    - partd >=0.3.10\n    - toolz >=0.8.2\n\ntest:\n  requires:\n    - pip\n    # - pytest\n  imports:\n    - bluesky_live\n    - bluesky_live.tests\n  commands:\n    # - pytest --pyargs bluesky_live.tests\n    - pip check\n\nabout:\n  home: https://github.com/bluesky/bluesky-live\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Prototype building blocks for working with streaming data in bluesky\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -359,8 +347,7 @@
   "test":{
    "__set__":true,
    "elements":[
-    "pip",
-    "pytest"
+    "pip"
    ]
   }
  },
@@ -375,7 +362,7 @@
    "__set__":true,
    "elements":[
     "pip",
-    "python >=3.6"
+    "python >=3.6,!=3.9.5"
    ]
   },
   "run":{
@@ -389,7 +376,7 @@
     "numpy",
     "pandas",
     "partd >=0.3.10",
-    "python >=3.6",
+    "python >=3.6,!=3.9.5",
     "toolz >=0.8.2",
     "xarray"
    ]
@@ -397,13 +384,12 @@
   "test":{
    "__set__":true,
    "elements":[
-    "pip",
-    "pytest"
+    "pip"
    ]
   }
  },
  "url":"https://pypi.io/packages/source/b/bluesky-live/bluesky-live-0.0.7.tar.gz",
- "version":"0.0.7",
+ "version":"0.0.8",
  "win_64_meta_yaml":{
   "about":{
    "home":"https://github.com/bluesky/bluesky-live",
@@ -414,20 +400,20 @@
   },
   "build":{
    "noarch":"python",
-   "number":"1",
+   "number":"0",
    "script":"-m pip install . -vv --no-deps"
   },
   "package":{
    "name":"bluesky-live",
-   "version":"0.0.7"
+   "version":"0.0.8"
   },
   "requirements":{
    "host":[
-    "python >=3.6",
+    "python >=3.6,!=3.9.5",
     "pip"
    ],
    "run":[
-    "python >=3.6",
+    "python >=3.6,!=3.9.5",
     "dask-core >=2",
     "entrypoints",
     "event-model >=1.16.0",
@@ -441,12 +427,11 @@
    ]
   },
   "source":{
-   "sha256":"2cfefc97ca2ca6bdfdf3be67a6c28a1811549a72aa919d3f84e4dedb4e526f9c",
-   "url":"https://pypi.io/packages/source/b/bluesky-live/bluesky-live-0.0.7.tar.gz"
+   "sha256":"94f2b71016e9e87f08a901a57145df0bfae5234641c086a001ca463483ae8940",
+   "url":"https://pypi.io/packages/source/b/bluesky-live/bluesky-live-0.0.8.tar.gz"
   },
   "test":{
    "commands":[
-    "pytest --pyargs bluesky_live.tests",
     "pip check"
    ],
    "imports":[
@@ -454,8 +439,7 @@
     "bluesky_live.tests"
    ],
    "requires":[
-    "pip",
-    "pytest"
+    "pip"
    ]
   }
  },
@@ -490,8 +474,7 @@
   "test":{
    "__set__":true,
    "elements":[
-    "pip",
-    "pytest"
+    "pip"
    ]
   }
  }

@@ -1763,6 +1763,10 @@
    "target":"suitcase-specfile"
   },
   {
+   "source":"jmespath",
+   "target":"asdf"
+  },
+  {
    "source":"jom",
    "target":"libjpeg-turbo"
   },
@@ -4561,10 +4565,6 @@
   {
    "source":"pytest",
    "target":"atsas-pipelines"
-  },
-  {
-   "source":"pytest",
-   "target":"bluesky-live"
   },
   {
    "source":"pytest",
@@ -10417,6 +10417,12 @@
    "id":"pip-tools",
    "payload":{
     "__lazy_json__":"node_attrs/pip-tools.json"
+   }
+  },
+  {
+   "id":"jmespath",
+   "payload":{
+    "__lazy_json__":"node_attrs/jmespath.json"
    }
   }
  ]

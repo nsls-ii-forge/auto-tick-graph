@@ -62,21 +62,21 @@
   },
   "package":{
    "name":"jwcrypto",
-   "version":"0.9"
+   "version":"0.9.1"
   },
   "requirements":{
    "host":[
-    "python",
+    "python !=3.9.5",
     "pip"
    ],
    "run":[
-    "python",
+    "python !=3.9.5",
     "cryptography >=1.5"
    ]
   },
   "source":{
-   "sha256":"c357f62eed1edbd0b025b302ea8b09c262989048dabce8a325128ebfdc54c84f",
-   "url":"https://pypi.io/packages/source/j/jwcrypto/jwcrypto-0.9.tar.gz"
+   "sha256":"63531529218ba9869e14ef8c9e7b516865ede3facf9b0ef3d3ba68014da211f9",
+   "url":"https://pypi.io/packages/source/j/jwcrypto/jwcrypto-0.9.1.tar.gz"
   },
   "test":{
    "imports":[
@@ -125,29 +125,29 @@
   },
   "package":{
    "name":"jwcrypto",
-   "version":"0.9"
+   "version":"0.9.1"
   },
   "requirements":{
    "host":[
-    "python",
+    "python !=3.9.5",
     "pip",
-    "python",
+    "python !=3.9.5",
     "pip",
-    "python",
+    "python !=3.9.5",
     "pip"
    ],
    "run":[
-    "python",
+    "python !=3.9.5",
     "cryptography >=1.5",
-    "python",
+    "python !=3.9.5",
     "cryptography >=1.5",
-    "python",
+    "python !=3.9.5",
     "cryptography >=1.5"
    ]
   },
   "source":{
-   "sha256":"c357f62eed1edbd0b025b302ea8b09c262989048dabce8a325128ebfdc54c84f",
-   "url":"https://pypi.io/packages/source/j/jwcrypto/jwcrypto-0.9.tar.gz"
+   "sha256":"63531529218ba9869e14ef8c9e7b516865ede3facf9b0ef3d3ba68014da211f9",
+   "url":"https://pypi.io/packages/source/j/jwcrypto/jwcrypto-0.9.1.tar.gz"
   },
   "test":{
    "imports":[
@@ -181,21 +181,21 @@
   },
   "package":{
    "name":"jwcrypto",
-   "version":"0.9"
+   "version":"0.9.1"
   },
   "requirements":{
    "host":[
-    "python",
+    "python !=3.9.5",
     "pip"
    ],
    "run":[
-    "python",
+    "python !=3.9.5",
     "cryptography >=1.5"
    ]
   },
   "source":{
-   "sha256":"c357f62eed1edbd0b025b302ea8b09c262989048dabce8a325128ebfdc54c84f",
-   "url":"https://pypi.io/packages/source/j/jwcrypto/jwcrypto-0.9.tar.gz"
+   "sha256":"63531529218ba9869e14ef8c9e7b516865ede3facf9b0ef3d3ba68014da211f9",
+   "url":"https://pypi.io/packages/source/j/jwcrypto/jwcrypto-0.9.1.tar.gz"
   },
   "test":{
    "imports":[
@@ -228,7 +228,7 @@
   }
  },
  "pinning_version":"2021.06.09.12.51.26",
- "raw_meta_yaml":"{% set name = \"jwcrypto\" %}\n{% set version = \"0.9\" %}\n{% set sha256 = \"c357f62eed1edbd0b025b302ea8b09c262989048dabce8a325128ebfdc54c84f\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - cryptography >=1.5\n\ntest:\n  imports:\n    - jwcrypto\n\nabout:\n  home: https://jwcrypto.readthedocs.io/en/latest/\n  license: LGPL v3.0\n  license_family: LGPL\n  license_file: LICENSE\n  summary: Implements JWK,JWS,JWE specifications using python-cryptography\n  doc_url: https://jwcrypto.readthedocs.io/en/latest/\n  dev_url: https://github.com/latchset/jwcrypto\n",
+ "raw_meta_yaml":"{% set name = \"jwcrypto\" %}\n{% set version = \"0.9.1\" %}\n{% set sha256 = \"63531529218ba9869e14ef8c9e7b516865ede3facf9b0ef3d3ba68014da211f9\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python !=3.9.5\n    - pip\n  run:\n    - python !=3.9.5\n    - cryptography >=1.5\n\ntest:\n  imports:\n    - jwcrypto\n\nabout:\n  home: https://jwcrypto.readthedocs.io/en/latest/\n  license: LGPL v3.0\n  license_family: LGPL\n  license_file: LICENSE\n  summary: Implements JWK,JWS,JWE specifications using python-cryptography\n  doc_url: https://jwcrypto.readthedocs.io/en/latest/\n  dev_url: https://github.com/latchset/jwcrypto\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -272,14 +272,14 @@
    "__set__":true,
    "elements":[
     "pip",
-    "python"
+    "python !=3.9.5"
    ]
   },
   "run":{
    "__set__":true,
    "elements":[
     "cryptography >=1.5",
-    "python"
+    "python !=3.9.5"
    ]
   },
   "test":{
@@ -288,7 +288,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/j/jwcrypto/jwcrypto-0.8.tar.gz",
- "version":"0.9",
+ "version":"0.9.1",
  "win_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/latchset/jwcrypto",
@@ -306,21 +306,21 @@
   },
   "package":{
    "name":"jwcrypto",
-   "version":"0.9"
+   "version":"0.9.1"
   },
   "requirements":{
    "host":[
-    "python",
+    "python !=3.9.5",
     "pip"
    ],
    "run":[
-    "python",
+    "python !=3.9.5",
     "cryptography >=1.5"
    ]
   },
   "source":{
-   "sha256":"c357f62eed1edbd0b025b302ea8b09c262989048dabce8a325128ebfdc54c84f",
-   "url":"https://pypi.io/packages/source/j/jwcrypto/jwcrypto-0.9.tar.gz"
+   "sha256":"63531529218ba9869e14ef8c9e7b516865ede3facf9b0ef3d3ba68014da211f9",
+   "url":"https://pypi.io/packages/source/j/jwcrypto/jwcrypto-0.9.1.tar.gz"
   },
   "test":{
    "imports":[
