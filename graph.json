@@ -612,6 +612,10 @@
   },
   {
    "source":"colorama",
+   "target":"httpie"
+  },
+  {
+   "source":"colorama",
    "target":"hunter"
   },
   {
@@ -3528,6 +3532,10 @@
   },
   {
    "source":"pip",
+   "target":"httpie"
+  },
+  {
+   "source":"pip",
    "target":"httpx"
   },
   {
@@ -4284,6 +4292,10 @@
   },
   {
    "source":"pygments",
+   "target":"httpie"
+  },
+  {
+   "source":"pygments",
    "target":"mendeleev"
   },
   {
@@ -4945,6 +4957,10 @@
   {
    "source":"python",
    "target":"httpcore"
+  },
+  {
+   "source":"python",
+   "target":"httpie"
   },
   {
    "source":"python",
@@ -5797,6 +5813,10 @@
   {
    "source":"requests",
    "target":"globus-sdk"
+  },
+  {
+   "source":"requests",
+   "target":"httpie"
   },
   {
    "source":"requests",
@@ -10423,6 +10443,12 @@
    "id":"jmespath",
    "payload":{
     "__lazy_json__":"node_attrs/jmespath.json"
+   }
+  },
+  {
+   "id":"httpie",
+   "payload":{
+    "__lazy_json__":"node_attrs/httpie.json"
    }
   }
  ]
