@@ -5,6 +5,7 @@
   "py4xs",
   "eventlet",
   "ispyb",
+  "hunter",
   "httpcore",
   "slack-sdk",
   "httpx",
