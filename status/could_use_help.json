@@ -1,6 +1,7 @@
 [
   "anyio",
   "asdf",
+  "pytest-qt",
   "napari",
   "py4xs",
   "eventlet",
