@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/670344571.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.19.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -166,7 +185,11 @@
   }
  },
  "name":"trio",
- "new_version":"0.18.0",
+ "new_version":"0.19.0",
+ "new_version_attempts":{
+  "0.19.0":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/python-trio/trio",
@@ -244,6 +267,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2021.06.14.12.21.47",
  "raw_meta_yaml":"{% set name = \"trio\" %}\n{% set version = \"0.18.0\" %}\n{% set sha256 = \"87a66ae61f27fe500c9024926a9ba482c07e1e0f56380b70a264d19c435ba076\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  skip: true  # [py<36]\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - attrs >=18.2.0\n    - sortedcontainers\n    - async_generator >=1.9\n    - contextvars >=2.1  # [py<37]\n    - idna\n    - outcome\n    - sniffio\n    - cffi  # [win]\n\ntest:\n  imports:\n    - trio\n    - trio._core\n    - trio._core.tests\n    - trio._core.tests.test_multierror_scripts\n    - trio.testing\n    - trio.tests\n\nabout:\n  home: https://github.com/python-trio/trio\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: An async/await-native I/O library for humans and snake people\n  doc_url: https://trio.readthedocs.io/\n  dev_url: https://github.com/python-trio/trio\n",
  "req":{
   "__set__":true,
@@ -289,6 +313,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"3.10.2",
  "strong_exports":false,
  "total_requirements":{
   "build":{
