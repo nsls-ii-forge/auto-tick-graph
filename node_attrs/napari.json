@@ -50,6 +50,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/672912360.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.4.10"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -363,8 +380,9 @@
   }
  },
  "name":"napari",
- "new_version":"0.4.9",
+ "new_version":"0.4.10",
  "new_version_attempts":{
+  "0.4.10":1,
   "0.4.7":1,
   "0.4.8":1,
   "0.4.9":1
@@ -510,7 +528,7 @@
    ]
   }
  },
- "pinning_version":"2021.06.11.09.24.58",
+ "pinning_version":"2021.06.16.19.20.17",
  "raw_meta_yaml":"{% set name = \"napari\" %}\n{% set version = \"0.4.2\" %}\n{% set sha256 = \"88aa0d50704a2e0307d60b102cbdd92cf1a469db0996b6500a577f45c1188560\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n  entry_points:\n    - napari = napari.__main__:main\n\nrequirements:\n  build:\n    - pep517\n    - setuptools_scm\n  host:\n    - python >=3.6\n    - pip\n    - setuptools_scm\n  run:\n    - python >=3.6\n    - appdirs\n    - backcall\n    - cachey\n    - dask\n    - fsspec\n    - imageio\n    - ipykernel\n    - ipython\n    - jupyter_client\n    - napari-plugin-engine\n    - napari-svg\n    - numpy\n    - numpydoc\n    - pluggy\n    - pyopengl\n    - pyqt >=5.9\n    - qtconsole\n    - qtpy\n    - scikit-image\n    - scipy\n    - tifffile\n    - vispy >=0.6.4\n    - wrapt\n    - zarr\n\ntest:\n  requires:\n    - pandas\n    - pytest\n    - pytest-faulthandler\n    - pytest-ordering\n    - pytest-qt\n    - pytest-timeout\n    - xarray\n    - zarr\n  imports:\n    - napari\n\nabout:\n  home: http://napari.org\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: a fast n-dimensional image viewer in Python\n  doc_url: http://napari.org\n  dev_url: https://github.com/napari/napari\n",
  "req":{
   "__set__":true,
@@ -605,7 +623,7 @@
    ]
   }
  },
- "smithy_version":"3.10.1",
+ "smithy_version":"3.10.3",
  "strong_exports":false,
  "total_requirements":{
   "build":{
