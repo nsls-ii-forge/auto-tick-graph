@@ -856,6 +856,10 @@
   },
   {
    "source":"cython",
+   "target":"pychx"
+  },
+  {
+   "source":"cython",
    "target":"pyfai"
   },
   {
@@ -928,6 +932,10 @@
   },
   {
    "source":"dask",
+   "target":"pychx"
+  },
+  {
+   "source":"dask",
    "target":"pyxrf"
   },
   {
@@ -980,6 +988,10 @@
   },
   {
    "source":"databroker",
+   "target":"pychx"
+  },
+  {
+   "source":"databroker",
    "target":"shed"
   },
   {
@@ -1025,6 +1037,10 @@
   {
    "source":"deprecated",
    "target":"pygithub"
+  },
+  {
+   "source":"dill",
+   "target":"pychx"
   },
   {
    "source":"dill",
@@ -1692,6 +1708,10 @@
   },
   {
    "source":"ipython",
+   "target":"pychx"
+  },
+  {
+   "source":"ipython",
    "target":"pyolog"
   },
   {
@@ -1949,6 +1969,10 @@
   {
    "source":"lmfit",
    "target":"nexpy"
+  },
+  {
+   "source":"lmfit",
+   "target":"pychx"
   },
   {
    "source":"lmfit",
@@ -2233,6 +2257,10 @@
   {
    "source":"matplotlib",
    "target":"py4xs"
+  },
+  {
+   "source":"matplotlib",
+   "target":"pychx"
   },
   {
    "source":"matplotlib",
@@ -2784,6 +2812,10 @@
   },
   {
    "source":"numpy",
+   "target":"pychx"
+  },
+  {
+   "source":"numpy",
    "target":"pyepics"
   },
   {
@@ -3092,6 +3124,10 @@
   },
   {
    "source":"pandas",
+   "target":"pychx"
+  },
+  {
+   "source":"pandas",
    "target":"pyxrf"
   },
   {
@@ -3221,6 +3257,10 @@
   {
    "source":"pillow",
    "target":"py4xs"
+  },
+  {
+   "source":"pillow",
+   "target":"pychx"
   },
   {
    "source":"pillow",
@@ -3769,6 +3809,10 @@
   {
    "source":"pip",
    "target":"pycentroids"
+  },
+  {
+   "source":"pip",
+   "target":"pychx"
   },
   {
    "source":"pip",
@@ -5208,6 +5252,10 @@
   },
   {
    "source":"python",
+   "target":"pychx"
+  },
+  {
+   "source":"python",
    "target":"pyepics"
   },
   {
@@ -5644,6 +5692,10 @@
   },
   {
    "source":"pyyaml",
+   "target":"pychx"
+  },
+  {
+   "source":"pyyaml",
    "target":"pykern"
   },
   {
@@ -5777,6 +5829,10 @@
   {
    "source":"reportlab",
    "target":"analysis"
+  },
+  {
+   "source":"reportlab",
+   "target":"pychx"
   },
   {
    "source":"reportlab",
@@ -6041,6 +6097,10 @@
   {
    "source":"scipy",
    "target":"pycentroids"
+  },
+  {
+   "source":"scipy",
+   "target":"pychx"
   },
   {
    "source":"scipy",
@@ -6675,6 +6735,10 @@
    "target":"ansiwrap"
   },
   {
+   "source":"theano",
+   "target":"pychx"
+  },
+  {
    "source":"tifffile",
    "target":"area-detector-handlers"
   },
@@ -6689,6 +6753,10 @@
   {
    "source":"tifffile",
    "target":"napari"
+  },
+  {
+   "source":"tifffile",
+   "target":"pychx"
   },
   {
    "source":"tifffile",
@@ -6773,6 +6841,10 @@
   {
    "source":"tqdm",
    "target":"papermill"
+  },
+  {
+   "source":"tqdm",
+   "target":"pychx"
   },
   {
    "source":"tqdm",
@@ -10449,6 +10521,18 @@
    "id":"httpie",
    "payload":{
     "__lazy_json__":"node_attrs/httpie.json"
+   }
+  },
+  {
+   "id":"pychx",
+   "payload":{
+    "__lazy_json__":"node_attrs/pychx.json"
+   }
+  },
+  {
+   "id":"theano",
+   "payload":{
+    "__lazy_json__":"node_attrs/theano.json"
    }
   }
  ]
