@@ -28,11 +28,11 @@
   },
   "requirements":{
    "host":[
-    "python >=3.6,!=3.9.5",
+    "python >=3.6,!=3.9.5,!=3.8.10",
     "pip"
    ],
    "run":[
-    "python >=3.6,!=3.9.5",
+    "python >=3.6,!=3.9.5,!=3.8.10",
     "cython",
     "dask",
     "databroker",
@@ -122,15 +122,15 @@
   },
   "requirements":{
    "host":[
-    "python >=3.6,!=3.9.5",
+    "python >=3.6,!=3.9.5,!=3.8.10",
     "pip",
-    "python >=3.6,!=3.9.5",
+    "python >=3.6,!=3.9.5,!=3.8.10",
     "pip",
-    "python >=3.6,!=3.9.5",
+    "python >=3.6,!=3.9.5,!=3.8.10",
     "pip"
    ],
    "run":[
-    "python >=3.6,!=3.9.5",
+    "python >=3.6,!=3.9.5,!=3.8.10",
     "cython",
     "dask",
     "databroker",
@@ -147,7 +147,7 @@
     "theano",
     "tifffile",
     "tqdm",
-    "python >=3.6,!=3.9.5",
+    "python >=3.6,!=3.9.5,!=3.8.10",
     "cython",
     "dask",
     "databroker",
@@ -164,7 +164,7 @@
     "theano",
     "tifffile",
     "tqdm",
-    "python >=3.6,!=3.9.5",
+    "python >=3.6,!=3.9.5,!=3.8.10",
     "cython",
     "dask",
     "databroker",
@@ -225,11 +225,11 @@
   },
   "requirements":{
    "host":[
-    "python >=3.6,!=3.9.5",
+    "python >=3.6,!=3.9.5,!=3.8.10",
     "pip"
    ],
    "run":[
-    "python >=3.6,!=3.9.5",
+    "python >=3.6,!=3.9.5,!=3.8.10",
     "cython",
     "dask",
     "databroker",
@@ -300,7 +300,7 @@
    "elements":[]
   }
  },
- "raw_meta_yaml":"{% set name = \"pyCHX\" %}\n{% set version = \"4.0.10\" %}\n{% set sha256 = \"bbd5a69119b2b32371edf5363583f3c92933aa7660360543638d6c6ede130228\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv --no-deps\n\nrequirements:\n  host:\n    - python >=3.6,!=3.9.5\n    - pip\n  run:\n    - python >=3.6,!=3.9.5\n    - cython\n    - dask\n    - databroker\n    - dill\n    - ipython\n    - lmfit\n    - matplotlib\n    - numpy\n    - pandas\n    - pillow\n    - pyyaml\n    - reportlab\n    - scipy\n    - theano\n    - tifffile\n    - tqdm\n\ntest:\n  imports:\n    - pyCHX\n    - pyCHX.v2\n    - pyCHX.v2._commonspeckle\n    - pyCHX.v2._futurepyCHX\n\nabout:\n  home: https://github.com/NSLS-II/pyCHX\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: pyCHX - NSLS-II CHX XPCS Data Analysis Package\n",
+ "raw_meta_yaml":"{% set name = \"pyCHX\" %}\n{% set version = \"4.0.10\" %}\n{% set sha256 = \"bbd5a69119b2b32371edf5363583f3c92933aa7660360543638d6c6ede130228\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv --no-deps\n\nrequirements:\n  host:\n    - python >=3.6,!=3.9.5,!=3.8.10\n    - pip\n  run:\n    - python >=3.6,!=3.9.5,!=3.8.10\n    - cython\n    - dask\n    - databroker\n    - dill\n    - ipython\n    - lmfit\n    - matplotlib\n    - numpy\n    - pandas\n    - pillow\n    - pyyaml\n    - reportlab\n    - scipy\n    - theano\n    - tifffile\n    - tqdm\n\ntest:\n  imports:\n    - pyCHX\n    - pyCHX.v2\n    - pyCHX.v2._commonspeckle\n    - pyCHX.v2._futurepyCHX\n\nabout:\n  home: https://github.com/NSLS-II/pyCHX\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: pyCHX - NSLS-II CHX XPCS Data Analysis Package\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -373,7 +373,7 @@
    "__set__":true,
    "elements":[
     "pip",
-    "python >=3.6,!=3.9.5"
+    "python >=3.6,!=3.9.5,!=3.8.10"
    ]
   },
   "run":{
@@ -389,7 +389,7 @@
     "numpy",
     "pandas",
     "pillow",
-    "python >=3.6,!=3.9.5",
+    "python >=3.6,!=3.9.5,!=3.8.10",
     "pyyaml",
     "reportlab",
     "scipy",
@@ -424,11 +424,11 @@
   },
   "requirements":{
    "host":[
-    "python >=3.6,!=3.9.5",
+    "python >=3.6,!=3.9.5,!=3.8.10",
     "pip"
    ],
    "run":[
-    "python >=3.6,!=3.9.5",
+    "python >=3.6,!=3.9.5,!=3.8.10",
     "cython",
     "dask",
     "databroker",
