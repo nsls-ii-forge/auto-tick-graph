@@ -21,7 +21,7 @@
    "summary":"An Astropy package for photometry"
   },
   "build":{
-   "number":"0",
+   "number":0,
    "script":"-m pip install . --no-deps -vv"
   },
   "package":{
@@ -131,7 +131,7 @@
    "summary":"An Astropy package for photometry"
   },
   "build":{
-   "number":"0",
+   "number":0,
    "script":"-m pip install . --no-deps -vv"
   },
   "package":{
