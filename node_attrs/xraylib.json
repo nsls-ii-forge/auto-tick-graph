@@ -412,7 +412,7 @@
    "summary":"A library for X-ray matter interaction cross sections for X-ray fluorescence applications"
   },
   "build":{
-   "number":0
+   "number":"0"
   },
   "package":{
    "name":"xraylib",
