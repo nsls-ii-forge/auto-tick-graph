@@ -152,7 +152,7 @@
    "summary":"Jansson is a C library for encoding, decoding and manipulating JSON data."
   },
   "build":{
-   "number":0,
+   "number":"0",
    "run_exports":[
     "jansson"
    ]
