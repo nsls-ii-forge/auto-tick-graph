@@ -128,7 +128,7 @@
    "summary":"Sniff out which async library your code is running under"
   },
   "build":{
-   "number":0,
+   "number":"0",
    "script":"-m pip install . --no-deps -vv"
   },
   "package":{
