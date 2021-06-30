@@ -16,6 +16,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/681052328.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.6.14"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -173,9 +190,10 @@
   }
  },
  "name":"python-gssapi",
- "new_version":"1.6.12",
+ "new_version":"1.6.14",
  "new_version_attempts":{
-  "1.6.13":1
+  "1.6.13":1,
+  "1.6.14":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -253,7 +271,7 @@
    "elements":[]
   }
  },
- "pinning_version":"2021.06.01.05.21.06",
+ "pinning_version":"2021.06.30.05.52.22",
  "raw_meta_yaml":"{% set name = \"gssapi\" %}\n{% set version = \"1.6.13\" %}\n{% set sha256 = \"5947b93d8188baab88871c93770a8db394b0e522d4f92d5d4f5c9edb48ac0f9f\" %}\n\npackage:\n  name: python-gssapi\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n  patches:\n    - 0001-fix-setup.patch\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv  # [not win]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - python\n    - cython\n    - krb5\n    - pip\n  run:\n    - python\n    - decorator\n\ntest:\n  imports:\n    - gssapi\n    - gssapi.raw\n    - gssapi.raw._enum_extensions\n\nabout:\n  home: https://github.com/pythongssapi/python-gssapi\n  license: ISC\n  license_file: LICENSE.txt\n  summary: A Python interface to RFC 2743/2744 (plus common extensions)\n  doc_url: https://pythongssapi.github.io/python-gssapi/stable/\n  dev_url: https://github.com/pythongssapi/python-gssapi\n",
  "req":{
   "__set__":true,
@@ -294,7 +312,7 @@
    "elements":[]
   }
  },
- "smithy_version":"3.10.1",
+ "smithy_version":"3.10.3",
  "strong_exports":false,
  "total_requirements":{
   "build":{
