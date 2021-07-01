@@ -1,5 +1,5 @@
 {
- "bad":false,
+ "bad":"make_graph: 503",
  "conda-forge.yml":{
   "provider":{
    "linux":"azure",
@@ -119,7 +119,7 @@
   }
  },
  "name":"h11",
- "new_version":"0.12.0",
+ "new_version":false,
  "osx_64_meta_yaml":{
   "about":{
    "description":"h11 is an HTTP/1.1 protocol library written in Python, heavily inspired by\n[hyper-h2](https://hyper-h2.readthedocs.io/en/stable/).\n",
