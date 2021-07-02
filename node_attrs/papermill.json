@@ -43,7 +43,7 @@
     "papermill = papermill.cli:papermill"
    ],
    "noarch":"python",
-   "number":0,
+   "number":"0",
    "script":"-m pip install . --no-deps -vv"
   },
   "package":{
@@ -134,7 +134,7 @@
     "papermill = papermill.cli:papermill"
    ],
    "noarch":"python",
-   "number":0,
+   "number":"0",
    "script":"-m pip install . --no-deps -vv"
   },
   "package":{
