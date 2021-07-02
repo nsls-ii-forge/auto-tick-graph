@@ -4,6 +4,7 @@
   "pytest-qt",
   "napari",
   "py4xs",
+  "xraylarch",
   "eventlet",
   "ispyb",
   "lixtools",
