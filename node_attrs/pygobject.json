@@ -21,7 +21,7 @@
    "summary":"Python bindings for GObject Introspection"
   },
   "build":{
-   "number":0
+   "number":"0"
   },
   "package":{
    "name":"pygobject",
@@ -108,7 +108,7 @@
    "summary":"Python bindings for GObject Introspection"
   },
   "build":{
-   "number":0,
+   "number":"0",
    "skip":true
   },
   "package":{
