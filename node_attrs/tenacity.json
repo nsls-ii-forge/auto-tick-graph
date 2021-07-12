@@ -16,6 +16,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/687784936.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"8.0.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -152,9 +169,10 @@
   }
  },
  "name":"tenacity",
- "new_version":"8.0.0",
+ "new_version":"8.0.1",
  "new_version_attempts":{
-  "8.0.0":1
+  "8.0.0":1,
+  "8.0.1":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -224,7 +242,7 @@
    "elements":[]
   }
  },
- "pinning_version":"2021.07.08.05.56.39",
+ "pinning_version":"2021.07.11.12.10.29",
  "raw_meta_yaml":"{% set name = \"tenacity\" %}\n{% set version = \"7.0.0\" %}\n{% set sha256 = \"5bd16ef5d3b985647fe28dfa6f695d343aa26479a04e8792b9d3c8f49e361ae1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python\n    - pbr\n    - pip\n    - setuptools\n    - setuptools_scm\n  run:\n    - python\n    - futures >=3  # [py27]\n    - monotonic >=0.6  # [py27]\n    - six >=1.9.0\n\ntest:\n  imports:\n    - tenacity\n\nabout:\n  home: http://github.com/jd/tenacity\n  license: Apache 2.0\n  license_file: LICENSE\n  summary: Retry a flaky function whenever an exception occurs until it works\n  description: |\n    Tenacity is general-purpose retrying library, written in Python, to simplify the task of\n    adding retry behavior to just about anything. It originates from a fork of Retrying\n",
  "req":{
   "__set__":true,
