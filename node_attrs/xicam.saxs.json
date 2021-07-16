@@ -17,7 +17,7 @@
    "summary":"SAXS plugin for Xi-cam"
   },
   "build":{
-   "number":"1",
+   "number":1,
    "script":" -m pip install . --no-deps -vv"
   },
   "package":{
@@ -94,7 +94,7 @@
    "summary":"SAXS plugin for Xi-cam"
   },
   "build":{
-   "number":"1",
+   "number":1,
    "script":" -m pip install . --no-deps -vv"
   },
   "package":{
