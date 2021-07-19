@@ -43,7 +43,7 @@
   },
   "package":{
    "name":"delocate",
-   "version":"0.8.2"
+   "version":"0.9.0"
   },
   "requirements":{
    "host":[
@@ -52,12 +52,13 @@
    ],
    "run":[
     "python",
+    "six",
     "wheel"
    ]
   },
   "source":{
-   "sha256":"8c7e2f941b9613a1137c1cbde17e5956394ee4fa4a69d2897025275e69018c6a",
-   "url":"https://pypi.io/packages/source/d/delocate/delocate-0.8.2.tar.gz"
+   "sha256":"fa71952921af4910163e8de7c36290e5bc94cb3c3bce4ea00fe327a19f313eba",
+   "url":"https://pypi.io/packages/source/d/delocate/delocate-0.9.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -85,6 +86,7 @@
    "__set__":true,
    "elements":[
     "python",
+    "six",
     "wheel"
    ]
   },
@@ -108,7 +110,7 @@
   },
   "package":{
    "name":"delocate",
-   "version":"0.8.2"
+   "version":"0.9.0"
   },
   "requirements":{
    "host":[
@@ -121,16 +123,19 @@
    ],
    "run":[
     "python",
+    "six",
     "wheel",
     "python",
+    "six",
     "wheel",
     "python",
+    "six",
     "wheel"
    ]
   },
   "source":{
-   "sha256":"8c7e2f941b9613a1137c1cbde17e5956394ee4fa4a69d2897025275e69018c6a",
-   "url":"https://pypi.io/packages/source/d/delocate/delocate-0.8.2.tar.gz"
+   "sha256":"fa71952921af4910163e8de7c36290e5bc94cb3c3bce4ea00fe327a19f313eba",
+   "url":"https://pypi.io/packages/source/d/delocate/delocate-0.9.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -168,7 +173,7 @@
   },
   "package":{
    "name":"delocate",
-   "version":"0.8.2"
+   "version":"0.9.0"
   },
   "requirements":{
    "host":[
@@ -177,12 +182,13 @@
    ],
    "run":[
     "python",
+    "six",
     "wheel"
    ]
   },
   "source":{
-   "sha256":"8c7e2f941b9613a1137c1cbde17e5956394ee4fa4a69d2897025275e69018c6a",
-   "url":"https://pypi.io/packages/source/d/delocate/delocate-0.8.2.tar.gz"
+   "sha256":"fa71952921af4910163e8de7c36290e5bc94cb3c3bce4ea00fe327a19f313eba",
+   "url":"https://pypi.io/packages/source/d/delocate/delocate-0.9.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -210,6 +216,7 @@
    "__set__":true,
    "elements":[
     "python",
+    "six",
     "wheel"
    ]
   },
@@ -219,12 +226,13 @@
   }
  },
  "pinning_version":"2021.07.18.08.46.59",
- "raw_meta_yaml":"{% set name = \"delocate\" %}\n{% set version = \"0.8.2\" %}\n{% set sha256 = \"8c7e2f941b9613a1137c1cbde17e5956394ee4fa4a69d2897025275e69018c6a\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  skip: true  # [not osx]\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - wheel\n\ntest:\n  imports:\n    - delocate\n  commands:\n    - delocate-listdeps -h\n    - delocate-wheel -h\n\nabout:\n  home: https://github.com/matthew-brett/delocate\n  license: BSD-2-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Move OSX dynamic libraries into package\n",
+ "raw_meta_yaml":"{% set name = \"delocate\" %}\n{% set version = \"0.9.0\" %}\n{% set sha256 = \"fa71952921af4910163e8de7c36290e5bc94cb3c3bce4ea00fe327a19f313eba\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  skip: true  # [not osx]\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - six\n    - wheel\n\ntest:\n  imports:\n    - delocate\n  commands:\n    - delocate-listdeps -h\n    - delocate-wheel -h\n\nabout:\n  home: https://github.com/matthew-brett/delocate\n  license: BSD-2-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Move OSX dynamic libraries into package\n",
  "req":{
   "__set__":true,
   "elements":[
    "pip",
    "python",
+   "six",
    "wheel"
   ]
  },
@@ -244,6 +252,7 @@
    "__set__":true,
    "elements":[
     "python",
+    "six",
     "wheel"
    ]
   },
@@ -270,6 +279,7 @@
    "__set__":true,
    "elements":[
     "python",
+    "six",
     "wheel"
    ]
   },
@@ -279,7 +289,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/d/delocate/delocate-0.8.2.tar.gz",
- "version":"0.8.2",
+ "version":"0.9.0",
  "win_64_meta_yaml":{
   "about":{
    "home":"https://github.com/matthew-brett/delocate",
@@ -295,7 +305,7 @@
   },
   "package":{
    "name":"delocate",
-   "version":"0.8.2"
+   "version":"0.9.0"
   },
   "requirements":{
    "host":[
@@ -304,12 +314,13 @@
    ],
    "run":[
     "python",
+    "six",
     "wheel"
    ]
   },
   "source":{
-   "sha256":"8c7e2f941b9613a1137c1cbde17e5956394ee4fa4a69d2897025275e69018c6a",
-   "url":"https://pypi.io/packages/source/d/delocate/delocate-0.8.2.tar.gz"
+   "sha256":"fa71952921af4910163e8de7c36290e5bc94cb3c3bce4ea00fe327a19f313eba",
+   "url":"https://pypi.io/packages/source/d/delocate/delocate-0.9.0.tar.gz"
   },
   "test":{
    "commands":[
@@ -337,6 +348,7 @@
    "__set__":true,
    "elements":[
     "python",
+    "six",
     "wheel"
    ]
   },

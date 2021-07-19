@@ -5,6 +5,7 @@
   "napari",
   "py4xs",
   "xraylarch",
+  "qrcode",
   "eventlet",
   "ispyb",
   "lixtools",
