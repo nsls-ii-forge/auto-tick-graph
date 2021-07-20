@@ -1,6 +1,7 @@
 [
   "anyio",
   "asdf",
+  "vispy",
   "pytest-qt",
   "napari",
   "py4xs",
