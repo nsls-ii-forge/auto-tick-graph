@@ -459,7 +459,7 @@
   }
  },
  "name":"epics-base",
- "new_version":"7.0.6",
+ "new_version":"7.0.5",
  "new_version_attempts":{
   "7.0.5":1,
   "7.0.6":1
