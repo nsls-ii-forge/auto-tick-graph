@@ -23,7 +23,7 @@
    "own_environment":true
   },
   "build":{
-   "number":"103",
+   "number":103,
    "script":"-m pip install . --no-deps --ignore-installed --no-index --no-cache-dir -vv --install-option=\"-GNinja\" --install-option=\"--disable-cuda\" --install-option=\"-DCUDA_TOOLKIT_ROOT_DIR=${CUDA_HOME}\" --install-option=\"--disable-mkl\" --install-option=\"--disable-opencv\"",
    "string":"pyh_103"
   },
@@ -141,7 +141,7 @@
   },
   "build":{
    "merge_build_host":true,
-   "number":"103",
+   "number":103,
    "script":"-m pip install . --no-deps --ignore-installed --no-index --no-cache-dir -vv --install-option=\"-GNinja\" --install-option=\"--disable-cuda\" --install-option=\"-DCUDA_TOOLKIT_ROOT_DIR=${CUDA_HOME}\" --install-option=\"--disable-mkl\" --install-option=\"--disable-opencv\"",
    "string":"pyh_103"
   },
