@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/697317338.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"4.0.11"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -210,7 +229,11 @@
   }
  },
  "name":"pychx",
- "new_version":"4.0.10",
+ "new_version":"4.0.11",
+ "new_version_attempts":{
+  "4.0.11":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/NSLS-II/pyCHX",
@@ -307,6 +330,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2021.07.26.14.39.31",
  "raw_meta_yaml":"{% set name = \"pyCHX\" %}\n{% set version = \"4.0.10\" %}\n{% set sha256 = \"bbd5a69119b2b32371edf5363583f3c92933aa7660360543638d6c6ede130228\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 1\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv --no-deps\n\nrequirements:\n  host:\n    - python >=3.6,!=3.9.5,!=3.8.10\n    - pip\n  run:\n    - python >=3.6,!=3.9.5,!=3.8.10\n    - cython\n    - dask\n    - databroker\n    - dill\n    - ipython\n    - lmfit\n    - matplotlib\n    - numpy\n    - pandas\n    - pillow\n    - pyyaml\n    - reportlab\n    - scipy\n    - theano\n    - tifffile\n    - tqdm\n    - xray-vision\n\ntest:\n  imports:\n    - pyCHX\n    - pyCHX.v2\n    - pyCHX.v2._commonspeckle\n    - pyCHX.v2._futurepyCHX\n\nabout:\n  home: https://github.com/NSLS-II/pyCHX\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: pyCHX - NSLS-II CHX XPCS Data Analysis Package\n",
  "req":{
   "__set__":true,
@@ -372,6 +396,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"3.10.3",
  "strong_exports":false,
  "total_requirements":{
   "build":{
