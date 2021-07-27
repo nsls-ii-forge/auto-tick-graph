@@ -449,7 +449,7 @@
    "ignore_run_exports":[
     "libsodium"
    ],
-   "number":2
+   "number":"2"
   },
   "package":{
    "name":"pynacl",
