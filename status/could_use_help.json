@@ -12,6 +12,7 @@
   "lixtools",
   "hunter",
   "httpcore",
+  "pyinstrument",
   "slack-sdk",
   "httpx",
   "xicam.xpcs"
