@@ -94,7 +94,7 @@
     "napari = napari.__main__:main"
    ],
    "noarch":"python",
-   "number":0,
+   "number":"0",
    "script":"-m pip install . -vv"
   },
   "package":{
@@ -236,7 +236,7 @@
     "napari = napari.__main__:main"
    ],
    "noarch":"python",
-   "number":0,
+   "number":"0",
    "script":"-m pip install . -vv"
   },
   "package":{
