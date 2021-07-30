@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/700449726.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.6.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -131,7 +150,11 @@
   }
  },
  "name":"distro",
- "new_version":"1.5.0",
+ "new_version":"1.6.0",
+ "new_version_attempts":{
+  "1.6.0":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/nir0s/distro",
@@ -198,6 +221,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2021.07.30.11.17.02",
  "raw_meta_yaml":"{% set name = \"distro\" %}\n{% set version = \"1.5.0\" %}\n{% set sha256 = \"0e58756ae38fbd8fc3020d54badb8eae17c5b9dcbed388b17bb55b8a5928df92\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  entry_points:\n    - distro = distro:main\n  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n\ntest:\n  commands:\n    - distro --help\n  imports:\n    - distro\n\nabout:\n  home: https://github.com/nir0s/distro\n  license: Apache-2.0\n  license_file: LICENSE\n  summary: Linux Distribution - a Linux OS platform information API\n  doc_url: http://distro.readthedocs.io/en/latest/\n  dev_url: https://github.com/nir0s/distro\n",
  "req":{
   "__set__":true,
@@ -229,6 +253,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"3.11.0",
  "strong_exports":false,
  "total_requirements":{
   "build":{
