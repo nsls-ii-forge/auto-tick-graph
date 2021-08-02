@@ -1,5 +1,6 @@
 [
   "anyio",
+  "jwcrypto",
   "asdf",
   "vispy",
   "pytest-qt",

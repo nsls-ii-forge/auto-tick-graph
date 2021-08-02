@@ -33,6 +33,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/701407571.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -158,10 +175,11 @@
   }
  },
  "name":"jwcrypto",
- "new_version":"0.9.1",
+ "new_version":"1.0",
  "new_version_attempts":{
   "0.9":1,
-  "0.9.1":1
+  "0.9.1":1,
+  "1.0":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -227,7 +245,7 @@
    "elements":[]
   }
  },
- "pinning_version":"2021.06.09.12.51.26",
+ "pinning_version":"2021.08.02.10.03.47",
  "raw_meta_yaml":"{% set name = \"jwcrypto\" %}\n{% set version = \"0.9.1\" %}\n{% set sha256 = \"63531529218ba9869e14ef8c9e7b516865ede3facf9b0ef3d3ba68014da211f9\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python !=3.9.5\n    - pip\n  run:\n    - python !=3.9.5\n    - cryptography >=1.5\n\ntest:\n  imports:\n    - jwcrypto\n\nabout:\n  home: https://jwcrypto.readthedocs.io/en/latest/\n  license: LGPL v3.0\n  license_family: LGPL\n  license_file: LICENSE\n  summary: Implements JWK,JWS,JWE specifications using python-cryptography\n  doc_url: https://jwcrypto.readthedocs.io/en/latest/\n  dev_url: https://github.com/latchset/jwcrypto\n",
  "req":{
   "__set__":true,
@@ -261,7 +279,7 @@
    "elements":[]
   }
  },
- "smithy_version":"3.10.1",
+ "smithy_version":"3.11.0",
  "strong_exports":false,
  "total_requirements":{
   "build":{
