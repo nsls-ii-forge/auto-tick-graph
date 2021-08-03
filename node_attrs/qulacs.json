@@ -388,7 +388,7 @@
  "name":"qulacs-conda",
  "new_version":"0.2.0",
  "new_version_attempts":{
-  "0.2.0":1089
+  "0.2.0":1090
  },
  "new_version_errors":{
   "0.2.0":"We found a problem parsing the recipe: \n\nwhile constructing a mapping\n  in \"<unicode string>\", line 40, column 3:\n      skip__###conda-selector###__pyth ... \n      ^ (line: 40)\nfound duplicate key \"skip\" with value \"True\" (original value: \"True\")\n  in \"<unicode string>\", line 49, column 3:\n      skip: true\n      ^ (line: 49)\n\nTo suppress this check see:\n    http://yaml.readthedocs.io/en/latest/api.html#duplicate-keys\n\nDuplicate keys will become an error in future releases, and are errors\nby default when using the new API.\n"
