@@ -40,7 +40,7 @@
   },
   "build":{
    "noarch":"python",
-   "number":"0",
+   "number":0,
    "script":"-m pip install . -vv --no-deps"
   },
   "package":{
@@ -101,7 +101,7 @@
   },
   "build":{
    "noarch":"python",
-   "number":"0",
+   "number":0,
    "script":"-m pip install . -vv --no-deps"
   },
   "package":{
