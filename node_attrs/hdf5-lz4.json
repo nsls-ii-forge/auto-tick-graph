@@ -16,7 +16,7 @@
    "summary":"HDF5 Plugin filters, using HDF5 > 1.8.11"
   },
   "build":{
-   "number":1
+   "number":"1"
   },
   "package":{
    "name":"hdf5-lz4",
@@ -86,7 +86,7 @@
    "summary":"HDF5 Plugin filters, using HDF5 > 1.8.11"
   },
   "build":{
-   "number":1,
+   "number":"1",
    "skip":true
   },
   "package":{
