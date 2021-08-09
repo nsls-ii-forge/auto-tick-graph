@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/706555631.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.6.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -247,7 +266,11 @@
   }
  },
  "name":"intake",
- "new_version":"0.6.2",
+ "new_version":"0.6.3",
+ "new_version_attempts":{
+  "0.6.3":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/intake/intake",
@@ -355,6 +378,7 @@
    ]
   }
  },
+ "pinning_version":"2021.08.08.03.57.11",
  "raw_meta_yaml":"{% set name = \"intake\" %}\n{% set version = \"0.6.2\" %}\n{% set sha256 = \"b0cab1d185a703acb38eecb9cff3edd5cc7004fe18a36d5e42a8f7fffc9cca1c\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/i/intake/intake-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  entry_points:\n    - intake-server = intake.cli.server.__main__:main\n    - intake = intake.cli.client.__main__:main\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n  run:\n    - python >=3.6\n    - appdirs\n    - entrypoints\n    - jinja2\n    - msgpack-python\n    - numpy\n    - pyyaml\n    - requests\n    - dask >=1.0\n    # dask[bag]\n    - cloudpickle >=0.2.2\n    - fsspec >=0.7.4\n    - toolz >=0.8.2\n    - partd >=0.3.10\n\ntest:\n  source_files:\n    - intake\n  imports:\n    - intake\n    - intake.auth\n    - intake.catalog\n    - intake.cli\n    - intake.cli.client\n    - intake.cli.server\n    - intake.container\n    - intake.source\n  commands:\n    - pip check\n    - intake list --help\n    - intake-server --help\n  requires:\n    - pip\n\nabout:\n  home: https://github.com/intake/intake\n  license: BSD-2-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Data load and catalog system\n",
  "req":{
   "__set__":true,
@@ -412,6 +436,7 @@
    ]
   }
  },
+ "smithy_version":"3.11.0",
  "strong_exports":false,
  "total_requirements":{
   "build":{
