@@ -16,6 +16,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/707294840.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.1.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -147,9 +164,10 @@
   }
  },
  "name":"libjpeg-turbo",
- "new_version":"9d",
+ "new_version":"2.1.1",
  "new_version_attempts":{
   "2.1.0":1,
+  "2.1.1":1,
   "9d":1138
  },
  "new_version_errors":{
@@ -218,7 +236,7 @@
    "elements":[]
   }
  },
- "pinning_version":"2021.04.23.13.32.29",
+ "pinning_version":"2021.08.08.03.57.11",
  "raw_meta_yaml":"{% set name = \"libjpeg-turbo\" %}\n{% set version = \"2.1.0\" %}\n{% set sha256 = \"d6b7790927d658108dfd3bee2f0c66a2924c51ee7f9dc930f62c452f4a638c52\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/{{ name }}/{{ name }}/archive/{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  run_exports:\n    - {{ pin_subpackage('libjpeg-turbo', max_pin='x') }}\n\nrequirements:\n  build:\n    - cmake\n    - jom  # [win]\n    - make\n    - msinttypes  # [win and py<35]\n    - yasm\n    - {{ compiler('c') }}\n\ntest:\n  files:\n    - testorig.jpg\n  commands:\n    - djpeg -dct int -ppm -outfile testout.ppm testorig.jpg\n\nabout:\n  home: https://libjpeg-turbo.org\n  license: IJG, modified 3-clause BSD and zlib\n  license_file: LICENSE.md\n  summary: IJG JPEG compliant runtime library with SIMD and other optimizations\n  doc_url: https://libjpeg-turbo.org\n  dev_url: https://github.com/libjpeg-turbo/libjpeg-turbo\n",
  "req":{
   "__set__":true,
@@ -254,7 +272,7 @@
    "elements":[]
   }
  },
- "smithy_version":"3.10.1",
+ "smithy_version":"3.11.0",
  "strong_exports":false,
  "total_requirements":{
   "build":{
