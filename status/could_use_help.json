@@ -9,6 +9,7 @@
   "py4xs",
   "xraylarch",
   "qrcode",
+  "frozendict",
   "eventlet",
   "ispyb",
   "lixtools",
