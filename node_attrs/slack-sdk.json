@@ -340,7 +340,7 @@
   }
  },
  "name":"slack-sdk",
- "new_version":"3.8.0",
+ "new_version":"3.9.0",
  "new_version_attempts":{
   "3.4.2":1,
   "3.5.0":1,
