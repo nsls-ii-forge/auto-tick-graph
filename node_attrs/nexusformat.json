@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/713713105.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.7.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -177,7 +196,11 @@
   }
  },
  "name":"nexusformat",
- "new_version":"0.6.1",
+ "new_version":"0.7.0",
+ "new_version_attempts":{
+  "0.7.0":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/nexpy/nexusformat",
@@ -259,6 +282,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2021.08.14.10.30.44",
  "raw_meta_yaml":"{% set name = \"nexusformat\" %}\n{% set version = \"0.6.1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: df5e4e303923ebba267a77525b5cb01df7e0fe44191f432c5ce1a0a9b885b819\n\nbuild:\n  number: 0\n  entry_points:\n    - nxstack=nexusformat.scripts.nxstack:main\n    - nxduplicate=nexusformat.scripts.nxduplicate:main\n    - nexusformat=nexusformat.scripts.nexusformat:main\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - h5py\n    - ipython\n    - numpy\n    - scipy\n\ntest:\n  imports:\n    - nexusformat\n    - nexusformat.nexus\n    - nexusformat.scripts\n  commands:\n    - nxstack --help\n    - nxduplicate --help\n    - nexusformat --help\n\nabout:\n  home: https://nexpy.github.io/nexpy\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: COPYING\n  summary: 'nexusformat: Python API to access NeXus data'\n  doc_url: https://nexpy.github.io/nexpy\n  dev_url: https://github.com/nexpy/nexusformat\n",
  "req":{
   "__set__":true,
@@ -298,6 +322,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"3.12",
  "strong_exports":false,
  "total_requirements":{
   "build":{
