@@ -35,7 +35,7 @@
    ]
   }
  ],
- "bad":false,
+ "bad":"make_graph: 503",
  "conda-forge.yml":{
   "provider":{
    "linux":"azure",
@@ -207,7 +207,7 @@
   }
  },
  "name":"xraylib",
- "new_version":"4.1.1",
+ "new_version":false,
  "new_version_attempts":{
   "4.1.0":1,
   "4.1.1":1

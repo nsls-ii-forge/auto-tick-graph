@@ -1,5 +1,5 @@
 {
- "bad":false,
+ "bad":"make_graph: 503",
  "conda-forge.yml":{
   "provider":{
    "linux":"azure",
@@ -119,7 +119,7 @@
   }
  },
  "name":"curio",
- "new_version":"1.5",
+ "new_version":false,
  "osx_64_meta_yaml":{
   "about":{
    "description":"Curio is a library for performing concurrent I/O and common system programming\ntasks such as launching subprocesses and farming work out to thread and process\npools. It uses Python coroutines and the explicit async/await syntax introduced\nin Python 3.5. Its programming model is based on cooperative multitasking and\nexisting programming abstractions such as threads, sockets, files, subprocesses,\nlocks, and queues. You'll find it to be small and fast.\n",

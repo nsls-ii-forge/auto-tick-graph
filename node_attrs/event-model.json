@@ -18,7 +18,7 @@
    ]
   }
  ],
- "bad":false,
+ "bad":"make_graph: 503",
  "conda-forge.yml":{
   "provider":{
    "linux":"azure",
@@ -158,7 +158,7 @@
   }
  },
  "name":"event-model",
- "new_version":"1.17.2",
+ "new_version":false,
  "new_version_attempts":{
   "1.17.2":1
  },
