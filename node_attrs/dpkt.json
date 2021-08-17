@@ -16,6 +16,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/714187611.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.9.7.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -138,9 +155,10 @@
   }
  },
  "name":"dpkt",
- "new_version":"1.9.6",
+ "new_version":"1.9.7.1",
  "new_version_attempts":{
-  "1.9.6":1
+  "1.9.6":1,
+  "1.9.7.1":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -205,7 +223,7 @@
    "elements":[]
   }
  },
- "pinning_version":"2021.05.21.13.51.08",
+ "pinning_version":"2021.08.14.10.30.44",
  "raw_meta_yaml":"{% set name = \"dpkt\" %}\n{% set version = \"1.9.6\" %}\n{% set sha256 = \"b5737010fd420d142e02ed04fa616edd1fc05e414980baef594f72287c875eef\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n\ntest:\n  imports:\n    - dpkt\n\nabout:\n  home: http://github.com/kbandla/dpkt\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: fast, simple packet creation / parsing, with definitions for the basic TCP/IP protocols\n  description: |\n    dpkt is a simple packet creation / parsing, with definitions for the basic TCP/IP protocols\n    and is implemented in pure python\n  doc_url: https://dpkt.readthedocs.io\n  dev_url: http://github.com/kbandla/dpkt\n",
  "req":{
   "__set__":true,
@@ -237,7 +255,7 @@
    "elements":[]
   }
  },
- "smithy_version":"3.10.1",
+ "smithy_version":"3.12",
  "strong_exports":false,
  "total_requirements":{
   "build":{
