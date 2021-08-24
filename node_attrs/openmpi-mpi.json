@@ -501,9 +501,9 @@
   }
  },
  "name":"openmpi-mpi",
- "new_version":"4.1.1",
+ "new_version":"4.1.0",
  "new_version_attempts":{
-  "4.1.0":202,
+  "4.1.0":203,
   "4.1.1":1074
  },
  "new_version_errors":{},
