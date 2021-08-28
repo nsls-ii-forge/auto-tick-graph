@@ -17,7 +17,7 @@
    "summary":"An open source toolkit for simulating RIXS spectra based on ED"
   },
   "build":{
-   "number":0
+   "number":"0"
   },
   "package":{
    "name":"edrixs",
@@ -107,7 +107,7 @@
    "summary":"An open source toolkit for simulating RIXS spectra based on ED"
   },
   "build":{
-   "number":0,
+   "number":"0",
    "skip":true
   },
   "package":{
