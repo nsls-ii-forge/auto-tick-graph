@@ -1,5 +1,6 @@
 [
   "anyio",
+  "dpkt",
   "reportlab",
   "jwcrypto",
   "asdf",
