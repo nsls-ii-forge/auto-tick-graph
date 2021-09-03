@@ -8,6 +8,7 @@
   "pytest-qt",
   "napari",
   "py4xs",
+  "pyxrf",
   "xraylarch",
   "qrcode",
   "frozendict",
