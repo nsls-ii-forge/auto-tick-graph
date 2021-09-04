@@ -16,6 +16,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/727304602.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -199,9 +216,10 @@
   }
  },
  "name":"mendeleev",
- "new_version":"0.8.0",
+ "new_version":"0.9.0",
  "new_version_attempts":{
-  "0.8.0":1
+  "0.8.0":1,
+  "0.9.0":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -291,7 +309,7 @@
    ]
   }
  },
- "pinning_version":"2021.08.22.15.08.21",
+ "pinning_version":"2021.09.04.06.27.17",
  "raw_meta_yaml":"{% set name = \"mendeleev\" %}\n{% set version = \"0.7.0\" %}\n{% set sha256 = \"df1fee2a3dde51a10ac26dcedb7f55671800a5627f43c8b6760793a1a6a4eb11\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  entry_points:\n    - element.py = mendeleev.cli:clielement\n  script: {{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n    - poetry\n  run:\n    - python >=3.6\n    - colorama\n    - numpy\n    - pandas\n    - pyfiglet\n    - pygments\n    - sqlalchemy\n\ntest:\n  requires:\n    - pip\n  imports:\n    - mendeleev\n  commands:\n    - element.py --help\n    # TODO: uncomment it once numpy 1.19.5+ appears in https://anaconda.org/anaconda/numpy.\n    # ERROR: mendeleev 0.7.0 has requirement numpy<2.0.0,>=1.19.5, but you have numpy 1.19.2.\n    # - pip check\n\nabout:\n  home: https://github.com/lmmentel/mendeleev\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE.txt\n  summary: A perdioc table of elements API and a database of atomic properties.\n  description: |\n    This package provides an API for accessing various properties \n    of elements from the periodic table of elements.\n  doc_url: http://mendeleev.readthedocs.org\n  dev_url: https://github.com/lmmentel/mendeleev\n",
  "req":{
   "__set__":true,
