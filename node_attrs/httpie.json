@@ -16,6 +16,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/728145172.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"2.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -173,9 +190,10 @@
   }
  },
  "name":"httpie",
- "new_version":"2.4.0",
+ "new_version":"2.5.0",
  "new_version_attempts":{
-  "2.4.0":1
+  "2.4.0":1,
+  "2.5.0":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -252,7 +270,7 @@
    "elements":[]
   }
  },
- "pinning_version":"2021.06.11.18.15.44",
+ "pinning_version":"2021.09.05.11.13.08",
  "raw_meta_yaml":"{% set name = \"httpie\" %}\n{% set version = \"2.1.0\" %}\n{% set sha256 = \"a76f1c72e83bd03cde3478c5f345d5570fdb2967ed19d68d09518088640b9e8e\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  fn: {{ name }}-{{ version }}.tar.gz\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  skip: true  # [py < 36]\n  entry_points:\n    - http = httpie.__main__:main\n    - https = httpie.__main__:main\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - colorama >=0.2.4  # [win]\n    - pygments >=2.5.2\n    - requests >=2.22.0\n\ntest:\n  imports:\n    - httpie\n  commands:\n    - http --help\n    - https --help\n\nabout:\n  home: https://httpie.org/\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: a CLI, cURL-like tool for humans\n  description: |\n    HTTPie (pronounced aitch-tee-tee-pie) is a command line HTTP client. Its\n    goal is to make CLI interaction with web services as human-friendly as\n    possible. It provides a simple http command that allows for sending\n    arbitrary HTTP requests using a simple and natural syntax, and displays\n    colorized output. HTTPie can be used for testing, debugging, and generally\n    interacting with HTTP servers.\n  doc_url: https://httpie.org/doc\n  dev_url: https://github.com/jakubroztocil/httpie\n",
  "req":{
   "__set__":true,
@@ -290,7 +308,7 @@
    "elements":[]
   }
  },
- "smithy_version":"3.10.1",
+ "smithy_version":"3.12",
  "strong_exports":false,
  "total_requirements":{
   "build":{
