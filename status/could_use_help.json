@@ -14,6 +14,7 @@
   "frozendict",
   "eventlet",
   "ispyb",
+  "databases",
   "lixtools",
   "hunter",
   "httpcore",
