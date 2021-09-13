@@ -203,7 +203,7 @@
   },
   "build":{
    "always_include_files":null,
-   "number":"0",
+   "number":0,
    "skip":true
   },
   "package":{
