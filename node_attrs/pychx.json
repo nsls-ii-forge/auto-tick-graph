@@ -43,7 +43,7 @@
   },
   "package":{
    "name":"pychx",
-   "version":"4.0.11"
+   "version":"4.1.0"
   },
   "requirements":{
    "host":[
@@ -72,8 +72,8 @@
    ]
   },
   "source":{
-   "sha256":"29b7dae9cedc42442be74f8515a135ecfa5ddf761bcd043cc7ab6d67f9a6590f",
-   "url":"https://pypi.io/packages/source/p/pyCHX/pyCHX-4.0.11.tar.gz"
+   "sha256":"2760514ef23f1c1a4b02b5d9e17d5fb5fc2f77021c9b423e7ff4b54bd5c2e7e5",
+   "url":"https://pypi.io/packages/source/p/pyCHX/pyCHX-4.1.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -139,7 +139,7 @@
   },
   "package":{
    "name":"pychx",
-   "version":"4.0.11"
+   "version":"4.1.0"
   },
   "requirements":{
    "host":[
@@ -208,8 +208,8 @@
    ]
   },
   "source":{
-   "sha256":"29b7dae9cedc42442be74f8515a135ecfa5ddf761bcd043cc7ab6d67f9a6590f",
-   "url":"https://pypi.io/packages/source/p/pyCHX/pyCHX-4.0.11.tar.gz"
+   "sha256":"2760514ef23f1c1a4b02b5d9e17d5fb5fc2f77021c9b423e7ff4b54bd5c2e7e5",
+   "url":"https://pypi.io/packages/source/p/pyCHX/pyCHX-4.1.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -229,7 +229,7 @@
   }
  },
  "name":"pychx",
- "new_version":"4.0.11",
+ "new_version":"4.1.0",
  "new_version_attempts":{
   "4.0.11":1
  },
@@ -249,7 +249,7 @@
   },
   "package":{
    "name":"pychx",
-   "version":"4.0.11"
+   "version":"4.1.0"
   },
   "requirements":{
    "host":[
@@ -278,8 +278,8 @@
    ]
   },
   "source":{
-   "sha256":"29b7dae9cedc42442be74f8515a135ecfa5ddf761bcd043cc7ab6d67f9a6590f",
-   "url":"https://pypi.io/packages/source/p/pyCHX/pyCHX-4.0.11.tar.gz"
+   "sha256":"2760514ef23f1c1a4b02b5d9e17d5fb5fc2f77021c9b423e7ff4b54bd5c2e7e5",
+   "url":"https://pypi.io/packages/source/p/pyCHX/pyCHX-4.1.0.tar.gz"
   },
   "test":{
    "imports":[
@@ -331,7 +331,7 @@
   }
  },
  "pinning_version":"2021.07.26.14.39.31",
- "raw_meta_yaml":"{% set name = \"pyCHX\" %}\n{% set version = \"4.0.11\" %}\n{% set sha256 = \"29b7dae9cedc42442be74f8515a135ecfa5ddf761bcd043cc7ab6d67f9a6590f\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv --no-deps\n\nrequirements:\n  host:\n    - python >=3.6,!=3.9.5,!=3.8.10\n    - pip\n  run:\n    - python >=3.6,!=3.9.5,!=3.8.10\n    - cython\n    - dask\n    - databroker\n    - dill\n    - ipython\n    - lmfit\n    - matplotlib\n    - numpy\n    - pandas\n    - pillow\n    - pyyaml\n    - reportlab\n    - scipy\n    - theano\n    - tifffile\n    - tqdm\n    - xray-vision\n\ntest:\n  imports:\n    - pyCHX\n    - pyCHX.v2\n    - pyCHX.v2._commonspeckle\n    - pyCHX.v2._futurepyCHX\n\nabout:\n  home: https://github.com/NSLS-II/pyCHX\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: pyCHX - NSLS-II CHX XPCS Data Analysis Package\n",
+ "raw_meta_yaml":"{% set name = \"pyCHX\" %}\n{% set version = \"4.1.0\" %}\n{% set sha256 = \"2760514ef23f1c1a4b02b5d9e17d5fb5fc2f77021c9b423e7ff4b54bd5c2e7e5\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv --no-deps\n\nrequirements:\n  host:\n    - python >=3.6,!=3.9.5,!=3.8.10\n    - pip\n  run:\n    - python >=3.6,!=3.9.5,!=3.8.10\n    - cython\n    - dask\n    - databroker\n    - dill\n    - ipython\n    - lmfit\n    - matplotlib\n    - numpy\n    - pandas\n    - pillow\n    - pyyaml\n    - reportlab\n    - scipy\n    - theano\n    - tifffile\n    - tqdm\n    - xray-vision\n\ntest:\n  imports:\n    - pyCHX\n    - pyCHX.v2\n    - pyCHX.v2._commonspeckle\n    - pyCHX.v2._futurepyCHX\n\nabout:\n  home: https://github.com/NSLS-II/pyCHX\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: pyCHX - NSLS-II CHX XPCS Data Analysis Package\n",
  "req":{
   "__set__":true,
   "elements":[
@@ -439,7 +439,7 @@
   }
  },
  "url":"https://pypi.io/packages/source/p/pyCHX/pyCHX-4.0.10.tar.gz",
- "version":"4.0.11",
+ "version":"4.1.0",
  "win_64_meta_yaml":{
   "about":{
    "home":"https://github.com/NSLS-II/pyCHX",
@@ -455,7 +455,7 @@
   },
   "package":{
    "name":"pychx",
-   "version":"4.0.11"
+   "version":"4.1.0"
   },
   "requirements":{
    "host":[
@@ -484,8 +484,8 @@
    ]
   },
   "source":{
-   "sha256":"29b7dae9cedc42442be74f8515a135ecfa5ddf761bcd043cc7ab6d67f9a6590f",
-   "url":"https://pypi.io/packages/source/p/pyCHX/pyCHX-4.0.11.tar.gz"
+   "sha256":"2760514ef23f1c1a4b02b5d9e17d5fb5fc2f77021c9b423e7ff4b54bd5c2e7e5",
+   "url":"https://pypi.io/packages/source/p/pyCHX/pyCHX-4.1.0.tar.gz"
   },
   "test":{
    "imports":[

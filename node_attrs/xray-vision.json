@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/733835469.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.10"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -167,7 +186,11 @@
   }
  },
  "name":"xray-vision",
- "new_version":"0.0.9",
+ "new_version":"0.0.10",
+ "new_version_attempts":{
+  "0.0.10":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/Nikea/xray-vision",
@@ -243,6 +266,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2021.09.14.14.16.49",
  "raw_meta_yaml":"{% set name = \"xray-vision\" %}\n{% set version = \"0.0.9\" %}\n{% set sha256 = \"dfa783b5035c54847dd34f951b1d758bc4092e78c85f76be69c895e17f35bdca\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/Nikea/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - matplotlib\n    - numpy\n    - pyqt\n    - six\n\ntest:\n  imports:\n    - PyQt5\n    - xray_vision\n    - xray_vision.backend\n    - xray_vision.backend.mpl\n    - xray_vision.mask\n    - xray_vision.messenger\n    - xray_vision.messenger.mpl\n    - xray_vision.mpl_plotting\n    - xray_vision.qt_widgets\n    - xray_vision.utils\n\nabout:\n  home: https://github.com/Nikea/xray-vision\n  license: 3-Clause BSD\n  license_file: LICENSE\n  summary: Visualization widgets and plotting helpers targeted at X-Ray Sciences\n",
  "req":{
   "__set__":true,
@@ -282,6 +306,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"3.12",
  "strong_exports":false,
  "total_requirements":{
   "build":{
