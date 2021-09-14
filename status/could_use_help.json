@@ -1,4 +1,5 @@
 [
+  "ipywidgets",
   "anyio",
   "dpkt",
   "reportlab",
@@ -20,6 +21,7 @@
   "httpcore",
   "pyinstrument",
   "slack-sdk",
+  "python-gssapi",
   "httpx",
   "xicam.xpcs"
 ]
