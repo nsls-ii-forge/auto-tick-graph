@@ -215,7 +215,7 @@
    "summary":"Diffractometer computation library"
   },
   "build":{
-   "number":2,
+   "number":"2",
    "skip":true
   },
   "package":{
