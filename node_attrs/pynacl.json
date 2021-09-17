@@ -241,7 +241,7 @@
    "summary":"PyNaCl is a Python binding to the Networking and Cryptography library, a crypto library with the stated goal of improving usability, security and speed."
   },
   "build":{
-   "number":2
+   "number":"2"
   },
   "package":{
    "name":"pynacl",
