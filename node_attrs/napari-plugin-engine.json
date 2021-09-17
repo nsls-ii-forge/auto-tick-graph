@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/736381717.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -127,7 +146,11 @@
   }
  },
  "name":"napari-plugin-engine",
- "new_version":"0.1.9",
+ "new_version":"0.2.0",
+ "new_version_attempts":{
+  "0.2.0":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/napari/napari-plugin-engine",
@@ -193,6 +216,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2021.09.17.05.51.46",
  "raw_meta_yaml":"{% set name = \"napari-plugin-engine\" %}\n{% set version = \"0.1.9\" %}\n{% set sha256 = \"5b504fe734c3f4df3a64a938982efc1b064b35e96e3e30f0b37a2cb5a2dd21c5\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python >=3.6\n    - pip\n    - setuptools_scm\n  run:\n    - python >=3.6\n    - importlib_metadata\n\ntest:\n  imports:\n    - napari_plugin_engine\n\nabout:\n  home: https://github.com/napari/napari-plugin-engine\n  license: MIT\n  license_family: MIT\n  license_file: LICENSE\n  summary: A fork of pluggy - plugin management package\n  doc_url: https://napari-plugin-engine.readthedocs.io/\n  dev_url: https://github.com/napari/napari-plugin-engine\n",
  "req":{
   "__set__":true,
@@ -228,6 +252,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"3.12",
  "strong_exports":false,
  "total_requirements":{
   "build":{
