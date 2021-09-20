@@ -17,6 +17,7 @@
   "ispyb",
   "databases",
   "lixtools",
+  "hklpy",
   "hunter",
   "httpcore",
   "pyinstrument",
