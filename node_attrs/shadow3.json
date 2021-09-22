@@ -342,7 +342,7 @@
    "summary":"SHADOW is an open source ray tracing code for modeling optical systems"
   },
   "build":{
-   "number":"1",
+   "number":1,
    "script":"-m pip install . --no-deps -vv",
    "skip":true
   },
