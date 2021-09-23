@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/741735476.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.2.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -254,7 +273,11 @@
   }
  },
  "name":"photutils",
- "new_version":"1.1.0",
+ "new_version":"1.2.0",
+ "new_version_attempts":{
+  "1.2.0":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "description":"Photutils is an Astropy package for detection and photometry of\nastronomical sources.\n",
@@ -365,6 +388,7 @@
    ]
   }
  },
+ "pinning_version":"2021.09.23.16.54.17",
  "raw_meta_yaml":"{% set name = \"photutils\" %}\n{% set version = \"1.1.0\" %}\n{% set sha256 = \"1a71cac2db730af69ae31f1ff5f4671e7da816da93003ddcab7123c9df2935d3\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n  skip: true  # [py<36]\n\nrequirements:\n  build:\n    - {{ compiler('c') }}\n  host:\n    - python\n    - pip\n    - cython >=0.29.14\n    - extension-helpers\n    - numpy\n    - setuptools\n    - setuptools_scm\n  run:\n    - python\n    - astropy >=4.0\n    - gwcs >=0.12\n    - matplotlib-base >=2.2\n    - numpy >=1.17\n    - pytest-astropy >=0.4\n    - scikit-image >=0.14.2\n    - scikit-learn >=0.19\n    - scipy >=0.19\n\ntest:\n  requires:\n    - pytest-astropy\n  imports:\n    - photutils\n    - photutils.aperture\n    - photutils.background\n    - photutils.centroids\n    - photutils.datasets\n    - photutils.detection\n    - photutils.extern\n    - photutils.geometry\n    - photutils.isophote\n    - photutils.morphology\n    - photutils.psf\n    - photutils.psf.matching\n    - photutils.segmentation\n    - photutils.utils\n\nabout:\n  home: https://photutils.readthedocs.io/\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE.rst\n  summary: An Astropy package for photometry\n  description: |\n    Photutils is an Astropy package for detection and photometry of\n    astronomical sources.\n  doc_url: https://photutils.readthedocs.io/\n  dev_url: https://github.com/astropy/photutils\n",
  "req":{
   "__set__":true,
@@ -426,6 +450,7 @@
    ]
   }
  },
+ "smithy_version":"3.12",
  "strong_exports":false,
  "total_requirements":{
   "build":{
