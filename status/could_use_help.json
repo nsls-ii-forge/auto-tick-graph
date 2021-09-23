@@ -24,5 +24,6 @@
   "slack-sdk",
   "python-gssapi",
   "httpx",
-  "xicam.xpcs"
+  "xicam.xpcs",
+  "delocate"
 ]
