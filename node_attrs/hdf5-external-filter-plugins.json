@@ -711,7 +711,7 @@
    "summary":"Provides dynamically loadable compression filters for HDF5 that are\npopular for photon or neutron science\n"
   },
   "build":{
-   "number":"0"
+   "number":0
   },
   "outputs":[
    {
