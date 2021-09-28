@@ -135,7 +135,7 @@
    "summary":"ITK is an open-source toolkit for multidimensional image analysis"
   },
   "build":{
-   "number":1
+   "number":"1"
   },
   "package":{
    "name":"itk",
