@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/747659138.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -171,7 +190,11 @@
   }
  },
  "name":"hxntools",
- "new_version":"0.5.1",
+ "new_version":"0.5.2",
+ "new_version_attempts":{
+  "0.5.2":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/NSLS-II-HXN/hxntools",
@@ -254,6 +277,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2021.10.01.10.31.28",
  "raw_meta_yaml":"{% set name = \"hxntools\" %}\n{% set version = \"0.5.1\" %}\n{% set sha256 = \"ff248d65eec4c015d8d0e622ad465523d900ff485cb297ea8e25c23b0a9edb89\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - bluesky\n    - boltons\n    - cycler\n    - databroker\n    - h5py\n    - matplotlib\n    - nslsii\n    - numpy\n    - ophyd\n    - pandas\n    - pyepics\n    - scipy\n\ntest:\n  imports:\n    - hxntools\n\nabout:\n  home: https://github.com/NSLS-II-HXN/hxntools\n  license: BSD-3-Clause\n  license_file: LICENSE\n  summary: NSLS-II Hard X-ray Nanoprobe data acquisition tools\n",
  "req":{
   "__set__":true,
@@ -309,6 +333,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"3.12",
  "strong_exports":false,
  "total_requirements":{
   "build":{
