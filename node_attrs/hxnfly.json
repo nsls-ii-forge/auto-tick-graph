@@ -16,6 +16,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/747803893.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.0.7"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -145,9 +162,10 @@
   }
  },
  "name":"hxnfly",
- "new_version":"0.0.6",
+ "new_version":"0.0.7",
  "new_version_attempts":{
-  "0.0.6":1
+  "0.0.6":1,
+  "0.0.7":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -214,7 +232,7 @@
    "elements":[]
   }
  },
- "pinning_version":"2021.05.12.07.26.21",
+ "pinning_version":"2021.10.01.10.31.28",
  "raw_meta_yaml":"{% set name = \"hxnfly\" %}\n{% set version = \"0.0.6\" %}\n{% set sha256 = \"7c14c5c16ab3c91a0c379f099d065bb09e66291fe81a8676cb66014663cb3717\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/NSLS-II-HXN/{{ name }}/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - hxntools\n    - ppmac\n    - xray-vision\n\ntest:\n  imports:\n    - hxnfly\n\nabout:\n  home: https://github.com/NSLS-II-HXN/hxnfly\n  license: BSD\n  license_file: LICENSE\n  summary: Tools for NSLS-II HXN fly scans\n",
  "req":{
   "__set__":true,
@@ -252,7 +270,7 @@
    "elements":[]
   }
  },
- "smithy_version":"3.10.1",
+ "smithy_version":"3.12",
  "strong_exports":false,
  "total_requirements":{
   "build":{
