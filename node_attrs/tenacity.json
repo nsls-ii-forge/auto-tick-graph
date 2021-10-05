@@ -35,7 +35,7 @@
    ]
   }
  ],
- "bad":"make_graph: 503",
+ "bad":false,
  "conda-forge.yml":{
   "provider":{
    "linux":"azure",
@@ -169,7 +169,7 @@
   }
  },
  "name":"tenacity",
- "new_version":false,
+ "new_version":"8.0.1",
  "new_version_attempts":{
   "8.0.0":1,
   "8.0.1":1

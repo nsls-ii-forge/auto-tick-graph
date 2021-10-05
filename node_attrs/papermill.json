@@ -18,7 +18,7 @@
    ]
   }
  ],
- "bad":"make_graph: 503",
+ "bad":false,
  "conda-forge.yml":{
   "provider":{
    "linux":"azure",
@@ -207,7 +207,7 @@
   }
  },
  "name":"papermill",
- "new_version":false,
+ "new_version":"2.3.3",
  "new_version_attempts":{
   "2.3.3":1
  },
