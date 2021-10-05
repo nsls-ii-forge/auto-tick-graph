@@ -1,5 +1,5 @@
 {
- "bad":false,
+ "bad":"make_graph: 503",
  "conda-forge.yml":{
   "provider":{
    "linux":"azure",
@@ -148,7 +148,7 @@
   }
  },
  "name":"oscars",
- "new_version":"2.1.8",
+ "new_version":false,
  "osx_64_meta_yaml":{
   "about":{
    "description":"The OSCARS Package.",
