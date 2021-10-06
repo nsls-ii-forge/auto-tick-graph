@@ -1,5 +1,5 @@
 {
- "bad":false,
+ "bad":"make_graph: 503",
  "conda-forge.yml":{
   "provider":{
    "linux":"azure",
@@ -180,7 +180,7 @@
   }
  },
  "name":"xhtml2pdf",
- "new_version":"0.2.5",
+ "new_version":false,
  "osx_64_meta_yaml":{
   "about":{
    "home":"http://github.com/xhtml2pdf/xhtml2pdf",

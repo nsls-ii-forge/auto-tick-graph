@@ -1,5 +1,5 @@
 {
- "bad":false,
+ "bad":"make_graph: 503",
  "conda-forge.yml":{
   "provider":{
    "linux":"azure",
@@ -143,7 +143,7 @@
   }
  },
  "name":"xpdsim",
- "new_version":"0.4.2",
+ "new_version":false,
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/xpdAcq/xpdSim",
