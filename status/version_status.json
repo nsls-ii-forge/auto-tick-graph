@@ -3,13 +3,15 @@
     "clang_packages",
     "openmpi-mpi",
     "pyisemail",
-    "qulacs"
+    "qulacs",
+    "uwsgi"
   ],
   "errors": {
     "clang_packages": "The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '13.0.0' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/llvm/llvm-project/releases/download/llvmorg-{{ version }}/cfe-{{ version }}.src.tar.xz'\n",
     "openmpi-mpi": "no error information available",
     "pyisemail": "The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '1.4.0' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz'\n",
-    "qulacs": "We found a problem parsing the recipe: \n\nwhile constructing a mapping\n  in \"<unicode string>\", line 40, column 3:\n      skip__###conda-selector###__pyth ... \n      ^ (line: 40)\nfound duplicate key \"skip\" with value \"True\" (original value: \"True\")\n  in \"<unicode string>\", line 49, column 3:\n      skip: true\n      ^ (line: 49)\n\nTo suppress this check see:\n    http://yaml.readthedocs.io/en/latest/api.html#duplicate-keys\n\nDuplicate keys will become an error in future releases, and are errors\nby default when using the new API.\n"
+    "qulacs": "We found a problem parsing the recipe: \n\nwhile constructing a mapping\n  in \"<unicode string>\", line 40, column 3:\n      skip__###conda-selector###__pyth ... \n      ^ (line: 40)\nfound duplicate key \"skip\" with value \"True\" (original value: \"True\")\n  in \"<unicode string>\", line 49, column 3:\n      skip: true\n      ^ (line: 49)\n\nTo suppress this check see:\n    http://yaml.readthedocs.io/en/latest/api.html#duplicate-keys\n\nDuplicate keys will become an error in future releases, and are errors\nby default when using the new API.\n",
+    "uwsgi": "The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '2.0.20' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz'\n"
   },
   "queued": []
 }
