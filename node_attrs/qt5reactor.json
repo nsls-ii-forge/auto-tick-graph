@@ -1,5 +1,5 @@
 {
- "bad":"make_graph: 503",
+ "bad":false,
  "conda-forge.yml":{
   "provider":{
    "linux":"azure",
@@ -123,7 +123,7 @@
   }
  },
  "name":"qt5reactor",
- "new_version":false,
+ "new_version":"0.6.3",
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/sunu/qt5reactor",

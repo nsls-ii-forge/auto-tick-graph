@@ -1,5 +1,5 @@
 {
- "bad":"make_graph: 503",
+ "bad":false,
  "conda-forge.yml":{
   "provider":{
    "linux":"azure",
@@ -149,7 +149,7 @@
   }
  },
  "name":"helpdev",
- "new_version":false,
+ "new_version":"0.7.1",
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://gitlab.com/dpizetta/helpdev",

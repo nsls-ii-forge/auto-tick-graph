@@ -69,7 +69,7 @@
    ]
   }
  ],
- "bad":"make_graph: 503",
+ "bad":false,
  "conda-forge.yml":{
   "provider":{
    "linux":"azure",
@@ -380,7 +380,7 @@
   }
  },
  "name":"napari",
- "new_version":false,
+ "new_version":"0.4.11",
  "new_version_attempts":{
   "0.4.10":1,
   "0.4.7":1,

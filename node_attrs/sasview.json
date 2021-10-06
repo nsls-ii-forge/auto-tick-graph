@@ -18,7 +18,7 @@
    ]
   }
  ],
- "bad":"make_graph: 503",
+ "bad":false,
  "conda-forge.yml":{
   "provider":{
    "linux":"azure",
@@ -232,7 +232,7 @@
   }
  },
  "name":"sasview",
- "new_version":false,
+ "new_version":"5.0.4",
  "new_version_attempts":{
   "5.0.4":1
  },
