@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/754312465.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.5.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -147,7 +166,11 @@
   }
  },
  "name":"bluesky-darkframes",
- "new_version":"0.4.0",
+ "new_version":"0.5.0",
+ "new_version_attempts":{
+  "0.5.0":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/bluesky/bluesky-darkframes",
@@ -222,6 +245,7 @@
    ]
   }
  },
+ "pinning_version":"2021.10.08.16.45.02",
  "raw_meta_yaml":"{% set name = \"bluesky-darkframes\" %}\n{% set version = \"0.4.0\" %}\n{% set file_ext = \"tar.gz\" %}\n{% set hash_value = \"0e8d2e4eefe74ea439630f53b36a4e6850c5dfa43a16e87f28745b5b57ece4b1\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ file_ext }}\n  sha256: {{ hash_value }}\n\nbuild:\n  number: 0\n  noarch: python\n  script: \"{{ PYTHON }} -m pip install . --no-deps -vv\"\n\nrequirements:\n  build:\n    - python\n    - pip\n  run:\n    - python\n    - bluesky\n    - event-model >=1.14.0\n    - frozendict\n    - numpy\n\ntest:\n  requires:\n    - caproto\n  commands:\n    - OPHYD_CONTROL_LAYER=caproto python -c 'import bluesky_darkframes'\n\nabout:\n  home: https://github.com/bluesky/bluesky-darkframes\n  license: BSD (3-clause)\n  license_family: BSD\n  license_file: LICENSE\n  summary: Tools for acquiring and subtracting darkframes\n  doc_url: https://blueskyproject.io/bluesky-darkframes\n  dev_url: https://github.com/bluesky/bluesky-darkframes\n",
  "req":{
   "__set__":true,
@@ -263,6 +287,7 @@
    ]
   }
  },
+ "smithy_version":"3.12",
  "strong_exports":false,
  "total_requirements":{
   "build":{
