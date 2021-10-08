@@ -2,6 +2,7 @@
   "ipywidgets",
   "anyio",
   "dpkt",
+  "bluesky-kafka",
   "reportlab",
   "jwcrypto",
   "asdf",
