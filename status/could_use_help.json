@@ -26,5 +26,6 @@
   "python-gssapi",
   "httpx",
   "xicam.xpcs",
-  "delocate"
+  "delocate",
+  "pip-tools"
 ]
