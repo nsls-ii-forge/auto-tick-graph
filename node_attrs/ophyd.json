@@ -16,6 +16,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/755596139.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"1.6.3"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -165,9 +182,10 @@
   }
  },
  "name":"ophyd",
- "new_version":"1.6.2",
+ "new_version":"1.6.3",
  "new_version_attempts":{
-  "1.6.2":1
+  "1.6.2":1,
+  "1.6.3":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -241,7 +259,7 @@
    "elements":[]
   }
  },
- "pinning_version":"2021.08.31.12.12.37",
+ "pinning_version":"2021.10.10.22.03.30",
  "raw_meta_yaml":"{% set name = \"ophyd\" %}\n{% set version = \"1.6.1\" %}\n{% set sha256 = \"b9c742489510171ec051aa903dc02d5992726a449bd5c50944434101e70ab497\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - networkx\n    - numpy\n    - pyepics\n\ntest:\n  imports:\n    - {{ name }}\n    - {{ name }}.utils\n    - {{ name }}.areadetector\n    - {{ name }}.sim\n\nabout:\n  home: https://blueskyproject.io\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: LICENSE\n  summary: Ophyd - EPICS Client Abstractions\n  description: Ophyd - EPICS Client Abstractions\n  doc_url: https://blueskyproject.io/ophyd\n  dev_url: https://github.com/bluesky/ophyd\n",
  "req":{
   "__set__":true,
