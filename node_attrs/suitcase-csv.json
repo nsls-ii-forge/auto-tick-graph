@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/756706360.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.3.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -132,7 +151,11 @@
   }
  },
  "name":"suitcase-csv",
- "new_version":"0.2.1",
+ "new_version":"0.3.0",
+ "new_version_attempts":{
+  "0.3.0":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/bluesky/suitcase-csv",
@@ -200,6 +223,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2021.10.12.19.05.13",
  "raw_meta_yaml":"{% set name = \"suitcase-csv\" %}\n{% set version = \"0.2.1\" %}\n{% set sha256 = \"2f8eece9502084dcd81143e8ff95ad15ead43325f2fc063f0642789ffecd8a8f\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 2\n  script: \"{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv \"\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - event-model >=1.8.0\n    - pandas\n    - suitcase-utils\n\ntest:\n  imports:\n    - suitcase.csv\n\nabout:\n  home: https://blueskyproject.io/suitcase\n  license: BSD (3-clause)\n  license_family: BSD\n  license_file: LICENSE\n  summary: Export bluesky documents to CSV\n  doc_url: https://blueskyproject.io/suitcase\n  dev_url: https://github.com/bluesky/suitcase-csv\n",
  "req":{
   "__set__":true,
@@ -237,6 +261,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"3.12",
  "strong_exports":false,
  "total_requirements":{
   "build":{
