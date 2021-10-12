@@ -1,4 +1,23 @@
 {
+ "PRed":[
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/756781755.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.2.2"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
+  }
+ ],
  "bad":false,
  "conda-forge.yml":{
   "provider":{
@@ -131,7 +150,11 @@
   }
  },
  "name":"suitcase-jsonl",
- "new_version":"0.2.1",
+ "new_version":"0.2.2",
+ "new_version_attempts":{
+  "0.2.2":1
+ },
+ "new_version_errors":{},
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/bluesky/suitcase-jsonl",
@@ -198,6 +221,7 @@
    "elements":[]
   }
  },
+ "pinning_version":"2021.10.12.19.05.13",
  "raw_meta_yaml":"{% set name = \"suitcase-jsonl\" %}\n{% set version = \"0.2.1\" %}\n{% set sha256 = \"dd1fd282d14204b0987cb67272402d5b9276b8e7a66daa88c6a5021c4a8ae2d5\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - event-model >=1.8.0\n    - suitcase-utils\n\ntest:\n  imports:\n    - suitcase.jsonl\n    - suitcase.jsonl.tests\n\nabout:\n  home: https://blueskyproject.io/suitcase\n  license: BSD (3-clause)\n  license_family: BSD\n  license_file: LICENSE\n  summary: Export bluesky documents to newline-delimited JSON\n  doc_url: https://blueskyproject.io/suitcase\n  dev_url: https://github.com/bluesky/suitcase-jsonl\n",
  "req":{
   "__set__":true,
@@ -233,6 +257,7 @@
    "elements":[]
   }
  },
+ "smithy_version":"3.12",
  "strong_exports":false,
  "total_requirements":{
   "build":{
