@@ -16,6 +16,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/757809462.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.14.1"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -264,9 +281,10 @@
   }
  },
  "name":"nexpy",
- "new_version":"0.14.0",
+ "new_version":"0.14.1",
  "new_version_attempts":{
-  "0.14.0":1
+  "0.14.0":1,
+  "0.14.1":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -376,7 +394,7 @@
    "elements":[]
   }
  },
- "pinning_version":"2021.08.17.12.40.09",
+ "pinning_version":"2021.10.13.18.54.36",
  "raw_meta_yaml":"{% set name = \"NeXpy\" %}\n{% set version = \"0.13.3\" %}\n{% set sha256 = \"6f8c05288488381f651833e49b1664c2d82bfc4a9387f679465cc0897ec4728a\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/NeXpy-{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  number: 0\n  noarch: python\n  entry_points:\n    - nexpy = nexpy.nexpygui:main\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - numpy\n    - pip\n    - setuptools\n  run:\n    - python\n    - ansi2html\n    - h5py\n    - ipykernel >=5.2.0\n    - ipython\n    - lmfit\n    - matplotlib\n    - nexusformat >=0.5.3\n    - numpy\n    - pillow\n    - pylatexenc\n    - pyqt <=5.13\n    - qtconsole\n    - qtpy\n    - scipy\n\ntest:\n  imports:\n    - nexpy\n    - nexpy.api\n    - nexpy.api.frills\n    - nexpy.api.frills.functions\n    - nexpy.definitions\n    - nexpy.gui\n    - nexpy.plugins\n    - nexpy.readers\n  commands:\n    - nexpy --help\n    - nexpy --version\n\nabout:\n  home: http://nexpy.github.io/nexpy\n  license: BSD-3-Clause\n  license_family: BSD\n  license_file: COPYING\n  summary: 'NeXpy: A Python GUI to analyze NeXus data'\n  doc_url: https://nexpy.github.io/nexpy\n  dev_url: https://github.com/nexpy/nexpy\n",
  "req":{
   "__set__":true,
