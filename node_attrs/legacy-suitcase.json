@@ -16,6 +16,23 @@
     "migrator_version",
     "version"
    ]
+  },
+  {
+   "PR":{
+    "__lazy_json__":"pr_json/757775764.json"
+   },
+   "data":{
+    "bot_rerun":false,
+    "migrator_name":"Version",
+    "migrator_version":0,
+    "version":"0.9.0"
+   },
+   "keys":[
+    "bot_rerun",
+    "migrator_name",
+    "migrator_version",
+    "version"
+   ]
   }
  ],
  "bad":false,
@@ -153,9 +170,10 @@
   }
  },
  "name":"legacy-suitcase",
- "new_version":"0.8.0",
+ "new_version":"0.9.0",
  "new_version_attempts":{
-  "0.8.0":1
+  "0.8.0":1,
+  "0.9.0":1
  },
  "new_version_errors":{},
  "osx_64_meta_yaml":{
@@ -225,7 +243,7 @@
    "elements":[]
   }
  },
- "pinning_version":"2021.04.01.12.45.45",
+ "pinning_version":"2021.10.13.18.54.36",
  "raw_meta_yaml":"{% set name = \"legacy-suitcase\" %}\n{% set version = \"0.7.0\" %}\n{% set sha256 = \"04ec6485bd885312155e440d1f35097f3c664abd65ee52ca57fff1d93f1ef79d\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/bluesky/suitcase-core/archive/v{{ version }}.tar.gz\n  sha256: {{ sha256 }}\n\nbuild:\n  noarch: python\n  number: 0\n  script: {{ PYTHON }} -m pip install . --no-deps -vv\n\nrequirements:\n  host:\n    - python\n    - pip\n  run:\n    - python\n    - databroker\n    - h5py\n    - numpy\n\ntest:\n  imports:\n    - suitcase\n    - suitcase.hdf5\n\nabout:\n  home: https://github.com/bluesky/suitcase-core\n  license:  BSD-3-Clause\n  license_file: LICENSE\n  summary: Legacy HDF5 exporter used at NSLS-II ESM-1 and ESM-2\n  dev_url: https://github.com/bluesky/suitcase-core\n  doc_url: https://blueskyproject.io/suitcase\n",
  "req":{
   "__set__":true,
@@ -263,7 +281,7 @@
    "elements":[]
   }
  },
- "smithy_version":"3.9.0",
+ "smithy_version":"3.12",
  "strong_exports":false,
  "total_requirements":{
   "build":{
