@@ -230,7 +230,7 @@
   }
  },
  "name":"httpx",
- "new_version":"0.19.0",
+ "new_version":"0.20.0",
  "new_version_attempts":{
   "0.17.1":1,
   "0.18.0":1,
