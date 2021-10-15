@@ -208,6 +208,7 @@
   }
  },
  "name":"openbabel",
+ "new_version":false,
  "osx_64_meta_yaml":{
   "about":{
    "description":"Open Babel is a chemical toolbox designed to speak the many languages of chemical\ndata. It's an open, collaborative project allowing anyone to search, convert,\nanalyze, or store data from molecular modeling, chemistry, solid-state materials,\nbiochemistry, or related areas.\n",

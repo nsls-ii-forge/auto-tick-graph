@@ -232,6 +232,7 @@
   }
  },
  "name":"icu",
+ "new_version":false,
  "osx_64_meta_yaml":{
   "about":{
    "home":"http://site.icu-project.org/",

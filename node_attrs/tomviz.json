@@ -157,7 +157,7 @@
   }
  },
  "name":"tomviz",
- "new_version":"1.10.0",
+ "new_version":false,
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/OpenChemistry/tomviz",

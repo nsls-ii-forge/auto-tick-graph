@@ -117,6 +117,7 @@
   }
  },
  "name":"spefile",
+ "new_version":false,
  "osx_64_meta_yaml":{
   "about":{
    "dev_url":"https://github.com/stuwilkins/pyspec",

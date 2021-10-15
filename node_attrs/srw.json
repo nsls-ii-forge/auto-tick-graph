@@ -163,6 +163,7 @@
   }
  },
  "name":"srw",
+ "new_version":false,
  "osx_64_meta_yaml":{
   "about":{
    "home":"https://github.com/ochubar/SRW",

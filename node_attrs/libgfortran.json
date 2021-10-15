@@ -81,6 +81,7 @@
   }
  },
  "name":"libgfortran",
+ "new_version":false,
  "osx_64_meta_yaml":{
   "about":{
    "home":"http://gcc.gnu.org/",

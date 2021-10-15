@@ -181,6 +181,7 @@
   }
  },
  "name":"pygobject",
+ "new_version":false,
  "osx_64_meta_yaml":{
   "about":{
    "description":"PyGObject is a Python package which provides bindings for GObject based libraries\nsuch as GTK+, GStreamer, WebKitGTK+, GLib, GIO and many more.\n",
